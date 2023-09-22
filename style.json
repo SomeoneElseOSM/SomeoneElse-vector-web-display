@@ -1,0 +1,67 @@
+{
+  "version": 8,
+  "name": "SVE01",
+  "metadata": {},
+  "center": [
+    -1,
+    54
+  ],
+  "zoom": 15,
+  "bearing": 0,
+  "pitch": 0,
+  "sources": {
+    "someoneelse": {
+      "type": "vector",
+      "url": "http://localhost/vector/spec.json"
+    }
+  },
+  "sprite": "http://localhost/vector/sprite",
+  "glyphs": "http://localhost/vector/fonts/{fontstack}/{range}.pbf",
+  "layers": [
+    {
+      "id": "background",
+      "type": "background",
+      "paint": {
+        "background-color": "#f2efe9"
+      }
+    },
+    {
+      "id": "poi",
+      "type": "symbol",
+      "source": "someoneelse",
+      "source-layer": "poi",
+      "minzoom": 13,
+      "filter": [
+        "all",
+        [
+          "==",
+          "$type",
+          "Point"
+        ]
+      ],
+      "layout": {
+        "icon-image": "{class}",
+        "text-anchor": "top",
+        "text-field": "{name:latin}\n",
+        "text-font": [
+          "KlokanTech Noto Sans Regular"
+        ],
+        "text-max-width": 9,
+        "text-offset": [
+          0,
+          0.6
+        ],
+        "text-padding": 2,
+        "text-size": 12,
+        "visibility": "visible"
+      },
+      "paint": {
+        "text-color": "#666",
+        "text-halo-blur": 0.5,
+        "text-halo-color": "#ffffff",
+        "text-halo-width": 1
+      }
+    }
+  ],
+  "id": "SVE01"
+}

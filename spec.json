@@ -1,11 +1,11 @@
 {
 	"tilejson": "2.1.0",
-	"name": "SVE01",
-	"description": "Tiles made with Tilemaker",
+	"name": "SPEC_NAME",
+	"description": "SPEC_DESCRIPTION",
 	"version": "1.0.0",
 	"scheme": "xyz",
 	"tiles": [
-        "http://localhost/sve01/{z}/{x}/{y}.pbf"
+        "PBF_URL"
 	],
 	"minzoom": 0,
 	"maxzoom": 14,

@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "name": "SVE01",
+  "name": "SPEC_NAME",
   "metadata": {},
   "center": [
     -1,
@@ -12,11 +12,11 @@
   "sources": {
     "someoneelse": {
       "type": "vector",
-      "url": "http://localhost/vector/spec.json"
+      "url": "SPEC_URL"
     }
   },
   "sprite": "http://localhost/vector/sprite",
-  "glyphs": "http://localhost/vector/fonts/{fontstack}/{range}.pbf",
+  "glyphs": "FONT_URL{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "background",
@@ -63,5 +63,5 @@
       }
     }
   ],
-  "id": "SVE01"
+  "id": "SPEC_NAME"
 }

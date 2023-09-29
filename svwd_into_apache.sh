@@ -82,86 +82,88 @@ else
 	    echo "No tileset installed; source does not exist"
 	fi
     fi
-fi
-#
-# -----------------------------------------------------------------------------
-# Create a spec.json
-# -----------------------------------------------------------------------------
-if [ "${SPEC_SOURCE}" = "" ]
-then
-    echo "No spec file created; no source provided"
-else
-    if [ -f "${SPEC_SOURCE}" ]
+    #
+    # -----------------------------------------------------------------------------
+    # Create a spec.json
+    # -----------------------------------------------------------------------------
+    if [ "${SPEC_SOURCE}" = "" ]
     then
-	sed "s!SPEC_NAME!${TILESET_NAME}!" ${SPEC_SOURCE}  | sed "s!SPEC_DESCRIPTION!${TILESET_NAME}!" | sed "s!PBF_URL!${DEPLOYMENT_URL}/${TILESET_NAME}/{z}/{x}/{y}.pbf!" > ${APACHE_SUBDIR}/spec_${TILESET_NAME}.json
-	echo "Created spec file:     ${APACHE_SUBDIR}/spec_${TILESET_NAME}.json"
+	echo "No spec file created; no source provided"
     else
-	echo "No spec file created; source does not exist"
+	if [ -f "${SPEC_SOURCE}" ]
+	then
+	    sed "s!SPEC_NAME!${TILESET_NAME}!" ${SPEC_SOURCE}  | sed "s!SPEC_DESCRIPTION!${TILESET_NAME}!" | sed "s!PBF_URL!${DEPLOYMENT_URL}/${TILESET_NAME}/{z}/{x}/{y}.pbf!" > ${APACHE_SUBDIR}/spec_${TILESET_NAME}.json
+	    echo "Created spec file:     ${APACHE_SUBDIR}/spec_${TILESET_NAME}.json"
+	else
+	    echo "No spec file created; source does not exist"
+	fi
     fi
-fi
-#
-# -----------------------------------------------------------------------------
-# Create a metadata file
-# -----------------------------------------------------------------------------
-if [ "${METADATA_SOURCE}" = "" ]
-then
-    echo "No metadata file created; no source provided"
-else
-    if [ -f "${METADATA_SOURCE}" ]
+    #
+    # -----------------------------------------------------------------------------
+    # Create a metadata file
+    # -----------------------------------------------------------------------------
+    if [ "${METADATA_SOURCE}" = "" ]
     then
-	sed "s!SPEC_NAME!${TILESET_NAME}!" ${METADATA_SOURCE}  | sed "s!SPEC_DESCRIPTION!${TILESET_NAME}!" > ${APACHE_SUBDIR}/metadata_${TILESET_NAME}.json
-	echo "Created metadata file: ${APACHE_SUBDIR}/metadata_${TILESET_NAME}.json"
+	echo "No metadata file created; no source provided"
     else
-	echo "No metadata file created; source does not exist"
+	if [ -f "${METADATA_SOURCE}" ]
+	then
+	    sed "s!SPEC_NAME!${TILESET_NAME}!" ${METADATA_SOURCE}  | sed "s!SPEC_DESCRIPTION!${TILESET_NAME}!" > ${APACHE_SUBDIR}/metadata_${TILESET_NAME}.json
+	    echo "Created metadata file: ${APACHE_SUBDIR}/metadata_${TILESET_NAME}.json"
+	else
+	    echo "No metadata file created; source does not exist"
+	fi
     fi
-fi
-#
-# -----------------------------------------------------------------------------
-# Install fonts files below main Apache directory
-# -----------------------------------------------------------------------------
-if [ "${FONTS_SOURCE}" = "" ]
-then
-    echo "No fonts installed; no source provided"
-else
-    if [ -e "${FONTS_SOURCE}" ]
+    #
+    # -----------------------------------------------------------------------------
+    # Install fonts files below main Apache directory
+    # -----------------------------------------------------------------------------
+    if [ "${FONTS_SOURCE}" = "" ]
     then
-	cp -r ${FONTS_SOURCE} ${APACHE_SUBDIR}/
-	echo "Installed fonts into:  ${APACHE_SUBDIR}"
+	echo "No fonts installed; no source provided"
     else
-	echo "No fonts installed; source does not exist"
+	if [ -e "${FONTS_SOURCE}" ]
+	then
+	    cp -r ${FONTS_SOURCE} ${APACHE_SUBDIR}/
+	    echo "Installed fonts into:  ${APACHE_SUBDIR}"
+	else
+	    echo "No fonts installed; source does not exist"
+	fi
     fi
-fi
-#
-# -----------------------------------------------------------------------------
-# Create a style.json
-# -----------------------------------------------------------------------------
-if [ "${STYLE_SOURCE}" = "" ]
-then
-    echo "No style json created; no source provided"
-else
-    if [ -f "${STYLE_SOURCE}" ]
+    #
+    # -----------------------------------------------------------------------------
+    # Create a style.json
+    # -----------------------------------------------------------------------------
+    if [ "${STYLE_SOURCE}" = "" ]
     then
-	sed "s!SPEC_NAME!${TILESET_NAME}!" ${STYLE_SOURCE}  | sed "s!SPEC_URL!${DEPLOYMENT_URL}/vector/spec_${TILESET_NAME}.json!" | sed "s!http://localhost:8080/spec.json!${DEPLOYMENT_URL}/vector/spec_${TILESET_NAME}.json!" | sed "s!FONT_URL!${DEPLOYMENT_URL}/vector/fonts/!" | sed "s!http://localhost:8080/fonts/!${DEPLOYMENT_URL}/vector/fonts/!" > ${APACHE_SUBDIR}/style_${TILESET_NAME}.json
-	echo "Created style json:    ${APACHE_SUBDIR}/style_${TILESET_NAME}.json"
+	echo "No style json created; no source provided"
     else
-	echo "No style json created; source does not exist"
+	if [ -f "${STYLE_SOURCE}" ]
+	then
+	    sed "s!SPEC_NAME!${TILESET_NAME}!" ${STYLE_SOURCE}  | sed "s!SPEC_URL!${DEPLOYMENT_URL}/vector/spec_${TILESET_NAME}.json!" | sed "s!http://localhost:8080/spec.json!${DEPLOYMENT_URL}/vector/spec_${TILESET_NAME}.json!" | sed "s!FONT_URL!${DEPLOYMENT_URL}/vector/fonts/!" | sed "s!http://localhost:8080/fonts/!${DEPLOYMENT_URL}/vector/fonts/!" > ${APACHE_SUBDIR}/style_${TILESET_NAME}.json
+	    echo "Created style json:    ${APACHE_SUBDIR}/style_${TILESET_NAME}.json"
+	else
+	    echo "No style json created; source does not exist"
+	fi
     fi
-fi
-#
-# -----------------------------------------------------------------------------
-# Create an index.html
-# -----------------------------------------------------------------------------
-if [ "${INDEX_SOURCE}" = "" ]
-then
-    echo "No web page created; no source provided"
-else
-    if [ -f "${INDEX_SOURCE}" ]
+    #
+    # -----------------------------------------------------------------------------
+    # Create an index.html
+    # -----------------------------------------------------------------------------
+    if [ "${INDEX_SOURCE}" = "" ]
     then
-	sed "s!SPEC_NAME!${TILESET_NAME}!" ${INDEX_SOURCE}  | sed "s!Tilemaker example server!${TILESET_NAME}!" | sed "s!/style.json!/vector/style_${TILESET_NAME}.json!" | sed "s!/metadata!/vector/metadata_${TILESET_NAME}.json!" > ${APACHE_SUBDIR}/index_${TILESET_NAME}.html
-	echo "Created web page:      ${APACHE_SUBDIR}/index_${TILESET_NAME}.html"
-	echo "Access via:            ${DEPLOYMENT_URL}/vector/index_${TILESET_NAME}.html"
+	echo "No web page created; no source provided"
     else
-	echo "No web page created; source does not exist"
+	if [ -f "${INDEX_SOURCE}" ]
+	then
+	    sed "s!SPEC_NAME!${TILESET_NAME}!" ${INDEX_SOURCE}  | sed "s!Tilemaker example server!${TILESET_NAME}!" | sed "s!/style.json!/vector/style_${TILESET_NAME}.json!" | sed "s!/metadata!/vector/metadata_${TILESET_NAME}.json!" > ${APACHE_SUBDIR}/index_${TILESET_NAME}.html
+	    echo "Created web page:      ${APACHE_SUBDIR}/index_${TILESET_NAME}.html"
+	    echo "Access via:            ${DEPLOYMENT_URL}/vector/index_${TILESET_NAME}.html"
+	else
+	    echo "No web page created; source does not exist"
+	fi
     fi
-fi
+    #
+fi # [ "${TILESET_NAME}" = "" ]
 #
+

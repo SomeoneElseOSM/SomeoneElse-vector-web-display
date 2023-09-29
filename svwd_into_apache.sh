@@ -43,23 +43,25 @@ APACHE_SUBDIR=/var/www/html/vector
 #
 # Parameter: For example:                                                   Meaning:
 # $1         omt_ny                                                         name of this tileset.  
-# $2         /home/ajtown/data/tilemaker_omt_ny.mbtiles                     location of this tileset.
-# $3         http://localhost                                               target index URL part 1
-# $4         /home/ajtown/src/SomeoneElse-vector-web-display/spec.json      Source of "spec.json" file
-# $5         /home/ajtown/src/SomeoneElse-vector-web-display/metadata.json  Source of "metadata" file
-# $6         /home/ajtown/src/tilemaker/server/static/fonts                 Source of fonts
-# $7         /home/ajtown/src/tilemaker/server/static/style.json            Source of style.json
-# $8         /home/ajtown/src/tilemaker/server/static/index.html            Source of index.html
+# $2         /etc/apache2/sites-available/000-default.conf                  location of Apache config file
+# $3         /home/ajtown/data/tilemaker_omt_ny.mbtiles                     location of this tileset.
+# $4         http://localhost                                               target index URL part 1
+# $5         /home/ajtown/src/SomeoneElse-vector-web-display/spec.json      Source of "spec.json" file
+# $6         /home/ajtown/src/SomeoneElse-vector-web-display/metadata.json  Source of "metadata" file
+# $7         /home/ajtown/src/tilemaker/server/static/fonts                 Source of fonts
+# $8         /home/ajtown/src/tilemaker/server/static/style.json            Source of style.json
+# $9         /home/ajtown/src/tilemaker/server/static/index.html            Source of index.html
 #
 # Set e.v.s for these parameters
 TILESET_NAME=$1
-TILESET_LOCATION=$2
-DEPLOYMENT_URL=$3
-SPEC_SOURCE=$4
-METADATA_SOURCE=$5
-FONTS_SOURCE=$6
-STYLE_SOURCE=$7
-INDEX_SOURCE=$8
+APACHECONF_LOCATION=$2
+TILESET_LOCATION=$3
+DEPLOYMENT_URL=$4
+SPEC_SOURCE=$5
+METADATA_SOURCE=$6
+FONTS_SOURCE=$7
+STYLE_SOURCE=$8
+INDEX_SOURCE=$9
 #
 # -----------------------------------------------------------------------------
 # Now we have all the information we need.
@@ -80,6 +82,30 @@ else
 	    echo "Copied tileset into:   ${APACHE_SUBDIR}/${TILESET_NAME}"
 	else
 	    echo "No tileset installed; source does not exist"
+	fi
+    fi
+    #
+    # -----------------------------------------------------------------------------
+    # Add tileset location to apache config file
+    # -----------------------------------------------------------------------------
+    if [ "${APACHECONF_LOCATION}" = "" ]
+    then
+	echo "Apache config file untouched; name not provided"
+    else
+	if [ -f "${APACHECONF_LOCATION}" ]
+	then
+	    if grep 'MbtilesEnabled true' ${APACHECONF_LOCATION} > /dev/null
+	    then
+		grep -v "MbtilesAdd ${TILESET_NAME}" ${APACHECONF_LOCATION} > apacheconf_temp.$$
+		sed "/MbtilesEnabled /a MbtilesAdd ${TILESET_NAME} /var/www/html/vector/${TILESET_NAME}/tilemaker_${TILESET_NAME}.mbtiles" apacheconf_temp.$$ > ${APACHECONF_LOCATION}
+		rm apacheconf_temp.$$
+		systemctl restart apache2
+		echo "Apache config file updated: ${APACHECONF_LOCATION}"
+	    else
+		echo "Apache config file untouched; MbtilesEnabled true missing from ${APACHECONF_LOCATION}"
+	    fi
+	else
+	    echo "Apache config file untouched; does not exist"
 	fi
     fi
     #

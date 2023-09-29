@@ -41,11 +41,13 @@ APACHE_SUBDIR=/var/www/html/vector
 # Then (as root) run this script, with the following parameters.
 # These must not contain spaces.  Full paths, no "~".
 #
-# Parameter: For example:     Meaning:
-# $1         omt_ny           name of this tileset.  
+# Parameter: For example:                                                   Meaning:
+# $1         omt_ny                                                         name of this tileset.  
+# $2         /etc/apache2/sites-available/000-default.conf                  location of Apache config file
 #
 # Set e.v.s for these parameters
 TILESET_NAME=$1
+APACHECONF_LOCATION=$2
 #
 # -----------------------------------------------------------------------------
 # Now we have all the information we need.
@@ -57,6 +59,29 @@ then
 else
     rm -ir ${APACHE_SUBDIR}/${TILESET_NAME}
     echo "Deleted tileset from:   ${APACHE_SUBDIR}/${TILESET_NAME}"
+    #
+    # -----------------------------------------------------------------------------
+    # Remove tileset location from apache config file
+    # -----------------------------------------------------------------------------
+    if [ "${APACHECONF_LOCATION}" = "" ]
+    then
+	echo "Apache config file untouched; name not provided"
+    else
+	if [ -f "${APACHECONF_LOCATION}" ]
+	then
+	    if grep 'MbtilesEnabled true' ${APACHECONF_LOCATION} > /dev/null
+	    then
+		grep -v "MbtilesAdd ${TILESET_NAME}" ${APACHECONF_LOCATION} > apacheconf_temp.$$
+		mv apacheconf_temp.$$ ${APACHECONF_LOCATION}
+		systemctl restart apache2
+		echo "Apache config file updated: ${APACHECONF_LOCATION}"
+	    else
+		echo "Apache config file untouched; MbtilesEnabled true missing from ${APACHECONF_LOCATION}"
+	    fi
+	else
+	    echo "Apache config file untouched; does not exist"
+	fi
+    fi
     #
     # -----------------------------------------------------------------------------
     # Delete the spec.json

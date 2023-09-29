@@ -43,25 +43,27 @@ APACHE_SUBDIR=/var/www/html/vector
 #
 # Parameter: For example:                                                   Meaning:
 # $1         omt_ny                                                         name of this tileset.  
-# $2         /etc/apache2/sites-available/000-default.conf                  location of Apache config file
-# $3         /home/ajtown/data/tilemaker_omt_ny.mbtiles                     location of this tileset.
-# $4         http://localhost                                               target index URL part 1
-# $5         /home/ajtown/src/SomeoneElse-vector-web-display/spec.json      Source of "spec.json" file
-# $6         /home/ajtown/src/SomeoneElse-vector-web-display/metadata.json  Source of "metadata" file
-# $7         /home/ajtown/src/tilemaker/server/static/fonts                 Source of fonts
-# $8         /home/ajtown/src/tilemaker/server/static/style.json            Source of style.json
-# $9         /home/ajtown/src/tilemaker/server/static/index.html            Source of index.html
+# $2         omt_ny_1                                                       name of this deployment.
+# $3         /etc/apache2/sites-available/000-default.conf                  location of Apache config file
+# $4         /home/ajtown/data/tilemaker_omt_ny.mbtiles                     location of this tileset.
+# $5         http://localhost                                               target index URL part 1
+# $6         /home/ajtown/src/SomeoneElse-vector-web-display/spec.json      Source of "spec.json" file
+# $7         /home/ajtown/src/SomeoneElse-vector-web-display/metadata.json  Source of "metadata" file
+# $8         /home/ajtown/src/tilemaker/server/static/fonts                 Source of fonts
+# $9         /home/ajtown/src/tilemaker/server/static/style.json            Source of style.json
+# $10        /home/ajtown/src/tilemaker/server/static/index.html            Source of index.html
 #
 # Set e.v.s for these parameters
 TILESET_NAME=$1
-APACHECONF_LOCATION=$2
-TILESET_LOCATION=$3
-DEPLOYMENT_URL=$4
-SPEC_SOURCE=$5
-METADATA_SOURCE=$6
-FONTS_SOURCE=$7
-STYLE_SOURCE=$8
-INDEX_SOURCE=$9
+DEPLOYMENT_NAME=$2
+APACHECONF_LOCATION=$3
+TILESET_LOCATION=$4
+DEPLOYMENT_URL=$5
+SPEC_SOURCE=$6
+METADATA_SOURCE=$7
+FONTS_SOURCE=$8
+STYLE_SOURCE=$9
+INDEX_SOURCE=${10}
 #
 # -----------------------------------------------------------------------------
 # Now we have all the information we need.
@@ -81,7 +83,7 @@ else
 	    cp ${TILESET_LOCATION} ${APACHE_SUBDIR}/${TILESET_NAME}
 	    echo "Copied tileset into:   ${APACHE_SUBDIR}/${TILESET_NAME}"
 	else
-	    echo "No tileset installed; source does not exist"
+	    echo "No tileset installed; source does not exist: ${TILESET_LOCATION}"
 	fi
     fi
     #
@@ -105,7 +107,7 @@ else
 		echo "Apache config file untouched; MbtilesEnabled true missing from ${APACHECONF_LOCATION}"
 	    fi
 	else
-	    echo "Apache config file untouched; does not exist"
+	    echo "Apache config file untouched; does not exist: ${APACHECONF_LOCATION}"
 	fi
     fi
     #
@@ -118,10 +120,10 @@ else
     else
 	if [ -f "${SPEC_SOURCE}" ]
 	then
-	    sed "s!SPEC_NAME!${TILESET_NAME}!" ${SPEC_SOURCE}  | sed "s!SPEC_DESCRIPTION!${TILESET_NAME}!" | sed "s!PBF_URL!${DEPLOYMENT_URL}/${TILESET_NAME}/{z}/{x}/{y}.pbf!" > ${APACHE_SUBDIR}/spec_${TILESET_NAME}.json
-	    echo "Created spec file:     ${APACHE_SUBDIR}/spec_${TILESET_NAME}.json"
+	    sed "s!SPEC_NAME!${DEPLOYMENT_NAME}!" ${SPEC_SOURCE}  | sed "s!SPEC_DESCRIPTION!${DEPLOYMENT_NAME}!" | sed "s!PBF_URL!${DEPLOYMENT_URL}/${TILESET_NAME}/{z}/{x}/{y}.pbf!" > ${APACHE_SUBDIR}/spec_${DEPLOYMENT_NAME}.json
+	    echo "Created spec file:     ${APACHE_SUBDIR}/spec_${DEPLOYMENT_NAME}.json"
 	else
-	    echo "No spec file created; source does not exist"
+	    echo "No spec file created; source does not exist: ${SPEC_SOURCE}"
 	fi
     fi
     #
@@ -134,10 +136,10 @@ else
     else
 	if [ -f "${METADATA_SOURCE}" ]
 	then
-	    sed "s!SPEC_NAME!${TILESET_NAME}!" ${METADATA_SOURCE}  | sed "s!SPEC_DESCRIPTION!${TILESET_NAME}!" > ${APACHE_SUBDIR}/metadata_${TILESET_NAME}.json
-	    echo "Created metadata file: ${APACHE_SUBDIR}/metadata_${TILESET_NAME}.json"
+	    sed "s!SPEC_NAME!${DEPLOYMENT_NAME}!" ${METADATA_SOURCE}  | sed "s!SPEC_DESCRIPTION!${DEPLOYMENT_NAME}!" > ${APACHE_SUBDIR}/metadata_${DEPLOYMENT_NAME}.json
+	    echo "Created metadata file: ${APACHE_SUBDIR}/metadata_${DEPLOYMENT_NAME}.json"
 	else
-	    echo "No metadata file created; source does not exist"
+	    echo "No metadata file created; source does not exist: ${METADATA_SOURCE}"
 	fi
     fi
     #
@@ -153,7 +155,7 @@ else
 	    cp -r ${FONTS_SOURCE} ${APACHE_SUBDIR}/
 	    echo "Installed fonts into:  ${APACHE_SUBDIR}"
 	else
-	    echo "No fonts installed; source does not exist"
+	    echo "No fonts installed; source does not exist: ${FONTS_SOURCE}"
 	fi
     fi
     #
@@ -166,10 +168,10 @@ else
     else
 	if [ -f "${STYLE_SOURCE}" ]
 	then
-	    sed "s!SPEC_NAME!${TILESET_NAME}!" ${STYLE_SOURCE}  | sed "s!SPEC_URL!${DEPLOYMENT_URL}/vector/spec_${TILESET_NAME}.json!" | sed "s!http://localhost:8080/spec.json!${DEPLOYMENT_URL}/vector/spec_${TILESET_NAME}.json!" | sed "s!FONT_URL!${DEPLOYMENT_URL}/vector/fonts/!" | sed "s!http://localhost:8080/fonts/!${DEPLOYMENT_URL}/vector/fonts/!" > ${APACHE_SUBDIR}/style_${TILESET_NAME}.json
-	    echo "Created style json:    ${APACHE_SUBDIR}/style_${TILESET_NAME}.json"
+	    sed "s!SPEC_NAME!${DEPLOYMENT_NAME}!" ${STYLE_SOURCE}  | sed "s!SPEC_URL!${DEPLOYMENT_URL}/vector/spec_${DEPLOYMENT_NAME}.json!" | sed "s!http://localhost:8080/spec.json!${DEPLOYMENT_URL}/vector/spec_${DEPLOYMENT_NAME}.json!" | sed "s!FONT_URL!${DEPLOYMENT_URL}/vector/fonts/!" | sed "s!http://localhost:8080/fonts/!${DEPLOYMENT_URL}/vector/fonts/!" > ${APACHE_SUBDIR}/style_${DEPLOYMENT_NAME}.json
+	    echo "Created style json:    ${APACHE_SUBDIR}/style_${DEPLOYMENT_NAME}.json"
 	else
-	    echo "No style json created; source does not exist"
+	    echo "No style json created; source does not exist: ${STYLE_SOURCE}"
 	fi
     fi
     #
@@ -182,14 +184,13 @@ else
     else
 	if [ -f "${INDEX_SOURCE}" ]
 	then
-	    sed "s!SPEC_NAME!${TILESET_NAME}!" ${INDEX_SOURCE}  | sed "s!Tilemaker example server!${TILESET_NAME}!" | sed "s!/style.json!/vector/style_${TILESET_NAME}.json!" | sed "s!/metadata!/vector/metadata_${TILESET_NAME}.json!" > ${APACHE_SUBDIR}/index_${TILESET_NAME}.html
-	    echo "Created web page:      ${APACHE_SUBDIR}/index_${TILESET_NAME}.html"
-	    echo "Access via:            ${DEPLOYMENT_URL}/vector/index_${TILESET_NAME}.html"
+	    sed "s!SPEC_NAME!${DEPLOYMENT_NAME}!" ${INDEX_SOURCE}  | sed "s!Tilemaker example server!${DEPLOYMENT_NAME}!" | sed "s!/style.json!/vector/style_${DEPLOYMENT_NAME}.json!" | sed "s!/metadata!/vector/metadata_${DEPLOYMENT_NAME}.json!" > ${APACHE_SUBDIR}/index_${DEPLOYMENT_NAME}.html
+	    echo "Created web page:      ${APACHE_SUBDIR}/index_${DEPLOYMENT_NAME}.html"
+	    echo "Access via:            ${DEPLOYMENT_URL}/vector/index_${DEPLOYMENT_NAME}.html"
 	else
-	    echo "No web page created; source does not exist"
+	    echo "No web page created; source does not exist: ${INDEX_SOURCE}"
 	fi
     fi
     #
 fi # [ "${TILESET_NAME}" = "" ]
 #
-

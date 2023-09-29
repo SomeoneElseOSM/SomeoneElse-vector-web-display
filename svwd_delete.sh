@@ -43,11 +43,13 @@ APACHE_SUBDIR=/var/www/html/vector
 #
 # Parameter: For example:                                                   Meaning:
 # $1         omt_ny                                                         name of this tileset.  
-# $2         /etc/apache2/sites-available/000-default.conf                  location of Apache config file
+# $2         omt_ny_1                                                       name of this deployment.
+# $3         /etc/apache2/sites-available/000-default.conf                  location of Apache config file
 #
 # Set e.v.s for these parameters
 TILESET_NAME=$1
-APACHECONF_LOCATION=$2
+DEPLOYMENT_NAME=$2
+APACHECONF_LOCATION=$3
 #
 # -----------------------------------------------------------------------------
 # Now we have all the information we need.
@@ -79,21 +81,21 @@ else
 		echo "Apache config file untouched; MbtilesEnabled true missing from ${APACHECONF_LOCATION}"
 	    fi
 	else
-	    echo "Apache config file untouched; does not exist"
+	    echo "Apache config file untouched; does not exist: ${APACHECONF_LOCATION}"
 	fi
     fi
     #
     # -----------------------------------------------------------------------------
     # Delete the spec.json
     # -----------------------------------------------------------------------------
-    rm -i ${APACHE_SUBDIR}/spec_${TILESET_NAME}.json
-    echo "Deleted spec file:     ${APACHE_SUBDIR}/spec_${TILESET_NAME}.json"
+    rm -i ${APACHE_SUBDIR}/spec_${DEPLOYMENT_NAME}.json
+    echo "Deleted spec file:     ${APACHE_SUBDIR}/spec_${DEPLOYMENT_NAME}.json"
     #
     # -----------------------------------------------------------------------------
     # Delete the metadata file
     # -----------------------------------------------------------------------------
-    rm -i ${APACHE_SUBDIR}/metadata_${TILESET_NAME}.json
-    echo "Deleted metadata file: ${APACHE_SUBDIR}/metadata_${TILESET_NAME}.json"
+    rm -i ${APACHE_SUBDIR}/metadata_${DEPLOYMENT_NAME}.json
+    echo "Deleted metadata file: ${APACHE_SUBDIR}/metadata_${DEPLOYMENT_NAME}.json"
     #
     # -----------------------------------------------------------------------------
     # We don't delete fonts files below main Apache directory.
@@ -102,14 +104,14 @@ else
     # -----------------------------------------------------------------------------
     # Delete the style.json
     # -----------------------------------------------------------------------------
-    rm -i ${APACHE_SUBDIR}/style_${TILESET_NAME}.json
-    echo "Deleted style json:    ${APACHE_SUBDIR}/style_${TILESET_NAME}.json"
+    rm -i ${APACHE_SUBDIR}/style_${DEPLOYMENT_NAME}.json
+    echo "Deleted style json:    ${APACHE_SUBDIR}/style_${DEPLOYMENT_NAME}.json"
     #
     # -----------------------------------------------------------------------------
     # Delete the index.html
     # -----------------------------------------------------------------------------
-    rm -i ${APACHE_SUBDIR}/index_${TILESET_NAME}.html
-    echo "Deleted web page:      ${APACHE_SUBDIR}/index_${TILESET_NAME}.html"
+    rm -i ${APACHE_SUBDIR}/index_${DEPLOYMENT_NAME}.html
+    echo "Deleted web page:      ${APACHE_SUBDIR}/index_${DEPLOYMENT_NAME}.html"
     #
 fi
 #

@@ -66,19 +66,19 @@ else
 
 		if [[ "$current_x" -ne 0 ]]
 		then
-		    echo ','                              >>  ${SPRITE_LOCATION}@2x.json
+		    echo ','                                 >>  ${SPRITE_LOCATION}@2x.json
 		fi
 		
-		echo '"'`basename $f`'": {'               >>  ${SPRITE_LOCATION}@2x.json
-		echo '"height": 64,'                      >>  ${SPRITE_LOCATION}@2x.json
-		echo '"pixelRatio": 2,'                   >>  ${SPRITE_LOCATION}@2x.json
-		echo '"width": 64,'                       >>  ${SPRITE_LOCATION}@2x.json
-		echo '"x": '${current_x}','               >>  ${SPRITE_LOCATION}@2x.json
-		echo '"y": 0'                             >>  ${SPRITE_LOCATION}@2x.json
-		echo '}'                                  >>  ${SPRITE_LOCATION}@2x.json
+		echo '"'`basename $f`'": {' | sed "s!.png!!" >>  ${SPRITE_LOCATION}@2x.json
+		echo '"height": 64,'                         >>  ${SPRITE_LOCATION}@2x.json
+		echo '"pixelRatio": 2,'                      >>  ${SPRITE_LOCATION}@2x.json
+		echo '"width": 64,'                          >>  ${SPRITE_LOCATION}@2x.json
+		echo '"x": '${current_x}','                  >>  ${SPRITE_LOCATION}@2x.json
+		echo '"y": 0'                                >>  ${SPRITE_LOCATION}@2x.json
+		echo '}'                                     >>  ${SPRITE_LOCATION}@2x.json
 		current_x=`expr ${current_x} + 64`
 	    done
-	    echo '}'                                      >>  ${SPRITE_LOCATION}@2x.json
+	    echo '}'                                         >>  ${SPRITE_LOCATION}@2x.json
 	    jsonlint-php ${SPRITE_LOCATION}@2x.json
 	else
 	    echo "No sprites created; icon source ${ICON_SOURCE} does not exist"

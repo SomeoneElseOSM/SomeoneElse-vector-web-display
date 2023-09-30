@@ -18,6 +18,9 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #
 # -----------------------------------------------------------------------------
+# Dependencies:  Command used:  Installed via
+# ImageMagick    convert        sudo apt install imagemagick
+#
 # Run this script with the following parameters.
 #
 # Parameter: For example:                                                       Meaning:
@@ -31,8 +34,6 @@ TO_PNG=$2
 OVERWRITE=$3
 #
 # -----------------------------------------------------------------------------
-# The "convert" program is part of ImageMagick.
-#
 # The "from" file is whatever file name is used in the "openstreetmap-carto-AJT"
 # project.  These do not always match the name of the feature in OSM.  Some,
 # like pub_yyyyydyy.p.16.png, contain the pixel size of the .png file.

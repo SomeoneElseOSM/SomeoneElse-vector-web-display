@@ -25,6 +25,7 @@ APACHE_SUBDIR=/var/www/html/vector
 #
 # File extension of json files is assumed to be ".json";
 # File extension of html file is assumed to be ".html".
+# Generated .mbtiles files are currently assumed to be prefixed with "tilemaker_".
 # -----------------------------------------------------------------------------
 # After running Tilemaker to create some vector tiles, this script is designed
 # to copy the necessary support files to an apache website.
@@ -52,6 +53,8 @@ APACHE_SUBDIR=/var/www/html/vector
 # $8         /home/ajtown/src/tilemaker/server/static/fonts                 Source of fonts
 # $9         /home/ajtown/src/tilemaker/server/static/style.json            Source of style.json
 # $10        /home/ajtown/src/tilemaker/server/static/index.html            Source of index.html
+# $11        svwd01                                                         Name of first part of sprite files.
+# $12        /home/ajtown/src/SomeoneElse-vector-web-display                Directory of sprite files.
 #
 # Set e.v.s for these parameters
 TILESET_NAME=$1
@@ -64,6 +67,8 @@ METADATA_SOURCE=$7
 FONTS_SOURCE=$8
 STYLE_SOURCE=$9
 INDEX_SOURCE=${10}
+SPRITE_NAME=${11}
+SPRITE_SOURCE=${12}
 #
 # -----------------------------------------------------------------------------
 # Now we have all the information we need.
@@ -168,7 +173,7 @@ else
     else
 	if [ -f "${STYLE_SOURCE}" ]
 	then
-	    sed "s!SPEC_NAME!${DEPLOYMENT_NAME}!" ${STYLE_SOURCE}  | sed "s!SPEC_URL!${DEPLOYMENT_URL}/vector/spec_${DEPLOYMENT_NAME}.json!" | sed "s!http://localhost:8080/spec.json!${DEPLOYMENT_URL}/vector/spec_${DEPLOYMENT_NAME}.json!" | sed "s!FONT_URL!${DEPLOYMENT_URL}/vector/fonts/!" | sed "s!http://localhost:8080/fonts/!${DEPLOYMENT_URL}/vector/fonts/!" > ${APACHE_SUBDIR}/style_${DEPLOYMENT_NAME}.json
+	    sed "s!SPEC_NAME!${DEPLOYMENT_NAME}!" ${STYLE_SOURCE}  | sed "s!SPEC_URL!${DEPLOYMENT_URL}/vector/spec_${DEPLOYMENT_NAME}.json!" | sed "s!http://localhost:8080/spec.json!${DEPLOYMENT_URL}/vector/spec_${DEPLOYMENT_NAME}.json!" | sed "s!FONT_URL!${DEPLOYMENT_URL}/vector/fonts/!" | sed "s!http://localhost:8080/fonts/!${DEPLOYMENT_URL}/vector/fonts/!" | sed "s!SPRITE_URL!${DEPLOYMENT_URL}/vector/${SPRITE_NAME}!" > ${APACHE_SUBDIR}/style_${DEPLOYMENT_NAME}.json
 	    echo "Created style json:    ${APACHE_SUBDIR}/style_${DEPLOYMENT_NAME}.json"
 	else
 	    echo "No style json created; source does not exist: ${STYLE_SOURCE}"
@@ -189,6 +194,51 @@ else
 	    echo "Access via:            ${DEPLOYMENT_URL}/vector/index_${DEPLOYMENT_NAME}.html"
 	else
 	    echo "No web page created; source does not exist: ${INDEX_SOURCE}"
+	fi
+    fi
+    #
+    # -----------------------------------------------------------------------------
+    # Copy over sprite files.
+    # The "@2x" ones are used by regular browsers.
+    # -----------------------------------------------------------------------------
+    if [ "${SPRITE_NAME}" = "" ]
+    then
+	echo "No sprite files created; no sprite name provided"
+    else	
+	if [ "${SPRITE_SOURCE}" = "" ]
+	then
+	    echo "No sprite files created; no sprite source provided"
+	else
+	    if [ -f "${SPRITE_SOURCE}/${SPRITE_NAME}@2x.png" ]
+	    then
+		if [ -f "${SPRITE_SOURCE}/${SPRITE_NAME}@2x.json" ]
+		then
+		    cp ${SPRITE_SOURCE}/${SPRITE_NAME}@2x.png  ${APACHE_SUBDIR}/
+		    cp ${SPRITE_SOURCE}/${SPRITE_NAME}@2x.json ${APACHE_SUBDIR}/
+		    echo "${SPRITE_NAME}@2x.png and ${SPRITE_NAME}@2x.json copied to ${APACHE_SUBDIR}"
+		    #
+		    # -----------------------------------------------------------------------------
+		    # If smaller ones exist, they are copied too.
+		    # -----------------------------------------------------------------------------
+		    if [ -f "${SPRITE_SOURCE}/${SPRITE_NAME}.png" ]
+		    then
+			if [ -f "${SPRITE_SOURCE}/${SPRITE_NAME}.json" ]
+			then
+			    cp ${SPRITE_SOURCE}/${SPRITE_NAME}.png  ${APACHE_SUBDIR}/
+			    cp ${SPRITE_SOURCE}/${SPRITE_NAME}.json ${APACHE_SUBDIR}/
+			    echo "${SPRITE_NAME}.png and ${SPRITE_NAME}.json copied to ${APACHE_SUBDIR}"
+			else
+			    echo "No optional non-@2x sprite files created; ${SPRITE_SOURCE}/${SPRITE_NAME}.json does not exist."
+			fi
+		    else
+			echo "No optional non-@2x sprite files created; ${SPRITE_SOURCE}/${SPRITE_NAME}.png does not exist."
+		    fi # [ -f "${SPRITE_SOURCE}/${SPRITE_NAME}.png" ]
+		else
+		    echo "No sprite files created; ${SPRITE_SOURCE}/${SPRITE_NAME}@2x.json does not exist"
+		fi
+	    else
+		echo "No sprite files created; ${SPRITE_SOURCE}/${SPRITE_NAME}@2x.png does not exist"
+	    fi
 	fi
     fi
     #

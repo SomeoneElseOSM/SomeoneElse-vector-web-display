@@ -15,7 +15,7 @@
       "url": "SPEC_URL"
     }
   },
-  "sprite": "http://localhost/vector/sprite",
+  "sprite": "SPRITE_URL",
   "glyphs": "FONT_URL{fontstack}/{range}.pbf",
   "layers": [
     {

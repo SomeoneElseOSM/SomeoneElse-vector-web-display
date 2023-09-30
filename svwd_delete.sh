@@ -45,11 +45,13 @@ APACHE_SUBDIR=/var/www/html/vector
 # $1         omt_ny                                                         name of this tileset.  
 # $2         omt_ny_1                                                       name of this deployment.
 # $3         /etc/apache2/sites-available/000-default.conf                  location of Apache config file
+# $4         svwd01                                                         Name of first part of sprite files.
 #
 # Set e.v.s for these parameters
 TILESET_NAME=$1
 DEPLOYMENT_NAME=$2
 APACHECONF_LOCATION=$3
+SPRITE_NAME=$4
 #
 # -----------------------------------------------------------------------------
 # Now we have all the information we need.
@@ -112,6 +114,13 @@ else
     # -----------------------------------------------------------------------------
     rm -i ${APACHE_SUBDIR}/index_${DEPLOYMENT_NAME}.html
     echo "Deleted web page:      ${APACHE_SUBDIR}/index_${DEPLOYMENT_NAME}.html"
+    #
+    # -----------------------------------------------------------------------------
+    # Delete the sprite files
+    # -----------------------------------------------------------------------------
+    rm -i ${APACHE_SUBDIR}/${SPRITE_NAME}@2x.png
+    rm -i ${APACHE_SUBDIR}/${SPRITE_NAME}@2x.json
+    echo "Deleted sprite files:      ${SPRITE_NAME}@2x.png and ${SPRITE_NAME}@2x.json"
     #
 fi
 #

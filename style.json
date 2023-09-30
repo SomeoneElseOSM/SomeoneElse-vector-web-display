@@ -42,7 +42,7 @@
       "layout": {
         "icon-image": "{class}",
         "text-anchor": "top",
-        "text-field": "{name:latin}\n",
+        "text-field": "{name}\n",
         "text-font": [
           "KlokanTech Noto Sans Regular"
         ],

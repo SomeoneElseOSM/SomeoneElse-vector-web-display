@@ -30,7 +30,7 @@
       "type": "symbol",
       "source": "someoneelse",
       "source-layer": "poi",
-      "minzoom": 13,
+      "minzoom": 12,
       "filter": [
         "all",
         [

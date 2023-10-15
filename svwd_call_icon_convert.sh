@@ -21,8 +21,10 @@
 # This script calls svwd_convert_icon_from_raster.sh multiple times to create
 # a directory of icons.
 #
-# These are basically placeholders of the right size - they're scaled up from
-# 16x16 or so so will benefit from subsequent editing.
+# It takes no parameters; details are hardcoded below.
+#
+# The icons created are basically placeholders of the right size - they're
+# scaled up from 16x16 or so so will benefit from subsequent editing.
 #
 # Then, then those files will be processed with "montage" to create an "@2x"
 # .png file containing them.  An accompanying .json file listing the file

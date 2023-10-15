@@ -35,7 +35,7 @@
 #
 # Parameter: For example:     Meaning:
 # $1         ./icons          icon source directory
-# $2         ./svwd01         name and location of this sprite files "svwd01@2x.png" and "svwd01@2x.json"
+# $2         ./svwd01         name and location of the sprite files "svwd01@2x.png" and "svwd01@2x.json"
 #
 # Set e.v.s for these parameters
 ICON_SOURCE=$1

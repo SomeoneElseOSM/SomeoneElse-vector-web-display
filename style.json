@@ -61,6 +61,29 @@
         "text-halo-color": "#ffffff",
         "text-halo-width": 1
       }
+    },
+    {
+      "id": "highway-tertiary",
+      "type": "line",
+      "source": "someoneelse",
+      "source-layer": "transportation",
+      "filter": [
+        "all",
+        [
+          "in",
+          "class",
+          "tertiary"
+        ]
+      ],
+      "layout": {
+        "line-cap": "butt",
+        "line-join": "round",
+        "visibility": "visible"
+      },
+      "paint": {
+        "line-color": "#f8f8ba",
+        "line-width": 4.0
+      }
     }
   ],
   "id": "SPEC_NAME"

@@ -67,6 +67,7 @@
       "type": "line",
       "source": "someoneelse",
       "source-layer": "transportation",
+      "minzoom": 5,
       "filter": [
         "all",
         [
@@ -90,6 +91,7 @@
       "type": "line",
       "source": "someoneelse",
       "source-layer": "transportation",
+      "minzoom": 6,
       "filter": [
         "all",
         [
@@ -113,6 +115,7 @@
       "type": "line",
       "source": "someoneelse",
       "source-layer": "transportation",
+      "minzoom": 7,
       "filter": [
         "all",
         [
@@ -136,6 +139,7 @@
       "type": "line",
       "source": "someoneelse",
       "source-layer": "transportation",
+      "minzoom": 8,
       "filter": [
         "all",
         [
@@ -159,6 +163,7 @@
       "type": "line",
       "source": "someoneelse",
       "source-layer": "transportation",
+      "minzoom": 9,
       "filter": [
         "all",
         [

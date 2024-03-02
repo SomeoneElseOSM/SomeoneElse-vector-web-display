@@ -2,7 +2,7 @@
 # -----------------------------------------------------------------------------
 # svwd_convert_icon_from_raster.sh
 #
-# Copyright (C) 2023  Andy Townsend
+# Copyright (C) 2023-2024  Andy Townsend
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by

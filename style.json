@@ -181,7 +181,56 @@
         "line-color": "#f8f8ba",
         "line-width": 4.0
       }
-    }
+    },
+      {
+	  "id": "highway-unclassified",
+	  "type": "line",
+	  "source": "someoneelse",
+	  "source-layer": "transportation",
+	  "minzoom": 10,
+	  "filter": [
+              "all",
+              [
+		  "in",
+		  "class",
+		  "unclassified",
+		  "residential"
+              ]
+	  ],
+	  "layout": {
+              "line-cap": "butt",
+              "line-join": "round",
+              "visibility": "visible"
+	  },
+	  "paint": {
+              "line-color": "#ffffff",
+              "line-width": 4.0
+	  }
+      },
+      {
+	  "id": "highway-service",
+	  "type": "line",
+	  "source": "someoneelse",
+	  "source-layer": "transportation",
+	  "minzoom": 10,
+	  "filter": [
+              "all",
+              [
+		  "in",
+		  "class",
+		  "service"
+              ]
+	  ],
+	  "layout": {
+              "line-cap": "butt",
+              "line-join": "round",
+              "visibility": "visible"
+	  },
+	  "paint": {
+              "line-color": "#ffffff",
+              "line-width": 2.0
+	  }
+      }
   ],
   "id": "SPEC_NAME"
 }

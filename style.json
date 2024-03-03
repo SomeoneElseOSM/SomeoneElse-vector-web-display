@@ -30,7 +30,7 @@
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
-	    "minzoom": 10,
+	    "minzoom": 12,
 	    "filter": [
 		"all",
 		[
@@ -46,7 +46,19 @@
 	    },
 	    "paint": {
 		"line-color": "#ffffff",
-		"line-width": 2.0
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[
+			    12,
+			    1.0
+			],
+			[
+			    20,
+			    32.0
+			]
+		    ]
+		}
 	    }
 	},
 	{
@@ -71,7 +83,19 @@
 	    },
 	    "paint": {
 		"line-color": "#ffffff",
-		"line-width": 4.0
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[
+			    10,
+			    2.0
+			],
+			[
+			    20,
+			    64.0
+			]
+		    ]
+		}
 	    }
 	},
 	{
@@ -96,7 +120,19 @@
 	    },
 	    "paint": {
 		"line-color": "#f8f8ba",
-		"line-width": 4.0
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[
+			    9,
+			    2.0
+			],
+			[
+			    20,
+			    64.0
+			]
+		    ]
+		}
 	    }
 	},
 	{
@@ -121,7 +157,19 @@
 	    },
 	    "paint": {
 		"line-color": "#f9d6aa",
-		"line-width": 4.0
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[
+			    8,
+			    2.0
+			],
+			[
+			    20,
+			    64.0
+			]
+		    ]
+		}
 	    }
 	},
 	{
@@ -146,7 +194,19 @@
 	    },
 	    "paint": {
 		"line-color": "#dd9f9f",
-		"line-width": 4.0
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[
+			    7,
+			    2.0
+			],
+			[
+			    20,
+			    64.0
+			]
+		    ]
+		}
 	    }
 	},
 	{
@@ -171,7 +231,19 @@
 	    },
 	    "paint": {
 		"line-color": "#dd9f9f",
-		"line-width": 4.0
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[
+			    6,
+			    2.0
+			],
+			[
+			    20,
+			    64.0
+			]
+		    ]
+		}
 	    }
 	},
 	{
@@ -200,7 +272,7 @@
 		    "base": 2.0,
 		    "stops": [
 			[
-			    4,
+			    5,
 			    2.0
 			],
 			[

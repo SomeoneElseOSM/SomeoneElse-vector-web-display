@@ -85,7 +85,8 @@
 		[
 		    "in",
 		    "class",
-		    "tertiary"
+		    "tertiary",
+		    "tertiary_link"
 		]
 	    ],
 	    "layout": {
@@ -109,7 +110,8 @@
 		[
 		    "in",
 		    "class",
-		    "secondary"
+		    "secondary",
+		    "secondary_link"
 		]
 	    ],
 	    "layout": {
@@ -133,7 +135,8 @@
 		[
 		    "in",
 		    "class",
-		    "primary"
+		    "primary",
+		    "primary_link"
 		]
 	    ],
 	    "layout": {
@@ -157,7 +160,8 @@
 		[
 		    "in",
 		    "class",
-		    "trunk"
+		    "trunk",
+		    "trunk_link"
 		]
 	    ],
 	    "layout": {
@@ -181,7 +185,8 @@
 		[
 		    "in",
 		    "class",
-		    "motorway"
+		    "motorway",
+		    "motorway_link"
 		]
 	    ],
 	    "layout": {

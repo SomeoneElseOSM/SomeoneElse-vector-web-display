@@ -196,7 +196,19 @@
 	    },
 	    "paint": {
 		"line-color": "#89a4cb",
-		"line-width": 4.0
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[
+			    4,
+			    2.0
+			],
+			[
+			    20,
+			    64.0
+			]
+		    ]
+		}
 	    }
 	},
 	{

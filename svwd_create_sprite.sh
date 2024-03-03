@@ -80,6 +80,12 @@ else
 	    done
 	    echo '}'                                         >>  ${SPRITE_LOCATION}@2x.json
 	    jsonlint-php ${SPRITE_LOCATION}@2x.json
+	    #
+	    # ------------------------------------------------------------------------------
+	    # Linux clients seem to want "*@2x.png"; Windows ones "*.png"
+	    # ------------------------------------------------------------------------------
+	    cp ${SPRITE_LOCATION}@2x.json ${SPRITE_LOCATION}.json
+	    cp ${SPRITE_LOCATION}@2x.png  ${SPRITE_LOCATION}.png
 	else
 	    echo "No sprites created; icon source ${ICON_SOURCE} does not exist"
 	fi

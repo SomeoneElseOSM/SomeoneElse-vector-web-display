@@ -26,7 +26,7 @@
 	    }
 	},
 	{
-	    "id": "highway-service",
+	    "id": "highway-service-fill",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
@@ -50,7 +50,7 @@
 	    }
 	},
 	{
-	    "id": "highway-unclassified",
+	    "id": "highway-unclassified-fill",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
@@ -75,7 +75,7 @@
 	    }
 	},
 	{
-	    "id": "highway-tertiary",
+	    "id": "highway-tertiary-fill",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
@@ -99,7 +99,7 @@
 	    }
 	},
 	{
-	    "id": "highway-secondary",
+	    "id": "highway-secondary-fill",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
@@ -123,7 +123,7 @@
 	    }
 	},
 	{
-	    "id": "highway-primary",
+	    "id": "highway-primary-fill",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
@@ -147,7 +147,7 @@
 	    }
 	},
 	{
-	    "id": "highway-trunk",
+	    "id": "highway-trunk-fill",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
@@ -171,7 +171,7 @@
 	    }
 	},
 	{
-	    "id": "highway-motorway",
+	    "id": "highway-motorway-fill",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",

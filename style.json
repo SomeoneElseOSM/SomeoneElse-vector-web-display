@@ -1,236 +1,236 @@
 {
-  "version": 8,
-  "name": "SPEC_NAME",
-  "metadata": {},
-  "center": [
-    -1,
-    54
-  ],
-  "zoom": 15,
-  "bearing": 0,
-  "pitch": 0,
-  "sources": {
-    "someoneelse": {
-      "type": "vector",
-      "url": "SPEC_URL"
-    }
-  },
-  "sprite": "SPRITE_URL",
-  "glyphs": "FONT_URL{fontstack}/{range}.pbf",
-  "layers": [
-    {
-      "id": "background",
-      "type": "background",
-      "paint": {
-        "background-color": "#f2efe9"
-      }
+    "version": 8,
+    "name": "SPEC_NAME",
+    "metadata": {},
+    "center": [
+	-1,
+	54
+    ],
+    "zoom": 15,
+    "bearing": 0,
+    "pitch": 0,
+    "sources": {
+	"someoneelse": {
+	    "type": "vector",
+	    "url": "SPEC_URL"
+	}
     },
-    {
-      "id": "poi",
-      "type": "symbol",
-      "source": "someoneelse",
-      "source-layer": "poi",
-      "minzoom": 12,
-      "filter": [
-        "all",
-        [
-          "==",
-          "$type",
-          "Point"
-        ]
-      ],
-      "layout": {
-        "icon-image": "{class}",
-        "text-anchor": "top",
-        "text-field": "{name}\n",
-        "text-font": [
-          "KlokanTech Noto Sans Regular"
-        ],
-        "text-max-width": 9,
-        "text-offset": [
-          0,
-          0.6
-        ],
-        "text-padding": 2,
-        "text-size": 12,
-        "visibility": "visible"
-      },
-      "paint": {
-        "text-color": "#666",
-        "text-halo-blur": 0.5,
-        "text-halo-color": "#ffffff",
-        "text-halo-width": 1
-      }
-    },
-    {
-      "id": "highway-motorway",
-      "type": "line",
-      "source": "someoneelse",
-      "source-layer": "transportation",
-      "minzoom": 5,
-      "filter": [
-        "all",
-        [
-          "in",
-          "class",
-          "motorway"
-        ]
-      ],
-      "layout": {
-        "line-cap": "butt",
-        "line-join": "round",
-        "visibility": "visible"
-      },
-      "paint": {
-        "line-color": "#89a4cb",
-        "line-width": 4.0
-      }
-    },
-    {
-      "id": "highway-trunk",
-      "type": "line",
-      "source": "someoneelse",
-      "source-layer": "transportation",
-      "minzoom": 6,
-      "filter": [
-        "all",
-        [
-          "in",
-          "class",
-          "trunk"
-        ]
-      ],
-      "layout": {
-        "line-cap": "butt",
-        "line-join": "round",
-        "visibility": "visible"
-      },
-      "paint": {
-        "line-color": "#dd9f9f",
-        "line-width": 4.0
-      }
-    },
-    {
-      "id": "highway-primary",
-      "type": "line",
-      "source": "someoneelse",
-      "source-layer": "transportation",
-      "minzoom": 7,
-      "filter": [
-        "all",
-        [
-          "in",
-          "class",
-          "primary"
-        ]
-      ],
-      "layout": {
-        "line-cap": "butt",
-        "line-join": "round",
-        "visibility": "visible"
-      },
-      "paint": {
-        "line-color": "#dd9f9f",
-        "line-width": 4.0
-      }
-    },
-    {
-      "id": "highway-secondary",
-      "type": "line",
-      "source": "someoneelse",
-      "source-layer": "transportation",
-      "minzoom": 8,
-      "filter": [
-        "all",
-        [
-          "in",
-          "class",
-          "secondary"
-        ]
-      ],
-      "layout": {
-        "line-cap": "butt",
-        "line-join": "round",
-        "visibility": "visible"
-      },
-      "paint": {
-        "line-color": "#f9d6aa",
-        "line-width": 4.0
-      }
-    },
-    {
-      "id": "highway-tertiary",
-      "type": "line",
-      "source": "someoneelse",
-      "source-layer": "transportation",
-      "minzoom": 9,
-      "filter": [
-        "all",
-        [
-          "in",
-          "class",
-          "tertiary"
-        ]
-      ],
-      "layout": {
-        "line-cap": "butt",
-        "line-join": "round",
-        "visibility": "visible"
-      },
-      "paint": {
-        "line-color": "#f8f8ba",
-        "line-width": 4.0
-      }
-    },
-      {
-	  "id": "highway-unclassified",
-	  "type": "line",
-	  "source": "someoneelse",
-	  "source-layer": "transportation",
-	  "minzoom": 10,
-	  "filter": [
-              "all",
-              [
-		  "in",
-		  "class",
-		  "unclassified",
-		  "residential"
-              ]
-	  ],
-	  "layout": {
-              "line-cap": "butt",
-              "line-join": "round",
-              "visibility": "visible"
-	  },
-	  "paint": {
-              "line-color": "#ffffff",
-              "line-width": 4.0
-	  }
-      },
-      {
-	  "id": "highway-service",
-	  "type": "line",
-	  "source": "someoneelse",
-	  "source-layer": "transportation",
-	  "minzoom": 10,
-	  "filter": [
-              "all",
-              [
-		  "in",
-		  "class",
-		  "service"
-              ]
-	  ],
-	  "layout": {
-              "line-cap": "butt",
-              "line-join": "round",
-              "visibility": "visible"
-	  },
-	  "paint": {
-              "line-color": "#ffffff",
-              "line-width": 2.0
-	  }
-      }
-  ],
-  "id": "SPEC_NAME"
+    "sprite": "SPRITE_URL",
+    "glyphs": "FONT_URL{fontstack}/{range}.pbf",
+    "layers": [
+	{
+	    "id": "background",
+	    "type": "background",
+	    "paint": {
+		"background-color": "#f2efe9"
+	    }
+	},
+	{
+	    "id": "highway-motorway",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 5,
+	    "filter": [
+		"all",
+		[
+		    "in",
+		    "class",
+		    "motorway"
+		]
+	    ],
+	    "layout": {
+		"line-cap": "butt",
+		"line-join": "round",
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"line-color": "#89a4cb",
+		"line-width": 4.0
+	    }
+	},
+	{
+	    "id": "highway-trunk",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 6,
+	    "filter": [
+		"all",
+		[
+		    "in",
+		    "class",
+		    "trunk"
+		]
+	    ],
+	    "layout": {
+		"line-cap": "butt",
+		"line-join": "round",
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"line-color": "#dd9f9f",
+		"line-width": 4.0
+	    }
+	},
+	{
+	    "id": "highway-primary",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 7,
+	    "filter": [
+		"all",
+		[
+		    "in",
+		    "class",
+		    "primary"
+		]
+	    ],
+	    "layout": {
+		"line-cap": "butt",
+		"line-join": "round",
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"line-color": "#dd9f9f",
+		"line-width": 4.0
+	    }
+	},
+	{
+	    "id": "highway-secondary",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 8,
+	    "filter": [
+		"all",
+		[
+		    "in",
+		    "class",
+		    "secondary"
+		]
+	    ],
+	    "layout": {
+		"line-cap": "butt",
+		"line-join": "round",
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"line-color": "#f9d6aa",
+		"line-width": 4.0
+	    }
+	},
+	{
+	    "id": "highway-tertiary",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 9,
+	    "filter": [
+		"all",
+		[
+		    "in",
+		    "class",
+		    "tertiary"
+		]
+	    ],
+	    "layout": {
+		"line-cap": "butt",
+		"line-join": "round",
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"line-color": "#f8f8ba",
+		"line-width": 4.0
+	    }
+	},
+	{
+	    "id": "highway-unclassified",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 10,
+	    "filter": [
+		"all",
+		[
+		    "in",
+		    "class",
+		    "unclassified",
+		    "residential"
+		]
+	    ],
+	    "layout": {
+		"line-cap": "butt",
+		"line-join": "round",
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"line-color": "#ffffff",
+		"line-width": 4.0
+	    }
+	},
+	{
+	    "id": "highway-service",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 10,
+	    "filter": [
+		"all",
+		[
+		    "in",
+		    "class",
+		    "service"
+		]
+	    ],
+	    "layout": {
+		"line-cap": "butt",
+		"line-join": "round",
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"line-color": "#ffffff",
+		"line-width": 2.0
+	    }
+	},
+	{
+	    "id": "poi",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "poi",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[
+		    "==",
+		    "$type",
+		    "Point"
+		]
+	    ],
+	    "layout": {
+		"icon-image": "{class}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [
+		    0,
+		    0.6
+		],
+		"text-padding": 2,
+		"text-size": 12,
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#666",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	}
+    ],
+    "id": "SPEC_NAME"
 }

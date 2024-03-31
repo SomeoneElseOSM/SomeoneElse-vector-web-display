@@ -27,94 +27,50 @@ APACHE_SUBDIR=/var/www/html/vector
 # File extension of html file is assumed to be ".html".
 # Generated .mbtiles files are currently assumed to be prefixed with "tilemaker_".
 # -----------------------------------------------------------------------------
-# After running Tilemaker to create some vector tiles, this script is designed
-# to copy the necessary support files to an apache website.
-#
-# Install https://github.com/systemed/mod_mbtiles , then edit the apache site 
-# config such as "000-default.conf" to contain something like:
-#
-# MbtilesEnabled true
-# MbtilesAdd sve01 "/var/www/html/vector/sve01/output_sve01.mbtiles"
-#
-# (modifying the path in that line as needed)
-#
+# After running Tilemaker to create some vector tiles, and creating a style to 
+# display them, this script is designed to copy the necessary support files to
+# an apache website.
 # -----------------------------------------------------------------------------
+# Use
+# https://github.com/SomeoneElseOSM/SomeoneElse-vector-extract/blob/main/sve01_extract.sh
+# to extract data and
+# https://github.com/SomeoneElseOSM/SomeoneElse-vector-extract/blob/main/sve_into_apache.sh
+# to install it (check both scripts for required parameters)
+#
 # Then (as root) run this script, with the following parameters.
 # These must not contain spaces.  Full paths, no "~".
 #
 # Parameter: For example:                                                   Meaning:
 # $1         omt_ny                                                         name of this tileset.  
 # $2         omt_ny_1                                                       name of this deployment.
-# $3         /etc/apache2/sites-available/000-default.conf                  location of Apache config file
-# $4         /home/ajtown/data/tilemaker_omt_ny.mbtiles                     location of this tileset.
-# $5         http://localhost                                               target index URL part 1
-# $6         /home/ajtown/src/SomeoneElse-vector-web-display/spec.json      Source of "spec.json" file
-# $7         /home/ajtown/src/SomeoneElse-vector-web-display/metadata.json  Source of "metadata" file
-# $8         /home/ajtown/src/tilemaker/server/static/fonts                 Source of fonts
-# $9         /home/ajtown/src/tilemaker/server/static/style.json            Source of style.json
-# $10        /home/ajtown/src/tilemaker/server/static/index.html            Source of index.html
-# $11        svwd01                                                         Name of first part of sprite files.
-# $12        /home/ajtown/src/SomeoneElse-vector-web-display                Directory of sprite files.
+# $3         http://localhost                                               target index URL part 1
+# $4         /home/ajtown/src/SomeoneElse-vector-web-display/spec.json      Source of "spec.json" file
+# $5         /home/ajtown/src/SomeoneElse-vector-web-display/metadata.json  Source of "metadata" file
+# $6         /home/ajtown/src/tilemaker/server/static/fonts                 Source of fonts
+# $7         /home/ajtown/src/tilemaker/server/static/style.json            Source of style.json
+# $8        /home/ajtown/src/tilemaker/server/static/index.html            Source of index.html
+# $9        svwd01                                                         Name of first part of sprite files.
+# $10        /home/ajtown/src/SomeoneElse-vector-web-display                Directory of sprite files.
 #
 # Set e.v.s for these parameters
 TILESET_NAME=$1
 DEPLOYMENT_NAME=$2
-APACHECONF_LOCATION=$3
-TILESET_LOCATION=$4
-DEPLOYMENT_URL=$5
-SPEC_SOURCE=$6
-METADATA_SOURCE=$7
-FONTS_SOURCE=$8
-STYLE_SOURCE=$9
-INDEX_SOURCE=${10}
-SPRITE_NAME=${11}
-SPRITE_SOURCE=${12}
+DEPLOYMENT_URL=$3
+SPEC_SOURCE=$4
+METADATA_SOURCE=$5
+FONTS_SOURCE=$6
+STYLE_SOURCE=$7
+INDEX_SOURCE=${8}
+SPRITE_NAME=${9}
+SPRITE_SOURCE=${10}
 #
 # -----------------------------------------------------------------------------
 # Now we have all the information we need.
-# Create a directory for the generated vector tiles and copy the files there
 # -----------------------------------------------------------------------------
 if [ "${TILESET_NAME}" = "" ]
 then
     echo "No tileset installed; no name provided"
 else
-    if [ "${TILESET_LOCATION}" = "" ]
-    then
-	echo "No tileset installed; no source provided"
-    else
-	if [ -f "${TILESET_LOCATION}" ]
-	then
-	    mkdir -p ${APACHE_SUBDIR}/${TILESET_NAME}
-	    cp ${TILESET_LOCATION} ${APACHE_SUBDIR}/${TILESET_NAME}
-	    echo "Copied tileset into:   ${APACHE_SUBDIR}/${TILESET_NAME}"
-	else
-	    echo "No tileset installed; source does not exist: ${TILESET_LOCATION}"
-	fi
-    fi
-    #
-    # -----------------------------------------------------------------------------
-    # Add tileset location to apache config file
-    # -----------------------------------------------------------------------------
-    if [ "${APACHECONF_LOCATION}" = "" ]
-    then
-	echo "Apache config file untouched; name not provided"
-    else
-	if [ -f "${APACHECONF_LOCATION}" ]
-	then
-	    if grep 'MbtilesEnabled true' ${APACHECONF_LOCATION} > /dev/null
-	    then
-		grep -v "MbtilesAdd ${TILESET_NAME}" ${APACHECONF_LOCATION} > apacheconf_temp.$$
-		sed "/MbtilesEnabled /a MbtilesAdd ${TILESET_NAME} /var/www/html/vector/${TILESET_NAME}/tilemaker_${TILESET_NAME}.mbtiles" apacheconf_temp.$$ > ${APACHECONF_LOCATION}
-		rm apacheconf_temp.$$
-		systemctl restart apache2
-		echo "Apache config file updated: ${APACHECONF_LOCATION}"
-	    else
-		echo "Apache config file untouched; MbtilesEnabled true missing from ${APACHECONF_LOCATION}"
-	    fi
-	else
-	    echo "Apache config file untouched; does not exist: ${APACHECONF_LOCATION}"
-	fi
-    fi
     #
     # -----------------------------------------------------------------------------
     # Create a spec.json

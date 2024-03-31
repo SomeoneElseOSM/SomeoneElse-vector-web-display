@@ -212,6 +212,11 @@
 		    "class",
 		    "tertiary",
 		    "tertiary_link"
+		],
+		[
+		    "!in",
+		    "edge",
+		    "verge"
 		]
 	    ],
 	    "layout": {
@@ -243,6 +248,11 @@
 		    "class",
 		    "tertiary",
 		    "tertiary_link"
+		],
+		[
+		    "!in",
+		    "edge",
+		    "verge"
 		]
 	    ],
 	    "layout": {
@@ -262,6 +272,78 @@
 	    }
 	},
 	{
+	    "id": "highway-tertiaryverge-casing",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 9,
+	    "filter": [
+		"all",
+		[
+		    "in",
+		    "class",
+		    "tertiary",
+		    "tertiary_link"
+		],
+		[
+		    "in",
+		    "edge",
+		    "verge"
+		]
+	    ],
+	    "layout": {
+		"line-cap": "butt",
+		"line-join": "round",
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"line-color": "#99cc00",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[  9,  2.8 ],
+			[ 20, 86.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-tertiaryverge-fill",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 9,
+	    "filter": [
+		"all",
+		[
+		    "in",
+		    "class",
+		    "tertiary",
+		    "tertiary_link"
+		],
+		[
+		    "in",
+		    "edge",
+		    "verge"
+		]
+	    ],
+	    "layout": {
+		"line-cap": "butt",
+		"line-join": "round",
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"line-color": "#f8f8ba",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[  9,  2.0 ],
+			[ 20, 42.0 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "highway-secondary-casing",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -274,6 +356,11 @@
 		    "class",
 		    "secondary",
 		    "secondary_link"
+		],
+		[
+		    "!in",
+		    "edge",
+		    "verge"
 		]
 	    ],
 	    "layout": {
@@ -305,6 +392,11 @@
 		    "class",
 		    "secondary",
 		    "secondary_link"
+		],
+		[
+		    "!in",
+		    "edge",
+		    "verge"
 		]
 	    ],
 	    "layout": {
@@ -324,6 +416,78 @@
 	    }
 	},
 	{
+	    "id": "highway-secondaryverge-casing",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 8,
+	    "filter": [
+		"all",
+		[
+		    "in",
+		    "class",
+		    "secondary",
+		    "secondary_link"
+		],
+		[
+		    "in",
+		    "edge",
+		    "verge"
+		]
+	    ],
+	    "layout": {
+		"line-cap": "butt",
+		"line-join": "round",
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"line-color": "#99cc00",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[  8,  2.8 ],
+			[ 20, 86.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-secondaryverge-fill",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 8,
+	    "filter": [
+		"all",
+		[
+		    "in",
+		    "class",
+		    "secondary",
+		    "secondary_link"
+		],
+		[
+		    "in",
+		    "edge",
+		    "verge"
+		]
+	    ],
+	    "layout": {
+		"line-cap": "butt",
+		"line-join": "round",
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"line-color": "#f9d6aa",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[  8,  2.0 ],
+			[ 20, 42.0 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "highway-primary-casing",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -336,6 +500,11 @@
 		    "class",
 		    "primary",
 		    "primary_link"
+		],
+		[
+		    "!in",
+		    "edge",
+		    "verge"
 		]
 	    ],
 	    "layout": {
@@ -367,6 +536,11 @@
 		    "class",
 		    "primary",
 		    "primary_link"
+		],
+		[
+		    "!in",
+		    "edge",
+		    "verge"
 		]
 	    ],
 	    "layout": {
@@ -381,6 +555,78 @@
 		    "stops": [
 			[  7,  2.0 ],
 			[ 20, 64.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-primaryverge-casing",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 7,
+	    "filter": [
+		"all",
+		[
+		    "in",
+		    "class",
+		    "primary",
+		    "primary_link"
+		],
+		[
+		    "in",
+		    "edge",
+		    "verge"
+		]
+	    ],
+	    "layout": {
+		"line-cap": "butt",
+		"line-join": "round",
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"line-color": "#99cc00",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[  7,  2.8 ],
+			[ 20, 86.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-primaryverge-fill",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 7,
+	    "filter": [
+		"all",
+		[
+		    "in",
+		    "class",
+		    "primary",
+		    "primary_link"
+		],
+		[
+		    "in",
+		    "edge",
+		    "verge"
+		]
+	    ],
+	    "layout": {
+		"line-cap": "butt",
+		"line-join": "round",
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"line-color": "#dd9f9f",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[  7,  2.0 ],
+			[ 20, 42.0 ]
 		    ]
 		}
 	    }

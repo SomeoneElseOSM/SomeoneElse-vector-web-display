@@ -68,6 +68,11 @@
 		    "class",
 		    "unclassified",
 		    "residential"
+		],
+		[
+		    "!in",
+		    "edge",
+		    "verge"
 		]
 	    ],
 	    "layout": {
@@ -99,6 +104,83 @@
 		    "class",
 		    "unclassified",
 		    "residential"
+		],
+		[
+		    "!in",
+		    "edge",
+		    "verge"
+		]
+	    ],
+	    "layout": {
+		"line-cap": "butt",
+		"line-join": "round",
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"line-color": "#ffffff",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 10,  2.0 ],
+			[ 20, 64.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-unclassifiedverge-casing",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 10,
+	    "filter": [
+		"all",
+		[
+		    "in",
+		    "class",
+		    "unclassified",
+		    "residential"
+		],
+		[
+		    "in",
+		    "edge",
+		    "verge"
+		]
+	    ],
+	    "layout": {
+		"line-cap": "butt",
+		"line-join": "round",
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"line-color": "#99cc00",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 10,  2.8 ],
+			[ 20, 86.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-unclassifiedverge-fill",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 10,
+	    "filter": [
+		"all",
+		[
+		    "in",
+		    "class",
+		    "unclassified",
+		    "residential"
+		],
+		[
+		    "in",
+		    "edge",
+		    "verge"
 		]
 	    ],
 	    "layout": {

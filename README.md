@@ -9,13 +9,13 @@ Files are served using Apache, together with https://github.com/systemed/mod_mbt
 * svwd_into_apache.sh
 * svwd_delete.sh
 
-These two install a vector tile configuration below Apache, and remove it.  A "vector tile configuration" is a set of .mbtiles (which contains certain data extracted and converted from OSM) and the "Index", "style", "metadata" and "spec" files that control how those features are displayed.  "svwd_into_apache.sh" uses templates for those files from e.g. "style.json" here to create a style.json for a particular display style using a particular set of .mbtiles.
+These two install a vector tile configuration below Apache, and remove it.  A "vector tile configuration" is a set of .mbtiles (which contains certain data extracted and converted from OSM) and the "Index", "style", "metadata" and "spec" files that control how those features are displayed.  "svwd_into_apache.sh" uses templates for those files from e.g. "svwd01_style.json" here to create a style.json for a particular display style using a particular set of .mbtiles.
 
 * svwd_call_icon_convert.sh
 * svwd_convert_icon_from_raster.sh
 * svwd_create_sprite.sh
 
-These scripts are used to create the sprite files referred to by the "sprite" setting in "style.json".  "svwd_convert_icon_from_raster.sh" converts one .png file from an OSM Carto or derivative "symbols" directory into a known format of a certain size.  "svwd_call_icon_convert.sh" calls that several times creating files with known names (basically "tag_value.png") and "svwd_create_sprite.sh" creates a sprite .json and .png (one row, many icons wide) from that.
+These scripts are used to create the sprite files referred to by the "sprite" setting in "style.json".  "svwd_convert_icon_from_raster.sh" converts one .png file from an OSM Carto or derivative "symbols" directory into a known format of a certain size.  "svwd_call_icon_convert.sh" calls that several times creating files with known names (basically "tag_value.png") and "svwd_create_sprite.sh" creates a sprite .json and .png (one row, many icons wide) from that both as "name.png" (which seems to be used on Windows) and "name@2x.png" (which seems to be used on Linux).
 
 ## Creating sprite files - an example
 

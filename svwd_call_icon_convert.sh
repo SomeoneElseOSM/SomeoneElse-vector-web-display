@@ -51,3 +51,6 @@
 ./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_farm.png                 ~/src/SomeoneElse-vector-web-display/icons/shop_farm.png
 ./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_gardencentre.p.16.png    ~/src/SomeoneElse-vector-web-display/icons/shop_garden_centre.png
 ./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_gift.p.16.png    ~/src/SomeoneElse-vector-web-display/icons/shop_gift.png
+#
+# tourism
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/artwork.p16.png               ~/src/SomeoneElse-vector-web-display/icons/tourism_artwork.png

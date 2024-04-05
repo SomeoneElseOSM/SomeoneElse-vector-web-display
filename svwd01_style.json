@@ -26,6 +26,32 @@
 	    }
 	},
 	{
+	    "id": "highway-pathnarrow",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[
+		    "in",
+		    "class",
+		    "pathnarrow"
+		]
+	    ],
+	    "paint": {
+		"line-color": "black",
+                "line-dasharray": [2.0, 4.0],
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "highway-service-fill",
 	    "type": "line",
 	    "source": "someoneelse",

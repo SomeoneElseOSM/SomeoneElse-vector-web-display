@@ -53,13 +53,13 @@ SPRITE_NAME=$2
 # -----------------------------------------------------------------------------
 # Delete the spec.json
 # -----------------------------------------------------------------------------
-rm -i ${APACHE_SUBDIR}/spec_${DEPLOYMENT_NAME}.json
+rm ${APACHE_SUBDIR}/spec_${DEPLOYMENT_NAME}.json
 echo "Deleted spec file:     ${APACHE_SUBDIR}/spec_${DEPLOYMENT_NAME}.json"
 #
 # -----------------------------------------------------------------------------
 # Delete the metadata file
 # -----------------------------------------------------------------------------
-rm -i ${APACHE_SUBDIR}/metadata_${DEPLOYMENT_NAME}.json
+rm ${APACHE_SUBDIR}/metadata_${DEPLOYMENT_NAME}.json
 echo "Deleted metadata file: ${APACHE_SUBDIR}/metadata_${DEPLOYMENT_NAME}.json"
 #
 # -----------------------------------------------------------------------------
@@ -69,20 +69,23 @@ echo "Deleted metadata file: ${APACHE_SUBDIR}/metadata_${DEPLOYMENT_NAME}.json"
 # -----------------------------------------------------------------------------
 # Delete the style.json
 # -----------------------------------------------------------------------------
-rm -i ${APACHE_SUBDIR}/style_${DEPLOYMENT_NAME}.json
+rm ${APACHE_SUBDIR}/style_${DEPLOYMENT_NAME}.json
 echo "Deleted style json:    ${APACHE_SUBDIR}/style_${DEPLOYMENT_NAME}.json"
 #
 # -----------------------------------------------------------------------------
 # Delete the index.html
 # -----------------------------------------------------------------------------
-rm -i ${APACHE_SUBDIR}/index_${DEPLOYMENT_NAME}.html
+rm ${APACHE_SUBDIR}/index_${DEPLOYMENT_NAME}.html
 echo "Deleted web page:      ${APACHE_SUBDIR}/index_${DEPLOYMENT_NAME}.html"
 #
 # -----------------------------------------------------------------------------
 # Delete the sprite files
 # -----------------------------------------------------------------------------
-rm -i ${APACHE_SUBDIR}/${SPRITE_NAME}@2x.png
-rm -i ${APACHE_SUBDIR}/${SPRITE_NAME}@2x.json
+rm ${APACHE_SUBDIR}/${SPRITE_NAME}@2x.png
+rm ${APACHE_SUBDIR}/${SPRITE_NAME}@2x.json
 echo "Deleted sprite files:      ${SPRITE_NAME}@2x.png and ${SPRITE_NAME}@2x.json"
+rm ${APACHE_SUBDIR}/${SPRITE_NAME}.png
+rm ${APACHE_SUBDIR}/${SPRITE_NAME}.json
+echo "Deleted sprite files:      ${SPRITE_NAME}.png and ${SPRITE_NAME}.json"
 #
 #

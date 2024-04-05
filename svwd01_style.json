@@ -33,11 +33,7 @@
 	    "minzoom": 12,
 	    "filter": [
 		"all",
-		[
-		    "in",
-		    "class",
-		    "pathnarrow"
-		]
+		[ "in", "class", "pathnarrow" ]
 	    ],
 	    "paint": {
 		"line-color": "black",
@@ -59,17 +55,9 @@
 	    "minzoom": 12,
 	    "filter": [
 		"all",
-		[
-		    "in",
-		    "class",
-		    "service"
-		]
+		[ "in", "class", "service" ]
 	    ],
-	    "layout": {
-		"line-cap": "butt",
-		"line-join": "round",
-		"visibility": "visible"
-	    },
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#ffffff",
 		"line-width": {
@@ -89,24 +77,12 @@
 	    "minzoom": 10,
 	    "filter": [
 		"all",
-		[
-		    "in",
-		    "class",
-		    "unclassified",
-		    "residential"
-		],
-		[
-		    "!in",
-		    "edge",
-		    "sidewalk",
-		    "verge"
-		]
+		[ "in", "class", "unclassified",
+                                 "residential" ],
+		[ "!in", "edge", "sidewalk",
+                                 "verge" ]
 	    ],
-	    "layout": {
-		"line-cap": "butt",
-		"line-join": "round",
-		"visibility": "visible"
-	    },
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#bbb",
 		"line-width": {
@@ -126,24 +102,12 @@
 	    "minzoom": 10,
 	    "filter": [
 		"all",
-		[
-		    "in",
-		    "class",
-		    "unclassified",
-		    "residential"
-		],
-		[
-		    "!in",
-		    "edge",
-		    "sidewalk",
-		    "verge"
-		]
+		[ "in", "class", "unclassified",
+		                 "residential" ],
+		[ "!in", "edge", "sidewalk",
+		                 "verge" ]
 	    ],
-	    "layout": {
-		"line-cap": "butt",
-		"line-join": "round",
-		"visibility": "visible"
-	    },
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#ffffff",
 		"line-width": {
@@ -163,23 +127,11 @@
 	    "minzoom": 10,
 	    "filter": [
 		"all",
-		[
-		    "in",
-		    "class",
-		    "unclassified",
-		    "residential"
-		],
-		[
-		    "in",
-		    "edge",
-		    "sidewalk"
-		]
+		[ "in", "class", "unclassified",
+		                 "residential" ],
+		[ "in", "edge", "sidewalk" ]
 	    ],
-	    "layout": {
-		"line-cap": "butt",
-		"line-join": "round",
-		"visibility": "visible"
-	    },
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#bbb",
 		"line-width": {
@@ -199,23 +151,11 @@
 	    "minzoom": 10,
 	    "filter": [
 		"all",
-		[
-		    "in",
-		    "class",
-		    "unclassified",
-		    "residential"
-		],
-		[
-		    "in",
-		    "edge",
-		    "sidewalk"
-		]
+		[ "in", "class", "unclassified",
+		                 "residential" ],
+		[ "in", "edge", "sidewalk" ]
 	    ],
-	    "layout": {
-		"line-cap": "butt",
-		"line-join": "round",
-		"visibility": "visible"
-	    },
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#ffffff",
 		"line-width": {
@@ -235,23 +175,11 @@
 	    "minzoom": 10,
 	    "filter": [
 		"all",
-		[
-		    "in",
-		    "class",
-		    "unclassified",
-		    "residential"
-		],
-		[
-		    "in",
-		    "edge",
-		    "verge"
-		]
+		[ "in", "class", "unclassified",
+		                 "residential" ],
+		[ "in", "edge", "verge" ]
 	    ],
-	    "layout": {
-		"line-cap": "butt",
-		"line-join": "round",
-		"visibility": "visible"
-	    },
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#99cc00",
 		"line-width": {
@@ -271,23 +199,11 @@
 	    "minzoom": 10,
 	    "filter": [
 		"all",
-		[
-		    "in",
-		    "class",
-		    "unclassified",
-		    "residential"
-		],
-		[
-		    "in",
-		    "edge",
-		    "verge"
-		]
+		[ "in", "class", "unclassified",
+		                 "residential" ],
+		[ "in", "edge", "verge" ]
 	    ],
-	    "layout": {
-		"line-cap": "butt",
-		"line-join": "round",
-		"visibility": "visible"
-	    },
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#ffffff",
 		"line-width": {
@@ -307,24 +223,12 @@
 	    "minzoom": 9,
 	    "filter": [
 		"all",
-		[
-		    "in",
-		    "class",
-		    "tertiary",
-		    "tertiary_link"
-		],
-		[
-		    "!in",
-		    "edge",
-		    "sidewalk",
-		    "verge"
-		]
+		[ "in", "class", "tertiary",
+		                 "tertiary_link" ],
+		[ "!in", "edge", "sidewalk",
+		                 "verge" ]
 	    ],
-	    "layout": {
-		"line-cap": "butt",
-		"line-join": "round",
-		"visibility": "visible"
-	    },
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#c6c68a",
 		"line-width": {
@@ -344,24 +248,12 @@
 	    "minzoom": 9,
 	    "filter": [
 		"all",
-		[
-		    "in",
-		    "class",
-		    "tertiary",
-		    "tertiary_link"
-		],
-		[
-		    "!in",
-		    "edge",
-		    "sidewalk",
-		    "verge"
-		]
+		[ "in", "class", "tertiary",
+		                 "tertiary_link" ],
+		[ "!in", "edge", "sidewalk",
+		                 "verge" ]
 	    ],
-	    "layout": {
-		"line-cap": "butt",
-		"line-join": "round",
-		"visibility": "visible"
-	    },
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#f8f8ba",
 		"line-width": {
@@ -381,23 +273,11 @@
 	    "minzoom": 9,
 	    "filter": [
 		"all",
-		[
-		    "in",
-		    "class",
-		    "tertiary",
-		    "tertiary_link"
-		],
-		[
-		    "in",
-		    "edge",
-		    "sidewalk"
-		]
+		[ "in", "class", "tertiary",
+		                 "tertiary_link" ],
+		[ "in", "edge", "sidewalk" ]
 	    ],
-	    "layout": {
-		"line-cap": "butt",
-		"line-join": "round",
-		"visibility": "visible"
-	    },
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#c6c68a",
 		"line-width": {
@@ -417,23 +297,11 @@
 	    "minzoom": 9,
 	    "filter": [
 		"all",
-		[
-		    "in",
-		    "class",
-		    "tertiary",
-		    "tertiary_link"
-		],
-		[
-		    "in",
-		    "edge",
-		    "sidewalk"
-		]
+		[ "in", "class", "tertiary",
+		                 "tertiary_link" ],
+		[ "in", "edge", "sidewalk" ]
 	    ],
-	    "layout": {
-		"line-cap": "butt",
-		"line-join": "round",
-		"visibility": "visible"
-	    },
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#f8f8ba",
 		"line-width": {
@@ -453,23 +321,11 @@
 	    "minzoom": 9,
 	    "filter": [
 		"all",
-		[
-		    "in",
-		    "class",
-		    "tertiary",
-		    "tertiary_link"
-		],
-		[
-		    "in",
-		    "edge",
-		    "verge"
-		]
+		[ "in", "class", "tertiary",
+		                 "tertiary_link" ],
+		[ "in", "edge", "verge" ]
 	    ],
-	    "layout": {
-		"line-cap": "butt",
-		"line-join": "round",
-		"visibility": "visible"
-	    },
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#99cc00",
 		"line-width": {
@@ -489,23 +345,11 @@
 	    "minzoom": 9,
 	    "filter": [
 		"all",
-		[
-		    "in",
-		    "class",
-		    "tertiary",
-		    "tertiary_link"
-		],
-		[
-		    "in",
-		    "edge",
-		    "verge"
-		]
+		[ "in", "class", "tertiary",
+		                 "tertiary_link" ],
+		[ "in", "edge",  "verge" ]
 	    ],
-	    "layout": {
-		"line-cap": "butt",
-		"line-join": "round",
-		"visibility": "visible"
-	    },
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#f8f8ba",
 		"line-width": {
@@ -525,24 +369,12 @@
 	    "minzoom": 8,
 	    "filter": [
 		"all",
-		[
-		    "in",
-		    "class",
-		    "secondary",
-		    "secondary_link"
-		],
-		[
-		    "!in",
-		    "edge",
-		    "sidewalk",
-		    "verge"
-		]
+		[ "in", "class", "secondary",
+		                 "secondary_link" ],
+		[ "!in", "edge", "sidewalk",
+		                 "verge" ]
 	    ],
-	    "layout": {
-		"line-cap": "butt",
-		"line-join": "round",
-		"visibility": "visible"
-	    },
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#cca16a",
 		"line-width": {
@@ -562,24 +394,12 @@
 	    "minzoom": 8,
 	    "filter": [
 		"all",
-		[
-		    "in",
-		    "class",
-		    "secondary",
-		    "secondary_link"
-		],
-		[
-		    "!in",
-		    "edge",
-		    "sidewalk",
-		    "verge"
-		]
+		[ "in", "class", "secondary",
+		                 "secondary_link" ],
+		[ "!in", "edge", "sidewalk",
+		                 "verge" ]
 	    ],
-	    "layout": {
-		"line-cap": "butt",
-		"line-join": "round",
-		"visibility": "visible"
-	    },
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#f9d6aa",
 		"line-width": {
@@ -599,23 +419,11 @@
 	    "minzoom": 8,
 	    "filter": [
 		"all",
-		[
-		    "in",
-		    "class",
-		    "secondary",
-		    "secondary_link"
-		],
-		[
-		    "in",
-		    "edge",
-		    "sidewalk"
-		]
+		[ "in", "class", "secondary",
+		                 "secondary_link" ],
+		[ "in", "edge", "sidewalk" ]
 	    ],
-	    "layout": {
-		"line-cap": "butt",
-		"line-join": "round",
-		"visibility": "visible"
-	    },
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#cca16a",
 		"line-width": {
@@ -635,23 +443,11 @@
 	    "minzoom": 8,
 	    "filter": [
 		"all",
-		[
-		    "in",
-		    "class",
-		    "secondary",
-		    "secondary_link"
-		],
-		[
-		    "in",
-		    "edge",
-		    "sidewalk"
-		]
+		[ "in", "class", "secondary",
+		                 "secondary_link" ],
+		[ "in", "edge", "sidewalk" ]
 	    ],
-	    "layout": {
-		"line-cap": "butt",
-		"line-join": "round",
-		"visibility": "visible"
-	    },
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#f9d6aa",
 		"line-width": {
@@ -671,23 +467,11 @@
 	    "minzoom": 8,
 	    "filter": [
 		"all",
-		[
-		    "in",
-		    "class",
-		    "secondary",
-		    "secondary_link"
-		],
-		[
-		    "in",
-		    "edge",
-		    "verge"
-		]
+		[ "in", "class", "secondary",
+		                 "secondary_link" ],
+		[ "in", "edge", "verge" ]
 	    ],
-	    "layout": {
-		"line-cap": "butt",
-		"line-join": "round",
-		"visibility": "visible"
-	    },
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#99cc00",
 		"line-width": {
@@ -707,23 +491,11 @@
 	    "minzoom": 8,
 	    "filter": [
 		"all",
-		[
-		    "in",
-		    "class",
-		    "secondary",
-		    "secondary_link"
-		],
-		[
-		    "in",
-		    "edge",
-		    "verge"
-		]
+		[ "in", "class", "secondary",
+		                 "secondary_link" ],
+		[ "in", "edge", "verge" ]
 	    ],
-	    "layout": {
-		"line-cap": "butt",
-		"line-join": "round",
-		"visibility": "visible"
-	    },
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#f9d6aa",
 		"line-width": {
@@ -743,24 +515,12 @@
 	    "minzoom": 7,
 	    "filter": [
 		"all",
-		[
-		    "in",
-		    "class",
-		    "primary",
-		    "primary_link"
-		],
-		[
-		    "!in",
-		    "edge",
-		    "sidewalk",
-		    "verge"
-		]
+		[ "in", "class", "primary",
+		                 "primary_link" ],
+		[ "!in", "edge", "sidewalk",
+		                 "verge" ]
 	    ],
-	    "layout": {
-		"line-cap": "butt",
-		"line-join": "round",
-		"visibility": "visible"
-	    },
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#c57b7e",
 		"line-width": {
@@ -780,24 +540,12 @@
 	    "minzoom": 7,
 	    "filter": [
 		"all",
-		[
-		    "in",
-		    "class",
-		    "primary",
-		    "primary_link"
-		],
-		[
-		    "!in",
-		    "edge",
-		    "sidewalk",
-		    "verge"
-		]
+		[ "in", "class", "primary",
+		                 "primary_link" ],
+		[ "!in", "edge", "sidewalk",
+		                 "verge" ]
 	    ],
-	    "layout": {
-		"line-cap": "butt",
-		"line-join": "round",
-		"visibility": "visible"
-	    },
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#dd9f9f",
 		"line-width": {
@@ -817,23 +565,11 @@
 	    "minzoom": 7,
 	    "filter": [
 		"all",
-		[
-		    "in",
-		    "class",
-		    "primary",
-		    "primary_link"
-		],
-		[
-		    "in",
-		    "edge",
-		    "sidewalk"
-		]
+		[ "in", "class", "primary",
+		                 "primary_link" ],
+		[ "in", "edge", "sidewalk" ]
 	    ],
-	    "layout": {
-		"line-cap": "butt",
-		"line-join": "round",
-		"visibility": "visible"
-	    },
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#c57b7e",
 		"line-width": {
@@ -853,23 +589,11 @@
 	    "minzoom": 7,
 	    "filter": [
 		"all",
-		[
-		    "in",
-		    "class",
-		    "primary",
-		    "primary_link"
-		],
-		[
-		    "in",
-		    "edge",
-		    "sidewalk"
-		]
+		[ "in", "class", "primary", 
+                                 "primary_link" ],
+		[ "in", "edge", "sidewalk" ]
 	    ],
-	    "layout": {
-		"line-cap": "butt",
-		"line-join": "round",
-		"visibility": "visible"
-	    },
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#dd9f9f",
 		"line-width": {
@@ -889,23 +613,11 @@
 	    "minzoom": 7,
 	    "filter": [
 		"all",
-		[
-		    "in",
-		    "class",
-		    "primary",
-		    "primary_link"
-		],
-		[
-		    "in",
-		    "edge",
-		    "verge"
-		]
+		[ "in", "class", "primary",
+                                 "primary_link" ],
+		[ "in", "edge", "verge" ]
 	    ],
-	    "layout": {
-		"line-cap": "butt",
-		"line-join": "round",
-		"visibility": "visible"
-	    },
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#99cc00",
 		"line-width": {
@@ -925,23 +637,11 @@
 	    "minzoom": 7,
 	    "filter": [
 		"all",
-		[
-		    "in",
-		    "class",
-		    "primary",
-		    "primary_link"
-		],
-		[
-		    "in",
-		    "edge",
-		    "verge"
-		]
+		[ "in", "class", "primary",
+                                 "primary_link" ],
+		[ "in", "edge", "verge" ]
 	    ],
-	    "layout": {
-		"line-cap": "butt",
-		"line-join": "round",
-		"visibility": "visible"
-	    },
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#dd9f9f",
 		"line-width": {
@@ -961,18 +661,10 @@
 	    "minzoom": 6,
 	    "filter": [
 		"all",
-		[
-		    "in",
-		    "class",
-		    "trunk",
-		    "trunk_link"
-		]
+		[ "in", "class", "trunk",
+		                 "trunk_link" ]
 	    ],
-	    "layout": {
-		"line-cap": "butt",
-		"line-join": "round",
-		"visibility": "visible"
-	    },
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#800000",
 		"line-width": {
@@ -992,18 +684,10 @@
 	    "minzoom": 6,
 	    "filter": [
 		"all",
-		[
-		    "in",
-		    "class",
-		    "trunk",
-		    "trunk_link"
-		]
+		[ "in", "class", "trunk",
+		                 "trunk_link" ]
 	    ],
-	    "layout": {
-		"line-cap": "butt",
-		"line-join": "round",
-		"visibility": "visible"
-	    },
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#dd9f9f",
 		"line-width": {
@@ -1023,18 +707,10 @@
 	    "minzoom": 5,
 	    "filter": [
 		"all",
-		[
-		    "in",
-		    "class",
-		    "motorway",
-		    "motorway_link"
-		]
+		[ "in", "class", "motorway",
+		                 "motorway_link" ]
 	    ],
-	    "layout": {
-		"line-cap": "butt",
-		"line-join": "round",
-		"visibility": "visible"
-	    },
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#7788a1",
 		"line-width": {
@@ -1054,18 +730,10 @@
 	    "minzoom": 5,
 	    "filter": [
 		"all",
-		[
-		    "in",
-		    "class",
-		    "motorway",
-		    "motorway_link"
-		]
+		[ "in", "class", "motorway",
+		                 "motorway_link" ]
 	    ],
-	    "layout": {
-		"line-cap": "butt",
-		"line-join": "round",
-		"visibility": "visible"
-	    },
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#89a4cb",
 		"line-width": {

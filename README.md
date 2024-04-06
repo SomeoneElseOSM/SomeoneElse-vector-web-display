@@ -35,10 +35,10 @@ The apache configuration consists of
 
 2) Index, style, metadata and spec files in /var/www/html/vector
 
-    index_sve01.html
-    style_sve01.json
-    metadata_sve01.json
-    spec_sve01.json
+    index_svwd01.html
+    style_svwd01.json
+    metadata_svwd01.json
+    spec_svwd01.json
 
 3) an entry in /etc/apache2/sites-available/000-default.conf such as
 

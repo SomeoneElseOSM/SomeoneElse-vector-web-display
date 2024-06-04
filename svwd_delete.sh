@@ -80,12 +80,21 @@ echo "Deleted web page:      ${APACHE_SUBDIR}/index_${DEPLOYMENT_NAME}.html"
 #
 # -----------------------------------------------------------------------------
 # Delete the sprite files
+# We definitely expect "normal" and "@2x" versions.
+# I'm guessing that "@3x" and "@4x" versions are used by higher resolution
+# displays.
 # -----------------------------------------------------------------------------
-rm ${APACHE_SUBDIR}/${SPRITE_NAME}@2x.png
-rm ${APACHE_SUBDIR}/${SPRITE_NAME}@2x.json
-echo "Deleted sprite files:      ${SPRITE_NAME}@2x.png and ${SPRITE_NAME}@2x.json"
 rm ${APACHE_SUBDIR}/${SPRITE_NAME}.png
 rm ${APACHE_SUBDIR}/${SPRITE_NAME}.json
 echo "Deleted sprite files:      ${SPRITE_NAME}.png and ${SPRITE_NAME}.json"
+rm ${APACHE_SUBDIR}/${SPRITE_NAME}@2x.png
+rm ${APACHE_SUBDIR}/${SPRITE_NAME}@2x.json
+echo "Deleted sprite files:      ${SPRITE_NAME}@2x.png and ${SPRITE_NAME}@2x.json"
+rm ${APACHE_SUBDIR}/${SPRITE_NAME}@3x.png
+rm ${APACHE_SUBDIR}/${SPRITE_NAME}@3x.json
+echo "Deleted sprite files:      ${SPRITE_NAME}@2x.png and ${SPRITE_NAME}@2x.json"
+rm ${APACHE_SUBDIR}/${SPRITE_NAME}@4x.png
+rm ${APACHE_SUBDIR}/${SPRITE_NAME}@4x.json
+echo "Deleted sprite files:      ${SPRITE_NAME}@2x.png and ${SPRITE_NAME}@2x.json"
 #
 #

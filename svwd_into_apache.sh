@@ -155,7 +155,7 @@ else
     #
     # -----------------------------------------------------------------------------
     # Copy over sprite files.
-    # The "@2x" ones are used by regular browsers.
+    # The "@2x" ones seem to be used by regular browsers.
     # -----------------------------------------------------------------------------
     if [ "${SPRITE_NAME}" = "" ]
     then
@@ -189,6 +189,43 @@ else
 		    else
 			echo "No optional non-@2x sprite files created; ${SPRITE_SOURCE}/${SPRITE_NAME}.png does not exist."
 		    fi # [ -f "${SPRITE_SOURCE}/${SPRITE_NAME}.png" ]
+
+		    #
+		    # -----------------------------------------------------------------------------
+		    # If larger @3x ones exist, they are copied too.
+		    # -----------------------------------------------------------------------------
+		    if [ -f "${SPRITE_SOURCE}/${SPRITE_NAME}@3x.png" ]
+		    then
+			if [ -f "${SPRITE_SOURCE}/${SPRITE_NAME}@3x.json" ]
+			then
+			    cp ${SPRITE_SOURCE}/${SPRITE_NAME}@3x.png  ${APACHE_SUBDIR}/
+			    cp ${SPRITE_SOURCE}/${SPRITE_NAME}@3x.json ${APACHE_SUBDIR}/
+			    echo "${SPRITE_NAME}@3x.png and ${SPRITE_NAME}@3x.json copied to ${APACHE_SUBDIR}"
+			else
+			    echo "No optional @3x sprite files created; ${SPRITE_SOURCE}/${SPRITE_NAME}@3x.json does not exist."
+			fi
+		    else
+			echo "No optional @3x sprite files created; ${SPRITE_SOURCE}/${SPRITE_NAME}@3x.png does not exist."
+		    fi # [ -f "${SPRITE_SOURCE}/${SPRITE_NAME}@3x.png" ]
+
+		    #
+		    # -----------------------------------------------------------------------------
+		    # If even larger @4x ones exist, they are copied too.
+		    # -----------------------------------------------------------------------------
+		    if [ -f "${SPRITE_SOURCE}/${SPRITE_NAME}@4x.png" ]
+		    then
+			if [ -f "${SPRITE_SOURCE}/${SPRITE_NAME}@4x.json" ]
+			then
+			    cp ${SPRITE_SOURCE}/${SPRITE_NAME}@4x.png  ${APACHE_SUBDIR}/
+			    cp ${SPRITE_SOURCE}/${SPRITE_NAME}@4x.json ${APACHE_SUBDIR}/
+			    echo "${SPRITE_NAME}@4x.png and ${SPRITE_NAME}@4x.json copied to ${APACHE_SUBDIR}"
+			else
+			    echo "No optional @4x sprite files created; ${SPRITE_SOURCE}/${SPRITE_NAME}@4x.json does not exist."
+			fi
+		    else
+			echo "No optional @4x sprite files created; ${SPRITE_SOURCE}/${SPRITE_NAME}@4x.png does not exist."
+		    fi # [ -f "${SPRITE_SOURCE}/${SPRITE_NAME}@3x.png" ]
+
 		else
 		    echo "No sprite files created; ${SPRITE_SOURCE}/${SPRITE_NAME}@2x.json does not exist"
 		fi

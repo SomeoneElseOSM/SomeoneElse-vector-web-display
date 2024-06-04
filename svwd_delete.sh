@@ -92,9 +92,9 @@ rm ${APACHE_SUBDIR}/${SPRITE_NAME}@2x.json
 echo "Deleted sprite files:      ${SPRITE_NAME}@2x.png and ${SPRITE_NAME}@2x.json"
 rm ${APACHE_SUBDIR}/${SPRITE_NAME}@3x.png
 rm ${APACHE_SUBDIR}/${SPRITE_NAME}@3x.json
-echo "Deleted sprite files:      ${SPRITE_NAME}@2x.png and ${SPRITE_NAME}@2x.json"
+echo "Deleted sprite files:      ${SPRITE_NAME}@2x.png and ${SPRITE_NAME}@3x.json"
 rm ${APACHE_SUBDIR}/${SPRITE_NAME}@4x.png
 rm ${APACHE_SUBDIR}/${SPRITE_NAME}@4x.json
-echo "Deleted sprite files:      ${SPRITE_NAME}@2x.png and ${SPRITE_NAME}@2x.json"
+echo "Deleted sprite files:      ${SPRITE_NAME}@2x.png and ${SPRITE_NAME}@4x.json"
 #
 #

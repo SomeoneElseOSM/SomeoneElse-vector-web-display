@@ -31,7 +31,7 @@
 "y": 0
 }
 ,
-"amenity_place_of_worship": {
+"amenity_parking": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -39,7 +39,7 @@
 "y": 0
 }
 ,
-"amenity_post_box": {
+"amenity_place_of_worship": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -47,7 +47,7 @@
 "y": 0
 }
 ,
-"amenity_post_office": {
+"amenity_post_box": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -55,7 +55,7 @@
 "y": 0
 }
 ,
-"amenity_pub": {
+"amenity_post_office": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -63,7 +63,7 @@
 "y": 0
 }
 ,
-"amenity_restaurant": {
+"amenity_pub": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -71,7 +71,7 @@
 "y": 0
 }
 ,
-"leisure_nonspecific": {
+"amenity_restaurant": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -79,7 +79,7 @@
 "y": 0
 }
 ,
-"shop_art": {
+"leisure_nonspecific": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -87,7 +87,7 @@
 "y": 0
 }
 ,
-"shop_convenience": {
+"shop_art": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -95,7 +95,7 @@
 "y": 0
 }
 ,
-"shop_farm": {
+"shop_convenience": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -103,7 +103,7 @@
 "y": 0
 }
 ,
-"shop_garden_centre": {
+"shop_farm": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -111,7 +111,7 @@
 "y": 0
 }
 ,
-"shop_gift": {
+"shop_garden_centre": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -119,11 +119,19 @@
 "y": 0
 }
 ,
-"tourism_artwork": {
+"shop_gift": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
 "x": 960,
+"y": 0
+}
+,
+"tourism_artwork": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 1024,
 "y": 0
 }
 }

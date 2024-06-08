@@ -32,6 +32,8 @@
 # -----------------------------------------------------------------------------
 #
 # amenities
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/parking_free.png              ~/src/SomeoneElse-vector-web-display/icons/amenity_parking.png
+#
 ./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/am_cafe_ddd.png               ~/src/SomeoneElse-vector-web-display/icons/amenity_cafe.png
 ./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/amenity_doctors.p.16.png      ~/src/SomeoneElse-vector-web-display/icons/amenity_doctors.png
 ./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fast_food.png                 ~/src/SomeoneElse-vector-web-display/icons/amenity_fast_food.png

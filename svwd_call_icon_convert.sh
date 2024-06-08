@@ -65,6 +65,14 @@
 ./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/amenity_doctors.p.16.png      ~/src/SomeoneElse-vector-web-display/icons/amenity_doctors.png
 ./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/vending.p.16.png              ~/src/SomeoneElse-vector-web-display/icons/amenity_vending_machine.png
 ./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/health_dentist.p.16.png       ~/src/SomeoneElse-vector-web-display/icons/amenity_dentist.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/library.p.20.png              ~/src/SomeoneElse-vector-web-display/icons/amenity_library.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/amenity_car_wash.p.16.png     ~/src/SomeoneElse-vector-web-display/icons/amenity_car_wash.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/rental_bicycle.p.20.png       ~/src/SomeoneElse-vector-web-display/icons/amenity_bicycle_rental.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/health_nonspecific.p.16.png   ~/src/SomeoneElse-vector-web-display/icons/amenity_clinic.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/health_nonspecific.p.16.png   ~/src/SomeoneElse-vector-web-display/icons/amenity_childcare.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_pet.p.16.png             ~/src/SomeoneElse-vector-web-display/icons/amenity_veterinary.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fountain.png                  ~/src/SomeoneElse-vector-web-display/icons/amenity_fountain.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/taxi_stand.p.16.png           ~/src/SomeoneElse-vector-web-display/icons/amenity_taxi.png
 #
 # leisure
 ./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/leisure_nonspecific.p.16.png  ~/src/SomeoneElse-vector-web-display/icons/leisure_nonspecific.png

@@ -53,9 +53,14 @@ else
 	if [ -e "${ICON_SOURCE}" ]
 	then
 	    # -----------------------------------------------------------------------------
-	    # First, create the sprite .png
+	    # First, how many icons are there?
 	    # -----------------------------------------------------------------------------
-	    montage -background "transparent" -depth 8 -type TrueColorMatte ${ICON_SOURCE}/*.png -geometry 64x64 -support 1.0 -tile 20x1 -matte -transparent "transparent"  -type TrueColorMatte -depth 8 ${SPRITE_LOCATION}@2x.png
+	    NUMBEROFICONS=`ls ${ICON_SOURCE}/*.png | wc -l`
+	    echo "There are ${NUMBEROFICONS} icons"
+	    # -----------------------------------------------------------------------------
+	    # Then, create the sprite .png
+	    # -----------------------------------------------------------------------------
+	    montage -background "transparent" -depth 8 -type TrueColorMatte ${ICON_SOURCE}/*.png -geometry 64x64 -support 1.0 -tile ${NUMBEROFICONS}x1 -matte -transparent "transparent"  -type TrueColorMatte -depth 8 ${SPRITE_LOCATION}@2x.png
 	    #
 	    # -----------------------------------------------------------------------------
 	    # Next, create the .json

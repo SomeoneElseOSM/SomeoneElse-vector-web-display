@@ -93,7 +93,17 @@
 ./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/leisure_nonspecific.p.16.png  ~/src/SomeoneElse-vector-web-display/icons/amenity_arts_centre.png
 #
 # leisure
-./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/leisure_nonspecific.p.16.png  ~/src/SomeoneElse-vector-web-display/icons/leisure_nonspecific.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/playground.p.20.png              ~/src/SomeoneElse-vector-web-display/icons/leisure_playground.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/picnic.p.16.png                  ~/src/SomeoneElse-vector-web-display/icons/leisure_picnic_table.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/leisure_nonspecific.p.16.png     ~/src/SomeoneElse-vector-web-display/icons/leisure_sports_centre.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/transport_slipway.p.20.png       ~/src/SomeoneElse-vector-web-display/icons/leisure_slipway.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/leisure_nonspecific.p.16.png     ~/src/SomeoneElse-vector-web-display/icons/leisure_fitness_centre.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/leisure_fitnessstation.p.16.png  ~/src/SomeoneElse-vector-web-display/icons/leisure_fitness_station.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/leisure_nonspecific.p.16.png     ~/src/SomeoneElse-vector-web-display/icons/leisure_horse_riding.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/birdhide.p.16.png                ~/src/SomeoneElse-vector-web-display/icons/leisure_bird_hide.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/leisure_nonspecific.p.16.png     ~/src/SomeoneElse-vector-web-display/icons/leisure_miniature_golf.png
+#
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/leisure_nonspecific.p.16.png     ~/src/SomeoneElse-vector-web-display/icons/leisure_nonspecific.png
 #
 # shops
 ./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_art.p.16.png             ~/src/SomeoneElse-vector-web-display/icons/shop_art.png

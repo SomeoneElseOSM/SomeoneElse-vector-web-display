@@ -431,7 +431,7 @@
 "y": 0
 }
 ,
-"leisure_nonspecific": {
+"leisure_bird_hide": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -439,7 +439,7 @@
 "y": 0
 }
 ,
-"shop_art": {
+"leisure_fitness_centre": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -447,7 +447,7 @@
 "y": 0
 }
 ,
-"shop_convenience": {
+"leisure_fitness_station": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -455,7 +455,7 @@
 "y": 0
 }
 ,
-"shop_farm": {
+"leisure_horse_riding": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -463,7 +463,7 @@
 "y": 0
 }
 ,
-"shop_garden_centre": {
+"leisure_miniature_golf": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -471,7 +471,7 @@
 "y": 0
 }
 ,
-"shop_gift": {
+"leisure_nonspecific": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -479,11 +479,83 @@
 "y": 0
 }
 ,
-"tourism_artwork": {
+"leisure_picnic_table": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
 "x": 3840,
+"y": 0
+}
+,
+"leisure_playground": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 3904,
+"y": 0
+}
+,
+"leisure_slipway": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 3968,
+"y": 0
+}
+,
+"leisure_sports_centre": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 4032,
+"y": 0
+}
+,
+"shop_art": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 4096,
+"y": 0
+}
+,
+"shop_convenience": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 4160,
+"y": 0
+}
+,
+"shop_farm": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 4224,
+"y": 0
+}
+,
+"shop_garden_centre": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 4288,
+"y": 0
+}
+,
+"shop_gift": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 4352,
+"y": 0
+}
+,
+"tourism_artwork": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 4416,
 "y": 0
 }
 }

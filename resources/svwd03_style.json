@@ -368,21 +368,80 @@
 	    }
 	},
 	{
-	    "id": "pois",
+	    "id": "amenity",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "pois",
 	    "minzoom": 12,
-	    "filter": [
-		"all",
-		[
-		    "==",
-		    "$type",
-		    "Point"
-		]
+	    "filter": [ "all", [ "==", "$type", "Point" ],
+			       [ "!=", "amenity", "" ]
 	    ],
 	    "layout": {
 		"icon-image": "amenity_{amenity}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [
+		    0,
+		    0.6
+		],
+		"text-padding": 2,
+		"text-size": 12,
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#666",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "leisure",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "==", "$type", "Point" ],
+			       [ "!=", "leisure", "" ]
+	    ],
+	    "layout": {
+		"icon-image": "leisure_{leisure}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [
+		    0,
+		    0.6
+		],
+		"text-padding": 2,
+		"text-size": 12,
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#666",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "shop",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "==", "$type", "Point" ],
+			       [ "!=", "shop", "" ]
+	    ],
+	    "layout": {
+		"icon-image": "shop_{shop}",
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [

@@ -519,7 +519,7 @@
 "y": 0
 }
 ,
-"shop_convenience": {
+"shop_bakery": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -527,7 +527,7 @@
 "y": 0
 }
 ,
-"shop_farm": {
+"shop_beauty": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -535,7 +535,7 @@
 "y": 0
 }
 ,
-"shop_garden_centre": {
+"shop_bookmaker": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -543,7 +543,7 @@
 "y": 0
 }
 ,
-"shop_gift": {
+"shop_butcher": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -551,11 +551,139 @@
 "y": 0
 }
 ,
-"tourism_artwork": {
+"shop_car": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
 "x": 4416,
+"y": 0
+}
+,
+"shop_car_repair": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 4480,
+"y": 0
+}
+,
+"shop_charity": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 4544,
+"y": 0
+}
+,
+"shop_clothes": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 4608,
+"y": 0
+}
+,
+"shop_convenience": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 4672,
+"y": 0
+}
+,
+"shop_farm": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 4736,
+"y": 0
+}
+,
+"shop_furniture": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 4800,
+"y": 0
+}
+,
+"shop_garden_centre": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 4864,
+"y": 0
+}
+,
+"shop_gift": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 4928,
+"y": 0
+}
+,
+"shop_hairdresser": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 4992,
+"y": 0
+}
+,
+"shop_jewelry": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 5056,
+"y": 0
+}
+,
+"shop_newsagent": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 5120,
+"y": 0
+}
+,
+"shop_optician": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 5184,
+"y": 0
+}
+,
+"shop_supermarket": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 5248,
+"y": 0
+}
+,
+"shop_vacant": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 5312,
+"y": 0
+}
+,
+"shop_variety_store": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 5376,
+"y": 0
+}
+,
+"tourism_artwork": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 5440,
 "y": 0
 }
 }

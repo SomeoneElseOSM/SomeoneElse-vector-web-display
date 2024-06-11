@@ -106,11 +106,28 @@
 ./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/leisure_nonspecific.p.16.png     ~/src/SomeoneElse-vector-web-display/icons/leisure_nonspecific.png
 #
 # shops
-./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_art.p.16.png             ~/src/SomeoneElse-vector-web-display/icons/shop_art.png
 ./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_convenience.p.16.png     ~/src/SomeoneElse-vector-web-display/icons/shop_convenience.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_hairdresser.p.16.png     ~/src/SomeoneElse-vector-web-display/icons/shop_hairdresser.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_clothes.p.16.png         ~/src/SomeoneElse-vector-web-display/icons/shop_clothes.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_supermarket.p.16.png     ~/src/SomeoneElse-vector-web-display/icons/shop_supermarket.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shopping_car_repair.p.16.png     ~/src/SomeoneElse-vector-web-display/icons/shop_car_repair.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_beauty.p.16.png     ~/src/SomeoneElse-vector-web-display/icons/shop_beauty.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/office_nonspecific.p.16.png     ~/src/SomeoneElse-vector-web-display/icons/shop_vacant.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_charity.p.16.png     ~/src/SomeoneElse-vector-web-display/icons/shop_charity.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shopping_car.p.16.png     ~/src/SomeoneElse-vector-web-display/icons/shop_car.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_gift.p.16.png    ~/src/SomeoneElse-vector-web-display/icons/shop_gift.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_bookmaker.p.16.png    ~/src/SomeoneElse-vector-web-display/icons/shop_bookmaker.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_bakery.p.16.png    ~/src/SomeoneElse-vector-web-display/icons/shop_bakery.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_optician.p.16.png    ~/src/SomeoneElse-vector-web-display/icons/shop_optician.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_jewellery.p.16.png    ~/src/SomeoneElse-vector-web-display/icons/shop_jewelry.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_butcher.png    ~/src/SomeoneElse-vector-web-display/icons/shop_butcher.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_furniture.p.16.png    ~/src/SomeoneElse-vector-web-display/icons/shop_furniture.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_convenience.p.16.png     ~/src/SomeoneElse-vector-web-display/icons/shop_newsagent.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_discount.p.16.png     ~/src/SomeoneElse-vector-web-display/icons/shop_variety_store.png
+#
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_art.p.16.png             ~/src/SomeoneElse-vector-web-display/icons/shop_art.png
 ./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_farm.png                 ~/src/SomeoneElse-vector-web-display/icons/shop_farm.png
 ./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_gardencentre.p.16.png    ~/src/SomeoneElse-vector-web-display/icons/shop_garden_centre.png
-./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_gift.p.16.png    ~/src/SomeoneElse-vector-web-display/icons/shop_gift.png
 #
 # tourism
 ./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/artwork.p16.png               ~/src/SomeoneElse-vector-web-display/icons/tourism_artwork.png

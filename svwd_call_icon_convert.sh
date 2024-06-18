@@ -173,4 +173,22 @@
 ./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_storage_rental.p.16.png         ~/src/SomeoneElse-vector-web-display/icons/shop_storage_rental.png
 #
 # tourism
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/information.p.16.png               ~/src/SomeoneElse-vector-web-display/icons/tourism_information.png
 ./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/artwork.p16.png               ~/src/SomeoneElse-vector-web-display/icons/tourism_artwork.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/chalet.p.16.png               ~/src/SomeoneElse-vector-web-display/icons/tourism_chalet.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/hotel2.p.20.png               ~/src/SomeoneElse-vector-web-display/icons/tourism_hotel.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/guest_house.p.16.png               ~/src/SomeoneElse-vector-web-display/icons/tourism_guest_house.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/view_point.p.16.png               ~/src/SomeoneElse-vector-web-display/icons/tourism_view_point.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/caravan_park.p.24.png               ~/src/SomeoneElse-vector-web-display/icons/tourism_caravan_park.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/camping.n.16.png               ~/src/SomeoneElse-vector-web-display/icons/tourism_camp_site.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/picnic.p.16.png               ~/src/SomeoneElse-vector-web-display/icons/tourism_picnic_site.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/museum.p.16.png               ~/src/SomeoneElse-vector-web-display/icons/tourism_museum.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/guest_house.p.16.png               ~/src/SomeoneElse-vector-web-display/icons/tourism_apartment.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/hostel.p.20.png               ~/src/SomeoneElse-vector-web-display/icons/tourism_hostel.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shopping_nonspecific.p.16.png               ~/src/SomeoneElse-vector-web-display/icons/tourism_gallery.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/historic_nonspecific.p.16.png               ~/src/SomeoneElse-vector-web-display/icons/tourism_zoo.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/motel.p.20.png               ~/src/SomeoneElse-vector-web-display/icons/tourism_motel.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/historic_nonspecific.p.16.png               ~/src/SomeoneElse-vector-web-display/icons/tourism_aquarium.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/alpinehut.p.16.png               ~/src/SomeoneElse-vector-web-display/icons/tourism_alpine_hut.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/bandb.p.20.png               ~/src/SomeoneElse-vector-web-display/icons/tourism_bed_and_breakfast.png
+#

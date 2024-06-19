@@ -192,3 +192,22 @@
 ./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/alpinehut.p.16.png               ~/src/SomeoneElse-vector-web-display/icons/tourism_alpine_hut.png
 ./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/bandb.p.20.png               ~/src/SomeoneElse-vector-web-display/icons/tourism_bed_and_breakfast.png
 #
+# man_made
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/communications.p.20.png               ~/src/SomeoneElse-vector-web-display/icons/man_made_mast.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/squaretower.png               ~/src/SomeoneElse-vector-web-display/icons/man_made_tower.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/boothdisused.png               ~/src/SomeoneElse-vector-web-display/icons/man_made_telephone_box.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/survey_point.png               ~/src/SomeoneElse-vector-web-display/icons/man_made_survey_point.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/manmade_mine.png               ~/src/SomeoneElse-vector-web-display/icons/man_made_mineshaft.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/flagpole.png               ~/src/SomeoneElse-vector-web-display/icons/man_made_flagpole.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/chimney.p.20.png               ~/src/SomeoneElse-vector-web-display/icons/man_made_chimney.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/cairn.png               ~/src/SomeoneElse-vector-web-display/icons/man_made_cairn.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/water_well.png               ~/src/SomeoneElse-vector-web-display/icons/man_made_water_well.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/monitoringwater.png               ~/src/SomeoneElse-vector-web-display/icons/man_made_monitoring_station.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/monitoringwater.png               ~/src/SomeoneElse-vector-web-display/icons/man_made_monitoring_station.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/tap_drinking.p.20.png               ~/src/SomeoneElse-vector-web-display/icons/man_made_water_tap.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/tower_water.p.20.png               ~/src/SomeoneElse-vector-web-display/icons/man_made_water_tower.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/communications.p.20.png               ~/src/SomeoneElse-vector-web-display/icons/man_made_antenna.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/lighthouse.p.20.png               ~/src/SomeoneElse-vector-web-display/icons/man_made_lighthouse.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/windmill.png               ~/src/SomeoneElse-vector-web-display/icons/man_made_windmill.png
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/watermill.png               ~/src/SomeoneElse-vector-web-display/icons/man_made_watermill.png
+#

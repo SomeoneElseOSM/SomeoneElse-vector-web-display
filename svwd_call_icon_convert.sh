@@ -235,3 +235,9 @@
 # emergency
 ./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/health_defibrillator.p.16.png    ~/src/SomeoneElse-vector-web-display/icons/emergency_defibrillator.png
 ./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/sosphone.png                     ~/src/SomeoneElse-vector-web-display/icons/emergency_phone.png
+#
+# highway
+# (I don't have an icon for the one highway value "emergency_access_point" in Shortbread POIs)
+#
+# office
+./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/office_nonspecific.p.16.png      ~/src/SomeoneElse-vector-web-display/icons/office_diplomatic.png

@@ -36,7 +36,7 @@
 # listing the file names and sizes.
 # -----------------------------------------------------------------------------
 #
-# amenities
+# amenity
 #./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/parking_free.png               ~/src/SomeoneElse-vector-web-display/icons/amenity_parking.png
 ./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/bench.p07.png                  ~/src/SomeoneElse-vector-web-display/icons/amenity_bench.png
 ./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/post_box.p.16.png              ~/src/SomeoneElse-vector-web-display/icons/amenity_post_box.png
@@ -105,7 +105,7 @@
 #
 #./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/leisure_nonspecific.p.16.png     ~/src/SomeoneElse-vector-web-display/icons/leisure_nonspecific.png
 #
-# shops
+# shop
 ./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_convenience.p.16.png        ~/src/SomeoneElse-vector-web-display/icons/shop_convenience.png
 ./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_hairdresser.p.16.png        ~/src/SomeoneElse-vector-web-display/icons/shop_hairdresser.png
 ./svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_clothes.p.16.png            ~/src/SomeoneElse-vector-web-display/icons/shop_clothes.png

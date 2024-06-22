@@ -30,7 +30,8 @@
 # with e.g. ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh
 #
 # Dependencies:  Command used:  Installed via
-# ImageMagick    montage        sudo apt install imagemagick
+# ImageMagick    montage        sudo apt install imagemagick (Ubuntu 22.04)
+# "              "              sudo apt install graphicsmagick-imagemagick-compat (Debian 12)
 # jsonlint       jsonlint-php   sudo apt install jsonlint
 #
 # Parameter: For example:     Meaning:

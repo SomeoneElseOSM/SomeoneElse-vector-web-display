@@ -70,6 +70,94 @@
 	    }
 	},
 	{
+	    "id": "highway-footwaynarrow",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "footwaynarrow" ]
+	    ],
+	    "paint": {
+		"line-color": "salmon",
+                "line-dasharray": [1.0, 2.0],
+		"line-width": {
+		    "base": 1.8,
+		    "stops": [
+			[ 15,  1.8 ],
+			[ 20,  3.6 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-footwaywide",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "footwaywide" ]
+	    ],
+	    "paint": {
+		"line-color": "salmon",
+                "line-dasharray": [2.0, 3.0],
+		"line-width": {
+		    "base": 1.8,
+		    "stops": [
+			[ 15,  1.8 ],
+			[ 20,  3.6 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-bridlewaynarrow",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "bridlewaynarrow" ]
+	    ],
+	    "paint": {
+		"line-color": "#0080FF",
+                "line-dasharray": [2.0, 4.0],
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-bridlewaywide",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "bridlewaywide" ]
+	    ],
+	    "paint": {
+		"line-color": "#0080FF",
+                "line-dasharray": [4.0, 6.0],
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "highway-rbynarrow",
 	    "type": "line",
 	    "source": "someoneelse",

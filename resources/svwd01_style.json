@@ -70,6 +70,50 @@
 	    }
 	},
 	{
+	    "id": "highway-rbynarrow",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "rbynarrow" ]
+	    ],
+	    "paint": {
+		"line-color": "#0080FF",
+                "line-dasharray": [12.0, 3.0, 6.0, 3.0],
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-rbywide",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "rbywide" ]
+	    ],
+	    "paint": {
+		"line-color": "#0080FF",
+                "line-dasharray": [24.0, 4.0, 12.0, 4.0],
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "highway-boatnarrow",
 	    "type": "line",
 	    "source": "someoneelse",

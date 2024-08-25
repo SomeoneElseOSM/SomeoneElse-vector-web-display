@@ -1207,6 +1207,38 @@
 	    }
 	},
 	{
+		"id": "label-street-centre",
+		"type": "symbol",
+		"source-layer": "transportation",
+		"filter": [ "in", "class", "tertiary",
+                                "unclassified",
+                                "residential",
+                                "service",
+                                "unpaved",
+                                "ucrwide",  "ucrnarrow",
+                                "boatwide", "boatnarrow",
+                                "rbywide",  "rbynarrow",
+                                "bridlewaysteps", "bridlewaywide", "bridlewaynarrow", "intbridlewaywide", "intbridlewaynarrow",
+                                "footwaysteps",   "footwaywide",   "footwaynarrow",   "intfootwaywide",   "intfootwaynarrow",
+                                "steps",          "pathwide",      "pathnarrow",      "intpathwide",      "intpathnarrow" ],
+		"layout": {
+			"text-field": "{name}",
+			"text-font": [ "KlokanTech Noto Sans Regular" ],
+			"symbol-placement": "line",
+			"text-anchor": "center",
+			"text-size": { "stops": [ [ 12, 10 ], [ 15, 13 ] ] }
+		},
+		"source": "someoneelse",
+		"paint": {
+			"icon-color": "#333344",
+			"text-color": "#333344",
+			"text-halo-color": "rgba(255, 255, 255, 0.8)",
+			"text-halo-width": 2,
+			"text-halo-blur": 1
+		},
+		"minzoom": 12
+	},
+	{
 	    "id": "poi",
 	    "type": "symbol",
 	    "source": "someoneelse",

@@ -26,6 +26,28 @@
 	    }
 	},
 	{
+	    "id": "land-forest",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 7,
+	    "filter": [ "all", [ "in", "class", "landuse_forest" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#bedab3"
+	    }
+	},
+	{
+	    "id": "building",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "building",
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#bca9a9"
+	    }
+	},
+	{
 	    "id": "highway-pathnarrow",
 	    "type": "line",
 	    "source": "someoneelse",

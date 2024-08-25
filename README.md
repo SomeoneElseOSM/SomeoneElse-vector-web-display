@@ -48,6 +48,18 @@ A set of vector tiles and a style to view them is copied below apache with "svwd
 
 (more detail to follow)
 
+## Resources
+
+There are three styles in the "resources" directory.
+
+* svwd01 - a display style for my [sve01 schema](https://github.com/SomeoneElseOSM/SomeoneElse-vector-extract/blob/main/resources/README_sve01.md)
+* svwd02 - the [Versatiles Colorful](https://github.com/versatiles-org/versatiles-style/blob/main/docs/colorful.png) display style, which works with the [shortbread schema](https://shortbread-tiles.org/schema/).
+* svwd03 - a display style similar to svwd01 but for the [shortbread schema](https://shortbread-tiles.org/schema/).
+
+The shortbread styles are dependent on what's available in the Shortbread schema.  The "svwd02" style is from [Versatiles](https://versatiles.org/overview.html); see the licence at the top of [that file](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/svwd02_style.json).
+
+The "sve01" schema and "svwd01" style are being developed to have the same functionality as the raster maps [here](https://map.atownsend.org.uk/maps/map/map.html).  The "schema" for that is controlled by the lua processing [here](https://github.com/SomeoneElseOSM/SomeoneElse-style/blob/master/README.md).
+
 ## Caveat
 
 Everything here yet fully functional - it is still very much a work in progress.

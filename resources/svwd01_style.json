@@ -567,6 +567,28 @@
 	    }
 	},
 	{
+	    "id": "highway-driveway-fill",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 13,
+	    "filter": [
+		"all",
+		[ "in", "class", "driveway" ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#ffffff",
+		"line-width": {
+		    "base": 1.3,
+		    "stops": [
+			[ 13,  1.3 ],
+			[ 20, 11.0 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "highway-living_street-casing",
 	    "type": "line",
 	    "source": "someoneelse",

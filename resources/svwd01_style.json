@@ -552,7 +552,8 @@
 	    "minzoom": 12,
 	    "filter": [
 		"all",
-		[ "in", "class", "service" ]
+		[ "in", "class", "service" ],
+		[ "!in", "edge", "ford" ]
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
@@ -574,7 +575,8 @@
 	    "minzoom": 12,
 	    "filter": [
 		"all",
-		[ "in", "class", "service" ]
+		[ "in", "class", "service" ],
+		[ "!in", "edge", "ford" ]
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
@@ -584,6 +586,52 @@
 		    "stops": [
 			[ 12,  1.0 ],
 			[ 20, 32.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-serviceford-casing",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "service" ],
+		[ "in", "edge", "ford" ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#b5d0d0",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 12,  1.0 ],
+			[ 20, 40.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-serviceford-fill",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "service" ],
+		[ "in", "edge", "ford" ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#ffffff",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 12,  1.0 ],
+			[ 20, 20.0 ]
 		    ]
 		}
 	    }

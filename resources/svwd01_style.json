@@ -552,7 +552,8 @@
 	    "minzoom": 12,
 	    "filter": [
 		"all",
-		[ "in", "class", "driveway" ]
+		[ "in", "class", "driveway" ],
+		[ "!in", "edge", "ford" ]
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
@@ -575,7 +576,8 @@
 	    "minzoom": 12,
 	    "filter": [
 		"all",
-		[ "in", "class", "driveway" ]
+		[ "in", "class", "driveway" ],
+		[ "!in", "edge", "ford" ]
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
@@ -586,6 +588,54 @@
 			[ 16,  1.5 ],
 			[ 18,  4.0 ],
 			[ 20, 16.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-drivewayford-casing",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "driveway" ],
+		[ "in", "edge", "ford" ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#b5d0d0",
+		"line-width": {
+		    "stops": [
+			[ 12,  1.5 ],
+			[ 16,  2.0 ],
+			[ 18,  6.0 ],
+			[ 20, 20.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-drivewayford-fill",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "driveway" ],
+		[ "in", "edge", "ford" ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#ffffff",
+		"line-width": {
+		    "stops": [
+			[ 12,  0.7 ],
+			[ 16,  1.0 ],
+			[ 18,  3.0 ],
+			[ 20, 10.0 ]
 		    ]
 		}
 	    }

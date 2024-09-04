@@ -553,11 +553,37 @@
 	    "filter": [
 		"all",
 		[ "in", "class", "driveway" ],
-		[ "!in", "edge", "ford" ]
+		[ "!in", "edge", "ford" ],
+                [ "!=", "bridge", true ]
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#bbb",
+		"line-width": {
+		    "stops": [
+			[ 12,  1.5 ],
+			[ 16,  2.0 ],
+			[ 18,  6.0 ],
+			[ 20, 20.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-driveway-bridge",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "driveway" ],
+		[ "!in", "edge", "ford" ],
+                [ "==", "bridge", true ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "black",
 		"line-width": {
 		    "stops": [
 			[ 12,  1.5 ],
@@ -649,11 +675,36 @@
 	    "filter": [
 		"all",
 		[ "in", "class", "service" ],
-		[ "!in", "edge", "ford" ]
+		[ "!in", "edge", "ford" ],
+                [ "!=", "bridge", true ]
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#bbb",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 12,  1.0 ],
+			[ 20, 40.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-service-bridge",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "service" ],
+		[ "!in", "edge", "ford" ],
+                [ "==", "bridge", true ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "black",
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
@@ -743,11 +794,38 @@
 		[ "in", "class", "living_street" ],
 		[ "!in", "edge", "sidewalk",
                                  "verge",
-                                 "ford" ]
+                                 "ford" ],
+                [ "!=", "bridge", true ]
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#bbb",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 10,  2.8 ],
+			[ 20, 86.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-living_street-bridge",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 10,
+	    "filter": [
+		"all",
+		[ "in", "class", "living_street" ],
+		[ "!in", "edge", "sidewalk",
+                                 "verge",
+                                 "ford" ],
+                [ "==", "bridge", true ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "black",
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
@@ -792,11 +870,37 @@
 		"all",
 		[ "in", "class", "living_street",
 		                 "residential" ],
-		[ "in", "edge", "sidewalk" ]
+		[ "in", "edge", "sidewalk" ],
+                [ "!=", "bridge", true ]
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#bbb",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 10,  2.8 ],
+			[ 20, 86.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-living_streetsidewalk-bridge",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 10,
+	    "filter": [
+		"all",
+		[ "in", "class", "living_street",
+		                 "residential" ],
+		[ "in", "edge", "sidewalk" ],
+                [ "==", "bridge", true ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "black",
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
@@ -933,11 +1037,39 @@
                                  "residential" ],
 		[ "!in", "edge", "sidewalk",
                                  "verge",
-                                 "ford" ]
+                                 "ford" ],
+                [ "!=", "bridge", true ]
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#bbb",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 10,  2.8 ],
+			[ 20, 86.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-unclassified-bridge",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 10,
+	    "filter": [
+		"all",
+		[ "in", "class", "unclassified",
+                                 "residential" ],
+		[ "!in", "edge", "sidewalk",
+                                 "verge",
+                                 "ford" ],
+                [ "==", "bridge", true ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "black",
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
@@ -983,11 +1115,37 @@
 		"all",
 		[ "in", "class", "unclassified",
 		                 "residential" ],
-		[ "in", "edge", "sidewalk" ]
+		[ "in", "edge", "sidewalk" ],
+                [ "!=", "bridge", true ]
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#bbb",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 10,  2.8 ],
+			[ 20, 86.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-unclassifiedsidewalk-bridge",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 10,
+	    "filter": [
+		"all",
+		[ "in", "class", "unclassified",
+		                 "residential" ],
+		[ "in", "edge", "sidewalk" ],
+                [ "==", "bridge", true ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "black",
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
@@ -1129,11 +1287,39 @@
 		                 "tertiary_link" ],
 		[ "!in", "edge", "sidewalk",
 		                 "verge",
-                                 "ford" ]
+                                 "ford" ],
+                [ "!=", "bridge", true ]
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#c6c68a",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[  9,  2.8 ],
+			[ 20, 86.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-tertiary-bridge",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 9,
+	    "filter": [
+		"all",
+		[ "in", "class", "tertiary",
+		                 "tertiary_link" ],
+		[ "!in", "edge", "sidewalk",
+		                 "verge",
+                                 "ford" ],
+                [ "==", "bridge", true ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "black",
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
@@ -1179,11 +1365,37 @@
 		"all",
 		[ "in", "class", "tertiary",
 		                 "tertiary_link" ],
-		[ "in", "edge", "sidewalk" ]
+		[ "in", "edge", "sidewalk" ],
+                [ "!=", "bridge", true ]
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#c6c68a",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[  9,  2.8 ],
+			[ 20, 86.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-tertiarysidewalk-bridge",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 9,
+	    "filter": [
+		"all",
+		[ "in", "class", "tertiary",
+		                 "tertiary_link" ],
+		[ "in", "edge", "sidewalk" ],
+                [ "==", "bridge", true ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "black",
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
@@ -1325,11 +1537,39 @@
 		                 "secondary_link" ],
 		[ "!in", "edge", "sidewalk",
 		                 "verge",
-                                 "ford" ]
+                                 "ford" ],
+                [ "!=", "bridge", true ]
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#cca16a",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[  8,  2.8 ],
+			[ 20, 86.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-secondary-bridge",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 8,
+	    "filter": [
+		"all",
+		[ "in", "class", "secondary",
+		                 "secondary_link" ],
+		[ "!in", "edge", "sidewalk",
+		                 "verge",
+                                 "ford" ],
+                [ "==", "bridge", true ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "black",
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
@@ -1375,11 +1615,37 @@
 		"all",
 		[ "in", "class", "secondary",
 		                 "secondary_link" ],
-		[ "in", "edge", "sidewalk" ]
+		[ "in", "edge", "sidewalk" ],
+                [ "!=", "bridge", true ]
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#cca16a",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[  8,  2.8 ],
+			[ 20, 86.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-secondarysidewalk-bridge",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 8,
+	    "filter": [
+		"all",
+		[ "in", "class", "secondary",
+		                 "secondary_link" ],
+		[ "in", "edge", "sidewalk" ],
+                [ "==", "bridge", true ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "black",
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
@@ -1521,11 +1787,39 @@
 		                 "primary_link" ],
 		[ "!in", "edge", "sidewalk",
 		                 "verge",
-                                 "ford" ]
+                                 "ford" ],
+                [ "!=", "bridge", true ]
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#c57b7e",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[  7,  2.8 ],
+			[ 20, 86.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-primary-bridge",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 7,
+	    "filter": [
+		"all",
+		[ "in", "class", "primary",
+		                 "primary_link" ],
+		[ "!in", "edge", "sidewalk",
+		                 "verge",
+                                 "ford" ],
+                [ "==", "bridge", true ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "black",
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
@@ -1571,11 +1865,37 @@
 		"all",
 		[ "in", "class", "primary",
 		                 "primary_link" ],
-		[ "in", "edge", "sidewalk" ]
+		[ "in", "edge", "sidewalk" ],
+                [ "!=", "bridge", true ]
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#c57b7e",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[  7,  2.8 ],
+			[ 20, 86.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-primarysidewalk-bridge",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 7,
+	    "filter": [
+		"all",
+		[ "in", "class", "primary",
+		                 "primary_link" ],
+		[ "in", "edge", "sidewalk" ],
+                [ "==", "bridge", true ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "black",
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
@@ -1714,11 +2034,36 @@
 	    "filter": [
 		"all",
 		[ "in", "class", "trunk",
-		                 "trunk_link" ]
+		                 "trunk_link" ],
+                [ "!=", "bridge", true ]
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#800000",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[  6,  2.8 ],
+			[ 20, 86.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-trunk-bridge",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 6,
+	    "filter": [
+		"all",
+		[ "in", "class", "trunk",
+		                 "trunk_link" ],
+                [ "==", "bridge", true ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "black",
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
@@ -1760,11 +2105,36 @@
 	    "filter": [
 		"all",
 		[ "in", "class", "motorway",
-		                 "motorway_link" ]
+		                 "motorway_link" ],
+                [ "!=", "bridge", true ]
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#7788a1",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[  5,  2.8 ],
+			[ 20, 86.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-motorway-bridge",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 5,
+	    "filter": [
+		"all",
+		[ "in", "class", "motorway",
+		                 "motorway_link" ],
+                [ "==", "bridge", true ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "black",
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [

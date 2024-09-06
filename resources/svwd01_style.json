@@ -578,7 +578,6 @@
 	    "filter": [
 		"all",
 		[ "in", "class", "driveway" ],
-		[ "!in", "edge", "ford" ],
                 [ "==", "tunnel", true ]
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
@@ -731,7 +730,6 @@
 	    "filter": [
 		"all",
 		[ "in", "class", "service" ],
-		[ "!in", "edge", "ford" ],
                 [ "==", "tunnel", true ]
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
@@ -878,9 +876,6 @@
 	    "filter": [
 		"all",
 		[ "in", "class", "living_street" ],
-		[ "!in", "edge", "sidewalk",
-		                 "verge",
-                                 "ford" ],
                 [ "==", "tunnel", true ]
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
@@ -1132,9 +1127,6 @@
 		"all",
 		[ "in", "class", "unclassified",
 		                 "residential" ],
-		[ "!in", "edge", "sidewalk",
-		                 "verge",
-                                 "ford" ],
                 [ "==", "tunnel", true ]
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
@@ -1393,14 +1385,11 @@
 		"all",
 		[ "in", "class", "tertiary",
 		                 "tertiary_link" ],
-		[ "!in", "edge", "sidewalk",
-		                 "verge",
-                                 "ford" ],
                 [ "==", "tunnel", true ]
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
 	    "paint": {
-		"line-color": "#f7f7f7",
+		"line-color": "#fafad1",
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
@@ -1654,14 +1643,11 @@
 		"all",
 		[ "in", "class", "secondary",
 		                 "secondary_link" ],
-		[ "!in", "edge", "sidewalk",
-		                 "verge",
-                                 "ford" ],
                 [ "==", "tunnel", true ]
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
 	    "paint": {
-		"line-color": "#f7f7f7",
+		"line-color": "#fbe1c2",
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
@@ -1915,14 +1901,11 @@
 		"all",
 		[ "in", "class", "primary",
 		                 "primary_link" ],
-		[ "!in", "edge", "sidewalk",
-		                 "verge",
-                                 "ford" ],
                 [ "==", "tunnel", true ]
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
 	    "paint": {
-		"line-color": "#f7f7f7",
+		"line-color": "#eac5c5",
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
@@ -2180,7 +2163,7 @@
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
 	    "paint": {
-		"line-color": "#f7f7f7",
+		"line-color": "#eac5c5",
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
@@ -2278,7 +2261,7 @@
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
 	    "paint": {
-		"line-color": "#f7f7f7",
+		"line-color": "#e2e8f2",
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [

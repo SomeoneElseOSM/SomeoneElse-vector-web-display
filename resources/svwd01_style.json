@@ -2372,7 +2372,6 @@
 	    "filter": [
 		"all",
 		[ "in", "class", "driveway" ],
-		[ "!in", "edge", "ford" ],
                 [ "==", "bridge", true ]
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
@@ -2421,7 +2420,6 @@
 	    "filter": [
 		"all",
 		[ "in", "class", "service" ],
-		[ "!in", "edge", "ford" ],
                 [ "==", "bridge", true ]
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
@@ -2468,9 +2466,6 @@
 	    "filter": [
 		"all",
 		[ "in", "class", "living_street" ],
-		[ "!in", "edge", "sidewalk",
-		                 "verge",
-                                 "ford" ],
                 [ "==", "bridge", true ]
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
@@ -2519,9 +2514,6 @@
 		"all",
 		[ "in", "class", "unclassified",
 		                 "residential" ],
-		[ "!in", "edge", "sidewalk",
-		                 "verge",
-                                 "ford" ],
                 [ "==", "bridge", true ]
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
@@ -2570,9 +2562,6 @@
 		"all",
 		[ "in", "class", "tertiary",
 		                 "tertiary_link" ],
-		[ "!in", "edge", "sidewalk",
-		                 "verge",
-                                 "ford" ],
                 [ "==", "bridge", true ]
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
@@ -2621,9 +2610,6 @@
 		"all",
 		[ "in", "class", "secondary",
 		                 "secondary_link" ],
-		[ "!in", "edge", "sidewalk",
-		                 "verge",
-                                 "ford" ],
                 [ "==", "bridge", true ]
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
@@ -2672,9 +2658,6 @@
 		"all",
 		[ "in", "class", "primary",
 		                 "primary_link" ],
-		[ "!in", "edge", "sidewalk",
-		                 "verge",
-                                 "ford" ],
                 [ "==", "bridge", true ]
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },

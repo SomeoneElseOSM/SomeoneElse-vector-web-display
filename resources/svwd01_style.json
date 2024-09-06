@@ -2330,7 +2330,6 @@
 	    "filter": [
 		"all",
 		[ "in", "class", "driveway" ],
-		[ "!in", "edge", "ford" ],
                 [ "==", "bridge", true ]
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
@@ -2379,7 +2378,6 @@
 	    "filter": [
 		"all",
 		[ "in", "class", "service" ],
-		[ "!in", "edge", "ford" ],
                 [ "==", "bridge", true ]
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },

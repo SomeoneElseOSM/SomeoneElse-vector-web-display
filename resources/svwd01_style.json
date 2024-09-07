@@ -42,7 +42,7 @@
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land",
-	    "minzoom": 10,
+	    "minzoom": 9,
 	    "filter": [ "all", [ "in", "class", "landuse_grass",
                                                 "leisure_common",
                                                 "leisure_garden" ] ],

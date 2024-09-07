@@ -31,7 +31,7 @@
 	    "source": "someoneelse",
 	    "source-layer": "land",
 	    "minzoom": 7,
-	    "filter": [ "all", [ "in", "class", "landuse_forest" ] ],
+	    "filter": [ "all", [ "in", "class", "landuse_forest" , "landuse_unnamedforest" ] ],
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#bedab3"
@@ -43,12 +43,24 @@
 	    "source": "someoneelse",
 	    "source-layer": "land",
 	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "landuse_grass",
+	    "filter": [ "all", [ "in", "class", "landuse_grass", "landuse_unnamedgrass",
                                                 "leisure_common",
                                                 "leisure_garden" ] ],
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#cfeca8"
+	    }
+	},
+	{
+	    "id": "land-residential",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "landuse_residential", "landuse_unnamedresidential" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#e1e1e1"
 	    }
 	},
 	{

@@ -76,6 +76,42 @@
 	    }
 	},
 	{
+	    "id": "land-farmyard",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "landuse_farmyard", "landuse_unnamedfarmyard" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#efd6b5"
+	    }
+	},
+	{
+	    "id": "land-farmland",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 8,
+	    "filter": [ "all", [ "in", "class", "landuse_farmland", "landuse_unnamedfarmland" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#f4ebdf"
+	    }
+	},
+	{
+	    "id": "land-farmgrass",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "landuse_farmgrass", "landuse_unnamedfarmgrass" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#eeefda"
+	    }
+	},
+	{
 	    "id": "building",
 	    "type": "fill",
 	    "source": "someoneelse",

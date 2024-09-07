@@ -112,6 +112,54 @@
 	    }
 	},
 	{
+	    "id": "land-recreation_ground",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "landuse_recreation_ground" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#cfeca8"
+	    }
+	},
+	{
+	    "id": "land-village_green",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 10,
+	    "filter": [ "all", [ "in", "class", "landuse_village_green" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#cfeca8"
+	    }
+	},
+	{
+	    "id": "land-retail",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "landuse_retail" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#f4dfdd"
+	    }
+	},
+	{
+	    "id": "land-industrial",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "landuse_industrial" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#ebdbe8"
+	    }
+	},
+	{
 	    "id": "building",
 	    "type": "fill",
 	    "source": "someoneelse",

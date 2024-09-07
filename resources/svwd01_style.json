@@ -153,10 +153,60 @@
 	    "source": "someoneelse",
 	    "source-layer": "land",
 	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "landuse_industrial" ] ],
+	    "filter": [ "all", [ "in", "class", "landuse_industrial", "landuse_unnamedindustrial" ] ],
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#ebdbe8"
+	    }
+	},
+	{
+	    "id": "land-garages",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 11,
+	    "filter": [ "all", [ "in", "class", "landuse_garages" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#d3d3c8"
+	    }
+	},
+	{
+	    "id": "land-railway",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "landuse_railway" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#ebdbe8"
+	    }
+	},
+	{
+	    "id": "land-commercial",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "landuse_commercial" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#ece0df"
+	    }
+	},
+	{
+	    "id": "land-construction",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "landuse_brownfield", 
+                                                "landuse_greenfield", 
+                                                "landuse_construction", "landuse_unnamedconstruction" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#9d9d6c"
 	    }
 	},
 	{

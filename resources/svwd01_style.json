@@ -416,6 +416,18 @@
 	    }
 	},
 	{
+	    "id": "land-swimming_pool",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 13,
+	    "filter": [ "all", [ "in", "class", "leisure_swimming_pool" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#b5d0d0"
+	    }
+	},
+	{
 	    "id": "building",
 	    "type": "fill",
 	    "source": "someoneelse",

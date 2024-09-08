@@ -248,4 +248,5 @@
 #
 # landuse
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/quarry32.png      ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_quarry.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/historic_quarry32.png      ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_historicquarry.png
 #

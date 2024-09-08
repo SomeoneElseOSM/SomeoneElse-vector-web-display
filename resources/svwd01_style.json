@@ -245,6 +245,17 @@
 	    }
 	},
 	{
+	    "id": "land-historicquarry",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 10,
+	    "filter": [ "all", [ "in", "class", "landuse_historicquarry" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_landuse_historicquarry"
+	    }
+	},
+	{
 	    "id": "building",
 	    "type": "fill",
 	    "source": "someoneelse",

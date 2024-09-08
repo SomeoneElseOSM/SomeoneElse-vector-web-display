@@ -278,6 +278,29 @@
 	    }
 	},
 	{
+	    "id": "land-wetmeadow-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "landuse_wetmeadow" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#e8f6d5"
+	    }
+	},
+	{
+	    "id": "land-wetmeadow-13",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 13,
+	    "filter": [ "all", [ "in", "class", "landuse_wetmeadow" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_landuse_wetmeadow"
+	    }
+	},
+	{
 	    "id": "building",
 	    "type": "fill",
 	    "source": "someoneelse",

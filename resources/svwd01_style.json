@@ -392,6 +392,30 @@
 	    }
 	},
 	{
+	    "id": "land-allotments-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "maxzoom": 13,
+	    "filter": [ "all", [ "in", "class", "landuse_allotments", "landuse_unnamedallotments" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#e5c7ab"
+	    }
+	},
+	{
+	    "id": "land-allotments-13",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 13,
+	    "filter": [ "all", [ "in", "class", "landuse_allotments", "landuse_unnamedallotments" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_landuse_allotments"
+	    }
+	},
+	{
 	    "id": "building",
 	    "type": "fill",
 	    "source": "someoneelse",

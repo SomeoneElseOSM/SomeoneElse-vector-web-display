@@ -239,7 +239,7 @@
 	    "source": "someoneelse",
 	    "source-layer": "land",
 	    "minzoom": 10,
-	    "filter": [ "all", [ "in", "class", "landuse_quarry" ] ],
+	    "filter": [ "all", [ "in", "class", "landuse_quarry", "landuse_unnamedquarry" ] ],
 	    "paint": {
 		"fill-pattern": "pattern_landuse_quarry"
 	    }
@@ -250,7 +250,7 @@
 	    "source": "someoneelse",
 	    "source-layer": "land",
 	    "minzoom": 10,
-	    "filter": [ "all", [ "in", "class", "landuse_historicquarry" ] ],
+	    "filter": [ "all", [ "in", "class", "landuse_historicquarry", "landuse_unnamedhistoricquarry" ] ],
 	    "paint": {
 		"fill-pattern": "pattern_landuse_historicquarry"
 	    }
@@ -264,6 +264,17 @@
 	    "filter": [ "all", [ "in", "class", "landuse_vineyard" ] ],
 	    "paint": {
 		"fill-pattern": "pattern_landuse_vineyard"
+	    }
+	},
+	{
+	    "id": "land-orchard",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "landuse_orchard", "landuse_unnamedorchard" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_landuse_orchard"
 	    }
 	},
 	{

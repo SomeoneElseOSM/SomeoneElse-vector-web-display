@@ -301,6 +301,29 @@
 	    }
 	},
 	{
+	    "id": "land-meadowtransitional-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "landuse_meadowtransitional", "landuse_unnamedmeadowtransitional" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#e8f6d5"
+	    }
+	},
+	{
+	    "id": "land-meadowtransitional-13",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 13,
+	    "filter": [ "all", [ "in", "class", "landuse_meadowtransitional", "landuse_unnamedmeadowtransitional" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_landuse_scrub"
+	    }
+	},
+	{
 	    "id": "building",
 	    "type": "fill",
 	    "source": "someoneelse",

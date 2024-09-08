@@ -189,7 +189,7 @@
 	    "source": "someoneelse",
 	    "source-layer": "land",
 	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "landuse_commercial" ] ],
+	    "filter": [ "all", [ "in", "class", "landuse_commercial", "landuse_unnamedcommercial" ] ],
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#ece0df"
@@ -207,6 +207,30 @@
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#9d9d6c"
+	    }
+	},
+	{
+	    "id": "land-landfill",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "landuse_landfill", "landuse_unnamedlandfill" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#d6d6c2"
+	    }
+	},
+	{
+	    "id": "land-historic",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "landuse_historic" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#f2e9e9"
 	    }
 	},
 	{

@@ -256,6 +256,17 @@
 	    }
 	},
 	{
+	    "id": "land-vineyard",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "landuse_vineyard" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_landuse_vineyard"
+	    }
+	},
+	{
 	    "id": "building",
 	    "type": "fill",
 	    "source": "someoneelse",

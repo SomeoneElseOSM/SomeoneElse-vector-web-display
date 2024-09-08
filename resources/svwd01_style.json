@@ -381,6 +381,17 @@
 	    }
 	},
 	{
+	    "id": "land-reedbed",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "landuse_reedbed" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_landuse_reedbed"
+	    }
+	},
+	{
 	    "id": "building",
 	    "type": "fill",
 	    "source": "someoneelse",

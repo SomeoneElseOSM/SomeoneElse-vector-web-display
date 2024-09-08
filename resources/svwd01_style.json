@@ -324,6 +324,52 @@
 	    }
 	},
 	{
+	    "id": "land-meadowwildflower-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "landuse_meadowwildflower", "landuse_unnamedmeadowwildflower" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#e8f6d5"
+	    }
+	},
+	{
+	    "id": "land-meadowwildflower-13",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 13,
+	    "filter": [ "all", [ "in", "class", "landuse_meadowwildflower", "landuse_unnamedmeadowwildflower" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_landuse_meadowwildflower"
+	    }
+	},
+	{
+	    "id": "land-meadowperpetual-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "landuse_meadowperpetual", "landuse_unnamedmeadowperpetual" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#e8f6d5"
+	    }
+	},
+	{
+	    "id": "land-meadowperpetual-13",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 13,
+	    "filter": [ "all", [ "in", "class", "landuse_meadowperpetual", "landuse_unnamedmeadowperpetual" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_landuse_meadowperpetual"
+	    }
+	},
+	{
 	    "id": "building",
 	    "type": "fill",
 	    "source": "someoneelse",

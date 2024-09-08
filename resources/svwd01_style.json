@@ -370,6 +370,17 @@
 	    }
 	},
 	{
+	    "id": "land-saltmarsh",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "landuse_saltmarsh" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_landuse_saltmarsh"
+	    }
+	},
+	{
 	    "id": "building",
 	    "type": "fill",
 	    "source": "someoneelse",

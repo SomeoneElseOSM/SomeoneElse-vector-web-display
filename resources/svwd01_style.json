@@ -428,6 +428,54 @@
 	    }
 	},
 	{
+	    "id": "land-playground",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "leisure_playground" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#ccfff1"
+	    }
+	},
+	{
+	    "id": "land-schoolyard",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "leisure_schoolyard" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#f1f1f1"
+	    }
+	},
+	{
+	    "id": "land-park",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "leisure_park", "leisure_recreation_ground" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#b6fdb6"
+	    }
+	},
+	{
+	    "id": "land-golfgreen",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "leisure_golfgreen" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#b9e382"
+	    }
+	},
+	{
 	    "id": "building",
 	    "type": "fill",
 	    "source": "someoneelse",

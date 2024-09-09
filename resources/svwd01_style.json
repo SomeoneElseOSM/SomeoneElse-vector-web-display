@@ -488,6 +488,30 @@
 	    }
 	},
 	{
+	    "id": "land-stadium",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "leisure_sports_cntre", "leisure_stadium" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#3c9"
+	    }
+	},
+	{
+	    "id": "land-pitch",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "leisure_pitch", "leisure_unnamedpitch" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#8ad3af"
+	    }
+	},
+	{
 	    "id": "building",
 	    "type": "fill",
 	    "source": "someoneelse",

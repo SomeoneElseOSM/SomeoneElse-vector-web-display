@@ -284,6 +284,18 @@
 	    }
 	},
 	{
+	    "id": "land2-heath",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land2",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "landuse_unnamedheath" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#e6e8c5"
+	    }
+	},
+	{
 	    "id": "land2-grass",
 	    "type": "fill",
 	    "source": "someoneelse",
@@ -305,17 +317,6 @@
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#ffc7c7"
-	    }
-	},
-	{
-	    "id": "land2-military",
-	    "type": "fill",
-	    "source": "someoneelse",
-	    "source-layer": "land2",
-	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "landuse_military" ] ],
-	    "paint": {
-		"fill-pattern": "pattern_landuse_military"
 	    }
 	},
 	{
@@ -805,6 +806,41 @@
 	    "filter": [ "all", [ "in", "class", "natural_tidal_shingle" ] ],
 	    "paint": {
 		"fill-pattern": "pattern_natural_tidal_shingle"
+	    }
+	},
+	{
+	    "id": "land1-desert",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 7,
+	    "filter": [ "all", [ "in", "class", "natural_desert" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#e3b57a"
+	    }
+	},
+	{
+	    "id": "land1-heath",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 7,
+	    "filter": [ "all", [ "in", "class", "natural_heath" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#e6e8c5"
+	    }
+	},
+	{
+	    "id": "land2-military",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land2",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "landuse_military" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_landuse_military"
 	    }
 	},
 	{

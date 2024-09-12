@@ -738,7 +738,73 @@
 	    "minzoom": 12,
 	    "filter": [ "all", [ "in", "class", "natural_beach" ] ],
 	    "paint": {
-		"fill-pattern": "pattern_landuse_beach"
+		"fill-pattern": "pattern_natural_beach"
+	    }
+	},
+	{
+	    "id": "land1-tidal_beach",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "natural_tidal_beach" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_natural_tidal_beach"
+	    }
+	},
+	{
+	    "id": "land1-tidal_mud",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "natural_tidal_mud" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_natural_tidal_mud"
+	    }
+	},
+	{
+	    "id": "land1-tidal_rock",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "natural_tidal_rock" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_natural_tidal_rock"
+	    }
+	},
+	{
+	    "id": "land1-tidal_sand",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "natural_tidal_sand" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_natural_tidal_sand"
+	    }
+	},
+	{
+	    "id": "land1-tidal_scree",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "natural_tidal_scree" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_natural_tidal_scree"
+	    }
+	},
+	{
+	    "id": "land1-tidal_shingle",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "natural_tidal_shingle" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_natural_tidal_shingle"
 	    }
 	},
 	{

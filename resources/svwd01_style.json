@@ -296,15 +296,26 @@
 	    }
 	},
 	{
-	    "id": "land2-pitch",
+	    "id": "land1-barracks",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "military_barracks" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#ffc7c7"
+	    }
+	},
+	{
+	    "id": "land2-military",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
 	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "leisure_unnamedpitch" ] ],
+	    "filter": [ "all", [ "in", "class", "landuse_military" ] ],
 	    "paint": {
-		"fill-antialias": true,
-		"fill-color": "#8ad3af"
+		"fill-pattern": "pattern_landuse_military"
 	    }
 	},
 	{
@@ -732,20 +743,6 @@
 	    }
 	},
 	{
-	    "id": "land1-grass",
-	    "type": "fill",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "landuse_grass", 
-                                                "leisure_common",
-                                                "leisure_garden" ] ],
-	    "paint": {
-		"fill-antialias": true,
-		"fill-color": "#cfeca8"
-	    }
-	},
-	{
 	    "id": "land1-golfgreen",
 	    "type": "fill",
 	    "source": "someoneelse",
@@ -767,6 +764,32 @@
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#3c9"
+	    }
+	},
+	{
+	    "id": "land1-grass",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "landuse_grass", 
+                                                "leisure_common",
+                                                "leisure_garden" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#cfeca8"
+	    }
+	},
+	{
+	    "id": "land2-pitch",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land2",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "leisure_unnamedpitch" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#8ad3af"
 	    }
 	},
 	{

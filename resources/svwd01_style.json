@@ -731,6 +731,17 @@
 	    }
 	},
 	{
+	    "id": "land1-beach",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "natural_beach" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_landuse_beach"
+	    }
+	},
+	{
 	    "id": "land1-golf_course",
 	    "type": "fill",
 	    "source": "someoneelse",

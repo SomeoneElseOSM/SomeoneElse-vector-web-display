@@ -332,6 +332,30 @@
 	    }
 	},
 	{
+	    "id": "land2-wood",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land2",
+	    "minzoom": 8,
+	    "filter": [ "all", [ "in", "class", "natural_unnamedwood" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#aed1a0"
+	    }
+	},
+	{
+	    "id": "land1-wood",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 8,
+	    "filter": [ "all", [ "in", "class", "natural_wood" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#aed1a0"
+	    }
+	},
+	{
 	    "id": "land1-residential",
 	    "type": "fill",
 	    "source": "someoneelse",
@@ -886,6 +910,18 @@
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#e6e8c5"
+	    }
+	},
+	{
+	    "id": "land1-grassland",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "natural_grassland" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#c6e4b4"
 	    }
 	},
 	{

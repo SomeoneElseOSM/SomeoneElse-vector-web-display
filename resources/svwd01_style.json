@@ -26,6 +26,18 @@
 	    }
 	},
 	{
+	    "id": "land1-park",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "leisure_park", "leisure_recreation_ground" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#b6fdb6"
+	    }
+	},
+	{
 	    "id": "land2-forest",
 	    "type": "fill",
 	    "source": "someoneelse",
@@ -301,7 +313,7 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 7,
-	    "filter": [ "all", [ "in", "class", "landuse_forest" , "landuse_unnamedforest" ] ],
+	    "filter": [ "all", [ "in", "class", "landuse_forest" ] ],
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#bedab3"
@@ -313,7 +325,7 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "landuse_residential", "landuse_unnamedresidential" ] ],
+	    "filter": [ "all", [ "in", "class", "landuse_residential" ] ],
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#e1e1e1"
@@ -325,7 +337,7 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "landuse_meadow", "landuse_unnamedmeadow" ] ],
+	    "filter": [ "all", [ "in", "class", "landuse_meadow" ] ],
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#e8f6d5"
@@ -337,7 +349,7 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "landuse_farmyard", "landuse_unnamedfarmyard" ] ],
+	    "filter": [ "all", [ "in", "class", "landuse_farmyard" ] ],
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#efd6b5"
@@ -349,7 +361,7 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 8,
-	    "filter": [ "all", [ "in", "class", "landuse_farmland", "landuse_unnamedfarmland" ] ],
+	    "filter": [ "all", [ "in", "class", "landuse_farmland" ] ],
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#f4ebdf"
@@ -361,7 +373,7 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "landuse_farmgrass", "landuse_unnamedfarmgrass" ] ],
+	    "filter": [ "all", [ "in", "class", "landuse_farmgrass" ] ],
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#eeefda"
@@ -409,7 +421,7 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "landuse_industrial", "landuse_unnamedindustrial" ] ],
+	    "filter": [ "all", [ "in", "class", "landuse_industrial" ] ],
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#ebdbe8"
@@ -445,7 +457,7 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "landuse_commercial", "landuse_unnamedcommercial" ] ],
+	    "filter": [ "all", [ "in", "class", "landuse_commercial" ] ],
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#ece0df"
@@ -459,7 +471,7 @@
 	    "minzoom": 9,
 	    "filter": [ "all", [ "in", "class", "landuse_brownfield", 
                                                 "landuse_greenfield", 
-                                                "landuse_construction", "landuse_unnamedconstruction" ] ],
+                                                "landuse_construction" ] ],
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#9d9d6c"
@@ -471,7 +483,7 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "landuse_landfill", "landuse_unnamedlandfill" ] ],
+	    "filter": [ "all", [ "in", "class", "landuse_landfill" ] ],
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#d6d6c2"
@@ -495,7 +507,7 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 10,
-	    "filter": [ "all", [ "in", "class", "landuse_quarry", "landuse_unnamedquarry" ] ],
+	    "filter": [ "all", [ "in", "class", "landuse_quarry" ] ],
 	    "paint": {
 		"fill-pattern": "pattern_landuse_quarry"
 	    }
@@ -506,7 +518,7 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 10,
-	    "filter": [ "all", [ "in", "class", "landuse_historicquarry", "landuse_unnamedhistoricquarry" ] ],
+	    "filter": [ "all", [ "in", "class", "landuse_historicquarry" ] ],
 	    "paint": {
 		"fill-pattern": "pattern_landuse_historicquarry"
 	    }
@@ -528,7 +540,7 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "class", "landuse_orchard", "landuse_unnamedorchard" ] ],
+	    "filter": [ "all", [ "in", "class", "landuse_orchard" ] ],
 	    "paint": {
 		"fill-pattern": "pattern_landuse_orchard"
 	    }
@@ -562,7 +574,7 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "landuse_meadowtransitional", "landuse_unnamedmeadowtransitional" ] ],
+	    "filter": [ "all", [ "in", "class", "landuse_meadowtransitional" ] ],
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#e8f6d5"
@@ -574,7 +586,7 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 13,
-	    "filter": [ "all", [ "in", "class", "landuse_meadowtransitional", "landuse_unnamedmeadowtransitional" ] ],
+	    "filter": [ "all", [ "in", "class", "landuse_meadowtransitional" ] ],
 	    "paint": {
 		"fill-pattern": "pattern_landuse_scrub"
 	    }
@@ -585,7 +597,7 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "landuse_meadowwildflower", "landuse_unnamedmeadowwildflower" ] ],
+	    "filter": [ "all", [ "in", "class", "landuse_meadowwildflower" ] ],
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#e8f6d5"
@@ -597,7 +609,7 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 13,
-	    "filter": [ "all", [ "in", "class", "landuse_meadowwildflower", "landuse_unnamedmeadowwildflower" ] ],
+	    "filter": [ "all", [ "in", "class", "landuse_meadowwildflower" ] ],
 	    "paint": {
 		"fill-pattern": "pattern_landuse_meadowwildflower"
 	    }
@@ -608,7 +620,7 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "landuse_meadowperpetual", "landuse_unnamedmeadowperpetual" ] ],
+	    "filter": [ "all", [ "in", "class", "landuse_meadowperpetual" ] ],
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#e8f6d5"
@@ -620,7 +632,7 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 13,
-	    "filter": [ "all", [ "in", "class", "landuse_meadowperpetual", "landuse_unnamedmeadowperpetual" ] ],
+	    "filter": [ "all", [ "in", "class", "landuse_meadowperpetual" ] ],
 	    "paint": {
 		"fill-pattern": "pattern_landuse_meadowperpetual"
 	    }
@@ -654,7 +666,7 @@
 	    "source-layer": "land1",
 	    "minzoom": 9,
 	    "maxzoom": 13,
-	    "filter": [ "all", [ "in", "class", "landuse_allotments", "landuse_unnamedallotments" ] ],
+	    "filter": [ "all", [ "in", "class", "landuse_allotments" ] ],
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#e5c7ab"
@@ -666,7 +678,7 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 13,
-	    "filter": [ "all", [ "in", "class", "landuse_allotments", "landuse_unnamedallotments" ] ],
+	    "filter": [ "all", [ "in", "class", "landuse_allotments" ] ],
 	    "paint": {
 		"fill-pattern": "pattern_landuse_allotments"
 	    }
@@ -708,18 +720,6 @@
 	    }
 	},
 	{
-	    "id": "land1-park",
-	    "type": "fill",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "leisure_park", "leisure_recreation_ground" ] ],
-	    "paint": {
-		"fill-antialias": true,
-		"fill-color": "#b6fdb6"
-	    }
-	},
-	{
 	    "id": "land1-golf_course",
 	    "type": "fill",
 	    "source": "someoneelse",
@@ -737,7 +737,7 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "landuse_grass", "landuse_unnamedgrass",
+	    "filter": [ "all", [ "in", "class", "landuse_grass", 
                                                 "leisure_common",
                                                 "leisure_garden" ] ],
 	    "paint": {
@@ -775,7 +775,7 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "leisure_pitch", "leisure_unnamedpitch" ] ],
+	    "filter": [ "all", [ "in", "class", "leisure_pitch" ] ],
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#8ad3af"

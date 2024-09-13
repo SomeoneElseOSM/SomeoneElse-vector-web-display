@@ -281,4 +281,5 @@ echo "Also copying some patterns over directly"
 cp ~/src/openstreetmap-carto-AJT/symbols/wood_broadleaved_pattern.png   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_broadleaved.png
 cp ~/src/openstreetmap-carto-AJT/symbols/wood_needleleaved_pattern.png  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_needleleaved.png
 cp ~/src/openstreetmap-carto-AJT/symbols/wood_mixed_pattern.png         ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_mixedleaved.png
+cp ~/src/openstreetmap-carto-AJT/symbols/scrub_pattern.png              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_scrub.png
 #

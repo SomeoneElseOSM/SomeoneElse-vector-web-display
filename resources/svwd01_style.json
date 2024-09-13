@@ -792,6 +792,29 @@
 	    }
 	},
 	{
+	    "id": "land1-scrub-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "natural_scrub" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#b5e3b5"
+	    }
+	},
+	{
+	    "id": "land1-scrub-13",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 13,
+	    "filter": [ "all", [ "in", "class", "natural_scrub" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_natural_scrub"
+	    }
+	},
+	{
 	    "id": "land1-swimming_pool",
 	    "type": "fill",
 	    "source": "someoneelse",

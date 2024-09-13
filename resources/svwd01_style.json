@@ -332,27 +332,99 @@
 	    }
 	},
 	{
-	    "id": "land2-wood",
+	    "id": "land2-unnamedwood-8",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
 	    "minzoom": 8,
-	    "filter": [ "all", [ "in", "class", "natural_unnamedwood" ] ],
+	    "filter": [ "all", [ "in", "class", "natural_unnamedwood",
+                                                "natural_unnamedbroadleaved",
+                                                "natural_unnamedneedleleaved",
+                                                "natural_unnamedmixedleaved" ] ],
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#aed1a0"
 	    }
 	},
 	{
-	    "id": "land1-wood",
+	    "id": "land2-unnamedbroadleaved-13",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land2",
+	    "minzoom": 13,
+	    "filter": [ "all", [ "in", "class", "natural_unnamedbroadleaved" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_natural_broadleaved"
+	    }
+	},
+	{
+	    "id": "land2-unnamedneedleleaved-13",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land2",
+	    "minzoom": 13,
+	    "filter": [ "all", [ "in", "class", "natural_unnamedneedleleaved" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_natural_needleleaved"
+	    }
+	},
+	{
+	    "id": "land2-unnamedmixedleaved-13",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land2",
+	    "minzoom": 13,
+	    "filter": [ "all", [ "in", "class", "natural_unnamedmixedleaved" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_natural_mixedleaved"
+	    }
+	},
+	{
+	    "id": "land1-wood-8",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 8,
-	    "filter": [ "all", [ "in", "class", "natural_wood" ] ],
+	    "filter": [ "all", [ "in", "class", "natural_wood",
+                                                "natural_broadleaved",
+                                                "natural_needleleaved",
+                                                "natural_mixedleaved" ] ],
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#aed1a0"
+	    }
+	},
+	{
+	    "id": "land1-broadleaved-13",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 13,
+	    "filter": [ "all", [ "in", "class", "natural_broadleaved" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_natural_broadleaved"
+	    }
+	},
+	{
+	    "id": "land1-needleleaved-13",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 8,
+	    "filter": [ "all", [ "in", "class", "natural_needleleaved" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_natural_needleleaved"
+	    }
+	},
+	{
+	    "id": "land1-mixedleaved-13",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 8,
+	    "filter": [ "all", [ "in", "class", "natural_mixedleaved" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_natural_mixedleaved"
 	    }
 	},
 	{

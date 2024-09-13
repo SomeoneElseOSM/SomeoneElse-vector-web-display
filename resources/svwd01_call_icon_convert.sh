@@ -274,6 +274,7 @@
 # Some use an original raster 32x32 source
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/military_red_hatch.png                                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_military.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/reef_pattern.png                                      ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_reef.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/reefsand_pattern.png                                      ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_reefsand.png
 #
 # Some copy straight from raster 64x64
 echo "Also copying some patterns over directly"

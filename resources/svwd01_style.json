@@ -1008,6 +1008,17 @@
 	    }
 	},
 	{
+	    "id": "land1-reefsand",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "natural_reefsand" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_natural_reefsand"
+	    }
+	},
+	{
 	    "id": "land2-military",
 	    "type": "fill",
 	    "source": "someoneelse",

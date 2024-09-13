@@ -997,6 +997,17 @@
 	    }
 	},
 	{
+	    "id": "land1-reef",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "natural_reef" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_natural_reef"
+	    }
+	},
+	{
 	    "id": "land2-military",
 	    "type": "fill",
 	    "source": "someoneelse",

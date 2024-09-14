@@ -1066,6 +1066,18 @@
 	    }
 	},
 	{
+	    "id": "land1-substation",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "power_substation" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#bbb"
+	    }
+	},
+	{
 	    "id": "land2-military",
 	    "type": "fill",
 	    "source": "someoneelse",

@@ -1053,6 +1053,19 @@
 	    }
 	},
 	{
+	    "id": "land1-generator",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "power_station",
+                                                "power_generator" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#bbb"
+	    }
+	},
+	{
 	    "id": "land2-military",
 	    "type": "fill",
 	    "source": "someoneelse",

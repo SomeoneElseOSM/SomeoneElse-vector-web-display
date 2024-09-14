@@ -1042,6 +1042,17 @@
 	    }
 	},
 	{
+	    "id": "land1-wetland",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "natural_wetland" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_natural_wetland"
+	    }
+	},
+	{
 	    "id": "land2-military",
 	    "type": "fill",
 	    "source": "someoneelse",

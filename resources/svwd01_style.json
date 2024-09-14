@@ -1042,6 +1042,17 @@
 	    }
 	},
 	{
+	    "id": "land1-zoo",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "tourism_zoo" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_tourism_zoo"
+	    }
+	},
+	{
 	    "id": "land1-wetland",
 	    "type": "fill",
 	    "source": "someoneelse",

@@ -815,6 +815,54 @@
 	    }
 	},
 	{
+	    "id": "land1-cemetery-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 9,
+	    "maxzoom": 13,
+	    "filter": [ "all", [ "in", "class", "landuse_christiancemetery",
+                                                "landuse_jewishcemetery",
+                                                "landuse_othercemetery"  ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#b5e3b5"
+	    }
+	},
+	{
+	    "id": "land1-othercemetery-13",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 13,
+	    "filter": [ "all", [ "in", "class", "landuse_othercemetery" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_landuse_othercemetery"
+	    }
+	},
+	{
+	    "id": "land1-christiancemetery-13",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 13,
+	    "filter": [ "all", [ "in", "class", "landuse_christiancemetery" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_landuse_christiancemetery"
+	    }
+	},
+	{
+	    "id": "land1-jewishcemetery-13",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 13,
+	    "filter": [ "all", [ "in", "class", "landuse_jewishcemetery" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_landuse_jewishcemetery"
+	    }
+	},
+	{
 	    "id": "land1-swimming_pool",
 	    "type": "fill",
 	    "source": "someoneelse",

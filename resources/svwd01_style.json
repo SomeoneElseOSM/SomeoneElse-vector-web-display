@@ -380,6 +380,54 @@
 	    }
 	},
 	{
+	    "id": "land2-cemetery-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land2",
+	    "minzoom": 9,
+	    "maxzoom": 13,
+	    "filter": [ "all", [ "in", "class", "landuse_unnamedchristiancemetery",
+                                                "landuse_unnamedjewishcemetery",
+                                                "landuse_unnamedothercemetery"  ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#aacbaf"
+	    }
+	},
+	{
+	    "id": "land2-unnamedothercemetery-13",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land2",
+	    "minzoom": 13,
+	    "filter": [ "all", [ "in", "class", "landuse_unnamedothercemetery" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_landuse_othercemetery"
+	    }
+	},
+	{
+	    "id": "land2-unnamedchristiancemetery-13",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land2",
+	    "minzoom": 13,
+	    "filter": [ "all", [ "in", "class", "landuse_unnamedchristiancemetery" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_landuse_christiancemetery"
+	    }
+	},
+	{
+	    "id": "land2-unnamedjewishcemetery-13",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land2",
+	    "minzoom": 13,
+	    "filter": [ "all", [ "in", "class", "landuse_unnamedjewishcemetery" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_landuse_jewishcemetery"
+	    }
+	},
+	{
 	    "id": "land1-wood-8",
 	    "type": "fill",
 	    "source": "someoneelse",
@@ -826,7 +874,7 @@
                                                 "landuse_othercemetery"  ] ],
 	    "paint": {
 		"fill-antialias": true,
-		"fill-color": "#b5e3b5"
+		"fill-color": "#aacbaf"
 	    }
 	},
 	{

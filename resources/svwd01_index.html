@@ -36,6 +36,10 @@ fetch("/metadata")
 		    zoom: 13 // starting zoom
 		});
 
+	    map.dragrotate.disable();
+	    map.keyboard.disable();
+	    map.touchZoomRotate.disableRotation();
+
 		// -- Comment the following lines out to remove debug UI --
 	    map.showTileBoundaries=false;
 	    

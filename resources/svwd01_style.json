@@ -26,6 +26,34 @@
 	    }
 	},
 	{
+	    "id": "land2-commercial",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land2",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "landuse_unnamedcommercial" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#ece0df"
+	    }
+	},
+	{
+	    "id": "land1-edumedical",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "amenity_university",
+                                                "amenity_college",
+                                                "amenity_school",
+                                                "amenity_hospital",
+                                                "amenity_kindergarten" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#f0f0d8"
+	    }
+	},
+	{
 	    "id": "land1-park",
 	    "type": "fill",
 	    "source": "someoneelse",
@@ -119,18 +147,6 @@
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#ebdbe8"
-	    }
-	},
-	{
-	    "id": "land2-commercial",
-	    "type": "fill",
-	    "source": "someoneelse",
-	    "source-layer": "land2",
-	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "landuse_unnamedcommercial" ] ],
-	    "paint": {
-		"fill-antialias": true,
-		"fill-color": "#ece0df"
 	    }
 	},
 	{
@@ -1308,6 +1324,21 @@
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#e9d1ff"
+	    }
+	},
+	{
+	    "id": "land1-parking",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "amenity_parking",
+                                                "amenity_parking_pay",
+                                                "amenity_parking_freedisabled",
+                                                "amenity_parking_paydisabled"  ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#f7efb7"
 	    }
 	},
 	{

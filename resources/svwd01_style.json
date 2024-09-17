@@ -1348,13 +1348,26 @@
 	    }
 	},
 	{
-	    "id": "building",
+	    "id": "building-other",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "building",
+	    "filter": [ "all", [ "!in", "class", "building_roof" ] ],
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#bca9a9"
+	    }
+	},
+	{
+	    "id": "building-roof",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "building",
+	    "filter": [ "all", [ "in", "class", "building_roof" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#bca9a9",
+		"fill-opacity": 0.7
 	    }
 	},
 	{

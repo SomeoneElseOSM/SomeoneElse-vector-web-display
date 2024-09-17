@@ -428,6 +428,20 @@
 	    }
 	},
 	{
+	    "id": "land2-aerodrome",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land2",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "aeroway_aerodrome",
+                                                "aeroway_large_aerodrome"  ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#ccc",
+		"fill-opacity": 0.2
+	    }
+	},
+	{
 	    "id": "land1-wood-8",
 	    "type": "fill",
 	    "source": "someoneelse",
@@ -1282,6 +1296,18 @@
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#8ad3af"
+	    }
+	},
+	{
+	    "id": "land1-apron",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "aeroway_apron" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#e9d1ff"
 	    }
 	},
 	{

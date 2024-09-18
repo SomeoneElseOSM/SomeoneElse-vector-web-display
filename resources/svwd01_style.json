@@ -38,6 +38,30 @@
 	    }
 	},
 	{
+	    "id": "land2-residential",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land2",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "landuse_unnamedresidential" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#e1e1e1"
+	    }
+	},
+	{
+	    "id": "land1-residential",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "landuse_residential" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#e1e1e1"
+	    }
+	},
+	{
 	    "id": "land1-edumedical",
 	    "type": "fill",
 	    "source": "someoneelse",
@@ -76,18 +100,6 @@
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#bedab3"
-	    }
-	},
-	{
-	    "id": "land2-residential",
-	    "type": "fill",
-	    "source": "someoneelse",
-	    "source-layer": "land2",
-	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "landuse_unnamedresidential" ] ],
-	    "paint": {
-		"fill-antialias": true,
-		"fill-color": "#e1e1e1"
 	    }
 	},
 	{
@@ -506,18 +518,6 @@
 	    "filter": [ "all", [ "in", "class", "natural_mixedleaved" ] ],
 	    "paint": {
 		"fill-pattern": "pattern_natural_mixedleaved"
-	    }
-	},
-	{
-	    "id": "land1-residential",
-	    "type": "fill",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "landuse_residential" ] ],
-	    "paint": {
-		"fill-antialias": true,
-		"fill-color": "#e1e1e1"
 	    }
 	},
 	{
@@ -947,18 +947,6 @@
 	    }
 	},
 	{
-	    "id": "land1-swimming_pool",
-	    "type": "fill",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 13,
-	    "filter": [ "all", [ "in", "class", "leisure_swimming_pool" ] ],
-	    "paint": {
-		"fill-antialias": true,
-		"fill-color": "#b5d0d0"
-	    }
-	},
-	{
 	    "id": "land1-playground",
 	    "type": "fill",
 	    "source": "someoneelse",
@@ -1211,6 +1199,36 @@
 	    }
 	},
 	{
+	    "id": "land1-swimming_pool-fill",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 13,
+	    "filter": [ "all", [ "in", "class", "leisure_swimming_pool" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#b5d0d0"
+	    }
+	},
+	{
+	    "id": "land1-swimming_pool-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 13,
+	    "filter": [ "all", [ "in", "class", "leisure_swimming_pool" ] ],
+	    "paint": {
+		"line-color": "#8cbdbd",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "land1-generator",
 	    "type": "fill",
 	    "source": "someoneelse",
@@ -1236,7 +1254,7 @@
 	    }
 	},
 	{
-	    "id": "land2-military",
+	    "id": "land2-military-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
@@ -1244,6 +1262,24 @@
 	    "filter": [ "all", [ "in", "class", "landuse_military" ] ],
 	    "paint": {
 		"fill-pattern": "pattern_landuse_military"
+	    }
+	},
+	{
+	    "id": "land2-military-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land2",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "landuse_military" ] ],
+	    "paint": {
+		"line-color": "#f55",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
 	    }
 	},
 	{

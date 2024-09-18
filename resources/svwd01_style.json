@@ -26,7 +26,7 @@
 	    }
 	},
 	{
-	    "id": "land2-commercial",
+	    "id": "land2-commercial-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
@@ -35,6 +35,24 @@
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#ece0df"
+	    }
+	},
+	{
+	    "id": "land2-commercial-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land2",
+	    "minzoom": 15,
+	    "filter": [ "all", [ "in", "class", "landuse_unnamedcommercial" ] ],
+	    "paint": {
+		"line-color": "#d1b2b0",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
 	    }
 	},
 	{
@@ -98,7 +116,7 @@
 	    }
 	},
 	{
-	    "id": "land1-edumedical",
+	    "id": "land1-eduhospital-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -111,6 +129,28 @@
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#f0f0d8"
+	    }
+	},
+	{
+	    "id": "land1-eduhospital-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 11,
+	    "filter": [ "all", [ "in", "class", "amenity_university",
+                                                "amenity_college",
+                                                "amenity_school",
+                                                "amenity_hospital",
+                                                "amenity_kindergarten" ] ],
+	    "paint": {
+		"line-color": "brown",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+                }
 	    }
 	},
 	{
@@ -586,7 +626,7 @@
 	    }
 	},
 	{
-	    "id": "land2-aerodrome",
+	    "id": "land2-aerodrome-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
@@ -597,6 +637,25 @@
 		"fill-antialias": true,
 		"fill-color": "#ccc",
 		"fill-opacity": 0.2
+	    }
+	},
+	{
+	    "id": "land2-aerodrome-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land2",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "aeroway_aerodrome",
+                                                "aeroway_large_aerodrome"  ] ],
+	    "paint": {
+		"line-color": "#ab9a9a",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+                }
 	    }
 	},
 	{
@@ -860,7 +919,7 @@
 	    }
 	},
 	{
-	    "id": "land1-commercial",
+	    "id": "land1-commercial-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -869,6 +928,24 @@
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#ece0df"
+	    }
+	},
+	{
+	    "id": "land1-commercial-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 15,
+	    "filter": [ "all", [ "in", "class", "landuse_commercial" ] ],
+	    "paint": {
+		"line-color": "#d1b2b0",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
 	    }
 	},
 	{
@@ -1509,7 +1586,7 @@
 	    }
 	},
 	{
-	    "id": "land1-generator",
+	    "id": "land1-generator-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -1522,7 +1599,26 @@
 	    }
 	},
 	{
-	    "id": "land1-substation",
+	    "id": "land1-generator-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 11,
+	    "filter": [ "all", [ "in", "class", "power_station",
+                                                "power_generator" ] ],
+	    "paint": {
+		"line-color": "#9b8b8b",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "land1-substation-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -1531,6 +1627,24 @@
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#bbb"
+	    }
+	},
+	{
+	    "id": "land1-substation-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "power_substation" ] ],
+	    "paint": {
+		"line-color": "#9b8b8b",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
 	    }
 	},
 	{
@@ -1667,6 +1781,36 @@
 	    }
 	},
 	{
+	    "id": "land1-leisuretrack-fill",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "leisure_track" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#74dcba"
+	    }
+	},
+	{
+	    "id": "land1-leisuretrack-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "class", "leisure_track" ] ],
+	    "paint": {
+		"line-color": "#3fc196",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "land1-apron",
 	    "type": "fill",
 	    "source": "someoneelse",
@@ -1679,7 +1823,7 @@
 	    }
 	},
 	{
-	    "id": "land1-parking",
+	    "id": "land1-parking-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -1691,6 +1835,27 @@
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#f7efb7"
+	    }
+	},
+	{
+	    "id": "land1-parking-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "class", "amenity_parking",
+                                                "amenity_parking_pay",
+                                                "amenity_parking_freedisabled",
+                                                "amenity_parking_paydisabled"  ] ],
+	    "paint": {
+		"line-color": "#dcd078",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
 	    }
 	},
 	{

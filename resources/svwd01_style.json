@@ -38,7 +38,7 @@
 	    }
 	},
 	{
-	    "id": "land2-residential",
+	    "id": "land2-residential-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
@@ -50,7 +50,25 @@
 	    }
 	},
 	{
-	    "id": "land1-residential",
+	    "id": "land2-residential-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land2",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "landuse_unnamedresidential" ] ],
+	    "paint": {
+		"line-color": "#b9b9b9",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "land1-residential-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -59,6 +77,24 @@
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#e1e1e1"
+	    }
+	},
+	{
+	    "id": "land1-residential-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "landuse_residential" ] ],
+	    "paint": {
+		"line-color": "#b9b9b9",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
 	    }
 	},
 	{
@@ -189,7 +225,7 @@
 	    }
 	},
 	{
-	    "id": "land2-quarry",
+	    "id": "land2-quarry-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
@@ -200,7 +236,25 @@
 	    }
 	},
 	{
-	    "id": "land2-historicquarry",
+	    "id": "land2-quarry-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land2",
+	    "minzoom": 10,
+	    "filter": [ "all", [ "in", "class", "landuse_unnamedquarry" ] ],
+	    "paint": {
+		"line-color": "grey",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+                }
+	    }
+	},
+	{
+	    "id": "land2-historicquarry-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
@@ -208,6 +262,24 @@
 	    "filter": [ "all", [ "in", "class", "landuse_unnamedhistoricquarry" ] ],
 	    "paint": {
 		"fill-pattern": "pattern_landuse_historicquarry"
+	    }
+	},
+	{
+	    "id": "land2-historicquarry-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land2",
+	    "minzoom": 10,
+	    "filter": [ "all", [ "in", "class", "landuse_unnamedhistoricquarry" ] ],
+	    "paint": {
+		"line-color": "grey",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+                }
 	    }
 	},
 	{
@@ -694,7 +766,7 @@
 	    }
 	},
 	{
-	    "id": "land1-quarry",
+	    "id": "land1-quarry-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -705,7 +777,25 @@
 	    }
 	},
 	{
-	    "id": "land1-historicquarry",
+	    "id": "land1-quarry-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 10,
+	    "filter": [ "all", [ "in", "class", "landuse_quarry" ] ],
+	    "paint": {
+		"line-color": "grey",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+                }
+	    }
+	},
+	{
+	    "id": "land1-historicquarry-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -713,6 +803,24 @@
 	    "filter": [ "all", [ "in", "class", "landuse_historicquarry" ] ],
 	    "paint": {
 		"fill-pattern": "pattern_landuse_historicquarry"
+	    }
+	},
+	{
+	    "id": "land1-historicquarry-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 10,
+	    "filter": [ "all", [ "in", "class", "landuse_historicquarry" ] ],
+	    "paint": {
+		"line-color": "grey",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+                }
 	    }
 	},
 	{
@@ -947,19 +1055,7 @@
 	    }
 	},
 	{
-	    "id": "land1-playground",
-	    "type": "fill",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "class", "leisure_playground" ] ],
-	    "paint": {
-		"fill-antialias": true,
-		"fill-color": "#ccfff1"
-	    }
-	},
-	{
-	    "id": "land1-schoolyard",
+	    "id": "land1-schoolyard-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -968,6 +1064,24 @@
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#f1f1f1"
+	    }
+	},
+	{
+	    "id": "land1-schoolyard-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "leisure_schoolyard" ] ],
+	    "paint": {
+		"line-color": "#d5cfcf",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
 	    }
 	},
 	{
@@ -1184,7 +1298,7 @@
 	    }
 	},
 	{
-	    "id": "land1-camp_site",
+	    "id": "land1-camp_site-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -1196,6 +1310,26 @@
 		"fill-antialias": true,
 		"fill-color": "#ccff99",
 		"fill-opacity": 0.5
+	    }
+	},
+	{
+	    "id": "land1-camp_site-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "tourism_camp_site",
+                                                "tourism_caravan_site",
+                                                "tourism_picnic_site" ] ],
+	    "paint": {
+		"line-color": "#9de555",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
 	    }
 	},
 	{
@@ -1330,6 +1464,36 @@
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#cfeca8"
+	    }
+	},
+	{
+	    "id": "land1-playground-fill",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "leisure_playground" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#ccfff1"
+	    }
+	},
+	{
+	    "id": "land1-playground-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "leisure_playground" ] ],
+	    "paint": {
+		"line-color": "#99edd6",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
 	    }
 	},
 	{

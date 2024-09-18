@@ -151,7 +151,7 @@
 	    }
 	},
 	{
-	    "id": "land2-farmyard",
+	    "id": "land2-farmyard-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
@@ -163,7 +163,25 @@
 	    }
 	},
 	{
-	    "id": "land2-farmland",
+	    "id": "land2-farmyard-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land2",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "landuse_unnamedfarmyard" ] ],
+	    "paint": {
+		"line-color": "#d1b48c",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+                }
+	    }
+	},
+	{
+	    "id": "land2-farmland-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
@@ -175,7 +193,7 @@
 	    }
 	},
 	{
-	    "id": "land2-farmgrass",
+	    "id": "land2-farmgrass-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
@@ -187,7 +205,26 @@
 	    }
 	},
 	{
-	    "id": "land2-industrial",
+	    "id": "land2-farmlandgrass-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land2",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "landuse_unnamedfarmland",
+				                "landuse_unnamedfarmgrass" ] ],
+	    "paint": {
+		"line-color": "#c8b69e",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+                }
+	    }
+	},
+	{
+	    "id": "land2-industrial-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
@@ -196,6 +233,24 @@
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#ebdbe8"
+	    }
+	},
+	{
+	    "id": "land2-industrial-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land2",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "landuse_unnamedindustrial" ] ],
+	    "paint": {
+		"line-color": "#c6b3c3",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+                }
 	    }
 	},
 	{
@@ -605,7 +660,7 @@
 	    }
 	},
 	{
-	    "id": "land1-farmyard",
+	    "id": "land1-farmyard-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -617,7 +672,25 @@
 	    }
 	},
 	{
-	    "id": "land1-farmland",
+	    "id": "land1-farmyard-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "landuse_farmyard" ] ],
+	    "paint": {
+		"line-color": "#d1b48c",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+                }
+	    }
+	},
+	{
+	    "id": "land1-farmland-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -629,7 +702,7 @@
 	    }
 	},
 	{
-	    "id": "land1-farmgrass",
+	    "id": "land1-farmgrass-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -638,6 +711,25 @@
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#eeefda"
+	    }
+	},
+	{
+	    "id": "land1-farmlandgrass-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "landuse_farmland",
+				                "landuse_farmgrass" ] ],
+	    "paint": {
+		"line-color": "#c8b69e",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+                }
 	    }
 	},
 	{
@@ -665,7 +757,7 @@
 	    }
 	},
 	{
-	    "id": "land1-retail",
+	    "id": "land1-retail-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -677,7 +769,25 @@
 	    }
 	},
 	{
-	    "id": "land1-industrial",
+	    "id": "land1-retail-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "landuse_retail" ] ],
+	    "paint": {
+		"line-color": "#d99c95",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+                }
+	    }
+	},
+	{
+	    "id": "land1-industrial-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -686,6 +796,24 @@
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#ebdbe8"
+	    }
+	},
+	{
+	    "id": "land1-industrial-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "landuse_industrial" ] ],
+	    "paint": {
+		"line-color": "#c6b3c3",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+                }
 	    }
 	},
 	{
@@ -702,7 +830,7 @@
 	    }
 	},
 	{
-	    "id": "land1-railway",
+	    "id": "land1-railway-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -711,6 +839,24 @@
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#ebdbe8"
+	    }
+	},
+	{
+	    "id": "land1-railway-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "landuse_railway" ] ],
+	    "paint": {
+		"line-color": "#c6b3c3",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+                }
 	    }
 	},
 	{

@@ -37,11 +37,11 @@ fetch("/metadata")
 		});
 
 	    map.dragRotate.disable();
-	    map.keyboard.disable();
+	    map.keyboard.disableRotation();
 	    map.touchZoomRotate.disableRotation();
 
-		// -- Comment the following lines out to remove debug UI --
-	    map.showTileBoundaries=false;
+	    // -- Comment the following lines out to remove debug UI --
+//	    map.showTileBoundaries=false;
 	    
             map.addControl(new MaplibreInspect({
 		showInspectMap: true,

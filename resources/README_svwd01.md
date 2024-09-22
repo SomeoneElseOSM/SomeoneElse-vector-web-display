@@ -1,4 +1,6 @@
-# Display style for use with schema [sve01]https://github.com/SomeoneElseOSM/SomeoneElse-vector-extract/blob/main/resources/README_sve01.md)
+# Display style for use with schema "sve01"
+
+See also the [schema]https://github.com/SomeoneElseOSM/SomeoneElse-vector-extract/blob/main/resources/README_sve01.md) readme.
 
 The cartography here is basically a reimplementation of the raster maps at [map.atownsend.org.uk](https://map.atownsend.org.uk/).  The schema described [here](https://github.com/SomeoneElseOSM/SomeoneElse-vector-extract/blob/main/resources/README_sve01.md) broadly matches that from [here](https://github.com/SomeoneElseOSM/SomeoneElse-style), and the display code essentially reimplements [this](https://github.com/SomeoneElseOSM/openstreetmap-carto-AJT).
 

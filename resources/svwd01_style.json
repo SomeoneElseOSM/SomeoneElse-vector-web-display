@@ -2134,6 +2134,25 @@
 	    }
 	},
 	{
+	    "id": "waterway-intriver",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "waterway",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "intriver" ] ],
+	    "paint": {
+		"line-color": "#b5d0d0",
+                "line-dasharray": [2.0, 4.0],
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 12,  2.0 ],
+			[ 20, 96.0 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "waterway-stream",
 	    "type": "line",
 	    "source": "someoneelse",

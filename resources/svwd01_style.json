@@ -2142,7 +2142,7 @@
 	    "filter": [ "all", [ "in", "class", "intriver" ] ],
 	    "paint": {
 		"line-color": "#b5d0d0",
-                "line-dasharray": [2.0, 4.0],
+                "line-dasharray": [4.0, 2.0],
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
@@ -2177,6 +2177,30 @@
 	    }
 	},
 	{
+	    "id": "waterway-intstream",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "waterway",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "intstream" ] ],
+	    "paint": {
+		"line-color": "#b5d0d0",
+                "line-dasharray": [4.0, 2.0],
+		"line-width": {
+		    "base": 1.0,
+		    "stops": [
+			[ 12,   1.0 ],
+			[ 14,   1.5 ],
+			[ 16,   3.0 ],
+			[ 18,   7.0 ],
+			[ 20,  15.0 ],
+			[ 22,  50.0 ],
+			[ 24, 200.0 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "waterway-ditch",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -2195,6 +2219,25 @@
 			[ 20,  10.0 ],
 			[ 22,  67.0 ],
 			[ 24, 133.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "waterway-derelict_canal",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "waterway",
+	    "minzoom": 11,
+	    "filter": [ "all", [ "in", "class", "derelict_canal" ] ],
+	    "paint": {
+		"line-color": "#b5e4d0",
+                "line-dasharray": [2.0, 1.0],
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 11,  2.0 ],
+			[ 20, 96.0 ]
 		    ]
 		}
 	    }

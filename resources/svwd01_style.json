@@ -1640,7 +1640,7 @@
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "minzoom": 9,
+	    "minzoom": 12,
 	    "filter": [ "all", [ "in", "class", "natural_reef" ] ],
 	    "paint": {
 		"fill-pattern": "pattern_natural_reef"
@@ -1651,7 +1651,7 @@
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "minzoom": 9,
+	    "minzoom": 12,
 	    "filter": [ "all", [ "in", "class", "natural_reefsand" ] ],
 	    "paint": {
 		"fill-pattern": "pattern_natural_reefsand"

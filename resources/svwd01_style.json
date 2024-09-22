@@ -2115,6 +2115,27 @@
 	    }
 	},
 	{
+	    "id": "waterway-river",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "waterway",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "river" ]
+	    ],
+	    "paint": {
+		"line-color": "#b5d0d0",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[  5,  2.0 ],
+			[ 20, 96.0 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "highway-pathnarrow",
 	    "type": "line",
 	    "source": "someoneelse",

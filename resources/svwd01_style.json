@@ -154,6 +154,18 @@
 	    }
 	},
 	{
+	    "id": "land1-attraction",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "tourism_attraction" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#fbeff9"
+	    }
+	},
+	{
 	    "id": "land1-park",
 	    "type": "fill",
 	    "source": "someoneelse",

@@ -2120,10 +2120,8 @@
 	    "source": "someoneelse",
 	    "source-layer": "waterway",
 	    "minzoom": 12,
-	    "filter": [
-		"all",
-		[ "in", "class", "river" ]
-	    ],
+	    "filter": [ "all", [ "in", "class", "river",
+                                                "canal" ] ],
 	    "paint": {
 		"line-color": "#b5d0d0",
 		"line-width": {

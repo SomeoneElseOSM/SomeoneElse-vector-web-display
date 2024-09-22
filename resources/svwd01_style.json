@@ -2224,20 +2224,19 @@
 	    }
 	},
 	{
-	    "id": "waterway-derelict_canal",
+	    "id": "waterway-weir",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "waterway",
-	    "minzoom": 11,
-	    "filter": [ "all", [ "in", "class", "derelict_canal" ] ],
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "class", "weir" ] ],
 	    "paint": {
-		"line-color": "#b5e4d0",
-                "line-dasharray": [2.0, 1.0],
+		"line-color": "#aaa",
 		"line-width": {
-		    "base": 2.0,
+		    "base": 0.6,
 		    "stops": [
-			[ 11,  2.0 ],
-			[ 20, 96.0 ]
+			[ 14, 0.6 ],
+			[ 20, 1.2 ]
 		    ]
 		}
 	    }

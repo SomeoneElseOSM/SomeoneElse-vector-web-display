@@ -21,6 +21,7 @@
 <!-- <div id='refresh' onclick='reload()'>Reload</div> -->
 <script>
 var map;
+var osmAttrib='Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>';
 
 fetch("/metadata")
 	.then(response => response.json())
@@ -33,8 +34,10 @@ fetch("/metadata")
 		    center: [(Number(bounds[0])+Number(bounds[2]))/2,
 			         (Number(bounds[1])+Number(bounds[3]))/2], // starting position [lng, lat]
 		    hash: true,
-		    zoom: 13 // starting zoom
+		    zoom: 13, // starting zoom
+		    attributionControl: false
 		});
+	    map.addControl(new maplibregl.AttributionControl({ customAttribution: osmAttrib }), 'bottom-right');
 
 	    map.dragRotate.disable();
 	    map.keyboard.disableRotation();
@@ -43,10 +46,10 @@ fetch("/metadata")
 	    // -- Comment the following lines out to remove debug UI --
 //	    map.showTileBoundaries=false;
 	    
-            map.addControl(new MaplibreInspect({
-		showInspectMap: true,
-		showInspectButton: false
-	    }));
+//            map.addControl(new MaplibreInspect({
+//		showInspectMap: true,
+//		showInspectButton: false
+//	    }));
 
 		// -- --
 	}

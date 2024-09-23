@@ -936,7 +936,7 @@
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "minzoom": 9,
+	    "minzoom": 15,
 	    "filter": [ "all", [ "in", "class", "landuse_farmland",
 				                "landuse_farmgrass" ] ],
 	    "paint": {

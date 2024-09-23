@@ -37,8 +37,13 @@ fetch("/metadata")
 		    zoom: 13, // starting zoom
 		    attributionControl: false
 		});
+
+	    // Add default OSM attribution
 	    map.addControl(new maplibregl.AttributionControl({ customAttribution: osmAttrib }), 'bottom-right');
 
+	    // Add zoom control
+	    map.addControl(new maplibregl.NavigationControl());
+	    
 	    map.dragRotate.disable();
 	    map.keyboard.disableRotation();
 	    map.touchZoomRotate.disableRotation();

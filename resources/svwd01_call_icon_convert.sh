@@ -280,6 +280,8 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/reefsand_pattern.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_reefsand.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/marsh.png                                             ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_wetland.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/zoo.png                                               ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_tourism_zoo.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/intwater_blue_hatch.png                               ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_intermittentwater.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/floodprone_blue_hatch.png                             ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_flood_prone.png
 #
 # Some copy straight from raster 64x64
 echo "Also copying some patterns over directly"

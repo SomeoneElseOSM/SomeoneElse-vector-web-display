@@ -1939,6 +1939,25 @@
 	    }
 	},
 	{
+	    "id": "land2-marina-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land2",
+	    "minzoom": 13,
+	    "filter": [ "all", [ "in", "class", "leisure_marina" ] ],
+	    "paint": {
+		"line-color": "blue",
+		"line-opacity": 0.1,
+		"line-width": {
+		    "base": 4.8,
+		    "stops": [
+			[ 15,  4.8 ],
+			[ 20,  19.2 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "land1-playground-fill",
 	    "type": "fill",
 	    "source": "someoneelse",

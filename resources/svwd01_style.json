@@ -5253,7 +5253,7 @@
 	    }
 	},
 	{
-	    "id": "land1-wood-name",
+	    "id": "land1-woodgrass-name",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -5261,7 +5261,13 @@
 	    "filter": [ "all", [ "in", "class", "natural_wood",
                                                 "natural_broadleaved",
                                                 "natural_needleleaved",
-                                                "natural_mixedleaved" ] ],
+                                                "natural_mixedleaved",
+                                                "natural_scrub",
+                                                "natural_wetland",
+                                                "natural_grassland",
+                                                "landuse_wetmeadow",
+                                                "landuse_saltmarsh",
+                                                "landuse_reedbed" ] ],
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{name}\n",

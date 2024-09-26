@@ -196,7 +196,7 @@
 	    }
 	},
 	{
-	    "id": "land1-attraction",
+	    "id": "land1-attraction-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -353,7 +353,7 @@
 	    }
 	},
 	{
-	    "id": "land2-unnamedconstruction",
+	    "id": "land2-unnamedconstruction-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
@@ -366,7 +366,7 @@
 	    }
 	},
 	{
-	    "id": "land2-unnamedlandfill",
+	    "id": "land2-unnamedlandfill-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
@@ -437,7 +437,7 @@
 	    }
 	},
 	{
-	    "id": "land2-unnamedorchard",
+	    "id": "land2-unnamedorchard-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
@@ -448,7 +448,7 @@
 	    }
 	},
 	{
-	    "id": "land2-unnamedwetmeadow-13",
+	    "id": "land2-unnamedwetmeadow-fill-13",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
@@ -459,7 +459,7 @@
 	    }
 	},
 	{
-	    "id": "land2-unnamedmeadowtransitional-13",
+	    "id": "land2-unnamedmeadowtransitional-fill-13",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
@@ -470,7 +470,7 @@
 	    }
 	},
 	{
-	    "id": "land2-unnamedmeadowwildflower-13",
+	    "id": "land2-unnamedmeadowwildflower-fill-13",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
@@ -481,7 +481,7 @@
 	    }
 	},
 	{
-	    "id": "land2-unnamedmeadowperpetual-13",
+	    "id": "land2-unnamedmeadowperpetual-fill-13",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
@@ -492,7 +492,7 @@
 	    }
 	},
 	{
-	    "id": "land2-unnamedsaltmarsh",
+	    "id": "land2-unnamedsaltmarsh-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
@@ -503,7 +503,7 @@
 	    }
 	},
 	{
-	    "id": "land2-unnamedallotments-9",
+	    "id": "land2-unnamedallotments-fill-9",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
@@ -516,7 +516,7 @@
 	    }
 	},
 	{
-	    "id": "land2-unnamedallotments-13",
+	    "id": "land2-unnamedallotments-fill-13",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
@@ -527,7 +527,7 @@
 	    }
 	},
 	{
-	    "id": "land2-unnamedscrub-9",
+	    "id": "land2-unnamedscrub-fill-9",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
@@ -539,7 +539,7 @@
 	    }
 	},
 	{
-	    "id": "land2-unnamedscrub-13",
+	    "id": "land2-unnamedscrub-fill-13",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
@@ -550,7 +550,7 @@
 	    }
 	},
 	{
-	    "id": "land2-unnamedheath",
+	    "id": "land2-unnamedheath-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
@@ -562,7 +562,7 @@
 	    }
 	},
 	{
-	    "id": "land2-unnamedgrass",
+	    "id": "land2-unnamedgrass-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
@@ -574,7 +574,7 @@
 	    }
 	},
 	{
-	    "id": "land2-unnamedbeach",
+	    "id": "land2-unnamedbeach-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
@@ -585,7 +585,7 @@
 	    }
 	},
 	{
-	    "id": "land2-unnamedsand",
+	    "id": "land2-unnamedsand-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
@@ -597,7 +597,7 @@
 	    }
 	},
 	{
-	    "id": "land2-unnamedtidal_sand",
+	    "id": "land2-unnamedtidal_sand-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
@@ -608,7 +608,7 @@
 	    }
 	},
 	{
-	    "id": "land2-unnamedwetland",
+	    "id": "land2-unnamedwetland-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
@@ -619,7 +619,7 @@
 	    }
 	},
 	{
-	    "id": "land2-unnamedgrassland",
+	    "id": "land2-unnamedgrassland-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
@@ -631,7 +631,7 @@
 	    }
 	},
 	{
-	    "id": "land1-barracks",
+	    "id": "land1-barracks-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -655,7 +655,7 @@
 	    }
 	},
 	{
-	    "id": "land2-unnamedwood-8",
+	    "id": "land2-unnamedwood-fill-8",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
@@ -670,7 +670,7 @@
 	    }
 	},
 	{
-	    "id": "land2-unnamedbroadleaved-13",
+	    "id": "land2-unnamedbroadleaved-fill-13",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
@@ -681,7 +681,7 @@
 	    }
 	},
 	{
-	    "id": "land2-unnamedneedleleaved-13",
+	    "id": "land2-unnamedneedleleaved-fill-13",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
@@ -692,7 +692,7 @@
 	    }
 	},
 	{
-	    "id": "land2-unnamedmixedleaved-13",
+	    "id": "land2-unnamedmixedleaved-fill-13",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
@@ -703,7 +703,7 @@
 	    }
 	},
 	{
-	    "id": "land2-unnamedmud",
+	    "id": "land2-unnamedmud-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
@@ -714,7 +714,7 @@
 	    }
 	},
 	{
-	    "id": "land2-unnamedtidal_mud",
+	    "id": "land2-unnamedtidal_mud-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
@@ -725,7 +725,7 @@
 	    }
 	},
 	{
-	    "id": "land2-bare_rock",
+	    "id": "land2-bare_rock-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
@@ -736,7 +736,7 @@
 	    }
 	},
 	{
-	    "id": "land2-cemetery-9",
+	    "id": "land2-cemetery-fill-9",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
@@ -751,7 +751,7 @@
 	    }
 	},
 	{
-	    "id": "land2-unnamedothercemetery-13",
+	    "id": "land2-unnamedothercemetery-fill-13",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
@@ -762,7 +762,7 @@
 	    }
 	},
 	{
-	    "id": "land2-unnamedchristiancemetery-13",
+	    "id": "land2-unnamedchristiancemetery-fill-13",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
@@ -773,7 +773,7 @@
 	    }
 	},
 	{
-	    "id": "land2-unnamedjewishcemetery-13",
+	    "id": "land2-unnamedjewishcemetery-fill-13",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
@@ -843,7 +843,7 @@
 	    }
 	},
 	{
-	    "id": "land1-needleleaved-13",
+	    "id": "land1-needleleaved-fill-13",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -854,7 +854,7 @@
 	    }
 	},
 	{
-	    "id": "land1-mixedleaved-13",
+	    "id": "land1-mixedleaved-fill-13",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -954,7 +954,7 @@
 	    }
 	},
 	{
-	    "id": "land1-recreation_ground",
+	    "id": "land1-recreation_ground-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -966,7 +966,7 @@
 	    }
 	},
 	{
-	    "id": "land1-village_green",
+	    "id": "land1-village_green-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -1038,7 +1038,7 @@
 	    }
 	},
 	{
-	    "id": "land1-garages",
+	    "id": "land1-garages-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -1111,7 +1111,7 @@
 	    }
 	},
 	{
-	    "id": "land1-construction",
+	    "id": "land1-construction-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -1126,7 +1126,7 @@
 	    }
 	},
 	{
-	    "id": "land1-landfill",
+	    "id": "land1-landfill-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -1139,7 +1139,7 @@
 	    }
 	},
 	{
-	    "id": "land1-historic",
+	    "id": "land1-historic-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -1209,7 +1209,7 @@
 	    }
 	},
 	{
-	    "id": "land1-vineyard",
+	    "id": "land1-vineyard-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -1220,7 +1220,7 @@
 	    }
 	},
 	{
-	    "id": "land1-orchard",
+	    "id": "land1-orchard-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -1231,7 +1231,7 @@
 	    }
 	},
 	{
-	    "id": "land1-wetmeadow-13",
+	    "id": "land1-wetmeadow-fill-13",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -1242,7 +1242,7 @@
 	    }
 	},
 	{
-	    "id": "land1-meadowtransitional-13",
+	    "id": "land1-meadowtransitional-fill-13",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -1253,7 +1253,7 @@
 	    }
 	},
 	{
-	    "id": "land1-meadowwildflower-13",
+	    "id": "land1-meadowwildflower-fill-13",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -1264,7 +1264,7 @@
 	    }
 	},
 	{
-	    "id": "land1-meadowperpetual-13",
+	    "id": "land1-meadowperpetual-fill-13",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -1275,7 +1275,7 @@
 	    }
 	},
 	{
-	    "id": "land1-saltmarsh",
+	    "id": "land1-saltmarsh-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -1286,7 +1286,7 @@
 	    }
 	},
 	{
-	    "id": "land1-reedbed",
+	    "id": "land1-reedbed-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -1297,7 +1297,7 @@
 	    }
 	},
 	{
-	    "id": "land1-allotments-9",
+	    "id": "land1-allotments-fill-9",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -1310,7 +1310,7 @@
 	    }
 	},
 	{
-	    "id": "land1-allotments-13",
+	    "id": "land1-allotments-fill-13",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -1321,7 +1321,7 @@
 	    }
 	},
 	{
-	    "id": "land1-scrub-9",
+	    "id": "land1-scrub-fill-9",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -1333,7 +1333,7 @@
 	    }
 	},
 	{
-	    "id": "land1-scrub-13",
+	    "id": "land1-scrub-fill-13",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -1344,7 +1344,7 @@
 	    }
 	},
 	{
-	    "id": "land1-cemetery-9",
+	    "id": "land1-cemetery-fill-9",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -1359,7 +1359,7 @@
 	    }
 	},
 	{
-	    "id": "land1-othercemetery-13",
+	    "id": "land1-othercemetery-fill-13",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -1370,7 +1370,7 @@
 	    }
 	},
 	{
-	    "id": "land1-christiancemetery-13",
+	    "id": "land1-christiancemetery-fill-13",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -1381,7 +1381,7 @@
 	    }
 	},
 	{
-	    "id": "land1-jewishcemetery-13",
+	    "id": "land1-jewishcemetery-fill-13",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -1422,7 +1422,7 @@
 	    }
 	},
 	{
-	    "id": "land1-beach",
+	    "id": "land1-beach-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -1433,7 +1433,7 @@
 	    }
 	},
 	{
-	    "id": "land1-tidal_beach",
+	    "id": "land1-tidal_beach-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -1444,7 +1444,7 @@
 	    }
 	},
 	{
-	    "id": "land1-mud",
+	    "id": "land1-mud-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -1455,7 +1455,7 @@
 	    }
 	},
 	{
-	    "id": "land1-tidal_mud",
+	    "id": "land1-tidal_mud-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -1466,7 +1466,7 @@
 	    }
 	},
 	{
-	    "id": "land1-bare_rock",
+	    "id": "land1-bare_rock-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -1477,7 +1477,7 @@
 	    }
 	},
 	{
-	    "id": "land1-tidal_rock",
+	    "id": "land1-tidal_rock-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -1488,7 +1488,7 @@
 	    }
 	},
 	{
-	    "id": "land1-sand",
+	    "id": "land1-sand-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -1500,7 +1500,7 @@
 	    }
 	},
 	{
-	    "id": "land1-tidal_sand",
+	    "id": "land1-tidal_sand-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -1511,7 +1511,7 @@
 	    }
 	},
 	{
-	    "id": "land1-scree",
+	    "id": "land1-scree-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -1522,7 +1522,7 @@
 	    }
 	},
 	{
-	    "id": "land1-tidal_scree",
+	    "id": "land1-tidal_scree-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -1533,7 +1533,7 @@
 	    }
 	},
 	{
-	    "id": "land1-shingle",
+	    "id": "land1-shingle-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -1544,7 +1544,7 @@
 	    }
 	},
 	{
-	    "id": "land1-tidal_shingle",
+	    "id": "land1-tidal_shingle-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -1555,7 +1555,7 @@
 	    }
 	},
 	{
-	    "id": "land1-desert",
+	    "id": "land1-desert-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -1567,7 +1567,7 @@
 	    }
 	},
 	{
-	    "id": "land1-heath",
+	    "id": "land1-heath-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -1579,7 +1579,7 @@
 	    }
 	},
 	{
-	    "id": "land1-grassland",
+	    "id": "land1-grassland-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -1591,7 +1591,7 @@
 	    }
 	},
 	{
-	    "id": "land1-reef",
+	    "id": "land1-reef-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -1602,7 +1602,7 @@
 	    }
 	},
 	{
-	    "id": "land1-reefsand",
+	    "id": "land1-reefsand-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -1613,7 +1613,7 @@
 	    }
 	},
 	{
-	    "id": "land1-zoo",
+	    "id": "land1-zoo-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -1624,7 +1624,7 @@
 	    }
 	},
 	{
-	    "id": "land1-wetland",
+	    "id": "land1-wetland-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -1791,7 +1791,7 @@
 	    }
 	},
 	{
-	    "id": "land1-golf_course",
+	    "id": "land1-golf_course-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -1803,7 +1803,7 @@
 	    }
 	},
 	{
-	    "id": "land1-golfgreen",
+	    "id": "land1-golfgreen-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -1815,7 +1815,7 @@
 	    }
 	},
 	{
-	    "id": "land1-stadium",
+	    "id": "land1-stadium-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -1827,7 +1827,7 @@
 	    }
 	},
 	{
-	    "id": "land1-grass",
+	    "id": "land1-grass-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -2021,7 +2021,7 @@
 	    }
 	},
 	{
-	    "id": "land1-apron",
+	    "id": "land1-apron-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -2140,7 +2140,7 @@
 	    }
 	},
 	{
-	    "id": "building-other",
+	    "id": "building-other-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "building",
@@ -2151,7 +2151,7 @@
 	    }
 	},
 	{
-	    "id": "building-roof",
+	    "id": "building-roof-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "building",
@@ -5506,7 +5506,8 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "class", "natural_sand",
+	    "filter": [ "all", [ "in", "class", "natural_desert",
+                                                "natural_sand",
                                                 "natural_tidal_sand",
                                                 "natural_beach",
                                                 "natural_tidal_beach" ] ],
@@ -5524,6 +5525,39 @@
 	    },
 	    "paint": {
 		"text-color": "#826a24",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-rock-name",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "natural_bare_rock",
+                                                "natural_tidal_rock",
+                                                "natural_reef",
+                                                "natural_reefsand",
+                                                "natural_scree",
+                                                "natural_tidal_scree",
+                                                "natural_shingle",
+                                                "natural_tidal_shingle" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 14,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#6a6965",
 		"text-halo-blur": 0.5,
 		"text-halo-color": "#ffffff",
 		"text-halo-width": 1

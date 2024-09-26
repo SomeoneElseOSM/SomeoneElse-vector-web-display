@@ -98,6 +98,36 @@
 	    }
 	},
 	{
+	    "id": "land1-glacier-fill",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 5,
+	    "filter": [ "all", [ "in", "class", "natural_glacier" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#ddecec"
+	    }
+	},
+	{
+	    "id": "land1-glacier-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 5,
+	    "filter": [ "all", [ "in", "class", "natural_glacier" ] ],
+	    "paint": {
+		"line-color": "#9cf",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "land1-residential-fill",
 	    "type": "fill",
 	    "source": "someoneelse",

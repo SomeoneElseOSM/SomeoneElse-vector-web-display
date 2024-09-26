@@ -208,12 +208,13 @@
 	    }
 	},
 	{
-	    "id": "land1-park",
+	    "id": "land1-park-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "leisure_park", "leisure_recreation_ground" ] ],
+	    "filter": [ "all", [ "in", "class", "leisure_park", 
+                                                "leisure_recreation_ground" ] ],
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#b6fdb6",
@@ -221,7 +222,7 @@
 	    }
 	},
 	{
-	    "id": "land2-unnamedforest",
+	    "id": "land2-unnamedforest-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
@@ -233,12 +234,16 @@
 	    }
 	},
 	{
-	    "id": "land2-unnamedmeadow",
+	    "id": "land2-unnamedmeadow-fill-9",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
 	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "landuse_unnamedmeadow" ] ],
+	    "filter": [ "all", [ "in", "class", "landuse_unnamedmeadow",
+                                                "landuse_unnamedmeadowtransitional",
+                                                "landuse_unnamedmeadowwildflower",
+                                                "landuse_unnamedwetmeadow",
+                                                "landuse_unnamedmeadowperpetual" ] ],
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#e8f6d5"
@@ -443,18 +448,6 @@
 	    }
 	},
 	{
-	    "id": "land2-unnamedwetmeadow-9",
-	    "type": "fill",
-	    "source": "someoneelse",
-	    "source-layer": "land2",
-	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "landuse_unnamedwetmeadow" ] ],
-	    "paint": {
-		"fill-antialias": true,
-		"fill-color": "#e8f6d5"
-	    }
-	},
-	{
 	    "id": "land2-unnamedwetmeadow-13",
 	    "type": "fill",
 	    "source": "someoneelse",
@@ -463,18 +456,6 @@
 	    "filter": [ "all", [ "in", "class", "landuse_unnamedwetmeadow" ] ],
 	    "paint": {
 		"fill-pattern": "pattern_landuse_wetmeadow"
-	    }
-	},
-	{
-	    "id": "land2-unnamedmeadowtransitional-9",
-	    "type": "fill",
-	    "source": "someoneelse",
-	    "source-layer": "land2",
-	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "landuse_unnamedmeadowtransitional" ] ],
-	    "paint": {
-		"fill-antialias": true,
-		"fill-color": "#e8f6d5"
 	    }
 	},
 	{
@@ -489,18 +470,6 @@
 	    }
 	},
 	{
-	    "id": "land2-unnamedmeadowwildflower-9",
-	    "type": "fill",
-	    "source": "someoneelse",
-	    "source-layer": "land2",
-	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "landuse_unnamedmeadowwildflower" ] ],
-	    "paint": {
-		"fill-antialias": true,
-		"fill-color": "#e8f6d5"
-	    }
-	},
-	{
 	    "id": "land2-unnamedmeadowwildflower-13",
 	    "type": "fill",
 	    "source": "someoneelse",
@@ -509,18 +478,6 @@
 	    "filter": [ "all", [ "in", "class", "landuse_unnamedmeadowwildflower" ] ],
 	    "paint": {
 		"fill-pattern": "pattern_landuse_meadowwildflower"
-	    }
-	},
-	{
-	    "id": "land2-unnamedmeadowperpetual-9",
-	    "type": "fill",
-	    "source": "someoneelse",
-	    "source-layer": "land2",
-	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "landuse_unnamedmeadowperpetual" ] ],
-	    "paint": {
-		"fill-antialias": true,
-		"fill-color": "#e8f6d5"
 	    }
 	},
 	{
@@ -908,12 +865,16 @@
 	    }
 	},
 	{
-	    "id": "land1-meadow",
+	    "id": "land1-meadow-fill-9",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "landuse_meadow" ] ],
+	    "filter": [ "all", [ "in", "class", "landuse_meadow",
+                                                "landuse_meadowtransitional",
+                                                "landuse_meadowwildflower",
+                                                "landuse_wetmeadow",
+                                                "landuse_meadowperpetual" ] ],
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#e8f6d5"
@@ -1270,18 +1231,6 @@
 	    }
 	},
 	{
-	    "id": "land1-wetmeadow-9",
-	    "type": "fill",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "landuse_wetmeadow" ] ],
-	    "paint": {
-		"fill-antialias": true,
-		"fill-color": "#e8f6d5"
-	    }
-	},
-	{
 	    "id": "land1-wetmeadow-13",
 	    "type": "fill",
 	    "source": "someoneelse",
@@ -1290,18 +1239,6 @@
 	    "filter": [ "all", [ "in", "class", "landuse_wetmeadow" ] ],
 	    "paint": {
 		"fill-pattern": "pattern_landuse_wetmeadow"
-	    }
-	},
-	{
-	    "id": "land1-meadowtransitional-9",
-	    "type": "fill",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "landuse_meadowtransitional" ] ],
-	    "paint": {
-		"fill-antialias": true,
-		"fill-color": "#e8f6d5"
 	    }
 	},
 	{
@@ -1316,18 +1253,6 @@
 	    }
 	},
 	{
-	    "id": "land1-meadowwildflower-9",
-	    "type": "fill",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "landuse_meadowwildflower" ] ],
-	    "paint": {
-		"fill-antialias": true,
-		"fill-color": "#e8f6d5"
-	    }
-	},
-	{
 	    "id": "land1-meadowwildflower-13",
 	    "type": "fill",
 	    "source": "someoneelse",
@@ -1336,18 +1261,6 @@
 	    "filter": [ "all", [ "in", "class", "landuse_meadowwildflower" ] ],
 	    "paint": {
 		"fill-pattern": "pattern_landuse_meadowwildflower"
-	    }
-	},
-	{
-	    "id": "land1-meadowperpetual-9",
-	    "type": "fill",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "landuse_meadowperpetual" ] ],
-	    "paint": {
-		"fill-antialias": true,
-		"fill-color": "#e8f6d5"
 	    }
 	},
 	{
@@ -5267,7 +5180,11 @@
                                                 "natural_grassland",
                                                 "landuse_wetmeadow",
                                                 "landuse_saltmarsh",
-                                                "landuse_reedbed" ] ],
+                                                "landuse_reedbed",
+                                                "landuse_meadow",
+                                                "landuse_meadowtransitional",
+                                                "landuse_meadowwildflower",
+                                                "landuse_meadowperpetual" ] ],
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{name}\n",

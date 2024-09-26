@@ -817,7 +817,7 @@
 	    }
 	},
 	{
-	    "id": "land1-wood-8",
+	    "id": "land1-wood-fill-8",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -832,7 +832,7 @@
 	    }
 	},
 	{
-	    "id": "land1-broadleaved-13",
+	    "id": "land1-broadleaved-fill-13",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -5495,6 +5495,35 @@
 	    },
 	    "paint": {
 		"text-color": "#51504f",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-sand-name",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "natural_sand",
+                                                "natural_tidal_sand",
+                                                "natural_beach",
+                                                "natural_tidal_beach" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 14,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#826a24",
 		"text-halo-blur": 0.5,
 		"text-halo-color": "#ffffff",
 		"text-halo-width": 1

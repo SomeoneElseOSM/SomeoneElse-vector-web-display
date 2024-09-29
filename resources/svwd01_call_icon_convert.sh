@@ -76,6 +76,10 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/camping.n.16.png                                    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_camp_site.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/caravan_park.p.24.png                               ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_caravan_site.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/picnic.p.16.png                                     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_picnic_site.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/parking_free.png                                    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_parking.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/parking_pay.png                                     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_parking_pay.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/parking_freedisabled.png                            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_parking_freedisabled.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/parking_paydisabled.png                             ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_parking_paydisabled.png
 
 #
 # Some copy straight from raster 64x64
@@ -86,7 +90,6 @@ cp ~/src/openstreetmap-carto-AJT/symbols/wood_mixed_pattern.png         ~/src/So
 #
 # Other icons:
 # amenity
-#~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/parking_free.png               ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_parking.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/bench.p07.png                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_bench.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/post_box.p.16.png              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_post_box.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/waste_basket.p.16.png          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_waste_basket.png

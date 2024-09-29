@@ -2033,7 +2033,7 @@
 	    }
 	},
 	{
-	    "id": "land1-parking-fill",
+	    "id": "land1-parking-fill-9",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -2048,7 +2048,7 @@
 	    }
 	},
 	{
-	    "id": "land1-parking-outline",
+	    "id": "land1-parking-outline-14",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -5698,7 +5698,7 @@
 	    }
 	},
 	{
-	    "id": "land1-parking-name",
+	    "id": "land1-parking-name-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -5708,6 +5708,7 @@
                                                 "amenity_parking_freedisabled",
                                                 "amenity_parking_paydisabled"  ] ],
 	    "layout": {
+		"icon-image": "{class}",
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [

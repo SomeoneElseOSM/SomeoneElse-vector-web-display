@@ -1143,11 +1143,19 @@
 "y": 0
 }
 ,
-"tourism_zoo": {
+"tourism_picnic_site": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
 "x": 9152,
+"y": 0
+}
+,
+"tourism_zoo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 9216,
 "y": 0
 }
 }

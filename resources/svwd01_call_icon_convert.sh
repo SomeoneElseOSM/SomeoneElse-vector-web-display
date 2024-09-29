@@ -42,6 +42,43 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/leisure_sports_centre32.png                     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/leisure_sports_centre.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/tourism_zoo.png                                 ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_zoo.png
 #
+# Patterns used with the "land1" and "land2" layers:
+# These must be 32x32 to avoid a white background
+# Many are converted from a 32x32 version in svwd01_source_icons,
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/orchard32.png          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_orchard.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/meadowwildflower32.png   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_meadowwildflower.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/meadowperpetual32.png    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_meadowperpetual.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/saltmarsh32.png          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_saltmarsh.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/reedbed32.png            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_reedbed.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/allotments32.png         ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_allotments.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/christiancemetery32.png  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_christiancemetery.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/jewishcemetery32.png     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_jewishcemetery.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/othercemetery32.png      ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_othercemetery.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/quarry32.png           ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_quarry.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/historic_quarry32.png  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_historicquarry.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/vineyard32.png         ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_vineyard.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/beach32.png              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_beach.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/tidal_beach32.png        ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_tidal_beach.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/mud32.png              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_mud.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/tidal_mud32.png        ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_tidal_mud.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/rock32.png             ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_rock.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/tidal_rock32.png       ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_tidal_rock.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/tidal_sand32.png         ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_tidal_sand.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/scree32.png              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_scree.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/tidal_scree32.png        ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_tidal_scree.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/shingle32.png            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_shingle.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/tidal_shingle32.png      ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_tidal_shingle.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/scrub32.png              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_scrub.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/marsh.png                                             ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_wetland.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/reef_pattern.png                                      ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_reef.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/reefsand_pattern.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_reefsand.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/zoo.png                                               ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_tourism_zoo.png
+#
+# Some copy straight from raster 64x64
+cp ~/src/openstreetmap-carto-AJT/symbols/wood_broadleaved_pattern.png   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_broadleaved.png
+cp ~/src/openstreetmap-carto-AJT/symbols/wood_needleleaved_pattern.png  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_needleleaved.png
+cp ~/src/openstreetmap-carto-AJT/symbols/wood_mixed_pattern.png         ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_mixedleaved.png
+#
 # Other icons:
 # amenity
 #~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/parking_free.png               ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_parking.png
@@ -247,49 +284,16 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/office_nonspecific.p.16.png      ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/office_diplomatic.png
 #
 # Patterns:
-# These must be 32x32 to avoid a white background
-# Many are converted from a 32x32 version in svwd01_source_icons,
 #
 # landuse
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/quarry32.png           ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_quarry.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/historic_quarry32.png  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_historicquarry.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/vineyard32.png         ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_vineyard.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/orchard32.png          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_orchard.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/wetmeadow32.png          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_wetmeadow.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/scrub32.png              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_scrub.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/meadowwildflower32.png   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_meadowwildflower.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/meadowperpetual32.png    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_meadowperpetual.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/saltmarsh32.png          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_saltmarsh.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/reedbed32.png            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_reedbed.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/allotments32.png         ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_allotments.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/beach32.png              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_beach.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/tidal_beach32.png        ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_tidal_beach.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/mud32.png                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_mud.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/tidal_mud32.png          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_tidal_mud.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/rock32.png               ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_rock.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/tidal_rock32.png         ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_tidal_rock.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/tidal_sand32.png         ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_tidal_sand.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/scree32.png              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_scree.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/tidal_scree32.png        ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_tidal_scree.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/shingle32.png            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_shingle.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/tidal_shingle32.png      ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_tidal_shingle.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/christiancemetery32.png  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_christiancemetery.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/jewishcemetery32.png     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_jewishcemetery.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/othercemetery32.png      ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_othercemetery.png
 #
 # Some use an original raster 32x32 source
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/military_red_hatch.png                                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_military.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/reef_pattern.png                                      ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_reef.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/reefsand_pattern.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_reefsand.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/marsh.png                                             ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_wetland.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/zoo.png                                               ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_tourism_zoo.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/intwater_blue_hatch.png                               ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_intermittentwater.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/floodprone_blue_hatch.png                             ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_flood_prone.png
 #
 # Some copy straight from raster 64x64
 echo "Also copying some patterns over directly"
-cp ~/src/openstreetmap-carto-AJT/symbols/wood_broadleaved_pattern.png   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_broadleaved.png
-cp ~/src/openstreetmap-carto-AJT/symbols/wood_needleleaved_pattern.png  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_needleleaved.png
-cp ~/src/openstreetmap-carto-AJT/symbols/wood_mixed_pattern.png         ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_mixedleaved.png
 cp ~/src/openstreetmap-carto-AJT/symbols/scrub_pattern.png              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_scrub.png
 #

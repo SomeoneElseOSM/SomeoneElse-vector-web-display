@@ -41,6 +41,13 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/leisure_golf.png                                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/leisure_golf_course.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/leisure_sports_centre32.png                     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/leisure_sports_centre.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/tourism_zoo.png                                 ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_zoo.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shelter2.p.16.png                               ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_shelter.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/atm2.p.16.png                                   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_atm.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/am_bank_d.png                                   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_bank.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/am_bank_l.png                                   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_bank_l.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/am_bank_n.png                                   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_bank_n.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/am_bank_y.png                                   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_bank_y.png
+
 #
 # Patterns used with the "land1" and "land2" layers:
 # These must be 32x32 to avoid a white background
@@ -82,7 +89,7 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/parking_paydisabled.png                             ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_parking_paydisabled.png
 
 #
-# Some copy straight from raster 64x64
+# Some patterns copy straight from raster 64x64
 cp ~/src/openstreetmap-carto-AJT/symbols/wood_broadleaved_pattern.png   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_broadleaved.png
 cp ~/src/openstreetmap-carto-AJT/symbols/wood_needleleaved_pattern.png  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_needleleaved.png
 cp ~/src/openstreetmap-carto-AJT/symbols/wood_mixed_pattern.png         ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_mixedleaved.png
@@ -104,15 +111,12 @@ cp ~/src/openstreetmap-carto-AJT/symbols/wood_mixed_pattern.png         ~/src/So
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/toilets_free.p.20.png          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_toilets.png
 #~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/grit_bin.p.16.png              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_grit_bin.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/recycling.p.16.png             ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_recycling.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/atm2.p.16.png                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_atm.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/am_pharmacy_d.png              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_pharmacy.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/post_office.p.16.png           ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_post_office.png
 #~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fuel.p.16.png                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_fuel.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shelter2.p.16.png              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_shelter.png
 #~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/health_nonspecific.p.16.png    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_social_facility.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/am_bar_ddd.png                 ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_bar.png
 #~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/charging_station.png           ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_charging_station.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/am_bank_d.png                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_bank.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/huntingstand.p.16.png          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_hunting_stand.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/amenity_doctors.p.16.png       ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_doctors.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/vending.p.16.png               ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_vending_machine.png

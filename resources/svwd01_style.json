@@ -5206,11 +5206,11 @@
 	    }
 	},
 	{
-	    "id": "land1-farm-name",
+	    "id": "land1-farm-name-14",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "minzoom": 8,
+	    "minzoom": 14,
 	    "filter": [ "all", [ "in", "class", "landuse_farmyard",
                                                 "landuse_farmland",
                                                 "landuse_farmgrass" ] ],

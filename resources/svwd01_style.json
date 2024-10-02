@@ -5886,7 +5886,9 @@
                                                 "amenity_bar_ydy",
                                                 "amenity_bar_yly",
                                                 "amenity_bar_yny",
-                                                "amenity_bar_yyy" ] ],
+                                                "amenity_bar_yyy",
+                                                "amenity_nightclub",
+                                                "amenity_concert_hall" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",

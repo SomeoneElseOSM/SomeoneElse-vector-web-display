@@ -47,6 +47,22 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/am_bank_l.png                                   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_bank_l.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/am_bank_n.png                                   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_bank_n.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/am_bank_y.png                                   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_bank_y.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/am_bar_ddd.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_bar.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/am_bar_dld.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_bar_dld.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/am_bar_dnd.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_bar_dnd.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/am_bar_dyd.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_bar_dyd.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/am_bar_ydd.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_bar_ydd.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/am_bar_yld.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_bar_yld.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/am_bar_ynd.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_bar_ynd.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/am_bar_yyd.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_bar_yyd.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/am_bar_ddy.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_bar_ddy.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/am_bar_dly.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_bar_dly.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/am_bar_dny.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_bar_dny.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/am_bar_dyy.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_bar_dyy.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/am_bar_ydy.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_bar_ydy.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/am_bar_yly.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_bar_yly.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/am_bar_yny.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_bar_yny.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/am_bar_yyy.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_bar_yyy.png
 
 #
 # Patterns used with the "land1" and "land2" layers:

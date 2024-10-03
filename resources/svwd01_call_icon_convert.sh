@@ -115,6 +115,7 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/grit_bin.p.16.png                              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_grit_bin.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/left_luggage.p.16.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_left_luggage.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/parcel_locker.p.16.png                         ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_parcel_locker.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/bench.p07.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_bench.png
 
 #
 # Patterns used with the "land1" and "land2" layers:
@@ -168,7 +169,6 @@ cp ~/src/openstreetmap-carto-AJT/symbols/wood_mixed_pattern.png         ~/src/So
 #
 # Other icons:
 # amenity
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/bench.p07.png                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_bench.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/post_box.p.16.png              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_post_box.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/place_of_worship3.p.16.png     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_place_of_worship.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/pub_ydddnnndd.p.16.png         ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_pub.png

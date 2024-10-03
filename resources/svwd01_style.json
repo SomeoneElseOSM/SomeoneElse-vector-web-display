@@ -5914,7 +5914,8 @@
                                                 "amenity_zooenclosure",
                                                 "amenity_vending_machine",
                                                 "amenity_vending_excrement",
-                                                "amenity_bottle_return" ] ],
+                                                "amenity_bottle_return",
+                                                "amenity_bench" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",

@@ -150,6 +150,9 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/parking_pay.png                                     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_parking_pay.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/parking_freedisabled.png                            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_parking_freedisabled.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/parking_paydisabled.png                             ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_parking_paydisabled.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/vending.p.16.png                                    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_vending_machine.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/vending_excrement.png                               ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_vending_excrement.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/bottle_return.p.16.png                              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_bottle_return.png
 
 #
 # Some patterns copy straight from raster 64x64
@@ -178,7 +181,6 @@ cp ~/src/openstreetmap-carto-AJT/symbols/wood_mixed_pattern.png         ~/src/So
 #~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/charging_station.png           ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_charging_station.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/huntingstand.p.16.png          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_hunting_stand.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/amenity_doctors.p.16.png       ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_doctors.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/vending.p.16.png               ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_vending_machine.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/health_dentist.p.16.png        ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_dentist.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/amenity_car_wash.p.16.png      ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_car_wash.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/health_nonspecific.p.16.png    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_clinic.png

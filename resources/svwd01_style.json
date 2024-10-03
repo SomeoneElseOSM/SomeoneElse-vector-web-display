@@ -5911,7 +5911,10 @@
                                                 "amenity_library",
                                                 "amenity_courthouse",
                                                 "amenity_zooaviary",
-                                                "amenity_zooenclosure" ] ],
+                                                "amenity_zooenclosure",
+                                                "amenity_vending_machine",
+                                                "amenity_vending_excrement",
+                                                "amenity_bottle_return" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",

@@ -104,6 +104,7 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fuel_w.16.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_fuel_w.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/charging_station.png                           ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_charging_station.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/hospital.p.16.png                              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_hospital.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/embassy.png                                    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_embassy.png
 
 #
 # Patterns used with the "land1" and "land2" layers:

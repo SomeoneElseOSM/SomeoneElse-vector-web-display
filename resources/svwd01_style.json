@@ -5906,7 +5906,8 @@
                                                 "amenity_cafe_yny",
                                                 "amenity_cafe_yyy",
                                                 "amenity_cinema",
-                                                "amenity_fire_station" ] ],
+                                                "amenity_fire_station",
+                                                "amenity_embassy" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",

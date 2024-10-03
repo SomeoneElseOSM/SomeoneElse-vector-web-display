@@ -107,6 +107,7 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/embassy.png                                    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_embassy.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/library.p.20.png                               ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_library.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/amenity_court.p.20.png                         ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_courthouse.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/amenity_monastery.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_monastery.png
 
 #
 # Patterns used with the "land1" and "land2" layers:

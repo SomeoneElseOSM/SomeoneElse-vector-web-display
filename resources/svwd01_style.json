@@ -5909,7 +5909,9 @@
                                                 "amenity_fire_station",
                                                 "amenity_embassy",
                                                 "amenity_library",
-                                                "amenity_courthouse"  ] ],
+                                                "amenity_courthouse",
+                                                "amenity_zooaviary",
+                                                "amenity_zooenclosure" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",

@@ -5936,6 +5936,25 @@
 	    }
 	},
 	{
+	    "id": "land1-amenity-brown-icon-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "class", "amenity_waste_basket",
+                                                "amenity_waste_disposal",
+                                                "amenity_grit_bin" ] ],
+	    "layout": {
+		"icon-image": "{class}"
+	    },
+	    "paint": {
+		"text-color": "#734a08",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
 	    "id": "land1-amenity-black-name-16",
 	    "type": "symbol",
 	    "source": "someoneelse",

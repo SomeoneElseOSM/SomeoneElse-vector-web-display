@@ -5908,7 +5908,8 @@
                                                 "amenity_cinema",
                                                 "amenity_fire_station",
                                                 "amenity_embassy",
-                                                "amenity_library"  ] ],
+                                                "amenity_library",
+                                                "amenity_courthouse"  ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",

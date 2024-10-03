@@ -6182,6 +6182,40 @@
 	    }
 	},
 	{
+	    "id": "land1-amenity-playground-feature-name-17",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 17,
+	    "filter": [ "all", [ "in", "class", "amenity_playground_swing",
+                                                "amenity_playground_structure",
+                                                "amenity_playground_climbingframe",
+                                                "amenity_playground_slide",
+                                                "amenity_playground_springy",
+                                                "amenity_playground_zipwire",
+                                                "amenity_playground_seesaw",
+                                                "amenity_playground_roundabout" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#008c27",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
 	    "id": "land2-military-name",
 	    "type": "symbol",
 	    "source": "someoneelse",

@@ -5904,7 +5904,9 @@
                                                 "amenity_cafe_ydy",
                                                 "amenity_cafe_yly",
                                                 "amenity_cafe_yny",
-                                                "amenity_cafe_yyy" ] ],
+                                                "amenity_cafe_yyy",
+                                                "amenity_cinema",
+                                                "amenity_fire_station" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",
@@ -6031,6 +6033,33 @@
 	    },
 	    "paint": {
 		"text-color": "#0066ff",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-amenity-lifeboat-name-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "class", "amenity_lifeboat" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#000033",
 		"text-halo-blur": 0.5,
 		"text-halo-color": "#ffffff",
 		"text-halo-width": 1

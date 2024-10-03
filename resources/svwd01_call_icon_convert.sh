@@ -94,6 +94,9 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/am_cafe_yly.png                                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_cafe_yly.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/am_cafe_yny.png                                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_cafe_yny.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/am_cafe_yyy.png                                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_cafe_yyy.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/cinema.p.24.png                                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_cinema.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/firestation.p.16.png                           ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_fire_station.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/lifeboat.png                                   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_lifeboat.png
 
 #
 # Patterns used with the "land1" and "land2" layers:
@@ -172,7 +175,6 @@ cp ~/src/openstreetmap-carto-AJT/symbols/wood_mixed_pattern.png         ~/src/So
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_pet.p.16.png              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_veterinary.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fountain.png                   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_fountain.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/police.p.16.png                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_police.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/firestation.p.16.png           ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_fire_station.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/hospital.p.16.png              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_hospital.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/tap_drinking.p.20.png          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_drinking_water.png
 #~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/publicbookcase.png             ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_public_bookcase.png
@@ -184,7 +186,6 @@ cp ~/src/openstreetmap-carto-AJT/symbols/wood_mixed_pattern.png         ~/src/So
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shopping_nonspecific.p.16.png  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_car_rental.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/health_nonspecific.p.16.png    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_nursing_home.png
 #~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/office_nonspecific.p.16.png    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_post_depot.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/cinema.p.24.png                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_cinema.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/leisure_nonspecific.p.16.png   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_arts_centre.png
 #
 # leisure

@@ -6066,6 +6066,38 @@
 	    }
 	},
 	{
+	    "id": "land1-amenity-fuel-name-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "class", "amenity_fuel",
+                                                "amenity_fuel_e",
+                                                "amenity_fuel_h",
+                                                "amenity_fuel_l",
+                                                "amenity_fuel_w",
+                                                "amenity_charging_station" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#939",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
 	    "id": "land2-military-name",
 	    "type": "symbol",
 	    "source": "someoneelse",

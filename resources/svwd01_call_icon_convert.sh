@@ -97,6 +97,12 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/cinema.p.24.png                                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_cinema.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/firestation.p.16.png                           ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_fire_station.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/lifeboat.png                                   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_lifeboat.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fuel.p.16.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_fuel.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fuel_e.16.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_fuel_e.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fuel_h.16.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_fuel_h.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fuel_l.16.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_fuel_l.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fuel_w.16.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_fuel_w.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/charging_station.png                           ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_charging_station.png
 
 #
 # Patterns used with the "land1" and "land2" layers:
@@ -161,7 +167,6 @@ cp ~/src/openstreetmap-carto-AJT/symbols/wood_mixed_pattern.png         ~/src/So
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/recycling.p.16.png             ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_recycling.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/am_pharmacy_d.png              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_pharmacy.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/post_office.p.16.png           ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_post_office.png
-#~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fuel.p.16.png                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_fuel.png
 #~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/health_nonspecific.p.16.png    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_social_facility.png
 #~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/charging_station.png           ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_charging_station.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/huntingstand.p.16.png          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_hunting_stand.png

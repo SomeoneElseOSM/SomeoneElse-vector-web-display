@@ -103,6 +103,7 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fuel_l.16.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_fuel_l.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fuel_w.16.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_fuel_w.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/charging_station.png                           ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_charging_station.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/hospital.p.16.png                              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_hospital.png
 
 #
 # Patterns used with the "land1" and "land2" layers:
@@ -180,7 +181,6 @@ cp ~/src/openstreetmap-carto-AJT/symbols/wood_mixed_pattern.png         ~/src/So
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_pet.p.16.png              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_veterinary.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fountain.png                   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_fountain.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/police.p.16.png                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_police.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/hospital.p.16.png              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_hospital.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/tap_drinking.p.20.png          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_drinking_water.png
 #~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/publicbookcase.png             ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_public_bookcase.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/office_nonspecific.p.16.png    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_townhall.png

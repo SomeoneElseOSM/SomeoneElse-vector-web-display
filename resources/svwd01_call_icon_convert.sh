@@ -113,6 +113,8 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/waste_basket.p.16.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_waste_basket.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/waste_disposal.p.16.png                        ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_waste_disposal.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/grit_bin.p.16.png                              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_grit_bin.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/left_luggage.p.16.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_left_luggage.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/parcel_locker.p.16.png                         ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_parcel_locker.png
 
 #
 # Patterns used with the "land1" and "land2" layers:

@@ -174,6 +174,8 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shinto.png                                     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_place_of_worship_shinto.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/taoist.png                                     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_place_of_worship_taoist.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/place_of_worship3.p.16.png                     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_place_of_worship_other.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/holy_spring.png                                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_holy_spring.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/holy_well.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_holy_well.png
 
 #
 # Patterns used with the "land1" and "land2" layers:

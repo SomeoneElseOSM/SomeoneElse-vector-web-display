@@ -6188,7 +6188,11 @@
 	    "source-layer": "land1",
 	    "minzoom": 16,
 	    "filter": [ "all", [ "in", "class", "amenity_doctors",
-                                                "amenity_dentist" ] ],
+                                                "amenity_dentist",
+                                                "amenity_pharmacy",
+                                                "amenity_pharmacy_l",
+                                                "amenity_pharmacy_n",
+                                                "amenity_pharmacy_y" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",

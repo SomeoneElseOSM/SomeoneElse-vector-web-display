@@ -158,10 +158,13 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/pitch_baseball.png                             ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_pitch_baseball.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/health_doctors.p.16.png                       ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_doctors.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/health_dentist.p.16.png                        ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_dentist.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/am_pharmacy_d.png              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_pharmacy.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/am_pharmacy_l.png              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_pharmacy_l.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/am_pharmacy_n.png              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_pharmacy_n.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/am_pharmacy_y.png              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_pharmacy_y.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/am_pharmacy_d.png                              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_pharmacy.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/am_pharmacy_l.png                              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_pharmacy_l.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/am_pharmacy_n.png                              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_pharmacy_n.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/am_pharmacy_y.png                              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_pharmacy_y.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/health_ambulance.p.16.png                      ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_ambulance_station.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/health_mountainrescue.p.16.png                 ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_mountain_rescue.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/health_mountainrescuebox.p.16.png              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_mountain_rescue_box.png
 
 #
 # Patterns used with the "land1" and "land2" layers:

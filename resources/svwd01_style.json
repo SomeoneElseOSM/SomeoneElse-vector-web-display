@@ -6192,7 +6192,10 @@
                                                 "amenity_pharmacy",
                                                 "amenity_pharmacy_l",
                                                 "amenity_pharmacy_n",
-                                                "amenity_pharmacy_y" ] ],
+                                                "amenity_pharmacy_y",
+                                                "amenity_ambulance_station",
+                                                "amenity_mountain_rescue",
+                                                "amenity_mountain_rescue_box" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",

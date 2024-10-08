@@ -165,6 +165,15 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/health_ambulance.p.16.png                      ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_ambulance_station.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/health_mountainrescue.p.16.png                 ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_mountain_rescue.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/health_mountainrescuebox.p.16.png              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_mountain_rescue_box.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/christian3.p.14.png                            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_place_of_worship_christian.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/islamic3.p.16.png                              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_place_of_worship_muslim.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/sikh3.p.16.png                                 ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_place_of_worship_sikh.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/jewish3.p.16.png                               ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_place_of_worship_jewish.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/hindu.png                                      ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_place_of_worship_hindu.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/buddhist.png                                   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_place_of_worship_buddhist.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shinto.png                                     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_place_of_worship_shinto.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/taoist.png                                     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_place_of_worship_taoist.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/place_of_worship3.p.16.png                     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_place_of_worship_other.png
 
 #
 # Patterns used with the "land1" and "land2" layers:
@@ -209,7 +218,6 @@ cp ~/src/openstreetmap-carto-AJT/symbols/wood_mixed_pattern.png         ~/src/So
 # Other icons:
 # amenity
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/post_box.p.16.png              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_post_box.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/place_of_worship3.p.16.png     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_place_of_worship.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/pub_ydddnnndd.p.16.png         ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_pub.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fast_food.png                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_fast_food.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/restaurant.p.16.png            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_restaurant.png

@@ -5996,7 +5996,8 @@
                                                 "amenity_vending_machine",
                                                 "amenity_vending_excrement",
                                                 "amenity_bottle_return",
-                                                "amenity_bench" ] ],
+                                                "amenity_bench",
+                                                "amenity_police" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",

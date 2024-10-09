@@ -6084,7 +6084,8 @@
                                                 "amenity_boothinformation",
                                                 "amenity_boothartwork",
                                                 "amenity_boothmuseum",
-                                                "amenity_boothdisused" ] ],
+                                                "amenity_boothdisused",
+                                                "amenity_public_bookcase" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",

@@ -23,18 +23,20 @@
 # a directory of icons.
 #
 # It takes no parameters; details are hardcoded below.
-# A selection of icons from "openstreetmap-carto-AJT" have been chosen based
-# on tag popularity in UK+IE.  Icons are created to support both the "sve01"
-# schema (with some conversions based on SomeoneElse-style) and Shortbread
-# (which is closer to native OSM tagging).  There is some duplication due to
-# supporting both schemas.
+# Icons are being created to support the "sve01" schema (with conversions 
+# based on SomeoneElse-style).  
 #
-# The icons created are basically placeholders of the right size - they're
-# scaled up from 16x16 or so so will benefit from subsequent editing.
+# In many cases, the icons created are basically placeholders of the right 
+# size - they're scaled up from 16x16 or smaller so so will benefit from 
+# subsequent editing.
 #
 # Then, "svwd_create_sprite.sh" can be called to process with "montage" to 
 # create an "@2x" ".png" file containing them and an accompanying .json file 
-# listing the file names and sizes.
+# listing the file names and sizes.  A very wide sprite 1 icon deep is created.
+#
+# Montage's maximum width is defined in /etc/ImageMagick-6/policy.xml - to
+# create wider montages (at the files sizes used, > 256 icons) this value 
+# must be increased.
 # -----------------------------------------------------------------------------
 #
 # Point icons used with the "land1" layer:

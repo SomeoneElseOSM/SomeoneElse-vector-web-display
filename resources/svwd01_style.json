@@ -5945,6 +5945,60 @@
 	    }
 	},
 	{
+	    "id": "land1-amenity-brown-name-14",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "class", "amenity_tourismstation" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#734a08",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-amenity-brown-name-15",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 15,
+	    "filter": [ "all", [ "in", "class", "amenity_recyclingcentre" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#734a08",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
 	    "id": "land1-amenity-brown-name-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
@@ -5999,7 +6053,10 @@
                                                 "amenity_bench",
                                                 "amenity_police",
                                                 "amenity_post_box",
-                                                "amenity_post_office" ] ],
+                                                "amenity_post_office",
+                                                "amenity_biergarten",
+                                                "amenity_restaurant",
+                                                "amenity_restaccomm" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",
@@ -6028,6 +6085,33 @@
 	    "minzoom": 17,
 	    "filter": [ "all", [ "in", "class", "amenity_left_luggage",
                                                 "amenity_parcel_locker" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#734a08",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-amenity-brown-name-18",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 18,
+	    "filter": [ "all", [ "in", "class", "amenity_recycling" ] ],                                                
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",
@@ -6242,7 +6326,7 @@
 	    }
 	},
 	{
-	    "id": "land1-amenity-fuel-name-16",
+	    "id": "land1-amenity-purple-name-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -6252,7 +6336,8 @@
                                                 "amenity_fuel_h",
                                                 "amenity_fuel_l",
                                                 "amenity_fuel_w",
-                                                "amenity_charging_station" ] ],
+                                                "amenity_charging_station",
+                                                "amenity_boatyard" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",

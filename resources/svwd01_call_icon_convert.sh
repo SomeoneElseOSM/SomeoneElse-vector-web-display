@@ -189,6 +189,18 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/recyclingcentre.p.16.png                       ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_recyclingcentre.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/restaurant.p.16.png                            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_restaurant.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/restaccomm.p.16.png                            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_restaccomm.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fast_food.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_fast_food.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fast_food_burger.png                           ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_fast_food_burger.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fast_food_chicken.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_fast_food_chicken.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fast_food_chinese.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_fast_food_chinese.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fast_food_coffee.png                           ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_fast_food_coffee.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fishnchips.png                   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_fast_food_fish_and_chips.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fast_food_ice_cream.png                        ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_fast_food_ice_cream.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fast_food_indian.png                           ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_fast_food_indian.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fast_food_kebab.png                            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_fast_food_kebab.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fast_food_pie.png                              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_fast_food_pie.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fast_food_pizza.png                            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_fast_food_pizza.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fast_food_sandwich.png                         ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_fast_food_sandwich.png
 
 #
 # Patterns used with the "land1" and "land2" layers:
@@ -233,7 +245,6 @@ cp ~/src/openstreetmap-carto-AJT/symbols/wood_mixed_pattern.png         ~/src/So
 # Other icons:
 # amenity
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/pub_ydddnnndd.p.16.png         ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_pub.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fast_food.png                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_fast_food.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/telephone.p.16.png             ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_telephone.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/leisure_nonspecific.p.16.png   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_community_centre.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/toilets_free.p.20.png          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_toilets.png

@@ -6085,7 +6085,10 @@
                                                 "amenity_boothartwork",
                                                 "amenity_boothmuseum",
                                                 "amenity_boothdisused",
-                                                "amenity_public_bookcase" ] ],
+                                                "amenity_public_bookcase",
+                                                "amenity_sundial",
+                                                "amenity_shopmobility",
+                                                "amenity_theatre" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",
@@ -6329,12 +6332,13 @@
 	    }
 	},
 	{
-	    "id": "land1-amenity-lifeboat-name-16",
+	    "id": "land1-amenity-indigo-name-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 16,
-	    "filter": [ "all", [ "in", "class", "amenity_lifeboat" ] ],
+	    "filter": [ "all", [ "in", "class", "amenity_lifeboat",
+                                                "amenity_emergency_phone" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",

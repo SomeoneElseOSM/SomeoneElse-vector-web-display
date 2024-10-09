@@ -6140,7 +6140,8 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 18,
-	    "filter": [ "all", [ "in", "class", "amenity_recycling" ] ],                                                
+	    "filter": [ "all", [ "in", "class", "amenity_recycling",
+                                                "amenity_bicycle_repair_station" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",

@@ -218,6 +218,7 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/boothmuseum.png                                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_boothmuseum.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/boothdisused.png                               ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_boothdisused.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/publicbookcase.png                             ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_public_bookcase.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/bicyclerepairstation.png                       ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_bicycle_repair_station.png
 
 #
 # Patterns used with the "land1" and "land2" layers:

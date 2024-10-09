@@ -201,6 +201,22 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fast_food_pie.png                              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_fast_food_pie.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fast_food_pizza.png                            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_fast_food_pizza.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fast_food_sandwich.png                         ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_fast_food_sandwich.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/telephone.p.16.png                             ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_telephone.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/boothtelephonered.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_boothtelephonered.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/boothtelephoneblack.png                        ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_boothtelephoneblack.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/boothtelephonewhite.png                        ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_boothtelephonewhite.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/boothtelephoneblue.png                         ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_boothtelephoneblue.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/boothtelephonegreen.png                        ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_boothtelephonegreen.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/boothtelephonegrey.png                         ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_boothtelephonegrey.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/boothtelephonegold.png                         ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_boothtelephonegold.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/boothdefibrillator.png                         ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_boothdefibrillator.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/boothlibrary.png                               ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_boothlibrary.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/boothbicyclerepairstation.png                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_boothbicyclerepairstation.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/boothatm.png                                   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_boothatm.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/boothinformation.png                           ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_boothinformation.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/boothartwork.png                               ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_boothartwork.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/boothmuseum.png                                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_boothmuseum.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/boothdisused.png                               ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_boothdisused.png
 
 #
 # Patterns used with the "land1" and "land2" layers:
@@ -245,7 +261,6 @@ cp ~/src/openstreetmap-carto-AJT/symbols/wood_mixed_pattern.png         ~/src/So
 # Other icons:
 # amenity
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/pub_ydddnnndd.p.16.png         ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_pub.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/telephone.p.16.png             ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_telephone.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/leisure_nonspecific.p.16.png   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_community_centre.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/toilets_free.p.20.png          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_toilets.png
 #~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/grit_bin.p.16.png              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_grit_bin.png

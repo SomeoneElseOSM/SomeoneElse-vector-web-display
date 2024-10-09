@@ -223,6 +223,18 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shopmobility.p.16.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_shopmobility.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/sosphone.png                                   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/emergency_phone.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/theatre.p.20.png                               ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_theatre.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/toilets_free.p.20.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_toilets.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/toilets_free_m.p.20.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_toilets_free_m.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/toilets_free_w.p.20.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_toilets_free_w.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/toilets_pay.p.20.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_toilets_pay.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/toilets_pay_m.p.20.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_toilets_pay_m.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/toilets_pay_w.p.20.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_toilets_pay_w.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shower_free.p.20.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_shower.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shower_free_m.p.20.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_shower_free_m.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shower_free_w.p.20.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_shower_free_w.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shower_pay.p.20.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_shower_pay.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shower_pay_m.p.20.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_shower_pay_m.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shower_pay_w.p.20.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_shower_pay_w.png
 
 #
 # Patterns used with the "land1" and "land2" layers:
@@ -268,7 +280,6 @@ cp ~/src/openstreetmap-carto-AJT/symbols/wood_mixed_pattern.png         ~/src/So
 # amenity
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/pub_ydddnnndd.p.16.png         ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_pub.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/leisure_nonspecific.p.16.png   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_community_centre.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/toilets_free.p.20.png          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_toilets.png
 #~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/grit_bin.p.16.png              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_grit_bin.png
 #~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/health_nonspecific.p.16.png    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_social_facility.png
 #~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/charging_station.png           ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_charging_station.png

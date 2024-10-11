@@ -239,6 +239,7 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/tap_drinking.p.20.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_drinking_water.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/tap_nondrinking.p.20.png                       ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_nondrinking_water.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fountain.png                                   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_fountain.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/amenity_prison.p.20.png                        ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_prison.png
 
 #
 # Patterns used with the "land1" and "land2" layers:

@@ -6444,7 +6444,36 @@
                                                 "amenity_boatyard",
                                                 "amenity_veterinary",
                                                 "amenity_animal_boarding",
-                                                "amenity_animal_shelter" ] ],
+                                                "amenity_animal_shelter",
+                                                "amenity_car_wash",
+                                                "amenity_car_rental" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#939",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-amenity-purple-name-18",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 18,
+	    "filter": [ "all", [ "in", "class", "amenity_compressed_air" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",

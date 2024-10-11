@@ -5055,7 +5055,7 @@
 	    }
 	},
 	{
-	    "id": "land1-glacier-name",
+	    "id": "land1-glacier-name-8",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -5081,7 +5081,7 @@
 	    }
 	},
 	{
-	    "id": "land1-residential-name",
+	    "id": "land1-residential-name-14",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -5107,7 +5107,7 @@
 	    }
 	},
 	{
-	    "id": "land1-park-name",
+	    "id": "land1-park-name-15",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -5140,7 +5140,7 @@
 	    }
 	},
 	{
-	    "id": "land1-forest-name",
+	    "id": "land1-forest-name-14",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -5166,7 +5166,7 @@
 	    }
 	},
 	{
-	    "id": "land1-woodgrass-name",
+	    "id": "land1-woodgrass-name-14",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -5260,7 +5260,7 @@
 	    }
 	},
 	{
-	    "id": "land1-industrial-name",
+	    "id": "land1-industrial-name-14",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -5287,7 +5287,7 @@
 	    }
 	},
 	{
-	    "id": "land1-garages-name",
+	    "id": "land1-garages-name-14",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -5313,7 +5313,7 @@
 	    }
 	},
 	{
-	    "id": "land1-commercial-name",
+	    "id": "land1-commercial-name-14",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -5339,7 +5339,7 @@
 	    }
 	},
 	{
-	    "id": "land1-construction-name",
+	    "id": "land1-construction-name-14",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -5368,7 +5368,7 @@
 	    }
 	},
 	{
-	    "id": "land1-quarry-name",
+	    "id": "land1-quarry-name-14",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -5395,7 +5395,7 @@
 	    }
 	},
 	{
-	    "id": "land1-vineyard-name",
+	    "id": "land1-vineyard-name-14",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -5422,7 +5422,7 @@
 	    }
 	},
 	{
-	    "id": "land1-allotments-name",
+	    "id": "land1-allotments-name-14",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -5448,7 +5448,7 @@
 	    }
 	},
 	{
-	    "id": "land1-cemetery-name",
+	    "id": "land1-cemetery-name-14",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -5476,7 +5476,7 @@
 	    }
 	},
 	{
-	    "id": "land1-schoolyard-name",
+	    "id": "land1-schoolyard-name-14",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -5502,7 +5502,7 @@
 	    }
 	},
 	{
-	    "id": "land1-sand-name",
+	    "id": "land1-sand-name-12",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -5532,7 +5532,7 @@
 	    }
 	},
 	{
-	    "id": "land1-rock-name",
+	    "id": "land1-rock-name-12",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -5565,7 +5565,7 @@
 	    }
 	},
 	{
-	    "id": "land1-mud-name",
+	    "id": "land1-mud-name-12",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -5592,7 +5592,7 @@
 	    }
 	},
 	{
-	    "id": "land1-heath-name",
+	    "id": "land1-heath-name-12",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -5618,7 +5618,7 @@
 	    }
 	},
 	{
-	    "id": "land1-swimming_pool-name",
+	    "id": "land1-swimming_pool-name-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -5644,7 +5644,7 @@
 	    }
 	},
 	{
-	    "id": "land1-stadium-name",
+	    "id": "land1-stadium-name-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -5698,7 +5698,7 @@
 	    }
 	},
 	{
-	    "id": "land1-parking-name-16",
+	    "id": "land1-parking-imagename-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -5728,7 +5728,7 @@
 	    }
 	},
 	{
-	    "id": "land1-camp_site-name-16",
+	    "id": "land1-camp_site-imagename-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -5783,7 +5783,7 @@
 	    }
 	},
 	{
-	    "id": "land1-zoo-name-9",
+	    "id": "land1-zoo-imagename-9",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -5810,7 +5810,7 @@
 	    }
 	},
 	{
-	    "id": "land1-holy_well-name-13",
+	    "id": "land1-holy_well-imagename-13",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -5837,7 +5837,7 @@
 	    }
 	},
 	{
-	    "id": "land1-water-name-13",
+	    "id": "land1-water-imagename-13",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -5864,7 +5864,7 @@
 	    }
 	},
 	{
-	    "id": "land1-water-name-15",
+	    "id": "land1-water-imagename-15",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -5891,7 +5891,7 @@
 	    }
 	},
 	{
-	    "id": "land1-leisure-image-name-13",
+	    "id": "land1-leisure-imagename-13",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -5918,7 +5918,7 @@
 	    }
 	},
 	{
-	    "id": "land1-leisure-image-name-14",
+	    "id": "land1-leisure-imagename-14",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -5945,7 +5945,7 @@
 	    }
 	},
 	{
-	    "id": "land1-amenity-brown-name-14",
+	    "id": "land1-amenity-brown-imagename-14",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -5973,7 +5973,7 @@
 	    }
 	},
 	{
-	    "id": "land1-amenity-brown-name-15",
+	    "id": "land1-amenity-brown-imagename-15",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -6001,7 +6001,7 @@
 	    }
 	},
 	{
-	    "id": "land1-amenity-brown-name-16",
+	    "id": "land1-amenity-brown-imagename-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -6126,7 +6126,7 @@
 	    }
 	},
 	{
-	    "id": "land1-amenity-brown-name-17",
+	    "id": "land1-amenity-brown-imagename-17",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -6154,7 +6154,7 @@
 	    }
 	},
 	{
-	    "id": "land1-amenity-brown-name-18",
+	    "id": "land1-amenity-brown-imagename-18",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -6182,7 +6182,7 @@
 	    }
 	},
 	{
-	    "id": "land1-amenity-brown-name-20",
+	    "id": "land1-amenity-brown-imagename-20",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -6209,7 +6209,7 @@
 	    }
 	},
 	{
-	    "id": "land1-amenity-brown-icon-18",
+	    "id": "land1-amenity-brown-image-18",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -6228,7 +6228,7 @@
 	    }
 	},
 	{
-	    "id": "land1-amenity-black-name-16",
+	    "id": "land1-amenity-black-imagename-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -6260,7 +6260,7 @@
 	    }
 	},
 	{
-	    "id": "land1-amenity-blue-name-15",
+	    "id": "land1-amenity-blue-imagename-15",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -6287,7 +6287,7 @@
 	    }
 	},
 	{
-	    "id": "land1-amenity-lightblue-name-16",
+	    "id": "land1-amenity-lightblue-imagename-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -6323,7 +6323,7 @@
 	    }
 	},
 	{
-	    "id": "land1-amenity-darkblue-name-16",
+	    "id": "land1-amenity-darkblue-imagename-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -6350,7 +6350,7 @@
 	    }
 	},
 	{
-	    "id": "land1-amenity-entrancemain-name-17",
+	    "id": "land1-amenity-entrancemain-imagename-17",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -6367,7 +6367,7 @@
 	    }
 	},
 	{
-	    "id": "land1-amenity-place_of_worship-name-15",
+	    "id": "land1-amenity-place_of_worship-imagename-15",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -6402,7 +6402,7 @@
 	    }
 	},
 	{
-	    "id": "land1-amenity-indigo-name-16",
+	    "id": "land1-amenity-indigo-imagename-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -6430,7 +6430,7 @@
 	    }
 	},
 	{
-	    "id": "land1-amenity-purple-name-16",
+	    "id": "land1-amenity-purple-imagename-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -6468,7 +6468,7 @@
 	    }
 	},
 	{
-	    "id": "land1-amenity-purple-name-18",
+	    "id": "land1-amenity-purple-imagename-18",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -6495,7 +6495,7 @@
 	    }
 	},
 	{
-	    "id": "land1-amenity-hospital-name-14",
+	    "id": "land1-amenity-hospital-imagename-14",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -6522,7 +6522,7 @@
 	    }
 	},
 	{
-	    "id": "land1-amenity-medical-name-16",
+	    "id": "land1-amenity-medical-imagename-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -6557,7 +6557,44 @@
 	    }
 	},
 	{
-	    "id": "land1-amenity-playground-feature-name-17",
+	    "id": "land1-amenity-image-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "class", "amenity_defibrillator" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"visibility": "visible"
+	    }
+	},
+	{
+	    "id": "land1-amenity-image-18",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 18,
+	    "filter": [ "all", [ "in", "class", "amenity_life_ring",
+                                                "amenity_fire_extinguisher" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"visibility": "visible"
+	    }
+	},
+	{
+	    "id": "land1-amenity-image-21",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 21,
+	    "filter": [ "all", [ "in", "class", "amenity_fire_hydrant" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"visibility": "visible"
+	    }
+	},
+	{
+	    "id": "land1-amenity-playgroundpitch-imagename-17",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",

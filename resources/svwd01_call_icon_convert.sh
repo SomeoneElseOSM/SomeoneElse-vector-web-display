@@ -247,6 +247,10 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/amenity_car_wash.p.16.png                      ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_car_wash.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/amenity_car_rental.p.16.png                    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_car_rental.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/amenity_compressed_air.png                     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_compressed_air.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/health_defibrillator.p.16.png                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_defibrillator.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/life_ring.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_life_ring.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fireextinguisher.png                           ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_fire_extinguisher.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/firehydrant.png                                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_fire_hydrant.png
 
 #
 # Patterns used with the "land1" and "land2" layers:
@@ -439,7 +443,6 @@ cp ~/src/openstreetmap-carto-AJT/symbols/wood_mixed_pattern.png         ~/src/So
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/historic_battlefield.png         ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/historic_battlefield.png
 #
 # emergency
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/health_defibrillator.p.16.png    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/emergency_defibrillator.png
 #
 # highway
 # (I don't have an icon for the one highway value "emergency_access_point" in Shortbread POIs)

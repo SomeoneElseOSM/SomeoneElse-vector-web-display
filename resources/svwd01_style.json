@@ -6441,7 +6441,10 @@
                                                 "amenity_fuel_l",
                                                 "amenity_fuel_w",
                                                 "amenity_charging_station",
-                                                "amenity_boatyard" ] ],
+                                                "amenity_boatyard",
+                                                "amenity_veterinary",
+                                                "amenity_animal_boarding",
+                                                "amenity_animal_shelter" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",

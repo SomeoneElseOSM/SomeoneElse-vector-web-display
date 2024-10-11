@@ -2455,11 +2455,19 @@
 "y": 0
 }
 ,
-"tourism_zoo": {
+"tourism_viewpoint": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
 "x": 19648,
+"y": 0
+}
+,
+"tourism_zoo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 19712,
 "y": 0
 }
 }

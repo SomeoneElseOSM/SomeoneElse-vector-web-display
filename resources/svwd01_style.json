@@ -5978,7 +5978,8 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 15,
-	    "filter": [ "all", [ "in", "class", "amenity_recyclingcentre" ] ],
+	    "filter": [ "all", [ "in", "class", "amenity_recyclingcentre",
+                                                "tourism_viewpoint" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",

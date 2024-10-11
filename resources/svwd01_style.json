@@ -6104,7 +6104,9 @@
                                                 "amenity_shower_pay_m",
                                                 "amenity_shower_pay_w",
                                                 "amenity_drinking_water",
-                                                "amenity_nondrinking_water" ] ],
+                                                "amenity_nondrinking_water",
+                                                "amenity_bbq",
+                                                "amenity_waterway_access_point" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",

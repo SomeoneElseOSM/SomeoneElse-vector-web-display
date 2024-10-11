@@ -251,6 +251,8 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/life_ring.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_life_ring.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fireextinguisher.png                           ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_fire_extinguisher.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/firehydrant.png                                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_fire_hydrant.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/bbq.png                                        ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_bbq.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/waterway_access_point.p.16.png                 ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_waterway_access_point.png
 
 #
 # Patterns used with the "land1" and "land2" layers:

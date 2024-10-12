@@ -78,16 +78,20 @@ else
 	    # -----------------------------------------------------------------------------
 	    # Then, create the sprite .png
 	    # -----------------------------------------------------------------------------
-	    montage -background "transparent" -depth 8 -type TrueColorMatte ${ICON_SOURCE}/*.png ${IMAGEMAGICK_ARGS} -tile ${NUMBEROFICONS}x1 -matte -transparent "transparent" -type TrueColorMatte -depth 8 ${SPRITE_LOCATION}@2x.png
+	    NUMBEROFROWS="$((( ${NUMBEROFICONS} / 512 ) + 1 ))"
+	    NUMBEROFCOLS="$((( ${NUMBEROFICONS} / ${NUMBEROFROWS} ) + 1 ))"
+	    echo "There will be ${NUMBEROFROWS} rows and ${NUMBEROFCOLS} columns"
+	    montage -background "transparent" -depth 8 -type TrueColorMatte ${ICON_SOURCE}/*.png ${IMAGEMAGICK_ARGS} -tile ${NUMBEROFCOLS}x${NUMBEROFROWS} -matte -transparent "transparent" -type TrueColorMatte -depth 8 ${SPRITE_LOCATION}@2x.png
 	    #
 	    # -----------------------------------------------------------------------------
 	    # Next, create the .json
 	    # -----------------------------------------------------------------------------
 	    echo "{"                                      >  ${SPRITE_LOCATION}@2x.json
 	    current_x=0
+	    current_y=0
 	    for f in ${ICON_SOURCE}/*.png; do
 
-		if [[ "$current_x" -ne 0 ]]
+		if [[ "$current_x" -ne 0 || "$current_y" -ne 0 ]]
 		then
 		    echo ','                                 >>  ${SPRITE_LOCATION}@2x.json
 		fi
@@ -97,9 +101,15 @@ else
 		echo '"pixelRatio": 2,'                      >>  ${SPRITE_LOCATION}@2x.json
 		echo '"width": 64,'                          >>  ${SPRITE_LOCATION}@2x.json
 		echo '"x": '${current_x}','                  >>  ${SPRITE_LOCATION}@2x.json
-		echo '"y": 0'                                >>  ${SPRITE_LOCATION}@2x.json
+		echo '"y": '${current_y}''                   >>  ${SPRITE_LOCATION}@2x.json
 		echo '}'                                     >>  ${SPRITE_LOCATION}@2x.json
 		current_x=`expr ${current_x} + 64`
+
+		if [[ "$current_x" -ge "${NUMBEROFCOLS} * 64" ]]
+                then
+		    current_x=0
+		    current_y=`expr ${current_y} + 64`
+                fi
 	    done
 	    echo '}'                                         >>  ${SPRITE_LOCATION}@2x.json
 	    jsonlint-php ${SPRITE_LOCATION}@2x.json

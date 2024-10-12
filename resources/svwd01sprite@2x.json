@@ -1391,7 +1391,7 @@
 "y": 0
 }
 ,
-"amenity_public_bookcase": {
+"amenity_pub_cddddddd": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1399,7 +1399,7 @@
 "y": 0
 }
 ,
-"amenity_pub": {
+"amenity_public_bookcase": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1407,7 +1407,7 @@
 "y": 0
 }
 ,
-"amenity_recyclingcentre": {
+"amenity_pub_nddddddd": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1415,7 +1415,7 @@
 "y": 0
 }
 ,
-"amenity_recycling": {
+"amenity_pub": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1423,7 +1423,7 @@
 "y": 0
 }
 ,
-"amenity_restaccomm": {
+"amenity_pub_ydddnnndd": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1431,7 +1431,7 @@
 "y": 0
 }
 ,
-"amenity_restaurant": {
+"amenity_pub_ydddnnndg": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1439,7 +1439,7 @@
 "y": 0
 }
 ,
-"amenity_scooter_rental": {
+"amenity_pub_ydddnnndo": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1447,7 +1447,7 @@
 "y": 0
 }
 ,
-"amenity_shelter": {
+"amenity_pub_ydddnnnld": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1455,7 +1455,7 @@
 "y": 0
 }
 ,
-"amenity_shopmobility": {
+"amenity_pub_ydddnnnlg": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1463,7 +1463,7 @@
 "y": 0
 }
 ,
-"amenity_shower_free_m": {
+"amenity_pub_ydddnnnlo": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1471,7 +1471,7 @@
 "y": 0
 }
 ,
-"amenity_shower_free_w": {
+"amenity_pub_ydddnnnnd": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1479,7 +1479,7 @@
 "y": 0
 }
 ,
-"amenity_shower_pay_m": {
+"amenity_pub_ydddnnnng": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1487,7 +1487,7 @@
 "y": 0
 }
 ,
-"amenity_shower_pay": {
+"amenity_pub_ydddnnnno": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1495,7 +1495,7 @@
 "y": 0
 }
 ,
-"amenity_shower_pay_w": {
+"amenity_pub_ydddnnnyd": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1503,7 +1503,7 @@
 "y": 0
 }
 ,
-"amenity_shower": {
+"amenity_pub_ydddnnnyg": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1511,7 +1511,7 @@
 "y": 0
 }
 ,
-"amenity_sundial": {
+"amenity_pub_ydddnnnyo": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1519,7 +1519,7 @@
 "y": 0
 }
 ,
-"amenity_taxi_office": {
+"amenity_pub_ydddnnydd": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1527,7 +1527,7 @@
 "y": 0
 }
 ,
-"amenity_taxi": {
+"amenity_pub_ydddnnydg": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1535,7 +1535,7 @@
 "y": 0
 }
 ,
-"amenity_telephone": {
+"amenity_pub_ydddnnydo": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1543,7 +1543,7 @@
 "y": 0
 }
 ,
-"amenity_theatre": {
+"amenity_pub_ydddnnyld": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1551,7 +1551,7 @@
 "y": 0
 }
 ,
-"amenity_toilets_free_m": {
+"amenity_pub_ydddnnylg": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1559,7 +1559,7 @@
 "y": 0
 }
 ,
-"amenity_toilets_free_w": {
+"amenity_pub_ydddnnylo": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1567,7 +1567,7 @@
 "y": 0
 }
 ,
-"amenity_toilets_pay_m": {
+"amenity_pub_ydddnnyn": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1575,7 +1575,7 @@
 "y": 0
 }
 ,
-"amenity_toilets_pay": {
+"amenity_pub_ydddnnyyd": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1583,7 +1583,7 @@
 "y": 0
 }
 ,
-"amenity_toilets_pay_w": {
+"amenity_pub_ydddnnyyg": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1591,7 +1591,7 @@
 "y": 0
 }
 ,
-"amenity_toilets": {
+"amenity_pub_ydddnnyyo": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1599,7 +1599,7 @@
 "y": 0
 }
 ,
-"amenity_tourismstation": {
+"amenity_pub_ydddnydd": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1607,7 +1607,7 @@
 "y": 0
 }
 ,
-"amenity_townhall": {
+"amenity_pub_ydddnydl": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1615,7 +1615,7 @@
 "y": 0
 }
 ,
-"amenity_vending_excrement": {
+"amenity_pub_ydddnydn": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1623,7 +1623,7 @@
 "y": 0
 }
 ,
-"amenity_vending_machine": {
+"amenity_pub_ydddnydy": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1631,7 +1631,7 @@
 "y": 0
 }
 ,
-"amenity_veterinary": {
+"amenity_pub_ydddydndd": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1639,7 +1639,7 @@
 "y": 0
 }
 ,
-"amenity_waste_basket": {
+"amenity_pub_ydddydndg": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1647,7 +1647,7 @@
 "y": 0
 }
 ,
-"amenity_waste_disposal": {
+"amenity_pub_ydddydndo": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1655,7 +1655,7 @@
 "y": 0
 }
 ,
-"amenity_watering_place": {
+"amenity_pub_ydddydnl": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1663,7 +1663,7 @@
 "y": 0
 }
 ,
-"amenity_waterway_access_point": {
+"amenity_pub_ydddydnn": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1671,7 +1671,7 @@
 "y": 0
 }
 ,
-"amenity_zooaviary": {
+"amenity_pub_ydddydnyd": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1679,7 +1679,7 @@
 "y": 0
 }
 ,
-"amenity_zooenclosure": {
+"amenity_pub_ydddydnyg": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1687,7 +1687,7 @@
 "y": 0
 }
 ,
-"emergency_defibrillator": {
+"amenity_pub_ydddydnyo": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1695,7 +1695,7 @@
 "y": 0
 }
 ,
-"emergency_phone": {
+"amenity_pub_ydddydy": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1703,7 +1703,7 @@
 "y": 0
 }
 ,
-"historic_archaeological_site": {
+"amenity_pub_yddynnddd": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1711,7 +1711,7 @@
 "y": 0
 }
 ,
-"historic_battlefield": {
+"amenity_pub_yddynnddg": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1719,7 +1719,7 @@
 "y": 0
 }
 ,
-"historic_castle": {
+"amenity_pub_yddynnddo": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1727,7 +1727,7 @@
 "y": 0
 }
 ,
-"historic_fort": {
+"amenity_pub_yddynndld": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1735,7 +1735,7 @@
 "y": 0
 }
 ,
-"historic_memorial": {
+"amenity_pub_yddynndlg": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1743,7 +1743,7 @@
 "y": 0
 }
 ,
-"historic_monument": {
+"amenity_pub_yddynndlo": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1751,7 +1751,7 @@
 "y": 0
 }
 ,
-"historic_ruins": {
+"amenity_pub_yddynndnd": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1759,7 +1759,7 @@
 "y": 0
 }
 ,
-"historic_wayside_cross": {
+"amenity_pub_yddynndng": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1767,7 +1767,7 @@
 "y": 0
 }
 ,
-"historic_wayside_shrine": {
+"amenity_pub_yddynndno": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1775,7 +1775,7 @@
 "y": 0
 }
 ,
-"leisure_golf_course": {
+"amenity_pub_yddynndyd": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1783,7 +1783,7 @@
 "y": 0
 }
 ,
-"leisure_playground": {
+"amenity_pub_yddynndyg": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1791,7 +1791,7 @@
 "y": 0
 }
 ,
-"leisure_sports_centre": {
+"amenity_pub_yddynndyo": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1799,7 +1799,7 @@
 "y": 0
 }
 ,
-"man_made_lighthouse": {
+"amenity_pub_yddyydnd": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1807,7 +1807,7 @@
 "y": 0
 }
 ,
-"man_made_tower": {
+"amenity_pub_yddyydng": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1815,7 +1815,7 @@
 "y": 0
 }
 ,
-"man_made_watermill": {
+"amenity_pub_yddyydno": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1823,7 +1823,7 @@
 "y": 0
 }
 ,
-"man_made_water_well": {
+"amenity_pub_yddyydy": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1831,7 +1831,7 @@
 "y": 0
 }
 ,
-"man_made_windmill": {
+"amenity_pub_ydydnnndd": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1839,7 +1839,7 @@
 "y": 0
 }
 ,
-"office_diplomatic": {
+"amenity_pub_ydydnnndg": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1847,7 +1847,7 @@
 "y": 0
 }
 ,
-"pattern_landuse_allotments": {
+"amenity_pub_ydydnnndo": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1855,7 +1855,7 @@
 "y": 0
 }
 ,
-"pattern_landuse_christiancemetery": {
+"amenity_pub_ydydnnnld": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1863,7 +1863,7 @@
 "y": 0
 }
 ,
-"pattern_landuse_historicquarry": {
+"amenity_pub_ydydnnnlg": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1871,7 +1871,7 @@
 "y": 0
 }
 ,
-"pattern_landuse_jewishcemetery": {
+"amenity_pub_ydydnnnlo": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1879,7 +1879,7 @@
 "y": 0
 }
 ,
-"pattern_landuse_meadowperpetual": {
+"amenity_pub_ydydnnnnd": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1887,7 +1887,7 @@
 "y": 0
 }
 ,
-"pattern_landuse_meadowwildflower": {
+"amenity_pub_ydydnnnng": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1895,7 +1895,7 @@
 "y": 0
 }
 ,
-"pattern_landuse_military": {
+"amenity_pub_ydydnnnno": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1903,7 +1903,7 @@
 "y": 0
 }
 ,
-"pattern_landuse_orchard": {
+"amenity_pub_ydydnnnyd": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1911,7 +1911,7 @@
 "y": 0
 }
 ,
-"pattern_landuse_othercemetery": {
+"amenity_pub_ydydnnnyg": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1919,7 +1919,7 @@
 "y": 0
 }
 ,
-"pattern_landuse_quarry": {
+"amenity_pub_ydydnnnyo": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1927,7 +1927,7 @@
 "y": 0
 }
 ,
-"pattern_landuse_reedbed": {
+"amenity_pub_ydydnnydd": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1935,7 +1935,7 @@
 "y": 0
 }
 ,
-"pattern_landuse_saltmarsh": {
+"amenity_pub_ydydnnydg": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1943,7 +1943,7 @@
 "y": 0
 }
 ,
-"pattern_landuse_scrub": {
+"amenity_pub_ydydnnydo": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1951,7 +1951,7 @@
 "y": 0
 }
 ,
-"pattern_landuse_vineyard": {
+"amenity_pub_ydydnnyl": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1959,7 +1959,7 @@
 "y": 0
 }
 ,
-"pattern_landuse_wetmeadow": {
+"amenity_pub_ydydnnynd": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1967,7 +1967,7 @@
 "y": 0
 }
 ,
-"pattern_natural_beach": {
+"amenity_pub_ydydnnyng": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1975,7 +1975,7 @@
 "y": 0
 }
 ,
-"pattern_natural_broadleaved": {
+"amenity_pub_ydydnnyno": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1983,7 +1983,7 @@
 "y": 0
 }
 ,
-"pattern_natural_flood_prone": {
+"amenity_pub_ydydnnyyd": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1991,7 +1991,7 @@
 "y": 0
 }
 ,
-"pattern_natural_intermittentwater": {
+"amenity_pub_ydydnnyyg": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1999,7 +1999,7 @@
 "y": 0
 }
 ,
-"pattern_natural_mixedleaved": {
+"amenity_pub_ydydnnyyo": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2007,7 +2007,7 @@
 "y": 0
 }
 ,
-"pattern_natural_mud": {
+"amenity_pub_ydydnyddd": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2015,7 +2015,7 @@
 "y": 0
 }
 ,
-"pattern_natural_needleleaved": {
+"amenity_pub_ydydnyddg": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2023,7 +2023,7 @@
 "y": 0
 }
 ,
-"pattern_natural_reef": {
+"amenity_pub_ydydnyddo": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2031,7 +2031,7 @@
 "y": 0
 }
 ,
-"pattern_natural_reefsand": {
+"amenity_pub_ydydnydl": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2039,7 +2039,7 @@
 "y": 0
 }
 ,
-"pattern_natural_rock": {
+"amenity_pub_ydydnydn": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2047,7 +2047,7 @@
 "y": 0
 }
 ,
-"pattern_natural_scree": {
+"amenity_pub_ydydnydy": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2055,7 +2055,7 @@
 "y": 0
 }
 ,
-"pattern_natural_scrub": {
+"amenity_pub_ydydydddd": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2063,7 +2063,7 @@
 "y": 0
 }
 ,
-"pattern_natural_shingle": {
+"amenity_pub_ydydydddg": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2071,7 +2071,7 @@
 "y": 0
 }
 ,
-"pattern_natural_tidal_beach": {
+"amenity_pub_ydydydddo": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2079,7 +2079,7 @@
 "y": 0
 }
 ,
-"pattern_natural_tidal_mud": {
+"amenity_pub_ydydyddl": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2087,7 +2087,7 @@
 "y": 0
 }
 ,
-"pattern_natural_tidal_rock": {
+"amenity_pub_ydydyddn": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2095,7 +2095,7 @@
 "y": 0
 }
 ,
-"pattern_natural_tidal_rocks": {
+"amenity_pub_ydydyddy": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2103,7 +2103,7 @@
 "y": 0
 }
 ,
-"pattern_natural_tidal_sand": {
+"amenity_pub_ydyyndddd": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2111,7 +2111,7 @@
 "y": 0
 }
 ,
-"pattern_natural_tidal_scree": {
+"amenity_pub_ydyyndddg": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2119,7 +2119,7 @@
 "y": 0
 }
 ,
-"pattern_natural_tidal_shingle": {
+"amenity_pub_ydyyndddo": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2127,7 +2127,7 @@
 "y": 0
 }
 ,
-"pattern_natural_wetland": {
+"amenity_pub_ydyynddld": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2135,7 +2135,7 @@
 "y": 0
 }
 ,
-"pattern_tourism_zoo": {
+"amenity_pub_ydyynddlg": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2143,7 +2143,7 @@
 "y": 0
 }
 ,
-"shop_alcohol": {
+"amenity_pub_ydyynddlo": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2151,7 +2151,7 @@
 "y": 0
 }
 ,
-"shop_bakery": {
+"amenity_pub_ydyynddnd": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2159,7 +2159,7 @@
 "y": 0
 }
 ,
-"shop_beauty": {
+"amenity_pub_ydyynddng": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2167,7 +2167,7 @@
 "y": 0
 }
 ,
-"shop_bicycle": {
+"amenity_pub_ydyynddno": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2175,7 +2175,7 @@
 "y": 0
 }
 ,
-"shop_bookmaker": {
+"amenity_pub_ydyynddyd": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2183,7 +2183,7 @@
 "y": 0
 }
 ,
-"shop_butcher": {
+"amenity_pub_ydyynddyg": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2191,7 +2191,7 @@
 "y": 0
 }
 ,
-"shop_car": {
+"amenity_pub_ydyynddyo": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2199,7 +2199,7 @@
 "y": 0
 }
 ,
-"shop_chemist": {
+"amenity_pub_ydyyydd": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2207,7 +2207,7 @@
 "y": 0
 }
 ,
-"shop_clothes": {
+"amenity_pub_ynddddndd": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2215,7 +2215,7 @@
 "y": 0
 }
 ,
-"shop_computer": {
+"amenity_pub_ynddddndg": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2223,7 +2223,7 @@
 "y": 0
 }
 ,
-"shop_convenience": {
+"amenity_pub_ynddddndo": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2231,7 +2231,7 @@
 "y": 0
 }
 ,
-"shop_cosmetics": {
+"amenity_pub_ynddddnl": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2239,7 +2239,7 @@
 "y": 0
 }
 ,
-"shop_department_store": {
+"amenity_pub_ynddddnnd": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2247,7 +2247,7 @@
 "y": 0
 }
 ,
-"shop_doityourself": {
+"amenity_pub_ynddddnng": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2255,7 +2255,7 @@
 "y": 0
 }
 ,
-"shop_dry_cleaning": {
+"amenity_pub_ynddddnno": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2263,7 +2263,7 @@
 "y": 0
 }
 ,
-"shop_electronics": {
+"amenity_pub_ynddddnyd": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2271,7 +2271,7 @@
 "y": 0
 }
 ,
-"shop_florist": {
+"amenity_pub_ynddddnyg": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2279,7 +2279,7 @@
 "y": 0
 }
 ,
-"shop_frozen_food": {
+"amenity_pub_ynddddnyo": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2287,7 +2287,7 @@
 "y": 0
 }
 ,
-"shop_furniture": {
+"amenity_pub_ynddddy": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2295,7 +2295,7 @@
 "y": 0
 }
 ,
-"shop_garden_centre": {
+"amenity_pub_yndyddndd": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2303,7 +2303,7 @@
 "y": 0
 }
 ,
-"shop_gift": {
+"amenity_pub_yndyddndg": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2311,7 +2311,7 @@
 "y": 0
 }
 ,
-"shop_greengrocer": {
+"amenity_pub_yndyddndo": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2319,7 +2319,7 @@
 "y": 0
 }
 ,
-"shop_hairdresser": {
+"amenity_pub_yndyddnld": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2327,7 +2327,7 @@
 "y": 0
 }
 ,
-"shop_hardware": {
+"amenity_pub_yndyddnlg": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2335,7 +2335,7 @@
 "y": 0
 }
 ,
-"shop_jewelry": {
+"amenity_pub_yndyddnlo": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2343,7 +2343,7 @@
 "y": 0
 }
 ,
-"shop_kitchen": {
+"amenity_pub_yndyddnnd": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2351,7 +2351,7 @@
 "y": 0
 }
 ,
-"shop_laundry": {
+"amenity_pub_yndyddnng": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2359,7 +2359,7 @@
 "y": 0
 }
 ,
-"shop_mobile_phone": {
+"amenity_pub_yndyddnno": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2367,7 +2367,7 @@
 "y": 0
 }
 ,
-"shop_newsagent": {
+"amenity_pub_yndyddnyd": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2375,7 +2375,7 @@
 "y": 0
 }
 ,
-"shop_optician": {
+"amenity_pub_yndyddnyg": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2383,7 +2383,7 @@
 "y": 0
 }
 ,
-"shop_outdoor": {
+"amenity_pub_yndyddnyo": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2391,7 +2391,7 @@
 "y": 0
 }
 ,
-"shop_shoes": {
+"amenity_pub_yndyddyd": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2399,7 +2399,7 @@
 "y": 0
 }
 ,
-"shop_sports": {
+"amenity_pub_yndyddyl": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2407,7 +2407,7 @@
 "y": 0
 }
 ,
-"shop_supermarket": {
+"amenity_pub_yndyddyn": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2415,7 +2415,7 @@
 "y": 0
 }
 ,
-"shop_tailor": {
+"amenity_pub_yndyddyy": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2423,7 +2423,7 @@
 "y": 0
 }
 ,
-"shop_toys": {
+"amenity_pub_ynydddndd": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2431,7 +2431,7 @@
 "y": 0
 }
 ,
-"shop_travel_agency": {
+"amenity_pub_ynydddndg": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2439,7 +2439,7 @@
 "y": 0
 }
 ,
-"tourism_alpine_hut": {
+"amenity_pub_ynydddndo": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2447,7 +2447,7 @@
 "y": 0
 }
 ,
-"tourism_bed_and_breakfast": {
+"amenity_pub_ynydddnl": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2455,7 +2455,7 @@
 "y": 0
 }
 ,
-"tourism_camp_site": {
+"amenity_pub_ynydddnn": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2463,7 +2463,7 @@
 "y": 0
 }
 ,
-"tourism_caravan_site": {
+"amenity_pub_ynydddnyd": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2471,7 +2471,7 @@
 "y": 0
 }
 ,
-"tourism_chalet": {
+"amenity_pub_ynydddnyg": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2479,7 +2479,7 @@
 "y": 0
 }
 ,
-"tourism_guest_house": {
+"amenity_pub_ynydddnyo": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2487,7 +2487,7 @@
 "y": 0
 }
 ,
-"tourism_hostel": {
+"amenity_pub_ynydddydd": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2495,7 +2495,7 @@
 "y": 0
 }
 ,
-"tourism_hotel": {
+"amenity_pub_ynydddydg": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2503,7 +2503,7 @@
 "y": 0
 }
 ,
-"tourism_information": {
+"amenity_pub_ynydddydo": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2511,7 +2511,7 @@
 "y": 0
 }
 ,
-"tourism_motel": {
+"amenity_pub_ynydddyl": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2519,7 +2519,7 @@
 "y": 0
 }
 ,
-"tourism_picnic_site": {
+"amenity_pub_ynydddyn": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2527,7 +2527,7 @@
 "y": 0
 }
 ,
-"tourism_viewpoint": {
+"amenity_pub_ynydddyyd": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -2535,11 +2535,2883 @@
 "y": 0
 }
 ,
-"tourism_zoo": {
+"amenity_pub_ynydddyyg": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
 "x": 20288,
 "y": 0
+}
+,
+"amenity_pub_ynydddyyo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 20352,
+"y": 0
+}
+,
+"amenity_pub_ynyyddddd": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 20416,
+"y": 0
+}
+,
+"amenity_pub_ynyyddddg": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 20480,
+"y": 0
+}
+,
+"amenity_pub_ynyyddddo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 20544,
+"y": 0
+}
+,
+"amenity_pub_ynyydddld": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 20608,
+"y": 0
+}
+,
+"amenity_pub_ynyydddlg": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 20672,
+"y": 0
+}
+,
+"amenity_pub_ynyydddlo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 20736,
+"y": 0
+}
+,
+"amenity_pub_ynyydddnd": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 20800,
+"y": 0
+}
+,
+"amenity_pub_ynyydddng": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 20864,
+"y": 0
+}
+,
+"amenity_pub_ynyydddno": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 20928,
+"y": 0
+}
+,
+"amenity_pub_ynyydddyd": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 20992,
+"y": 0
+}
+,
+"amenity_pub_ynyydddyg": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 21056,
+"y": 0
+}
+,
+"amenity_pub_ynyydddyo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 21120,
+"y": 0
+}
+,
+"amenity_pub_yyddnnndd": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 21184,
+"y": 0
+}
+,
+"amenity_pub_yyddnnndg": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 21248,
+"y": 0
+}
+,
+"amenity_pub_yyddnnndo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 21312,
+"y": 0
+}
+,
+"amenity_pub_yyddnnnld": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 21376,
+"y": 0
+}
+,
+"amenity_pub_yyddnnnlg": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 21440,
+"y": 0
+}
+,
+"amenity_pub_yyddnnnlo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 21504,
+"y": 0
+}
+,
+"amenity_pub_yyddnnnnd": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 21568,
+"y": 0
+}
+,
+"amenity_pub_yyddnnnng": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 21632,
+"y": 0
+}
+,
+"amenity_pub_yyddnnnno": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 0,
+"y": 64
+}
+,
+"amenity_pub_yyddnnnyd": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 64,
+"y": 64
+}
+,
+"amenity_pub_yyddnnnyg": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 128,
+"y": 64
+}
+,
+"amenity_pub_yyddnnnyo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 192,
+"y": 64
+}
+,
+"amenity_pub_yyddnnydd": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 256,
+"y": 64
+}
+,
+"amenity_pub_yyddnnydg": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 320,
+"y": 64
+}
+,
+"amenity_pub_yyddnnydo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 384,
+"y": 64
+}
+,
+"amenity_pub_yyddnnyld": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 448,
+"y": 64
+}
+,
+"amenity_pub_yyddnnylg": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 512,
+"y": 64
+}
+,
+"amenity_pub_yyddnnylo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 576,
+"y": 64
+}
+,
+"amenity_pub_yyddnnynd": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 640,
+"y": 64
+}
+,
+"amenity_pub_yyddnnyng": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 704,
+"y": 64
+}
+,
+"amenity_pub_yyddnnyno": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 768,
+"y": 64
+}
+,
+"amenity_pub_yyddnnyyd": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 832,
+"y": 64
+}
+,
+"amenity_pub_yyddnnyyg": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 896,
+"y": 64
+}
+,
+"amenity_pub_yyddnnyyo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 960,
+"y": 64
+}
+,
+"amenity_pub_yyddnyddd": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 1024,
+"y": 64
+}
+,
+"amenity_pub_yyddnyddg": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 1088,
+"y": 64
+}
+,
+"amenity_pub_yyddnyddo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 1152,
+"y": 64
+}
+,
+"amenity_pub_yyddnydl": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 1216,
+"y": 64
+}
+,
+"amenity_pub_yyddnydnd": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 1280,
+"y": 64
+}
+,
+"amenity_pub_yyddnydng": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 1344,
+"y": 64
+}
+,
+"amenity_pub_yyddnydno": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 1408,
+"y": 64
+}
+,
+"amenity_pub_yyddnydy": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 1472,
+"y": 64
+}
+,
+"amenity_pub_yyddynndd": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 1536,
+"y": 64
+}
+,
+"amenity_pub_yyddynndg": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 1600,
+"y": 64
+}
+,
+"amenity_pub_yyddynndo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 1664,
+"y": 64
+}
+,
+"amenity_pub_yyddynnld": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 1728,
+"y": 64
+}
+,
+"amenity_pub_yyddynnlg": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 1792,
+"y": 64
+}
+,
+"amenity_pub_yyddynnlo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 1856,
+"y": 64
+}
+,
+"amenity_pub_yyddynnnd": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 1920,
+"y": 64
+}
+,
+"amenity_pub_yyddynnng": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 1984,
+"y": 64
+}
+,
+"amenity_pub_yyddynnno": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 2048,
+"y": 64
+}
+,
+"amenity_pub_yyddynnyd": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 2112,
+"y": 64
+}
+,
+"amenity_pub_yyddynnyg": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 2176,
+"y": 64
+}
+,
+"amenity_pub_yyddynnyo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 2240,
+"y": 64
+}
+,
+"amenity_pub_yyddynydd": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 2304,
+"y": 64
+}
+,
+"amenity_pub_yyddynydg": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 2368,
+"y": 64
+}
+,
+"amenity_pub_yyddynydo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 2432,
+"y": 64
+}
+,
+"amenity_pub_yyddynyl": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 2496,
+"y": 64
+}
+,
+"amenity_pub_yyddynyn": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 2560,
+"y": 64
+}
+,
+"amenity_pub_yyddynyyd": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 2624,
+"y": 64
+}
+,
+"amenity_pub_yyddynyyg": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 2688,
+"y": 64
+}
+,
+"amenity_pub_yyddynyyo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 2752,
+"y": 64
+}
+,
+"amenity_pub_yyddyydd": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 2816,
+"y": 64
+}
+,
+"amenity_pub_yyddyydl": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 2880,
+"y": 64
+}
+,
+"amenity_pub_yyddyydn": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 2944,
+"y": 64
+}
+,
+"amenity_pub_yyddyydyd": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 3008,
+"y": 64
+}
+,
+"amenity_pub_yyddyydyg": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 3072,
+"y": 64
+}
+,
+"amenity_pub_yyddyydyo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 3136,
+"y": 64
+}
+,
+"amenity_pub_yydynnndd": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 3200,
+"y": 64
+}
+,
+"amenity_pub_yydynnndg": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 3264,
+"y": 64
+}
+,
+"amenity_pub_yydynnndo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 3328,
+"y": 64
+}
+,
+"amenity_pub_yydynnnld": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 3392,
+"y": 64
+}
+,
+"amenity_pub_yydynnnlg": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 3456,
+"y": 64
+}
+,
+"amenity_pub_yydynnnlo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 3520,
+"y": 64
+}
+,
+"amenity_pub_yydynnnnd": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 3584,
+"y": 64
+}
+,
+"amenity_pub_yydynnnng": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 3648,
+"y": 64
+}
+,
+"amenity_pub_yydynnnno": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 3712,
+"y": 64
+}
+,
+"amenity_pub_yydynnnyd": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 3776,
+"y": 64
+}
+,
+"amenity_pub_yydynnnyg": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 3840,
+"y": 64
+}
+,
+"amenity_pub_yydynnnyo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 3904,
+"y": 64
+}
+,
+"amenity_pub_yydynnydd": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 3968,
+"y": 64
+}
+,
+"amenity_pub_yydynnydg": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 4032,
+"y": 64
+}
+,
+"amenity_pub_yydynnydo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 4096,
+"y": 64
+}
+,
+"amenity_pub_yydynnyld": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 4160,
+"y": 64
+}
+,
+"amenity_pub_yydynnylg": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 4224,
+"y": 64
+}
+,
+"amenity_pub_yydynnylo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 4288,
+"y": 64
+}
+,
+"amenity_pub_yydynnynd": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 4352,
+"y": 64
+}
+,
+"amenity_pub_yydynnyng": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 4416,
+"y": 64
+}
+,
+"amenity_pub_yydynnyno": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 4480,
+"y": 64
+}
+,
+"amenity_pub_yydynnyyd": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 4544,
+"y": 64
+}
+,
+"amenity_pub_yydynnyyg": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 4608,
+"y": 64
+}
+,
+"amenity_pub_yydynnyyo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 4672,
+"y": 64
+}
+,
+"amenity_pub_yydynydd": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 4736,
+"y": 64
+}
+,
+"amenity_pub_yydynydld": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 4800,
+"y": 64
+}
+,
+"amenity_pub_yydynydlg": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 4864,
+"y": 64
+}
+,
+"amenity_pub_yydynydlo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 4928,
+"y": 64
+}
+,
+"amenity_pub_yydynydnd": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 4992,
+"y": 64
+}
+,
+"amenity_pub_yydynydng": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 5056,
+"y": 64
+}
+,
+"amenity_pub_yydynydno": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 5120,
+"y": 64
+}
+,
+"amenity_pub_yydynydy": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 5184,
+"y": 64
+}
+,
+"amenity_pub_yydyydndd": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 5248,
+"y": 64
+}
+,
+"amenity_pub_yydyydndg": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 5312,
+"y": 64
+}
+,
+"amenity_pub_yydyydndo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 5376,
+"y": 64
+}
+,
+"amenity_pub_yydyydnld": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 5440,
+"y": 64
+}
+,
+"amenity_pub_yydyydnlg": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 5504,
+"y": 64
+}
+,
+"amenity_pub_yydyydnlo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 5568,
+"y": 64
+}
+,
+"amenity_pub_yydyydnnd": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 5632,
+"y": 64
+}
+,
+"amenity_pub_yydyydnng": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 5696,
+"y": 64
+}
+,
+"amenity_pub_yydyydnno": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 5760,
+"y": 64
+}
+,
+"amenity_pub_yydyydny": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 5824,
+"y": 64
+}
+,
+"amenity_pub_yydyydyd": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 5888,
+"y": 64
+}
+,
+"amenity_pub_yydyydyl": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 5952,
+"y": 64
+}
+,
+"amenity_pub_yydyydyn": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 6016,
+"y": 64
+}
+,
+"amenity_pub_yydyydyy": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 6080,
+"y": 64
+}
+,
+"amenity_pub_yyydnnndd": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 6144,
+"y": 64
+}
+,
+"amenity_pub_yyydnnndg": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 6208,
+"y": 64
+}
+,
+"amenity_pub_yyydnnndo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 6272,
+"y": 64
+}
+,
+"amenity_pub_yyydnnnld": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 6336,
+"y": 64
+}
+,
+"amenity_pub_yyydnnnlg": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 6400,
+"y": 64
+}
+,
+"amenity_pub_yyydnnnlo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 6464,
+"y": 64
+}
+,
+"amenity_pub_yyydnnnnd": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 6528,
+"y": 64
+}
+,
+"amenity_pub_yyydnnnng": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 6592,
+"y": 64
+}
+,
+"amenity_pub_yyydnnnno": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 6656,
+"y": 64
+}
+,
+"amenity_pub_yyydnnnyd": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 6720,
+"y": 64
+}
+,
+"amenity_pub_yyydnnnyg": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 6784,
+"y": 64
+}
+,
+"amenity_pub_yyydnnnyo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 6848,
+"y": 64
+}
+,
+"amenity_pub_yyydnnydd": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 6912,
+"y": 64
+}
+,
+"amenity_pub_yyydnnydg": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 6976,
+"y": 64
+}
+,
+"amenity_pub_yyydnnydo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 7040,
+"y": 64
+}
+,
+"amenity_pub_yyydnnyld": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 7104,
+"y": 64
+}
+,
+"amenity_pub_yyydnnylg": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 7168,
+"y": 64
+}
+,
+"amenity_pub_yyydnnylo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 7232,
+"y": 64
+}
+,
+"amenity_pub_yyydnnynd": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 7296,
+"y": 64
+}
+,
+"amenity_pub_yyydnnyng": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 7360,
+"y": 64
+}
+,
+"amenity_pub_yyydnnyno": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 7424,
+"y": 64
+}
+,
+"amenity_pub_yyydnnyyd": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 7488,
+"y": 64
+}
+,
+"amenity_pub_yyydnnyyg": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 7552,
+"y": 64
+}
+,
+"amenity_pub_yyydnnyyo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 7616,
+"y": 64
+}
+,
+"amenity_pub_yyydnyddd": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 7680,
+"y": 64
+}
+,
+"amenity_pub_yyydnyddg": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 7744,
+"y": 64
+}
+,
+"amenity_pub_yyydnyddo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 7808,
+"y": 64
+}
+,
+"amenity_pub_yyydnydld": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 7872,
+"y": 64
+}
+,
+"amenity_pub_yyydnydlg": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 7936,
+"y": 64
+}
+,
+"amenity_pub_yyydnydlo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 8000,
+"y": 64
+}
+,
+"amenity_pub_yyydnydnd": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 8064,
+"y": 64
+}
+,
+"amenity_pub_yyydnydng": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 8128,
+"y": 64
+}
+,
+"amenity_pub_yyydnydno": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 8192,
+"y": 64
+}
+,
+"amenity_pub_yyydnydyd": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 8256,
+"y": 64
+}
+,
+"amenity_pub_yyydnydyg": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 8320,
+"y": 64
+}
+,
+"amenity_pub_yyydnydyo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 8384,
+"y": 64
+}
+,
+"amenity_pub_yyydydndd": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 8448,
+"y": 64
+}
+,
+"amenity_pub_yyydydndg": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 8512,
+"y": 64
+}
+,
+"amenity_pub_yyydydndo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 8576,
+"y": 64
+}
+,
+"amenity_pub_yyydydnld": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 8640,
+"y": 64
+}
+,
+"amenity_pub_yyydydnlg": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 8704,
+"y": 64
+}
+,
+"amenity_pub_yyydydnlo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 8768,
+"y": 64
+}
+,
+"amenity_pub_yyydydnn": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 8832,
+"y": 64
+}
+,
+"amenity_pub_yyydydny": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 8896,
+"y": 64
+}
+,
+"amenity_pub_yyydydydd": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 8960,
+"y": 64
+}
+,
+"amenity_pub_yyydydydg": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 9024,
+"y": 64
+}
+,
+"amenity_pub_yyydydydo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 9088,
+"y": 64
+}
+,
+"amenity_pub_yyydydyl": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 9152,
+"y": 64
+}
+,
+"amenity_pub_yyydydyn": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 9216,
+"y": 64
+}
+,
+"amenity_pub_yyydydyy": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 9280,
+"y": 64
+}
+,
+"amenity_pub_yyyynnndd": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 9344,
+"y": 64
+}
+,
+"amenity_pub_yyyynnndg": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 9408,
+"y": 64
+}
+,
+"amenity_pub_yyyynnndo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 9472,
+"y": 64
+}
+,
+"amenity_pub_yyyynnnld": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 9536,
+"y": 64
+}
+,
+"amenity_pub_yyyynnnlg": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 9600,
+"y": 64
+}
+,
+"amenity_pub_yyyynnnlo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 9664,
+"y": 64
+}
+,
+"amenity_pub_yyyynnnnd": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 9728,
+"y": 64
+}
+,
+"amenity_pub_yyyynnnng": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 9792,
+"y": 64
+}
+,
+"amenity_pub_yyyynnnno": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 9856,
+"y": 64
+}
+,
+"amenity_pub_yyyynnnyd": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 9920,
+"y": 64
+}
+,
+"amenity_pub_yyyynnnyg": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 9984,
+"y": 64
+}
+,
+"amenity_pub_yyyynnnyo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 10048,
+"y": 64
+}
+,
+"amenity_pub_yyyynnydd": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 10112,
+"y": 64
+}
+,
+"amenity_pub_yyyynnydg": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 10176,
+"y": 64
+}
+,
+"amenity_pub_yyyynnydo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 10240,
+"y": 64
+}
+,
+"amenity_pub_yyyynnyld": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 10304,
+"y": 64
+}
+,
+"amenity_pub_yyyynnylg": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 10368,
+"y": 64
+}
+,
+"amenity_pub_yyyynnylo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 10432,
+"y": 64
+}
+,
+"amenity_pub_yyyynnynd": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 10496,
+"y": 64
+}
+,
+"amenity_pub_yyyynnyng": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 10560,
+"y": 64
+}
+,
+"amenity_pub_yyyynnyno": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 10624,
+"y": 64
+}
+,
+"amenity_pub_yyyynnyyd": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 10688,
+"y": 64
+}
+,
+"amenity_pub_yyyynnyyg": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 10752,
+"y": 64
+}
+,
+"amenity_pub_yyyynnyyo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 10816,
+"y": 64
+}
+,
+"amenity_pub_yyyynyddd": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 10880,
+"y": 64
+}
+,
+"amenity_pub_yyyynyddg": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 10944,
+"y": 64
+}
+,
+"amenity_pub_yyyynyddo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 11008,
+"y": 64
+}
+,
+"amenity_pub_yyyynydld": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 11072,
+"y": 64
+}
+,
+"amenity_pub_yyyynydlg": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 11136,
+"y": 64
+}
+,
+"amenity_pub_yyyynydlo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 11200,
+"y": 64
+}
+,
+"amenity_pub_yyyynydnd": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 11264,
+"y": 64
+}
+,
+"amenity_pub_yyyynydng": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 11328,
+"y": 64
+}
+,
+"amenity_pub_yyyynydno": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 11392,
+"y": 64
+}
+,
+"amenity_pub_yyyynydyd": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 11456,
+"y": 64
+}
+,
+"amenity_pub_yyyynydyg": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 11520,
+"y": 64
+}
+,
+"amenity_pub_yyyynydyo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 11584,
+"y": 64
+}
+,
+"amenity_pub_yyyyydndd": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 11648,
+"y": 64
+}
+,
+"amenity_pub_yyyyydndg": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 11712,
+"y": 64
+}
+,
+"amenity_pub_yyyyydndo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 11776,
+"y": 64
+}
+,
+"amenity_pub_yyyyydnld": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 11840,
+"y": 64
+}
+,
+"amenity_pub_yyyyydnlg": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 11904,
+"y": 64
+}
+,
+"amenity_pub_yyyyydnlo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 11968,
+"y": 64
+}
+,
+"amenity_pub_yyyyydnn": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 12032,
+"y": 64
+}
+,
+"amenity_pub_yyyyydnyd": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 12096,
+"y": 64
+}
+,
+"amenity_pub_yyyyydnyg": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 12160,
+"y": 64
+}
+,
+"amenity_pub_yyyyydnyo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 12224,
+"y": 64
+}
+,
+"amenity_pub_yyyyydyd": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 12288,
+"y": 64
+}
+,
+"amenity_pub_yyyyydyl": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 12352,
+"y": 64
+}
+,
+"amenity_pub_yyyyydyn": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 12416,
+"y": 64
+}
+,
+"amenity_pub_yyyyydyy": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 12480,
+"y": 64
+}
+,
+"amenity_recyclingcentre": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 12544,
+"y": 64
+}
+,
+"amenity_recycling": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 12608,
+"y": 64
+}
+,
+"amenity_restaccomm": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 12672,
+"y": 64
+}
+,
+"amenity_restaurant": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 12736,
+"y": 64
+}
+,
+"amenity_scooter_rental": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 12800,
+"y": 64
+}
+,
+"amenity_shelter": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 12864,
+"y": 64
+}
+,
+"amenity_shopmobility": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 12928,
+"y": 64
+}
+,
+"amenity_shower_free_m": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 12992,
+"y": 64
+}
+,
+"amenity_shower_free_w": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 13056,
+"y": 64
+}
+,
+"amenity_shower_pay_m": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 13120,
+"y": 64
+}
+,
+"amenity_shower_pay": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 13184,
+"y": 64
+}
+,
+"amenity_shower_pay_w": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 13248,
+"y": 64
+}
+,
+"amenity_shower": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 13312,
+"y": 64
+}
+,
+"amenity_sundial": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 13376,
+"y": 64
+}
+,
+"amenity_taxi_office": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 13440,
+"y": 64
+}
+,
+"amenity_taxi": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 13504,
+"y": 64
+}
+,
+"amenity_telephone": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 13568,
+"y": 64
+}
+,
+"amenity_theatre": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 13632,
+"y": 64
+}
+,
+"amenity_toilets_free_m": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 13696,
+"y": 64
+}
+,
+"amenity_toilets_free_w": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 13760,
+"y": 64
+}
+,
+"amenity_toilets_pay_m": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 13824,
+"y": 64
+}
+,
+"amenity_toilets_pay": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 13888,
+"y": 64
+}
+,
+"amenity_toilets_pay_w": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 13952,
+"y": 64
+}
+,
+"amenity_toilets": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 14016,
+"y": 64
+}
+,
+"amenity_tourismstation": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 14080,
+"y": 64
+}
+,
+"amenity_townhall": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 14144,
+"y": 64
+}
+,
+"amenity_vending_excrement": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 14208,
+"y": 64
+}
+,
+"amenity_vending_machine": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 14272,
+"y": 64
+}
+,
+"amenity_veterinary": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 14336,
+"y": 64
+}
+,
+"amenity_waste_basket": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 14400,
+"y": 64
+}
+,
+"amenity_waste_disposal": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 14464,
+"y": 64
+}
+,
+"amenity_watering_place": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 14528,
+"y": 64
+}
+,
+"amenity_waterway_access_point": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 14592,
+"y": 64
+}
+,
+"amenity_zooaviary": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 14656,
+"y": 64
+}
+,
+"amenity_zooenclosure": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 14720,
+"y": 64
+}
+,
+"emergency_defibrillator": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 14784,
+"y": 64
+}
+,
+"emergency_phone": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 14848,
+"y": 64
+}
+,
+"historic_archaeological_site": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 14912,
+"y": 64
+}
+,
+"historic_battlefield": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 14976,
+"y": 64
+}
+,
+"historic_castle": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 15040,
+"y": 64
+}
+,
+"historic_fort": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 15104,
+"y": 64
+}
+,
+"historic_memorial": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 15168,
+"y": 64
+}
+,
+"historic_monument": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 15232,
+"y": 64
+}
+,
+"historic_ruins": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 15296,
+"y": 64
+}
+,
+"historic_wayside_cross": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 15360,
+"y": 64
+}
+,
+"historic_wayside_shrine": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 15424,
+"y": 64
+}
+,
+"leisure_golf_course": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 15488,
+"y": 64
+}
+,
+"leisure_playground": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 15552,
+"y": 64
+}
+,
+"leisure_sports_centre": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 15616,
+"y": 64
+}
+,
+"man_made_lighthouse": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 15680,
+"y": 64
+}
+,
+"man_made_tower": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 15744,
+"y": 64
+}
+,
+"man_made_watermill": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 15808,
+"y": 64
+}
+,
+"man_made_water_well": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 15872,
+"y": 64
+}
+,
+"man_made_windmill": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 15936,
+"y": 64
+}
+,
+"office_diplomatic": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 16000,
+"y": 64
+}
+,
+"pattern_landuse_allotments": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 16064,
+"y": 64
+}
+,
+"pattern_landuse_christiancemetery": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 16128,
+"y": 64
+}
+,
+"pattern_landuse_historicquarry": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 16192,
+"y": 64
+}
+,
+"pattern_landuse_jewishcemetery": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 16256,
+"y": 64
+}
+,
+"pattern_landuse_meadowperpetual": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 16320,
+"y": 64
+}
+,
+"pattern_landuse_meadowwildflower": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 16384,
+"y": 64
+}
+,
+"pattern_landuse_military": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 16448,
+"y": 64
+}
+,
+"pattern_landuse_orchard": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 16512,
+"y": 64
+}
+,
+"pattern_landuse_othercemetery": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 16576,
+"y": 64
+}
+,
+"pattern_landuse_quarry": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 16640,
+"y": 64
+}
+,
+"pattern_landuse_reedbed": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 16704,
+"y": 64
+}
+,
+"pattern_landuse_saltmarsh": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 16768,
+"y": 64
+}
+,
+"pattern_landuse_scrub": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 16832,
+"y": 64
+}
+,
+"pattern_landuse_vineyard": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 16896,
+"y": 64
+}
+,
+"pattern_landuse_wetmeadow": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 16960,
+"y": 64
+}
+,
+"pattern_natural_beach": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 17024,
+"y": 64
+}
+,
+"pattern_natural_broadleaved": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 17088,
+"y": 64
+}
+,
+"pattern_natural_flood_prone": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 17152,
+"y": 64
+}
+,
+"pattern_natural_intermittentwater": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 17216,
+"y": 64
+}
+,
+"pattern_natural_mixedleaved": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 17280,
+"y": 64
+}
+,
+"pattern_natural_mud": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 17344,
+"y": 64
+}
+,
+"pattern_natural_needleleaved": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 17408,
+"y": 64
+}
+,
+"pattern_natural_reef": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 17472,
+"y": 64
+}
+,
+"pattern_natural_reefsand": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 17536,
+"y": 64
+}
+,
+"pattern_natural_rock": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 17600,
+"y": 64
+}
+,
+"pattern_natural_scree": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 17664,
+"y": 64
+}
+,
+"pattern_natural_scrub": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 17728,
+"y": 64
+}
+,
+"pattern_natural_shingle": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 17792,
+"y": 64
+}
+,
+"pattern_natural_tidal_beach": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 17856,
+"y": 64
+}
+,
+"pattern_natural_tidal_mud": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 17920,
+"y": 64
+}
+,
+"pattern_natural_tidal_rock": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 17984,
+"y": 64
+}
+,
+"pattern_natural_tidal_rocks": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 18048,
+"y": 64
+}
+,
+"pattern_natural_tidal_sand": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 18112,
+"y": 64
+}
+,
+"pattern_natural_tidal_scree": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 18176,
+"y": 64
+}
+,
+"pattern_natural_tidal_shingle": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 18240,
+"y": 64
+}
+,
+"pattern_natural_wetland": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 18304,
+"y": 64
+}
+,
+"pattern_tourism_zoo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 18368,
+"y": 64
+}
+,
+"shop_alcohol": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 18432,
+"y": 64
+}
+,
+"shop_bakery": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 18496,
+"y": 64
+}
+,
+"shop_beauty": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 18560,
+"y": 64
+}
+,
+"shop_bicycle": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 18624,
+"y": 64
+}
+,
+"shop_bookmaker": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 18688,
+"y": 64
+}
+,
+"shop_butcher": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 18752,
+"y": 64
+}
+,
+"shop_car": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 18816,
+"y": 64
+}
+,
+"shop_chemist": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 18880,
+"y": 64
+}
+,
+"shop_clothes": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 18944,
+"y": 64
+}
+,
+"shop_computer": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 19008,
+"y": 64
+}
+,
+"shop_convenience": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 19072,
+"y": 64
+}
+,
+"shop_cosmetics": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 19136,
+"y": 64
+}
+,
+"shop_department_store": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 19200,
+"y": 64
+}
+,
+"shop_doityourself": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 19264,
+"y": 64
+}
+,
+"shop_dry_cleaning": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 19328,
+"y": 64
+}
+,
+"shop_electronics": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 19392,
+"y": 64
+}
+,
+"shop_florist": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 19456,
+"y": 64
+}
+,
+"shop_frozen_food": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 19520,
+"y": 64
+}
+,
+"shop_furniture": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 19584,
+"y": 64
+}
+,
+"shop_garden_centre": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 19648,
+"y": 64
+}
+,
+"shop_gift": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 19712,
+"y": 64
+}
+,
+"shop_greengrocer": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 19776,
+"y": 64
+}
+,
+"shop_hairdresser": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 19840,
+"y": 64
+}
+,
+"shop_hardware": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 19904,
+"y": 64
+}
+,
+"shop_jewelry": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 19968,
+"y": 64
+}
+,
+"shop_kitchen": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 20032,
+"y": 64
+}
+,
+"shop_laundry": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 20096,
+"y": 64
+}
+,
+"shop_mobile_phone": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 20160,
+"y": 64
+}
+,
+"shop_newsagent": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 20224,
+"y": 64
+}
+,
+"shop_optician": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 20288,
+"y": 64
+}
+,
+"shop_outdoor": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 20352,
+"y": 64
+}
+,
+"shop_shoes": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 20416,
+"y": 64
+}
+,
+"shop_sports": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 20480,
+"y": 64
+}
+,
+"shop_supermarket": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 20544,
+"y": 64
+}
+,
+"shop_tailor": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 20608,
+"y": 64
+}
+,
+"shop_toys": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 20672,
+"y": 64
+}
+,
+"shop_travel_agency": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 20736,
+"y": 64
+}
+,
+"tourism_alpine_hut": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 20800,
+"y": 64
+}
+,
+"tourism_bed_and_breakfast": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 20864,
+"y": 64
+}
+,
+"tourism_camp_site": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 20928,
+"y": 64
+}
+,
+"tourism_caravan_site": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 20992,
+"y": 64
+}
+,
+"tourism_chalet": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 21056,
+"y": 64
+}
+,
+"tourism_guest_house": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 21120,
+"y": 64
+}
+,
+"tourism_hostel": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 21184,
+"y": 64
+}
+,
+"tourism_hotel": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 21248,
+"y": 64
+}
+,
+"tourism_information": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 21312,
+"y": 64
+}
+,
+"tourism_motel": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 21376,
+"y": 64
+}
+,
+"tourism_picnic_site": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 21440,
+"y": 64
+}
+,
+"tourism_viewpoint": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 21504,
+"y": 64
+}
+,
+"tourism_zoo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 21568,
+"y": 64
 }
 }

@@ -5698,12 +5698,14 @@
 	    }
 	},
 	{
-	    "id": "land1-leisurenonspecific-imagename-16",
+	    "id": "land1-leisuregreen-imagename-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 16,
-	    "filter": [ "all", [ "in", "class", "leisure_leisurenonspecific" ] ],
+	    "filter": [ "all", [ "in", "class", "leisure_leisurenonspecific",
+                                                "leisure_bandstand",
+                                                "leisure_bleachers" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",

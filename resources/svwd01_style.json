@@ -5754,13 +5754,19 @@
 	    }
 	},
 	{
-	    "id": "land1-playground-name-16",
+	    "id": "land1-leisurebrown-imagename-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 16,
-	    "filter": [ "all", [ "in", "class", "leisure_playground" ] ],
+	    "filter": [ "all", [ "in", "class", "leisure_playground",
+                                                "leisure_picnic_table",
+                                                "leisure_slipway",
+                                                "leisure_bird_hide",
+                                                "leisure_hunting_stand",
+                                                "leisure_grouse_butt" ] ],
 	    "layout": {
+		"icon-image": "{class}",
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [

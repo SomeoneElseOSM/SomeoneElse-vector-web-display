@@ -637,6 +637,15 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/highway_crossing2.png                             ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/highway_crossing.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/milestone.png                                     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/highway_milestone.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/mini_round.png                                    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/highway_mini_roundabout.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/cattlegridx2.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/barrier_cattle_grid.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/cyclebarrierx2.png                                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/barrier_cycle_barrier.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/gatex2.png                                        ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/barrier_gate.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/gate_lockedx2.png                                 ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/barrier_gate_locked.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/horsestilex2.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/barrier_horse_stile.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/kissinggatex2.png                                 ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/barrier_kissing_gate.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/dstilex2.png                                      ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/barrier_dog_gate_stile.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/stepping_stones.png                               ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/barrier_stepping_stones.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/stilex2.png                                       ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/barrier_stile.png
 
 #
 # Patterns used with the "land1" and "land2" layers:

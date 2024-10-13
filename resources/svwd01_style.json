@@ -6881,12 +6881,21 @@
 	    }
 	},
 	{
-	    "id": "land1-highway-indigo-imagename-14",
+	    "id": "land1-various-indigo-imagename-14",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 14,
-	    "filter": [ "all", [ "in", "class", "highway_mini_roundabout" ] ],
+	    "filter": [ "all", [ "in", "class", "highway_mini_roundabout",
+                                                "barrier_cattle_grid",
+                                                "barrier_cycle_barrier",
+                                                "barrier_gate",
+                                                "barrier_gate_locked",
+                                                "barrier_horse_stile",
+                                                "barrier_kissing_gate",
+                                                "barrier_dog_gate_stile",
+                                                "barrier_stepping_stones",
+                                                "barrier_stile" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",

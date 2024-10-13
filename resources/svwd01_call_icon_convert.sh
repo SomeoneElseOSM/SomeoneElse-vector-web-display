@@ -646,6 +646,10 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/dstilex2.png                                      ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/barrier_dog_gate_stile.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/stepping_stones.png                               ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/barrier_stepping_stones.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/stilex2.png                                       ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/barrier_stile.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/bollard.png                                       ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/barrier_block.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/bollard.png                                       ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/barrier_bollard.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/liftgate.png                                      ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/barrier_lift_gate.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/tollbooth.png                                     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/barrier_toll_booth.png
 
 #
 # Patterns used with the "land1" and "land2" layers:

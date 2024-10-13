@@ -6917,7 +6917,7 @@
 	    }
 	},
 	{
-	    "id": "land1-amenity-indigo-imagename-15",
+	    "id": "land1-various-indigo-imagename-15",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -6930,7 +6930,11 @@
                                                 "amenity_place_of_worship_buddhist",
                                                 "amenity_place_of_worship_shinto",
                                                 "amenity_place_of_worship_taoist",
-                                                "amenity_place_of_worship_other" ] ],
+                                                "amenity_place_of_worship_other",
+                                                "barrier_block",
+                                                "barrier_bollard",
+                                                "barrier_lift_gate",
+                                                "barrier_toll_booth" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",

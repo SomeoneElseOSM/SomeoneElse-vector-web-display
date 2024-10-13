@@ -503,7 +503,7 @@
 	    }
 	},
 	{
-	    "id": "land2-unnamedallotments-fill-9",
+	    "id": "land2-unnamedallotments-fill-9-13",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
@@ -736,7 +736,7 @@
 	    }
 	},
 	{
-	    "id": "land2-cemetery-fill-9",
+	    "id": "land2-cemetery-fill-9-13",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
@@ -1297,7 +1297,7 @@
 	    }
 	},
 	{
-	    "id": "land1-allotments-fill-9",
+	    "id": "land1-allotments-fill-9-13",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -1344,7 +1344,7 @@
 	    }
 	},
 	{
-	    "id": "land1-cemetery-fill-9",
+	    "id": "land1-cemetery-fill-9-13",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -2107,7 +2107,7 @@
 	    }
 	},
 	{
-	    "id": "land2-national_park-fill-6",
+	    "id": "land2-national_park-fill-6-13",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
@@ -5786,7 +5786,7 @@
 	    }
 	},
 	{
-	    "id": "land1-parking-imagename-16",
+	    "id": "land1-various-imagename-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -5795,8 +5795,35 @@
                                                 "amenity_parking_pay",
                                                 "amenity_parking_freedisabled",
                                                 "amenity_parking_paydisabled",
-                                                "highway_board_realtime",
-                                                "highway_bus_stop_nothing",
+                                                "highway_board_realtime" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 14,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#0066ff",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-bus_stop-imagename-16-20",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 16,
+	    "maxzoom": 20,
+	    "filter": [ "all", [ "in", "class", "highway_bus_stop_nothing",
                                                 "highway_bus_stop_pole",
                                                 "highway_bus_stop_disused_pole",
                                                 "highway_bus_stop_timetable",
@@ -5807,6 +5834,39 @@
 		"icon-image": "{class}",
 		"text-anchor": "top",
 		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 14,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#0066ff",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-bus_stop-imagename-20",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 20,
+	    "filter": [ "all", [ "in", "class", "highway_bus_stop_nothing",
+                                                "highway_bus_stop_pole",
+                                                "highway_bus_stop_disused_pole",
+                                                "highway_bus_stop_timetable",
+                                                "highway_bus_stop_realtime",
+                                                "highway_bus_stop_speech_timetable",
+                                                "highway_bus_stop_speech_realtime"  ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"text-anchor": "top",
+		"text-field": "{ele}\n",
 		"text-font": [
 		    "KlokanTech Noto Sans Regular"
 		],
@@ -6821,7 +6881,34 @@
 	    }
 	},
 	{
-	    "id": "land1-amenity-place_of_worship-imagename-15",
+	    "id": "land1-highway-indigo-imagename-14",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "class", "highway_mini_roundabout" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#000033",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-amenity-indigo-imagename-15",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -6863,11 +6950,67 @@
 	    "minzoom": 16,
 	    "filter": [ "all", [ "in", "class", "amenity_lifeboat",
                                                 "amenity_emergency_phone",
-                                                "highway_traffic_signals" ] ],
+                                                "highway_traffic_signals",
+                                                "highway_crossing" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",
 		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#000033",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-milestone-indigo-imagename-16-19",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 16,
+	    "maxzoom": 19,
+	    "filter": [ "all", [ "in", "class", "highway_milestone" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#000033",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-milestone-indigo-imagename-19",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 19,
+	    "filter": [ "all", [ "in", "class", "highway_milestone" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"text-anchor": "top",
+		"text-field": "{ele}\n",
 		"text-font": [
 		    "KlokanTech Noto Sans Regular"
 		],

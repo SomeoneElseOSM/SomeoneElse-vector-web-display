@@ -634,6 +634,9 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/traffic_light.png                                 ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/highway_traffic_signals.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/streetlamp_electric.png                           ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/highway_streetlamp_electric.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/streetlamp_gas.png                                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/highway_streetlamp_gas.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/highway_crossing2.png                             ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/highway_crossing.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/milestone.png                                     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/highway_milestone.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/mini_round.png                                    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/highway_mini_roundabout.png
 
 #
 # Patterns used with the "land1" and "land2" layers:

@@ -6069,7 +6069,7 @@
 	    }
 	},
 	{
-	    "id": "land1-amenity-brown-imagename-15",
+	    "id": "land1-various-brown-imagename-15",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -6667,22 +6667,18 @@
 	    }
 	},
 	{
-	    "id": "land1-amenity-brown-image-18",
+	    "id": "land1-various-image-18",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 18,
 	    "filter": [ "all", [ "in", "class", "amenity_waste_basket",
                                                 "amenity_waste_disposal",
-                                                "amenity_grit_bin" ] ],
+                                                "amenity_grit_bin",
+                                                "highway_streetlamp_electric",
+                                                "highway_streetlamp_gas" ] ],
 	    "layout": {
 		"icon-image": "{class}"
-	    },
-	    "paint": {
-		"text-color": "#734a08",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
 	    }
 	},
 	{
@@ -6860,13 +6856,14 @@
 	    }
 	},
 	{
-	    "id": "land1-amenity-indigo-imagename-16",
+	    "id": "land1-various-indigo-imagename-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 16,
 	    "filter": [ "all", [ "in", "class", "amenity_lifeboat",
-                                                "amenity_emergency_phone" ] ],
+                                                "amenity_emergency_phone",
+                                                "highway_traffic_signals" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",

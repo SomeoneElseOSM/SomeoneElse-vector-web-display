@@ -650,6 +650,7 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/bollard.png                                       ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/barrier_bollard.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/liftgate.png                                      ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/barrier_lift_gate.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/tollbooth.png                                     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/barrier_toll_booth.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/door.png                                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/barrier_door.png
 
 #
 # Patterns used with the "land1" and "land2" layers:

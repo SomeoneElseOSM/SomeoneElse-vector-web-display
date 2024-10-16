@@ -651,6 +651,19 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/liftgate.png                                      ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/barrier_lift_gate.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/tollbooth.png                                     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/barrier_toll_booth.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/door.png                                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/barrier_door.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/historic_archaelogical.png                        ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/historic_archaeological_site.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/historic_battlefield.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/historic_battlefield.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/historic_arch_castle.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/historic_historicarchcastle.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/historic_arch_motte.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/historic_historicarchmotte.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/historic_crannog.png                             ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/historic_historiccrannog.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/historic_fortification.png                       ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/historic_historicfortification.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/historic_hillfort.png                            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/historic_historichillfort.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/historic_promontoryfort.png                      ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/historic_historicpromontoryfort.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/historic_ringfort.png                            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/historic_historicringfort.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/historic_tumulus.png                             ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/historic_historictumulus.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/historic_manor.png                               ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/historic_manor.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/historic_monastery.png                           ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/historic_monastery.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/historic_palaeontological.png                    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/historic_palaeontological.png
 
 #
 # Patterns used with the "land1" and "land2" layers:
@@ -814,7 +827,6 @@ cp ~/src/openstreetmap-carto-AJT/symbols/wood_mixed_pattern.png         ~/src/So
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/watermill.png                    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_watermill.png
 #
 # historic
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/historic_archaelogical.png       ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/historic_archaeological_site.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/historic_nonspecific.p.16.png    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/historic_ruins.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/memorial_nonspecific.png         ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/historic_memorial.png
 #~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/historic_mine.png                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/historic_mine_shaft.png
@@ -832,7 +844,6 @@ cp ~/src/openstreetmap-carto-AJT/symbols/wood_mixed_pattern.png         ~/src/So
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/manmade_cross.png                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/historic_wayside_cross.png
 #~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/historic_stone.png               ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/historic_stone.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/historic_castle.png              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/historic_fort.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/historic_battlefield.png         ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/historic_battlefield.png
 #
 # emergency
 #

@@ -717,6 +717,7 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/historic_wreck.png                              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/historic_wreck.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/historic_mine.png                              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/historic_mineshaft.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/historic_nonspecific.p.16.png                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/historic_nonspecific.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/communications.p.20.png                        ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_bigmast.png
 
 #
 # Patterns used with the "land1" and "land2" layers:

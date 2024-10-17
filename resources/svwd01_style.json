@@ -7140,7 +7140,10 @@
                                                 "barrier_block",
                                                 "barrier_bollard",
                                                 "barrier_lift_gate",
-                                                "barrier_toll_booth" ] ],
+                                                "barrier_toll_booth",
+                                                "man_made_cross",
+                                                "man_made_flagpole",
+                                                "man_made_maypole" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",

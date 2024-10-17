@@ -727,6 +727,9 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/ventshaft_17.png                               ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_ventilation_shaft.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/tower_water.p.20.png                           ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_water_tower.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/windsock.png                                   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_windsock.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/manmade_cross.png                              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_cross.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/flagpole_large.png                             ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_flagpole.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/maypole_large.png                              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_maypole.png
 
 #
 # Patterns used with the "land1" and "land2" layers:
@@ -876,7 +879,6 @@ cp ~/src/openstreetmap-carto-AJT/symbols/wood_mixed_pattern.png         ~/src/So
 #~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/boothdisused.png                 ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_telephone_box.png
 #~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/survey_point.png                 ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_survey_point.png
 #~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/manmade_mine.png                 ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_mineshaft.png
-#~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/flagpole.png                     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_flagpole.png
 #~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/cairn.png                        ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_cairn.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/water_well.png                   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_water_well.png
 #~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/monitoringwater.png              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_monitoring_station.png
@@ -892,7 +894,6 @@ cp ~/src/openstreetmap-carto-AJT/symbols/wood_mixed_pattern.png         ~/src/So
 #~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/milestone.png                    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/historic_milestone.png
 #~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/boundary_stone.png               ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/historic_boundary_stone.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/memorial_cross.png               ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/historic_wayside_shrine.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/manmade_cross.png                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/historic_wayside_cross.png
 #
 # emergency
 #

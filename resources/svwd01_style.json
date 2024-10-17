@@ -6130,7 +6130,7 @@
 	    }
 	},
 	{
-	    "id": "land1-variouslightbrown-imagename-15",
+	    "id": "land1-various-lightbrown-imagename-15",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -6158,7 +6158,7 @@
 	    }
 	},
 	{
-	    "id": "land1-amenitylightbrown-imagename-16",
+	    "id": "land1-various-lightbrown-imagename-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -6623,7 +6623,8 @@
                                                 "amenity_pub_ydddnnndo",
                                                 "amenity_pub_ydddnnndd",
                                                 "amenity_pub_cddddddd",
-                                                "amenity_pub_nddddddd" ] ],
+                                                "amenity_pub_nddddddd",
+                                                "man_made_water_well" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",

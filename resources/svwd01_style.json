@@ -6108,7 +6108,8 @@
 	    "minzoom": 14,
 	    "filter": [ "all", [ "in", "class", "amenity_tourismstation",
                                                 "amenity_prison",
-                                                "man_made_survey_point" ] ],
+                                                "man_made_survey_point",
+                                                "man_made_cairn" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",

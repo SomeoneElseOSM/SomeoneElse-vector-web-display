@@ -750,6 +750,7 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/squaretower.png                                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_squaretower.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/watermill.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_watermill.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/windmill.png                                   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_windmill.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/markeraerial.png                               ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_markeraerial.png
 
 #
 # Patterns used with the "land1" and "land2" layers:

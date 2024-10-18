@@ -773,6 +773,7 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/brewery_craft.p.16.png                         ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/office_craftbrewery.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/cider_craft.p.16.png                           ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/office_craftcider.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/office_nonspecific.p.16.png                    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/office_nonspecific.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_supermarket.p.16.png                      ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shop_supermarket.png
 
 #
 # Patterns used with the "land1" and "land2" layers:
@@ -839,7 +840,6 @@ cp ~/src/openstreetmap-carto-AJT/symbols/wood_mixed_pattern.png         ~/src/So
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_convenience.p.16.png        ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shop_convenience.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_hairdresser.p.16.png        ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shop_hairdresser.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_clothes.p.16.png            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shop_clothes.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_supermarket.p.16.png        ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shop_supermarket.png
 #~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shopping_car_repair.p.16.png     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shop_car_repair.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_beauty.p.16.png             ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shop_beauty.png
 #~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/office_nonspecific.p.16.png      ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shop_vacant.png

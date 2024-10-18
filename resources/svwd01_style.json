@@ -6079,7 +6079,8 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 13,
-	    "filter": [ "all", [ "in", "class", "amenity_holy_spring" ] ],
+	    "filter": [ "all", [ "in", "class", "amenity_holy_spring",
+                                                "natural_spring" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",

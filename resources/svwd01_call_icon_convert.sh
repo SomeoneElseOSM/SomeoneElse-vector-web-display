@@ -766,6 +766,10 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/poi_cave.p.16.png                              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/natural_cave_entrance.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/poi_sinkhole.p.16.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/natural_sinkhole.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/spring.png                                     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/natural_spring.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/climbing.17.png                                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/natural_climbing.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/rock.17.png                                    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/natural_rock.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/tree.p05.png                                   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/natural_tree.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shrub2.png                                     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/natural_shrub.png
 
 #
 # Patterns used with the "land1" and "land2" layers:

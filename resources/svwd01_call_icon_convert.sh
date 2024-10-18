@@ -770,6 +770,9 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/rock.17.png                                    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/natural_rock.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/tree.p05.png                                   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/natural_tree.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shrub2.png                                     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/natural_shrub.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/brewery_craft.p.16.png                         ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/office_craftbrewery.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/cider_craft.p.16.png                           ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/office_craftcider.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/office_nonspecific.p.16.png                    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/office_nonspecific.png
 
 #
 # Patterns used with the "land1" and "land2" layers:

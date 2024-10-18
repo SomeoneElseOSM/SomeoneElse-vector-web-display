@@ -7241,7 +7241,10 @@
                                                 "amenity_bank_l",
                                                 "amenity_bank_n",
                                                 "amenity_bank_y",
-                                                "amenity_monastery" ] ],
+                                                "amenity_monastery",
+                                                "office_craftbrewery",
+                                                "office_craftcider",
+                                                "office_nonspecific" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",

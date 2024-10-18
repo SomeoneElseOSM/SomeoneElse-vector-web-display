@@ -754,6 +754,7 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/survey_point.png                               ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_survey_point.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/water_well.png                                 ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_water_well.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/cairn.png                                      ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_cairn.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/flagpole_large_red.png                         ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_flagpole_red.png
 
 #
 # Patterns used with the "land1" and "land2" layers:

@@ -756,6 +756,7 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/cairn.png                                      ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_cairn.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/flagpole_large_red.png                         ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_flagpole_red.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/sluice.png                                     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_sluice_gate.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/boundary_stone.png                             ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_boundary_stone.png
 
 #
 # Patterns used with the "land1" and "land2" layers:
@@ -910,7 +911,6 @@ cp ~/src/openstreetmap-carto-AJT/symbols/wood_mixed_pattern.png         ~/src/So
 #~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/historic_nonspecific.p.16.png    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/historic_building.png
 #~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/historic_mine.png                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/historic_mine.png
 #~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/milestone.png                    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/historic_milestone.png
-#~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/boundary_stone.png               ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/historic_boundary_stone.png
 #~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/memorial_cross.png               ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/historic_wayside_shrine.png
 #
 # emergency

@@ -763,6 +763,8 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/saddle.png                                     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/natural_saddle.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/volcano.png                                    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/natural_volcano.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/peak.png                                       ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/natural_hill.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/poi_cave.p.16.png                              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/natural_cave_entrance.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/poi_sinkhole.p.16.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/natural_sinkhole.png
 
 #
 # Patterns used with the "land1" and "land2" layers:

@@ -841,6 +841,7 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_tattoo.png                                 ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shop_tattoo.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_toys.p.16.png                              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shop_toys.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/travel_agent.p.16.png                           ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shop_travel_agent.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/office_nonspecific.p.16.png                     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shop_vacant.png
 
 #
 # Patterns used with the "land1" and "land2" layers:
@@ -902,7 +903,6 @@ cp ~/src/openstreetmap-carto-AJT/symbols/wood_mixed_pattern.png         ~/src/So
 #~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/leisure_nonspecific.p.16.png     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/leisure_nonspecific.png
 #
 # shop
-#~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/office_nonspecific.p.16.png      ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shop_vacant.png
 #~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_convenience.p.16.png        ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shop_newsagent.png
 #~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_laundry.p.16.png            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shop_dry_cleaning.png
 #~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_diy.p.16.png                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shop_hardware.png

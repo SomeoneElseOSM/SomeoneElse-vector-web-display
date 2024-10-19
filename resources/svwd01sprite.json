@@ -6743,7 +6743,7 @@
 "y": 64
 }
 ,
-"tourism_alpine_hut": {
+"shop_vacant": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -6751,7 +6751,7 @@
 "y": 64
 }
 ,
-"tourism_bed_and_breakfast": {
+"tourism_alpine_hut": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -6759,7 +6759,7 @@
 "y": 64
 }
 ,
-"tourism_camp_site": {
+"tourism_bed_and_breakfast": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -6767,7 +6767,7 @@
 "y": 64
 }
 ,
-"tourism_caravan_site": {
+"tourism_camp_site": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -6775,7 +6775,7 @@
 "y": 64
 }
 ,
-"tourism_chalet": {
+"tourism_caravan_site": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -6783,7 +6783,7 @@
 "y": 64
 }
 ,
-"tourism_guest_house": {
+"tourism_chalet": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -6791,7 +6791,7 @@
 "y": 64
 }
 ,
-"tourism_hostel": {
+"tourism_guest_house": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -6799,7 +6799,7 @@
 "y": 64
 }
 ,
-"tourism_hotel": {
+"tourism_hostel": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -6807,7 +6807,7 @@
 "y": 64
 }
 ,
-"tourism_information": {
+"tourism_hotel": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -6815,7 +6815,7 @@
 "y": 64
 }
 ,
-"tourism_motel": {
+"tourism_information": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -6823,7 +6823,7 @@
 "y": 64
 }
 ,
-"tourism_picnic_site": {
+"tourism_motel": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -6831,7 +6831,7 @@
 "y": 64
 }
 ,
-"tourism_viewpoint": {
+"tourism_picnic_site": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -6839,11 +6839,19 @@
 "y": 64
 }
 ,
-"tourism_zoo": {
+"tourism_viewpoint": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
 "x": 27264,
+"y": 64
+}
+,
+"tourism_zoo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 27328,
 "y": 64
 }
 }

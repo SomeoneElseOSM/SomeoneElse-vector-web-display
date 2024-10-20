@@ -5869,7 +5869,7 @@
 	    }
 	},
 	{
-	    "id": "land1-bus_stop-blue-imagename-16-20",
+	    "id": "land1-nameele-blue-imagename-16-20",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -5903,7 +5903,7 @@
 	    }
 	},
 	{
-	    "id": "land1-bus_stop-blue-imagename-20",
+	    "id": "land1-nameele-blue-imagename-20",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -5936,13 +5936,14 @@
 	    }
 	},
 	{
-	    "id": "land1-boundary_stone-imagename-14-19",
+	    "id": "land1-nameele-lightbrown-imagename-14-19",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 14,
 	    "maxzoom": 19,
-	    "filter": [ "all", [ "in", "class", "man_made_boundary_stone"  ] ],
+	    "filter": [ "all", [ "in", "class", "man_made_boundary_stone",
+                                                "tourism_informationmarker" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",
@@ -5964,12 +5965,13 @@
 	    }
 	},
 	{
-	    "id": "land1-boundary_stone-imagename-19",
+	    "id": "land1-nameele-lightbrown-imagename-19",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 19,
-	    "filter": [ "all", [ "in", "class", "man_made_boundary_stone"  ] ],
+	    "filter": [ "all", [ "in", "class", "man_made_boundary_stone",
+                                                "tourism_informationmarker" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",

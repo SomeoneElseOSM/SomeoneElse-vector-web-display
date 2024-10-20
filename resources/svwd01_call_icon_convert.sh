@@ -859,6 +859,7 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/informationroutemarker.png                      ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_informationroutemarker.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/informationsign.png                             ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_informationsign.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/militarysign.png                                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_militarysign.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/informationmarker.png                           ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_informationmarker.png
 
 #
 # Patterns used with the "land1" and "land2" layers:

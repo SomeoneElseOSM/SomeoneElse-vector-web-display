@@ -852,6 +852,12 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/informationoffice.png                           ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_informationoffice.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/chalet.p.16.png                                 ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_chalet.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/information.p.16.png                            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_information.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/informationboard.png                            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_informationboard.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/informationear.png                              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_informationear.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/informationplaque.png                           ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_informationplaque.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/informationpublictransport.png                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_informationpublictransport.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/informationroutemarker.png                      ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_informationroutemarker.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/informationsign.png                             ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_informationsign.png
 
 #
 # Patterns used with the "land1" and "land2" layers:

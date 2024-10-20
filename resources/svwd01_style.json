@@ -1635,7 +1635,7 @@
 	    }
 	},
 	{
-	    "id": "land1-camp_site-fill-12",
+	    "id": "land1-tourismgreen-fill-12",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -6360,8 +6360,14 @@
 	    "minzoom": 15,
 	    "filter": [ "all", [ "in", "class", "amenity_recyclingcentre",
                                                 "tourism_viewpoint",
+                                                "tourism_information",
                                                 "tourism_informationoffice",
-                                                "tourism_information" ] ],
+                                                "tourism_informationboard",
+                                                "tourism_informationear",
+                                                "tourism_informationplaque",
+                                                "tourism_informationpublictransport",
+                                                "tourism_informationroutemarker",
+                                                "tourism_informationsign" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",

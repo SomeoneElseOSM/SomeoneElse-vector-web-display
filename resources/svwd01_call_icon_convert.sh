@@ -849,6 +849,9 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/informationncnrowe.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_informationncnrowe.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/informationncnunknown.png                       ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_informationncnunknown.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/informationpnfs.p.16.png                        ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_informationpnfs.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/informationoffice.png                           ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_informationoffice.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/chalet.p.16.png                                 ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_chalet.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/information.p.16.png                            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_information.png
 
 #
 # Patterns used with the "land1" and "land2" layers:
@@ -924,9 +927,7 @@ cp ~/src/openstreetmap-carto-AJT/symbols/wood_mixed_pattern.png         ~/src/So
 #~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_clothes.p.16.png            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shop_tailor.png
 #
 # tourism
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/information.p.16.png             ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_information.png
 #~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/artwork.p16.png                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_artwork.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/chalet.p.16.png                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_chalet.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/hotel2.p.20.png                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_hotel.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/guest_house.p.16.png             ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_guest_house.png
 #~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/museum.p.16.png                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_museum.png

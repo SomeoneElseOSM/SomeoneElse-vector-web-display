@@ -5838,7 +5838,7 @@
 	    }
 	},
 	{
-	    "id": "land1-various-imagename-16",
+	    "id": "land1-various-blue-imagename-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -5869,7 +5869,7 @@
 	    }
 	},
 	{
-	    "id": "land1-bus_stop-imagename-16-20",
+	    "id": "land1-bus_stop-blue-imagename-16-20",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -5903,7 +5903,7 @@
 	    }
 	},
 	{
-	    "id": "land1-bus_stop-imagename-20",
+	    "id": "land1-bus_stop-blue-imagename-20",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -5991,7 +5991,7 @@
 	    }
 	},
 	{
-	    "id": "land1-camp_site-imagename-16",
+	    "id": "land1-camp_site-blue-imagename-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -6359,7 +6359,9 @@
 	    "source-layer": "land1",
 	    "minzoom": 15,
 	    "filter": [ "all", [ "in", "class", "amenity_recyclingcentre",
-                                                "tourism_viewpoint" ] ],
+                                                "tourism_viewpoint",
+                                                "tourism_informationoffice",
+                                                "tourism_information" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",
@@ -7378,12 +7380,13 @@
 	    }
 	},
 	{
-	    "id": "land1-amenity-blue-imagename-15",
+	    "id": "land1-various-blue-imagename-15",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 15,
-	    "filter": [ "all", [ "in", "class", "amenity_ferry_terminal" ] ],
+	    "filter": [ "all", [ "in", "class", "amenity_ferry_terminal",
+                                                "tourism_chalet" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",

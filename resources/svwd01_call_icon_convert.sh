@@ -842,6 +842,7 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_toys.p.16.png                              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shop_toys.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/travel_agent.p.16.png                           ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shop_travel_agent.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/office_nonspecific.p.16.png                     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shop_vacant.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/alpinehut.p.16.png                              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_alpine_hut.png
 
 #
 # Patterns used with the "land1" and "land2" layers:
@@ -928,7 +929,6 @@ cp ~/src/openstreetmap-carto-AJT/symbols/wood_mixed_pattern.png         ~/src/So
 #~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shopping_nonspecific.p.16.png    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_gallery.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/motel.p.20.png                   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_motel.png
 #~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/historic_nonspecific.p.16.png    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_aquarium.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/alpinehut.p.16.png               ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_alpine_hut.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/bandb.p.20.png                   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_bed_and_breakfast.png
 #
 # man_made

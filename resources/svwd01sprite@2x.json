@@ -6927,7 +6927,7 @@
 "y": 64
 }
 ,
-"tourism_motel": {
+"tourism_militarysign": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -6935,7 +6935,7 @@
 "y": 64
 }
 ,
-"tourism_picnic_site": {
+"tourism_motel": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -6943,7 +6943,7 @@
 "y": 64
 }
 ,
-"tourism_viewpoint": {
+"tourism_picnic_site": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -6951,11 +6951,19 @@
 "y": 64
 }
 ,
-"tourism_zoo": {
+"tourism_viewpoint": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
 "x": 27712,
+"y": 64
+}
+,
+"tourism_zoo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 27776,
 "y": 64
 }
 }

@@ -843,6 +843,11 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/travel_agent.p.16.png                           ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shop_travel_agent.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/office_nonspecific.p.16.png                     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shop_vacant.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/alpinehut.p.16.png                              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_alpine_hut.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/informationncndudgeon.png                       ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_informationncndudgeon.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/informationncnmccoll.png                        ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_informationncnmccoll.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/informationncnmills.png                         ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_informationncnmills.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/informationncnrowe.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_informationncnrowe.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/informationncnunknown.png                       ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_informationncnunknown.png
 
 #
 # Patterns used with the "land1" and "land2" layers:

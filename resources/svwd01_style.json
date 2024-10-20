@@ -5806,38 +5806,6 @@
 	    }
 	},
 	{
-	    "id": "land1-leisure-lightbrown-imagename-16",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 16,
-	    "filter": [ "all", [ "in", "class", "leisure_playground",
-                                                "leisure_picnic_table",
-                                                "leisure_slipway",
-                                                "leisure_bird_hide",
-                                                "leisure_hunting_stand",
-                                                "leisure_grouse_butt" ] ],
-	    "layout": {
-		"icon-image": "{class}",
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 14,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#734a08",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
 	    "id": "land1-various-blue-imagename-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
@@ -6857,7 +6825,17 @@
                                                 "amenity_pub_ydddnnndd",
                                                 "amenity_pub_cddddddd",
                                                 "amenity_pub_nddddddd",
-                                                "man_made_water_well" ] ],
+                                                "man_made_water_well",
+	                                        "leisure_playground",
+                                                "leisure_picnic_table",
+                                                "leisure_slipway",
+                                                "leisure_bird_hide",
+                                                "leisure_hunting_stand",
+                                                "leisure_grouse_butt",
+                                                "tourism_museum",
+                                                "tourism_aquarium",
+                                                "tourism_advertising_column",
+                                                "tourism_artwork" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",

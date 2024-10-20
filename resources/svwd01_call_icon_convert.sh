@@ -40,9 +40,8 @@
 # -----------------------------------------------------------------------------
 #
 # Point icons used with the "land1" layer:
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/leisure_golf.png                                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/leisure_golf_course.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/leisure_sports_centre32.png                     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/leisure_sports_centre.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/tourism_zoo.png                                 ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_zoo.png
+#
+# amenity
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shelter2.p.16.png                               ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_shelter.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/atm2.p.16.png                                   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_atm.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/am_bank_d.png                                   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_bank.png
@@ -118,9 +117,6 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/left_luggage.p.16.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_left_luggage.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/parcel_locker.p.16.png                         ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_parcel_locker.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/bench.p07.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_bench.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/camping.n.16.png                               ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_camp_site.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/caravan_park.p.24.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_caravan_site.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/picnic.p.16.png                                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_picnic_site.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/parking_free.png                               ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_parking.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/parking_pay.png                                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_parking_pay.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/parking_freedisabled.png                       ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_parking_freedisabled.png
@@ -613,30 +609,8 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/pub_ydddnnndd.p.16.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_pub_ydddnnndd.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/pub_cddddddd.p.16.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_pub_cddddddd.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/pub_nddddddd.p.16.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_pub_nddddddd.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/leisure_nonspecific.p.16.png                   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/leisure_leisurenonspecific.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/bandstand.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/leisure_bandstand.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/bleachers.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/leisure_bleachers.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/leisure_fitnessstation.p.16.png                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/leisure_fitness_station.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/playground.p.20.png                            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/leisure_playground.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/picnic.p.16.png                                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/leisure_picnic_table.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/slipway.p.16.png                               ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/leisure_slipway.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/birdhide.p.16.png                              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/leisure_bird_hide.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/huntingstand.p.16.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/leisure_hunting_stand.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/grousebutt.p.16.png                            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/leisure_grouse_butt.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/board_realtime_24.png                             ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/highway_board_realtime.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/bus_stop_nothing_24.png                           ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/highway_bus_stop_nothing.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/bus_stop_pole_24.png                              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/highway_bus_stop_pole.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/bus_stop_disused_pole_24.png                      ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/highway_bus_stop_disused_pole.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/bus_stop_timetable_24.png                         ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/highway_bus_stop_timetable.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/bus_stop_realtime_24.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/highway_bus_stop_realtime.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/bus_stop_speech_timetable_24.png                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/highway_bus_stop_speech_timetable.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/bus_stop_speech_realtime_24.png                   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/highway_bus_stop_speech_realtime.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/traffic_light.png                                 ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/highway_traffic_signals.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/streetlamp_electric.png                           ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/highway_streetlamp_electric.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/streetlamp_gas.png                                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/highway_streetlamp_gas.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/highway_crossing2.png                             ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/highway_crossing.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/milestone.png                                     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/highway_milestone.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/mini_round.png                                    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/highway_mini_roundabout.png
+#
+# barrier
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/cattlegridx2.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/barrier_cattle_grid.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/cyclebarrierx2.png                                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/barrier_cycle_barrier.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/gatex2.png                                        ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/barrier_gate.png
@@ -651,6 +625,24 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/liftgate.png                                      ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/barrier_lift_gate.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/tollbooth.png                                     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/barrier_toll_booth.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/door.png                                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/barrier_door.png
+#
+# highway
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/board_realtime_24.png                             ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/highway_board_realtime.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/bus_stop_nothing_24.png                           ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/highway_bus_stop_nothing.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/bus_stop_pole_24.png                              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/highway_bus_stop_pole.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/bus_stop_disused_pole_24.png                      ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/highway_bus_stop_disused_pole.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/bus_stop_timetable_24.png                         ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/highway_bus_stop_timetable.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/bus_stop_realtime_24.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/highway_bus_stop_realtime.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/bus_stop_speech_timetable_24.png                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/highway_bus_stop_speech_timetable.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/bus_stop_speech_realtime_24.png                   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/highway_bus_stop_speech_realtime.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/traffic_light.png                                 ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/highway_traffic_signals.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/streetlamp_electric.png                           ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/highway_streetlamp_electric.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/streetlamp_gas.png                                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/highway_streetlamp_gas.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/highway_crossing2.png                             ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/highway_crossing.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/milestone.png                                     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/highway_milestone.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/mini_round.png                                    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/highway_mini_roundabout.png
+#
+# historic
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/historic_archaelogical.png                        ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/historic_archaeological_site.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/historic_battlefield.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/historic_battlefield.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/historic_arch_castle.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/historic_historicarchcastle.png
@@ -717,6 +709,22 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/historic_wreck.png                              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/historic_wreck.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/historic_mine.png                              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/historic_mineshaft.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/historic_nonspecific.p.16.png                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/historic_nonspecific.png
+#
+# leisure
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/leisure_golf.png                                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/leisure_golf_course.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/leisure_sports_centre32.png                     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/leisure_sports_centre.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/leisure_nonspecific.p.16.png                   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/leisure_leisurenonspecific.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/bandstand.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/leisure_bandstand.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/bleachers.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/leisure_bleachers.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/leisure_fitnessstation.p.16.png                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/leisure_fitness_station.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/playground.p.20.png                            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/leisure_playground.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/picnic.p.16.png                                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/leisure_picnic_table.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/slipway.p.16.png                               ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/leisure_slipway.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/birdhide.p.16.png                              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/leisure_bird_hide.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/huntingstand.p.16.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/leisure_hunting_stand.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/grousebutt.p.16.png                            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/leisure_grouse_butt.png
+#
+# man_made
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/communications.p.20.png                        ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_bigmast.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/chimney.p.20.png                               ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_bigchimney.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/observationtower.png                           ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_bigobservationtower.png
@@ -757,6 +765,8 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/flagpole_large_red.png                         ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_flagpole_red.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/sluice.png                                     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_sluice_gate.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/boundary_stone.png                             ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_boundary_stone.png
+#
+# natural
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/peak.png                                       ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/natural_bigprompeak.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/peak.png                                       ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/natural_bigpeak.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/peak.png                                       ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/natural_peak.png
@@ -770,9 +780,13 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/rock.17.png                                    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/natural_rock.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/tree.p05.png                                   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/natural_tree.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shrub2.png                                     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/natural_shrub.png
+#
+# office
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/brewery_craft.p.16.png                         ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/office_craftbrewery.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/cider_craft.p.16.png                           ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/office_craftcider.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/office_nonspecific.p.16.png                    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/office_nonspecific.png
+#
+# shop
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_supermarket.p.16.png                      ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shop_supermarket.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/department_store.p.16.png                      ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shop_department_store.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_ecosupermarket.p.16.png                   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shop_ecosupermarket.png
@@ -842,6 +856,12 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_toys.p.16.png                              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shop_toys.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/travel_agent.p.16.png                           ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shop_travel_agent.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/office_nonspecific.p.16.png                     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shop_vacant.png
+#
+# tourism
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/tourism_zoo.png                                 ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_zoo.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/camping.n.16.png                               ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_camp_site.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/caravan_park.p.24.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_caravan_site.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/picnic.p.16.png                                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_picnic_site.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/alpinehut.p.16.png                              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_alpine_hut.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/informationncndudgeon.png                       ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_informationncndudgeon.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/informationncnmccoll.png                        ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_informationncnmccoll.png
@@ -851,6 +871,7 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/informationpnfs.p.16.png                        ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_informationpnfs.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/informationoffice.png                           ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_informationoffice.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/chalet.p.16.png                                 ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_chalet.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/chalet.p.16.png                                 ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_singlechalet.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/information.p.16.png                            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_information.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/informationboard.png                            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_informationboard.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/informationear.png                              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_informationear.png
@@ -864,6 +885,20 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/tourism_aquarium.png                            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_aquarium.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/advertising.png                                 ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_advertising_column.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/artwork.p16.png                                 ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_artwork.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/motel.p.20.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_motel.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/hotel2.p.20.png                                 ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_hotel.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/tourism_guest_yyyy.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_hostel.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/bandb.p.20.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_bed_and_breakfast.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/guest_house.p.16.png                            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_guest_house.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/tourism_guest_dynd.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_tourism_guest_dynd.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/tourism_guest_nydn.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_tourism_guest_nydn.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/tourism_guest_nynn.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_tourism_guest_nynn.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/tourism_guest_yddd.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_tourism_guest_yddd.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/tourism_guest_ynnn.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_tourism_guest_ynnn.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/tourism_guest_ynyn.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_tourism_guest_ynyn.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/tourism_guest_yynd.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_tourism_guest_yynd.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/tourism_guest_yyyn.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_tourism_guest_yyyn.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/tourism_guest_yyyy.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_tourism_guest_yyyy.png
 
 #
 # Patterns used with the "land1" and "land2" layers:
@@ -939,13 +974,8 @@ cp ~/src/openstreetmap-carto-AJT/symbols/wood_mixed_pattern.png         ~/src/So
 #~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_clothes.p.16.png            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shop_tailor.png
 #
 # tourism
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/hotel2.p.20.png                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_hotel.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/guest_house.p.16.png             ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_guest_house.png
 #~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/guest_house.p.16.png             ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_apartment.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/hostel.p.20.png                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_hostel.png
 #~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shopping_nonspecific.p.16.png    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_gallery.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/motel.p.20.png                   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_motel.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/bandb.p.20.png                   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_bed_and_breakfast.png
 #
 # man_made
 #~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/squaretower.png                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_tower.png
@@ -962,7 +992,6 @@ cp ~/src/openstreetmap-carto-AJT/symbols/wood_mixed_pattern.png         ~/src/So
 # emergency
 #
 # highway
-# (I don't have an icon for the one highway value "emergency_access_point" in Shortbread POIs)
 #
 # office
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/office_nonspecific.p.16.png      ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/office_diplomatic.png

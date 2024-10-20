@@ -5806,7 +5806,7 @@
 	    }
 	},
 	{
-	    "id": "land1-various-blue-imagename-16",
+	    "id": "land1-various-lightblue-imagename-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -5815,7 +5815,25 @@
                                                 "amenity_parking_pay",
                                                 "amenity_parking_freedisabled",
                                                 "amenity_parking_paydisabled",
-                                                "highway_board_realtime" ] ],
+                                                "highway_board_realtime",
+	                                        "tourism_camp_site",
+                                                "tourism_caravan_site",
+                                                "tourism_picnic_site",
+                                                "tourism_singlechalet",
+                                                "tourism_motel",
+                                                "tourism_hotel",
+                                                "tourism_hostel",
+                                                "tourism_bed_and_breakfast",
+                                                "tourism_guest_house",
+                                                "tourism_tourism_guest_dynd",
+                                                "tourism_tourism_guest_nydn",
+                                                "tourism_tourism_guest_nynn",
+                                                "tourism_tourism_guest_yddd",
+                                                "tourism_tourism_guest_ynnn",
+                                                "tourism_tourism_guest_ynyn",
+                                                "tourism_tourism_guest_yynd",
+                                                "tourism_tourism_guest_yyyn",
+                                                "tourism_tourism_guest_yyyy" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",
@@ -5837,7 +5855,7 @@
 	    }
 	},
 	{
-	    "id": "land1-nameele-blue-imagename-16-20",
+	    "id": "land1-nameele-lightblue-imagename-16-20",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -5871,7 +5889,7 @@
 	    }
 	},
 	{
-	    "id": "land1-nameele-blue-imagename-20",
+	    "id": "land1-nameele-lightblue-imagename-20",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -5961,35 +5979,6 @@
 	    }
 	},
 	{
-	    "id": "land1-camp_site-blue-imagename-16",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 16,
-	    "filter": [ "all", [ "in", "class", "tourism_camp_site",
-                                                "tourism_caravan_site",
-                                                "tourism_picnic_site" ] ],
-	    "layout": {
-		"icon-image": "{class}",
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 13,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#0066ff",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
 	    "id": "land1-theme_park-name-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
@@ -6016,7 +6005,7 @@
 	    }
 	},
 	{
-	    "id": "land1-zoo-imagename-9",
+	    "id": "land1-zoo-lightbrown-imagename-9",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -6043,7 +6032,7 @@
 	    }
 	},
 	{
-	    "id": "land1-holy_well-imagename-13",
+	    "id": "land1-holy_well-lightbrown-imagename-13",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -6125,7 +6114,7 @@
 	    }
 	},
 	{
-	    "id": "land1-water-imagename-14",
+	    "id": "land1-water-blue-imagename-14",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -6152,7 +6141,7 @@
 	    }
 	},
 	{
-	    "id": "land1-water-imagename-15",
+	    "id": "land1-water-blue-imagename-15",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -6179,7 +6168,7 @@
 	    }
 	},
 	{
-	    "id": "land1-leisure-imagename-13",
+	    "id": "land1-leisure-green-imagename-13",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -6206,7 +6195,7 @@
 	    }
 	},
 	{
-	    "id": "land1-leisure-imagename-14",
+	    "id": "land1-leisure-green-imagename-14",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -6940,7 +6929,7 @@
 	    }
 	},
 	{
-	    "id": "land1-naturalbrown-imagename-8",
+	    "id": "land1-natural-brown-imagename-8",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -6967,7 +6956,7 @@
 	    }
 	},
 	{
-	    "id": "land1-naturalbrown-imagename-9",
+	    "id": "land1-natural-brown-imagename-9",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -6994,7 +6983,7 @@
 	    }
 	},
 	{
-	    "id": "land1-naturalbrown-imagename-10",
+	    "id": "land1-natural-brown-imagename-10",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -7023,7 +7012,7 @@
 	    }
 	},
 	{
-	    "id": "land1-naturalbrown-imagename-12",
+	    "id": "land1-natural-brown-imagename-12",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -7050,7 +7039,7 @@
 	    }
 	},
 	{
-	    "id": "land1-naturalbrown-imagename-15",
+	    "id": "land1-natural-brown-imagename-15",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -7077,7 +7066,7 @@
 	    }
 	},
 	{
-	    "id": "land1-naturalbrown-imagename-16",
+	    "id": "land1-natural-brown-imagename-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -7105,7 +7094,7 @@
 	    }
 	},
 	{
-	    "id": "land1-naturalbrown-imagename-18",
+	    "id": "land1-natural-brown-imagename-18",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -7132,7 +7121,7 @@
 	    }
 	},
 	{
-	    "id": "land1-historicbrown-imagename-15",
+	    "id": "land1-historic-brown-imagename-15",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -7192,7 +7181,7 @@
 	    }
 	},
 	{
-	    "id": "land1-historicbrown-imagename-16",
+	    "id": "land1-historic-brown-imagename-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -7457,7 +7446,7 @@
 	    }
 	},
 	{
-	    "id": "land1-amenity-entrancemain-imagename-17",
+	    "id": "land1-amenity-entrancemain-lightblue-imagename-17",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",

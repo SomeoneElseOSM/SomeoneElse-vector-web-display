@@ -7239,6 +7239,18 @@
 	    }
 	},
 	{
+	    "id": "land1-amenity-image-21",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 21,
+	    "filter": [ "all", [ "in", "class", "amenity_fire_hydrant" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"visibility": "visible"
+	    }
+	},
+	{
 	    "id": "land1-various-image-18",
 	    "type": "symbol",
 	    "source": "someoneelse",
@@ -7248,7 +7260,33 @@
                                                 "amenity_waste_disposal",
                                                 "amenity_grit_bin",
                                                 "highway_streetlamp_electric",
-                                                "highway_streetlamp_gas" ] ],
+                                                "highway_streetlamp_gas",
+	                                        "amenity_life_ring",
+                                                "amenity_fire_extinguisher",
+                                                "tourism_camp_pitch" ] ],
+	    "layout": {
+		"icon-image": "{class}"
+	    }
+	},
+	{
+	    "id": "land1-amenity-image-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "class", "amenity_defibrillator" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"visibility": "visible"
+	    }
+	},
+	{
+	    "id": "land1-amenity-entrancemain-image-17",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 17,
+	    "filter": [ "all", [ "in", "class", "amenity_entrancemain" ] ],
 	    "layout": {
 		"icon-image": "{class}"
 	    }
@@ -7266,7 +7304,7 @@
 	    }
 	},
 	{
-	    "id": "land1-markeraerieal-purple-imagename-18",
+	    "id": "land1-markeraerial-purple-imagename-18",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -7440,23 +7478,6 @@
 	    },
 	    "paint": {
 		"text-color": "#3e2bf6",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
-	    "id": "land1-amenity-entrancemain-lightblue-imagename-17",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 17,
-	    "filter": [ "all", [ "in", "class", "amenity_entrancemain" ] ],
-	    "layout": {
-		"icon-image": "{class}"
-	    },
-	    "paint": {
-		"text-color": "#0066ff",
 		"text-halo-blur": 0.5,
 		"text-halo-color": "#ffffff",
 		"text-halo-width": 1
@@ -8059,43 +8080,6 @@
 		"text-halo-blur": 0.5,
 		"text-halo-color": "#ffffff",
 		"text-halo-width": 1
-	    }
-	},
-	{
-	    "id": "land1-amenity-image-16",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 16,
-	    "filter": [ "all", [ "in", "class", "amenity_defibrillator" ] ],
-	    "layout": {
-		"icon-image": "{class}",
-		"visibility": "visible"
-	    }
-	},
-	{
-	    "id": "land1-amenity-image-18",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 18,
-	    "filter": [ "all", [ "in", "class", "amenity_life_ring",
-                                                "amenity_fire_extinguisher" ] ],
-	    "layout": {
-		"icon-image": "{class}",
-		"visibility": "visible"
-	    }
-	},
-	{
-	    "id": "land1-amenity-image-21",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 21,
-	    "filter": [ "all", [ "in", "class", "amenity_fire_hydrant" ] ],
-	    "layout": {
-		"icon-image": "{class}",
-		"visibility": "visible"
 	    }
 	},
 	{

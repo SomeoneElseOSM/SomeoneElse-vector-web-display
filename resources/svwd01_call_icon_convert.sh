@@ -899,6 +899,7 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/tourism_guest_yynd.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_tourism_guest_yynd.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/tourism_guest_yyyn.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_tourism_guest_yyyn.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/tourism_guest_yyyy.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_tourism_guest_yyyy.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/camp_pitch.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_camp_pitch.png
 
 #
 # Patterns used with the "land1" and "land2" layers:

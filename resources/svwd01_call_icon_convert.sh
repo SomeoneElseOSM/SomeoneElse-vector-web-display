@@ -848,6 +848,7 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/informationncnmills.png                         ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_informationncnmills.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/informationncnrowe.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_informationncnrowe.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/informationncnunknown.png                       ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_informationncnunknown.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/informationpnfs.p.16.png                        ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_informationpnfs.png
 
 #
 # Patterns used with the "land1" and "land2" layers:

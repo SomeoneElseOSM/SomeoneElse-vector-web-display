@@ -5806,7 +5806,7 @@
 	    }
 	},
 	{
-	    "id": "land1-leisurelightbrown-imagename-16",
+	    "id": "land1-leisure-lightbrown-imagename-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -6263,7 +6263,7 @@
 	    }
 	},
 	{
-	    "id": "land1-tourism-imagename-14",
+	    "id": "land1-lightpurple-imagename-14",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -6330,7 +6330,8 @@
 	    "filter": [ "all", [ "in", "class", "amenity_tourismstation",
                                                 "amenity_prison",
                                                 "man_made_survey_point",
-                                                "man_made_cairn" ] ],
+                                                "man_made_cairn",
+                                                "tourism_informationpnfs" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",

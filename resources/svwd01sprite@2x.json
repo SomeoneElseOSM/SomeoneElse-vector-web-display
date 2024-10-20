@@ -6855,7 +6855,7 @@
 "y": 64
 }
 ,
-"tourism_information": {
+"tourism_informationpnfs": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -6863,7 +6863,7 @@
 "y": 64
 }
 ,
-"tourism_motel": {
+"tourism_information": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -6871,7 +6871,7 @@
 "y": 64
 }
 ,
-"tourism_picnic_site": {
+"tourism_motel": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -6879,7 +6879,7 @@
 "y": 64
 }
 ,
-"tourism_viewpoint": {
+"tourism_picnic_site": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -6887,11 +6887,19 @@
 "y": 64
 }
 ,
-"tourism_zoo": {
+"tourism_viewpoint": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
 "x": 27456,
+"y": 64
+}
+,
+"tourism_zoo": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 27520,
 "y": 64
 }
 }

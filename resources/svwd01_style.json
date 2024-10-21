@@ -1700,12 +1700,13 @@
 	    }
 	},
 	{
-	    "id": "land1-generator-fill-9",
+	    "id": "land1-power-fill-9",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "power_station",
+	    "filter": [ "all", [ "in", "class", "man_made_power",
+                                                "power_station",
                                                 "power_generator" ] ],
 	    "paint": {
 		"fill-antialias": true,
@@ -1713,12 +1714,13 @@
 	    }
 	},
 	{
-	    "id": "land1-generator-outline",
+	    "id": "land1-power-outline-11",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 11,
-	    "filter": [ "all", [ "in", "class", "power_station",
+	    "filter": [ "all", [ "in", "class", "man_made_power",
+                                                "power_station",
                                                 "power_generator" ] ],
 	    "paint": {
 		"line-color": "#9b8b8b",
@@ -1744,7 +1746,7 @@
 	    }
 	},
 	{
-	    "id": "land1-substation-outline",
+	    "id": "land1-substation-outline-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -7583,6 +7585,7 @@
                                                 "man_made_chimney",
                                                 "man_made_lighthouse",
                                                 "man_made_mast",
+                                                "man_made_power",
                                                 "man_made_power_wind",
                                                 "man_made_ventilation_shaft",
                                                 "man_made_water_tower",

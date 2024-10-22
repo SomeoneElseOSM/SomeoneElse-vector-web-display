@@ -7267,7 +7267,7 @@
                                                 "highway_streetlamp_gas",
 	                                        "amenity_life_ring",
                                                 "amenity_fire_extinguisher",
-                                                "tourism_camp_pitch" ] ],
+	                                        "tourism_camp_pitch" ] ],
 	    "layout": {
 		"icon-image": "{class}"
 	    }
@@ -7440,6 +7440,33 @@
                                                 "amenity_motorcycle_parking",
                                                 "amenity_motorcycle_parking_pay",
                                                 "amenity_bus_station" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#0066ff",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-tourism-lightblue-imagename-20",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 20,
+	    "filter": [ "all", [ "in", "class", "tourism_camp_pitch" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",

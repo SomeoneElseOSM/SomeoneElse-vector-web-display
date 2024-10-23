@@ -8297,6 +8297,27 @@
 	    }
 	},
 	{
+	    "id": "barrier-hedge",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "barrier",
+	    "minzoom": 13,
+	    "filter": [
+		"all",
+		[ "in", "class", "barrier_hedge" ]
+	    ],
+	    "paint": {
+		"line-color": "#aed1a0",
+		"line-width": {
+		    "base": 12.0,
+		    "stops": [
+			[ 15,  12.0 ],
+			[ 20,  24.0 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "poi",
 	    "type": "symbol",
 	    "source": "someoneelse",

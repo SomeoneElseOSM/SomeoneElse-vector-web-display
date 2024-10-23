@@ -8315,9 +8315,28 @@
 	    "source": "someoneelse",
 	    "source-layer": "linearbarrier",
 	    "minzoom": 13,
-	    "filter": [ "all", [ "in", "class", "barrier_fence" ] ],
+	    "filter": [ "all", [ "in", "class", "barrier_fence",
+                                                "barrier_kerb" ] ],
 	    "paint": {
 		"line-color": "#444",
+		"line-width": {
+		    "base": 0.3,
+		    "stops": [
+			[ 15,  0.3 ],
+			[ 20,  0.6 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "barrier-pitchline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "linearbarrier",
+	    "minzoom": 13,
+	    "filter": [ "all", [ "in", "class", "barrier_pitchline" ] ],
+	    "paint": {
+		"line-color": "white",
 		"line-width": {
 		    "base": 0.3,
 		    "stops": [

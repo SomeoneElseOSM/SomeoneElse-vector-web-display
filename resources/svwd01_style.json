@@ -8276,6 +8276,27 @@
 	    }
 	},
 	{
+	    "id": "barrier-wall",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "barrier",
+	    "minzoom": 13,
+	    "filter": [
+		"all",
+		[ "in", "class", "barrier_wall" ]
+	    ],
+	    "paint": {
+		"line-color": "#444",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "poi",
 	    "type": "symbol",
 	    "source": "someoneelse",

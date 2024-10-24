@@ -2318,11 +2318,11 @@
 	    "filter": [ "all", [ "in", "class", "historic_citywalls" ] ],
 	    "paint": {
 		"line-color": "grey",
-		"line-opacity": 0.8,
+		"line-opacity": 0.5,
 		"line-width": {
-		    "base": 9.6,
+		    "base": 4.8,
 		    "stops": [
-			[ 15,  9.6 ],
+			[ 15,  4.8 ],
 			[ 20,  38.4 ]
 		    ]
 		}
@@ -7936,6 +7936,7 @@
                                                 "shop_computer",
                                                 "shop_confectionery",
                                                 "shop_convenience",
+                                                "shop_copyshop",
                                                 "shop_deli",
                                                 "shop_discount",
                                                 "shop_doityourself",

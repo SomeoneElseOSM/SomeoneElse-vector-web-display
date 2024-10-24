@@ -6607,7 +6607,7 @@
 "y": 64
 }
 ,
-"shop_nonspecific": {
+"shop_optician": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -6615,7 +6615,7 @@
 "y": 64
 }
 ,
-"shop_optician": {
+"shop_outdoor": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -6623,7 +6623,7 @@
 "y": 64
 }
 ,
-"shop_outdoor": {
+"shop_pawnbroker": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -6631,7 +6631,7 @@
 "y": 64
 }
 ,
-"shop_pawnbroker": {
+"shop_pet_food": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -6639,7 +6639,7 @@
 "y": 64
 }
 ,
-"shop_pet_food": {
+"shop_pet_grooming": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -6647,7 +6647,7 @@
 "y": 64
 }
 ,
-"shop_pet_grooming": {
+"shop_pet": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -6655,7 +6655,7 @@
 "y": 64
 }
 ,
-"shop_pet": {
+"shop_photo": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -6663,7 +6663,7 @@
 "y": 64
 }
 ,
-"shop_photo": {
+"shop_seafood": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -6671,7 +6671,7 @@
 "y": 64
 }
 ,
-"shop_seafood": {
+"shop_shoe_repair_etc": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -6679,7 +6679,7 @@
 "y": 64
 }
 ,
-"shop_shoe_repair_etc": {
+"shop_shoes": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -6687,7 +6687,7 @@
 "y": 64
 }
 ,
-"shop_shoes": {
+"shop_shopnonspecific": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,

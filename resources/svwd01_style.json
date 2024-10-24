@@ -2310,6 +2310,25 @@
 	    }
 	},
 	{
+	    "id": "barrier-citywalls-11",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "linearbarrier",
+	    "minzoom": 11,
+	    "filter": [ "all", [ "in", "class", "historic_citywalls" ] ],
+	    "paint": {
+		"line-color": "grey",
+		"line-opacity": 0.8,
+		"line-width": {
+		    "base": 9.6,
+		    "stops": [
+			[ 15,  9.6 ],
+			[ 20,  38.4 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "highway-pathnarrow",
 	    "type": "line",
 	    "source": "someoneelse",

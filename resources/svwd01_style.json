@@ -2292,6 +2292,24 @@
 	    }
 	},
 	{
+	    "id": "barrier-cutline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "linearbarrier",
+	    "minzoom": 13,
+	    "filter": [ "all", [ "in", "class", "man_made_cutline" ] ],
+	    "paint": {
+		"line-color": "#f2efe9",
+		"line-width": {
+		    "base": 3.6,
+		    "stops": [
+			[ 15,  3.6 ],
+			[ 20,  10.8 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "highway-pathnarrow",
 	    "type": "line",
 	    "source": "someoneelse",

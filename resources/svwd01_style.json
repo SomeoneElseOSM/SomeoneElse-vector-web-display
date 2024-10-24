@@ -8383,6 +8383,42 @@
 	    }
 	},
 	{
+	    "id": "barrier-cattle_grid-a",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "linearbarrier",
+	    "minzoom": 13,
+	    "filter": [ "all", [ "in", "class", "barrier_cattle_grid" ] ],
+	    "paint": {
+		"line-color": "#444",
+		"line-width": {
+		    "base": 2.4,
+		    "stops": [
+			[ 15,  2.4 ],
+			[ 20,  9.6 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "barrier-cattle_grid-b",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "linearbarrier",
+	    "minzoom": 13,
+	    "filter": [ "all", [ "in", "class", "barrier_cattle_grid" ] ],
+	    "paint": {
+		"line-color": "white",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  2.4 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "poi",
 	    "type": "symbol",
 	    "source": "someoneelse",

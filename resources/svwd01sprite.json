@@ -7118,4 +7118,12 @@
 "x": 28352,
 "y": 64
 }
+,
+"waterway_lock_gate": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 28416,
+"y": 64
+}
 }

@@ -7747,7 +7747,8 @@
                                                 "man_made_radartower",
                                                 "man_made_squaretower",
                                                 "man_made_watermill",
-                                                "man_made_windmill" ] ],
+                                                "man_made_windmill",
+                                                "waterway_lock_gate" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",

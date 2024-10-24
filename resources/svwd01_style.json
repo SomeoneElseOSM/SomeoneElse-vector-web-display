@@ -86,6 +86,30 @@
 	    }
 	},
 	{
+	    "id": "land2-unnamedheath-fill-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land2",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "landuse_unnamedheath" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#e6e8c5"
+	    }
+	},
+	{
+	    "id": "land1-heath-fill-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "natural_heath" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#e6e8c5"
+	    }
+	},
+	{
 	    "id": "land1-water-fill-5",
 	    "type": "fill",
 	    "source": "someoneelse",
@@ -547,18 +571,6 @@
 	    "filter": [ "all", [ "in", "class", "natural_unnamedscrub" ] ],
 	    "paint": {
 		"fill-pattern": "pattern_natural_scrub"
-	    }
-	},
-	{
-	    "id": "land2-unnamedheath-fill-9",
-	    "type": "fill",
-	    "source": "someoneelse",
-	    "source-layer": "land2",
-	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "landuse_unnamedheath" ] ],
-	    "paint": {
-		"fill-antialias": true,
-		"fill-color": "#e6e8c5"
 	    }
 	},
 	{
@@ -1564,18 +1576,6 @@
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#e3b57a"
-	    }
-	},
-	{
-	    "id": "land1-heath-fill-9",
-	    "type": "fill",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "natural_heath" ] ],
-	    "paint": {
-		"fill-antialias": true,
-		"fill-color": "#e6e8c5"
 	    }
 	},
 	{
@@ -8291,7 +8291,7 @@
 	    }
 	},
 	{
-	    "id": "barrier-wall",
+	    "id": "barrier-wall-13",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "linearbarrier",
@@ -8309,7 +8309,7 @@
 	    }
 	},
 	{
-	    "id": "barrier-hedge",
+	    "id": "barrier-hedge-13",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "linearbarrier",
@@ -8328,7 +8328,7 @@
 	    }
 	},
 	{
-	    "id": "barrier-fence",
+	    "id": "barrier-fence-13",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "linearbarrier",
@@ -8347,7 +8347,7 @@
 	    }
 	},
 	{
-	    "id": "barrier-pitchline",
+	    "id": "barrier-pitchline-13",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "linearbarrier",
@@ -8365,7 +8365,25 @@
 	    }
 	},
 	{
-	    "id": "barrier-gate",
+	    "id": "barrier-dam-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "linearbarrier",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "waterway_dam" ] ],
+	    "paint": {
+		"line-color": "#444",
+		"line-width": {
+		    "base": 2.4,
+		    "stops": [
+			[ 15,  2.4 ],
+			[ 20,  9.6 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "barrier-gate-13",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "linearbarrier",
@@ -8383,7 +8401,7 @@
 	    }
 	},
 	{
-	    "id": "barrier-stile",
+	    "id": "barrier-stile-13",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "linearbarrier",
@@ -8401,7 +8419,7 @@
 	    }
 	},
 	{
-	    "id": "barrier-cattle_grid-a",
+	    "id": "barrier-cattle_grid-a-13",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "linearbarrier",
@@ -8419,7 +8437,7 @@
 	    }
 	},
 	{
-	    "id": "barrier-cattle_grid-b",
+	    "id": "barrier-cattle_grid-b-13",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "linearbarrier",
@@ -8437,7 +8455,7 @@
 	    }
 	},
 	{
-	    "id": "barrier-ford-a",
+	    "id": "barrier-ford-a-13",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "linearbarrier",
@@ -8455,7 +8473,7 @@
 	    }
 	},
 	{
-	    "id": "barrier-ford-b",
+	    "id": "barrier-ford-b-13",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "linearbarrier",

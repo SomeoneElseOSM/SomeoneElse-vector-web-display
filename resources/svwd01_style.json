@@ -5018,7 +5018,28 @@
 	    "minzoom": 12
 	},
 	{
-	    "id": "label-street-bottom",
+	    "id": "label-barrier-bottom",
+	    "type": "symbol",
+	    "source-layer": "linearbarrier",
+	    "filter": [ "in", "class", "waterway_dam" ],
+	    "layout": {
+		"text-field": "{name}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "line",
+		"text-anchor": "bottom",
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "#333344",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 2,
+		"text-halo-blur": 1
+	    },
+	    "minzoom": 12
+	},
+	{
+	    "id": "label-dam-bottom",
 	    "type": "symbol",
 	    "source-layer": "transportation",
 	    "filter": [ "in", "class", "unpaved",

@@ -8333,6 +8333,24 @@
 	    }
 	},
 	{
+	    "id": "barrier-castle_walls-13",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "linearbarrier",
+	    "minzoom": 13,
+	    "filter": [ "all", [ "in", "class", "historic_castle_walls" ] ],
+	    "paint": {
+		"line-color": "#444",
+		"line-width": {
+		    "base": 4.8,
+		    "stops": [
+			[ 15,  4.8 ],
+			[ 20,  19.2 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "barrier-wall-13",
 	    "type": "line",
 	    "source": "someoneelse",

@@ -8404,6 +8404,25 @@
 	    }
 	},
 	{
+	    "id": "barrier-breakwater-11",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "linearbarrier",
+	    "minzoom": 11,
+	    "filter": [ "all", [ "in", "class", "man_made_breakwater",
+                                                "man_made_groyne" ] ],
+	    "paint": {
+		"line-color": "#aaa",
+		"line-width": {
+		    "base": 1.2,
+		    "stops": [
+			[ 15,  1.2 ],
+			[ 20,  4.8 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "barrier-gate-13",
 	    "type": "line",
 	    "source": "someoneelse",

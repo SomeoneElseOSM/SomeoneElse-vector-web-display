@@ -905,7 +905,7 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/lock_gate.png                                   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/waterway_lock_gate.png
 
 #
-# Patterns used with the "land1" and "land2" layers:
+# Area patterns used with the "land1" and "land2" layers:
 # These must be 32x32 to avoid a white background
 # Many are converted from a 32x32 version in svwd01_source_icons,
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/orchard32.png          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_orchard.png
@@ -938,10 +938,14 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/zoo.png                                             ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_tourism_zoo.png
 
 #
-# Some patterns copy straight from raster 64x64
+# Some area patterns copy straight from raster 64x64
 cp ~/src/openstreetmap-carto-AJT/symbols/wood_broadleaved_pattern.png   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_broadleaved.png
 cp ~/src/openstreetmap-carto-AJT/symbols/wood_needleleaved_pattern.png  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_needleleaved.png
 cp ~/src/openstreetmap-carto-AJT/symbols/wood_mixed_pattern.png         ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_mixedleaved.png
+
+# Line patterns used with the "land1" and "land2" layers:
+# Many are converted from a 32x32 version in svwd01_source_icons,
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/cliff32.png            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_cliff.png
 
 #
 # Other icons:

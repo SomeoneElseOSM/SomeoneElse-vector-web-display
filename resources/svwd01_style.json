@@ -8462,6 +8462,24 @@
 	    }
 	},
 	{
+	    "id": "barrier-cliff-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "linearbarrier",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "natural_cliff" ] ],
+	    "paint": {
+		"line-pattern": "pattern_natural_cliff",
+		"line-width": {
+		    "base": 9.6,
+		    "stops": [
+			[ 15,  9.6 ],
+			[ 20,  38.4 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "barrier-gate-13",
 	    "type": "line",
 	    "source": "someoneelse",

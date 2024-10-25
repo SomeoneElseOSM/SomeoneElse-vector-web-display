@@ -946,6 +946,7 @@ cp ~/src/openstreetmap-carto-AJT/symbols/wood_mixed_pattern.png         ~/src/So
 # Line patterns used with the "land1" and "land2" layers:
 # Many are converted from a 32x32 version in svwd01_source_icons,
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/cliff32.png            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_cliff.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/levee32.png            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_man_made_levee.png
 
 #
 # Other icons:

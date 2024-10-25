@@ -8480,6 +8480,24 @@
 	    }
 	},
 	{
+	    "id": "barrier-embankment-16",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "linearbarrier",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "class", "man_made_embankment" ] ],
+	    "paint": {
+		"line-pattern": "pattern_natural_cliff",
+		"line-width": {
+		    "base": 9.6,
+		    "stops": [
+			[ 15,  9.6 ],
+			[ 20,  38.4 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "barrier-gate-13",
 	    "type": "line",
 	    "source": "someoneelse",

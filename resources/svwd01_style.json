@@ -5014,7 +5014,7 @@
 	    }
 	},
 	{
-	    "id": "label-street-centre",
+	    "id": "label-street-centre-12",
 	    "type": "symbol",
 	    "source-layer": "transportation",
 	    "filter": [ "in", "class", "motorway", "trunk", "primary", "secondary", "tertiary",
@@ -5037,10 +5037,32 @@
 	    "minzoom": 12
 	},
 	{
-	    "id": "label-barrier-bottom",
+	    "id": "label-linear-bottom-11",
 	    "type": "symbol",
 	    "source-layer": "linearbarrier",
-	    "filter": [ "in", "class", "waterway_dam" ],
+	    "filter": [ "in", "class", "natural_valley" ],
+	    "layout": {
+		"text-field": "{name}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "line",
+		"text-anchor": "bottom",
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "#333344",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 2,
+		"text-halo-blur": 1
+	    },
+	    "minzoom": 11
+	},
+	{
+	    "id": "label-linear-bottom-12",
+	    "type": "symbol",
+	    "source-layer": "linearbarrier",
+	    "filter": [ "in", "class", "waterway_dam",
+                                       "natural_cliff" ],
 	    "layout": {
 		"text-field": "{name}",
 		"text-font": [ "KlokanTech Noto Sans Regular" ],
@@ -5058,7 +5080,51 @@
 	    "minzoom": 12
 	},
 	{
-	    "id": "label-dam-bottom",
+	    "id": "label-linear-bottom-13",
+	    "type": "symbol",
+	    "source-layer": "linearbarrier",
+	    "filter": [ "in", "class", "man_made_levee" ],
+	    "layout": {
+		"text-field": "{name}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "line",
+		"text-anchor": "bottom",
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "#333344",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 2,
+		"text-halo-blur": 1
+	    },
+	    "minzoom": 13
+	},
+	{
+	    "id": "label-linear-bottom-16",
+	    "type": "symbol",
+	    "source-layer": "linearbarrier",
+	    "filter": [ "in", "class", "man_made_embankment",
+                                       "barrier_wall",
+                                       "barrier_gate" ],
+	    "layout": {
+		"text-field": "{name}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "line",
+		"text-anchor": "bottom",
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "#333344",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 2,
+		"text-halo-blur": 1
+	    },
+	    "minzoom": 16
+	},
+	{
+	    "id": "label-path-bottom-12",
 	    "type": "symbol",
 	    "source-layer": "transportation",
 	    "filter": [ "in", "class", "unpaved",
@@ -8498,11 +8564,11 @@
 	    }
 	},
 	{
-	    "id": "barrier-levee-16",
+	    "id": "barrier-levee-13",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "linearbarrier",
-	    "minzoom": 16,
+	    "minzoom": 13,
 	    "filter": [ "all", [ "in", "class", "man_made_levee" ] ],
 	    "paint": {
 		"line-pattern": "pattern_man_made_levee",

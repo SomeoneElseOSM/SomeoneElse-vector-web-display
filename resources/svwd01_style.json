@@ -829,6 +829,111 @@
 	    }
 	},
 	{
+	    "id": "land1-industrial-fill-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "landuse_industrial" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#ebdbe8"
+	    }
+	},
+	{
+	    "id": "land1-industrial-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "landuse_industrial" ] ],
+	    "paint": {
+		"line-color": "#c6b3c3",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+                }
+	    }
+	},
+	{
+	    "id": "land1-railway-fill-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "landuse_railway" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#ebdbe8"
+	    }
+	},
+	{
+	    "id": "land1-railway-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "landuse_railway" ] ],
+	    "paint": {
+		"line-color": "#c6b3c3",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+                }
+	    }
+	},
+	{
+	    "id": "land1-commercial-fill-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "landuse_commercial" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#ece0df"
+	    }
+	},
+	{
+	    "id": "land1-commercial-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 15,
+	    "filter": [ "all", [ "in", "class", "landuse_commercial" ] ],
+	    "paint": {
+		"line-color": "#d1b2b0",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "land1-construction-fill-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "landuse_brownfield", 
+                                                "landuse_greenfield", 
+                                                "landuse_construction" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#9d9d6c",
+		"fill-opacity": 0.7
+	    }
+	},
+	{
 	    "id": "land1-wood-fill-8",
 	    "type": "fill",
 	    "source": "someoneelse",
@@ -838,6 +943,18 @@
                                                 "natural_broadleaved",
                                                 "natural_needleleaved",
                                                 "natural_mixedleaved" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#aed1a0"
+	    }
+	},
+	{
+	    "id": "land1-hedgearea-fill-14",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "class", "barrier_hedge" ] ],
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#aed1a0"
@@ -1020,36 +1137,6 @@
 	    }
 	},
 	{
-	    "id": "land1-industrial-fill-9",
-	    "type": "fill",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "landuse_industrial" ] ],
-	    "paint": {
-		"fill-antialias": true,
-		"fill-color": "#ebdbe8"
-	    }
-	},
-	{
-	    "id": "land1-industrial-outline",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "landuse_industrial" ] ],
-	    "paint": {
-		"line-color": "#c6b3c3",
-		"line-width": {
-		    "base": 0.6,
-		    "stops": [
-			[ 15,  0.6 ],
-			[ 20,  1.2 ]
-		    ]
-                }
-	    }
-	},
-	{
 	    "id": "land1-garages-fill-11",
 	    "type": "fill",
 	    "source": "someoneelse",
@@ -1060,81 +1147,6 @@
 		"fill-antialias": true,
 		"fill-color": "#996",
 		"fill-opacity": 0.2
-	    }
-	},
-	{
-	    "id": "land1-railway-fill-9",
-	    "type": "fill",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "landuse_railway" ] ],
-	    "paint": {
-		"fill-antialias": true,
-		"fill-color": "#ebdbe8"
-	    }
-	},
-	{
-	    "id": "land1-railway-outline",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "landuse_railway" ] ],
-	    "paint": {
-		"line-color": "#c6b3c3",
-		"line-width": {
-		    "base": 0.6,
-		    "stops": [
-			[ 15,  0.6 ],
-			[ 20,  1.2 ]
-		    ]
-                }
-	    }
-	},
-	{
-	    "id": "land1-commercial-fill-9",
-	    "type": "fill",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "landuse_commercial" ] ],
-	    "paint": {
-		"fill-antialias": true,
-		"fill-color": "#ece0df"
-	    }
-	},
-	{
-	    "id": "land1-commercial-outline",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 15,
-	    "filter": [ "all", [ "in", "class", "landuse_commercial" ] ],
-	    "paint": {
-		"line-color": "#d1b2b0",
-		"line-width": {
-		    "base": 0.6,
-		    "stops": [
-			[ 15,  0.6 ],
-			[ 20,  1.2 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "land1-construction-fill-9",
-	    "type": "fill",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "landuse_brownfield", 
-                                                "landuse_greenfield", 
-                                                "landuse_construction" ] ],
-	    "paint": {
-		"fill-antialias": true,
-		"fill-color": "#9d9d6c",
-		"fill-opacity": 0.7
 	    }
 	},
 	{

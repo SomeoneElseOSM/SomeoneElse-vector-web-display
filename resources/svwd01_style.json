@@ -3027,7 +3027,8 @@
 	    "minzoom": 12,
 	    "filter": [
 		"all",
-		[ "in", "class", "service" ],
+		[ "in", "class", "service",
+                                 "road" ],
 		[ "!in", "edge", "ford" ],
                 [ "==", "tunnel", true ]
 	    ],
@@ -3074,7 +3075,8 @@
 	    "minzoom": 12,
 	    "filter": [
 		"all",
-		[ "in", "class", "service" ],
+		[ "in", "class", "service",
+                                 "road" ],
 		[ "!in", "edge", "ford" ],
                 [ "!=", "bridge", true ],
                 [ "!=", "tunnel", true ]
@@ -3099,7 +3101,8 @@
 	    "minzoom": 12,
 	    "filter": [
 		"all",
-		[ "in", "class", "service" ],
+		[ "in", "class", "service",
+                                 "road" ],
 		[ "in", "edge", "ford" ],
                 [ "!=", "bridge", true ],
                 [ "!=", "tunnel", true ]
@@ -4699,7 +4702,8 @@
 	    "minzoom": 12,
 	    "filter": [
 		"all",
-		[ "in", "class", "service" ],
+		[ "in", "class", "service",
+                                 "road" ],
                 [ "==", "bridge", true ]
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
@@ -5073,7 +5077,7 @@
 	    "type": "symbol",
 	    "source-layer": "transportation",
 	    "filter": [ "in", "class", "motorway", "trunk", "primary", "secondary", "tertiary",
-			"unclassified", "residential", "service", "driveway" ],
+			"unclassified", "residential", "service", "road", "driveway" ],
 	    "layout": {
 		"text-field": "{name}",
 		"text-font": [ "KlokanTech Noto Sans Regular" ],

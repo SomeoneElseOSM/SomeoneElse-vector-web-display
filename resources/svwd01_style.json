@@ -2363,6 +2363,27 @@
 	    }
 	},
 	{
+	    "id": "highway-raceway",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 11,
+	    "filter": [
+		"all",
+		[ "in", "class", "raceway" ]
+	    ],
+	    "paint": {
+		"line-color": "pink",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 11,   2.0 ],
+			[ 20, 128.0 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "highway-pathnarrow",
 	    "type": "line",
 	    "source": "someoneelse",

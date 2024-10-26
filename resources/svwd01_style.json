@@ -3250,8 +3250,7 @@
 	    "minzoom": 10,
 	    "filter": [
 		"all",
-		[ "in", "class", "living_street",
-		                 "residential" ],
+		[ "in", "class", "living_street" ],
 		[ "in", "edge", "sidewalk" ],
                 [ "!=", "bridge", true ],
                 [ "!=", "tunnel", true ]
@@ -3443,6 +3442,29 @@
 	    }
 	},
 	{
+	    "id": "highway-pedestrian-tunnelcasing",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 10,
+	    "filter": [
+		"all",
+		[ "in", "class", "pedestrian" ],
+                [ "==", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "grey",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 10,  2.8 ],
+			[ 20, 86.0 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "highway-unclassified-tunnelfill",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -3457,6 +3479,29 @@
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#f7f7f7",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 10,  2.0 ],
+			[ 20, 64.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-pedestrian-tunnelfill",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 10,
+	    "filter": [
+		"all",
+		[ "in", "class", "pedestrian" ],
+                [ "==", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#ededed",
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
@@ -3485,6 +3530,30 @@
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#bbb",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 10,  2.8 ],
+			[ 20, 86.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-pedestrian-casing",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 10,
+	    "filter": [
+		"all",
+		[ "in", "class", "pedestrian" ],
+                [ "!=", "bridge", true ],
+                [ "!=", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "grey",
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
@@ -3667,6 +3736,30 @@
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#ffffff",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 10,  2.0 ],
+			[ 20, 64.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-pedestrian-fill",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 10,
+	    "filter": [
+		"all",
+		[ "in", "class", "pedestrian" ],
+                [ "!=", "bridge", true ],
+                [ "!=", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#ededed",
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
@@ -4812,6 +4905,29 @@
 	    }
 	},
 	{
+	    "id": "highway-pedestrian-bridgecasing",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 10,
+	    "filter": [
+		"all",
+		[ "in", "class", "pedestrian" ],
+                [ "==", "bridge", true ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "black",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 10,  2.8 ],
+			[ 20, 86.0 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "highway-unclassified-bridgefill",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -4826,6 +4942,29 @@
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#ffffff",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 10,  2.0 ],
+			[ 20, 64.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-pedestrian-bridgefill",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 10,
+	    "filter": [
+		"all",
+		[ "in", "class", "pedestrian" ],
+                [ "==", "bridge", true ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#ededed",
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
@@ -5077,7 +5216,7 @@
 	    "type": "symbol",
 	    "source-layer": "transportation",
 	    "filter": [ "in", "class", "motorway", "trunk", "primary", "secondary", "tertiary",
-			"unclassified", "residential", "service", "road", "driveway" ],
+			"unclassified", "residential", "pedestrian", "service", "road", "driveway" ],
 	    "layout": {
 		"text-field": "{name}",
 		"text-font": [ "KlokanTech Noto Sans Regular" ],

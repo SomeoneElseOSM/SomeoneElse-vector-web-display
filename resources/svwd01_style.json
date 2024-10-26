@@ -2363,6 +2363,28 @@
 	    }
 	},
 	{
+	    "id": "highway-construction-11",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "construction" ]
+	    ],
+	    "paint": {
+		"line-color": "#cdc5c5",
+                "line-dasharray": [2.0, 2.0],
+		"line-width": {
+		    "base": 1.0,
+		    "stops": [
+			[ 12,  1.0 ],
+			[ 20,  4.0 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "highway-raceway-11",
 	    "type": "line",
 	    "source": "someoneelse",

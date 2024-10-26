@@ -2363,7 +2363,7 @@
 	    }
 	},
 	{
-	    "id": "highway-raceway",
+	    "id": "highway-raceway-11",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
@@ -2379,6 +2379,47 @@
 		    "stops": [
 			[ 11,   2.0 ],
 			[ 20, 128.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-gallop-casing-11",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 11,
+	    "filter": [
+		"all",
+		[ "in", "class", "gallop" ]
+	    ],
+	    "paint": {
+		"line-color": "#74dcba",
+                "line-opacity": 0.4,
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 11,   2.0 ],
+			[ 20, 128.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-gallop-fill-11",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 11,
+	    "filter": [ "all", [ "in", "class", "gallop" ] ],
+	    "paint": {
+		"line-color": "black",
+                "line-dasharray": [5.0, 4.0, 2.0, 4.0],
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
 		    ]
 		}
 	    }

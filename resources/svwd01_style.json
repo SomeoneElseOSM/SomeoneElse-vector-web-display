@@ -2341,6 +2341,28 @@
 	    }
 	},
 	{
+	    "id": "route-ferry-6",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 6,
+	    "filter": [
+		"all",
+		[ "in", "class", "ferry" ]
+	    ],
+	    "paint": {
+		"line-color": "#66f",
+                "line-dasharray": [4.0, 4.0],
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "highway-pathnarrow",
 	    "type": "line",
 	    "source": "someoneelse",

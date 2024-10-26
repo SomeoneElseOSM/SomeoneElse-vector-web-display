@@ -8540,6 +8540,24 @@
 	    }
 	},
 	{
+	    "id": "barrier-tree_row-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "linearbarrier",
+	    "minzoom": 13,
+	    "filter": [ "all", [ "in", "class", "barrier_tree_row" ] ],
+	    "paint": {
+		"line-pattern": "pattern_natural_tree_row",
+		"line-width": {
+		    "base": 19.2,
+		    "stops": [
+			[ 15,  19.2 ],
+			[ 20,  76.8 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "barrier-cliff-12",
 	    "type": "line",
 	    "source": "someoneelse",

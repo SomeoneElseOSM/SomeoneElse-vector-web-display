@@ -947,6 +947,7 @@ cp ~/src/openstreetmap-carto-AJT/symbols/wood_mixed_pattern.png         ~/src/So
 # Many are converted from a 32x32 version in svwd01_source_icons,
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/cliff32.png            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_cliff.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/levee32.png            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_man_made_levee.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/tree_row32.png            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_tree_row.png
 
 #
 # Other icons:

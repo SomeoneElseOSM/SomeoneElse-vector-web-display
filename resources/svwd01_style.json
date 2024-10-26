@@ -2389,10 +2389,8 @@
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
 	    "minzoom": 12,
-	    "filter": [
-		"all",
-		[ "in", "class", "pathnarrow" ]
-	    ],
+	    "filter": [ "all", [ "in", "class", "pathnarrow", 
+                                                "leisuretrack" ] ],
 	    "paint": {
 		"line-color": "black",
                 "line-dasharray": [2.0, 4.0],
@@ -2433,10 +2431,7 @@
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
 	    "minzoom": 12,
-	    "filter": [
-		"all",
-		[ "in", "class", "intpathnarrow" ]
-	    ],
+	    "filter": [ "all", [ "in", "class", "intpathnarrow" ] ],
 	    "paint": {
 		"line-color": "black",
                 "line-dasharray": [2.0, 12.0],
@@ -5329,7 +5324,8 @@
 			"ucrwide",  "ucrnarrow", "boatwide", "boatnarrow", "rbywide",  "rbynarrow",
 			"bridlewaysteps", "bridlewaywide", "bridlewaynarrow", "intbridlewaywide", "intbridlewaynarrow",
 			"footwaysteps",   "footwaywide",   "footwaynarrow",   "intfootwaywide",   "intfootwaynarrow",
-			"steps",          "pathwide",      "pathnarrow",      "intpathwide",      "intpathnarrow" ],
+			"steps",          "pathwide",      "pathnarrow",      "intpathwide",      "intpathnarrow",
+                        "leisuretrack" ],
 	    "layout": {
 		"text-field": "{name}",
 		"text-font": [ "KlokanTech Noto Sans Regular" ],

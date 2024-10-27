@@ -3570,6 +3570,34 @@
 	    }
 	},
 	{
+	    "id": "railway-rail-tunnelfill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "rail" ],
+                [ "==", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#999999",
+                "line-dasharray": [2.0, 3.0],
+		"line-width": {
+		    "base": 0.2,
+		    "stops": [
+			[ 13,  0.4 ],
+			[ 14,  1.2 ],
+			[ 16,  2.4 ],
+			[ 17,  4.8 ],
+			[ 18,  9.6 ],
+			[ 20, 16.0 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "highway-unclassified-othercasing",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -3617,6 +3645,34 @@
 		    "stops": [
 			[ 10,  2.8 ],
 			[ 20, 86.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "railway-rail-casing-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "rail" ],
+                [ "!=", "bridge", true ],
+                [ "!=", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#999999",
+		"line-width": {
+		    "base": 0.3,
+		    "stops": [
+			[ 13,  0.6 ],
+			[ 14,  1.8 ],
+			[ 16,  3.6 ],
+			[ 17,  7.2 ],
+			[ 18, 14.4 ],
+			[ 20, 24.0 ]
 		    ]
 		}
 	    }
@@ -3823,6 +3879,35 @@
 		    "stops": [
 			[ 10,  2.0 ],
 			[ 20, 64.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "railway-rail-fill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "rail" ],
+                [ "!=", "bridge", true ],
+                [ "!=", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "white",
+                "line-dasharray": [4.0, 6.0],
+		"line-width": {
+		    "base": 0.2,
+		    "stops": [
+			[ 13,  0.4 ],
+			[ 14,  1.2 ],
+			[ 16,  2.4 ],
+			[ 17,  4.8 ],
+			[ 18,  9.6 ],
+			[ 20, 16.0 ]
 		    ]
 		}
 	    }
@@ -4986,6 +5071,33 @@
 	    }
 	},
 	{
+	    "id": "railway-rail-bridgecasing-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "rail" ],
+                [ "==", "bridge", true ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "black",
+		"line-width": {
+		    "base": 0.3,
+		    "stops": [
+			[ 13,  0.6 ],
+			[ 14,  1.8 ],
+			[ 16,  3.6 ],
+			[ 17,  7.2 ],
+			[ 18, 14.4 ],
+			[ 20, 24.0 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "highway-unclassified-bridgefill",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -5028,6 +5140,34 @@
 		    "stops": [
 			[ 10,  2.0 ],
 			[ 20, 64.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "railway-rail-bridgefill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "rail" ],
+                [ "==", "bridge", true ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "white",
+                "line-dasharray": [4.0, 6.0],
+		"line-width": {
+		    "base": 0.2,
+		    "stops": [
+			[ 13,  0.4 ],
+			[ 14,  1.2 ],
+			[ 16,  2.4 ],
+			[ 17,  4.8 ],
+			[ 18,  9.6 ],
+			[ 20, 16.0 ]
 		    ]
 		}
 	    }
@@ -5377,6 +5517,7 @@
 		"text-field": "{name}",
 		"text-font": [ "KlokanTech Noto Sans Regular" ],
 		"symbol-placement": "line",
+		"symbol-spacing": 500,
 		"text-anchor": "bottom",
 		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] }
 	    },
@@ -5454,6 +5595,28 @@
 		"text-halo-blur": 1
 	    },
 	    "minzoom": 16
+	},
+	{
+	    "id": "label-rail-offset-12",
+	    "type": "symbol",
+	    "source-layer": "transportation",
+	    "filter": [ "in", "class", "rail" ],
+	    "layout": {
+		"text-field": "{name}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "line",
+		"symbol-spacing": 1200,
+		"text-offset": [0, 1],
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "#999999",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 2,
+		"text-halo-blur": 1
+	    },
+	    "minzoom": 12
 	},
 	{
 	    "id": "label-ldpnhn-offset-12",

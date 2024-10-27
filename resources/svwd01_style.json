@@ -4000,6 +4000,32 @@
 	    }
 	},
 	{
+	    "id": "railway-monorail-13",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 13,
+	    "filter": [
+		"all",
+		[ "in", "class", "monorail" ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#777",
+                "line-dasharray": [ 1.0, 2.0 ],
+		"line-width": {
+		    "base": 0.3,
+		    "stops": [
+			[ 14,  0.3 ],
+			[ 16,  0.6 ],
+			[ 17,  1.2 ],
+			[ 18,  2.4 ],
+			[ 20,  4.8 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "railway-narrow_gauge-fill-13",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -6032,6 +6058,7 @@
 	    "source-layer": "transportation",
 	    "filter": [ "in", "class", "rail",
                                        "funicular",
+                                       "monorail",
                                        "narrow_gauge",
                                        "preserved",
                                        "light_rail",

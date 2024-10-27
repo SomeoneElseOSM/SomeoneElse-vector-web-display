@@ -5464,7 +5464,8 @@
 		"text-field": "{name}",
 		"text-font": [ "KlokanTech Noto Sans Regular" ],
 		"symbol-placement": "line",
-		"text-offset": [0, 1],
+		"symbol-spacing": 300,
+		"text-offset": [0, 1.5],
 		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] }
 	    },
 	    "source": "someoneelse",
@@ -5485,7 +5486,8 @@
 		"text-field": "{name}",
 		"text-font": [ "KlokanTech Noto Sans Regular" ],
 		"symbol-placement": "line",
-		"text-offset": [0, 1],
+		"symbol-spacing": 300,
+		"text-offset": [0, 1.5],
 		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] }
 	    },
 	    "source": "someoneelse",
@@ -5506,7 +5508,8 @@
 		"text-field": "{name}",
 		"text-font": [ "KlokanTech Noto Sans Regular" ],
 		"symbol-placement": "line",
-		"text-offset": [0, 1],
+		"symbol-spacing": 300,
+		"text-offset": [0, 1.5],
 		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] }
 	    },
 	    "source": "someoneelse",
@@ -5527,7 +5530,8 @@
 		"text-field": "{name}",
 		"text-font": [ "KlokanTech Noto Sans Regular" ],
 		"symbol-placement": "line",
-		"text-offset": [0, 1],
+		"symbol-spacing": 300,
+		"text-offset": [0, 1.5],
 		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] }
 	    },
 	    "source": "someoneelse",

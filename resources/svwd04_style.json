@@ -26,6 +26,40 @@
 	    }
 	},
 	{
+	    "id": "linearbarrier-13",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "linearbarrier",
+	    "minzoom": 13,
+	    "paint": {
+		"line-color": "blue",
+		"line-width": {
+		    "base": 3.6,
+		    "stops": [
+			[ 15,  3.6 ],
+			[ 20,  10.8 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "transportation-13",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 13,
+	    "paint": {
+		"line-color": "green",
+		"line-width": {
+		    "base": 3.6,
+		    "stops": [
+			[ 15,  3.6 ],
+			[ 20,  10.8 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "land1-point-12",
 	    "type": "symbol",
 	    "source": "someoneelse",
@@ -132,6 +166,46 @@
 		"text-halo-color": "#ffffff",
 		"text-halo-width": 1
 	    }
+	},
+	{
+	    "id": "label-linearbarrier-bottom-13",
+	    "type": "symbol",
+	    "source-layer": "linearbarrier",
+	    "layout": {
+		"text-field": "{name}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "line",
+		"text-anchor": "bottom",
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "blue",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 2,
+		"text-halo-blur": 1
+	    },
+	    "minzoom": 13
+	},
+	{
+	    "id": "label-transportation-bottom-13",
+	    "type": "symbol",
+	    "source-layer": "transportation",
+	    "layout": {
+		"text-field": "{name}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "line",
+		"text-anchor": "bottom",
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "green",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 2,
+		"text-halo-blur": 1
+	    },
+	    "minzoom": 13
 	},
 	{
 	    "id": "place",

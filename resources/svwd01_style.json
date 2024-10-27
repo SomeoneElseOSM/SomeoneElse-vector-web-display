@@ -3626,6 +3626,34 @@
 	    }
 	},
 	{
+	    "id": "railway-bus_guideway-tunnelfill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "bus_guideway" ],
+                [ "==", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#6699ff",
+                "line-dasharray": [2.0, 3.0],
+		"line-width": {
+		    "base": 0.2,
+		    "stops": [
+			[ 13,  0.4 ],
+			[ 14,  1.2 ],
+			[ 16,  2.4 ],
+			[ 17,  4.8 ],
+			[ 18,  9.6 ],
+			[ 20, 16.0 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "highway-unclassified-othercasing",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -3720,6 +3748,34 @@
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#999999",
+		"line-width": {
+		    "base": 0.3,
+		    "stops": [
+			[ 13,  0.6 ],
+			[ 14,  1.8 ],
+			[ 16,  3.6 ],
+			[ 17,  7.2 ],
+			[ 18, 14.4 ],
+			[ 20, 24.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "railway-bus_guideway-casing-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "bus_guideway" ],
+                [ "!=", "bridge", true ],
+                [ "!=", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#6699ff",
 		"line-width": {
 		    "base": 0.3,
 		    "stops": [
@@ -3984,6 +4040,35 @@
 	    "paint": {
 		"line-color": "white",
                 "line-dasharray": [6.0, 4.0],
+		"line-width": {
+		    "base": 0.2,
+		    "stops": [
+			[ 13,  0.4 ],
+			[ 14,  1.2 ],
+			[ 16,  2.4 ],
+			[ 17,  4.8 ],
+			[ 18,  9.6 ],
+			[ 20, 16.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "railway-bus_guideway-fill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "bus_guideway" ],
+                [ "!=", "bridge", true ],
+                [ "!=", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "white",
+                "line-dasharray": [4.0, 6.0],
 		"line-width": {
 		    "base": 0.2,
 		    "stops": [
@@ -5210,6 +5295,33 @@
 	    }
 	},
 	{
+	    "id": "railway-bus_guideway-bridgecasing-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "bus_guideway" ],
+                [ "==", "bridge", true ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#395691",
+		"line-width": {
+		    "base": 0.3,
+		    "stops": [
+			[ 13,  0.6 ],
+			[ 14,  1.8 ],
+			[ 16,  3.6 ],
+			[ 17,  7.2 ],
+			[ 18, 14.4 ],
+			[ 20, 24.0 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "highway-unclassified-bridgefill",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -5299,6 +5411,34 @@
 	    "paint": {
 		"line-color": "white",
                 "line-dasharray": [6.0, 4.0],
+		"line-width": {
+		    "base": 0.2,
+		    "stops": [
+			[ 13,  0.4 ],
+			[ 14,  1.2 ],
+			[ 16,  2.4 ],
+			[ 17,  4.8 ],
+			[ 18,  9.6 ],
+			[ 20, 16.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "railway-bus_guideway-bridgefill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "bus_guideway" ],
+                [ "==", "bridge", true ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "white",
+                "line-dasharray": [4.0, 6.0],
 		"line-width": {
 		    "base": 0.2,
 		    "stops": [
@@ -5740,7 +5880,8 @@
 	    "id": "label-rail-offset-12",
 	    "type": "symbol",
 	    "source-layer": "transportation",
-	    "filter": [ "in", "class", "rail" ],
+	    "filter": [ "in", "class", "rail",
+                                       "preserved"  ],
 	    "layout": {
 		"text-field": "{name}",
 		"text-font": [ "KlokanTech Noto Sans Regular" ],
@@ -5752,6 +5893,28 @@
 	    "source": "someoneelse",
 	    "paint": {
 		"text-color": "#999999",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 2,
+		"text-halo-blur": 1
+	    },
+	    "minzoom": 12
+	},
+	{
+	    "id": "label-bus_guideway-offset-12",
+	    "type": "symbol",
+	    "source-layer": "transportation",
+	    "filter": [ "in", "class", "bus_guideway" ],
+	    "layout": {
+		"text-field": "{name}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "line",
+		"symbol-spacing": 1200,
+		"text-offset": [0, 1],
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "#6699ff",
 		"text-halo-color": "rgba(255, 255, 255, 0.8)",
 		"text-halo-width": 2,
 		"text-halo-blur": 1

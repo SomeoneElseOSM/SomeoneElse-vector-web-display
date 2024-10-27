@@ -3580,6 +3580,7 @@
 		[ "in", "class", "rail",
                                  "preserved",
                                  "light_rail",
+                                 "subway",
                                  "tram" ],
                 [ "==", "tunnel", true ]
 	    ],
@@ -4008,6 +4009,7 @@
 	    "filter": [
 		"all",
 		[ "in", "class", "light_rail",
+                                 "subway",
                                  "tram" ],
                 [ "!=", "bridge", true ],
                 [ "!=", "tunnel", true ]
@@ -5254,6 +5256,7 @@
 		"all",
 		[ "in", "class", "rail",
                                  "light_rail",
+                                 "subway",
                                  "tram" ],
                 [ "==", "bridge", true ]
 	    ],
@@ -5282,6 +5285,7 @@
 	    "filter": [
 		"all",
 		[ "in", "class", "light_rail",
+                                 "subway",
                                  "tram" ],
                 [ "==", "bridge", true ]
 	    ],
@@ -5917,6 +5921,7 @@
 	    "filter": [ "in", "class", "rail",
                                        "preserved",
                                        "light_rail",
+                                       "subway",
                                        "tram"  ],
 	    "layout": {
 		"text-field": "{name}",

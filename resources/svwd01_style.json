@@ -3578,6 +3578,7 @@
 	    "filter": [
 		"all",
 		[ "in", "class", "rail",
+                                 "funicular",
                                  "preserved",
                                  "light_rail",
                                  "subway",
@@ -4009,6 +4010,7 @@
 	    "filter": [
 		"all",
 		[ "in", "class", "light_rail",
+                                 "funicular",
                                  "subway",
                                  "tram" ],
                 [ "!=", "bridge", true ],
@@ -5255,6 +5257,7 @@
 	    "filter": [
 		"all",
 		[ "in", "class", "rail",
+                                 "funicular",
                                  "light_rail",
                                  "subway",
                                  "tram" ],
@@ -5285,6 +5288,7 @@
 	    "filter": [
 		"all",
 		[ "in", "class", "light_rail",
+                                 "funicular",
                                  "subway",
                                  "tram" ],
                 [ "==", "bridge", true ]
@@ -5919,6 +5923,7 @@
 	    "type": "symbol",
 	    "source-layer": "transportation",
 	    "filter": [ "in", "class", "rail",
+                                       "funicular",
                                        "preserved",
                                        "light_rail",
                                        "subway",

@@ -5289,6 +5289,63 @@
 	    }
 	},
 	{
+	    "id": "highway-ldpnwn",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "ldpnwn" ] ],
+	    "paint": {
+		"line-color": "purple",
+                "line-dasharray": [1.0, 15.0],
+		"line-width": {
+		    "base": 2.4,
+		    "stops": [
+			[ 12,  2.4 ],
+			[ 20,  9.6 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-ldpncn",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "ldpncn" ] ],
+	    "paint": {
+		"line-color": "#4b00a2",
+                "line-dasharray": [1.0, 30.0],
+		"line-width": {
+		    "base": 2.4,
+		    "stops": [
+			[ 12,  2.4 ],
+			[ 20,  9.6 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-ldpmtb",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "ldpmtb" ] ],
+	    "paint": {
+		"line-color": "#4b00a2",
+                "line-dasharray": [1.0, 15.0],
+		"line-width": {
+		    "base": 2.4,
+		    "stops": [
+			[ 12,  2.4 ],
+			[ 20,  9.6 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "label-street-centre-12",
 	    "type": "symbol",
 	    "source-layer": "transportation",
@@ -5399,7 +5456,7 @@
 	    "minzoom": 16
 	},
 	{
-	    "id": "label-ldpnhn-bottom-12",
+	    "id": "label-ldpnhn-offset-12",
 	    "type": "symbol",
 	    "source-layer": "transportation",
 	    "filter": [ "in", "class", "ldpnhn" ],
@@ -5413,6 +5470,69 @@
 	    "source": "someoneelse",
 	    "paint": {
 		"text-color": "#cc0000",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 2,
+		"text-halo-blur": 1
+	    },
+	    "minzoom": 12
+	},
+	{
+	    "id": "label-ldpnwn-offset-12",
+	    "type": "symbol",
+	    "source-layer": "transportation",
+	    "filter": [ "in", "class", "ldpnwn" ],
+	    "layout": {
+		"text-field": "{name}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "line",
+		"text-offset": [0, 1],
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "purple",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 2,
+		"text-halo-blur": 1
+	    },
+	    "minzoom": 12
+	},
+	{
+	    "id": "label-ldpncn-offset-12",
+	    "type": "symbol",
+	    "source-layer": "transportation",
+	    "filter": [ "in", "class", "ldpncn" ],
+	    "layout": {
+		"text-field": "{name}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "line",
+		"text-offset": [0, 1],
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "#4b00a2",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 2,
+		"text-halo-blur": 1
+	    },
+	    "minzoom": 12
+	},
+	{
+	    "id": "label-ldpmtb-offset-12",
+	    "type": "symbol",
+	    "source-layer": "transportation",
+	    "filter": [ "in", "class", "ldpmtb" ],
+	    "layout": {
+		"text-field": "{name}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "line",
+		"text-offset": [0, 1],
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "#4b00a2",
 		"text-halo-color": "rgba(255, 255, 255, 0.8)",
 		"text-halo-width": 2,
 		"text-halo-blur": 1

@@ -4197,6 +4197,80 @@
 	    }
 	},
 	{
+	    "id": "aeroway-runway-fill-10",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 10,
+	    "filter": [
+		"all",
+		[ "in", "class", "runway" ],
+                [ "!=", "bridge", true ],
+                [ "!=", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "square", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#bbc",
+		"line-width": {
+		    "base": 2,
+		    "stops": [
+			[ 10,  2.0 ],
+			[ 15, 12.0 ],
+			[ 20, 48.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "aeroway-grass_runway-fill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "grass_runway" ],
+                [ "!=", "bridge", true ],
+                [ "!=", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "square", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#bbc",
+		"line-width": {
+		    "base": 2,
+		    "stops": [
+			[ 12,  2.0 ],
+			[ 16, 16.0 ],
+			[ 20, 32.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "aeroway-taxiway-fill-13",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 13,
+	    "filter": [
+		"all",
+		[ "in", "class", "taxiway" ],
+                [ "!=", "bridge", true ],
+                [ "!=", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#bbc",
+		"line-width": {
+		    "base": 2,
+		    "stops": [
+			[ 10,  2.0 ],
+			[ 20, 16.0 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "railway-preserved-fill-12",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -7467,6 +7541,84 @@
 	    },
 	    "paint": {
 		"text-color": "#734a08",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land2-aerodrome-lightbrown-name-13",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land2",
+	    "minzoom": 13,
+	    "filter": [ "all", [ "in", "class", "aeroway_aerodrome" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#734a08",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land2-aerodrome-blue-name-9",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land2",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "aeroway_large_aerodrome" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#6692da",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land2-aerodrome-blue-name-11",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land2",
+	    "minzoom": 11,
+	    "filter": [ "all", [ "in", "class", "aeroway_military_aerodrome" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#99001a",
 		"text-halo-blur": 0.5,
 		"text-halo-color": "#ffffff",
 		"text-halo-width": 1

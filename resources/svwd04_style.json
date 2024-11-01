@@ -114,6 +114,60 @@
 	    }
 	},
 	{
+	    "id": "land2-point-12",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land2",
+	    "minzoom": 6,
+	    "filter": [ "all", [ "==", "$type", "Point" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "pink",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land2-other-12",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land2",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "!=", "$type", "Point" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "cyan",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
 	    "id": "poi-point-12",
 	    "type": "symbol",
 	    "source": "someoneelse",
@@ -161,7 +215,7 @@
 		"visibility": "visible"
 	    },
 	    "paint": {
-		"text-color": "green",
+		"text-color": "brown",
 		"text-halo-blur": 0.5,
 		"text-halo-color": "#ffffff",
 		"text-halo-width": 1

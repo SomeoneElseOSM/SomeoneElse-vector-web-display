@@ -2047,6 +2047,18 @@
 	    }
 	},
 	{
+	    "id": "land1-helipad-fill-15",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 15,
+	    "filter": [ "all", [ "in", "class", "aeroway_helipad" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#bbc"
+	    }
+	},
+	{
 	    "id": "land1-parking-fill-9",
 	    "type": "fill",
 	    "source": "someoneelse",
@@ -4197,7 +4209,7 @@
 	    }
 	},
 	{
-	    "id": "aeroway-runway-fill-10",
+	    "id": "aeroway-runway-line-10",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
@@ -4222,7 +4234,7 @@
 	    }
 	},
 	{
-	    "id": "aeroway-grass_runway-fill-12",
+	    "id": "aeroway-grass_runway-line-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
@@ -4247,7 +4259,7 @@
 	    }
 	},
 	{
-	    "id": "aeroway-taxiway-fill-13",
+	    "id": "aeroway-taxiway-line-13",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
@@ -7599,7 +7611,7 @@
 	    }
 	},
 	{
-	    "id": "land2-aerodrome-blue-name-11",
+	    "id": "land2-aerodrome-red-name-11",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
@@ -9559,6 +9571,33 @@
 	    },
 	    "paint": {
 		"text-color": "#99001a",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-aeroway-helipad-imagename-15",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 15,
+	    "filter": [ "all", [ "in", "class", "aeroway_helipad" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#6692da",
 		"text-halo-blur": 0.5,
 		"text-halo-color": "#ffffff",
 		"text-halo-width": 1

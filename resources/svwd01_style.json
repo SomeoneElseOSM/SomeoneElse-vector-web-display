@@ -182,6 +182,70 @@
 	    }
 	},
 	{
+	    "id": "land1-retail-fill-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "landuse_retail" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#f4dfdd"
+	    }
+	},
+	{
+	    "id": "land1-retail-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "landuse_retail" ] ],
+	    "paint": {
+		"line-color": "#d99c95",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+                }
+	    }
+	},
+	{
+	    "id": "land1-pedestrian-fill-13",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 13,
+	    "filter": [ "all", [ "in", "class", "highway_pedestrian",
+                                                "highway_service",
+                                                "highway_pathnarrow" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#ededed"
+	    }
+	},
+	{
+	    "id": "land1-pedestrian-outline-13",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 13,
+	    "filter": [ "all", [ "in", "class", "highway_pedestrian",
+                                                "highway_service",
+                                                "highway_pathnarrow" ] ],
+	    "paint": {
+		"line-color": "grey",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+                }
+	    }
+	},
+	{
 	    "id": "land1-eduhospital-fill-9",
 	    "type": "fill",
 	    "source": "someoneelse",
@@ -198,7 +262,7 @@
 	    }
 	},
 	{
-	    "id": "land1-eduhospital-outline",
+	    "id": "land1-eduhospital-outline-11",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -1104,36 +1168,6 @@
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#cfeca8"
-	    }
-	},
-	{
-	    "id": "land1-retail-fill-9",
-	    "type": "fill",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "landuse_retail" ] ],
-	    "paint": {
-		"fill-antialias": true,
-		"fill-color": "#f4dfdd"
-	    }
-	},
-	{
-	    "id": "land1-retail-outline",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "landuse_retail" ] ],
-	    "paint": {
-		"line-color": "#d99c95",
-		"line-width": {
-		    "base": 0.6,
-		    "stops": [
-			[ 15,  0.6 ],
-			[ 20,  1.2 ]
-		    ]
-                }
 	    }
 	},
 	{

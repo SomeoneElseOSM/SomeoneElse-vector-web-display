@@ -6620,7 +6620,7 @@
 			"bridlewaysteps", "bridlewaywide", "bridlewaynarrow", "intbridlewaywide", "intbridlewaynarrow",
 			"footwaysteps",   "footwaywide",   "footwaynarrow",   "intfootwaywide",   "intfootwaynarrow",
 			"steps",          "pathwide",      "pathnarrow",      "intpathwide",      "intpathnarrow",
-                        "leisuretrack" ],
+                        "leisuretrack",   "raceway" ],
 	    "layout": {
 		"text-field": "{name}",
 		"text-font": [ "KlokanTech Noto Sans Regular" ],

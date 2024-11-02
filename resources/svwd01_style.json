@@ -2059,6 +2059,31 @@
 	    }
 	},
 	{
+	    "id": "land1-taxiway-fill-12",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "aeroway_taxiway" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#bbc"
+	    }
+	},
+	{
+	    "id": "land1-runway-fill-10",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 10,
+	    "filter": [ "all", [ "in", "class", "aeroway_runway",
+                                                "aeroway_grass_runway" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#bbc"
+	    }
+	},
+	{
 	    "id": "land1-parking-fill-9",
 	    "type": "fill",
 	    "source": "someoneelse",

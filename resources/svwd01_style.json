@@ -5472,13 +5472,10 @@
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
 	    "minzoom": 5,
-	    "filter": [
-		"all",
-		[ "in", "class", "motorway",
-		                 "motorway_link" ],
-                [ "!=", "bridge", true ],
-                [ "!=", "tunnel", true ]
-	    ],
+	    "filter": [ "all", [ "in", "class", "motorway",
+		                                "motorway_link" ],
+                               [ "!=", "bridge", true ],
+                               [ "!=", "tunnel", true ] ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#89a4cb",
@@ -6319,6 +6316,54 @@
 		    "stops": [
 			[  5,  2.0 ],
 			[ 20, 64.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-access_no",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "motorway", "motorway_link", "trunk", "trunk_link", 
+                                                "primary", "primary_link", "secondary", "secondary_link", 
+                                                "tertiary", "tertiary_link",
+                                                "unclassified", "residential", "pedestrian", 
+                                                "service", "road", "driveway" ],
+                               [ "==", "access", "no" ] ],
+	    "paint": {
+		"line-color": "#ffcc99",
+                "line-dasharray": [2.0, 2.0],
+		"line-width": {
+		    "base": 2.4,
+		    "stops": [
+			[ 12,  2.4 ],
+			[ 20,  9.6 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-access_destination",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "motorway", "motorway_link", "trunk", "trunk_link", 
+                                                "primary", "primary_link", "secondary", "secondary_link", 
+                                                "tertiary", "tertiary_link",
+                                                "unclassified", "residential", "pedestrian", 
+                                                "service", "road", "driveway" ],
+                               [ "==", "access", "destination" ] ],
+	    "paint": {
+		"line-color": "#ffff99",
+                "line-dasharray": [2.0, 2.0],
+		"line-width": {
+		    "base": 2.4,
+		    "stops": [
+			[ 12,  2.4 ],
+			[ 20,  9.6 ]
 		    ]
 		}
 	    }

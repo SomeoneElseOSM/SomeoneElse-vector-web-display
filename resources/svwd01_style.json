@@ -2214,7 +2214,7 @@
 	    }
 	},
 	{
-	    "id": "waterway-river",
+	    "id": "waterway-river-11",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "waterway",
@@ -2228,6 +2228,25 @@
 		    "stops": [
 			[ 11,  2.0 ],
 			[ 20, 96.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "waterway-derelict_canal-11",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "waterway",
+	    "minzoom": 11,
+	    "filter": [ "all", [ "in", "class", "derelict_canal" ] ],
+	    "paint": {
+		"line-color": "#b5e4d0",
+                "line-dasharray": [2.0, 1.0],
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 11,  2.0 ],
+			[ 20, 48.0 ]
 		    ]
 		}
 	    }
@@ -6382,6 +6401,74 @@
 		"text-halo-blur": 1
 	    },
 	    "minzoom": 16
+	},
+	{
+	    "id": "label-waterway-bottom-12",
+	    "type": "symbol",
+	    "source-layer": "waterway",
+	    "filter": [ "in", "class", "river",
+                                       "canal" ],
+	    "layout": {
+		"text-field": "{name}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "line",
+		"text-anchor": "bottom",
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "#6699cc",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 2,
+		"text-halo-blur": 1
+	    },
+	    "minzoom": 12
+	},
+	{
+	    "id": "label-derelict_canal-bottom-12",
+	    "type": "symbol",
+	    "source-layer": "waterway",
+	    "filter": [ "in", "class", "derelict_canal" ],
+	    "layout": {
+		"text-field": "{name}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "line",
+		"text-anchor": "bottom",
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "#80d1ae",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 2,
+		"text-halo-blur": 1
+	    },
+	    "minzoom": 12
+	},
+	{
+	    "id": "label-waterway-bottom-14",
+	    "type": "symbol",
+	    "source-layer": "waterway",
+	    "filter": [ "in", "class", "stream",
+                                       "intriver",
+                                       "intstream",
+                                       "drain",
+                                       "ditch" ],
+	    "layout": {
+		"text-field": "{name}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "line",
+		"text-anchor": "bottom",
+		"text-size": { "stops": [ [ 14, 10 ], [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "#6699cc",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 2,
+		"text-halo-blur": 1
+	    },
+	    "minzoom": 14
 	},
 	{
 	    "id": "label-rail-offset-12",

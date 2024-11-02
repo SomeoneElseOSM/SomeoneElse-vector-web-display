@@ -6337,7 +6337,8 @@
                                                 "intbridlewaywide", "intbridlewaynarrow",
                                                 "footwaywide", "footwaynarrow", "footwaysteps", 
                                                 "intfootwaywide", "intfootwaynarrow",
-                                                "pathwide", "pathnarrow", "steps", "intpathwide", "intpathnarrow" ],
+                                                "pathwide", "pathnarrow", "steps", "intpathwide", "intpathnarrow",
+                                                "leisuretrack", "gallop" ],
                                [ "==", "access", "no" ] ],
 	    "paint": {
 		"line-color": "#ffcc99",
@@ -6368,7 +6369,8 @@
                                                 "intbridlewaywide", "intbridlewaynarrow",
                                                 "footwaywide", "footwaynarrow", "footwaysteps", 
                                                 "intfootwaywide", "intfootwaynarrow",
-                                                "pathwide", "pathnarrow", "steps", "intpathwide", "intpathnarrow" ],
+                                                "pathwide", "pathnarrow", "steps", "intpathwide", "intpathnarrow",
+                                                "leisuretrack", "gallop" ],
                                [ "==", "access", "destination" ] ],
 	    "paint": {
 		"line-color": "#ffff99",

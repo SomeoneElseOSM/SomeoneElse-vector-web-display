@@ -6853,11 +6853,11 @@
 	    }
 	},
 	{
-	    "id": "land1-platform-name-12",
+	    "id": "land1-platform-name-17",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "minzoom": 12,
+	    "minzoom": 17,
 	    "filter": [ "all", [ "in", "class", "highway_platform",
                                                 "railway_platform" ] ],
 	    "layout": {
@@ -7580,7 +7580,16 @@
                                                 "tourism_tourism_guest_ynyn",
                                                 "tourism_tourism_guest_yynd",
                                                 "tourism_tourism_guest_yyyn",
-                                                "tourism_tourism_guest_yyyy" ] ],
+                                                "tourism_tourism_guest_yyyy",
+                                                "amenity_car_sharing",
+                                                "amenity_taxi",
+                                                "amenity_taxi_office",
+                                                "amenity_bicycle_rental",
+                                                "amenity_scooter_rental",
+                                                "amenity_bicycle_parking",
+                                                "amenity_bicycle_parking_pay",
+                                                "amenity_motorcycle_parking",
+                                                "amenity_motorcycle_parking_pay" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",
@@ -7884,7 +7893,7 @@
 	    }
 	},
 	{
-	    "id": "land1-lightblue-imagename-12",
+	    "id": "land1-tourism-lightblue-imagename-12",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -7911,13 +7920,40 @@
 	    }
 	},
 	{
-	    "id": "land1-lightblue-imagename-13",
+	    "id": "land1-various-lightblue-imagename-13",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 13,
 	    "filter": [ "all", [ "in", "class", "amenity_holy_spring",
                                                 "natural_spring" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#6699cc",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-amenity-lightblue-imagename-15",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 15,
+	    "filter": [ "all", [ "in", "class", "amenity_bus_station" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",
@@ -9227,42 +9263,6 @@
 	    "minzoom": 15,
 	    "filter": [ "all", [ "in", "class", "amenity_ferry_terminal",
                                                 "tourism_chalet" ] ],
-	    "layout": {
-		"icon-image": "{class}",
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 13,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#0066ff",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
-	    "id": "land1-amenity-lightblue-imagename-16",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 16,
-	    "filter": [ "all", [ "in", "class", "amenity_car_sharing",
-                                                "amenity_taxi",
-                                                "amenity_taxi_office",
-                                                "amenity_bicycle_rental",
-                                                "amenity_scooter_rental",
-                                                "amenity_bicycle_parking",
-                                                "amenity_bicycle_parking_pay",
-                                                "amenity_motorcycle_parking",
-                                                "amenity_motorcycle_parking_pay",
-                                                "amenity_bus_station" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",

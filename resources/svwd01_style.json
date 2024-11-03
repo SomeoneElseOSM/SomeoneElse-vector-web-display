@@ -6726,6 +6726,7 @@
 	    "type": "symbol",
 	    "source-layer": "transportation",
 	    "filter": [ "all", [ "in", "class", "motorway" ],
+                               [ "has", "ref" ],
                                [ ">=", "ref_len", 6 ] ],
 	    "layout": {
                 "icon-image": "shield_motorway_long",
@@ -6751,16 +6752,47 @@
 	    "minzoom": 9
 	},
 	{
-	    "id": "label-trunk-shield-10",
+	    "id": "label-shield-trunk-short-10",
 	    "type": "symbol",
 	    "source-layer": "transportation",
 	    "filter": [ "all", [ "in", "class", "trunk" ],
-                               [ "has", "ref" ] ],
+                               [ "has", "ref" ],
+                               [ "<", "ref_len", 6 ] ],
 	    "layout": {
                 "icon-image": "shield_trunk_short",
 		"icon-size": { "stops": [ [ 10, 1.0 ], 
                                           [ 12, 1.0 ], 
                                           [ 20, 3.0 ] ] },
+		"text-field": "{ref}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "point",
+		"symbol-spacing": 1200,
+		"text-offset": [0, 0],
+		"text-size": { "stops": [ [ 10, 10 ], 
+                                          [ 12, 10 ], 
+                                          [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "yellow",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 0,
+		"text-halo-blur": 0
+	    },
+	    "minzoom": 10
+	},
+	{
+	    "id": "label-shield-trunk-long-10",
+	    "type": "symbol",
+	    "source-layer": "transportation",
+	    "filter": [ "all", [ "in", "class", "trunk" ],
+                               [ "has", "ref" ],
+                               [ ">=", "ref_len", 6 ] ],
+	    "layout": {
+                "icon-image": "shield_trunk_long",
+		"icon-size": { "stops": [ [ 10, 2.0 ], 
+                                          [ 12, 2.0 ], 
+                                          [ 20, 6.0 ] ] },
 		"text-field": "{ref}",
 		"text-font": [ "KlokanTech Noto Sans Regular" ],
 		"symbol-placement": "point",

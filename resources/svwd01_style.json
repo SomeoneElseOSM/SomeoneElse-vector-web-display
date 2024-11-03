@@ -6932,16 +6932,47 @@
 	    "minzoom": 12
 	},
 	{
-	    "id": "label-tertiary-shield-13",
+	    "id": "label-shield-tertiary-short-13",
 	    "type": "symbol",
 	    "source-layer": "transportation",
 	    "filter": [ "all", [ "in", "class", "tertiary" ],
-                               [ "has", "ref" ] ],
+                               [ "has", "ref" ],
+                               [ "<", "ref_len", 6 ] ],
 	    "layout": {
                 "icon-image": "shield_other_short",
 		"icon-size": { "stops": [ [ 13, 1.0 ], 
                                           [ 15, 1.0 ], 
                                           [ 20, 3.0 ] ] },
+		"text-field": "{ref}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "point",
+		"symbol-spacing": 1200,
+		"text-offset": [0, 0],
+		"text-size": { "stops": [ [ 13, 10 ], 
+                                          [ 15, 10 ], 
+                                          [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "black",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 0,
+		"text-halo-blur": 0
+	    },
+	    "minzoom": 13
+	},
+	{
+	    "id": "label-shield-tertiary-long-13",
+	    "type": "symbol",
+	    "source-layer": "transportation",
+	    "filter": [ "all", [ "in", "class", "tertiary" ],
+                               [ "has", "ref" ],
+                               [ ">=", "ref_len", 6 ] ],
+	    "layout": {
+                "icon-image": "shield_other_long",
+		"icon-size": { "stops": [ [ 13, 2.0 ], 
+                                          [ 15, 2.0 ], 
+                                          [ 20, 6.0 ] ] },
 		"text-field": "{ref}",
 		"text-font": [ "KlokanTech Noto Sans Regular" ],
 		"symbol-placement": "point",

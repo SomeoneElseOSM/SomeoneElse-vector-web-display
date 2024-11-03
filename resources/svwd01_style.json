@@ -6992,6 +6992,70 @@
 	    "minzoom": 13
 	},
 	{
+	    "id": "label-shield-unclassified-short-15",
+	    "type": "symbol",
+	    "source-layer": "transportation",
+	    "filter": [ "all", [ "in", "class", "unclassified",
+                                                "residential" ],
+                               [ "has", "ref" ],
+                               [ ">", "ref_len", 1 ],
+                               [ "<", "ref_len", 6 ] ],
+	    "layout": {
+                "icon-image": "shield_other_short",
+		"icon-size": { "stops": [ [ 15, 1.0 ], 
+                                          [ 17, 1.0 ], 
+                                          [ 20, 3.0 ] ] },
+		"text-field": "{ref}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "point",
+		"symbol-spacing": 1200,
+		"text-offset": [0, 0],
+		"text-size": { "stops": [ [ 15, 10 ], 
+                                          [ 17, 10 ], 
+                                          [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "black",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 0,
+		"text-halo-blur": 0
+	    },
+	    "minzoom": 15
+	},
+	{
+	    "id": "label-shield-unclassified-long-15",
+	    "type": "symbol",
+	    "source-layer": "transportation",
+	    "filter": [ "all", [ "in", "class", "unclassified",
+                                                "residential" ],
+                               [ "has", "ref" ],
+                               [ ">=", "ref_len", 6 ],
+                               [ "<", "ref_len", 14 ] ],
+	    "layout": {
+                "icon-image": "shield_other_long",
+		"icon-size": { "stops": [ [ 15, 2.0 ], 
+                                          [ 17, 2.0 ], 
+                                          [ 20, 6.0 ] ] },
+		"text-field": "{ref}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "point",
+		"symbol-spacing": 1200,
+		"text-offset": [0, 0],
+		"text-size": { "stops": [ [ 15, 10 ], 
+                                          [ 17, 10 ], 
+                                          [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "black",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 0,
+		"text-halo-blur": 0
+	    },
+	    "minzoom": 15
+	},
+	{
 	    "id": "label-ldpnhn-offset-12",
 	    "type": "symbol",
 	    "source-layer": "transportation",

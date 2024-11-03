@@ -956,6 +956,7 @@ cp ~/src/openstreetmap-carto-AJT/symbols/wood_mixed_pattern.png         ~/src/So
 # Shields
 cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/shield_mot3.png              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shield_mot3.png
 cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/shield_trunk3.png            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shield_trunk3.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/shield_primary3.png          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shield_primary3.png
 
 #
 # Other icons:

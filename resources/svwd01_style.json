@@ -6742,6 +6742,31 @@
 	    "minzoom": 6
 	},
 	{
+	    "id": "label-primary-shield-6",
+	    "type": "symbol",
+	    "source-layer": "transportation",
+	    "filter": [ "all", [ "in", "class", "primary" ],
+                               [ "has", "ref" ] ],
+	    "layout": {
+                "icon-image": "shield_primary3",
+		"icon-size": { "stops": [ [ 6, 1.0 ], [ 20, 3.0 ] ] },
+		"text-field": "{ref}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "point",
+		"symbol-spacing": 1200,
+		"text-offset": [0, 0],
+		"text-size": { "stops": [ [ 6, 10 ], [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "black",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 0,
+		"text-halo-blur": 0
+	    },
+	    "minzoom": 6
+	},
+	{
 	    "id": "label-ldpnhn-offset-12",
 	    "type": "symbol",
 	    "source-layer": "transportation",

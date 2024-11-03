@@ -6693,19 +6693,23 @@
 	    "minzoom": 12
 	},
 	{
-	    "id": "label-motorway-shield-6",
+	    "id": "label-motorway-shield-9",
 	    "type": "symbol",
 	    "source-layer": "transportation",
 	    "filter": [ "in", "class", "motorway" ],
 	    "layout": {
                 "icon-image": "shield_mot3",
-		"icon-size": { "stops": [ [ 6, 1.0 ], [ 20, 3.0 ] ] },
+		"icon-size": { "stops": [ [  9, 1.0 ], 
+                                          [ 11, 1.0 ], 
+                                          [ 20, 3.0 ] ] },
 		"text-field": "{ref}",
 		"text-font": [ "KlokanTech Noto Sans Regular" ],
 		"symbol-placement": "point",
 		"symbol-spacing": 1200,
 		"text-offset": [0, 0],
-		"text-size": { "stops": [ [ 6, 10 ], [ 20, 30 ] ] }
+		"text-size": { "stops": [ [  9, 10 ], 
+                                          [ 11, 10 ], 
+                                          [ 20, 30 ] ] }
 	    },
 	    "source": "someoneelse",
 	    "paint": {
@@ -6714,23 +6718,27 @@
 		"text-halo-width": 0,
 		"text-halo-blur": 0
 	    },
-	    "minzoom": 6
+	    "minzoom": 9
 	},
 	{
-	    "id": "label-trunk-shield-6",
+	    "id": "label-trunk-shield-10",
 	    "type": "symbol",
 	    "source-layer": "transportation",
 	    "filter": [ "all", [ "in", "class", "trunk" ],
                                [ "has", "ref" ] ],
 	    "layout": {
                 "icon-image": "shield_trunk3",
-		"icon-size": { "stops": [ [ 6, 1.0 ], [ 20, 3.0 ] ] },
+		"icon-size": { "stops": [ [ 10, 1.0 ], 
+                                          [ 12, 1.0 ], 
+                                          [ 20, 3.0 ] ] },
 		"text-field": "{ref}",
 		"text-font": [ "KlokanTech Noto Sans Regular" ],
 		"symbol-placement": "point",
 		"symbol-spacing": 1200,
 		"text-offset": [0, 0],
-		"text-size": { "stops": [ [ 6, 10 ], [ 20, 30 ] ] }
+		"text-size": { "stops": [ [ 10, 10 ], 
+                                          [ 12, 10 ], 
+                                          [ 20, 30 ] ] }
 	    },
 	    "source": "someoneelse",
 	    "paint": {
@@ -6739,23 +6747,27 @@
 		"text-halo-width": 0,
 		"text-halo-blur": 0
 	    },
-	    "minzoom": 6
+	    "minzoom": 10
 	},
 	{
-	    "id": "label-primary-shield-6",
+	    "id": "label-primary-shield-11",
 	    "type": "symbol",
 	    "source-layer": "transportation",
 	    "filter": [ "all", [ "in", "class", "primary" ],
                                [ "has", "ref" ] ],
 	    "layout": {
                 "icon-image": "shield_primary3",
-		"icon-size": { "stops": [ [ 6, 1.0 ], [ 20, 3.0 ] ] },
+		"icon-size": { "stops": [ [ 11, 1.0 ], 
+                                          [ 13, 1.0 ], 
+                                          [ 20, 3.0 ] ] },
 		"text-field": "{ref}",
 		"text-font": [ "KlokanTech Noto Sans Regular" ],
 		"symbol-placement": "point",
 		"symbol-spacing": 1200,
 		"text-offset": [0, 0],
-		"text-size": { "stops": [ [ 6, 10 ], [ 20, 30 ] ] }
+		"text-size": { "stops": [ [ 11, 10 ], 
+                                          [ 13, 10 ], 
+                                          [ 20, 30 ] ] }
 	    },
 	    "source": "someoneelse",
 	    "paint": {
@@ -6764,7 +6776,36 @@
 		"text-halo-width": 0,
 		"text-halo-blur": 0
 	    },
-	    "minzoom": 6
+	    "minzoom": 11
+	},
+	{
+	    "id": "label-secondary-shield-12",
+	    "type": "symbol",
+	    "source-layer": "transportation",
+	    "filter": [ "all", [ "in", "class", "secondary" ],
+                               [ "has", "ref" ] ],
+	    "layout": {
+                "icon-image": "shield_primary3",
+		"icon-size": { "stops": [ [ 12, 1.0 ], 
+                                          [ 14, 1.0 ], 
+                                          [ 20, 3.0 ] ] },
+		"text-field": "{ref}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "point",
+		"symbol-spacing": 1200,
+		"text-offset": [0, 0],
+		"text-size": { "stops": [ [ 12, 10 ], 
+                                          [ 14, 10 ], 
+                                          [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "black",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 0,
+		"text-halo-blur": 0
+	    },
+	    "minzoom": 12
 	},
 	{
 	    "id": "label-ldpnhn-offset-12",

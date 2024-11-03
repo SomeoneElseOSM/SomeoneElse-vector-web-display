@@ -6465,7 +6465,7 @@
 	    "type": "symbol",
 	    "source-layer": "transportation",
 	    "filter": [ "in", "class", "motorway", "trunk", "primary", "secondary", "tertiary",
-			"unclassified", "residential", "pedestrian", "service", "road", "driveway" ],
+			"unclassified", "residential", "pedestrian", "living_street", "service", "road", "driveway" ],
 	    "layout": {
 		"text-field": "{name}",
 		"text-font": [ "KlokanTech Noto Sans Regular" ],

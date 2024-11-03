@@ -6693,15 +6693,45 @@
 	    "minzoom": 12
 	},
 	{
-	    "id": "label-motorway-shield-9",
+	    "id": "label-shield-motorway-short-9",
 	    "type": "symbol",
 	    "source-layer": "transportation",
-	    "filter": [ "in", "class", "motorway" ],
+	    "filter": [ "all", [ "in", "class", "motorway" ],
+                               [ "<", "ref_len", 6 ] ],
 	    "layout": {
-                "icon-image": "shield_mot3",
+                "icon-image": "shield_motorway_short",
 		"icon-size": { "stops": [ [  9, 1.0 ], 
                                           [ 11, 1.0 ], 
                                           [ 20, 3.0 ] ] },
+		"text-field": "{ref}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "point",
+		"symbol-spacing": 1200,
+		"text-offset": [0, 0],
+		"text-size": { "stops": [ [  9, 10 ], 
+                                          [ 11, 10 ], 
+                                          [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "white",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 0,
+		"text-halo-blur": 0
+	    },
+	    "minzoom": 9
+	},
+	{
+	    "id": "label-shield-motorway-long-9",
+	    "type": "symbol",
+	    "source-layer": "transportation",
+	    "filter": [ "all", [ "in", "class", "motorway" ],
+                               [ ">=", "ref_len", 6 ] ],
+	    "layout": {
+                "icon-image": "shield_motorway_long",
+		"icon-size": { "stops": [ [  9, 2.0 ], 
+                                          [ 11, 2.0 ], 
+                                          [ 20, 6.0 ] ] },
 		"text-field": "{ref}",
 		"text-font": [ "KlokanTech Noto Sans Regular" ],
 		"symbol-placement": "point",
@@ -6727,7 +6757,7 @@
 	    "filter": [ "all", [ "in", "class", "trunk" ],
                                [ "has", "ref" ] ],
 	    "layout": {
-                "icon-image": "shield_trunk3",
+                "icon-image": "shield_trunk_short",
 		"icon-size": { "stops": [ [ 10, 1.0 ], 
                                           [ 12, 1.0 ], 
                                           [ 20, 3.0 ] ] },
@@ -6756,7 +6786,7 @@
 	    "filter": [ "all", [ "in", "class", "primary" ],
                                [ "has", "ref" ] ],
 	    "layout": {
-                "icon-image": "shield_primary3",
+                "icon-image": "shield_other_short",
 		"icon-size": { "stops": [ [ 11, 1.0 ], 
                                           [ 13, 1.0 ], 
                                           [ 20, 3.0 ] ] },
@@ -6785,7 +6815,7 @@
 	    "filter": [ "all", [ "in", "class", "secondary" ],
                                [ "has", "ref" ] ],
 	    "layout": {
-                "icon-image": "shield_primary3",
+                "icon-image": "shield_other_short",
 		"icon-size": { "stops": [ [ 12, 1.0 ], 
                                           [ 14, 1.0 ], 
                                           [ 20, 3.0 ] ] },
@@ -6814,7 +6844,7 @@
 	    "filter": [ "all", [ "in", "class", "tertiary" ],
                                [ "has", "ref" ] ],
 	    "layout": {
-                "icon-image": "shield_primary3",
+                "icon-image": "shield_other_short",
 		"icon-size": { "stops": [ [ 13, 1.0 ], 
                                           [ 15, 1.0 ], 
                                           [ 20, 3.0 ] ] },

@@ -6385,6 +6385,27 @@
 	    }
 	},
 	{
+	    "id": "marker-oneway-primary-15",
+	    "type": "symbol",
+	    "source-layer": "transportation",
+	    "filter": [ "all", [ "in", "class", "motorway", "motorway_link", "trunk", "trunk_link", 
+                                                "primary", "primary_link", "secondary", "secondary_link", 
+                                                "tertiary", "tertiary_link",
+                                                "unclassified", "residential", "pedestrian", 
+                                                "service", "road", "driveway", "unpaved" ],
+                               [ "==", "oneway", "yes" ] ],
+	    "layout": {
+                "icon-image": "marker_oneway",
+		"icon-size": { "stops": [ [ 15, 0.5 ], 
+                                          [ 17, 0.5 ], 
+                                          [ 20, 1.5 ] ] },
+		"symbol-placement": "line",
+		"symbol-spacing": 240
+	    },
+	    "source": "someoneelse",
+	    "minzoom": 15
+	},
+	{
 	    "id": "highway-ldpnhn",
 	    "type": "line",
 	    "source": "someoneelse",

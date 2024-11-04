@@ -38,6 +38,7 @@
 # create wider montages (at the files sizes used, > 256 icons) this value 
 # must be increased.
 # -----------------------------------------------------------------------------
+
 #
 # Point icons used with the "land1" layer:
 #
@@ -960,6 +961,10 @@ cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/shield_tru
 cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/shield_trunk_long.png                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shield_trunk_long.png
 cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/shield_other_short.png                 ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shield_other_short.png
 cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/shield_other_long.png                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shield_other_long.png
+
+#
+# Oneway marker
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/marker_oneway.png                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/marker_oneway.png
 
 #
 # Other icons:

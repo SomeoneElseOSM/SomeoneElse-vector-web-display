@@ -964,7 +964,8 @@ cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/shield_oth
 
 #
 # Oneway marker
-cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/marker_oneway.png                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/marker_oneway.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/marker_oneway.png                      ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/marker_oneway.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/marker_onewayminusone.png              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/marker_onewayminusone.png
 
 #
 # Other icons:

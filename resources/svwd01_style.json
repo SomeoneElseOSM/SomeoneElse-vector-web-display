@@ -9595,10 +9595,8 @@
                                                 "barrier_stile",
                                                 "man_made_chimney",
                                                 "man_made_lighthouse",
-                                                "man_made_mast",
                                                 "man_made_power",
                                                 "man_made_power_wind",
-                                                "man_made_ventilation_shaft",
                                                 "man_made_water_tower",
                                                 "man_made_windsock" ] ],
 	    "layout": {
@@ -9642,6 +9640,8 @@
                                                 "barrier_toll_booth",
                                                 "man_made_cross",
                                                 "man_made_flagpole",
+                                                "man_made_mast",
+                                                "man_made_ventilation_shaft",
                                                 "man_made_maypole" ] ],
 	    "layout": {
 		"icon-image": "{class}",

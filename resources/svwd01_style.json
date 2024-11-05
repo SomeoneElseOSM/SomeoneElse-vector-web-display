@@ -25,6 +25,15 @@
 		"background-color": "#f2efe9"
 	    }
 	},
+        {
+             "id": "water-ocean",
+             "type": "fill",
+             "source-layer": "water",
+             "source": "someoneelse",
+             "paint": {
+                 "fill-color": "#b5d0d0"
+            }
+        },
 	{
 	    "id": "land2-commercial-fill-9",
 	    "type": "fill",

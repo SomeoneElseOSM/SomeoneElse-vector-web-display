@@ -6892,782 +6892,6 @@
 	    }
 	},
 	{
-	    "id": "land1-water-name-9",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "natural_water",
-                                                "natural_intermittentwater",
-                                                "natural_flood_prone" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 9,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#6699cc",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
-	    "id": "land1-water-name-13",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 13,
-	    "filter": [ "all", [ "in", "class", "natural_bay" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 9,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#6699cc",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
-	    "id": "land1-pedestrian-name-13",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 13,
-	    "filter": [ "all", [ "in", "class", "highway_pedestrian" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 9,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#333344",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
-	    "id": "land1-glacier-name-8",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 8,
-	    "filter": [ "all", [ "in", "class", "natural_glacier" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 11,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#77f",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
-	    "id": "land1-attraction-name-12",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "class", "tourism_attraction" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 11,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#660033",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
-	    "id": "land1-platform-name-17",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 17,
-	    "filter": [ "all", [ "in", "class", "highway_platform",
-                                                "railway_platform" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 9,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "black",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
-	    "id": "land1-residential-name-14",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 14,
-	    "filter": [ "all", [ "in", "class", "landuse_residential" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 9,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "black",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
-	    "id": "land1-park-name-15",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 15,
-	    "filter": [ "all", [ "in", "class", "leisure_park",
-                                                "leisure_recreation_ground",
-                                                "landuse_recreation_ground",
-                                                "landuse_conservation",
-                                                "landuse_village_green",
-                                                "leisure_garden",
-                                                "leisure_golfgreen",
-                                                "leisure_nature_reserve" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 9,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#2c4b2c",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
-	    "id": "land1-forest-name-14",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 14,
-	    "filter": [ "all", [ "in", "class", "landuse_forest" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 9,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#3f722c",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
-	    "id": "land1-woodgrass-name-14",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 14,
-	    "filter": [ "all", [ "in", "class", "natural_wood",
-                                                "natural_broadleaved",
-                                                "natural_needleleaved",
-                                                "natural_mixedleaved",
-                                                "natural_scrub",
-                                                "natural_wetland",
-                                                "landuse_grass",
-                                                "natural_grassland",
-                                                "landuse_wetmeadow",
-                                                "landuse_saltmarsh",
-                                                "landuse_reedbed",
-                                                "landuse_meadow",
-                                                "landuse_meadowtransitional",
-                                                "landuse_meadowwildflower",
-                                                "landuse_meadowperpetual" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 14,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#2a5818",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
-	    "id": "land1-farm-name-14",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 14,
-	    "filter": [ "all", [ "in", "class", "landuse_farmyard",
-                                                "landuse_farmland",
-                                                "landuse_farmgrass" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 9,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#553b1a",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
-	    "id": "land1-retail-name-11",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 11,
-	    "filter": [ "all", [ "in", "class", "landuse_retail" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 9,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#88413b",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
-	    "id": "land1-industrial-name-14",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 14,
-	    "filter": [ "all", [ "in", "class", "landuse_industrial",
-                                                "landuse_railway" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 9,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#6a265d",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
-	    "id": "land1-industrialbuilding-name-16",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 16,
-	    "filter": [ "all", [ "in", "class", "landuse_industrialbuilding" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 9,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#6a265d",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
-	    "id": "land1-garages-name-14",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 14,
-	    "filter": [ "all", [ "in", "class", "landuse_garages" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 9,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#444415",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
-	    "id": "land1-commercial-name-14",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 14,
-	    "filter": [ "all", [ "in", "class", "landuse_commercial" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 9,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#662621",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
-	    "id": "land1-construction-name-14",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 14,
-	    "filter": [ "all", [ "in", "class", "landuse_construction",
-                                                "landuse_brownfield",
-                                                "landuse_greenfield",
-                                                "landuse_landfill" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 9,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#434310",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
-	    "id": "land1-quarry-name-14",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 14,
-	    "filter": [ "all", [ "in", "class", "landuse_quarry",
-                                                "landuse_historicquarry" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 9,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "black",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
-	    "id": "land1-vineyard-name-14",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 14,
-	    "filter": [ "all", [ "in", "class", "landuse_vineyard",
-                                                "landuse_orchard" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 9,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#397422",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 2
-	    }
-	},
-	{
-	    "id": "land1-allotments-name-14",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 14,
-	    "filter": [ "all", [ "in", "class", "landuse_allotments" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 9,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#734821",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 2
-	    }
-	},
-	{
-	    "id": "land1-cemetery-name-14",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 14,
-	    "filter": [ "all", [ "in", "class", "landuse_christiancemetery",
-                                                "landuse_jewishcemetery",
-                                                "landuse_othercemetery" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 9,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#195622",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 2
-	    }
-	},
-	{
-	    "id": "land1-schoolyard-name-14",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 14,
-	    "filter": [ "all", [ "in", "class", "leisure_schoolyard" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 9,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#51504f",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
-	    "id": "land1-sand-name-12",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "class", "natural_desert",
-                                                "natural_sand",
-                                                "natural_tidal_sand",
-                                                "natural_beach",
-                                                "natural_tidal_beach" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 14,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#826a24",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
-	    "id": "land1-rock-name-12",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "class", "natural_bare_rock",
-                                                "natural_tidal_rock",
-                                                "natural_reef",
-                                                "natural_reefsand",
-                                                "natural_scree",
-                                                "natural_tidal_scree",
-                                                "natural_shingle",
-                                                "natural_tidal_shingle" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 14,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#6a6965",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
-	    "id": "land1-mud-name-12",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "class", "natural_mud",
-                                                "natural_tidal_mud" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 14,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "brown",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
-	    "id": "land1-heath-name-12",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "class", "natural_heath" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 14,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#909363",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
-	    "id": "land1-swimming_pool-name-16",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 16,
-	    "filter": [ "all", [ "in", "class", "leisure_swimming_pool" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 14,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#576ddf",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
-	    "id": "land1-stadium-name-16",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 16,
-	    "filter": [ "all", [ "in", "class", "leisure_stadium",
-                                                "leisure_track",
-                                                "leisure_pitch" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 14,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#188b65",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
 	    "id": "land1-leisuregreen-imagename-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
@@ -7906,32 +7130,6 @@
 	    }
 	},
 	{
-	    "id": "land1-theme_park-name-16",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 16,
-	    "filter": [ "all", [ "in", "class", "tourism_theme_park" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 13,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#734a08",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
 	    "id": "land1-zoo-lightbrown-imagename-9",
 	    "type": "symbol",
 	    "source": "someoneelse",
@@ -7980,84 +7178,6 @@
 	    },
 	    "paint": {
 		"text-color": "#734a08",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
-	    "id": "land2-aerodrome-lightbrown-name-13",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land2",
-	    "minzoom": 13,
-	    "filter": [ "all", [ "in", "class", "aeroway_aerodrome" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 13,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#734a08",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
-	    "id": "land2-aerodrome-blue-name-9",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land2",
-	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "aeroway_large_aerodrome" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 13,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#6692da",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
-	    "id": "land2-aerodrome-red-name-11",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land2",
-	    "minzoom": 11,
-	    "filter": [ "all", [ "in", "class", "aeroway_military_aerodrome" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 13,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#99001a",
 		"text-halo-blur": 0.5,
 		"text-halo-color": "#ffffff",
 		"text-halo-width": 1
@@ -10023,32 +9143,6 @@
 	    }
 	},
 	{
-	    "id": "land1-lcn_ref-black-name-16",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 16,
-	    "filter": [ "all", [ "in", "class", "man_made_lcn_ref" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 13,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "black",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
 	    "id": "land1-amenity-purple-imagename-18",
 	    "type": "symbol",
 	    "source": "someoneelse",
@@ -10189,111 +9283,6 @@
 	    },
 	    "paint": {
 		"text-color": "#008c27",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
-	    "id": "land1-aeroway-name-16",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 16,
-	    "filter": [ "all", [ "in", "class", "aeroway_gate" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 9,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#aa66cc",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
-	    "id": "land2-marina-name-16",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land2",
-	    "minzoom": 16,
-	    "filter": [ "all", [ "in", "class", "landuse_harbour",
-                                                "leisure_marina" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 14,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#576ddf",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
-	    "id": "land2-military-name",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land2",
-	    "minzoom": 14,
-	    "filter": [ "all", [ "in", "class", "landuse_military" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 14,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#99001a",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
-	    "id": "land2-national_park-name",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land2",
-	    "minzoom": 14,
-	    "filter": [ "all", [ "in", "class", "boundary_national_park" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 14,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#99001a",
 		"text-halo-blur": 0.5,
 		"text-halo-color": "#ffffff",
 		"text-halo-width": 1
@@ -10624,6 +9613,1017 @@
 			[ 20,  2.4 ]
 		    ]
 		}
+	    }
+	},
+	{
+	    "id": "land1-water-name-9",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "natural_water",
+                                                "natural_intermittentwater",
+                                                "natural_flood_prone" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#6699cc",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-water-name-13",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 13,
+	    "filter": [ "all", [ "in", "class", "natural_bay" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#6699cc",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-pedestrian-name-13",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 13,
+	    "filter": [ "all", [ "in", "class", "highway_pedestrian" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#333344",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-glacier-name-8",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 8,
+	    "filter": [ "all", [ "in", "class", "natural_glacier" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 11,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#77f",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-attraction-name-12",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "tourism_attraction" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 11,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#660033",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-platform-name-17",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 17,
+	    "filter": [ "all", [ "in", "class", "highway_platform",
+                                                "railway_platform" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "black",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-residential-name-14",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "class", "landuse_residential" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "black",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-park-name-15",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 15,
+	    "filter": [ "all", [ "in", "class", "leisure_park",
+                                                "leisure_recreation_ground",
+                                                "landuse_recreation_ground",
+                                                "landuse_conservation",
+                                                "landuse_village_green",
+                                                "leisure_garden",
+                                                "leisure_golfgreen",
+                                                "leisure_nature_reserve" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#2c4b2c",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-forest-name-14",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "class", "landuse_forest" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#3f722c",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-woodgrass-name-14",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "class", "natural_wood",
+                                                "natural_broadleaved",
+                                                "natural_needleleaved",
+                                                "natural_mixedleaved",
+                                                "natural_scrub",
+                                                "natural_wetland",
+                                                "landuse_grass",
+                                                "natural_grassland",
+                                                "landuse_wetmeadow",
+                                                "landuse_saltmarsh",
+                                                "landuse_reedbed",
+                                                "landuse_meadow",
+                                                "landuse_meadowtransitional",
+                                                "landuse_meadowwildflower",
+                                                "landuse_meadowperpetual" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 14,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#2a5818",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-farm-name-14",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "class", "landuse_farmyard",
+                                                "landuse_farmland",
+                                                "landuse_farmgrass" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#553b1a",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-retail-name-11",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 11,
+	    "filter": [ "all", [ "in", "class", "landuse_retail" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#88413b",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-industrial-name-14",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "class", "landuse_industrial",
+                                                "landuse_railway" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#6a265d",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-industrialbuilding-name-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "class", "landuse_industrialbuilding" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#6a265d",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-garages-name-14",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "class", "landuse_garages" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#444415",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-commercial-name-14",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "class", "landuse_commercial" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#662621",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-construction-name-14",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "class", "landuse_construction",
+                                                "landuse_brownfield",
+                                                "landuse_greenfield",
+                                                "landuse_landfill" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#434310",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-quarry-name-14",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "class", "landuse_quarry",
+                                                "landuse_historicquarry" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "black",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-vineyard-name-14",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "class", "landuse_vineyard",
+                                                "landuse_orchard" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#397422",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 2
+	    }
+	},
+	{
+	    "id": "land1-allotments-name-14",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "class", "landuse_allotments" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#734821",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 2
+	    }
+	},
+	{
+	    "id": "land1-cemetery-name-14",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "class", "landuse_christiancemetery",
+                                                "landuse_jewishcemetery",
+                                                "landuse_othercemetery" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#195622",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 2
+	    }
+	},
+	{
+	    "id": "land1-schoolyard-name-14",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "class", "leisure_schoolyard" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#51504f",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-sand-name-12",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "natural_desert",
+                                                "natural_sand",
+                                                "natural_tidal_sand",
+                                                "natural_beach",
+                                                "natural_tidal_beach" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 14,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#826a24",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-rock-name-12",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "natural_bare_rock",
+                                                "natural_tidal_rock",
+                                                "natural_reef",
+                                                "natural_reefsand",
+                                                "natural_scree",
+                                                "natural_tidal_scree",
+                                                "natural_shingle",
+                                                "natural_tidal_shingle" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 14,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#6a6965",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-mud-name-12",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "natural_mud",
+                                                "natural_tidal_mud" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 14,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "brown",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-heath-name-12",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "natural_heath" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 14,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#909363",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-swimming_pool-name-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "class", "leisure_swimming_pool" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 14,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#576ddf",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-stadium-name-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "class", "leisure_stadium",
+                                                "leisure_track",
+                                                "leisure_pitch" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 14,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#188b65",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-theme_park-name-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "class", "tourism_theme_park" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#734a08",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land2-aerodrome-lightbrown-name-13",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land2",
+	    "minzoom": 13,
+	    "filter": [ "all", [ "in", "class", "aeroway_aerodrome" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#734a08",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land2-aerodrome-blue-name-9",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land2",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "aeroway_large_aerodrome" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#6692da",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land2-aerodrome-red-name-11",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land2",
+	    "minzoom": 11,
+	    "filter": [ "all", [ "in", "class", "aeroway_military_aerodrome" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#99001a",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-lcn_ref-black-name-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "class", "man_made_lcn_ref" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "black",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-aeroway-name-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "class", "aeroway_gate" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#aa66cc",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land2-marina-name-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land2",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "class", "landuse_harbour",
+                                                "leisure_marina" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 14,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#576ddf",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land2-military-name",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land2",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "class", "landuse_military" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 14,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#99001a",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land2-national_park-name",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land2",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "class", "boundary_national_park" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 14,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#99001a",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
 	    }
 	},
 	{

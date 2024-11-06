@@ -7350,6 +7350,7 @@
 		],
 		"text-max-width": 13,
 		"text-offset": [ 0, 0.6 ],
+                "text-optional": true,
 		"text-padding": 2,
 		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
 		"visibility": "visible"
@@ -7850,6 +7851,7 @@
 		],
 		"text-max-width": 13,
 		"text-offset": [ 0, 0.6 ],
+                "text-optional": true,
 		"text-padding": 2,
 		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
 		"visibility": "visible"
@@ -8810,6 +8812,7 @@
 		],
 		"text-max-width": 13,
 		"text-offset": [ 0, 0.6 ],
+                "text-optional": true,
 		"text-padding": 2,
 		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
 		"visibility": "visible"
@@ -8912,6 +8915,7 @@
 		],
 		"text-max-width": 13,
 		"text-offset": [ 0, 0.6 ],
+                "text-optional": true,
 		"text-padding": 2,
 		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
 		"visibility": "visible"
@@ -9083,6 +9087,7 @@
 		],
 		"text-max-width": 13,
 		"text-offset": [ 0, 0.6 ],
+                "text-optional": true,
 		"text-padding": 2,
 		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
 		"visibility": "visible"
@@ -9657,6 +9662,37 @@
 	    },
 	    "paint": {
 		"text-color": "black",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-tourism-lightblue-imagename-11",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 11,
+	    "filter": [ "all", [ "in", "class", "railway_station" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 11, 0.3 ], 
+                                          [ 13, 0.5 ], 
+                                          [ 20, 3.0 ] ] },
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+                "text-optional": true,
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#6699cc",
 		"text-halo-blur": 0.5,
 		"text-halo-color": "#ffffff",
 		"text-halo-width": 1

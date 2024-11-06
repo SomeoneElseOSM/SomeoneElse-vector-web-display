@@ -907,6 +907,9 @@
 #
 # aeroway
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/helipad.p.16.png                                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/aeroway_helipad.png
+#
+# railway
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/station.png                                     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/railway_station.png
 
 #
 # Area patterns used with the "land1" and "land2" layers:

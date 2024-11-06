@@ -974,43 +974,17 @@ cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/marker_one
 # Other icons:
 # amenity
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/leisure_nonspecific.p.16.png   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_community_centre.png
-#~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/grit_bin.p.16.png              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_grit_bin.png
-#~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/health_nonspecific.p.16.png    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_childcare.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/office_nonspecific.p.16.png    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_townhall.png
-#~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fast_food_ice_cream.png        ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_ice_cream.png
+#~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/office_nonspecific.p.16.png    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_townhall.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/health_nonspecific.p.16.png    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_nursing_home.png
-#~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/office_nonspecific.p.16.png    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_post_depot.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/leisure_nonspecific.p.16.png   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_arts_centre.png
+#~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/leisure_nonspecific.p.16.png   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_arts_centre.png
 #
 # leisure
-#~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/leisure_nonspecific.p.16.png     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/leisure_fitness_centre.png
-#~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/leisure_nonspecific.p.16.png     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/leisure_horse_riding.png
-#~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/leisure_nonspecific.p.16.png     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/leisure_miniature_golf.png
-#
-#~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/leisure_nonspecific.p.16.png     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/leisure_nonspecific.png
 #
 # shop
-#~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_convenience.p.16.png        ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shop_newsagent.png
-#~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_laundry.p.16.png            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shop_dry_cleaning.png
-#~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_diy.p.16.png                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shop_hardware.png
-#~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shopping_nonspecific.p.16.png    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shop_trade.png
-#~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/am_pharmacy_d.png                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shop_chemist.png
-#~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_homeware.p.16.png           ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shop_interior_decorion.png
-#~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_furniture.p.16.png          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shop_kitchen.png
-#~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_convenience.p.16.png        ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shop_frozen_food.png
-#~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shopping_car_parts.p.16.png      ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shop_tyres.png
-#~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_beauty.p.16.png             ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shop_cosmetics.png
-#~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shopping_nonspecific.p.16.png    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shop_wholesale.png
-#~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_clothes.p.16.png            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shop_tailor.png
 #
 # tourism
-#~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/guest_house.p.16.png             ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_apartment.png
-#~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shopping_nonspecific.p.16.png    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_gallery.png
 #
 # man_made
-#~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/squaretower.png                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_tower.png
-#~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/boothdisused.png                 ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_telephone_box.png
-#~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/communications.p.20.png          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_antenna.png
 #
 # historic
 #~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/historic_nonspecific.p.16.png    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/historic_ruins.png

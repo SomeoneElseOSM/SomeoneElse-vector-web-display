@@ -955,6 +955,8 @@ cp ~/src/openstreetmap-carto-AJT/symbols/wood_mixed_pattern.png         ~/src/So
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/cliff32.png            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_cliff.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/levee32.png            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_man_made_levee.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/tree_row32.png         ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_tree_row.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/cable_car32.png        ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_aerialway_cable_car.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/chair_lift32.png       ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_aerialway_chair_lift.png
 
 #
 # Shields

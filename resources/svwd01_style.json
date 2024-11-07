@@ -2194,6 +2194,62 @@
 	    }
 	},
 	{
+	    "id": "waterway-stream-tunnelcasing-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "waterway",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "stream",
+		                 "drain" ],
+                [ "==", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#b5d0d0",
+                "line-dasharray": [0.1, 0.05],
+		"line-width": {
+		    "base": 1.0,
+		    "stops": [
+			[ 12,   1.4 ],
+			[ 14,   2.2 ],
+			[ 16,   4.4 ],
+			[ 18,  10.0 ],
+			[ 20,  21.0 ],
+			[ 22,  70.0 ],
+			[ 24, 280.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "waterway-stream-tunnelfill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "waterway",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "stream",
+                                                "drain" ],
+                               [ "==", "tunnel", true ] ],
+	    "layout": { "line-cap": "square", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#f3f7f7",
+		"line-width": {
+		    "base": 1.0,
+		    "stops": [
+			[ 12,   1.0 ],
+			[ 14,   1.5 ],
+			[ 16,   3.0 ],
+			[ 18,   7.0 ],
+			[ 20,  15.0 ],
+			[ 22,  50.0 ],
+			[ 24, 200.0 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "waterway-river-tunnelcasing-11",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -2299,13 +2355,15 @@
 	    }
 	},
 	{
-	    "id": "waterway-stream",
+	    "id": "waterway-stream-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "waterway",
 	    "minzoom": 12,
 	    "filter": [ "all", [ "in", "class", "stream",
-                                                "drain" ] ],
+                                                "drain" ],
+                               [ "!=", "bridge", true ],
+                               [ "!=", "tunnel", true ] ],
 	    "paint": {
 		"line-color": "#b5d0d0",
 		"line-width": {
@@ -6310,6 +6368,60 @@
 			[ 17,  4.8 ],
 			[ 18,  9.6 ],
 			[ 20, 16.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "waterway-stream-bridgecasing-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "waterway",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "stream",
+		                 "drain" ],
+                [ "==", "bridge", true ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "black",
+		"line-width": {
+		    "base": 1.0,
+		    "stops": [
+			[ 12,   1.4 ],
+			[ 14,   2.2 ],
+			[ 16,   4.4 ],
+			[ 18,  10.0 ],
+			[ 20,  21.0 ],
+			[ 22,  70.0 ],
+			[ 24, 280.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "waterway-stream-bridgefill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "waterway",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "stream",
+                                                "drain" ],
+                               [ "==", "bridge", true ] ],
+	    "paint": {
+		"line-color": "#b5d0d0",
+		"line-width": {
+		    "base": 1.0,
+		    "stops": [
+			[ 12,   1.0 ],
+			[ 14,   1.5 ],
+			[ 16,   3.0 ],
+			[ 18,   7.0 ],
+			[ 20,  15.0 ],
+			[ 22,  50.0 ],
+			[ 24, 200.0 ]
 		    ]
 		}
 	    }

@@ -2194,13 +2194,61 @@
 	    }
 	},
 	{
+	    "id": "waterway-river-tunnelcasing-11",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "waterway",
+	    "minzoom": 11,
+	    "filter": [
+		"all",
+		[ "in", "class", "river",
+		                 "canal" ],
+                [ "==", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#b5d0d0",
+                "line-dasharray": [0.1, 0.05],
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 11,   2.8 ],
+			[ 20, 144.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "waterway-river-tunnelfill-11",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "waterway",
+	    "minzoom": 11,
+	    "filter": [ "all", [ "in", "class", "river",
+                                                "canal" ],
+                               [ "==", "tunnel", true ] ],
+	    "layout": { "line-cap": "square", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#f3f7f7",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 11,  2.0 ],
+			[ 20, 96.0 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "waterway-river-11",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "waterway",
 	    "minzoom": 11,
 	    "filter": [ "all", [ "in", "class", "river",
-                                                "canal" ] ],
+                                                "canal" ],
+                               [ "!=", "bridge", true ],
+                               [ "!=", "tunnel", true ] ],
 	    "paint": {
 		"line-color": "#b5d0d0",
 		"line-width": {
@@ -2507,74 +2555,6 @@
 		"text-halo-blur": 1
 	    },
 	    "minzoom": 16
-	},
-	{
-	    "id": "label-waterway-bottom-12",
-	    "type": "symbol",
-	    "source-layer": "waterway",
-	    "filter": [ "in", "class", "river",
-                                       "canal" ],
-	    "layout": {
-		"text-field": "{name}",
-		"text-font": [ "KlokanTech Noto Sans Regular" ],
-		"symbol-placement": "line",
-		"text-anchor": "bottom",
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] }
-	    },
-	    "source": "someoneelse",
-	    "paint": {
-		"text-color": "#6699cc",
-		"text-halo-color": "rgba(255, 255, 255, 0.8)",
-		"text-halo-width": 2,
-		"text-halo-blur": 1
-	    },
-	    "minzoom": 12
-	},
-	{
-	    "id": "label-derelict_canal-bottom-12",
-	    "type": "symbol",
-	    "source-layer": "waterway",
-	    "filter": [ "in", "class", "derelict_canal" ],
-	    "layout": {
-		"text-field": "{name}",
-		"text-font": [ "KlokanTech Noto Sans Regular" ],
-		"symbol-placement": "line",
-		"text-anchor": "bottom",
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] }
-	    },
-	    "source": "someoneelse",
-	    "paint": {
-		"text-color": "#80d1ae",
-		"text-halo-color": "rgba(255, 255, 255, 0.8)",
-		"text-halo-width": 2,
-		"text-halo-blur": 1
-	    },
-	    "minzoom": 12
-	},
-	{
-	    "id": "label-waterway-bottom-14",
-	    "type": "symbol",
-	    "source-layer": "waterway",
-	    "filter": [ "in", "class", "stream",
-                                       "intriver",
-                                       "intstream",
-                                       "drain",
-                                       "ditch" ],
-	    "layout": {
-		"text-field": "{name}",
-		"text-font": [ "KlokanTech Noto Sans Regular" ],
-		"symbol-placement": "line",
-		"text-anchor": "bottom",
-		"text-size": { "stops": [ [ 14, 10 ], [ 20, 30 ] ] }
-	    },
-	    "source": "someoneelse",
-	    "paint": {
-		"text-color": "#6699cc",
-		"text-halo-color": "rgba(255, 255, 255, 0.8)",
-		"text-halo-width": 2,
-		"text-halo-blur": 1
-	    },
-	    "minzoom": 14
 	},
 	{
 	    "id": "label-rail-offset-12",
@@ -3310,13 +3290,10 @@
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
 	    "minzoom": 12,
-	    "filter": [
-		"all",
-		[ "in", "class", "driveway" ],
-		[ "!in", "edge", "ford" ],
-                [ "!=", "bridge", true ],
-                [ "!=", "tunnel", true ]
-	    ],
+	    "filter": [ "all", [ "in", "class", "driveway" ],
+		               [ "!in", "edge", "ford" ],
+                               [ "!=", "bridge", true ],
+                               [ "!=", "tunnel", true ] ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#bbb",
@@ -6336,6 +6313,119 @@
 		    ]
 		}
 	    }
+	},
+	{
+	    "id": "waterway-river-bridgecasing-11",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "waterway",
+	    "minzoom": 11,
+	    "filter": [
+		"all",
+		[ "in", "class", "river",
+		                 "canal" ],
+                [ "==", "bridge", true ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "black",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 11,   2.8 ],
+			[ 20, 144.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "waterway-river-bridgefill-11",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "waterway",
+	    "minzoom": 11,
+	    "filter": [ "all", [ "in", "class", "river",
+                                                "canal" ],
+                               [ "==", "bridge", true ] ],
+	    "layout": { "line-cap": "square", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#b5d0d0",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 11,  2.0 ],
+			[ 20, 96.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "label-waterway-bottom-12",
+	    "type": "symbol",
+	    "source-layer": "waterway",
+	    "filter": [ "in", "class", "river",
+                                       "canal" ],
+	    "layout": {
+		"text-field": "{name}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "line",
+		"text-anchor": "bottom",
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "#6699cc",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 2,
+		"text-halo-blur": 1
+	    },
+	    "minzoom": 12
+	},
+	{
+	    "id": "label-derelict_canal-bottom-12",
+	    "type": "symbol",
+	    "source-layer": "waterway",
+	    "filter": [ "in", "class", "derelict_canal" ],
+	    "layout": {
+		"text-field": "{name}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "line",
+		"text-anchor": "bottom",
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "#80d1ae",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 2,
+		"text-halo-blur": 1
+	    },
+	    "minzoom": 12
+	},
+	{
+	    "id": "label-waterway-bottom-14",
+	    "type": "symbol",
+	    "source-layer": "waterway",
+	    "filter": [ "in", "class", "stream",
+                                       "intriver",
+                                       "intstream",
+                                       "drain",
+                                       "ditch" ],
+	    "layout": {
+		"text-field": "{name}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "line",
+		"text-anchor": "bottom",
+		"text-size": { "stops": [ [ 14, 10 ], [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "#6699cc",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 2,
+		"text-halo-blur": 1
+	    },
+	    "minzoom": 14
 	},
 	{
 	    "id": "highway-tertiary-bridgecasing-9",

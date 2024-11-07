@@ -2405,6 +2405,71 @@
 	    }
 	},
 	{
+	    "id": "waterway-derelict_canal-tunnelcasing-11",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "waterway",
+	    "minzoom": 11,
+	    "filter": [
+		"all",
+		[ "in", "class", "derelict_canal" ],
+                [ "==", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#b5d0d0",
+                "line-dasharray": [0.1, 0.05],
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 11,  2.8 ],
+			[ 20, 72.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "waterway-derelict_canal-tunnelprefill-11",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "waterway",
+	    "minzoom": 11,
+	    "filter": [ "all", [ "in", "class", "derelict_canal" ],
+                               [ "==", "tunnel", true ] ],
+	    "layout": { "line-cap": "square", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#f2efe9",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 11,  2.0 ],
+			[ 20, 48.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "waterway-derelict_canal-tunnelfill-11",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "waterway",
+	    "minzoom": 11,
+	    "filter": [ "all", [ "in", "class", "derelict_canal" ],
+                               [ "==", "tunnel", true ] ],
+	    "layout": { "line-cap": "square", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#b5e4d0",
+                "line-dasharray": [2.0, 1.0],
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 11,  2.0 ],
+			[ 20, 48.0 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "waterway-intriver-tunnelcasing-11",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -2470,12 +2535,14 @@
 	    }
 	},
 	{
-	    "id": "waterway-derelict_canal-11",
+	    "id": "waterway-derelict_canal-otherfill-11",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "waterway",
 	    "minzoom": 11,
-	    "filter": [ "all", [ "in", "class", "derelict_canal" ] ],
+	    "filter": [ "all", [ "in", "class", "derelict_canal" ],
+                               [ "!=", "bridge", true ],
+                               [ "!=", "tunnel", true ] ],
 	    "paint": {
 		"line-color": "#b5e4d0",
                 "line-dasharray": [2.0, 1.0],
@@ -6732,6 +6799,70 @@
 		    "stops": [
 			[ 11,  2.0 ],
 			[ 20, 96.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "waterway-derelict_canal-bridgecasing-11",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "waterway",
+	    "minzoom": 11,
+	    "filter": [
+		"all",
+		[ "in", "class", "derelict_canal" ],
+                [ "==", "bridge", true ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "black",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 11,  2.8 ],
+			[ 20, 72.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "waterway-derelict_canal-bridgeprefill-11",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "waterway",
+	    "minzoom": 11,
+	    "filter": [ "all", [ "in", "class", "derelict_canal" ],
+                               [ "==", "bridge", true ] ],
+	    "layout": { "line-cap": "square", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#f2efe9",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 11,  2.0 ],
+			[ 20, 48.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "waterway-derelict_canal-bridgefill-11",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "waterway",
+	    "minzoom": 11,
+	    "filter": [ "all", [ "in", "class", "derelict_canal" ],
+                               [ "==", "bridge", true ] ],
+	    "layout": { "line-cap": "square", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#b5e4d0",
+                "line-dasharray": [2.0, 1.0],
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 11,  2.0 ],
+			[ 20, 48.0 ]
 		    ]
 		}
 	    }

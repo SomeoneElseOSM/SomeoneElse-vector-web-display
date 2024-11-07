@@ -2304,6 +2304,61 @@
 	    }
 	},
 	{
+	    "id": "waterway-intstream-tunnelcasing-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "waterway",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "intstream" ],
+                [ "==", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#b5d0d0",
+                "line-dasharray": [0.1, 0.05],
+		"line-width": {
+		    "base": 1.0,
+		    "stops": [
+			[ 12,   1.4 ],
+			[ 14,   2.2 ],
+			[ 16,   4.4 ],
+			[ 18,  10.0 ],
+			[ 20,  21.0 ],
+			[ 22,  70.0 ],
+			[ 24, 280.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "waterway-intstream-tunnelfill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "waterway",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "intstream" ],
+                               [ "==", "tunnel", true ] ],
+	    "layout": { "line-cap": "square", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#f3f7f7",
+                "line-dasharray": [1.5, 0.75],
+		"line-width": {
+		    "base": 1.0,
+		    "stops": [
+			[ 12,   1.0 ],
+			[ 14,   1.5 ],
+			[ 16,   3.0 ],
+			[ 18,   7.0 ],
+			[ 20,  15.0 ],
+			[ 22,  50.0 ],
+			[ 24, 200.0 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "waterway-river-tunnelcasing-11",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -2350,7 +2405,51 @@
 	    }
 	},
 	{
-	    "id": "waterway-river-11",
+	    "id": "waterway-intriver-tunnelcasing-11",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "waterway",
+	    "minzoom": 11,
+	    "filter": [
+		"all",
+		[ "in", "class", "intriver" ],
+                [ "==", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#b5d0d0",
+                "line-dasharray": [0.1, 0.05],
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 11,   2.8 ],
+			[ 20, 144.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "waterway-intriver-tunnelfill-11",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "waterway",
+	    "minzoom": 11,
+	    "filter": [ "all", [ "in", "class", "intriver" ],
+                               [ "==", "tunnel", true ] ],
+	    "layout": { "line-cap": "square", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#f3f7f7",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 11,  2.0 ],
+			[ 20, 96.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "waterway-river-otherfill-11",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "waterway",
@@ -2395,10 +2494,13 @@
 	    "source": "someoneelse",
 	    "source-layer": "waterway",
 	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "class", "intriver" ] ],
+	    "filter": [ "all", [ "in", "class", "intriver" ],
+                               [ "!=", "bridge", true ],
+                               [ "!=", "tunnel", true ] ],
+	    "layout": { "line-cap": "square", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#b5d0d0",
-                "line-dasharray": [4.0, 2.0],
+                "line-dasharray": [1.0, 0.5],
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
@@ -2409,7 +2511,7 @@
 	    }
 	},
 	{
-	    "id": "waterway-stream-12",
+	    "id": "waterway-stream-otherfill-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "waterway",
@@ -2435,15 +2537,17 @@
 	    }
 	},
 	{
-	    "id": "waterway-intstream",
+	    "id": "waterway-intstream-otherfill-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "waterway",
 	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "class", "intstream" ] ],
+	    "filter": [ "all", [ "in", "class", "intstream" ],
+                               [ "!=", "bridge", true ],
+                               [ "!=", "tunnel", true ] ],
 	    "paint": {
 		"line-color": "#b5d0d0",
-                "line-dasharray": [4.0, 2.0],
+                "line-dasharray": [1.5, 0.75],
 		"line-width": {
 		    "base": 1.0,
 		    "stops": [
@@ -6535,6 +6639,59 @@
 	    }
 	},
 	{
+	    "id": "waterway-intstream-bridgecasing-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "waterway",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "intstream" ],
+                [ "==", "bridge", true ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "black",
+		"line-width": {
+		    "base": 1.0,
+		    "stops": [
+			[ 12,   1.4 ],
+			[ 14,   2.2 ],
+			[ 16,   4.4 ],
+			[ 18,  10.0 ],
+			[ 20,  21.0 ],
+			[ 22,  70.0 ],
+			[ 24, 280.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "waterway-intstream-bridgefill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "waterway",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "intstream" ],
+                               [ "==", "bridge", true ] ],
+	    "paint": {
+		"line-color": "#b5d0d0",
+                "line-dasharray": [1.5, 0.75],
+		"line-width": {
+		    "base": 1.0,
+		    "stops": [
+			[ 12,   1.0 ],
+			[ 14,   1.5 ],
+			[ 16,   3.0 ],
+			[ 18,   7.0 ],
+			[ 20,  15.0 ],
+			[ 22,  50.0 ],
+			[ 24, 200.0 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "waterway-river-bridgecasing-11",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -6566,6 +6723,49 @@
 	    "minzoom": 11,
 	    "filter": [ "all", [ "in", "class", "river",
                                                 "canal" ],
+                               [ "==", "bridge", true ] ],
+	    "layout": { "line-cap": "square", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#b5d0d0",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 11,  2.0 ],
+			[ 20, 96.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "waterway-intriver-bridgecasing-11",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "waterway",
+	    "minzoom": 11,
+	    "filter": [
+		"all",
+		[ "in", "class", "intriver" ],
+                [ "==", "bridge", true ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "black",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 11,   2.8 ],
+			[ 20, 144.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "waterway-intriver-bridgefill-11",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "waterway",
+	    "minzoom": 11,
+	    "filter": [ "all", [ "in", "class", "intriver" ],
                                [ "==", "bridge", true ] ],
 	    "layout": { "line-cap": "square", "line-join": "round", "visibility": "visible" },
 	    "paint": {

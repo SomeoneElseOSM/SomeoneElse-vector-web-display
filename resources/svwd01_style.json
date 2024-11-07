@@ -6979,6 +6979,27 @@
 	    "minzoom": 14
 	},
 	{
+	    "id": "label-waterway_weir-bottom-14",
+	    "type": "symbol",
+	    "source-layer": "waterway",
+	    "filter": [ "in", "class", "weir" ],
+	    "layout": {
+		"text-field": "{name}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "line",
+		"text-anchor": "bottom",
+		"text-size": { "stops": [ [ 14, 10 ], [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "#000033",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 2,
+		"text-halo-blur": 1
+	    },
+	    "minzoom": 14
+	},
+	{
 	    "id": "highway-tertiary-bridgecasing-9",
 	    "type": "line",
 	    "source": "someoneelse",

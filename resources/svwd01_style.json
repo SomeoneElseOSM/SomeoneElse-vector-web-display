@@ -2506,6 +2506,66 @@
 	    }
 	},
 	{
+	    "id": "highway-bridlewaysteps-tunnelcasing-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "bridlewaysteps" ],
+                               [ "==", "tunnel", true ] ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "grey",
+                "line-dasharray": [0.3, 0.6],
+		"line-width": {
+		    "base": 6.0,
+		    "stops": [
+			[ 15,  6.0 ],
+			[ 20, 12.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-bridlewaysteps-tunnelprefill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "bridlewaysteps" ],
+                               [ "==", "tunnel", true ] ],
+	    "paint": {
+		"line-color": "#f2efe9",
+		"line-width": {
+		    "base": 2.4,
+		    "stops": [
+			[ 15,  2.4 ],
+			[ 20,  4.8 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-bridlewaysteps-tunnelfill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "bridlewaysteps" ],
+                               [ "==", "tunnel", true ] ],
+	    "paint": {
+		"line-color": "#0080FF",
+                "line-dasharray": [0.3, 0.6],
+		"line-width": {
+		    "base": 1.3,
+		    "stops": [
+			[ 15,  1.3 ],
+			[ 20,  2.6 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "waterway-ditch-tunnelcasing-13",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -3549,10 +3609,9 @@
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
 	    "minzoom": 12,
-	    "filter": [
-		"all",
-		[ "in", "class", "footwaysteps" ]
-	    ],
+	    "filter": [ "all", [ "in", "class", "footwaysteps" ],
+                               [ "!=", "bridge", true ],
+                               [ "!=", "tunnel", true ] ],
 	    "paint": {
 		"line-color": "salmon",
                 "line-dasharray": [0.3, 0.6],
@@ -3571,10 +3630,9 @@
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
 	    "minzoom": 12,
-	    "filter": [
-		"all",
-		[ "in", "class", "bridlewaynarrow" ]
-	    ],
+	    "filter": [ "all", [ "in", "class", "bridlewaynarrow" ],
+                               [ "!=", "bridge", true ],
+                               [ "!=", "tunnel", true ] ],
 	    "paint": {
 		"line-color": "#0080FF",
                 "line-dasharray": [2.0, 4.0],
@@ -3593,10 +3651,9 @@
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
 	    "minzoom": 12,
-	    "filter": [
-		"all",
-		[ "in", "class", "bridlewaywide" ]
-	    ],
+	    "filter": [ "all", [ "in", "class", "bridlewaywide" ],
+                               [ "!=", "bridge", true ],
+                               [ "!=", "tunnel", true ] ],
 	    "paint": {
 		"line-color": "#0080FF",
                 "line-dasharray": [4.0, 6.0],
@@ -3615,10 +3672,9 @@
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
 	    "minzoom": 12,
-	    "filter": [
-		"all",
-		[ "in", "class", "intbridlewaynarrow" ]
-	    ],
+	    "filter": [ "all", [ "in", "class", "intbridlewaynarrow" ],
+                               [ "!=", "bridge", true ],
+                               [ "!=", "tunnel", true ] ],
 	    "paint": {
 		"line-color": "#0080FF",
                 "line-dasharray": [2.0, 12.0],
@@ -3637,10 +3693,9 @@
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
 	    "minzoom": 12,
-	    "filter": [
-		"all",
-		[ "in", "class", "intbridlewaywide" ]
-	    ],
+	    "filter": [ "all", [ "in", "class", "intbridlewaywide" ],
+                               [ "!=", "bridge", true ],
+                               [ "!=", "tunnel", true ] ],
 	    "paint": {
 		"line-color": "#0080FF",
                 "line-dasharray": [4.0, 18.0],
@@ -3654,15 +3709,12 @@
 	    }
 	},
 	{
-	    "id": "highway-bridlewaysteps-12",
+	    "id": "highway-bridlewaysteps-other-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
 	    "minzoom": 12,
-	    "filter": [
-		"all",
-		[ "in", "class", "bridlewaysteps" ]
-	    ],
+	    "filter": [ "all", [ "in", "class", "bridlewaysteps" ] ],
 	    "paint": {
 		"line-color": "#0080FF",
                 "line-dasharray": [0.5, 1.0],
@@ -7612,6 +7664,65 @@
 		    "stops": [
 			[ 15,  0.6 ],
 			[ 20,  1.2 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-bridlewaysteps-bridgecasing-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "bridlewaysteps" ],
+                               [ "==", "bridge", true ] ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "black",
+		"line-width": {
+		    "base": 8.0,
+		    "stops": [
+			[ 15,  8.0 ],
+			[ 20, 32.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-bridlewaysteps-bridgeprefill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "bridlewaysteps" ],
+                               [ "==", "bridge", true ] ],
+	    "paint": {
+		"line-color": "#f2efe9",
+		"line-width": {
+		    "base": 4.0,
+		    "stops": [
+			[ 15,  4.0 ],
+			[ 20, 16.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-bridlewaysteps-bridgefill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "bridlewaysteps" ],
+                               [ "==", "bridge", true ] ],
+	    "paint": {
+		"line-color": "#0080FF",
+                "line-dasharray": [0.5, 1.0],
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 15,  2.0 ],
+			[ 20,  8.0 ]
 		    ]
 		}
 	    }

@@ -2320,6 +2320,132 @@
 	    }
 	},
 	{
+	    "id": "highway-bridleway-tunnelcasing-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "bridlewaynarrow",
+                                                "bridlewaywide",
+                                                "intbridlewaynarrow",
+                                                "intbridlewaywide" ],
+                               [ "==", "tunnel", true ] ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "grey",
+                "line-dasharray": [0.8, 0.8],
+		"line-width": {
+		    "base": 2.4,
+		    "stops": [
+			[ 15, 2.4 ],
+			[ 20, 4.8 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-bridleway-tunnelprefill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "bridlewaynarrow",
+                                                "bridlewaywide",
+                                                "intbridlewaynarrow",
+                                                "intbridlewaywide" ],
+                               [ "==", "tunnel", true ] ],
+	    "paint": {
+		"line-color": "#f2efe9",
+		"line-width": {
+		    "base": 1.2,
+		    "stops": [
+			[ 15,  1.2 ],
+			[ 20,  2.4 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-bridlewaynarrow-tunnelfill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "bridlewaynarrow" ],
+                               [ "==", "tunnel", true ] ],
+	    "paint": {
+		"line-color": "#0080FF",
+                "line-dasharray": [2.0, 4.0],
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-bridlewaywide-tunnelfill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "bridlewaywide" ],
+                               [ "==", "tunnel", true ] ],
+	    "paint": {
+		"line-color": "#0080FF",
+                "line-dasharray": [4.0, 6.0],
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-intbridlewaynarrow-tunnelfill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "intbridlewaynarrow" ],
+                               [ "==", "tunnel", true ] ],
+	    "paint": {
+		"line-color": "#0080FF",
+                "line-dasharray": [2.0, 12.0],
+		"line-width": {
+		    "base": 1.8,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-intbridlewaywide-tunnelfill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "intbridlewaywide" ],
+                               [ "==", "tunnel", true ] ],
+	    "paint": {
+		"line-color": "#0080FF",
+                "line-dasharray": [4.0, 18.0],
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "waterway-ditch-tunnelcasing-13",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -3337,7 +3463,7 @@
 	    }
 	},
 	{
-	    "id": "highway-intfootwaywide-12",
+	    "id": "highway-intfootwaywide-other-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
@@ -3380,7 +3506,7 @@
 	    }
 	},
 	{
-	    "id": "highway-bridlewaynarrow-12",
+	    "id": "highway-bridlewaynarrow-other-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
@@ -3402,7 +3528,7 @@
 	    }
 	},
 	{
-	    "id": "highway-bridlewaywide-12",
+	    "id": "highway-bridlewaywide-other-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
@@ -3424,7 +3550,7 @@
 	    }
 	},
 	{
-	    "id": "highway-intbridlewaynarrow-12",
+	    "id": "highway-intbridlewaynarrow-other-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
@@ -3446,7 +3572,7 @@
 	    }
 	},
 	{
-	    "id": "highway-intbridlewaywide-12",
+	    "id": "highway-intbridlewaywide-other-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
@@ -7242,6 +7368,131 @@
 		    "stops": [
 			[ 15,  1.8 ],
 			[ 20,  3.6 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-bridleway-bridgecasing-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "bridlewaynarrow",
+                                                "bridlewaywide",
+                                                "intbridlewaynarrow",
+                                                "intbridlewaywide" ],
+                               [ "==", "bridge", true ] ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "black",
+		"line-width": {
+		    "base": 2.4,
+		    "stops": [
+			[ 15, 2.4 ],
+			[ 20, 4.8 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-bridlewaynarrow-bridgeprefill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "bridlewaynarrow",
+                                                "bridlewaywide",
+                                                "intbridlewaynarrow",
+                                                "intbridlewaywide" ],
+                               [ "==", "bridge", true ] ],
+	    "paint": {
+		"line-color": "#f2efe9",
+		"line-width": {
+		    "base": 1.2,
+		    "stops": [
+			[ 15,  1.2 ],
+			[ 20,  2.4 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-bridlewaynarrow-bridgefill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "bridlewaynarrow" ],
+                               [ "==", "bridge", true ] ],
+	    "paint": {
+		"line-color": "#0080FF",
+                "line-dasharray": [2.0, 4.0],
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-bridlewaywide-bridgefill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "bridlewaywide" ],
+                               [ "==", "bridge", true ] ],
+	    "paint": {
+		"line-color": "#0080FF",
+                "line-dasharray": [4.0, 6.0],
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-intbridlewaynarrow-bridgefill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "intbridlewaynarrow" ],
+                               [ "==", "bridge", true ] ],
+	    "paint": {
+		"line-color": "#0080FF",
+                "line-dasharray": [2.0, 12.0],
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-intbridlewaywide-bridgefill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "intbridlewaywide" ],
+                               [ "==", "bridge", true ] ],
+	    "paint": {
+		"line-color": "#0080FF",
+                "line-dasharray": [4.0, 18.0],
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
 		    ]
 		}
 	    }

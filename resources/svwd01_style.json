@@ -2320,6 +2320,66 @@
 	    }
 	},
 	{
+	    "id": "highway-footwaysteps-tunnelcasing-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "footwaysteps" ],
+                               [ "==", "tunnel", true ] ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "grey",
+                "line-dasharray": [0.4, 0.4],
+		"line-width": {
+		    "base": 16.0,
+		    "stops": [
+			[ 15, 16.0 ],
+			[ 20, 32.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-footwaysteps-tunnelprefill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "footwaysteps" ],
+                               [ "==", "tunnel", true ] ],
+	    "paint": {
+		"line-color": "#f2efe9",
+		"line-width": {
+		    "base": 8.0,
+		    "stops": [
+			[ 15,  8.0 ],
+			[ 20, 16.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-footwaysteps-tunnelfill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "footwaysteps" ],
+                               [ "==", "tunnel", true ] ],
+	    "paint": {
+		"line-color": "salmon",
+                "line-dasharray": [0.3, 0.6],
+		"line-width": {
+		    "base": 4.0,
+		    "stops": [
+			[ 15,  4.0 ],
+			[ 20,  8.0 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "highway-bridleway-tunnelcasing-12",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -7368,6 +7428,65 @@
 		    "stops": [
 			[ 15,  1.8 ],
 			[ 20,  3.6 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-footwaysteps-bridgecasing-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "footwaysteps" ],
+                               [ "==", "bridge", true ] ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "black",
+		"line-width": {
+		    "base": 16.0,
+		    "stops": [
+			[ 15, 16.0 ],
+			[ 20, 32.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-footwaysteps-bridgeprefill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "footwaysteps" ],
+                               [ "==", "bridge", true ] ],
+	    "paint": {
+		"line-color": "#f2efe9",
+		"line-width": {
+		    "base": 8.0,
+		    "stops": [
+			[ 15,  8.0 ],
+			[ 20, 16.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-footwaysteps-bridgefill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "footwaysteps" ],
+                               [ "==", "bridge", true ] ],
+	    "paint": {
+		"line-color": "salmon",
+                "line-dasharray": [0.3, 0.6],
+		"line-width": {
+		    "base": 4.0,
+		    "stops": [
+			[ 15,  4.0 ],
+			[ 20,  8.0 ]
 		    ]
 		}
 	    }

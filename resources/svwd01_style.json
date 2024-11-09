@@ -2619,7 +2619,7 @@
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "grey",
-                "line-dasharray": [0.4, 0.4],
+                "line-dasharray": [0.2, 0.2],
 		"line-width": {
 		    "base": 16.0,
 		    "stops": [

@@ -2538,12 +2538,12 @@
                                [ "==", "tunnel", true ] ],
 	    "paint": {
 		"line-color": "black",
-                "line-dasharray": [1.0, 2.0],
+                "line-dasharray": [2.0, 4.0],
 		"line-width": {
-		    "base": 1.8,
+		    "base": 0.6,
 		    "stops": [
-			[ 15,  1.8 ],
-			[ 20,  3.6 ]
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
 		    ]
 		}
 	    }
@@ -2558,12 +2558,12 @@
                                [ "==", "tunnel", true ] ],
 	    "paint": {
 		"line-color": "black",
-                "line-dasharray": [2.0, 3.0],
+                "line-dasharray": [4.0, 6.0],
 		"line-width": {
-		    "base": 1.8,
+		    "base": 0.6,
 		    "stops": [
-			[ 15,  1.8 ],
-			[ 20,  3.6 ]
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
 		    ]
 		}
 	    }
@@ -2578,12 +2578,12 @@
                                [ "==", "tunnel", true ] ],
 	    "paint": {
 		"line-color": "black",
-                "line-dasharray": [1.0, 6.0],
+                "line-dasharray": [2.0, 12.0],
 		"line-width": {
-		    "base": 1.8,
+		    "base": 0.6,
 		    "stops": [
-			[ 15,  1.8 ],
-			[ 20,  3.6 ]
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
 		    ]
 		}
 	    }
@@ -2598,12 +2598,12 @@
                                [ "==", "tunnel", true ] ],
 	    "paint": {
 		"line-color": "black",
-                "line-dasharray": [2.0, 9.0],
+                "line-dasharray": [4.0, 18.0],
 		"line-width": {
-		    "base": 1.8,
+		    "base": 0.6,
 		    "stops": [
-			[ 15,  1.8 ],
-			[ 20,  3.6 ]
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
 		    ]
 		}
 	    }
@@ -4073,7 +4073,7 @@
 	    }
 	},
 	{
-	    "id": "highway-intpathwide-12",
+	    "id": "highway-intpathwide-other-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
@@ -8247,16 +8247,16 @@
 	    "paint": {
 		"line-color": "black",
 		"line-width": {
-		    "base": 7.2,
+		    "base": 4.8,
 		    "stops": [
-			[ 15,  7.2 ],
-			[ 20, 14.4 ]
+			[ 15,  4.8 ],
+			[ 20,  9.6 ]
 		    ]
 		}
 	    }
 	},
 	{
-	    "id": "highway-pathnarrow-bridgeprefill-12",
+	    "id": "highway-path-bridgeprefill-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
@@ -8270,10 +8270,10 @@
 	    "paint": {
 		"line-color": "#f2efe9",
 		"line-width": {
-		    "base": 3.6,
+		    "base": 2.4,
 		    "stops": [
-			[ 15,  3.6 ],
-			[ 20,  7.2 ]
+			[ 15,  2.4 ],
+			[ 20,  4.8 ]
 		    ]
 		}
 	    }
@@ -8289,12 +8289,12 @@
                                [ "==", "bridge", true ] ],
 	    "paint": {
 		"line-color": "black",
-                "line-dasharray": [1.0, 2.0],
+                "line-dasharray": [2.0, 4.0],
 		"line-width": {
-		    "base": 1.8,
+		    "base": 0.6,
 		    "stops": [
-			[ 15,  1.8 ],
-			[ 20,  3.6 ]
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
 		    ]
 		}
 	    }
@@ -8309,12 +8309,12 @@
                                [ "==", "bridge", true ] ],
 	    "paint": {
 		"line-color": "black",
-                "line-dasharray": [2.0, 3.0],
+                "line-dasharray": [4.0, 6.0],
 		"line-width": {
-		    "base": 1.8,
+		    "base": 0.6,
 		    "stops": [
-			[ 15,  1.8 ],
-			[ 20,  3.6 ]
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
 		    ]
 		}
 	    }
@@ -8329,12 +8329,12 @@
                                [ "==", "bridge", true ] ],
 	    "paint": {
 		"line-color": "black",
-                "line-dasharray": [1.0, 6.0],
+                "line-dasharray": [2.0, 12.0],
 		"line-width": {
-		    "base": 1.8,
+		    "base": 0.6,
 		    "stops": [
-			[ 15,  1.8 ],
-			[ 20,  3.6 ]
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
 		    ]
 		}
 	    }
@@ -8349,12 +8349,12 @@
                                [ "==", "bridge", true ] ],
 	    "paint": {
 		"line-color": "black",
-                "line-dasharray": [2.0, 9.0],
+                "line-dasharray": [4.0, 18.0],
 		"line-width": {
-		    "base": 1.8,
+		    "base": 0.6,
 		    "stops": [
-			[ 15,  1.8 ],
-			[ 20,  3.6 ]
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
 		    ]
 		}
 	    }

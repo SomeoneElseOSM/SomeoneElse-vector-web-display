@@ -2380,6 +2380,195 @@
 	    }
 	},
 	{
+	    "id": "highway-path-tunnelcasing-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "pathnarrow",
+                                                "pathwide",
+                                                "intpathnarrow",
+                                                "intpathwide", 
+                                                "leisuretrack" ],
+                               [ "==", "tunnel", true ] ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "grey",
+                "line-dasharray": [0.8, 0.8],
+		"line-width": {
+		    "base": 7.2,
+		    "stops": [
+			[ 15,  7.2 ],
+			[ 20, 14.4 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-path-tunnelprefill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "pathnarrow",
+                                                "pathwide",
+                                                "intpathnarrow",
+                                                "intpathwide", 
+                                                "leisuretrack" ],
+                               [ "==", "tunnel", true ] ],
+	    "paint": {
+		"line-color": "#f2efe9",
+		"line-width": {
+		    "base": 3.6,
+		    "stops": [
+			[ 15,  3.6 ],
+			[ 20,  7.2 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-pathnarrow-tunnelfill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "pathnarrow", 
+                                                "leisuretrack" ],
+                               [ "==", "tunnel", true ] ],
+	    "paint": {
+		"line-color": "black",
+                "line-dasharray": [1.0, 2.0],
+		"line-width": {
+		    "base": 1.8,
+		    "stops": [
+			[ 15,  1.8 ],
+			[ 20,  3.6 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-pathwide-tunnelfill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "pathwide" ],
+                               [ "==", "tunnel", true ] ],
+	    "paint": {
+		"line-color": "black",
+                "line-dasharray": [2.0, 3.0],
+		"line-width": {
+		    "base": 1.8,
+		    "stops": [
+			[ 15,  1.8 ],
+			[ 20,  3.6 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-intpathnarrow-tunnelfill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "intpathnarrow" ],
+                               [ "==", "tunnel", true ] ],
+	    "paint": {
+		"line-color": "black",
+                "line-dasharray": [1.0, 6.0],
+		"line-width": {
+		    "base": 1.8,
+		    "stops": [
+			[ 15,  1.8 ],
+			[ 20,  3.6 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-intpathwide-tunnelfill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "intpathwide" ],
+                               [ "==", "tunnel", true ] ],
+	    "paint": {
+		"line-color": "black",
+                "line-dasharray": [2.0, 9.0],
+		"line-width": {
+		    "base": 1.8,
+		    "stops": [
+			[ 15,  1.8 ],
+			[ 20,  3.6 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-steps-tunnelcasing-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "steps" ],
+                               [ "==", "tunnel", true ] ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "grey",
+                "line-dasharray": [0.4, 0.4],
+		"line-width": {
+		    "base": 16.0,
+		    "stops": [
+			[ 15, 16.0 ],
+			[ 20, 32.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-steps-tunnelprefill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "steps" ],
+                               [ "==", "tunnel", true ] ],
+	    "paint": {
+		"line-color": "#f2efe9",
+		"line-width": {
+		    "base": 8.0,
+		    "stops": [
+			[ 15,  8.0 ],
+			[ 20, 16.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-steps-tunnelfill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "steps" ],
+                               [ "==", "tunnel", true ] ],
+	    "paint": {
+		"line-color": "black",
+                "line-dasharray": [0.5, 1.0],
+		"line-width": {
+		    "base": 2.4,
+		    "stops": [
+			[ 15,  2.4 ],
+			[ 20,  4.8 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "highway-bridleway-tunnelcasing-12",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -3415,13 +3604,15 @@
 	    }
 	},
 	{
-	    "id": "highway-pathnarrow-12",
+	    "id": "highway-pathnarrow-other-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
 	    "minzoom": 12,
 	    "filter": [ "all", [ "in", "class", "pathnarrow", 
-                                                "leisuretrack" ] ],
+                                                "leisuretrack" ],
+                               [ "!=", "bridge", true ],
+                               [ "!=", "tunnel", true ] ],
 	    "paint": {
 		"line-color": "black",
                 "line-dasharray": [2.0, 4.0],
@@ -3435,15 +3626,14 @@
 	    }
 	},
 	{
-	    "id": "highway-pathwide-12",
+	    "id": "highway-pathwide-other-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
 	    "minzoom": 12,
-	    "filter": [
-		"all",
-		[ "in", "class", "pathwide" ]
-	    ],
+	    "filter": [ "all", [ "in", "class", "pathwide" ],
+                               [ "!=", "bridge", true ],
+                               [ "!=", "tunnel", true ] ],
 	    "paint": {
 		"line-color": "black",
                 "line-dasharray": [4.0, 6.0],
@@ -3457,12 +3647,14 @@
 	    }
 	},
 	{
-	    "id": "highway-intpathnarrow-12",
+	    "id": "highway-intpathnarrow-other-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
 	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "class", "intpathnarrow" ] ],
+	    "filter": [ "all", [ "in", "class", "intpathnarrow" ],
+                               [ "!=", "bridge", true ],
+                               [ "!=", "tunnel", true ] ],
 	    "paint": {
 		"line-color": "black",
                 "line-dasharray": [2.0, 12.0],
@@ -3481,10 +3673,9 @@
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
 	    "minzoom": 12,
-	    "filter": [
-		"all",
-		[ "in", "class", "intpathwide" ]
-	    ],
+	    "filter": [ "all", [ "in", "class", "intpathwide" ],
+                               [ "!=", "bridge", true ],
+                               [ "!=", "tunnel", true ] ],
 	    "paint": {
 		"line-color": "black",
                 "line-dasharray": [4.0, 18.0],
@@ -3498,15 +3689,14 @@
 	    }
 	},
 	{
-	    "id": "highway-steps-12",
+	    "id": "highway-steps-other-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
 	    "minzoom": 12,
-	    "filter": [
-		"all",
-		[ "in", "class", "steps" ]
-	    ],
+	    "filter": [ "all", [ "in", "class", "steps" ],
+                               [ "!=", "bridge", true ],
+                               [ "!=", "tunnel", true ] ],
 	    "paint": {
 		"line-color": "black",
                 "line-dasharray": [0.5, 1.0],
@@ -7539,6 +7729,193 @@
 		    "stops": [
 			[ 15,  4.0 ],
 			[ 20,  8.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-path-bridgecasing-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "pathnarrow",
+                                                "pathwide",
+                                                "intpathnarrow",
+                                                "intpathwide", 
+                                                "leisuretrack" ],
+                               [ "==", "bridge", true ] ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "black",
+		"line-width": {
+		    "base": 7.2,
+		    "stops": [
+			[ 15,  7.2 ],
+			[ 20, 14.4 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-pathnarrow-bridgeprefill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "pathnarrow",
+                                                "pathwide",
+                                                "intpathnarrow",
+                                                "intpathwide", 
+                                                "leisuretrack" ],
+                               [ "==", "bridge", true ] ],
+	    "paint": {
+		"line-color": "#f2efe9",
+		"line-width": {
+		    "base": 3.6,
+		    "stops": [
+			[ 15,  3.6 ],
+			[ 20,  7.2 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-pathnarrow-bridgefill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "pathnarrow", 
+                                                "leisuretrack" ],
+                               [ "==", "bridge", true ] ],
+	    "paint": {
+		"line-color": "black",
+                "line-dasharray": [1.0, 2.0],
+		"line-width": {
+		    "base": 1.8,
+		    "stops": [
+			[ 15,  1.8 ],
+			[ 20,  3.6 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-pathwide-bridgefill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "pathwide" ],
+                               [ "==", "bridge", true ] ],
+	    "paint": {
+		"line-color": "black",
+                "line-dasharray": [2.0, 3.0],
+		"line-width": {
+		    "base": 1.8,
+		    "stops": [
+			[ 15,  1.8 ],
+			[ 20,  3.6 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-intpathnarrow-bridgefill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "intpathnarrow" ],
+                               [ "==", "bridge", true ] ],
+	    "paint": {
+		"line-color": "black",
+                "line-dasharray": [1.0, 6.0],
+		"line-width": {
+		    "base": 1.8,
+		    "stops": [
+			[ 15,  1.8 ],
+			[ 20,  3.6 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-intpathwide-bridgefill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "intpathwide" ],
+                               [ "==", "bridge", true ] ],
+	    "paint": {
+		"line-color": "black",
+                "line-dasharray": [2.0, 9.0],
+		"line-width": {
+		    "base": 1.8,
+		    "stops": [
+			[ 15,  1.8 ],
+			[ 20,  3.6 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-steps-bridgecasing-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "steps" ],
+                               [ "==", "bridge", true ] ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "black",
+		"line-width": {
+		    "base": 9.6,
+		    "stops": [
+			[ 15,  9.6 ],
+			[ 20, 19.2 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-steps-bridgeprefill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "steps" ],
+                               [ "==", "bridge", true ] ],
+	    "paint": {
+		"line-color": "#f2efe9",
+		"line-width": {
+		    "base": 4.8,
+		    "stops": [
+			[ 15,  4.8 ],
+			[ 20,  9.6 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-steps-bridgefill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "steps" ],
+                               [ "==", "bridge", true ] ],
+	    "paint": {
+		"line-color": "black",
+                "line-dasharray": [0.5, 1.0],
+		"line-width": {
+		    "base": 2.4,
+		    "stops": [
+			[ 15,  2.4 ],
+			[ 20,  4.8 ]
 		    ]
 		}
 	    }

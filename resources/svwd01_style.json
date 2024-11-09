@@ -2380,6 +2380,67 @@
 	    }
 	},
 	{
+	    "id": "highway-gallop-tunnelcasing-11",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 11,
+	    "filter": [ "all", [ "in", "class", "gallop" ],
+                               [ "==", "tunnel", true ] ],
+	    "paint": {
+		"line-color": "grey",
+                "line-dasharray": [0.8, 0.8],
+                "line-opacity": 0.4,
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 11,   4.0 ],
+			[ 20, 128.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-gallop-tunnelprefill-11",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 11,
+	    "filter": [ "all", [ "in", "class", "gallop" ],
+                               [ "==", "tunnel", true ] ],
+	    "paint": {
+		"line-color": "#74dcba",
+                "line-opacity": 0.4,
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 11,   2.0 ],
+			[ 20,  64.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-gallop-tunnelfill-11",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 11,
+	    "filter": [ "all", [ "in", "class", "gallop" ],
+                               [ "==", "tunnel", true ] ],
+	    "paint": {
+		"line-color": "black",
+                "line-dasharray": [5.0, 4.0, 2.0, 4.0],
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  2.4 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "highway-path-tunnelcasing-12",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -3868,15 +3929,14 @@
 	    }
 	},
 	{
-	    "id": "highway-gallop-casing-11",
+	    "id": "highway-gallop-othercasing-11",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
 	    "minzoom": 11,
-	    "filter": [
-		"all",
-		[ "in", "class", "gallop" ]
-	    ],
+	    "filter": [ "all", [ "in", "class", "gallop" ],
+                               [ "!=", "bridge", true ],
+                               [ "!=", "tunnel", true ] ],
 	    "paint": {
 		"line-color": "#74dcba",
                 "line-opacity": 0.4,
@@ -3884,18 +3944,20 @@
 		    "base": 2.0,
 		    "stops": [
 			[ 11,   2.0 ],
-			[ 20, 128.0 ]
+			[ 20,  64.0 ]
 		    ]
 		}
 	    }
 	},
 	{
-	    "id": "highway-gallop-fill-11",
+	    "id": "highway-gallop-otherfill-11",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
 	    "minzoom": 11,
-	    "filter": [ "all", [ "in", "class", "gallop" ] ],
+	    "filter": [ "all", [ "in", "class", "gallop" ],
+                               [ "!=", "bridge", true ],
+                               [ "!=", "tunnel", true ] ],
 	    "paint": {
 		"line-color": "black",
                 "line-dasharray": [5.0, 4.0, 2.0, 4.0],
@@ -3903,7 +3965,7 @@
 		    "base": 0.6,
 		    "stops": [
 			[ 15,  0.6 ],
-			[ 20,  1.2 ]
+			[ 20,  2.4 ]
 		    ]
 		}
 	    }
@@ -8029,6 +8091,66 @@
 		    "stops": [
 			[ 15,  4.0 ],
 			[ 20,  8.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-gallop-bridgecasing-11",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 11,
+	    "filter": [ "all", [ "in", "class", "gallop" ],
+                               [ "==", "bridge", true ] ],
+	    "paint": {
+		"line-color": "black",
+                "line-opacity": 0.4,
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 11,   4.0 ],
+			[ 20, 128.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-gallop-bridgeprefill-11",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 11,
+	    "filter": [ "all", [ "in", "class", "gallop" ],
+                               [ "==", "bridge", true ] ],
+	    "paint": {
+		"line-color": "#74dcba",
+                "line-opacity": 0.4,
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 11,   2.0 ],
+			[ 20,  64.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-gallop-bridgefill-11",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 11,
+	    "filter": [ "all", [ "in", "class", "gallop" ],
+                               [ "==", "bridge", true ] ],
+	    "paint": {
+		"line-color": "black",
+                "line-dasharray": [5.0, 4.0, 2.0, 4.0],
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  2.4 ]
 		    ]
 		}
 	    }

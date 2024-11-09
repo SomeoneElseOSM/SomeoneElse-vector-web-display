@@ -13445,7 +13445,8 @@
 		"text-max-width": 9,
 		"text-offset": [ 0, 0.6 ],
 		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"text-size": { "stops": [ [ 13, 10 ], 
+                                          [ 20, 30 ] ] },
 		"visibility": "visible"
 	    },
 	    "paint": {
@@ -13472,7 +13473,9 @@
 		"text-max-width": 9,
 		"text-offset": [ 0, 0.6 ],
 		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"text-size": { "stops": [ [ 11, 10 ], 
+                                          [ 12, 10 ], 
+                                          [ 20, 30 ] ] },
 		"visibility": "visible"
 	    },
 	    "paint": {
@@ -13498,7 +13501,9 @@
 		"text-max-width": 9,
 		"text-offset": [ 0, 0.6 ],
 		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"text-size": { "stops": [ [  8, 10 ], 
+                                          [ 12, 15 ], 
+                                          [ 20, 45 ] ] },
 		"visibility": "visible"
 	    },
 	    "paint": {
@@ -13524,7 +13529,9 @@
 		"text-max-width": 9,
 		"text-offset": [ 0, 0.6 ],
 		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"text-size": { "stops": [ [  5, 10 ], 
+                                          [ 12, 20 ], 
+                                          [ 20, 60 ] ] },
 		"visibility": "visible"
 	    },
 	    "paint": {
@@ -13550,7 +13557,9 @@
 		"text-max-width": 9,
 		"text-offset": [ 0, 0.6 ],
 		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"text-size": { "stops": [ [  3, 10 ], 
+                                          [ 12, 25 ], 
+                                          [ 20, 75 ] ] },
 		"visibility": "visible"
 	    },
 	    "paint": {
@@ -13565,6 +13574,7 @@
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "place",
+	    "maxzoom": 8,
 	    "filter": [ "in", "class", "country",
                                        "state" ],
 	    "layout": {
@@ -13576,7 +13586,9 @@
 		"text-max-width": 9,
 		"text-offset": [ 0, 0.6 ],
 		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"text-size": { "stops": [ [  3, 10 ], 
+                                          [ 12, 20 ], 
+                                          [ 20, 60 ] ] },
 		"visibility": "visible"
 	    },
 	    "paint": {

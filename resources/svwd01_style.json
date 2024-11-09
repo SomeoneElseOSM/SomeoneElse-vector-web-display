@@ -2380,6 +2380,45 @@
 	    }
 	},
 	{
+	    "id": "highway-raceway-tunnelcasing-11",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 11,
+	    "filter": [ "all", [ "in", "class", "raceway" ],
+                               [ "==", "tunnel", true ] ],
+	    "paint": {
+		"line-color": "grey",
+                "line-dasharray": [0.1, 0.1],
+		"line-width": {
+		    "base": 2.2,
+		    "stops": [
+			[ 11,   2.2 ],
+			[ 20, 140.8 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-raceway-tunnelfill-11",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 11,
+	    "filter": [ "all", [ "in", "class", "raceway" ],
+                               [ "==", "tunnel", true ] ],
+	    "paint": {
+		"line-color": "pink",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 11,   2.0 ],
+			[ 20,  64.0 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "highway-gallop-tunnelcasing-11",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -3908,22 +3947,21 @@
 	    }
 	},
 	{
-	    "id": "highway-raceway-11",
+	    "id": "highway-raceway-other-11",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
 	    "minzoom": 11,
-	    "filter": [
-		"all",
-		[ "in", "class", "raceway" ]
-	    ],
+	    "filter": [ "all", [ "in", "class", "raceway" ],
+                               [ "!=", "bridge", true ],
+                               [ "!=", "tunnel", true ] ],
 	    "paint": {
 		"line-color": "pink",
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
 			[ 11,   2.0 ],
-			[ 20, 128.0 ]
+			[ 20,  64.0 ]
 		    ]
 		}
 	    }
@@ -8091,6 +8129,44 @@
 		    "stops": [
 			[ 15,  4.0 ],
 			[ 20,  8.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-raceway-bridgecasing-11",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 11,
+	    "filter": [ "all", [ "in", "class", "raceway" ],
+                               [ "==", "bridge", true ] ],
+	    "paint": {
+		"line-color": "black",
+		"line-width": {
+		    "base": 2.2,
+		    "stops": [
+			[ 11,   2.2 ],
+			[ 20, 140.8 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-raceway-bridgefill-11",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 11,
+	    "filter": [ "all", [ "in", "class", "raceway" ],
+                               [ "==", "bridge", true ] ],
+	    "paint": {
+		"line-color": "pink",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 11,   2.0 ],
+			[ 20,  64.0 ]
 		    ]
 		}
 	    }

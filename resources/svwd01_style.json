@@ -6781,11 +6781,11 @@
 	    }
 	},
 	{
-	    "id": "highway-motorway-otherfill-5",
+	    "id": "highway-motorway-otherfill-3",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
-	    "minzoom": 5,
+	    "minzoom": 3,
 	    "filter": [ "all", [ "in", "class", "motorway",
 		                                "motorway_link" ],
                                [ "!=", "bridge", true ],

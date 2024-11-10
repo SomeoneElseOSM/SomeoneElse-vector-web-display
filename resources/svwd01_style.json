@@ -9046,6 +9046,32 @@
 	    }
 	},
 	{
+	    "id": "land1-building-housenumber-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "building",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "has", "housenumber" ] ],
+	    "layout": {
+		"text-anchor": "bottom",
+		"text-field": "{housenumber}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 5 ], [ 20, 15 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#444",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 0.5
+	    }
+	},
+	{
 	    "id": "land2-marina-outline",
 	    "type": "line",
 	    "source": "someoneelse",

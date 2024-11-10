@@ -914,6 +914,10 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/station.png                                     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/railway_station.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/walking.n.12.png                                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/railway_subway_entrance.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/level_crossing2.png                             ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/railway_level_crossing.png
+#
+# power
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/power_tower_5x5.png                             ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/power_tower.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/power_pole.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/power_pole.png
 
 #
 # Area patterns used with the "land1" and "land2" layers:

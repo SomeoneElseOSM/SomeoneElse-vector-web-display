@@ -9065,6 +9065,66 @@
 	    }
 	},
 	{
+	    "id": "power-line-14",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "linearbarrier",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "class", "power_line" ] ],
+	    "paint": {
+		"line-color": "#777",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  2.4 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "power-minor_line-15",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "linearbarrier",
+	    "minzoom": 15,
+	    "filter": [ "all", [ "in", "class", "power_minor_line" ] ],
+	    "paint": {
+		"line-color": "#777",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.3 ],
+			[ 20,  1.2 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "land1-power-image-14",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "class", "power_tower" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"visibility": "visible"
+	    }
+	},
+	{
+	    "id": "land1-power-image-15",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 15,
+	    "filter": [ "all", [ "in", "class", "power_pole" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"visibility": "visible"
+	    }
+	},
+	{
 	    "id": "land1-leisuregreen-imagename-16",
 	    "type": "symbol",
 	    "source": "someoneelse",

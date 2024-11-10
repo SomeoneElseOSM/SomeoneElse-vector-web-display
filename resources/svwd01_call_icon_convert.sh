@@ -768,6 +768,8 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/flagpole_large_red.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_flagpole_red.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/sluice.png                                      ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_sluice_gate.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/boundary_stone.png                              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_boundary_stone.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/golfballwasher.png                              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_golfballwasher.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/outfall.png                                     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_outfall.png
 #
 # natural
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/peak.png                                        ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/natural_bigprompeak.png
@@ -911,6 +913,7 @@
 # railway
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/station.png                                     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/railway_station.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/walking.n.12.png                                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/railway_subway_entrance.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/level_crossing2.png                             ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/railway_level_crossing.png
 
 #
 # Area patterns used with the "land1" and "land2" layers:

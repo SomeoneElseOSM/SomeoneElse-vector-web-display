@@ -10625,12 +10625,25 @@
 	    }
 	},
 	{
-	    "id": "land1-amenity-image-16",
+	    "id": "land1-various-image-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 16,
-	    "filter": [ "all", [ "in", "class", "amenity_defibrillator" ] ],
+	    "filter": [ "all", [ "in", "class", "amenity_defibrillator",
+                                                "man_made_outfall" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"visibility": "visible"
+	    }
+	},
+	{
+	    "id": "land1-man_made-image-17",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 17,
+	    "filter": [ "all", [ "in", "class", "man_made_golfballwasher" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"visibility": "visible"
@@ -10977,7 +10990,8 @@
                                                 "man_made_flagpole",
                                                 "man_made_mast",
                                                 "man_made_ventilation_shaft",
-                                                "man_made_maypole" ] ],
+                                                "man_made_maypole",
+                                                "railway_level_crossing" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",

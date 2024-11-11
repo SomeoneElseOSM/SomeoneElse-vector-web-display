@@ -1,9 +1,17 @@
 # Display style for use with schema "sve01"
 
-See also the [schema](https://github.com/SomeoneElseOSM/SomeoneElse-vector-extract/blob/main/resources/README_sve01.md) readme.
+See also the [schema](https://github.com/SomeoneElseOSM/SomeoneElse-vector-extract/blob/main/resources/README_sve01.md) readme and the [scripts](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/README.md) readme for this repository,
 
-The cartography here is basically a reimplementation of the raster maps at [map.atownsend.org.uk](https://map.atownsend.org.uk/).  The schema described [here](https://github.com/SomeoneElseOSM/SomeoneElse-vector-extract/blob/main/resources/README_sve01.md) broadly matches that from [here](https://github.com/SomeoneElseOSM/SomeoneElse-style), and the display code essentially reimplements [this](https://github.com/SomeoneElseOSM/openstreetmap-carto-AJT).
+The cartography here is basically a reimplementation of the raster maps at [map.atownsend.org.uk](https://map.atownsend.org.uk/).  The schema described [here](https://github.com/SomeoneElseOSM/SomeoneElse-vector-extract/blob/main/resources/README_sve01.md) broadly matches that from [here](https://github.com/SomeoneElseOSM/SomeoneElse-style), and the display code essentially reimplements [this](https://github.com/SomeoneElseOSM/openstreetmap-carto-AJT).  That is in turn based on [openstreetmap-carto](https://github.com/gravitystorm/openstreetmap-carto) from circa 2014 (before cartography changes made that challenging to use in rural areas).
 
-There has been some consolidation of layers, and any "new" vector lua code is designed to be compatible with raster input data too.
+There has been a _considerable_ consolidation of layers from the 76 or so in raster to 8 here.
 
-For the processing code shared between display styles and the other map styles here, see [this](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/README.md).
+The "new" vector lua code here is designed to be compatible with raster input data too; the plan is eventually to use one version of the code for both (and perhaps some aspects of [mkgmap processing](https://github.com/SomeoneElseOSM/mkgmap_style_ajt/blob/master/transform_03.lua) too).
+
+## Credits
+
+The development of this map style here started out based on the basic [Tilemaker](https://github.com/systemed/tilemaker/tree/master/server/static) example, and were developed using the [MapLibre](https://maplibre.org/maplibre-style-spec/) documentation.  
+
+The fonts used are from [Klokantech](https://github.com/klokantech/klokantech-gl-fonts), in turn based on Google's [noto](https://fonts.google.com/noto).
+
+The cartography is based on [this](https://map.atownsend.org.uk/maps/map/map.html) which in turn was developed from that found in [OSM Carto](https://wiki.openstreetmap.org/wiki/OpenStreetMap_Carto#Forks_and_independent_deployments) circa 2014, based in turn on the "[Mapnik style](https://github.com/openstreetmap/mapnik-stylesheets)" from considerably earlier.

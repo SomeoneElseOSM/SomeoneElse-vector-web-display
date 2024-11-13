@@ -3742,14 +3742,32 @@
 	    }
 	},
 	{
-	    "id": "land2-intermittentwater-fill-9",
+	    "id": "land1-intermittentwater-fill-9",
 	    "type": "fill",
 	    "source": "someoneelse",
-	    "source-layer": "land2",
+	    "source-layer": "land1",
 	    "minzoom": 9,
 	    "filter": [ "all", [ "in", "class", "natural_intermittentwater" ] ],
 	    "paint": {
 		"fill-pattern": "pattern_natural_intermittentwater"
+	    }
+	},
+	{
+	    "id": "land1-intermittentwater-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "natural_intermittentwater" ] ],
+	    "paint": {
+		"line-color": "#b5d0d0",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
 	    }
 	},
 	{
@@ -3764,13 +3782,12 @@
 	    }
 	},
 	{
-	    "id": "land2-intermittentwater-outline",
+	    "id": "land2-flood_prone-outline",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
 	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "natural_intermittentwater",
-                                                "natural_flood_prone" ] ],
+	    "filter": [ "all", [ "in", "class", "natural_flood_prone" ] ],
 	    "paint": {
 		"line-color": "#b5d0d0",
 		"line-width": {

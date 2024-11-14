@@ -10361,7 +10361,6 @@
 		"text-halo-width": 1
 	    }
 	},
-qqq
 	{
 	    "id": "land1-amenitylightbrown-imagename-17",
 	    "type": "symbol",
@@ -12784,12 +12783,13 @@ qqq
 	    }
 	},
 	{
-	    "id": "land1-swimming_pool-name-16",
+	    "id": "land1-swimming_pool-name-centroid-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 16,
-	    "filter": [ "all", [ "in", "class", "leisure_swimming_pool" ] ],
+	    "filter": [ "all", [ "in", "class", "leisure_swimming_pool" ],
+	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{name}\n",

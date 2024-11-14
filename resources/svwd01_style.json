@@ -9833,6 +9833,35 @@
 	    }
 	},
 	{
+	    "id": "land1-various-lightbrown-imagename-centroid-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "class", "leisure_playground" ],
+	                       [ "==", "$type", "Point" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+                "text-optional": true,
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#734a08",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
 	    "id": "land1-various-lightbrown-imagename-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
@@ -10302,7 +10331,6 @@
                                                 "amenity_pub_cddddddd",
                                                 "amenity_pub_nddddddd",
                                                 "man_made_water_well",
-	                                        "leisure_playground",
                                                 "leisure_picnic_table",
                                                 "leisure_slipway",
                                                 "leisure_bird_hide",
@@ -10333,6 +10361,7 @@
 		"text-halo-width": 1
 	    }
 	},
+qqq
 	{
 	    "id": "land1-amenitylightbrown-imagename-17",
 	    "type": "symbol",
@@ -12617,7 +12646,8 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 14,
-	    "filter": [ "all", [ "in", "class", "leisure_schoolyard" ] ],
+	    "filter": [ "all", [ "in", "class", "leisure_schoolyard" ],
+	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{name}\n",

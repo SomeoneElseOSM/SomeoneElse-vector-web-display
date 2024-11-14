@@ -9655,7 +9655,8 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 13,
-	    "filter": [ "all", [ "in", "class", "leisure_golf_course" ] ],
+	    "filter": [ "all", [ "in", "class", "leisure_golf_course" ],
+	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",
@@ -9682,7 +9683,8 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 14,
-	    "filter": [ "all", [ "in", "class", "leisure_sports_centre" ] ],
+	    "filter": [ "all", [ "in", "class", "leisure_sports_centre" ],
+	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",
@@ -12785,7 +12787,8 @@
 	    "minzoom": 16,
 	    "filter": [ "all", [ "in", "class", "leisure_stadium",
                                                 "leisure_track",
-                                                "leisure_pitch" ] ],
+                                                "leisure_pitch" ],
+	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{name}\n",

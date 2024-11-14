@@ -9650,7 +9650,7 @@
 	    }
 	},
 	{
-	    "id": "land1-leisure-green-imagename-13",
+	    "id": "land1-leisure-green-imagename-centroid-13",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -9678,7 +9678,7 @@
 	    }
 	},
 	{
-	    "id": "land1-leisure-green-imagename-14",
+	    "id": "land1-leisure-green-imagename-centroid-14",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -12780,7 +12780,7 @@
 	    }
 	},
 	{
-	    "id": "land1-stadium-name-16",
+	    "id": "land1-stadium-name-centroid-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -13547,7 +13547,7 @@
 	    "minzoom": 15
 	},
 	{
-	    "id": "poi",
+	    "id": "poi-centroid-12",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "poi",

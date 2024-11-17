@@ -13203,8 +13203,10 @@
 		"text-field": "{name}",
 		"text-font": [ "KlokanTech Noto Sans Regular" ],
 		"symbol-placement": "line",
-		"text-anchor": "bottom",
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] }
+		"text-offset": [0, 0.5],
+		"text-size": { "stops": [ [ 12, 5 ], 
+                                          [ 15, 12 ], 
+                                          [ 20, 30 ] ] }
 	    },
 	    "source": "someoneelse",
 	    "paint": {

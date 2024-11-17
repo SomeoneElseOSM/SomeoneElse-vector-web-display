@@ -3,6 +3,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 
 ## As yet unreleased
 Reduced the number of road shields shown.
+Change "text-offset", and "text-size" stops for "label-path-bottom-12" to make it look smaller when it appears.
 
 ## 14/11/2024
 Added display of names for things processed to "leisure=common" to "land1-park-name-15" (accidental oversight).

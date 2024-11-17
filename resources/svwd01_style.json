@@ -12898,7 +12898,8 @@
 	    "source": "someoneelse",
 	    "source-layer": "land2",
 	    "minzoom": 13,
-	    "filter": [ "all", [ "in", "class", "aeroway_aerodrome" ] ],
+	    "filter": [ "all", [ "in", "class", "aeroway_aerodrome" ],
+	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{name}\n",

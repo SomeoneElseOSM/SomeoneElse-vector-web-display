@@ -4,6 +4,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 ## As yet unreleased
 Reduced the number of road shields shown.
 Change "text-offset", and "text-size" stops for "label-path-bottom-12" to make it look smaller when it appears.
+Added "aeroway=aerodrome" in "land2" to the list of "larger landuse" that gets separate centroid object displayed with the name.
 
 ## 14/11/2024
 Added display of names for things processed to "leisure=common" to "land1-park-name-15" (accidental oversight).

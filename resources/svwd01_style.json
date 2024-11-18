@@ -12381,11 +12381,11 @@
 	    }
 	},
 	{
-	    "id": "land1-attraction-name-12",
+	    "id": "land1-attraction-name-13",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "minzoom": 12,
+	    "minzoom": 13,
 	    "filter": [ "all", [ "in", "class", "tourism_attraction" ] ],
 	    "layout": {
 		"text-anchor": "top",

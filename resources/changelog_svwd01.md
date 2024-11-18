@@ -9,6 +9,7 @@ Show the names for larger "natural=water" areas at lower zooms than smaller ones
 Change the display of bigprompeak, bigpeak and peak symbols and names to match raster.
 Moved the display from "tourism=zoo" from zoom 9 to 14.
 Moved the display of retail area names from 9 to 14.
+Moved the display of "tourism=attraction" names from 12 to 13.
 
 ## 14/11/2024
 Added display of names for things processed to "leisure=common" to "land1-park-name-15" (accidental oversight).

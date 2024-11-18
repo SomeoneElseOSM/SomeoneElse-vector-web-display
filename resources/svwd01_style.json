@@ -191,11 +191,11 @@
 	    }
 	},
 	{
-	    "id": "land1-retail-outline",
+	    "id": "land1-retail-outline-15",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "minzoom": 9,
+	    "minzoom": 15,
 	    "filter": [ "all", [ "in", "class", "landuse_retail" ] ],
 	    "paint": {
 		"line-color": "#d99c95",
@@ -12652,11 +12652,11 @@
 	    }
 	},
 	{
-	    "id": "land1-retail-name-11",
+	    "id": "land1-retail-name-14",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "minzoom": 11,
+	    "minzoom": 14,
 	    "filter": [ "all", [ "in", "class", "landuse_retail" ] ],
 	    "layout": {
 		"text-anchor": "top",

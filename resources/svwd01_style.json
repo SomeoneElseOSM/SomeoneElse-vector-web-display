@@ -221,11 +221,11 @@
 	    }
 	},
 	{
-	    "id": "land1-industrial-outline",
+	    "id": "land1-industrial-outline-15",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "minzoom": 9,
+	    "minzoom": 15,
 	    "filter": [ "all", [ "in", "class", "landuse_industrial" ] ],
 	    "paint": {
 		"line-color": "#c6b3c3",
@@ -251,11 +251,11 @@
 	    }
 	},
 	{
-	    "id": "land1-railway-outline",
+	    "id": "land1-railway-outline-15",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "minzoom": 9,
+	    "minzoom": 15,
 	    "filter": [ "all", [ "in", "class", "landuse_railway" ] ],
 	    "paint": {
 		"line-color": "#c6b3c3",
@@ -542,11 +542,11 @@
 	    }
 	},
 	{
-	    "id": "land2-unnamedindustrial-outline",
+	    "id": "land2-unnamedindustrial-outline-15",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
-	    "minzoom": 9,
+	    "minzoom": 15,
 	    "filter": [ "all", [ "in", "class", "landuse_unnamedindustrial" ] ],
 	    "paint": {
 		"line-color": "#c6b3c3",
@@ -12678,13 +12678,130 @@
 	    }
 	},
 	{
+	    "id": "land1-industrial-name-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "class", "landuse_industrial",
+                                                "landuse_railway" ],
+	                       [ "==", "$type", "Point" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#6a265d",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-industrial-name-15",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 15,
+	    "filter": [ "all", [ "in", "class", "landuse_industrial",
+                                                "landuse_railway" ],
+                               [ ">", "way_area", 2584 ],
+	                       [ "==", "$type", "Point" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#6a265d",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
 	    "id": "land1-industrial-name-14",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 14,
 	    "filter": [ "all", [ "in", "class", "landuse_industrial",
-                                                "landuse_railway" ] ],
+                                                "landuse_railway" ],
+                               [ ">", "way_area", 12853 ],
+	                       [ "==", "$type", "Point" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#6a265d",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-industrial-name-13",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 13,
+	    "filter": [ "all", [ "in", "class", "landuse_industrial",
+                                                "landuse_railway" ],
+                               [ ">", "way_area", 71668 ],
+	                       [ "==", "$type", "Point" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#6a265d",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-industrial-name-12",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "landuse_industrial",
+                                                "landuse_railway" ],
+                               [ ">", "way_area", 141284 ],
+	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{name}\n",

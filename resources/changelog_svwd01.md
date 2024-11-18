@@ -7,6 +7,7 @@ Change "text-offset", and "text-size" stops for "label-path-bottom-12" to make i
 Added "aeroway=aerodrome" in "land2" to the list of "larger landuse" that gets separate centroid object displayed with the name.
 Show the names for larger "natural=water" areas at lower zooms than smaller ones.
 Change the display of bigprompeak, bigpeak and peak symbols and names to match raster.
+Moved the display from "tourism=zoo" from zoom 9 to 14.
 
 ## 14/11/2024
 Added display of names for things processed to "leisure=common" to "land1-park-name-15" (accidental oversight).

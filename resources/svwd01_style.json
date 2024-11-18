@@ -1688,11 +1688,11 @@
 	    }
 	},
 	{
-	    "id": "land1-zoo-fill-9",
+	    "id": "land1-zoo-fill-14",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "minzoom": 9,
+	    "minzoom": 14,
 	    "filter": [ "all", [ "in", "class", "tourism_zoo" ] ],
 	    "paint": {
 		"fill-pattern": "pattern_tourism_zoo"
@@ -9461,11 +9461,11 @@
 	    }
 	},
 	{
-	    "id": "land1-zoo-lightbrown-imagename-9",
+	    "id": "land1-zoo-lightbrown-imagename-14",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "minzoom": 9,
+	    "minzoom": 14,
 	    "filter": [ "all", [ "in", "class", "tourism_zoo" ] ],
 	    "layout": {
 		"icon-image": "{class}",

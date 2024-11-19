@@ -1,16 +1,19 @@
 # Changes made to the [SVWD01 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd01.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
-## 17/11/2024
-Reduced the number of road shields shown.
-Change "text-offset", and "text-size" stops for "label-path-bottom-12" to make it look smaller when it appears.
-Added "aeroway=aerodrome" in "land2" to the list of "larger landuse" that gets separate centroid object displayed with the name.
-Show the names for larger "natural=water" areas at lower zooms than smaller ones.
+## 18/11/2024
 Change the display of bigprompeak, bigpeak and peak symbols and names to match raster.
 Moved the display from "tourism=zoo" from zoom 9 to 14.
 Moved the display of retail area names from 9 to 14.
 Moved the display of "tourism=attraction" names from 12 to 13.
 Show the names for larger "landuse=industrial" areas at lower zooms than smaller ones.
+Show the names for various larger beach and sand features at lower zooms than smaller ones.
+
+## 17/11/2024
+Reduced the number of road shields shown.
+Change "text-offset", and "text-size" stops for "label-path-bottom-12" to make it look smaller when it appears.
+Added "aeroway=aerodrome" in "land2" to the list of "larger landuse" that gets separate centroid object displayed with the name.
+Show the names for larger "natural=water" areas at lower zooms than smaller ones.
 
 ## 14/11/2024
 Added display of names for things processed to "leisure=common" to "land1-park-name-15" (accidental oversight).

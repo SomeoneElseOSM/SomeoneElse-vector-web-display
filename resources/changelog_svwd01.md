@@ -1,6 +1,9 @@
 # Changes made to the [SVWD01 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd01.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
+## As yet unreleased
+Show the names for various larger park and garden features at lower zooms than smaller ones.
+
 ## 18/11/2024
 Change the display of bigprompeak, bigpeak and peak symbols and names to match raster.
 Moved the display from "tourism=zoo" from zoom 9 to 14.

@@ -3,6 +3,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 
 ## As yet unreleased
 Show the names for various larger park and garden features at lower zooms than smaller ones.
+Added [man_made=milk_churn_stand](https://taginfo.openstreetmap.org/tags/man_made=milk_churn_stand#overview) as a separate icon.
 
 ## 18/11/2024
 Change the display of bigprompeak, bigpeak and peak symbols and names to match raster.

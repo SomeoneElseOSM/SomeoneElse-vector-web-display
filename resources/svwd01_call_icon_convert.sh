@@ -711,6 +711,7 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/historic_windmill.png                           ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/historic_windmill.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/historic_wreck.png                              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/historic_wreck.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/historic_mine.png                               ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/historic_mineshaft.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/historic_milk_churn_stand.png                   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/historic_milk_churn_stand.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/historic_nonspecific.p.16.png                   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/historic_nonspecific.png
 #
 # leisure

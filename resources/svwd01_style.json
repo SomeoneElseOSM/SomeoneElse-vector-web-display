@@ -3639,7 +3639,8 @@
 	    "source-layer": "linearbarrier",
 	    "filter": [ "in", "class", "man_made_embankment",
                                        "barrier_wall",
-                                       "barrier_gate" ],
+                                       "barrier_gate",
+                                       "barrier_gate_locked" ],
 	    "layout": {
 		"text-field": "{name}",
 		"text-font": [ "KlokanTech Noto Sans Regular" ],
@@ -11962,7 +11963,8 @@
 	    "source": "someoneelse",
 	    "source-layer": "linearbarrier",
 	    "minzoom": 13,
-	    "filter": [ "all", [ "in", "class", "barrier_gate" ] ],
+	    "filter": [ "all", [ "in", "class", "barrier_gate",
+                                                "barrier_gate_locked" ] ],
 	    "paint": {
 		"line-color": "#444",
 		"line-width": {

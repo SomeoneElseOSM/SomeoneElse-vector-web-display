@@ -11964,7 +11964,8 @@
 	    "source-layer": "linearbarrier",
 	    "minzoom": 13,
 	    "filter": [ "all", [ "in", "class", "barrier_gate",
-                                                "barrier_gate_locked" ] ],
+                                                "barrier_gate_locked",
+                                                "barrier_lift_gate" ] ],
 	    "paint": {
 		"line-color": "#444",
 		"line-width": {

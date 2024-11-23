@@ -3470,14 +3470,32 @@
 	    }
 	},
 	{
-	    "id": "waterway-weir",
+	    "id": "waterway-weir-14",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "waterway",
 	    "minzoom": 14,
-	    "filter": [ "all", [ "in", "class", "weir" ] ],
+	    "filter": [ "in", "class", "weir" ],
 	    "paint": {
 		"line-color": "#aaa",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 14, 0.6 ],
+			[ 20, 1.2 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "waterway-pipeline-14",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "waterway",
+	    "minzoom": 14,
+	    "filter": [ "in", "class", "pipeline" ],
+	    "paint": {
+		"line-color": "#9900cc",
 		"line-width": {
 		    "base": 0.6,
 		    "stops": [
@@ -7799,7 +7817,8 @@
 	    "id": "label-waterway_weir-bottom-14",
 	    "type": "symbol",
 	    "source-layer": "waterway",
-	    "filter": [ "in", "class", "weir" ],
+	    "filter": [ "in", "class", "weir",
+                                       "pipeline" ],
 	    "layout": {
 		"text-field": "{name}",
 		"text-font": [ "KlokanTech Noto Sans Regular" ],
@@ -7810,6 +7829,27 @@
 	    "source": "someoneelse",
 	    "paint": {
 		"text-color": "#000033",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 2,
+		"text-halo-blur": 1
+	    },
+	    "minzoom": 14
+	},
+	{
+	    "id": "label-waterway_pipeline-bottom-14",
+	    "type": "symbol",
+	    "source-layer": "waterway",
+	    "filter": [ "in", "class", "pipeline" ],
+	    "layout": {
+		"text-field": "{name}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "line",
+		"text-anchor": "bottom",
+		"text-size": { "stops": [ [ 14, 10 ], [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "#9900cc",
 		"text-halo-color": "rgba(255, 255, 255, 0.8)",
 		"text-halo-width": 2,
 		"text-halo-blur": 1

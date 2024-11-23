@@ -4,6 +4,8 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 ## As yet unreleased
 Show locked linear gates in a similar way to unlocked ones.
 Show linear lift gates in the same way.
+Show pipelines at vector zoom 14.
+Improved the svwd04 debug style to show unnamed point and area objects.
 
 ## 22/11/2024
 Show the names for various larger park and garden features at lower zooms than smaller ones.

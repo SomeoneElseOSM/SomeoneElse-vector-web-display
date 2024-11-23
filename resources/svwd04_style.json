@@ -32,7 +32,7 @@
 	    "source-layer": "linearbarrier",
 	    "minzoom": 13,
 	    "paint": {
-		"line-color": "blue",
+		"line-color": "green",
 		"line-width": {
 		    "base": 3.6,
 		    "stops": [
@@ -49,7 +49,7 @@
 	    "source-layer": "transportation",
 	    "minzoom": 13,
 	    "paint": {
-		"line-color": "green",
+		"line-color": "brown",
 		"line-width": {
 		    "base": 3.6,
 		    "stops": [
@@ -60,12 +60,30 @@
 	    }
 	},
 	{
-	    "id": "land1-point-12",
+	    "id": "waterway-13",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "waterway",
+	    "minzoom": 13,
+	    "paint": {
+		"line-color": "blue",
+		"line-width": {
+		    "base": 3.6,
+		    "stops": [
+			[ 15,  3.6 ],
+			[ 20,  10.8 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "land1-named-point-12",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 6,
-	    "filter": [ "all", [ "==", "$type", "Point" ] ],
+	    "filter": [ "all", [ "==", "$type", "Point" ],
+                               [ "has", "name" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",
@@ -87,12 +105,41 @@
 	    }
 	},
 	{
-	    "id": "land1-other-12",
+	    "id": "land1-unnamed-point-12",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 6,
+	    "filter": [ "all", [ "==", "$type", "Point" ],
+                               [ "!has", "name" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"text-anchor": "top",
+		"text-field": "(unnamed)\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "red",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-named-other-12",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 14,
-	    "filter": [ "all", [ "!=", "$type", "Point" ] ],
+	    "filter": [ "all", [ "!=", "$type", "Point" ],
+                               [ "has", "name" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",
@@ -114,12 +161,41 @@
 	    }
 	},
 	{
-	    "id": "land2-point-12",
+	    "id": "land1-unnamed-other-12",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "!=", "$type", "Point" ],
+                               [ "has", "name" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"text-anchor": "top",
+		"text-field": "(unnamed)\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "orange",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land2-named-point-12",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
 	    "minzoom": 6,
-	    "filter": [ "all", [ "==", "$type", "Point" ] ],
+	    "filter": [ "all", [ "==", "$type", "Point" ],
+                               [ "has", "name" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",
@@ -141,12 +217,41 @@
 	    }
 	},
 	{
-	    "id": "land2-other-12",
+	    "id": "land2-unnamed-point-12",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land2",
+	    "minzoom": 6,
+	    "filter": [ "all", [ "==", "$type", "Point" ],
+                               [ "!has", "name" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"text-anchor": "top",
+		"text-field": "(unnamed)\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "pink",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land2-named-other-12",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
 	    "minzoom": 14,
-	    "filter": [ "all", [ "!=", "$type", "Point" ] ],
+	    "filter": [ "all", [ "!=", "$type", "Point" ],
+                               [ "has", "name" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",
@@ -168,12 +273,41 @@
 	    }
 	},
 	{
-	    "id": "poi-point-12",
+	    "id": "land2-unnamed-other-12",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land2",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "!=", "$type", "Point" ],
+                               [ "!has", "name" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"text-anchor": "top",
+		"text-field": "(unnamed)\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "cyan",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "poi-named-point-12",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "poi",
 	    "minzoom": 14,
-	    "filter": [ "all", [ "==", "$type", "Point" ] ],
+	    "filter": [ "all", [ "==", "$type", "Point" ],
+                               [ "has", "name" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",
@@ -195,16 +329,73 @@
 	    }
 	},
 	{
-	    "id": "poi-other-12",
+	    "id": "poi-unnamed-point-12",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "poi",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "==", "$type", "Point" ],
+                               [ "!has", "name" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"text-anchor": "top",
+		"text-field": "(unnamed)\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "yellow",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "poi-named-other-12",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "poi",
 	    "minzoom": 6,
-	    "filter": [ "all", [ "!=", "$type", "Point" ] ],
+	    "filter": [ "all", [ "!=", "$type", "Point" ],
+                               [ "has", "name" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",
 		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "brown",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "poi-unnamed-other-12",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "poi",
+	    "minzoom": 6,
+	    "filter": [ "all", [ "!=", "$type", "Point" ],
+                               [ "!has", "name" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"text-anchor": "top",
+		"text-field": "(unnamed)\n",
 		"text-font": [
 		    "KlokanTech Noto Sans Regular"
 		],
@@ -234,7 +425,7 @@
 	    },
 	    "source": "someoneelse",
 	    "paint": {
-		"text-color": "blue",
+		"text-color": "green",
 		"text-halo-color": "rgba(255, 255, 255, 0.8)",
 		"text-halo-width": 2,
 		"text-halo-blur": 1
@@ -254,7 +445,7 @@
 	    },
 	    "source": "someoneelse",
 	    "paint": {
-		"text-color": "green",
+		"text-color": "brown",
 		"text-halo-color": "rgba(255, 255, 255, 0.8)",
 		"text-halo-width": 2,
 		"text-halo-blur": 1
@@ -262,14 +453,61 @@
 	    "minzoom": 13
 	},
 	{
-	    "id": "place",
+	    "id": "label-waterway-bottom-13",
+	    "type": "symbol",
+	    "source-layer": "waterway",
+	    "layout": {
+		"text-field": "{name}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "line",
+		"text-anchor": "bottom",
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "blue",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 2,
+		"text-halo-blur": 1
+	    },
+	    "minzoom": 13
+	},
+	{
+	    "id": "named-place-6",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "place",
 	    "minzoom": 6,
+	    "filter": [ "all", [ "has", "name" ] ],
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#666",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "unnamed-place-6",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "place",
+	    "minzoom": 6,
+	    "filter": [ "all", [ "!has", "name" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "(unnamed)\n",
 		"text-font": [
 		    "KlokanTech Noto Sans Regular"
 		],

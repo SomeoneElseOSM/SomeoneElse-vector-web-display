@@ -1,6 +1,9 @@
 # Changes made to the [SVWD01 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd01.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
+## As yet unreleased
+Tone the `access=destination` overlay down on narrow highways.
+
 ## 24/11/2024
 Show locked linear gates in a similar way to unlocked ones.
 Show linear lift gates in the same way.

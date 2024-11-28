@@ -3928,6 +3928,7 @@
                                                 "leisuretrack" ],
                                [ "!=", "bridge", true ],
                                [ "!=", "tunnel", true ] ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "black",
                 "line-dasharray": [2.0, 4.0],
@@ -3949,6 +3950,7 @@
 	    "filter": [ "all", [ "in", "class", "pathwide" ],
                                [ "!=", "bridge", true ],
                                [ "!=", "tunnel", true ] ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "black",
                 "line-dasharray": [4.0, 6.0],
@@ -3970,6 +3972,7 @@
 	    "filter": [ "all", [ "in", "class", "intpathnarrow" ],
                                [ "!=", "bridge", true ],
                                [ "!=", "tunnel", true ] ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "black",
                 "line-dasharray": [2.0, 12.0],
@@ -3991,6 +3994,7 @@
 	    "filter": [ "all", [ "in", "class", "intpathwide" ],
                                [ "!=", "bridge", true ],
                                [ "!=", "tunnel", true ] ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "black",
                 "line-dasharray": [4.0, 18.0],
@@ -4033,6 +4037,7 @@
 	    "filter": [ "all", [ "in", "class", "footwaynarrow" ],
                                [ "!=", "bridge", true ],
                                [ "!=", "tunnel", true ] ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "salmon",
                 "line-dasharray": [1.0, 2.0],
@@ -4054,6 +4059,7 @@
 	    "filter": [ "all", [ "in", "class", "footwaywide" ],
                                [ "!=", "bridge", true ],
                                [ "!=", "tunnel", true ] ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "salmon",
                 "line-dasharray": [2.0, 3.0],
@@ -4075,6 +4081,7 @@
 	    "filter": [ "all", [ "in", "class", "intfootwaynarrow" ],
                                [ "!=", "bridge", true ],
                                [ "!=", "tunnel", true ] ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "salmon",
                 "line-dasharray": [1.0, 6.0],
@@ -4138,6 +4145,7 @@
 	    "filter": [ "all", [ "in", "class", "bridlewaynarrow" ],
                                [ "!=", "bridge", true ],
                                [ "!=", "tunnel", true ] ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#0080FF",
                 "line-dasharray": [2.0, 4.0],
@@ -4159,6 +4167,7 @@
 	    "filter": [ "all", [ "in", "class", "bridlewaywide" ],
                                [ "!=", "bridge", true ],
                                [ "!=", "tunnel", true ] ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#0080FF",
                 "line-dasharray": [4.0, 6.0],
@@ -4180,6 +4189,7 @@
 	    "filter": [ "all", [ "in", "class", "intbridlewaynarrow" ],
                                [ "!=", "bridge", true ],
                                [ "!=", "tunnel", true ] ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#0080FF",
                 "line-dasharray": [2.0, 12.0],
@@ -4201,6 +4211,7 @@
 	    "filter": [ "all", [ "in", "class", "intbridlewaywide" ],
                                [ "!=", "bridge", true ],
                                [ "!=", "tunnel", true ] ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#0080FF",
                 "line-dasharray": [4.0, 18.0],

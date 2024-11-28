@@ -5,6 +5,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 Tone the `access=destination` overlay down on narrow highways.
 Made highway shields and name repeat less frequently at higher zoom.
 Change draw order so that primary fill is over trunk casing when they meet.
+Changed line-cap on footways etc. to make the dashes closer together at higher zoom.
 
 ## 24/11/2024
 Show locked linear gates in a similar way to unlocked ones.

@@ -3,6 +3,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 
 ## As yet unreleased
 Tone the `access=destination` overlay down on narrow highways.
+Made highway shields and name repeat less frequently at higher zoom.
 
 ## 24/11/2024
 Show locked linear gates in a similar way to unlocked ones.

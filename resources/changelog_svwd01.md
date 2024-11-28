@@ -1,11 +1,12 @@
 # Changes made to the [SVWD01 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd01.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
-## As yet unreleased
+## 28/11/2024
 Tone the `access=destination` overlay down on narrow highways.
 Made highway shields and name repeat less frequently at higher zoom.
 Change draw order so that primary fill is over trunk casing when they meet.
 Changed line-cap on footways etc. to make the dashes closer together at higher zoom.
+Added buttons at the top of the svwd01 index page to access other resources.
 
 ## 24/11/2024
 Show locked linear gates in a similar way to unlocked ones.

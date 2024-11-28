@@ -1,6 +1,9 @@
 # Changes made to the [SVWD01 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd01.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
+## As yet unreleased
+Moved "raster" button to the right so that the vector "about" is "the obvious one to press" on the left.
+
 ## 28/11/2024
 Tone the `access=destination` overlay down on narrow highways.
 Made highway shields and name repeat less frequently at higher zoom.

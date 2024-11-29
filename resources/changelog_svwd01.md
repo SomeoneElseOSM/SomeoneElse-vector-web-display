@@ -8,6 +8,7 @@ Change draw order so that primary fill is over trunk casing when they meet.
 Changed line-cap on footways etc. to make the dashes closer together at higher zoom.
 Added buttons at the top of the svwd01 index page to access other resources.
 Moved "raster" button to the right so that the vector "about" is "the obvious one to press" on the left.
+Changed maxZoom on default svwd01 and svwd04 vector maps from the default of 22 to 25.
 
 ## 24/11/2024
 Show locked linear gates in a similar way to unlocked ones.

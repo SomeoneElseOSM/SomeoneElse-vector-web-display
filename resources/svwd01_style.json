@@ -1897,7 +1897,7 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "leisure_sports_cntre", 
+	    "filter": [ "all", [ "in", "class", "leisure_sports_centre", 
                                                 "leisure_stadium" ] ],
 	    "paint": {
 		"fill-antialias": true,

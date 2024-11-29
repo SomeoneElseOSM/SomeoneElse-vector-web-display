@@ -1,6 +1,9 @@
 # Changes made to the [SVWD01 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd01.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
+## As yet unreleased
+Fixed typo in "leisure_sports_centre" which was causing the green fill not to appear.
+
 ## 28/11/2024
 Tone the `access=destination` overlay down on narrow highways.
 Made highway shields and name repeat less frequently at higher zoom.

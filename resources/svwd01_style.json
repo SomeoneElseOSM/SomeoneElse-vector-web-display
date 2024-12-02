@@ -13873,8 +13873,9 @@
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
-	    "minzoom": 14,
-	    "filter": [ "all", [ "in", "class", "boundary_national_park" ] ],
+	    "minzoom": 7,
+	    "filter": [ "all", [ "in", "class", "boundary_national_park" ],
+	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{name}\n",
@@ -13888,7 +13889,7 @@
 		"visibility": "visible"
 	    },
 	    "paint": {
-		"text-color": "#99001a",
+		"text-color": "green",
 		"text-halo-blur": 0.5,
 		"text-halo-color": "#ffffff",
 		"text-halo-width": 1

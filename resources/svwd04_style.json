@@ -26,6 +26,42 @@
 	    }
 	},
 	{
+	    "id": "land1-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 6,
+	    "paint": {
+		"line-color": "red",
+                "line-dasharray": [2.0, 4.0],
+		"line-width": {
+		    "base": 1.2,
+		    "stops": [
+			[ 15,  1.2 ],
+			[ 20,  2.4 ]
+		    ]
+                }
+	    }
+	},
+	{
+	    "id": "land2-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land2",
+	    "minzoom": 6,
+	    "paint": {
+		"line-color": "cyan",
+                "line-dasharray": [2.0, 4.0],
+		"line-width": {
+		    "base": 1.2,
+		    "stops": [
+			[ 15,  1.2 ],
+			[ 20,  2.4 ]
+		    ]
+                }
+	    }
+	},
+	{
 	    "id": "linearbarrier-13",
 	    "type": "line",
 	    "source": "someoneelse",

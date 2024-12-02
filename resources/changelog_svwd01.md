@@ -1,8 +1,10 @@
 # Changes made to the [SVWD01 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd01.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
-## As yet unreleased
+## 01/12/2024
 Fixed typo in "leisure_sports_centre" which was causing the green fill not to appear.
+Write out national park names at the centroid only, in green.
+Add code to debug style to display land1 and land2 polygon extents as a dashed line.
 
 ## 28/11/2024
 Tone the `access=destination` overlay down on narrow highways.

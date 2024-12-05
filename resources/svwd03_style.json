@@ -1,0 +1,2271 @@
+{
+    "version": 8,
+    "name": "SPEC_NAME",
+    "metadata": {},
+    "center": [
+	-1,
+	54
+    ],
+    "zoom": 15,
+    "bearing": 0,
+    "pitch": 0,
+    "sources": {
+	"someoneelse": {
+	    "type": "vector",
+	    "url": "SPEC_URL"
+	}
+    },
+    "sprite": "SPRITE_URL",
+    "glyphs": "FONT_URL{fontstack}/{range}.pbf",
+    "layers": [
+	{
+	    "id": "background",
+	    "type": "background",
+	    "paint": {
+		"background-color": "#f2efe9"
+	    }
+	},
+        {
+             "id": "water-ocean",
+             "type": "fill",
+             "source-layer": "water",
+             "source": "someoneelse",
+             "paint": {
+                 "fill-color": "#b5d0d0"
+            }
+        },
+	{
+	    "id": "land-heath-fill-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "kind", "heath" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#e6e8c5"
+	    }
+	},
+	{
+	    "id": "land-glacier-fill-5",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 5,
+	    "filter": [ "all", [ "in", "kind", "glacier" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#ddecec"
+	    }
+	},
+	{
+	    "id": "land-glacier-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 5,
+	    "filter": [ "all", [ "in", "kind", "glacier" ] ],
+	    "paint": {
+		"line-color": "#9cf",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "land-residential-fill-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "kind", "residential" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#e1e1e1"
+	    }
+	},
+	{
+	    "id": "land-residential-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "kind", "residential" ] ],
+	    "paint": {
+		"line-color": "#b9b9b9",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "land-retail-fill-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "kind", "retail" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#f4dfdd"
+	    }
+	},
+	{
+	    "id": "land-retail-outline-15",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 15,
+	    "filter": [ "all", [ "in", "kind", "retail" ] ],
+	    "paint": {
+		"line-color": "#d99c95",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+                }
+	    }
+	},
+	{
+	    "id": "land-industrial-fill-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "kind", "industrial" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#ebdbe8"
+	    }
+	},
+	{
+	    "id": "land-industrial-outline-15",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 15,
+	    "filter": [ "all", [ "in", "kind", "industrial" ] ],
+	    "paint": {
+		"line-color": "#c6b3c3",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+                }
+	    }
+	},
+	{
+	    "id": "land-railway-fill-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "kind", "railway" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#ebdbe8"
+	    }
+	},
+	{
+	    "id": "land-railway-outline-15",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 15,
+	    "filter": [ "all", [ "in", "kind", "railway" ] ],
+	    "paint": {
+		"line-color": "#c6b3c3",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+                }
+	    }
+	},
+	{
+	    "id": "land-commercial-fill-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "kind", "commercial" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#ece0df"
+	    }
+	},
+	{
+	    "id": "land-commercial-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 15,
+	    "filter": [ "all", [ "in", "kind", "commercial" ] ],
+	    "paint": {
+		"line-color": "#d1b2b0",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "land-pedestrian-fill-13",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "street_polygons",
+	    "minzoom": 13,
+	    "filter": [ "all", [ "in", "kind", "pedestrian",
+                                                "service",
+                                                "path" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#ededed"
+	    }
+	},
+	{
+	    "id": "land-pedestrian-outline-13",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "street_polygons",
+	    "minzoom": 13,
+	    "filter": [ "all", [ "in", "kind", "pedestrian",
+                                                "service",
+                                                "path" ] ],
+	    "paint": {
+		"line-color": "grey",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+                }
+	    }
+	},
+	{
+	    "id": "land-eduhospital-fill-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "sites",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "kind", "university",
+                                                "college",
+                                                "school",
+                                                "hospital",
+                                                "kindergarten" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#f0f0d8"
+	    }
+	},
+	{
+	    "id": "land-eduhospital-outline-11",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "sites",
+	    "minzoom": 11,
+	    "filter": [ "all", [ "in", "kind", "university",
+                                                "college",
+                                                "school",
+                                                "hospital",
+                                                "kindergarten" ] ],
+	    "paint": {
+		"line-color": "brown",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+                }
+	    }
+	},
+	{
+	    "id": "land-park-fill-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "kind", "park", 
+                                                "recreation_ground" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#b6fdb6",
+		"fill-opacity": 0.6
+	    }
+	},
+	{
+	    "id": "land-forest-fill-7",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 7,
+	    "filter": [ "all", [ "in", "kind", "forest" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#bedab3"
+	    }
+	},
+	{
+	    "id": "land-construction-fill-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "kind", "brownfield", 
+                                                "greenfield", 
+                                                "construction" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#9d9d6c",
+		"fill-opacity": 0.7
+	    }
+	},
+	{
+	    "id": "land-wood-fill-8",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 8,
+	    "filter": [ "all", [ "in", "kind", "wood" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#aed1a0"
+	    }
+	},
+	{
+	    "id": "land-meadow-fill-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "kind", "meadow" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#e8f6d5"
+	    }
+	},
+	{
+	    "id": "land-farmyard-fill-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "kind", "farmyard" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#efd6b5"
+	    }
+	},
+	{
+	    "id": "land-farmyard-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "kind", "farmyard" ] ],
+	    "paint": {
+		"line-color": "#d1b48c",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+                }
+	    }
+	},
+	{
+	    "id": "land-farmland-fill-8",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 8,
+	    "filter": [ "all", [ "in", "kind", "farmland" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#f4ebdf"
+	    }
+	},
+	{
+	    "id": "land-recreation_ground-fill-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "kind", "recreation_ground" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#cfeca8"
+	    }
+	},
+	{
+	    "id": "land-village_green-fill-10",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 10,
+	    "filter": [ "all", [ "in", "kind", "village_green" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#cfeca8"
+	    }
+	},
+	{
+	    "id": "land-garages-fill-11",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 11,
+	    "filter": [ "all", [ "in", "kind", "garages" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#996",
+		"fill-opacity": 0.2
+	    }
+	},
+	{
+	    "id": "land-landfill-fill-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "kind", "landfill" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#d6d6c2",
+		"fill-opacity": 0.7
+	    }
+	},
+	{
+	    "id": "land-quarry-fill-10",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 10,
+	    "filter": [ "all", [ "in", "kind", "quarry" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_quarry"
+	    }
+	},
+	{
+	    "id": "land-quarry-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 10,
+	    "filter": [ "all", [ "in", "kind", "quarry" ] ],
+	    "paint": {
+		"line-color": "grey",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+                }
+	    }
+	},
+	{
+	    "id": "land-vineyard-fill-12",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "kind", "vineyard" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_vineyard"
+	    }
+	},
+	{
+	    "id": "land-orchard-fill-12",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "kind", "orchard" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_orchard"
+	    }
+	},
+	{
+	    "id": "land-allotments-fill-9-13",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "maxzoom": 13,
+	    "filter": [ "all", [ "in", "kind", "allotments" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#e5c7ab"
+	    }
+	},
+	{
+	    "id": "land-allotments-fill-13",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 13,
+	    "filter": [ "all", [ "in", "kind", "allotments" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_allotments"
+	    }
+	},
+	{
+	    "id": "land-scrub-fill-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "kind", "scrub" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#b5e3b5"
+	    }
+	},
+	{
+	    "id": "land-scrub-fill-13",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 13,
+	    "filter": [ "all", [ "in", "kind", "scrub" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_natural_scrub"
+	    }
+	},
+	{
+	    "id": "land-cemetery-fill-9-13",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "maxzoom": 13,
+	    "filter": [ "all", [ "in", "kind", "cemetery"  ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#aacbaf"
+	    }
+	},
+	{
+	    "id": "land-othercemetery-fill-13",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 13,
+	    "filter": [ "all", [ "in", "kind", "cemetery" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_othercemetery"
+	    }
+	},
+	{
+	    "id": "land-schoolyard-fill-12",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "kind", "schoolyard" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#f1f1f1"
+	    }
+	},
+	{
+	    "id": "land-schoolyard-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "kind", "schoolyard" ] ],
+	    "paint": {
+		"line-color": "#d5cfcf",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "land-beach-fill-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "kind", "beach" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_natural_beach"
+	    }
+	},
+	{
+	    "id": "land-mud-fill-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "kind", "mud" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_natural_mud"
+	    }
+	},
+	{
+	    "id": "land-bare_rock-fill-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "kind", "bare_rock" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_natural_rock"
+	    }
+	},
+	{
+	    "id": "land-sand-fill-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "kind", "sand" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#ffdf88"
+	    }
+	},
+	{
+	    "id": "land-scree-fill-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "kind", "scree" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_natural_scree"
+	    }
+	},
+	{
+	    "id": "land-shingle-fill-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "kind", "shingle" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_natural_shingle"
+	    }
+	},
+	{
+	    "id": "land-desert-fill-7",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 7,
+	    "filter": [ "all", [ "in", "kind", "desert" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#e3b57a"
+	    }
+	},
+	{
+	    "id": "land-grassland-fill-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "kind", "grassland" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#c6e4b4"
+	    }
+	},
+	{
+	    "id": "land-reef-fill-12",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "kind", "reef" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_natural_reef"
+	    }
+	},
+	{
+	    "id": "land-zoo-fill-14",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "kind", "zoo" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_tourism_zoo"
+	    }
+	},
+	{
+	    "id": "land-wetland-fill-12",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "kind", "wetland" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_natural_wetland"
+	    }
+	},
+	{
+	    "id": "land-tourismgreen-fill-12",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "kind", "camp_site",
+                                                "caravan_site",
+                                                "picnic_site" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#ccff99",
+		"fill-opacity": 0.5
+	    }
+	},
+	{
+	    "id": "land-camp_site-outline-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "kind", "camp_site",
+                                                "caravan_site",
+                                                "picnic_site" ] ],
+	    "paint": {
+		"line-color": "#9de555",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "land-swimming_pool-fill-13",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 13,
+	    "filter": [ "all", [ "in", "kind", "swimming_pool" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#b5d0d0"
+	    }
+	},
+	{
+	    "id": "land-swimming_pool-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 13,
+	    "filter": [ "all", [ "in", "kind", "swimming_pool" ] ],
+	    "paint": {
+		"line-color": "#8cbdbd",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "land-military-fill-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "kind", "military" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_military"
+	    }
+	},
+	{
+	    "id": "land-military-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "kind", "military" ] ],
+	    "paint": {
+		"line-color": "#f55",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "land-golf_course-fill-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "kind", "golf_course" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#b5e3b5"
+	    }
+	},
+	{
+	    "id": "land-stadium-fill-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "kind", "sports_centre", 
+                                                "stadium" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#3c9"
+	    }
+	},
+	{
+	    "id": "land-grass-fill-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "kind", "grass", 
+                                                "common",
+                                                "garden" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#cfeca8"
+	    }
+	},
+	{
+	    "id": "land-playground-fill-12",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "kind", "playground" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#ccfff1"
+	    }
+	},
+	{
+	    "id": "land-playground-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "kind", "playground" ] ],
+	    "paint": {
+		"line-color": "#99edd6",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "land-pitch-fill-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "kind", "pitch" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#8ad3af"
+	    }
+	},
+	{
+	    "id": "land-pitch-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "kind", "pitch" ] ],
+	    "paint": {
+		"line-color": "#51b885",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "land-leisuretrack-fill-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "kind", "track" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#74dcba"
+	    }
+	},
+	{
+	    "id": "land-leisuretrack-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "kind", "track" ] ],
+	    "paint": {
+		"line-color": "#3fc196",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "land-apron-fill-12",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "kind", "aeroway_apron" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#e9d1ff"
+	    }
+	},
+	{
+	    "id": "land-helipad-fill-15",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 15,
+	    "filter": [ "all", [ "in", "kind", "aeroway_helipad" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#bbc"
+	    }
+	},
+	{
+	    "id": "land-taxiway-fill-12",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "kind", "aeroway_taxiway" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#bbc"
+	    }
+	},
+	{
+	    "id": "land-runway-fill-10",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 10,
+	    "filter": [ "all", [ "in", "kind", "aeroway_runway" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#bbc"
+	    }
+	},
+	{
+	    "id": "land-parking-fill-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "kind", "parking"  ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#f7efb7"
+	    }
+	},
+	{
+	    "id": "land-parking-outline-14",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "kind", "parking"  ] ],
+	    "paint": {
+		"line-color": "#dcd078",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "land-nature_reserve-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 6,
+	    "filter": [ "all", [ "in", "kind", "nature_reserve" ] ],
+	    "paint": {
+		"line-color": "green",
+                "line-dasharray": [2.0, 4.0],
+		"line-width": {
+		    "base": 1.2,
+		    "stops": [
+			[ 15,  1.2 ],
+			[ 20,  2.4 ]
+		    ]
+                }
+	    }
+	},
+	{
+	    "id": "land-theme_park-line-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "kind", "theme_park" ] ],
+	    "paint": {
+		"line-color": "#734a08",
+                "line-dasharray": [2.0, 4.0],
+		"line-width": {
+		    "base": 1.2,
+		    "stops": [
+			[ 15,  1.2 ],
+			[ 20,  2.4 ]
+		    ]
+                }
+	    }
+	},
+	{
+	    "id": "land-water-fill-5",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 5,
+	    "filter": [ "all", [ "in", "kind", "water" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#b5d0d0"
+	    }
+	},
+	{
+	    "id": "land-pier-fill-11",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 11,
+	    "filter": [ "all", [ "in", "kind", "man_made_pier" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#f2efe9"
+	    }
+	},
+	{
+	    "id": "land-power-image-14",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "kind", "power_tower" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"visibility": "visible"
+	    }
+	},
+	{
+	    "id": "land-power-image-15",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 15,
+	    "filter": [ "all", [ "in", "kind", "power_pole" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"visibility": "visible"
+	    }
+	},
+	{
+	    "id": "land-leisuregreen-imagename-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "kind", "bandstand",
+                                                "bleachers" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 14,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#188b65",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land-leisuregreen-imagename-18",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 18,
+	    "filter": [ "all", [ "in", "kind", "fitness_station" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 14,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#188b65",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land-various-lightblue-imagename-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "kind", "parking",
+	                                        "camp_site",
+                                                "caravan_site",
+                                                "picnic_site",
+                                                "motel",
+                                                "hotel",
+                                                "hostel",
+                                                "guest_house",
+                                                "car_sharing",
+                                                "taxi",
+                                                "taxi_office",
+                                                "bicycle_rental",
+                                                "scooter_rental",
+                                                "bicycle_parking",
+                                                "motorcycle_parking" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 14,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#0066ff",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land-zoo-lightbrown-imagename-14",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "kind", "zoo" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#734a08",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land-tourism-lightblue-imagename-12",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "kind", "alpine_hut" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#6699cc",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land-amenity-lightblue-imagename-15",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 15,
+	    "filter": [ "all", [ "in", "kind", "bus_station" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#6699cc",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land-railway-lightblue-imagename-17",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 17,
+	    "filter": [ "all", [ "in", "kind", "railway_subway_entrance" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#6699cc",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land-leisure-green-imagename-centroid-13",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 13,
+	    "filter": [ "all", [ "in", "kind", "golf_course" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#2c4b2c",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land-leisure-green-imagename-centroid-14",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "kind", "sports_centre" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#2c4b2c",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land-forest-name-14",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "kind", "forest" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#3f722c",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land-woodgrass-name-14",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "kind", "wood",
+                                                "scrub",
+                                                "wetland",
+                                                "grass",
+                                                "grassland",
+                                                "wetmeadow",
+                                                "saltmarsh",
+                                                "reedbed",
+                                                "meadow" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 14,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#2a5818",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land-farm-name-14",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "kind", "farmyard",
+                                                "farmland",
+                                                "farmgrass" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#553b1a",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land-retail-name-14",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "kind", "retail" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#88413b",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land-industrial-name-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "kind", "industrial",
+                                                "railway" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#6a265d",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land-industrialbuilding-name-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "kind", "industrialbuilding" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#6a265d",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land-garages-name-14",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "kind", "garages" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#444415",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land-commercial-name-14",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "kind", "commercial" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#662621",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land-construction-name-14",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "kind", "construction",
+                                                "brownfield",
+                                                "greenfield",
+                                                "landfill" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#434310",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land-quarry-name-14",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "kind", "quarry",
+                                                "historicquarry" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "black",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land-vineyard-name-14",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "kind", "vineyard",
+                                                "orchard" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#397422",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 2
+	    }
+	},
+	{
+	    "id": "land-allotments-name-14",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "kind", "allotments" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#734821",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 2
+	    }
+	},
+	{
+	    "id": "land-cemetery-name-14",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "kind", "christiancemetery",
+                                                "jewishcemetery",
+                                                "othercemetery" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#195622",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 2
+	    }
+	},
+	{
+	    "id": "land-schoolyard-name-14",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "kind", "schoolyard" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#51504f",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land-desert-name-12",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "kind", "desert" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 14,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#826a24",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land-sand-name-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "kind", "sand",
+                                                "beach" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 14,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#576ddf",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land-stadium-name-centroid-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "kind", "stadium",
+                                                "track",
+                                                "pitch" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 14,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#188b65",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land-theme_park-name-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "kind", "theme_park" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#734a08",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land-aerodrome-lightbrown-name-13",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "street_polygons",
+	    "minzoom": 13,
+	    "filter": [ "all", [ "in", "kind", "aerodrome" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#734a08",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land-marina-name-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "kind", "harbour",
+                                                "marina" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 14,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#576ddf",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "label-path-bottom-12",
+	    "type": "symbol",
+	    "source-layer": "streets",
+	    "filter": [ "in", "kind", "bridleway", "footway", "steps", "path", "raceway" ],
+	    "layout": {
+		"text-field": "{name}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "line",
+		"text-offset": [0, 0.5],
+		"text-size": { "stops": [ [ 12, 5 ], 
+                                          [ 15, 12 ], 
+                                          [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"icon-color": "#333344",
+		"text-color": "#333344",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 2,
+		"text-halo-blur": 1
+	    },
+	    "minzoom": 12
+	},
+	{
+	    "id": "label-street-centre-12",
+	    "type": "symbol",
+	    "source-layer": "streets",
+	    "filter": [ "in", "kind", "motorway", "trunk", "primary", "secondary", "tertiary",
+			"unclassified", "residential", "pedestrian", "living_street", "service", "road" ],
+	    "layout": {
+		"text-field": "{name}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "line",
+		"symbol-spacing": { "stops": [ [ 12, 250 ],
+                                               [ 20, 900 ] ] },
+		"text-anchor": "center",
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"icon-color": "#333344",
+		"text-color": "#333344",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 2,
+		"text-halo-blur": 1
+	    },
+	    "minzoom": 12
+	},
+	{
+	    "id": "buildings-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "buildings",
+	    "minzoom": 6,
+	    "paint": {
+		"line-color": "red",
+                "line-dasharray": [2.0, 4.0],
+		"line-width": {
+		    "base": 1.2,
+		    "stops": [
+			[ 15,  1.2 ],
+			[ 20,  2.4 ]
+		    ]
+                }
+	    }
+	},
+	{
+	    "id": "linearbarrier-13",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "linearbarrier",
+	    "minzoom": 13,
+	    "paint": {
+		"line-color": "green",
+		"line-width": {
+		    "base": 3.6,
+		    "stops": [
+			[ 15,  3.6 ],
+			[ 20,  10.8 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "streets-13",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "streets",
+	    "minzoom": 13,
+	    "paint": {
+		"line-color": "brown",
+		"line-width": {
+		    "base": 3.6,
+		    "stops": [
+			[ 15,  3.6 ],
+			[ 20,  10.8 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "water_lines-13",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "water_lines",
+	    "minzoom": 13,
+	    "paint": {
+		"line-color": "blue",
+		"line-width": {
+		    "base": 3.6,
+		    "stops": [
+			[ 15,  3.6 ],
+			[ 20,  10.8 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "buildings-named-point-12",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "buildings",
+	    "minzoom": 6,
+	    "filter": [ "all", [ "has", "name" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "red",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "poi-named-point-12",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "poi",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "==", "$type", "Point" ],
+                               [ "has", "name" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "yellow",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "poi-unnamed-point-12",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "poi",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "==", "$type", "Point" ],
+                               [ "!has", "name" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"text-anchor": "top",
+		"text-field": "(unnamed)\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "yellow",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "poi-named-other-12",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "poi",
+	    "minzoom": 6,
+	    "filter": [ "all", [ "!=", "$type", "Point" ],
+                               [ "has", "name" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "brown",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "poi-unnamed-other-12",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "poi",
+	    "minzoom": 6,
+	    "filter": [ "all", [ "!=", "$type", "Point" ],
+                               [ "!has", "name" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"text-anchor": "top",
+		"text-field": "(unnamed)\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "brown",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "label-streets-bottom-13",
+	    "type": "symbol",
+	    "source-layer": "streets",
+	    "layout": {
+		"text-field": "{name}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "line",
+		"text-anchor": "bottom",
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "brown",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 2,
+		"text-halo-blur": 1
+	    },
+	    "minzoom": 13
+	},
+	{
+	    "id": "label-water_lines-bottom-13",
+	    "type": "symbol",
+	    "source-layer": "water_lines",
+	    "layout": {
+		"text-field": "{name}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "line",
+		"text-anchor": "bottom",
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "blue",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 2,
+		"text-halo-blur": 1
+	    },
+	    "minzoom": 13
+	},
+	{
+	    "id": "named-place-6",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "place",
+	    "minzoom": 6,
+	    "filter": [ "all", [ "has", "name" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#666",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "unnamed-place-6",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "place",
+	    "minzoom": 6,
+	    "filter": [ "all", [ "!has", "name" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "(unnamed)\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#666",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	}
+    ],
+    "id": "SPEC_NAME"
+}

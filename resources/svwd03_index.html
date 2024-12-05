@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title>SPEC_NAME</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://unpkg.com/maplibre-gl@4.7.0/dist/maplibre-gl.js'></script>
+    <link href='https://unpkg.com/maplibre-gl@4.7.0/dist/maplibre-gl.css' rel='stylesheet' />
+    <script src='https://unpkg.com/@maplibre/maplibre-gl-inspect@latest/dist/maplibre-gl-inspect.js'></script>
+    <link href='https://unpkg.com/@maplibre/maplibre-gl-inspect@latest/dist/maplibre-gl-inspect.css' rel='stylesheet' />
+    <style>
+        body { margin:0; padding:0; }
+        #map { position:absolute; top:0; bottom:0; width:100%; }
+		#refresh { position: absolute; top: 15px; left: 15px; background-color: white; padding: 5px; 
+			border: 1px solid black; font-family: Avenir; cursor: pointer; }
+    </style>
+</head>
+<body>
+
+<div id='map'></div>
+<!-- <div id='refresh' onclick='reload()'>Reload</div> -->
+<script>
+var map;
+var osmAttrib='Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>';
+
+fetch("/metadata")
+	.then(response => response.json())
+	.then(data => {
+		var styleURL = window.location.protocol+'//'+window.location.host+'/style.json';
+		var bounds = data['bounds'].split(',');
+		map = new maplibregl.Map({
+		    container: 'map', // container id
+		    style: styleURL, // stylesheet location
+		    center: [(Number(bounds[0])+Number(bounds[2]))/2,
+			         (Number(bounds[1])+Number(bounds[3]))/2], // starting position [lng, lat]
+		    hash: true,
+		    zoom: 13, // starting zoom
+                    maxZoom: 25,
+		    attributionControl: false
+		});
+
+	    // Add default OSM attribution
+	    map.addControl(new maplibregl.AttributionControl({ customAttribution: osmAttrib }), 'bottom-right');
+
+	    // Add zoom control
+	    map.addControl(new maplibregl.NavigationControl());
+	    
+	    map.dragRotate.disable();
+	    map.keyboard.disableRotation();
+	    map.touchZoomRotate.disableRotation();
+
+	    // -- Comment the following lines out to remove debug UI --
+	    map.showTileBoundaries=false;
+	    
+            map.addControl(new MaplibreInspect({
+		showInspectMap: true,
+		showInspectButton: false
+	    }));
+
+		// -- --
+	}
+)
+</script>
+
+</body>
+</html>

@@ -2,4 +2,7 @@
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
 ## 05/12/2024
+Added the rudimentary selection of streets available in Shortbread tiles.
+
+## 05/12/2024
 Initial pre-release.

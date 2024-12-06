@@ -447,11 +447,75 @@
 "y": 0
 }
 ,
-"tourism_viewpoint": {
+"marker_onewayminusone": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
 "x": 3584,
+"y": 0
+}
+,
+"marker_oneway": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 3648,
+"y": 0
+}
+,
+"shield_motorway_long": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 3712,
+"y": 0
+}
+,
+"shield_motorway_short": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 3776,
+"y": 0
+}
+,
+"shield_other_long": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 3840,
+"y": 0
+}
+,
+"shield_other_short": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 3904,
+"y": 0
+}
+,
+"shield_trunk_long": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 3968,
+"y": 0
+}
+,
+"shield_trunk_short": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 4032,
+"y": 0
+}
+,
+"tourism_viewpoint": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 4096,
 "y": 0
 }
 }

@@ -4,6 +4,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 ## 05/12/2024
 Added the selection of streets available in Shortbread tiles (no sidewalk or verge information).
 Added linear waterways
+Added "street_labels", including highway shields.
 
 ## 05/12/2024
 Initial pre-release.

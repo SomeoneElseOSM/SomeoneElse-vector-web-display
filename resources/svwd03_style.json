@@ -5851,7 +5851,7 @@
 	{
 	    "id": "label-path-bottom-12",
 	    "type": "symbol",
-	    "source-layer": "streets",
+	    "source-layer": "street_labels",
 	    "filter": [ "in", "kind", "bridleway", "footway", "steps", "path", "track", "raceway" ],
 	    "layout": {
 		"text-field": "{name}",
@@ -5875,7 +5875,7 @@
 	{
 	    "id": "label-street-centre-12",
 	    "type": "symbol",
-	    "source-layer": "streets",
+	    "source-layer": "street_labels",
 	    "filter": [ "in", "kind", "motorway", "trunk", "primary", "secondary", "tertiary",
 			"unclassified", "residential", "pedestrian", "living_street", "service", "road" ],
 	    "layout": {
@@ -5900,9 +5900,9 @@
 	{
 	    "id": "label-shield-motorway-short-9",
 	    "type": "symbol",
-	    "source-layer": "streets",
+	    "source-layer": "street_labels",
 	    "filter": [ "all", [ "in", "kind", "motorway" ],
-                               [ "<", "ref_len", 6 ] ],
+                               [ "<", "ref_cols", 6 ] ],
 	    "layout": {
                 "icon-image": "shield_motorway_short",
 		"icon-size": { "stops": [ [  9, 1.0 ], 
@@ -5931,10 +5931,10 @@
 	{
 	    "id": "label-shield-motorway-long-9",
 	    "type": "symbol",
-	    "source-layer": "streets",
+	    "source-layer": "street_labels",
 	    "filter": [ "all", [ "in", "kind", "motorway" ],
                                [ "has", "ref" ],
-                               [ ">=", "ref_len", 6 ] ],
+                               [ ">=", "ref_cols", 6 ] ],
 	    "layout": {
                 "icon-image": "shield_motorway_long",
 		"icon-size": { "stops": [ [  9, 2.0 ], 
@@ -5963,10 +5963,10 @@
 	{
 	    "id": "label-shield-trunk-short-10",
 	    "type": "symbol",
-	    "source-layer": "streets",
+	    "source-layer": "street_labels",
 	    "filter": [ "all", [ "in", "kind", "trunk" ],
                                [ "has", "ref" ],
-                               [ "<", "ref_len", 6 ] ],
+                               [ "<", "ref_cols", 6 ] ],
 	    "layout": {
                 "icon-image": "shield_trunk_short",
 		"icon-size": { "stops": [ [ 10, 1.0 ], 
@@ -5995,10 +5995,10 @@
 	{
 	    "id": "label-shield-trunk-long-10",
 	    "type": "symbol",
-	    "source-layer": "streets",
+	    "source-layer": "street_labels",
 	    "filter": [ "all", [ "in", "kind", "trunk" ],
                                [ "has", "ref" ],
-                               [ ">=", "ref_len", 6 ] ],
+                               [ ">=", "ref_cols", 6 ] ],
 	    "layout": {
                 "icon-image": "shield_trunk_long",
 		"icon-size": { "stops": [ [ 10, 2.0 ], 
@@ -6027,10 +6027,10 @@
 	{
 	    "id": "label-shield-primary-short-11",
 	    "type": "symbol",
-	    "source-layer": "streets",
+	    "source-layer": "street_labels",
 	    "filter": [ "all", [ "in", "kind", "primary" ],
                                [ "has", "ref" ],
-                               [ "<", "ref_len", 6 ] ],
+                               [ "<", "ref_cols", 6 ] ],
 	    "layout": {
                 "icon-image": "shield_other_short",
 		"icon-size": { "stops": [ [ 11, 1.0 ], 
@@ -6059,10 +6059,10 @@
 	{
 	    "id": "label-shield-primary-long-11",
 	    "type": "symbol",
-	    "source-layer": "streets",
+	    "source-layer": "street_labels",
 	    "filter": [ "all", [ "in", "kind", "primary" ],
                                [ "has", "ref" ],
-                               [ ">=", "ref_len", 6 ] ],
+                               [ ">=", "ref_cols", 6 ] ],
 	    "layout": {
                 "icon-image": "shield_other_long",
 		"icon-size": { "stops": [ [ 11, 2.0 ], 
@@ -6091,10 +6091,10 @@
 	{
 	    "id": "label-shield-secondary-short-12",
 	    "type": "symbol",
-	    "source-layer": "streets",
+	    "source-layer": "street_labels",
 	    "filter": [ "all", [ "in", "kind", "secondary" ],
                                [ "has", "ref" ],
-                               [ "<", "ref_len", 6 ] ],
+                               [ "<", "ref_cols", 6 ] ],
 	    "layout": {
                 "icon-image": "shield_other_short",
 		"icon-size": { "stops": [ [ 12, 1.0 ], 
@@ -6123,10 +6123,10 @@
 	{
 	    "id": "label-shield-secondary-long-12",
 	    "type": "symbol",
-	    "source-layer": "streets",
+	    "source-layer": "street_labels",
 	    "filter": [ "all", [ "in", "kind", "secondary" ],
                                [ "has", "ref" ],
-                               [ ">=", "ref_len", 6 ] ],
+                               [ ">=", "ref_cols", 6 ] ],
 	    "layout": {
                 "icon-image": "shield_other_long",
 		"icon-size": { "stops": [ [ 12, 2.0 ], 
@@ -6155,10 +6155,10 @@
 	{
 	    "id": "label-shield-tertiary-short-13",
 	    "type": "symbol",
-	    "source-layer": "streets",
+	    "source-layer": "street_labels",
 	    "filter": [ "all", [ "in", "kind", "tertiary" ],
                                [ "has", "ref" ],
-                               [ "<", "ref_len", 6 ] ],
+                               [ "<", "ref_cols", 6 ] ],
 	    "layout": {
                 "icon-image": "shield_other_short",
 		"icon-size": { "stops": [ [ 13, 1.0 ], 
@@ -6187,10 +6187,10 @@
 	{
 	    "id": "label-shield-tertiary-long-13",
 	    "type": "symbol",
-	    "source-layer": "streets",
+	    "source-layer": "street_labels",
 	    "filter": [ "all", [ "in", "kind", "tertiary" ],
                                [ "has", "ref" ],
-                               [ ">=", "ref_len", 6 ] ],
+                               [ ">=", "ref_cols", 6 ] ],
 	    "layout": {
                 "icon-image": "shield_other_long",
 		"icon-size": { "stops": [ [ 13, 2.0 ], 
@@ -6219,12 +6219,12 @@
 	{
 	    "id": "label-shield-unclassified-short-15",
 	    "type": "symbol",
-	    "source-layer": "streets",
+	    "source-layer": "street_labels",
 	    "filter": [ "all", [ "in", "kind", "unclassified",
                                                 "residential" ],
                                [ "has", "ref" ],
-                               [ ">", "ref_len", 1 ],
-                               [ "<", "ref_len", 6 ] ],
+                               [ ">", "ref_cols", 1 ],
+                               [ "<", "ref_cols", 6 ] ],
 	    "layout": {
                 "icon-image": "shield_other_short",
 		"icon-size": { "stops": [ [ 15, 1.0 ], 
@@ -6253,12 +6253,12 @@
 	{
 	    "id": "label-shield-unclassified-long-15",
 	    "type": "symbol",
-	    "source-layer": "streets",
+	    "source-layer": "street_labels",
 	    "filter": [ "all", [ "in", "kind", "unclassified",
                                                 "residential" ],
                                [ "has", "ref" ],
-                               [ ">=", "ref_len", 6 ],
-                               [ "<", "ref_len", 14 ] ],
+                               [ ">=", "ref_cols", 6 ],
+                               [ "<", "ref_cols", 14 ] ],
 	    "layout": {
                 "icon-image": "shield_other_long",
 		"icon-size": { "stops": [ [ 15, 2.0 ], 
@@ -6457,26 +6457,6 @@
 		"text-halo-color": "#ffffff",
 		"text-halo-width": 1
 	    }
-	},
-	{
-	    "id": "label-streets-bottom-13",
-	    "type": "symbol",
-	    "source-layer": "streets",
-	    "layout": {
-		"text-field": "{name}",
-		"text-font": [ "KlokanTech Noto Sans Regular" ],
-		"symbol-placement": "line",
-		"text-anchor": "bottom",
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] }
-	    },
-	    "source": "someoneelse",
-	    "paint": {
-		"text-color": "brown",
-		"text-halo-color": "rgba(255, 255, 255, 0.8)",
-		"text-halo-width": 2,
-		"text-halo-blur": 1
-	    },
-	    "minzoom": 13
 	},
 	{
 	    "id": "named-place-6",

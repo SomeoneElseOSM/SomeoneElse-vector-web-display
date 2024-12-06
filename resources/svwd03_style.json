@@ -4976,12 +4976,11 @@
 	    "id": "land-leisuregreen-imagename-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
-	    "source-layer": "land",
+	    "source-layer": "pois",
 	    "minzoom": 16,
-	    "filter": [ "all", [ "in", "kind", "bandstand",
-                                                "bleachers" ] ],
+	    "filter": [ "all", [ "in", "amenity", "arts_centre" ] ],
 	    "layout": {
-		"icon-image": "{kind}",
+		"icon-image": "amenity_{amenity}",
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [

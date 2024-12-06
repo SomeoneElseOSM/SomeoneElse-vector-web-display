@@ -7,6 +7,7 @@ Added linear waterways
 Added "street_labels", including highway shields.
 Added "water_lines_labels" and "ocean".
 Added "water_polygons" and "water_polygons_labels".
+Added the first of the POIs and names from the Shortbread spec - amenity=arts_centre.
 
 ## 05/12/2024
 Initial pre-release.

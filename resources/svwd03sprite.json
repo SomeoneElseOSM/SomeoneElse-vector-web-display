@@ -23,7 +23,7 @@
 "y": 0
 }
 ,
-"amenity_atm": {
+"amenity_arts_centre": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -31,7 +31,7 @@
 "y": 0
 }
 ,
-"amenity_bank": {
+"amenity_atm": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -39,7 +39,7 @@
 "y": 0
 }
 ,
-"amenity_bar": {
+"amenity_bank": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -47,7 +47,7 @@
 "y": 0
 }
 ,
-"amenity_bench": {
+"amenity_bar": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -55,7 +55,7 @@
 "y": 0
 }
 ,
-"amenity_bicycle_parking": {
+"amenity_bench": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -63,7 +63,7 @@
 "y": 0
 }
 ,
-"amenity_bicycle_rental": {
+"amenity_bicycle_parking": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -71,7 +71,7 @@
 "y": 0
 }
 ,
-"amenity_biergarten": {
+"amenity_bicycle_rental": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -79,7 +79,7 @@
 "y": 0
 }
 ,
-"amenity_boatyard": {
+"amenity_biergarten": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -87,7 +87,7 @@
 "y": 0
 }
 ,
-"amenity_bus_station": {
+"amenity_boatyard": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -95,7 +95,7 @@
 "y": 0
 }
 ,
-"amenity_cafe": {
+"amenity_bus_station": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -103,7 +103,7 @@
 "y": 0
 }
 ,
-"amenity_car_rental": {
+"amenity_cafe": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -111,7 +111,7 @@
 "y": 0
 }
 ,
-"amenity_car_sharing": {
+"amenity_car_rental": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -119,7 +119,7 @@
 "y": 0
 }
 ,
-"amenity_car_wash": {
+"amenity_car_sharing": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -127,7 +127,7 @@
 "y": 0
 }
 ,
-"amenity_charging_station": {
+"amenity_car_wash": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -135,7 +135,7 @@
 "y": 0
 }
 ,
-"amenity_cinema": {
+"amenity_charging_station": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -143,7 +143,7 @@
 "y": 0
 }
 ,
-"amenity_concert_hall": {
+"amenity_cinema": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -151,7 +151,7 @@
 "y": 0
 }
 ,
-"amenity_courthouse": {
+"amenity_concert_hall": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -159,7 +159,7 @@
 "y": 0
 }
 ,
-"amenity_dentist": {
+"amenity_courthouse": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -167,7 +167,7 @@
 "y": 0
 }
 ,
-"amenity_doctors": {
+"amenity_dentist": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -175,7 +175,7 @@
 "y": 0
 }
 ,
-"amenity_embassy": {
+"amenity_doctors": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -183,7 +183,7 @@
 "y": 0
 }
 ,
-"amenity_fast_food": {
+"amenity_embassy": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -191,7 +191,7 @@
 "y": 0
 }
 ,
-"amenity_ferry_terminal": {
+"amenity_fast_food": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -199,7 +199,7 @@
 "y": 0
 }
 ,
-"amenity_fire_station": {
+"amenity_ferry_terminal": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -207,7 +207,7 @@
 "y": 0
 }
 ,
-"amenity_fountain": {
+"amenity_fire_station": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -215,7 +215,7 @@
 "y": 0
 }
 ,
-"amenity_fuel": {
+"amenity_fountain": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -223,7 +223,7 @@
 "y": 0
 }
 ,
-"amenity_grit_bin": {
+"amenity_fuel": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -231,7 +231,7 @@
 "y": 0
 }
 ,
-"amenity_hospital": {
+"amenity_grit_bin": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -239,7 +239,7 @@
 "y": 0
 }
 ,
-"amenity_left_luggage": {
+"amenity_hospital": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -247,7 +247,7 @@
 "y": 0
 }
 ,
-"amenity_library": {
+"amenity_left_luggage": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -255,7 +255,7 @@
 "y": 0
 }
 ,
-"amenity_lifeboat": {
+"amenity_library": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -263,7 +263,7 @@
 "y": 0
 }
 ,
-"amenity_monastery": {
+"amenity_lifeboat": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -271,7 +271,7 @@
 "y": 0
 }
 ,
-"amenity_motorcycle_parking": {
+"amenity_monastery": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -279,7 +279,7 @@
 "y": 0
 }
 ,
-"amenity_nightclub": {
+"amenity_motorcycle_parking": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -287,7 +287,7 @@
 "y": 0
 }
 ,
-"amenity_parcel_locker": {
+"amenity_nightclub": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -295,7 +295,7 @@
 "y": 0
 }
 ,
-"amenity_parking": {
+"amenity_parcel_locker": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -303,7 +303,7 @@
 "y": 0
 }
 ,
-"amenity_pharmacy": {
+"amenity_parking": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -311,7 +311,7 @@
 "y": 0
 }
 ,
-"amenity_police": {
+"amenity_pharmacy": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -319,7 +319,7 @@
 "y": 0
 }
 ,
-"amenity_post_box": {
+"amenity_police": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -327,7 +327,7 @@
 "y": 0
 }
 ,
-"amenity_post_office": {
+"amenity_post_box": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -335,7 +335,7 @@
 "y": 0
 }
 ,
-"amenity_prison": {
+"amenity_post_office": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -343,7 +343,7 @@
 "y": 0
 }
 ,
-"amenity_pub": {
+"amenity_prison": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -351,7 +351,7 @@
 "y": 0
 }
 ,
-"amenity_recycling": {
+"amenity_pub": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -359,7 +359,7 @@
 "y": 0
 }
 ,
-"amenity_restaurant": {
+"amenity_recycling": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -367,7 +367,7 @@
 "y": 0
 }
 ,
-"amenity_shelter": {
+"amenity_restaurant": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -375,7 +375,7 @@
 "y": 0
 }
 ,
-"amenity_taxi_office": {
+"amenity_shelter": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -383,7 +383,7 @@
 "y": 0
 }
 ,
-"amenity_taxi": {
+"amenity_taxi_office": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -391,7 +391,7 @@
 "y": 0
 }
 ,
-"amenity_telephone": {
+"amenity_taxi": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -399,7 +399,7 @@
 "y": 0
 }
 ,
-"amenity_theatre": {
+"amenity_telephone": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -407,7 +407,7 @@
 "y": 0
 }
 ,
-"amenity_toilets": {
+"amenity_theatre": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -415,7 +415,7 @@
 "y": 0
 }
 ,
-"amenity_vending_machine": {
+"amenity_toilets": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -423,7 +423,7 @@
 "y": 0
 }
 ,
-"amenity_veterinary": {
+"amenity_vending_machine": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -431,7 +431,7 @@
 "y": 0
 }
 ,
-"amenity_waste_basket": {
+"amenity_veterinary": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -439,7 +439,7 @@
 "y": 0
 }
 ,
-"amenity_waste_disposal": {
+"amenity_waste_basket": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -447,7 +447,7 @@
 "y": 0
 }
 ,
-"marker_onewayminusone": {
+"amenity_waste_disposal": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -455,7 +455,7 @@
 "y": 0
 }
 ,
-"marker_oneway": {
+"marker_onewayminusone": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -463,7 +463,7 @@
 "y": 0
 }
 ,
-"shield_motorway_long": {
+"marker_oneway": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -471,7 +471,7 @@
 "y": 0
 }
 ,
-"shield_motorway_short": {
+"shield_motorway_long": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -479,7 +479,7 @@
 "y": 0
 }
 ,
-"shield_other_long": {
+"shield_motorway_short": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -487,7 +487,7 @@
 "y": 0
 }
 ,
-"shield_other_short": {
+"shield_other_long": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -495,7 +495,7 @@
 "y": 0
 }
 ,
-"shield_trunk_long": {
+"shield_other_short": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -503,7 +503,7 @@
 "y": 0
 }
 ,
-"shield_trunk_short": {
+"shield_trunk_long": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -511,11 +511,19 @@
 "y": 0
 }
 ,
-"tourism_viewpoint": {
+"shield_trunk_short": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
 "x": 4096,
+"y": 0
+}
+,
+"tourism_viewpoint": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 4160,
 "y": 0
 }
 }

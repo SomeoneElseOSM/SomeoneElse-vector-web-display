@@ -4973,12 +4973,13 @@
 	    }
 	},
 	{
-	    "id": "land-leisuregreen-imagename-16",
+	    "id": "pois-leisureamenitygreen-imagename-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "pois",
 	    "minzoom": 16,
-	    "filter": [ "all", [ "in", "amenity", "arts_centre" ] ],
+	    "filter": [ "all", [ "in", "amenity", "arts_centre",
+                                                  "community_centre" ] ],
 	    "layout": {
 		"icon-image": "amenity_{amenity}",
 		"text-anchor": "top",
@@ -5027,28 +5028,21 @@
 	    }
 	},
 	{
-	    "id": "land-various-lightblue-imagename-16",
+	    "id": "pois-amenity-lightblue-imagename-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
-	    "source-layer": "land",
+	    "source-layer": "pois",
 	    "minzoom": 16,
-	    "filter": [ "all", [ "in", "kind", "parking",
-	                                        "camp_site",
-                                                "caravan_site",
-                                                "picnic_site",
-                                                "motel",
-                                                "hotel",
-                                                "hostel",
-                                                "guest_house",
+	    "filter": [ "all", [ "in", "amenity", "bicycle_rental",
                                                 "car_sharing",
+	                                        "parking",
                                                 "taxi",
                                                 "taxi_office",
-                                                "bicycle_rental",
                                                 "scooter_rental",
                                                 "bicycle_parking",
                                                 "motorcycle_parking" ] ],
 	    "layout": {
-		"icon-image": "{kind}",
+		"icon-image": "amenity_{amenity}",
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -5229,6 +5223,59 @@
 	    }
 	},
 	{
+	    "id": "pois-amenity-lightbrown-imagename-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "amenity", "bar",
+                                                "bench",
+                                                "biergarten",
+                                                "cafe",
+                                                "cinema",
+                                                "courthouse",
+                                                "shelter",
+                                                "nightclub",
+                                                "concert_hall",
+                                                "fire_station",
+                                                "embassy",
+                                                "library",
+                                                "vending_machine",
+                                                "bottle_return",
+                                                "police",
+                                                "post_box",
+                                                "post_office",
+                                                "restaurant",
+                                                "fast_food",
+                                                "telephone",
+                                                "theatre",
+                                                "toilets",
+                                                "shower",
+                                                "drinking_water",
+                                                "bbq",
+                                                "pub" ] ],
+	    "layout": {
+		"icon-image": "amenity_{amenity}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+                "text-optional": true,
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#734a08",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
 	    "id": "pois-various-black-imagename-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
@@ -5251,6 +5298,75 @@
 	    },
 	    "paint": {
 		"text-color": "black",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "pois-amenity-purple-imagename-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "amenity", "car_rental",
+                                                "car_wash",
+                                                "fuel",
+                                                "charging_station",
+                                                "boatyard",
+                                                "veterinary",
+                                                "animal_boarding",
+                                                "animal_shelter" ] ],
+	    "layout": {
+		"icon-image": "amenity_{amenity}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+                "text-optional": true,
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#939",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "pois-healthamenity-imagename-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "amenity", "clinic",
+                                                "dentist",
+                                                "doctors",
+                                                "pharmacy",
+                                                "ambulance_station",
+                                                "mountain_rescue",
+                                                "mountain_rescue_box" ] ],
+	    "layout": {
+		"icon-image": "amenity_{amenity}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+                "text-optional": true,
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#da0092",
 		"text-halo-blur": 0.5,
 		"text-halo-color": "#ffffff",
 		"text-halo-width": 1
@@ -5557,6 +5673,32 @@
 	    }
 	},
 	{
+	    "id": "pois-eduamenity-name-14",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "amenity", "college" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "black",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
 	    "id": "land-construction-name-14",
 	    "type": "symbol",
 	    "source": "someoneelse",
@@ -5773,12 +5915,12 @@
 	    }
 	},
 	{
-	    "id": "land-stadium-name-centroid-16",
+	    "id": "pois-leisureamenity-name-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
-	    "source-layer": "land",
+	    "source-layer": "pois",
 	    "minzoom": 16,
-	    "filter": [ "all", [ "in", "kind", "stadium", "pitch" ] ],
+	    "filter": [ "all", [ "in", "amenity", "dog_park" ] ],
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{name}\n",

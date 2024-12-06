@@ -2,7 +2,7 @@
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
 ## 06/12/2024
-Added more amenity POIs and names from the Shortbread spec, alphabetically through to doctors, and also `amenity=dog_park`, which is likely a mistake in the spec for `leisure=dog_park`.
+Added more amenity POIs and names from the Shortbread spec, alphabetically through to marketplace, and also `amenity=dog_park`, which is likely a mistake in the spec for `leisure=dog_park`.
 
 ## 05/12/2024
 Added the selection of streets available in Shortbread tiles (no sidewalk or verge information).

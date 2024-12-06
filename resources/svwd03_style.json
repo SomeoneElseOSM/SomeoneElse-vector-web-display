@@ -5234,24 +5234,26 @@
                                                 "cafe",
                                                 "cinema",
                                                 "courthouse",
-                                                "shelter",
+                                                "drinking_water",
+                                                "embassy",
+                                                "fast_food",
+                                                "fire_station",
+                                                "hunting_stand",
+                                                "library",
+                                                "qqq",
                                                 "nightclub",
                                                 "concert_hall",
-                                                "fire_station",
-                                                "embassy",
-                                                "library",
+                                                "shelter",
                                                 "vending_machine",
                                                 "bottle_return",
                                                 "police",
                                                 "post_box",
                                                 "post_office",
                                                 "restaurant",
-                                                "fast_food",
                                                 "telephone",
                                                 "theatre",
                                                 "toilets",
                                                 "shower",
-                                                "drinking_water",
                                                 "bbq",
                                                 "pub" ] ],
 	    "layout": {
@@ -5304,6 +5306,33 @@
 	    }
 	},
 	{
+	    "id": "pois-amenity-darkblue-imagename-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "amenity", "fountain" ] ],
+	    "layout": {
+		"icon-image": "amenity_{amenity}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#3e2bf6",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
 	    "id": "pois-amenity-purple-imagename-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
@@ -5333,6 +5362,33 @@
 	    },
 	    "paint": {
 		"text-color": "#939",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "pois-healthamenity-imagename-14",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "amenity", "hospital" ] ],
+	    "layout": {
+		"icon-image": "amenity_{amenity}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#da0092",
 		"text-halo-blur": 0.5,
 		"text-halo-color": "#ffffff",
 		"text-halo-width": 1
@@ -5548,6 +5604,33 @@
 	    "source-layer": "land",
 	    "minzoom": 14,
 	    "filter": [ "all", [ "in", "kind", "retail" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#88413b",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "pois-amenityretail-name-14",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "amenity", "food_court",
+                                                  "marketplace" ] ],
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{name}\n",
@@ -5808,14 +5891,38 @@
 	    }
 	},
 	{
-	    "id": "land-cemetery-name-14",
+	    "id": "pois-grave_yard-name-14",
 	    "type": "symbol",
 	    "source": "someoneelse",
-	    "source-layer": "land",
+	    "source-layer": "pois",
 	    "minzoom": 14,
-	    "filter": [ "all", [ "in", "kind", "christiancemetery",
-                                                "jewishcemetery",
-                                                "othercemetery" ] ],
+	    "filter": [ "all", [ "in", "amenity", "grave_yard" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#195622",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 2
+	    }
+	},
+	{
+	    "id": "pois-cemetery-name-14",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "landuse", "cemetery" ] ],
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{name}\n",

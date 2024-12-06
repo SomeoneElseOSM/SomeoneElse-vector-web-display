@@ -50,7 +50,7 @@
 	    "id": "land-glacier-fill-5",
 	    "type": "fill",
 	    "source": "someoneelse",
-	    "source-layer": "land",
+	    "source-layer": "water_polygons",
 	    "minzoom": 5,
 	    "filter": [ "all", [ "in", "kind", "glacier" ] ],
 	    "paint": {
@@ -62,7 +62,7 @@
 	    "id": "land-glacier-outline",
 	    "type": "line",
 	    "source": "someoneelse",
-	    "source-layer": "land",
+	    "source-layer": "water_polygons",
 	    "minzoom": 5,
 	    "filter": [ "all", [ "in", "kind", "glacier" ] ],
 	    "paint": {
@@ -1775,9 +1775,9 @@
 	    "id": "land-water-fill-5",
 	    "type": "fill",
 	    "source": "someoneelse",
-	    "source-layer": "land",
+	    "source-layer": "water_polygons",
 	    "minzoom": 5,
-	    "filter": [ "all", [ "in", "kind", "water" ] ],
+	    "filter": [ "all", [ "in", "kind", "water", "river", "reservoir", "basin", "dock", "canal" ] ],
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#b5d0d0"
@@ -5210,6 +5210,87 @@
 	    "source-layer": "land",
 	    "minzoom": 14,
 	    "filter": [ "all", [ "in", "kind", "sports_centre" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#2c4b2c",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "water_polygons_labels-water-name-15",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "water_polygons_labels",
+	    "minzoom": 15,
+	    "filter": [ "all", [ "in", "kind", "water", "river", "reservoir", "dock", "basin", "canal" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#6699cc",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "water_polygons_labels-glacier-name-8",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "water_polygons_labels",
+	    "minzoom": 8,
+	    "filter": [ "all", [ "in", "kind", "glacier" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 11,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#77f",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land-park-etc-name-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "kind", "leisure_park",
+                                                "leisure_recreation_ground",
+                                                "leisure_common",
+                                                "leisure_garden" ] ],
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{name}\n",

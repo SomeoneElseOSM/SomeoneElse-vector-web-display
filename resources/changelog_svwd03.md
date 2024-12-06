@@ -6,6 +6,7 @@ Added the selection of streets available in Shortbread tiles (no sidewalk or ver
 Added linear waterways
 Added "street_labels", including highway shields.
 Added "water_lines_labels" and "ocean".
+Added "water_polygons" and "water_polygons_labels".
 
 ## 05/12/2024
 Initial pre-release.

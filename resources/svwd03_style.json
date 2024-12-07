@@ -5193,14 +5193,16 @@
 	    }
 	},
 	{
-	    "id": "land-leisure-green-imagename-centroid-13",
+	    "id": "pois-leisure-green-imagename-13",
 	    "type": "symbol",
 	    "source": "someoneelse",
-	    "source-layer": "land",
+	    "source-layer": "pois",
 	    "minzoom": 13,
-	    "filter": [ "all", [ "in", "kind", "golf_course" ] ],
+	    "filter": [ "all", [ "in", "leisure", "golf_course",
+                                                  "ice_rink",
+                                                  "water_park" ] ],
 	    "layout": {
-		"icon-image": "{kind}",
+		"icon-image": "leisure_{leisure}",
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -5220,13 +5222,14 @@
 	    }
 	},
 	{
-	    "id": "land-leisure-green-imagename-centroid-14",
+	    "id": "pois-leisure-green-imagename-14",
 	    "type": "symbol",
 	    "source": "someoneelse",
-	    "source-layer": "land",
+	    "source-layer": "pois",
 	    "minzoom": 14,
-	    "filter": [ "all", [ "in", "kind", "sports_centre" ] ],
+	    "filter": [ "all", [ "in", "leisure", "sports_centre" ] ],
 	    "layout": {
+		"icon-image": "leisure_{leisure}",
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -6263,6 +6266,59 @@
 	    "source-layer": "pois",
 	    "minzoom": 16,
 	    "filter": [ "all", [ "in", "amenity", "dog_park" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 14,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#188b65",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "pois-swimming_pool-name-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "leisure", "swimming_pool" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 14,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#576ddf",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "pois-stadium-name-centroid-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "leisure", "stadium",
+                                                "pitch" ] ],
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{name}\n",

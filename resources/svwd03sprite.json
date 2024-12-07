@@ -551,7 +551,7 @@
 "y": 0
 }
 ,
-"marker_onewayminusone": {
+"leisure_golf_course": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -559,7 +559,7 @@
 "y": 0
 }
 ,
-"marker_oneway": {
+"leisure_ice_rink": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -567,7 +567,7 @@
 "y": 0
 }
 ,
-"shield_motorway_long": {
+"leisure_sports_centre": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -575,7 +575,7 @@
 "y": 0
 }
 ,
-"shield_motorway_short": {
+"leisure_swimming_pool": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -583,7 +583,7 @@
 "y": 0
 }
 ,
-"shield_other_long": {
+"leisure_water_park": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -591,7 +591,7 @@
 "y": 0
 }
 ,
-"shield_other_short": {
+"marker_onewayminusone": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -599,7 +599,7 @@
 "y": 0
 }
 ,
-"shield_trunk_long": {
+"marker_oneway": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -607,7 +607,7 @@
 "y": 0
 }
 ,
-"shield_trunk_short": {
+"shield_motorway_long": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -615,11 +615,51 @@
 "y": 0
 }
 ,
-"tourism_viewpoint": {
+"shield_motorway_short": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
 "x": 4928,
+"y": 0
+}
+,
+"shield_other_long": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 4992,
+"y": 0
+}
+,
+"shield_other_short": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 5056,
+"y": 0
+}
+,
+"shield_trunk_long": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 5120,
+"y": 0
+}
+,
+"shield_trunk_short": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 5184,
+"y": 0
+}
+,
+"tourism_viewpoint": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 5248,
 "y": 0
 }
 }

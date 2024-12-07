@@ -973,10 +973,10 @@
 	    }
 	},
 	{
-	    "id": "land-parking-fill-9",
+	    "id": "sites-parking-fill-9",
 	    "type": "fill",
 	    "source": "someoneelse",
-	    "source-layer": "land",
+	    "source-layer": "sites",
 	    "minzoom": 9,
 	    "filter": [ "all", [ "in", "kind", "parking"  ] ],
 	    "paint": {
@@ -985,10 +985,10 @@
 	    }
 	},
 	{
-	    "id": "land-parking-outline-14",
+	    "id": "sites-parking-outline-14",
 	    "type": "line",
 	    "source": "someoneelse",
-	    "source-layer": "land",
+	    "source-layer": "sites",
 	    "minzoom": 14,
 	    "filter": [ "all", [ "in", "kind", "parking"  ] ],
 	    "paint": {
@@ -4979,7 +4979,8 @@
 	    "source-layer": "pois",
 	    "minzoom": 16,
 	    "filter": [ "all", [ "in", "amenity", "arts_centre",
-                                                  "community_centre" ] ],
+                                                  "community_centre",
+                                                  "playground" ] ],
 	    "layout": {
 		"icon-image": "amenity_{amenity}",
 		"text-anchor": "top",
@@ -4995,6 +4996,33 @@
 	    },
 	    "paint": {
 		"text-color": "#188b65",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "pois-various-lightbrown-imagename-14",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "amenity", "prison" ] ],
+	    "layout": {
+		"icon-image": "amenity_{amenity}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#734a08",
 		"text-halo-blur": 0.5,
 		"text-halo-color": "#ffffff",
 		"text-halo-width": 1
@@ -5034,13 +5062,7 @@
 	    "source-layer": "pois",
 	    "minzoom": 16,
 	    "filter": [ "all", [ "in", "amenity", "bicycle_rental",
-                                                "car_sharing",
-	                                        "parking",
-                                                "taxi",
-                                                "taxi_office",
-                                                "scooter_rental",
-                                                "bicycle_parking",
-                                                "motorcycle_parking" ] ],
+                                                "car_sharing" ] ],
 	    "layout": {
 		"icon-image": "amenity_{amenity}",
 		"text-anchor": "top",
@@ -5116,14 +5138,15 @@
 	    }
 	},
 	{
-	    "id": "land-amenity-lightblue-imagename-15",
+	    "id": "public_transport-amenity-lightblue-imagename-15",
 	    "type": "symbol",
 	    "source": "someoneelse",
-	    "source-layer": "land",
+	    "source-layer": "public_transport",
 	    "minzoom": 15,
-	    "filter": [ "all", [ "in", "kind", "bus_station" ] ],
+	    "filter": [ "all", [ "in", "amenity", "bus_station",
+                                                  "ferry_terminal" ] ],
 	    "layout": {
-		"icon-image": "{kind}",
+		"icon-image": "amenity_{amenity}",
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -5240,22 +5263,17 @@
                                                 "fire_station",
                                                 "hunting_stand",
                                                 "library",
-                                                "qqq",
                                                 "nightclub",
-                                                "concert_hall",
-                                                "shelter",
-                                                "vending_machine",
-                                                "bottle_return",
                                                 "police",
                                                 "post_box",
                                                 "post_office",
+                                                "pub",
                                                 "restaurant",
+                                                "shelter",
                                                 "telephone",
                                                 "theatre",
                                                 "toilets",
-                                                "shower",
-                                                "bbq",
-                                                "pub" ] ],
+                                                "vending_machine" ] ],
 	    "layout": {
 		"icon-image": "amenity_{amenity}",
 		"text-anchor": "top",
@@ -5278,13 +5296,53 @@
 	    }
 	},
 	{
+	    "id": "pois-amenitylightbrown-imagename-18",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "minzoom": 18,
+	    "filter": [ "all", [ "in", "amenity", "recycling" ] ],
+	    "layout": {
+		"icon-image": "amenity_{amenity}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#734a08",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "pois-amenity-image-18",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "minzoom": 18,
+	    "filter": [ "all", [ "in", "amenity", "waste_basket" ] ],
+	    "layout": {
+		"icon-image": "amenity_{amenity}"
+	    }
+	},
+	{
 	    "id": "pois-various-black-imagename-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "pois",
 	    "minzoom": 16,
 	    "filter": [ "all", [ "in", "amenity", "atm",
-                                                "bank" ] ],
+                                                "bank",
+                                                "public_building",
+                                                "townhall" ] ],
 	    "layout": {
 		"icon-image": "amenity_{amenity}",
 		"text-anchor": "top",
@@ -5333,6 +5391,76 @@
 	    }
 	},
 	{
+	    "id": "pois-amenitypowselected-indigo-imagename-15",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "minzoom": 15,
+	    "filter": [ "all", [ "in", "amenity", "place_of_worship" ],
+                               [ "in", "religion", "christian",
+                                                   "muslim",
+                                                   "sikh",
+                                                   "jewish",
+                                                   "hindu",
+                                                   "buddhist",
+                                                   "shinto",
+                                                   "taoist" ] ],
+	    "layout": {
+		"icon-image": "amenity_{amenity}_{religion}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#000033",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "pois-amenitypowother-indigo-imagename-15",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "minzoom": 15,
+	    "filter": [ "all", [ "in", "amenity", "place_of_worship" ],
+                               [ "!in", "religion", "christian",
+                                                    "muslim",
+                                                    "sikh",
+                                                    "jewish",
+                                                    "hindu",
+                                                    "buddhist",
+                                                    "shinto",
+                                                    "taoist" ] ],
+	    "layout": {
+		"icon-image": "amenity_{amenity}_other",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#000033",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
 	    "id": "pois-amenity-purple-imagename-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
@@ -5340,12 +5468,7 @@
 	    "minzoom": 16,
 	    "filter": [ "all", [ "in", "amenity", "car_rental",
                                                 "car_wash",
-                                                "fuel",
-                                                "charging_station",
-                                                "boatyard",
-                                                "veterinary",
-                                                "animal_boarding",
-                                                "animal_shelter" ] ],
+                                                "veterinary" ] ],
 	    "layout": {
 		"icon-image": "amenity_{amenity}",
 		"text-anchor": "top",
@@ -5403,10 +5526,8 @@
 	    "filter": [ "all", [ "in", "amenity", "clinic",
                                                 "dentist",
                                                 "doctors",
-                                                "pharmacy",
-                                                "ambulance_station",
-                                                "mountain_rescue",
-                                                "mountain_rescue_box" ] ],
+                                                "nursing_home",
+                                                "pharmacy" ] ],
 	    "layout": {
 		"icon-image": "amenity_{amenity}",
 		"text-anchor": "top",
@@ -5761,7 +5882,9 @@
 	    "source": "someoneelse",
 	    "source-layer": "pois",
 	    "minzoom": 14,
-	    "filter": [ "all", [ "in", "amenity", "college" ] ],
+	    "filter": [ "all", [ "in", "amenity", "college",
+                                                  "school",
+                                                  "university" ] ],
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{name}\n",

@@ -4,6 +4,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 ## 06/12/2024
 Added more amenity POIs and names from the Shortbread spec, including `amenity=dog_park`, which is likely a mistake in the spec for `leisure=dog_park`.
 Added the three emergency POIs that Shortbread supports.
+Added the nine historic POIs that Shortbread supports.
 
 ## 05/12/2024
 Added the selection of streets available in Shortbread tiles (no sidewalk or verge information).

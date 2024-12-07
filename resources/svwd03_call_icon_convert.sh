@@ -40,6 +40,7 @@
 # -----------------------------------------------------------------------------
 #
 # A selection of icons included as an example
+
 #
 # amenity
 #
@@ -97,6 +98,13 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/vending.p.16.png                                ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_vending_machine.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/veterinary.p.16.png                             ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_veterinary.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/waste_basket.p.16.png                           ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_waste_basket.png
+
+#
+# emergency
+#
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/health_defibrillator.p.16.png                   ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/emergency_defibrillator.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/firehydrant.png                                 ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/emergency_fire_hydrant.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/sosphone.png                                    ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/emergency_phone.png
 
 # not yet tested
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/bus_station.n.16.png                            ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_bus_station.png

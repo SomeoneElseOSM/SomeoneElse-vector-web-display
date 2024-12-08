@@ -1,0 +1,553 @@
+{
+    "version": 8,
+    "name": "SPEC_NAME",
+    "metadata": {},
+    "center": [
+	-1,
+	54
+    ],
+    "zoom": 15,
+    "bearing": 0,
+    "pitch": 0,
+    "sources": {
+	"someoneelse": {
+	    "type": "vector",
+	    "url": "SPEC_URL"
+	}
+    },
+    "sprite": "SPRITE_URL",
+    "glyphs": "FONT_URL{fontstack}/{range}.pbf",
+    "layers": [
+	{
+	    "id": "background",
+	    "type": "background",
+	    "paint": {
+		"background-color": "#f2efe9"
+	    }
+	},
+	{
+	    "id": "buildings-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "buildings",
+	    "minzoom": 6,
+	    "paint": {
+		"line-color": "red",
+                "line-dasharray": [2.0, 4.0],
+		"line-width": {
+		    "base": 1.2,
+		    "stops": [
+			[ 15,  1.2 ],
+			[ 20,  2.4 ]
+		    ]
+                }
+	    }
+	},
+	{
+	    "id": "land-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 6,
+	    "paint": {
+		"line-color": "cyan",
+                "line-dasharray": [2.0, 4.0],
+		"line-width": {
+		    "base": 1.2,
+		    "stops": [
+			[ 15,  1.2 ],
+			[ 20,  2.4 ]
+		    ]
+                }
+	    }
+	},
+	{
+	    "id": "linearbarrier-13",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "linearbarrier",
+	    "minzoom": 13,
+	    "paint": {
+		"line-color": "green",
+		"line-width": {
+		    "base": 3.6,
+		    "stops": [
+			[ 15,  3.6 ],
+			[ 20,  10.8 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "streets-13",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "streets",
+	    "minzoom": 13,
+	    "paint": {
+		"line-color": "brown",
+		"line-width": {
+		    "base": 3.6,
+		    "stops": [
+			[ 15,  3.6 ],
+			[ 20,  10.8 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "water_lines-13",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "water_lines",
+	    "minzoom": 13,
+	    "paint": {
+		"line-color": "blue",
+		"line-width": {
+		    "base": 3.6,
+		    "stops": [
+			[ 15,  3.6 ],
+			[ 20,  10.8 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "buildings-named-point-12",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "buildings",
+	    "minzoom": 6,
+	    "filter": [ "all", [ "==", "$type", "Point" ],
+                               [ "has", "name" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "red",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "buildings-unnamed-point-12",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "buildings",
+	    "minzoom": 6,
+	    "filter": [ "all", [ "==", "$type", "Point" ],
+                               [ "!has", "name" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "(unnamed)\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "red",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "buildings-named-other-12",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "buildings",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "!=", "$type", "Point" ],
+                               [ "has", "name" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "orange",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "buildings-unnamed-other-12",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "buildings",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "!=", "$type", "Point" ],
+                               [ "has", "name" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "(unnamed)\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "orange",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land-named-point-12",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 6,
+	    "filter": [ "all", [ "==", "$type", "Point" ],
+                               [ "has", "name" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "pink",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land-unnamed-point-12",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 6,
+	    "filter": [ "all", [ "==", "$type", "Point" ],
+                               [ "!has", "name" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "(unnamed)\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "pink",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land-named-other-12",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "!=", "$type", "Point" ],
+                               [ "has", "name" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "cyan",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land-unnamed-other-12",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "!=", "$type", "Point" ],
+                               [ "!has", "name" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "(unnamed)\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "cyan",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "pois-named-point-12",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "==", "$type", "Point" ],
+                               [ "has", "name" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "yellow",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "pois-unnamed-point-12",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "==", "$type", "Point" ],
+                               [ "!has", "name" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "(unnamed)\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "yellow",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "pois-named-other-12",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "minzoom": 6,
+	    "filter": [ "all", [ "!=", "$type", "Point" ],
+                               [ "has", "name" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "brown",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "pois-unnamed-other-12",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "minzoom": 6,
+	    "filter": [ "all", [ "!=", "$type", "Point" ],
+                               [ "!has", "name" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "(unnamed)\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "brown",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "label-linearbarrier-bottom-13",
+	    "type": "symbol",
+	    "source-layer": "linearbarrier",
+	    "layout": {
+		"text-field": "{name}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "line",
+		"text-anchor": "bottom",
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "green",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 2,
+		"text-halo-blur": 1
+	    },
+	    "minzoom": 13
+	},
+	{
+	    "id": "label-streets-bottom-13",
+	    "type": "symbol",
+	    "source-layer": "streets",
+	    "layout": {
+		"text-field": "{name}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "line",
+		"text-anchor": "bottom",
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "brown",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 2,
+		"text-halo-blur": 1
+	    },
+	    "minzoom": 13
+	},
+	{
+	    "id": "label-water_lines-bottom-13",
+	    "type": "symbol",
+	    "source-layer": "water_lines",
+	    "layout": {
+		"text-field": "{name}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "line",
+		"text-anchor": "bottom",
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "blue",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 2,
+		"text-halo-blur": 1
+	    },
+	    "minzoom": 13
+	},
+	{
+	    "id": "named-place-6",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "place",
+	    "minzoom": 6,
+	    "filter": [ "all", [ "has", "name" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#666",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "unnamed-place-6",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "place",
+	    "minzoom": 6,
+	    "filter": [ "all", [ "!has", "name" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "(unnamed)\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#666",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	}
+    ],
+    "id": "SPEC_NAME"
+}

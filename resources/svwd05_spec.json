@@ -1,0 +1,14 @@
+{
+	"tilejson": "2.1.0",
+	"name": "SPEC_NAME",
+	"description": "SPEC_DESCRIPTION",
+	"version": "1.0.0",
+	"scheme": "xyz",
+	"tiles": [
+        "https://vector.openstreetmap.org/shortbread_v1/{z}/{x}/{y}.mvt"
+	],
+	"minzoom": 0,
+	"maxzoom": 14,
+	"bounds": [ -180, -85.05112877980659, 180, 85.0511287798066 ],
+	"center": [ -3.21568,57.47433 ]
+}

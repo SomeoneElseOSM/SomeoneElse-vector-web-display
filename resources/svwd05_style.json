@@ -705,7 +705,7 @@
 	    "source-layer": "street_polygons",
 	    "minzoom": 14,
 	    "filter": [ "all", [ "!=", "$type", "Point" ],
-                               [ "has", "nameqqq" ] ],
+                               [ "has", "name" ] ],
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{name}\n",

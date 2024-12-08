@@ -5299,6 +5299,34 @@
 	    }
 	},
 	{
+	    "id": "pois-man_made-lightbrown-imagename-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "man_made", "water_well" ] ],
+	    "layout": {
+		"icon-image": "man_made_{man_made}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+                "text-optional": true,
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#734a08",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
 	    "id": "pois-amenitylightbrown-imagename-18",
 	    "type": "symbol",
 	    "source": "someoneelse",
@@ -5606,6 +5634,62 @@
 	    }
 	},
 	{
+	    "id": "pois-man_made-indigo-imagename-14",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "man_made", "lighthouse" ] ],
+	    "layout": {
+		"icon-image": "man_made_{man_made}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#000033",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "pois-man_made-indigo-imagename-15",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "minzoom": 15,
+	    "filter": [ "all", [ "in", "man_made", "tower",
+                                                   "watermill",
+                                                   "windmill" ] ],
+	    "layout": {
+		"icon-image": "man_made_{man_made}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#000033",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
 	    "id": "pois-healthamenity-imagename-14",
 	    "type": "symbol",
 	    "source": "someoneelse",
@@ -5894,6 +5978,33 @@
 	    "minzoom": 16,
 	    "filter": [ "all", [ "in", "kind", "industrial",
                                                 "railway" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#6a265d",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "pois-industrial-name-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "man_made", "wastewater_plant",
+                                                   "water_works" ] ],
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{name}\n",

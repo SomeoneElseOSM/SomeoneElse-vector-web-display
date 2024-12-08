@@ -135,6 +135,18 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/leisure_nonspecific.p.16.png                    ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/leisure_swimming_pool.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/leisure_nonspecific.p.16.png                    ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/leisure_water_park.png
 
+#
+# man_made
+#
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/lighthouse.p.20.png                             ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/man_made_lighthouse.png
+# man_made=surveillance (I've never included on a map)
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/communications.p.20.png                         ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/man_made_tower.png
+# man_made=wastewater_plant (no icon)
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/water_well.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/man_made_water_well.png
+# man_made=water_works (no icon)
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/watermill.png                                   ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/man_made_watermill.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/windmill.png                                    ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/man_made_windmill.png
+
 # not yet tested
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/bus_station.n.16.png                            ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_bus_station.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/bus_stop_small.png                              ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_ferry_terminal.png

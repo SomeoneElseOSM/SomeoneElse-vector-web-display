@@ -12,6 +12,7 @@ Added more amenity POIs and names from the Shortbread spec, including `amenity=d
 Added the three emergency POIs that Shortbread supports.
 Added the nine historic POIs that Shortbread supports.
 Added the seven leisure POIs that Shortbread supports.
+Added the seven of the eight man_made POIs (not surveillance) that Shortbread supports.
 
 ## 05/12/2024
 Initial pre-release.

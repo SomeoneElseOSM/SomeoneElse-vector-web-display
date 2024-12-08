@@ -591,7 +591,7 @@
 "y": 0
 }
 ,
-"marker_onewayminusone": {
+"man_made_lighthouse": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -599,7 +599,7 @@
 "y": 0
 }
 ,
-"marker_oneway": {
+"man_made_tower": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -607,7 +607,7 @@
 "y": 0
 }
 ,
-"shield_motorway_long": {
+"man_made_watermill": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -615,7 +615,7 @@
 "y": 0
 }
 ,
-"shield_motorway_short": {
+"man_made_water_well": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -623,7 +623,7 @@
 "y": 0
 }
 ,
-"shield_other_long": {
+"man_made_windmill": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -631,7 +631,7 @@
 "y": 0
 }
 ,
-"shield_other_short": {
+"marker_onewayminusone": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -639,7 +639,7 @@
 "y": 0
 }
 ,
-"shield_trunk_long": {
+"marker_oneway": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -647,7 +647,7 @@
 "y": 0
 }
 ,
-"shield_trunk_short": {
+"shield_motorway_long": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -655,11 +655,51 @@
 "y": 0
 }
 ,
-"tourism_viewpoint": {
+"shield_motorway_short": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
 "x": 5248,
+"y": 0
+}
+,
+"shield_other_long": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 5312,
+"y": 0
+}
+,
+"shield_other_short": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 5376,
+"y": 0
+}
+,
+"shield_trunk_long": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 5440,
+"y": 0
+}
+,
+"shield_trunk_short": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 5504,
+"y": 0
+}
+,
+"tourism_viewpoint": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 5568,
 "y": 0
 }
 }

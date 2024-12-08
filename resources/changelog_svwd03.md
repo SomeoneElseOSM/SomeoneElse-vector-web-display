@@ -14,6 +14,7 @@ Added the nine historic POIs that Shortbread supports.
 Added the seven leisure POIs that Shortbread supports.
 Added the seven of the eight man_made POIs (not surveillance) that Shortbread supports.
 Added the one office POI that Shortbread supports.
+Added the 38 shop POIs listed in the Shortbread spec.  
 
 ## 05/12/2024
 Initial pre-release.

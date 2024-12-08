@@ -703,11 +703,307 @@
 "y": 0
 }
 ,
-"tourism_viewpoint": {
+"shop_alcohol": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
 "x": 5632,
+"y": 0
+}
+,
+"shop_bakery": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 5696,
+"y": 0
+}
+,
+"shop_beauty": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 5760,
+"y": 0
+}
+,
+"shop_beverages": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 5824,
+"y": 0
+}
+,
+"shop_bicycle": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 5888,
+"y": 0
+}
+,
+"shop_books": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 5952,
+"y": 0
+}
+,
+"shop_butcher": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 6016,
+"y": 0
+}
+,
+"shop_car": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 6080,
+"y": 0
+}
+,
+"shop_chemist": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 6144,
+"y": 0
+}
+,
+"shop_clothes": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 6208,
+"y": 0
+}
+,
+"shop_computer": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 6272,
+"y": 0
+}
+,
+"shop_convenience": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 6336,
+"y": 0
+}
+,
+"shop_department_store": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 6400,
+"y": 0
+}
+,
+"shop_doityourself": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 6464,
+"y": 0
+}
+,
+"shop_dry_cleaning": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 6528,
+"y": 0
+}
+,
+"shop_florist": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 6592,
+"y": 0
+}
+,
+"shop_furniture": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 6656,
+"y": 0
+}
+,
+"shop_garden_centre": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 6720,
+"y": 0
+}
+,
+"shop_general": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 6784,
+"y": 0
+}
+,
+"shop_gift": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 6848,
+"y": 0
+}
+,
+"shop_greengrocer": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 6912,
+"y": 0
+}
+,
+"shop_hairdresser": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 6976,
+"y": 0
+}
+,
+"shop_hardware": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 7040,
+"y": 0
+}
+,
+"shop_jewelry": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 7104,
+"y": 0
+}
+,
+"shop_kiosk": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 7168,
+"y": 0
+}
+,
+"shop_laundry": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 7232,
+"y": 0
+}
+,
+"shop_mobile_phone": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 7296,
+"y": 0
+}
+,
+"shop_newsagent": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 7360,
+"y": 0
+}
+,
+"shop_optician": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 7424,
+"y": 0
+}
+,
+"shop_outdoor": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 7488,
+"y": 0
+}
+,
+"shop_shoes": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 7552,
+"y": 0
+}
+,
+"shop_sports": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 7616,
+"y": 0
+}
+,
+"shop_stationery": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 7680,
+"y": 0
+}
+,
+"shop_supermarket": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 7744,
+"y": 0
+}
+,
+"shop_toys": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 7808,
+"y": 0
+}
+,
+"shop_travel_agency": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 7872,
+"y": 0
+}
+,
+"shop_video": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 7936,
+"y": 0
+}
+,
+"tourism_viewpoint": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 8000,
 "y": 0
 }
 }

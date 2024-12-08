@@ -5661,6 +5661,97 @@
 	    }
 	},
 	{
+	    "id": "pois-shop-purple-imagename-15",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "minzoom": 15,
+	    "filter": [ "all", [ "in", "shop", "supermarket",
+                                                "department_store" ] ],
+	    "layout": {
+		"icon-image": "shop_{shop}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+                "text-optional": true,
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#939",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "pois-shop-purple-imagename-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "shop", "alcohol",
+                                                "bakery",
+                                                "beauty",
+                                                "beverages",
+                                                "bicycle",
+                                                "books",
+                                                "butcher",
+                                                "car",
+                                                "chemist",
+                                                "clothes",
+                                                "computer",
+                                                "convenience",
+                                                "doityourself",
+                                                "dry_cleaning",
+                                                "florist",
+                                                "furniture",
+                                                "garden_centre",
+                                                "general",
+                                                "gift",
+                                                "greengrocer",
+                                                "hairdresser",
+                                                "hardware",
+                                                "jewelry",
+                                                "kiosk",
+                                                "laundry",
+                                                "mobile_phone",
+                                                "newsagent",
+                                                "optician",
+                                                "outdoor",
+                                                "shoes",
+                                                "sports",
+                                                "stationery",
+                                                "toys",
+                                                "travel_agency",
+                                                "video" ] ],
+	    "layout": {
+		"icon-image": "shop_{shop}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+                "text-optional": true,
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#939",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
 	    "id": "pois-man_made-indigo-imagename-14",
 	    "type": "symbol",
 	    "source": "someoneelse",
@@ -5971,13 +6062,12 @@
 	    }
 	},
 	{
-	    "id": "pois-amenityretail-name-14",
+	    "id": "pois-shopretail-name-14",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "pois",
 	    "minzoom": 14,
-	    "filter": [ "all", [ "in", "amenity", "food_court",
-                                                  "marketplace" ] ],
+	    "filter": [ "all", [ "in", "shop", "mall" ] ],
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{name}\n",

@@ -1,6 +1,10 @@
 # Changes made to the [SVWD01 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd01.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
+## 08/12/2024
+Fixed typo that prevented "historic_runestone" from being shown.
+Corrected missing "shop_toys" icon.
+
 ## 01/12/2024
 Fixed typo in "leisure_sports_centre" which was causing the green fill not to appear.
 Write out national park names at the centroid only, in green.

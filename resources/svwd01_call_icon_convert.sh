@@ -859,7 +859,7 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_stationery.p.16.png                        ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shop_stationery.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_storage_rental.p.16.png                    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shop_storage_rental.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_tattoo.png                                 ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shop_tattoo.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_toys.p.16.png                              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shop_toys.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shop_toys.png                                   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shop_toys.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/travel_agent.p.16.png                           ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shop_travel_agent.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/office_nonspecific.p.16.png                     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/shop_vacant.png
 #

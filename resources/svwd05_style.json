@@ -25,6 +25,15 @@
 		"background-color": "#f2efe9"
 	    }
 	},
+        {
+             "id": "water-ocean",
+             "type": "fill",
+             "source-layer": "ocean",
+             "source": "someoneelse",
+             "paint": {
+                 "fill-color": "#b5d0d0"
+            }
+        },
 	{
 	    "id": "buildings-outline",
 	    "type": "line",
@@ -457,9 +466,9 @@
 	    "minzoom": 13
 	},
 	{
-	    "id": "label-streets-bottom-13",
+	    "id": "label-street_labels-bottom-12",
 	    "type": "symbol",
-	    "source-layer": "streets",
+	    "source-layer": "street_labels",
 	    "layout": {
 		"text-field": "{name}",
 		"text-font": [ "KlokanTech Noto Sans Regular" ],
@@ -474,7 +483,7 @@
 		"text-halo-width": 2,
 		"text-halo-blur": 1
 	    },
-	    "minzoom": 13
+	    "minzoom": 12
 	},
 	{
 	    "id": "label-water_lines-bottom-13",

@@ -5477,7 +5477,7 @@
 	    }
 	},
 	{
-	    "id": "pois-various-black-imagename-16",
+	    "id": "pois-amenity-black-imagename-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "pois",
@@ -5488,6 +5488,33 @@
                                                 "townhall" ] ],
 	    "layout": {
 		"icon-image": "amenity_{amenity}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "black",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "pois-office-black-imagename-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "office", "diplomatic" ] ],
+	    "layout": {
+		"icon-image": "office_{office}",
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [

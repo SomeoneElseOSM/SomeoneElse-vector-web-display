@@ -647,7 +647,7 @@
 "y": 0
 }
 ,
-"shield_motorway_long": {
+"office_diplomatic": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -655,7 +655,7 @@
 "y": 0
 }
 ,
-"shield_motorway_short": {
+"shield_motorway_long": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -663,7 +663,7 @@
 "y": 0
 }
 ,
-"shield_other_long": {
+"shield_motorway_short": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -671,7 +671,7 @@
 "y": 0
 }
 ,
-"shield_other_short": {
+"shield_other_long": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -679,7 +679,7 @@
 "y": 0
 }
 ,
-"shield_trunk_long": {
+"shield_other_short": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -687,7 +687,7 @@
 "y": 0
 }
 ,
-"shield_trunk_short": {
+"shield_trunk_long": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -695,11 +695,19 @@
 "y": 0
 }
 ,
-"tourism_viewpoint": {
+"shield_trunk_short": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
 "x": 5568,
+"y": 0
+}
+,
+"tourism_viewpoint": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 5632,
 "y": 0
 }
 }

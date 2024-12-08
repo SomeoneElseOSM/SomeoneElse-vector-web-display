@@ -227,28 +227,26 @@
 	    }
 	},
 	{
-	    "id": "land-pedestrian-fill-13",
+	    "id": "street_polygons-pedestrian-fill-13",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "street_polygons",
 	    "minzoom": 13,
 	    "filter": [ "all", [ "in", "kind", "pedestrian",
-                                                "service",
-                                                "path" ] ],
+                                                "service" ] ],
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#ededed"
 	    }
 	},
 	{
-	    "id": "land-pedestrian-outline-13",
+	    "id": "street_polygons-pedestrian-outline-13",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "street_polygons",
 	    "minzoom": 13,
 	    "filter": [ "all", [ "in", "kind", "pedestrian",
-                                                "service",
-                                                "path" ] ],
+                                                "service" ] ],
 	    "paint": {
 		"line-color": "grey",
 		"line-width": {

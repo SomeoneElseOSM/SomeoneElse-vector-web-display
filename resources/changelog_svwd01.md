@@ -3,7 +3,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 
 ## 08/12/2024
 Fixed typo that prevented "historic_runestone" from being shown.
-Corrected missing "shop_toys" icon.
+Corrected missing "shop_toys" and "historic=massrock" icons.
 
 ## 01/12/2024
 Fixed typo in "leisure_sports_centre" which was causing the green fill not to appear.

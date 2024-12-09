@@ -1,7 +1,7 @@
 # Changes made to the [SVWD03 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd03.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
-## As yet unreleased
+## 09/12/2024
 Added the selection of streets available in Shortbread tiles (no sidewalk or verge information).
 Added linear waterways
 Added "street_labels", including highway shields.
@@ -14,7 +14,8 @@ Added the nine historic POIs that Shortbread supports.
 Added the seven leisure POIs that Shortbread supports.
 Added the seven of the eight man_made POIs (not surveillance) that Shortbread supports.
 Added the one office POI that Shortbread supports.
-Added the 38 shop POIs listed in the Shortbread spec.  
+Added the 38 shop POIs listed in the Shortbread spec.
+Updated the debug layer svwd05 so that it completely matches the shortbread spec.
 
 ## 05/12/2024
 Initial pre-release.

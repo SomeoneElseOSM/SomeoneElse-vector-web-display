@@ -1,6 +1,9 @@
 # Changes made to the [SVWD01 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd01.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
+## As yet unreleased
+Added an icon for dog parks (some are unnamed).
+
 ## 08/12/2024
 Fixed typo that prevented "historic_runestone" from being shown.
 Corrected missing "shop_toys" and "historic=massrock" icons.

@@ -1984,7 +1984,8 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "leisure_pitch" ] ],
+	    "filter": [ "all", [ "in", "class", "leisure_pitch",
+                                                "leisure_dog_park" ] ],
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#8ad3af"
@@ -1996,7 +1997,8 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "leisure_pitch" ] ],
+	    "filter": [ "all", [ "in", "class", "leisure_pitch",
+                                                "leisure_dog_park" ] ],
 	    "paint": {
 		"line-color": "#51b885",
 		"line-width": {
@@ -9292,7 +9294,8 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 16,
-	    "filter": [ "all", [ "in", "class", "leisure_leisurenonspecific" ],
+	    "filter": [ "all", [ "in", "class", "leisure_leisurenonspecific",
+                                                "leisure_dog_park" ],
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"icon-image": "{class}",
@@ -13630,7 +13633,7 @@
 	    }
 	},
 	{
-	    "id": "land1-stadium-name-centroid-16",
+	    "id": "land1-leisuregreen--name-centroid-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",

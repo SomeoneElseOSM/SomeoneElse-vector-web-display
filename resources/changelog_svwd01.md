@@ -9,6 +9,7 @@ Show names of universities, schools, etc.
 Use a longer symbol-spacing at higher zooms for path and LDP labels.
 Don't display long fords on `highway` values between `path` and `unpaved` as barriers but do display them with a blue proportionately-sized underlay.
 Use a longer symbol-spacing at higher zooms for linear waterway labels.
+Write out `landuse=military` names at the centroid only.
 
 ## 08/12/2024
 Fixed typo that prevented `historic_runestone` from being shown.

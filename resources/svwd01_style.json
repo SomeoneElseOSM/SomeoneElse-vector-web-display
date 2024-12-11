@@ -13986,7 +13986,8 @@
 	    "source": "someoneelse",
 	    "source-layer": "land2",
 	    "minzoom": 14,
-	    "filter": [ "all", [ "in", "class", "landuse_military" ] ],
+	    "filter": [ "all", [ "in", "class", "landuse_military" ],
+	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{name}\n",

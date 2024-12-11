@@ -11590,7 +11590,6 @@
                                                 "shop_motorcycle",
                                                 "shop_music",
                                                 "shop_musical_instrument",
-                                                "shop_optician",
                                                 "shop_outdoor",
                                                 "shop_pawnbroker",
                                                 "shop_pet",
@@ -11778,7 +11777,8 @@
                                                 "amenity_ambulance_station",
                                                 "amenity_mountain_rescue",
                                                 "amenity_mountain_rescue_box",
-                                                "shop_healthnonspecific" ] ],
+                                                "shop_healthnonspecific",
+                                                "shop_optician" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",

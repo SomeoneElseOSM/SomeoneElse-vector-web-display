@@ -13429,6 +13429,65 @@
 	    }
 	},
 	{
+	    "id": "land1-cemetery-name-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "class", "landuse_christiancemetery",
+                                                "landuse_jewishcemetery",
+                                                "landuse_othercemetery" ],
+	                       [ "==", "$type", "Point" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#195622",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 2
+	    }
+	},
+	{
+	    "id": "land1-cemetery-name-15",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 15,
+	    "filter": [ "all", [ "in", "class", "landuse_christiancemetery",
+                                                "landuse_jewishcemetery",
+                                                "landuse_othercemetery" ],
+                               [ ">", "way_area", 2000 ],
+	                       [ "==", "$type", "Point" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#195622",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 2
+	    }
+	},
+	{
 	    "id": "land1-cemetery-name-14",
 	    "type": "symbol",
 	    "source": "someoneelse",
@@ -13436,7 +13495,9 @@
 	    "minzoom": 14,
 	    "filter": [ "all", [ "in", "class", "landuse_christiancemetery",
                                                 "landuse_jewishcemetery",
-                                                "landuse_othercemetery" ] ],
+                                                "landuse_othercemetery" ],
+                               [ ">", "way_area", 50000 ],
+	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{name}\n",

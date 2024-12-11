@@ -3921,6 +3921,49 @@
 	    }
 	},
 	{
+	    "id": "highway-narrowford-casing-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "pathnarrow",
+                                 "leisuretrack",
+                                 "pathwide",
+                                 "footwaynarrow",
+                                 "footwaywide",
+                                 "intfootwaynarrow",
+                                 "intfootwaywide",
+                                 "bridlewaynarrow",
+                                 "bridlewaywide",
+                                 "intbridlewaynarrow",
+                                 "intbridlewaywide",
+                                 "rbynarrow",
+                                 "rbywide",
+                                 "boatnarrow",
+                                 "boatwide",
+                                 "ucrnarrow",
+                                 "ucrwide",
+                                 "unpaved" ],
+		[ "in", "edge", "ford" ],
+                [ "!=", "bridge", true ],
+                [ "!=", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#b5d0d0",
+		"line-width": {
+		    "stops": [
+			[ 12,  1.5 ],
+			[ 16,  6.0 ],
+			[ 18, 14.0 ],
+			[ 20, 20.0 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "highway-pathnarrow-other-12",
 	    "type": "line",
 	    "source": "someoneelse",

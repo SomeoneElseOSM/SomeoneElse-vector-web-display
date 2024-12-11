@@ -7,6 +7,7 @@ Display `highway=motorway_junction` names from the `land1` layer.
 Change name of `shop=optician` from shop purple to health pink.
 Show names of universities, schools, etc.
 Use a longer symbol-spacing at higher zooms for path and LDP labels.
+Don't display long fords on `highway` values between `path` and `unpaved` as barriers but do display them with a blue proportionately-sized underlay.
 
 ## 08/12/2024
 Fixed typo that prevented `historic_runestone` from being shown.

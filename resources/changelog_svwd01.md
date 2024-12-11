@@ -5,6 +5,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 Added an icon for dog parks (some are unnamed).
 Display `highway=motorway_junction` names from the `land1` layer.
 Change name of `shop=optician` from shop purple to health pink.
+Show names of universities, schools, etc.
 
 ## 08/12/2024
 Fixed typo that prevented `historic_runestone` from being shown.

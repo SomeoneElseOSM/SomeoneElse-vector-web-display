@@ -6,6 +6,7 @@ Added an icon for dog parks (some are unnamed).
 Display `highway=motorway_junction` names from the `land1` layer.
 Change name of `shop=optician` from shop purple to health pink.
 Show names of universities, schools, etc.
+Use a longer symbol-spacing at higher zooms for path and LDP labels.
 
 ## 08/12/2024
 Fixed typo that prevented `historic_runestone` from being shown.

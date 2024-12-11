@@ -13793,6 +13793,58 @@
 	    }
 	},
 	{
+	    "id": "land1-motorway_junction-black-name-11",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 11,
+	    "filter": [ "all", [ "in", "class", "highway_motorway_junction" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 3.2 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "black",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-motorway_junction-black-ref-10",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 10,
+	    "filter": [ "all", [ "in", "class", "highway_motorway_junction" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{ref}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "black",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
 	    "id": "land1-aeroway-name-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
@@ -13846,7 +13898,7 @@
 	    }
 	},
 	{
-	    "id": "land2-military-name",
+	    "id": "land2-military-name-14",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
@@ -13872,7 +13924,7 @@
 	    }
 	},
 	{
-	    "id": "land2-national_park-name",
+	    "id": "land2-national_park-name-7",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land2",

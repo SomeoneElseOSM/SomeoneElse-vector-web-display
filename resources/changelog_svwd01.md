@@ -3,13 +3,14 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 
 ## As yet unreleased
 Added an icon for dog parks (some are unnamed).
+Display `highway=motorway_junction` names from the `land1` layer.
 
 ## 08/12/2024
-Fixed typo that prevented "historic_runestone" from being shown.
-Corrected missing "shop_toys" and "historic=massrock" icons.
+Fixed typo that prevented `historic_runestone` from being shown.
+Corrected missing `shop_toys` and `historic=massrock` icons.
 
 ## 01/12/2024
-Fixed typo in "leisure_sports_centre" which was causing the green fill not to appear.
+Fixed typo in `leisure_sports_centre` which was causing the green fill not to appear.
 Write out national park names at the centroid only, in green.
 Add code to debug style to display land1 and land2 polygon extents as a dashed line.
 
@@ -34,21 +35,21 @@ Added [man_made=milk_churn_stand](https://taginfo.openstreetmap.org/tags/man_mad
 
 ## 18/11/2024
 Change the display of bigprompeak, bigpeak and peak symbols and names to match raster.
-Moved the display from "tourism=zoo" from zoom 9 to 14.
+Moved the display from `tourism=zoo` from zoom 9 to 14.
 Moved the display of retail area names from 9 to 14.
-Moved the display of "tourism=attraction" names from 12 to 13.
-Show the names for larger "landuse=industrial" areas at lower zooms than smaller ones.
+Moved the display of `tourism=attraction` names from 12 to 13.
+Show the names for larger `landuse=industrial` areas at lower zooms than smaller ones.
 Show the names for various larger beach and sand features at lower zooms than smaller ones.
 
 ## 17/11/2024
 Reduced the number of road shields shown.
 Change "text-offset", and "text-size" stops for "label-path-bottom-12" to make it look smaller when it appears.
-Added "aeroway=aerodrome" in "land2" to the list of "larger landuse" that gets separate centroid object displayed with the name.
-Show the names for larger "natural=water" areas at lower zooms than smaller ones.
+Added `aeroway=aerodrome` in "land2" to the list of "larger landuse" that gets separate centroid object displayed with the name.
+Show the names for larger `natural=water` areas at lower zooms than smaller ones.
 
 ## 14/11/2024
-Added display of names for things processed to "leisure=common" to "land1-park-name-15" (accidental oversight).
-Moved the display if "natural=intermittentwater" from land2 to land1, to ensure that name appears.  "natural=flood_prone" is still in land2, and no name is displayed for it (often a land1 feature for the same object will exist).
+Added display of names for things processed to `leisure=common` to "land1-park-name-15" (accidental oversight).
+Moved the display if `natural=intermittentwater` from land2 to land1, to ensure that name appears.  `natural=flood_prone` is still in land2, and no name is displayed for it (often a land1 feature for the same object will exist).
 Display names on centroids of larger landuse only, to work around https://github.com/maplibre/maplibre-gl-js/issues/5042 .
 
 ## 10/11/2024

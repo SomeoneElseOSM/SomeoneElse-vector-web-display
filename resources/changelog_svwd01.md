@@ -1,6 +1,9 @@
 # Changes made to the [SVWD01 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd01.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
+## As yet unreleased
+Show low-zoom `railway=rail` and also bus guideways at zooms 8-11.
+
 ## 13/12/2024
 Show more landuse names earlier based on `way_area`, including grass and allotments.
 Show `tourism=attraction` at different zoom levels based on `way_area`.

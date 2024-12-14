@@ -5274,6 +5274,31 @@
 	    }
 	},
 	{
+	    "id": "railway-rail-casing-8-11",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 8,
+	    "maxzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "rail" ],
+                [ "!=", "bridge", true ],
+                [ "!=", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#999999",
+		"line-width": {
+		    "base": 0.4,
+		    "stops": [
+			[  8,  0.4 ],
+			[ 11, 0.8 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "railway-rail-casing-12",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -5358,6 +5383,31 @@
 	    }
 	},
 	{
+	    "id": "railway-bus_guideway-casing-8-11",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 8,
+	    "maxzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "bus_guideway" ],
+                [ "!=", "bridge", true ],
+                [ "!=", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#6699ff",
+		"line-width": {
+		    "base": 0.4,
+		    "stops": [
+			[  8,  0.4 ],
+			[ 11, 0.8 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "railway-bus_guideway-casing-12",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -5373,10 +5423,10 @@
 	    "paint": {
 		"line-color": "#6699ff",
 		"line-width": {
-		    "base": 0.3,
+		    "base": 0.6,
 		    "stops": [
-			[ 13,  0.6 ],
-			[ 14,  1.8 ],
+			[ 13,  1.8 ],
+			[ 14,  2.4 ],
 			[ 16,  3.6 ],
 			[ 17,  7.2 ],
 			[ 18, 14.4 ],
@@ -7266,10 +7316,10 @@
 	    "paint": {
 		"line-color": "#395691",
 		"line-width": {
-		    "base": 0.3,
+		    "base": 0.6,
 		    "stops": [
-			[ 13,  0.6 ],
-			[ 14,  1.8 ],
+			[ 13,  1.8 ],
+			[ 14,  2.4 ],
 			[ 16,  3.6 ],
 			[ 17,  7.2 ],
 			[ 18, 14.4 ],
@@ -7478,10 +7528,10 @@
 		"line-color": "white",
                 "line-dasharray": [4.0, 6.0],
 		"line-width": {
-		    "base": 0.2,
+		    "base": 0.4,
 		    "stops": [
-			[ 13,  0.4 ],
-			[ 14,  1.2 ],
+			[ 13,  1.2 ],
+			[ 14,  1.8 ],
 			[ 16,  2.4 ],
 			[ 17,  4.8 ],
 			[ 18,  9.6 ],

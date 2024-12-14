@@ -2145,11 +2145,11 @@
 	    }
 	},
 	{
-	    "id": "land2-national_park-outline",
+	    "id": "land2-national_park-outline-9",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
-	    "minzoom": 6,
+	    "minzoom": 9,
 	    "filter": [ "all", [ "in", "class", "boundary_national_park" ] ],
 	    "paint": {
 		"line-color": "green",

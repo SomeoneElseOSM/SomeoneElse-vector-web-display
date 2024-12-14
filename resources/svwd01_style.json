@@ -12945,6 +12945,87 @@
 	    }
 	},
 	{
+	    "id": "land1-woodgrass-name-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "class", "natural_wood",
+                                                "natural_broadleaved",
+                                                "natural_needleleaved",
+                                                "natural_mixedleaved",
+                                                "natural_scrub",
+                                                "natural_wetland",
+                                                "landuse_grass",
+                                                "natural_grassland",
+                                                "landuse_wetmeadow",
+                                                "landuse_saltmarsh",
+                                                "landuse_reedbed",
+                                                "landuse_meadow",
+                                                "landuse_meadowtransitional",
+                                                "landuse_meadowwildflower",
+                                                "landuse_meadowperpetual" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 14,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#2a5818",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-woodgrass-name-15",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 15,
+	    "filter": [ "all", [ "in", "class", "natural_wood",
+                                                "natural_broadleaved",
+                                                "natural_needleleaved",
+                                                "natural_mixedleaved",
+                                                "natural_scrub",
+                                                "natural_wetland",
+                                                "landuse_grass",
+                                                "natural_grassland",
+                                                "landuse_wetmeadow",
+                                                "landuse_saltmarsh",
+                                                "landuse_reedbed",
+                                                "landuse_meadow",
+                                                "landuse_meadowtransitional",
+                                                "landuse_meadowwildflower",
+                                                "landuse_meadowperpetual" ],
+                               [ ">", "way_area", 2000 ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 14,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#2a5818",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
 	    "id": "land1-woodgrass-name-14",
 	    "type": "symbol",
 	    "source": "someoneelse",
@@ -12964,7 +13045,8 @@
                                                 "landuse_meadow",
                                                 "landuse_meadowtransitional",
                                                 "landuse_meadowwildflower",
-                                                "landuse_meadowperpetual" ] ],
+                                                "landuse_meadowperpetual" ],
+                               [ ">", "way_area", 50000 ] ],
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{name}\n",
@@ -13320,6 +13402,65 @@
 	    }
 	},
 	{
+	    "id": "land1-construction-name-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "class", "landuse_construction",
+                                                "landuse_brownfield",
+                                                "landuse_greenfield",
+                                                "landuse_landfill" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#434310",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-construction-name-15",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 15,
+	    "filter": [ "all", [ "in", "class", "landuse_construction",
+                                                "landuse_brownfield",
+                                                "landuse_greenfield",
+                                                "landuse_landfill" ],
+                               [ ">", "way_area", 2000 ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#434310",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
 	    "id": "land1-construction-name-14",
 	    "type": "symbol",
 	    "source": "someoneelse",
@@ -13328,7 +13469,8 @@
 	    "filter": [ "all", [ "in", "class", "landuse_construction",
                                                 "landuse_brownfield",
                                                 "landuse_greenfield",
-                                                "landuse_landfill" ] ],
+                                                "landuse_landfill" ],
+                               [ ">", "way_area", 50000 ] ],
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{name}\n",
@@ -13403,12 +13545,66 @@
 	    }
 	},
 	{
+	    "id": "land1-allotments-name-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "class", "landuse_allotments" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#734821",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 2
+	    }
+	},
+	{
+	    "id": "land1-allotments-name-15",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 15,
+	    "filter": [ "all", [ "in", "class", "landuse_allotments" ],
+                               [ ">", "way_area", 2000 ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#734821",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 2
+	    }
+	},
+	{
 	    "id": "land1-allotments-name-14",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 14,
-	    "filter": [ "all", [ "in", "class", "landuse_allotments" ] ],
+	    "filter": [ "all", [ "in", "class", "landuse_allotments" ],
+                               [ ">", "way_area", 50000 ] ],
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{name}\n",

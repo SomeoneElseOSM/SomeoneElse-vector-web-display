@@ -1,6 +1,9 @@
 # Changes made to the [SVWD01 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd01.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
+## As yet unreleased
+Show more landuse names earlier based on `way_area`, including grass and allotments.
+
 ## 11/12/2024
 Added an icon for dog parks (some are unnamed).
 Display `highway=motorway_junction` names from the `land1` layer.

@@ -5,6 +5,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 Show more landuse names earlier based on `way_area`, including grass and allotments.
 Show `tourism=attraction` at different zoom levels based on `way_area`.
 Only show the dashed outline of national parks from zoom 9.
+Make railways more obvious at zooms 12, 13 and 14
 
 ## 11/12/2024
 Added an icon for dog parks (some are unnamed).

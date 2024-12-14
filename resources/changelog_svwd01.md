@@ -3,6 +3,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 
 ## As yet unreleased
 Show more landuse names earlier based on `way_area`, including grass and allotments.
+Show `tourism=attraction` at different zoom levels based on `way_area`.
 
 ## 11/12/2024
 Added an icon for dog parks (some are unnamed).

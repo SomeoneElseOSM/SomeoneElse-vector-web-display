@@ -4,6 +4,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 ## As yet unreleased
 Show low-zoom `railway=rail` and also bus guideways at zooms 8-11.
 Show `railway=water_crane` as `historic` with a unique icon.
+Show railway turntables as circular polygons  with a name.
 
 ## 13/12/2024
 Show more landuse names earlier based on `way_area`, including grass and allotments.

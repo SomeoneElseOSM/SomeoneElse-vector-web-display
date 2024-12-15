@@ -365,6 +365,24 @@
 	    }
 	},
 	{
+	    "id": "land1-turntable-outline-15",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 15,
+	    "filter": [ "all", [ "in", "class", "railway_turntable" ] ],
+	    "paint": {
+		"line-color": "#999",
+		"line-width": {
+		    "base": 2.4,
+		    "stops": [
+			[ 15, 2.4 ],
+			[ 20, 4.8 ]
+		    ]
+                }
+	    }
+	},
+	{
 	    "id": "land1-eduhospital-fill-9",
 	    "type": "fill",
 	    "source": "someoneelse",
@@ -12693,7 +12711,8 @@
 	    "source-layer": "land1",
 	    "minzoom": 17,
 	    "filter": [ "all", [ "in", "class", "highway_platform",
-                                                "railway_platform" ] ],
+                                                "railway_platform",
+                                                "railway_turntable" ] ],
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{name}\n",

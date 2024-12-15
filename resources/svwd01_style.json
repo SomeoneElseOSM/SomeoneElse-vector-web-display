@@ -2144,7 +2144,7 @@
 	    }
 	},
 	{
-	    "id": "land1-nature_reserve-outline",
+	    "id": "land1-nature_reserve-outline-6",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -13020,6 +13020,37 @@
                                                 "landuse_village_green",
                                                 "leisure_nature_reserve" ],
                                [ ">", "way_area", 800000 ],
+	                       [ "==", "$type", "Point" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#2c4b2c",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-rec-etc-name-6",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 6,
+	    "filter": [ "all", [ "in", "class", "landuse_recreation_ground",
+                                                "landuse_conservation",
+                                                "landuse_village_green",
+                                                "leisure_nature_reserve" ],
+                               [ ">", "way_area", 4000000000 ],
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"text-anchor": "top",

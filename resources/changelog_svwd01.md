@@ -1,6 +1,9 @@
 # Changes made to the [SVWD01 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd01.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
+## As yet unreleased
+Show nature_reserves etc. at lower zooms based on zoom level.
+
 ## 14/12/2024
 Show low-zoom `railway=rail` and also bus guideways at zooms 8-11.
 Show `railway=water_crane` as `historic` with a unique icon.

@@ -2230,10 +2230,10 @@
 		"line-color": "grey",
                 "line-dasharray": [0.8, 0.8],
 		"line-width": {
-		    "base": 7.2,
+		    "base": 1.8,
 		    "stops": [
-			[ 15,  7.2 ],
-			[ 20, 14.4 ]
+			[ 15,  5.4 ],
+			[ 20, 10.8 ]
 		    ]
 		}
 	    }
@@ -2252,7 +2252,7 @@
 	    "paint": {
 		"line-color": "#f2efe9",
 		"line-width": {
-		    "base": 3.6,
+		    "base": 1.8,
 		    "stops": [
 			[ 15,  3.6 ],
 			[ 20,  7.2 ]
@@ -2517,7 +2517,7 @@
 		"line-color": "grey",
                 "line-dasharray": [0.8, 0.8],
 		"line-width": {
-		    "base": 7.2,
+		    "base": 1.8,
 		    "stops": [
 			[ 15,  7.2 ],
 			[ 20, 14.4 ]
@@ -2540,7 +2540,7 @@
 	    "paint": {
 		"line-color": "#f2efe9",
 		"line-width": {
-		    "base": 3.6,
+		    "base": 1.8,
 		    "stops": [
 			[ 15,  3.6 ],
 			[ 20,  7.2 ]
@@ -8032,10 +8032,10 @@
 	    "paint": {
 		"line-color": "black",
 		"line-width": {
-		    "base": 7.2,
+		    "base": 1.8,
 		    "stops": [
-			[ 15,  7.2 ],
-			[ 20, 14.4 ]
+			[ 15,  5.4 ],
+			[ 20, 10.8 ]
 		    ]
 		}
 	    }
@@ -8054,7 +8054,7 @@
 	    "paint": {
 		"line-color": "#f2efe9",
 		"line-width": {
-		    "base": 3.6,
+		    "base": 1.8,
 		    "stops": [
 			[ 15,  3.6 ],
 			[ 20,  7.2 ]

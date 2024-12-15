@@ -8,6 +8,7 @@ Show trees (and the labels for trees) over the top of hedges.
 Show names for very large nature reserves at zoom level 6.
 Change the non-roof building fill-opacity to 0.9, so that (for example) railway lines inside a railway station can be seen.
 Added buildings to the svwd04 debug style.
+Change footway tunnels and bridges to be less wide at very high zoom levels.
 
 ## 14/12/2024
 Show low-zoom `railway=rail` and also bus guideways at zooms 8-11.

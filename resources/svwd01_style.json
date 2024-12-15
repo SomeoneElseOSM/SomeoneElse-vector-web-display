@@ -3911,7 +3911,8 @@
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
-			[  6,  2.8 ],
+			[  6,  1.0 ],
+			[  9,  2.8 ],
 			[ 20, 86.0 ]
 		    ]
 		}
@@ -6297,7 +6298,8 @@
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
-			[  8,  2.8 ],
+			[  8,  1.4 ],
+			[  9,  2.8 ],
 			[ 20, 86.0 ]
 		    ]
 		}
@@ -6321,7 +6323,8 @@
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
-			[  8,  2.0 ],
+			[  8,  1.0 ],
+			[  9,  2.0 ],
 			[ 20, 64.0 ]
 		    ]
 		}
@@ -6349,7 +6352,8 @@
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
-			[  8,  2.8 ],
+			[  8,  1.4 ],
+			[  9,  2.8 ],
 			[ 20, 86.0 ]
 		    ]
 		}
@@ -6375,7 +6379,8 @@
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
-			[  8,  2.8 ],
+			[  8,  1.4 ],
+			[  9,  2.8 ],
 			[ 20, 86.0 ]
 		    ]
 		}
@@ -6401,7 +6406,8 @@
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
-			[  8,  2.8 ],
+			[  8,  1.4 ],
+			[  9,  2.8 ],
 			[ 20, 86.0 ]
 		    ]
 		}
@@ -6427,7 +6433,8 @@
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
-			[  8,  2.8 ],
+			[  8,  1.4 ],
+			[  9,  2.8 ],
 			[ 20, 86.0 ]
 		    ]
 		}
@@ -6452,7 +6459,8 @@
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
-			[  8,  2.0 ],
+			[  8,  1.0 ],
+			[  9,  2.0 ],
 			[ 20, 42.0 ]
 		    ]
 		}
@@ -6477,7 +6485,8 @@
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
-			[  8,  2.0 ],
+			[  8,  1.0 ],
+			[  9,  2.0 ],
 			[ 20, 42.0 ]
 		    ]
 		}
@@ -6503,7 +6512,8 @@
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
-			[  8,  2.0 ],
+			[  8,  1.0 ],
+			[  9,  2.0 ],
 			[ 20, 42.0 ]
 		    ]
 		}
@@ -6531,7 +6541,8 @@
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
-			[  8,  2.0 ],
+			[  8,  1.0 ],
+			[  9,  2.0 ],
 			[ 20, 64.0 ]
 		    ]
 		}
@@ -6555,7 +6566,8 @@
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
-			[  7,  2.8 ],
+			[  7,  1.4 ],
+			[  9,  2.8 ],
 			[ 20, 86.0 ]
 		    ]
 		}
@@ -6579,7 +6591,8 @@
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
-			[  7,  2.0 ],
+			[  7,  1.0 ],
+			[  9,  2.0 ],
 			[ 20, 64.0 ]
 		    ]
 		}
@@ -6603,7 +6616,8 @@
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
-			[  6,  2.8 ],
+			[  6,  1.0 ],
+			[  9,  2.8 ],
 			[ 20, 86.0 ]
 		    ]
 		}
@@ -6627,7 +6641,8 @@
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
-			[  6,  2.0 ],
+			[  6,  0.7 ],
+			[  9,  2.0 ],
 			[ 20, 64.0 ]
 		    ]
 		}
@@ -6655,7 +6670,8 @@
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
-			[  7,  2.8 ],
+			[  7,  1.4 ],
+			[  9,  2.8 ],
 			[ 20, 86.0 ]
 		    ]
 		}
@@ -6681,7 +6697,8 @@
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
-			[  7,  2.8 ],
+			[  7,  1.4 ],
+			[  9,  2.8 ],
 			[ 20, 86.0 ]
 		    ]
 		}
@@ -6707,7 +6724,8 @@
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
-			[  7,  2.8 ],
+			[  7,  1.4 ],
+			[  9,  2.8 ],
 			[ 20, 86.0 ]
 		    ]
 		}
@@ -6733,7 +6751,8 @@
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
-			[  7,  2.8 ],
+			[  7,  1.4 ],
+			[  9,  2.8 ],
 			[ 20, 86.0 ]
 		    ]
 		}
@@ -6758,7 +6777,8 @@
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
-			[  7,  2.0 ],
+			[  7,  1.0 ],
+			[  9,  2.0 ],
 			[ 20, 42.0 ]
 		    ]
 		}
@@ -6783,7 +6803,8 @@
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
-			[  7,  2.0 ],
+			[  7,  1.0 ],
+			[  9,  2.0 ],
 			[ 20, 42.0 ]
 		    ]
 		}
@@ -6809,7 +6830,8 @@
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
-			[  7,  2.0 ],
+			[  7,  1.0 ],
+			[  9,  2.0 ],
 			[ 20, 42.0 ]
 		    ]
 		}
@@ -6837,7 +6859,8 @@
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
-			[  7,  2.0 ],
+			[  7,  1.0 ],
+			[  9,  2.0 ],
 			[ 20, 64.0 ]
 		    ]
 		}
@@ -6862,18 +6885,19 @@
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
-			[  6,  2.0 ],
+			[  6,  0.7 ],
+			[  9,  2.0 ],
 			[ 20, 64.0 ]
 		    ]
 		}
 	    }
 	},
 	{
-	    "id": "highway-motorway-tunnelcasing-5",
+	    "id": "highway-motorway-tunnelcasing-6",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
-	    "minzoom": 5,
+	    "minzoom": 6,
 	    "filter": [
 		"all",
 		[ "in", "class", "motorway",
@@ -6886,18 +6910,18 @@
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
-			[  5,  2.8 ],
+			[  6,  1.0 ],
 			[ 20, 86.0 ]
 		    ]
 		}
 	    }
 	},
 	{
-	    "id": "highway-motorway-tunnelfill-5",
+	    "id": "highway-motorway-tunnelfill-6",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
-	    "minzoom": 5,
+	    "minzoom": 6,
 	    "filter": [
 		"all",
 		[ "in", "class", "motorway",
@@ -6910,18 +6934,18 @@
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
-			[  5,  2.0 ],
+			[  6,  0.7 ],
 			[ 20, 64.0 ]
 		    ]
 		}
 	    }
 	},
 	{
-	    "id": "highway-motorway-othercasing-5",
+	    "id": "highway-motorway-othercasing-6",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
-	    "minzoom": 5,
+	    "minzoom": 6,
 	    "filter": [
 		"all",
 		[ "in", "class", "motorway",
@@ -6935,7 +6959,8 @@
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
-			[  5,  2.8 ],
+			[  6,  1.0 ],
+			[  9,  2.8 ],
 			[ 20, 86.0 ]
 		    ]
 		}
@@ -6957,7 +6982,9 @@
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
-			[  5,  2.0 ],
+			[  3,  0.1 ],
+			[  6,  0.7 ],
+			[  9,  2.0 ],
 			[ 20, 64.0 ]
 		    ]
 		}
@@ -8862,7 +8889,8 @@
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
-			[  8,  2.8 ],
+			[  8,  1.4 ],
+			[  9,  2.8 ],
 			[ 20, 86.0 ]
 		    ]
 		}
@@ -8886,7 +8914,8 @@
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
-			[  8,  2.0 ],
+			[  8,  1.0 ],
+			[  9,  2.0 ],
 			[ 20, 64.0 ]
 		    ]
 		}
@@ -8910,7 +8939,8 @@
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
-			[  7,  2.8 ],
+			[  7,  1.4 ],
+			[  9,  2.8 ],
 			[ 20, 86.0 ]
 		    ]
 		}
@@ -8934,7 +8964,8 @@
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
-			[  7,  2.0 ],
+			[  7,  1.0 ],
+			[  9,  2.0 ],
 			[ 20, 64.0 ]
 		    ]
 		}
@@ -8958,7 +8989,8 @@
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
-			[  6,  2.8 ],
+			[  6,  1.0 ],
+			[  9,  2.8 ],
 			[ 20, 86.0 ]
 		    ]
 		}
@@ -8982,18 +9014,19 @@
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
-			[  6,  2.0 ],
+			[  6,  0.7 ],
+			[  9,  2.0 ],
 			[ 20, 64.0 ]
 		    ]
 		}
 	    }
 	},
 	{
-	    "id": "highway-motorway-bridgecasing-5",
+	    "id": "highway-motorway-bridgecasing-6",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
-	    "minzoom": 5,
+	    "minzoom": 6,
 	    "filter": [
 		"all",
 		[ "in", "class", "motorway",
@@ -9006,18 +9039,18 @@
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
-			[  5,  2.8 ],
+			[  6,  1.0 ],
 			[ 20, 86.0 ]
 		    ]
 		}
 	    }
 	},
 	{
-	    "id": "highway-motorway-bridgefill-5",
+	    "id": "highway-motorway-bridgefill-6",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
-	    "minzoom": 5,
+	    "minzoom": 6,
 	    "filter": [ "all", [ "in", "class", "motorway",
 		                                "motorway_link" ],
                                [ "==", "bridge", true ] ],
@@ -9027,7 +9060,7 @@
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
-			[  5,  2.0 ],
+			[  6,  0.7 ],
 			[ 20, 64.0 ]
 		    ]
 		}

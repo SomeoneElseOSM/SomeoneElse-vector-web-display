@@ -4,6 +4,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 ## As yet unreleased
 Show nature_reserves etc. at lower zooms based on zoom level.
 Show motorways, trunks, primaries and secondaries smaller at lower zoom levels.
+Show trees (and the labels for trees) over the top of hedges.
 
 ## 14/12/2024
 Show low-zoom `railway=rail` and also bus guideways at zooms 8-11.

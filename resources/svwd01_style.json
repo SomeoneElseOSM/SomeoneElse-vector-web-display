@@ -9312,6 +9312,22 @@
 	    }
 	},
 	{
+	    "id": "building-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "building",
+	    "minzoom": 15,
+	    "paint": {
+		"line-color": "#847676",
+		"line-width": {
+		    "stops": [
+			[ 15,  0.2 ],
+			[ 20,  0.4 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "land1-building-housenumber-16",
 	    "type": "symbol",
 	    "source": "someoneelse",

@@ -7,7 +7,7 @@ Show residential, commercial and school etc. area names at lower zoom levels bas
 Show bus stops with a small icon at zoom 15.
 Show building outlines from zoom 15.
 Reduce the spacing of names on linear barriers at higher zooms.
-Show names on linear fences and hedges.
+Show names on linear fences and hedges, and on area hedges.
 
 ## 15/12/2024
 Show nature_reserves etc. at lower zooms based on zoom level.

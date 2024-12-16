@@ -13549,7 +13549,8 @@
                                                 "landuse_meadow",
                                                 "landuse_meadowtransitional",
                                                 "landuse_meadowwildflower",
-                                                "landuse_meadowperpetual" ] ],
+                                                "landuse_meadowperpetual",
+                                                "barrier_hedge" ] ],
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{name}\n",

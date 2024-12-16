@@ -10143,7 +10143,38 @@
 	    }
 	},
 	{
-	    "id": "land1-various-lightbrown-imagename-16",
+	    "id": "land1-largescaled-lightbrown-imagename-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "class", "amenity_bench" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 16, 0.5 ], 
+                                          [ 20, 1.0 ], 
+                                          [ 22, 2.0 ] ] },
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+                "text-optional": true,
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#734a08",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-smallscaled-lightbrown-imagename-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -10194,7 +10225,6 @@
                                                 "amenity_vending_machine",
                                                 "amenity_vending_excrement",
                                                 "amenity_bottle_return",
-                                                "amenity_bench",
                                                 "amenity_police",
                                                 "amenity_post_box",
                                                 "amenity_post_office",
@@ -10623,6 +10653,9 @@
                                                 "tourism_artwork" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 16, 1.0 ], 
+                                          [ 18, 1.0 ], 
+                                          [ 22, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [

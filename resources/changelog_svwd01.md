@@ -1,7 +1,7 @@
 # Changes made to the [SVWD01 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd01.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
-## As yet unreleased
+## 15/12/2024
 Show nature_reserves etc. at lower zooms based on zoom level.
 Show motorways, trunks, primaries and secondaries smaller at lower zoom levels.
 Show trees (and the labels for trees) over the top of hedges.
@@ -12,7 +12,8 @@ Change path, footway and bridleway etc. tunnels, bridges and steps to be less wi
 Make the allotments icon sharper and have more stripes.
 Scale `power=tower` and `power=pole` icons along with the `power=line` that they are part of.
 Show point barriers on top of hedges etc., and scale point barrier icons sensibly.
-Use larger icons for playground furniture and scale them.
+Use larger icons for playground furniture and benches and scale them.
+Scale the "amenity brown" icons at high zoom levels.
 
 ## 14/12/2024
 Show low-zoom `railway=rail` and also bus guideways at zooms 8-11.

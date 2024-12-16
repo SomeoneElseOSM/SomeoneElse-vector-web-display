@@ -11925,7 +11925,7 @@
 	    }
 	},
 	{
-	    "id": "land1-amenity-playgroundpitch-imagename-17",
+	    "id": "land1-amenity-playground-imagename-17",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -11937,8 +11937,37 @@
                                                 "amenity_playground_springy",
                                                 "amenity_playground_zipwire",
                                                 "amenity_playground_seesaw",
-                                                "amenity_playground_roundabout",
-                                                "amenity_pitch_tabletennis",
+                                                "amenity_playground_roundabout" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 17, 0.5 ], 
+                                          [ 20, 1.0 ], 
+                                          [ 22, 2.0 ] ] },
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#008c27",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-amenity-pitch-imagename-17",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 17,
+	    "filter": [ "all", [ "in", "class", "amenity_pitch_tabletennis",
                                                 "amenity_pitch_soccer",
                                                 "amenity_pitch_basketball",
                                                 "amenity_pitch_cricket",

@@ -6,6 +6,7 @@ Use larger icons for trees and scale it; also scale the shrub and mini_roundabou
 Show residential, commercial and school etc. area names at lower zoom levels based on size.
 Show bus stops with a small icon at zoom 15.
 Show building outlines from zoom 15.
+Reduce the spacing of names on linear barriers at higher zooms.
 
 ## 15/12/2024
 Show nature_reserves etc. at lower zooms based on zoom level.

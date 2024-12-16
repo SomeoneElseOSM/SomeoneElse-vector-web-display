@@ -3683,6 +3683,8 @@
 		"text-field": "{name}",
 		"text-font": [ "KlokanTech Noto Sans Regular" ],
 		"symbol-placement": "line",
+		"symbol-spacing": { "stops": [ [ 16, 250 ],
+                                               [ 20, 800 ] ] },
 		"text-anchor": "bottom",
 		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] }
 	    },

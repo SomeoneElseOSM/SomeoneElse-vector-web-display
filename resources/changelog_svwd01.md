@@ -10,6 +10,7 @@ Change the non-roof building fill-opacity to 0.9, so that (for example) railway 
 Added buildings to the svwd04 debug style.
 Change path, footway and bridleway etc. tunnels, bridges and steps to be less wide at very high zoom levels.
 Make the allotments icon sharper and have more stripes.
+Scale `power=tower` and `power=pole` icons along with the `power=line` that they are part of.
 
 ## 14/12/2024
 Show low-zoom `railway=rail` and also bus guideways at zooms 8-11.

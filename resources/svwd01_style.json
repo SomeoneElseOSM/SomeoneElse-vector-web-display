@@ -9393,7 +9393,7 @@
 	    "paint": {
 		"line-color": "#777",
 		"line-width": {
-		    "base": 0.6,
+		    "base": 1.8,
 		    "stops": [
 			[ 15,  0.6 ],
 			[ 20,  2.4 ]
@@ -9428,6 +9428,8 @@
 	    "filter": [ "all", [ "in", "class", "power_tower" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 14, 1.0 ], 
+                                          [ 20, 4.0 ] ] },
 		"visibility": "visible"
 	    }
 	},
@@ -9440,6 +9442,8 @@
 	    "filter": [ "all", [ "in", "class", "power_pole" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 15, 1.0 ], 
+                                          [ 20, 4.0 ] ] },
 		"visibility": "visible"
 	    }
 	},

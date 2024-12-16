@@ -3,6 +3,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 
 ## As yet unreleased
 Use larger icons for trees and scale it; also scale the shrub icon.
+Show residential, commercial and school etc. area names at lower zoom levels based on size.
 
 ## 15/12/2024
 Show nature_reserves etc. at lower zooms based on zoom level.

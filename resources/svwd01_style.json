@@ -3676,6 +3676,8 @@
 	    "type": "symbol",
 	    "source-layer": "linearbarrier",
 	    "filter": [ "in", "class", "man_made_embankment",
+                                       "barrier_fence",
+                                       "barrier_hedge",
                                        "barrier_wall",
                                        "barrier_gate",
                                        "barrier_gate_locked" ],

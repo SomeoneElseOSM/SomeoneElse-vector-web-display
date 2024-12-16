@@ -2,7 +2,7 @@
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
 ## As yet unreleased
-Use larger icons for trees and scale it; also scale the shrub icon.
+Use larger icons for trees and scale it; also scale the shrub and mini_roundabout icons.
 Show residential, commercial and school etc. area names at lower zoom levels based on size.
 
 ## 15/12/2024

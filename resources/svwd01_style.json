@@ -11389,15 +11389,6 @@
 	    "source-layer": "land1",
 	    "minzoom": 14,
 	    "filter": [ "all", [ "in", "class", "highway_mini_roundabout",
-                                                "barrier_cattle_grid",
-                                                "barrier_cycle_barrier",
-                                                "barrier_gate",
-                                                "barrier_gate_locked",
-                                                "barrier_horse_stile",
-                                                "barrier_kissing_gate",
-                                                "barrier_dog_gate_stile",
-                                                "barrier_stepping_stones",
-                                                "barrier_stile",
                                                 "man_made_chimney",
                                                 "man_made_lighthouse",
                                                 "man_made_power_wind",
@@ -12042,6 +12033,45 @@
 			[ 20,  18.0 ]
 		    ]
 		}
+	    }
+	},
+	{
+	    "id": "land1-barrier-indigo-imagename-14",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "class", "barrier_cattle_grid",
+                                                "barrier_cycle_barrier",
+                                                "barrier_gate",
+                                                "barrier_gate_locked",
+                                                "barrier_horse_stile",
+                                                "barrier_kissing_gate",
+                                                "barrier_dog_gate_stile",
+                                                "barrier_stepping_stones",
+                                                "barrier_stile" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 14, 0.5 ], 
+                                          [ 18, 1.0 ], 
+                                          [ 20, 2.0 ] ] },
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], 
+                                          [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#000033",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
 	    }
 	},
 	{

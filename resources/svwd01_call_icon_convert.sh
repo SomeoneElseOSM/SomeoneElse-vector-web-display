@@ -786,7 +786,7 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/spring.png                                      ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/natural_spring.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/climbing.17.png                                 ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/natural_climbing.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/rock.17.png                                     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/natural_rock.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/tree.p05.png                                    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/natural_tree.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/tree.p20.png                                    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/natural_tree.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shrub2.png                                      ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/natural_shrub.png
 #
 # office

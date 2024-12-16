@@ -1,6 +1,9 @@
 # Changes made to the [SVWD01 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd01.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
+## As yet unreleased
+Use larger icons for trees and scale it; also scale the shrub icon.
+
 ## 15/12/2024
 Show nature_reserves etc. at lower zooms based on zoom level.
 Show motorways, trunks, primaries and secondaries smaller at lower zoom levels.

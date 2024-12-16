@@ -10822,6 +10822,8 @@
 	    "filter": [ "all", [ "in", "class", "natural_shrub" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 18, 1.0 ], 
+                                          [ 22, 8.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -12145,6 +12147,9 @@
 	    "filter": [ "all", [ "in", "class", "natural_tree" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 15, 0.5 ], 
+                                          [ 17, 1.0 ], 
+                                          [ 22, 8.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [

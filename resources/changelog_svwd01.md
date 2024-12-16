@@ -8,6 +8,7 @@ Show bus stops with a small icon at zoom 15.
 Show building outlines from zoom 15.
 Reduce the spacing of names on linear barriers at higher zooms.
 Show names on linear fences and hedges, and on area hedges.
+Show dam areas with a name at the centroid, at a zoom level that depends on size.
 
 ## 15/12/2024
 Show nature_reserves etc. at lower zooms based on zoom level.

@@ -12243,6 +12243,7 @@
 	    "filter": [ "all", [ "in", "class", "natural_tree" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+                "icon-allow-overlap": true,
 		"icon-size": { "stops": [ [ 15, 0.5 ], 
                                           [ 17, 1.0 ], 
                                           [ 22, 8.0 ] ] },

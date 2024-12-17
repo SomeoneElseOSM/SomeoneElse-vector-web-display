@@ -1,7 +1,7 @@
 # Changes made to the [SVWD01 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd01.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
-## As yet unreleased
+## 16/12/2024
 Use larger icons for trees and scale it; also scale the shrub and mini_roundabout icons.
 Show residential, commercial and school etc. area names at lower zoom levels based on size.
 Show bus stops with a small icon at zoom 15.

@@ -1,10 +1,11 @@
 # Changes made to the [SVWD01 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd01.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
-## As yet unreleased
+## 17/12/2024
 Allow icon overlap for trees, bus stops and barriers such as gates and styles.
 Allow icon overlap for pubs at zooms above 15.
 Show some "nice" pubs (with no icon overlap) at vector zoom 14.
+Increase the text size for water areas at high zoom.
 
 ## 16/12/2024
 Use larger icons for trees and scale it; also scale the shrub and mini_roundabout icons.

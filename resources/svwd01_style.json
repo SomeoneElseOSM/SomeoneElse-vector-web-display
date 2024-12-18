@@ -15643,7 +15643,8 @@
 		"symbol-spacing": { "stops": [ [ 10, 450 ],
                                                [ 20, 900 ] ] },
 		"text-offset": [0, 1.5],
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] }
+		"text-size": { "stops": [ [ 12,  5 ], 
+                                          [ 20, 15 ] ] }
 	    },
 	    "source": "someoneelse",
 	    "paint": {
@@ -15666,7 +15667,8 @@
 		"symbol-spacing": { "stops": [ [ 10, 450 ],
                                                [ 20, 900 ] ] },
 		"text-offset": [0, 1.5],
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] }
+		"text-size": { "stops": [ [ 12,  5 ],
+                                          [ 20, 15 ] ] }
 	    },
 	    "source": "someoneelse",
 	    "paint": {
@@ -15689,7 +15691,8 @@
 		"symbol-spacing": { "stops": [ [ 10, 450 ],
                                                [ 20, 900 ] ] },
 		"text-offset": [0, 1.5],
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] }
+		"text-size": { "stops": [ [ 12,  5 ], 
+                                          [ 20, 15 ] ] }
 	    },
 	    "source": "someoneelse",
 	    "paint": {
@@ -15712,7 +15715,8 @@
 		"symbol-spacing": { "stops": [ [ 10, 450 ],
                                                [ 20, 900 ] ] },
 		"text-offset": [0, 1.5],
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] }
+		"text-size": { "stops": [ [ 12,  5 ], 
+                                          [ 20, 15 ] ] }
 	    },
 	    "source": "someoneelse",
 	    "paint": {

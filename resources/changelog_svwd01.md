@@ -2,7 +2,9 @@
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
 ## As yet unreleased
-Allow icon overlap for trees.
+Allow icon overlap for trees, bus stops and barriers such as gates and styles.
+Allow icon overlap for pubs at zooms above 15.
+Show some "nice" pubs (with no icon overlap) at vector zoom 14.
 
 ## 16/12/2024
 Use larger icons for trees and scale it; also scale the shrub and mini_roundabout icons.

@@ -83,6 +83,14 @@ fetch("/metadata")
 	    map.keyboard.disableRotation();
 	    map.touchZoomRotate.disableRotation();
 
+	    // Add geolocate control
+	    map.addControl(
+		new maplibregl.GeolocateControl({
+		    positionOptions: { enableHighAccuracy: true },
+		    trackUserLocation: true
+		})
+	    );
+
 	    // -- Comment the following lines out to remove debug UI --
 	    map.showTileBoundaries=true;
 

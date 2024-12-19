@@ -644,6 +644,7 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/highway_crossing2.png                           ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/highway_crossing.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/milestone.png                                   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/highway_milestone.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/mini_round.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/highway_mini_roundabout.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/transport_ford.p.16.png                         ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/highway_ford.png
 #
 # historic
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/historic_archaelogical.png                      ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/historic_archaeological_site.png

@@ -5318,7 +5318,8 @@
 	    "maxzoom": 12,
 	    "filter": [
 		"all",
-		[ "in", "class", "rail" ],
+		[ "in", "class", "rail",
+                                 "preserved" ],
                 [ "!=", "bridge", true ],
                 [ "!=", "tunnel", true ]
 	    ],

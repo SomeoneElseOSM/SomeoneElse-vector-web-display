@@ -3,6 +3,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 
 ## As yet unreleased
 Allow railway and bus station icons to overlap, to avoid icon being suppressed in some cases.
+Show preserved railways at low zoom from 8.
 
 ## 18/12/2024
 Added icon and name for point fords.

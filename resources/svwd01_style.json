@@ -11125,6 +11125,64 @@
 	    }
 	},
 	{
+	    "id": "land1-natural_peak-brown-ele-12",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "natural_peak",
+                                                "natural_saddle",
+                                                "natural_volcano" ],
+                               [ "has", "name" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{ele}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 2.2 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "brown",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-natural_peak-brown-elenoname-12",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "natural_peak",
+                                                "natural_saddle",
+                                                "natural_volcano" ],
+                               [ "!has", "name" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{ele}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 1.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "brown",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
 	    "id": "land1-natural_peak-brown-imagename-12",
 	    "type": "symbol",
 	    "source": "someoneelse",
@@ -11167,6 +11225,60 @@
 	    }
 	},
 	{
+	    "id": "land1-natural_bigpeak-brown-ele-11",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 11,
+	    "filter": [ "all", [ "in", "class", "natural_bigpeak" ],
+                               [ "has", "name" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{ele}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 2.2 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "brown",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-natural_bigpeak-brown-elenoname-11",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 11,
+	    "filter": [ "all", [ "in", "class", "natural_bigpeak" ],
+                               [ "!has", "name" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{ele}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 1.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "brown",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
 	    "id": "land1-natural_bigpeak-brown-imagename-11",
 	    "type": "symbol",
 	    "source": "someoneelse",
@@ -11204,6 +11316,60 @@
 	    "layout": {
 		"icon-image": "{class}",
 		"visibility": "visible"
+	    }
+	},
+	{
+	    "id": "land1-natural_bigprompeak-brown-ele-10",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 10,
+	    "filter": [ "all", [ "in", "class", "natural_bigprompeak" ],
+                               [ "has", "name" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{ele}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 2.2 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "brown",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-natural_bigprompeak-brown-elenoname-10",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 10,
+	    "filter": [ "all", [ "in", "class", "natural_bigprompeak" ],
+                               [ "!has", "name" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{ele}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 1.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "brown",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
 	    }
 	},
 	{

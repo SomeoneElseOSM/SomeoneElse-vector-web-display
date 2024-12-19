@@ -1,8 +1,9 @@
 # Changes made to the [SVWD01 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd01.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
-## As yet unreleased
+## 18/12/2024
 Added icon and name for point fords.
+Show elevation on peaks etc.
 
 ## 17/12/2024
 Allow icon overlap for trees, bus stops and barriers such as gates and styles.

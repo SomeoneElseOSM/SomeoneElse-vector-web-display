@@ -1,6 +1,9 @@
 # Changes made to the [SVWD01 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd01.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
+## As yet unreleased
+Allow railway and bus station icons to overlap, to avoid icon being suppressed in some cases.
+
 ## 18/12/2024
 Added icon and name for point fords.
 Show elevation on peaks etc.

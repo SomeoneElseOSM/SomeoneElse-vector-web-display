@@ -9831,6 +9831,7 @@
 	    "filter": [ "all", [ "in", "class", "amenity_bus_station" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+                "icon-allow-overlap": true,
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -10046,13 +10047,40 @@
 	    }
 	},
 	{
+	    "id": "land1-various-lightbrown-imagenamenooverlap-13",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 13,
+	    "filter": [ "all", [ "in", "class", "amenity_tourismstation" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+                "icon-allow-overlap": true,
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#734a08",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
 	    "id": "land1-various-lightbrown-imagename-14",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 14,
-	    "filter": [ "all", [ "in", "class", "amenity_tourismstation",
-                                                "amenity_prison",
+	    "filter": [ "all", [ "in", "class", "amenity_prison",
                                                 "man_made_survey_point",
                                                 "man_made_cairn",
                                                 "tourism_informationpnfs" ] ],
@@ -13530,6 +13558,7 @@
 	    "filter": [ "all", [ "in", "class", "railway_station" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+                "icon-allow-overlap": true,
 		"icon-size": { "stops": [ [ 11, 0.3 ], 
                                           [ 13, 0.5 ], 
                                           [ 20, 3.0 ] ] },
@@ -13563,6 +13592,7 @@
                                                 "aerialway_station" ] ],
 	    "layout": {
 		"icon-image": "railway_station",
+                "icon-allow-overlap": true,
 		"icon-size": { "stops": [ [ 12, 0.3 ], 
                                           [ 14, 0.5 ], 
                                           [ 20, 2.0 ] ] },

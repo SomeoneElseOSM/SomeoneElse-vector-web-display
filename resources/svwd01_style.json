@@ -3036,7 +3036,8 @@
 	    "minzoom": 13,
 	    "filter": [
 		"all",
-		[ "in", "class", "ditch" ],
+		[ "in", "class", "ditch",
+                                 "intditch" ],
                 [ "==", "tunnel", true ]
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
@@ -3063,7 +3064,8 @@
 	    "source": "someoneelse",
 	    "source-layer": "waterway",
 	    "minzoom": 13,
-	    "filter": [ "all", [ "in", "class", "ditch" ],
+	    "filter": [ "all", [ "in", "class", "ditch",
+                                                "intditch" ],
                                [ "==", "tunnel", true ] ],
 	    "layout": { "line-cap": "square", "line-join": "round", "visibility": "visible" },
 	    "paint": {
@@ -3091,7 +3093,9 @@
 	    "filter": [
 		"all",
 		[ "in", "class", "stream",
-		                 "drain" ],
+		                 "intstream",
+		                 "drain",
+		                 "intdrain" ],
                 [ "==", "tunnel", true ]
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
@@ -3119,66 +3123,13 @@
 	    "source-layer": "waterway",
 	    "minzoom": 12,
 	    "filter": [ "all", [ "in", "class", "stream",
-                                                "drain" ],
+                                                "intstream",
+                                                "drain",
+                                                "intdrain" ],
                                [ "==", "tunnel", true ] ],
 	    "layout": { "line-cap": "square", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#f3f7f7",
-		"line-width": {
-		    "base": 1.0,
-		    "stops": [
-			[ 12,   1.0 ],
-			[ 14,   1.5 ],
-			[ 16,   3.0 ],
-			[ 18,   7.0 ],
-			[ 20,  15.0 ],
-			[ 22,  50.0 ],
-			[ 24, 200.0 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "waterway-intstream-tunnelcasing-12",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "waterway",
-	    "minzoom": 12,
-	    "filter": [
-		"all",
-		[ "in", "class", "intstream" ],
-                [ "==", "tunnel", true ]
-	    ],
-	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
-	    "paint": {
-		"line-color": "#b5d0d0",
-                "line-dasharray": [0.1, 0.05],
-		"line-width": {
-		    "base": 1.0,
-		    "stops": [
-			[ 12,   1.4 ],
-			[ 14,   2.2 ],
-			[ 16,   4.4 ],
-			[ 18,  10.0 ],
-			[ 20,  21.0 ],
-			[ 22,  70.0 ],
-			[ 24, 280.0 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "waterway-intstream-tunnelfill-12",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "waterway",
-	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "class", "intstream" ],
-                               [ "==", "tunnel", true ] ],
-	    "layout": { "line-cap": "square", "line-join": "round", "visibility": "visible" },
-	    "paint": {
-		"line-color": "#f3f7f7",
-                "line-dasharray": [1.5, 0.75],
 		"line-width": {
 		    "base": 1.0,
 		    "stops": [
@@ -3391,7 +3342,7 @@
 	    }
 	},
 	{
-	    "id": "waterway-intriver",
+	    "id": "waterway-intriver-otherfill-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "waterway",
@@ -3444,7 +3395,8 @@
 	    "source": "someoneelse",
 	    "source-layer": "waterway",
 	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "class", "intstream" ],
+	    "filter": [ "all", [ "in", "class", "intstream",
+                                                "intdrain" ],
                                [ "!=", "bridge", true ],
                                [ "!=", "tunnel", true ] ],
 	    "paint": {
@@ -3465,7 +3417,7 @@
 	    }
 	},
 	{
-	    "id": "waterway-ditch-13",
+	    "id": "waterway-ditch-otherfill-13",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "waterway",
@@ -3475,6 +3427,32 @@
                                [ "!=", "tunnel", true ] ],
 	    "paint": {
 		"line-color": "#b5d0d0",
+		"line-width": {
+		    "base": 1.0,
+		    "stops": [
+			[ 13,   1.0 ],
+			[ 14,   1.0 ],
+			[ 16,   2.0 ],
+			[ 18,   2.3 ],
+			[ 20,  10.0 ],
+			[ 22,  67.0 ],
+			[ 24, 133.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "waterway-intditch-otherfill-13",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "waterway",
+	    "minzoom": 13,
+	    "filter": [ "all", [ "in", "class", "intditch" ],
+                               [ "!=", "bridge", true ],
+                               [ "!=", "tunnel", true ] ],
+	    "paint": {
+		"line-color": "#b5d0d0",
+                "line-dasharray": [1.5, 0.75],
 		"line-width": {
 		    "base": 1.0,
 		    "stops": [
@@ -7611,7 +7589,8 @@
 	    "minzoom": 13,
 	    "filter": [
 		"all",
-		[ "in", "class", "ditch" ],
+		[ "in", "class", "ditch",
+                                 "intditch" ],
                 [ "==", "bridge", true ]
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
@@ -7637,7 +7616,8 @@
 	    "source": "someoneelse",
 	    "source-layer": "waterway",
 	    "minzoom": 13,
-	    "filter": [ "all", [ "in", "class", "ditch" ],
+	    "filter": [ "all", [ "in", "class", "ditch",
+                                                "intditch" ],
                                [ "==", "bridge", true ] ],
 	    "paint": {
 		"line-color": "#b5d0d0",
@@ -7664,7 +7644,9 @@
 	    "filter": [
 		"all",
 		[ "in", "class", "stream",
-		                 "drain" ],
+		                 "drain",
+                                 "intstream",
+                                 "intdrain" ],
                 [ "==", "bridge", true ]
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
@@ -7691,63 +7673,12 @@
 	    "source-layer": "waterway",
 	    "minzoom": 12,
 	    "filter": [ "all", [ "in", "class", "stream",
-                                                "drain" ],
+                                                "drain",
+                                                "intstream",
+                                                "intdrain" ],
                                [ "==", "bridge", true ] ],
 	    "paint": {
 		"line-color": "#b5d0d0",
-		"line-width": {
-		    "base": 1.0,
-		    "stops": [
-			[ 12,   1.0 ],
-			[ 14,   1.5 ],
-			[ 16,   3.0 ],
-			[ 18,   7.0 ],
-			[ 20,  15.0 ],
-			[ 22,  50.0 ],
-			[ 24, 200.0 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "waterway-intstream-bridgecasing-12",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "waterway",
-	    "minzoom": 12,
-	    "filter": [
-		"all",
-		[ "in", "class", "intstream" ],
-                [ "==", "bridge", true ]
-	    ],
-	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
-	    "paint": {
-		"line-color": "black",
-		"line-width": {
-		    "base": 1.0,
-		    "stops": [
-			[ 12,   1.4 ],
-			[ 14,   2.2 ],
-			[ 16,   4.4 ],
-			[ 18,  10.0 ],
-			[ 20,  21.0 ],
-			[ 22,  70.0 ],
-			[ 24, 280.0 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "waterway-intstream-bridgefill-12",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "waterway",
-	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "class", "intstream" ],
-                               [ "==", "bridge", true ] ],
-	    "paint": {
-		"line-color": "#b5d0d0",
-                "line-dasharray": [1.5, 0.75],
 		"line-width": {
 		    "base": 1.0,
 		    "stops": [
@@ -7965,11 +7896,13 @@
 	    "id": "label-waterway-bottom-14",
 	    "type": "symbol",
 	    "source-layer": "waterway",
-	    "filter": [ "in", "class", "stream",
-                                       "intriver",
+	    "filter": [ "in", "class", "intriver",
+                                       "stream",
                                        "intstream",
                                        "drain",
-                                       "ditch" ],
+                                       "intdrain",
+                                       "ditch",
+                                       "intditch" ],
 	    "layout": {
 		"text-field": "{name}",
 		"text-font": [ "KlokanTech Noto Sans Regular" ],

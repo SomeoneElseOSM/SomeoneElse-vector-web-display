@@ -7,6 +7,7 @@ Show preserved railways at low zoom from 8.
 Show elevation on hills.
 Change the cemetery and quarry fill patterns to be crisper 32x32 patterns not upscaled 16x16 or 18x18 ones.
 Manually make one of the flowers in the meadowwildflower pattern more obvious.
+Handle intermittent drains and ditches sent through as `intdrain` and `intditch`.  Bridges and tunnels are handled as per non-intermittent (a bridge is still a bridge, and a tunnel is still a tunnel).  Other ways are drawn with an appropriate width dashed line.
 
 ## 18/12/2024
 Added icon and name for point fords.

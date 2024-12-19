@@ -5,6 +5,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 Allow railway and bus station icons to overlap, to avoid icon being suppressed in some cases.
 Show preserved railways at low zoom from 8.
 Show elevation on hills.
+Change the cemetery fill patterns to be crisper 32x32 patterns not upscaled 16x16 or 18x18 ones.
 
 ## 18/12/2024
 Added icon and name for point fords.

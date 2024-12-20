@@ -1,7 +1,7 @@
 # Changes made to the [SVWD01 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd01.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
-## As yet unreleased
+## 19/12/2024
 Allow railway and bus station icons to overlap, to avoid icon being suppressed in some cases.
 Show preserved railways at low zoom from 8.
 Show elevation on hills.

@@ -1,6 +1,9 @@
 # Changes made to the [SVWD01 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd01.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
+## As yet unreleased
+Change the "raster" button on the vector map so that it browses the raster map at the location that the vector map was showing.
+
 ## 20/12/2024
 Display `building=bridge_area` (from OSM tag `man_made=bridge`) before roads but `building=roof` later (as before) so that roofs are over roads and bridges are under them.
 

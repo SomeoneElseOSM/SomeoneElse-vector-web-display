@@ -29,9 +29,18 @@
 var map;
 var osmAttrib='Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>';
 
+/* -------------------------------------------------------------------------
+ * Obtain the currect vector zoom level and location.
+ * Add 1 to the vector zoom level to get the equivalent raster zoom level
+ * Browse to the current location on the raster map.
+ * Raster zooms are whole numbers, so any fractional part of the vector 
+ * zoom level is trunctated.
+ * ------------------------------------------------------------------------- */
 function show_raster()
 {
-    window.open ( '../maps/map/map.html','_self',false )
+    let zoom = map.getZoom() + 1;
+    let {lng, lat} = map.getCenter();
+    window.open ( '../maps/map/map.html'+'#'+zoom+'/'+lat+'/'+lng,'_self',false )
 }
 
 /* -------------------------------------------------------------------------

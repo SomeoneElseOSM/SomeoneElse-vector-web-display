@@ -2215,6 +2215,18 @@
 	    }
 	},
 	{
+	    "id": "building-bridge_area-fill",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "building",
+	    "filter": [ "all", [ "in", "class", "building_bridge_area" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#bca9a9",
+		"fill-opacity": 0.7
+	    }
+	},
+	{
 	    "id": "highway-footway-tunnelcasing-12",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -9243,7 +9255,8 @@
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "building",
-	    "filter": [ "all", [ "!in", "class", "building_roof" ] ],
+	    "filter": [ "all", [ "!in", "class", "building_roof",
+                                                 "building_bridge_area" ] ],
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#bca9a9",

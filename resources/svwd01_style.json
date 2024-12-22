@@ -2144,11 +2144,11 @@
 	    }
 	},
 	{
-	    "id": "land1-nature_reserve-outline-6",
+	    "id": "land1-nature_reserve-outline-9",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "minzoom": 6,
+	    "minzoom": 9,
 	    "filter": [ "all", [ "in", "class", "leisure_nature_reserve" ] ],
 	    "paint": {
 		"line-color": "green",
@@ -2189,6 +2189,20 @@
 	    "minzoom": 6,
 	    "maxzoom": 13,
 	    "filter": [ "all", [ "in", "class", "boundary_national_park" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "green",
+		"fill-opacity": 0.05
+	    }
+	},
+	{
+	    "id": "land1-nature_reserve-fill-6-13",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 6,
+	    "maxzoom": 13,
+	    "filter": [ "all", [ "in", "class", "leisure_nature_reserve" ] ],
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "green",

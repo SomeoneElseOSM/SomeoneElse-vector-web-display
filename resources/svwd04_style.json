@@ -44,13 +44,13 @@
 	    }
 	},
 	{
-	    "id": "land1-outline",
+	    "id": "land2-outline",
 	    "type": "line",
 	    "source": "someoneelse",
-	    "source-layer": "land1",
+	    "source-layer": "land2",
 	    "minzoom": 6,
 	    "paint": {
-		"line-color": "red",
+		"line-color": "cyan",
                 "line-dasharray": [2.0, 4.0],
 		"line-width": {
 		    "base": 1.2,
@@ -62,13 +62,13 @@
 	    }
 	},
 	{
-	    "id": "land2-outline",
+	    "id": "land1-outline",
 	    "type": "line",
 	    "source": "someoneelse",
-	    "source-layer": "land2",
+	    "source-layer": "land1",
 	    "minzoom": 6,
 	    "paint": {
-		"line-color": "cyan",
+		"line-color": "red",
                 "line-dasharray": [2.0, 4.0],
 		"line-width": {
 		    "base": 1.2,
@@ -131,118 +131,6 @@
 	    }
 	},
 	{
-	    "id": "land1-named-point-12",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 6,
-	    "filter": [ "all", [ "==", "$type", "Point" ],
-                               [ "has", "name" ] ],
-	    "layout": {
-		"icon-image": "{class}",
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 9,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "red",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
-	    "id": "land1-unnamed-point-12",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 6,
-	    "filter": [ "all", [ "==", "$type", "Point" ],
-                               [ "!has", "name" ] ],
-	    "layout": {
-		"icon-image": "{class}",
-		"text-anchor": "top",
-		"text-field": "(unnamed)\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 9,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "red",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
-	    "id": "land1-named-other-12",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 14,
-	    "filter": [ "all", [ "!=", "$type", "Point" ],
-                               [ "has", "name" ] ],
-	    "layout": {
-		"icon-image": "{class}",
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 9,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "orange",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
-	    "id": "land1-unnamed-other-12",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 14,
-	    "filter": [ "all", [ "!=", "$type", "Point" ],
-                               [ "has", "name" ] ],
-	    "layout": {
-		"icon-image": "{class}",
-		"text-anchor": "top",
-		"text-field": "(unnamed)\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 9,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "orange",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
 	    "id": "land2-named-point-12",
 	    "type": "symbol",
 	    "source": "someoneelse",
@@ -252,6 +140,7 @@
                                [ "has", "name" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+                "icon-allow-overlap": true,
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -261,6 +150,7 @@
 		"text-offset": [ 0, 0.6 ],
 		"text-padding": 2,
 		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+                "text-allow-overlap": true,
 		"visibility": "visible"
 	    },
 	    "paint": {
@@ -280,6 +170,7 @@
                                [ "!has", "name" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+                "icon-allow-overlap": true,
 		"text-anchor": "top",
 		"text-field": "(unnamed)\n",
 		"text-font": [
@@ -289,6 +180,7 @@
 		"text-offset": [ 0, 0.6 ],
 		"text-padding": 2,
 		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+                "text-allow-overlap": true,
 		"visibility": "visible"
 	    },
 	    "paint": {
@@ -308,6 +200,7 @@
                                [ "has", "name" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+                "icon-allow-overlap": true,
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -317,6 +210,7 @@
 		"text-offset": [ 0, 0.6 ],
 		"text-padding": 2,
 		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+                "text-allow-overlap": true,
 		"visibility": "visible"
 	    },
 	    "paint": {
@@ -336,6 +230,7 @@
                                [ "!has", "name" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+                "icon-allow-overlap": true,
 		"text-anchor": "top",
 		"text-field": "(unnamed)\n",
 		"text-font": [
@@ -345,10 +240,131 @@
 		"text-offset": [ 0, 0.6 ],
 		"text-padding": 2,
 		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+                "text-allow-overlap": true,
 		"visibility": "visible"
 	    },
 	    "paint": {
 		"text-color": "cyan",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-named-other-12",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "!=", "$type", "Point" ],
+                               [ "has", "name" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+                "icon-allow-overlap": true,
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+                "text-allow-overlap": true,
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "orange",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-named-point-12",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 6,
+	    "filter": [ "all", [ "==", "$type", "Point" ],
+                               [ "has", "name" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+                "icon-allow-overlap": true,
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+                "text-allow-overlap": true,
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "red",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-unnamed-other-12",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "!=", "$type", "Point" ],
+                               [ "has", "name" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+                "icon-allow-overlap": true,
+		"text-anchor": "top",
+		"text-field": "(unnamed)\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+                "text-allow-overlap": true,
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "orange",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-unnamed-point-12",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 6,
+	    "filter": [ "all", [ "==", "$type", "Point" ],
+                               [ "!has", "name" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+                "icon-allow-overlap": true,
+		"text-anchor": "top",
+		"text-field": "(unnamed)\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+                "text-allow-overlap": true,
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "red",
 		"text-halo-blur": 0.5,
 		"text-halo-color": "#ffffff",
 		"text-halo-width": 1
@@ -364,6 +380,7 @@
                                [ "has", "name" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+                "icon-allow-overlap": true,
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -373,6 +390,7 @@
 		"text-offset": [ 0, 0.6 ],
 		"text-padding": 2,
 		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+                "text-allow-overlap": true,
 		"visibility": "visible"
 	    },
 	    "paint": {
@@ -392,6 +410,7 @@
                                [ "!has", "name" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+                "icon-allow-overlap": true,
 		"text-anchor": "top",
 		"text-field": "(unnamed)\n",
 		"text-font": [
@@ -401,6 +420,7 @@
 		"text-offset": [ 0, 0.6 ],
 		"text-padding": 2,
 		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+                "text-allow-overlap": true,
 		"visibility": "visible"
 	    },
 	    "paint": {
@@ -420,6 +440,7 @@
                                [ "has", "name" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+                "icon-allow-overlap": true,
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -429,6 +450,7 @@
 		"text-offset": [ 0, 0.6 ],
 		"text-padding": 2,
 		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+                "text-allow-overlap": true,
 		"visibility": "visible"
 	    },
 	    "paint": {
@@ -448,6 +470,7 @@
                                [ "!has", "name" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+                "icon-allow-overlap": true,
 		"text-anchor": "top",
 		"text-field": "(unnamed)\n",
 		"text-font": [
@@ -457,6 +480,7 @@
 		"text-offset": [ 0, 0.6 ],
 		"text-padding": 2,
 		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+                "text-allow-overlap": true,
 		"visibility": "visible"
 	    },
 	    "paint": {
@@ -472,6 +496,7 @@
 	    "source-layer": "linearbarrier",
 	    "layout": {
 		"text-field": "{name}",
+                "text-allow-overlap": true,
 		"text-font": [ "KlokanTech Noto Sans Regular" ],
 		"symbol-placement": "line",
 		"text-anchor": "bottom",
@@ -492,6 +517,7 @@
 	    "source-layer": "transportation",
 	    "layout": {
 		"text-field": "{name}",
+                "text-allow-overlap": true,
 		"text-font": [ "KlokanTech Noto Sans Regular" ],
 		"symbol-placement": "line",
 		"text-anchor": "bottom",
@@ -512,6 +538,7 @@
 	    "source-layer": "waterway",
 	    "layout": {
 		"text-field": "{name}",
+                "text-allow-overlap": true,
 		"text-font": [ "KlokanTech Noto Sans Regular" ],
 		"symbol-placement": "line",
 		"text-anchor": "bottom",
@@ -543,6 +570,7 @@
 		"text-offset": [ 0, 0.6 ],
 		"text-padding": 2,
 		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+                "text-allow-overlap": true,
 		"visibility": "visible"
 	    },
 	    "paint": {
@@ -569,6 +597,7 @@
 		"text-offset": [ 0, 0.6 ],
 		"text-padding": 2,
 		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+                "text-allow-overlap": true,
 		"visibility": "visible"
 	    },
 	    "paint": {

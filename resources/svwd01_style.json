@@ -1898,11 +1898,11 @@
 	    }
 	},
 	{
-	    "id": "land1-golfgreen-fill-9",
+	    "id": "land1-golfgreen-fill-11",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "minzoom": 9,
+	    "minzoom": 11,
 	    "filter": [ "all", [ "in", "class", "leisure_golfgreen" ] ],
 	    "paint": {
 		"fill-antialias": true,

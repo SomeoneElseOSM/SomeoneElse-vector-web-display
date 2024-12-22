@@ -4,6 +4,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 ## As yet unreleased
 Change the "raster" button on the vector map so that it browses the raster map at the location that the vector map was showing.
 Don't show the dashes around nature reserves at low zooms; do show a green fill like national parks.
+Change the "eduhospital" outline minzoom to vector zoom 12; it was too heavy at zoom 11.
 
 ## 20/12/2024
 Display `building=bridge_area` (from OSM tag `man_made=bridge`) before roads but `building=roof` later (as before) so that roofs are over roads and bridges are under them.

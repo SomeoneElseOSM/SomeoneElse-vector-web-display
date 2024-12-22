@@ -399,11 +399,11 @@
 	    }
 	},
 	{
-	    "id": "land1-eduhospital-outline-11",
+	    "id": "land1-eduhospital-outline-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "minzoom": 11,
+	    "minzoom": 12,
 	    "filter": [ "all", [ "in", "class", "amenity_university",
                                                 "amenity_college",
                                                 "amenity_school",

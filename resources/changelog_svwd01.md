@@ -11,7 +11,7 @@ Allow icon overlap on some parking features.
 Allow overlap of icons and text in the debug layer svwd04.
 Draw nicer rail bridges for rail, disused, funicular, tram, light_rail, subway.
 Made text optional for nonspecific leisure.
-Car parks have a point written out at the centroid.  Only dislay the icon there, not in the middle or the polygon.
+Car parks have a point written out at the centroid.  Only dislay the icon there, not in the middle or the polygon.  Similiarly for hotels and motels and camp and caravan sites.
 
 ## 20/12/2024
 Display `building=bridge_area` (from OSM tag `man_made=bridge`) before roads but `building=roof` later (as before) so that roofs are over roads and bridges are under them.

@@ -10,6 +10,7 @@ Reduce the opacity of trees slightly.
 Allow icon overlap on some parking features.
 Allow overlap of icons and text in the debug layer svwd04.
 Draw nicer rail bridges for rail, disused, funicular, tram, light_rail, subway.
+Made text optional for nonspecific leisure.
 
 ## 20/12/2024
 Display `building=bridge_area` (from OSM tag `man_made=bridge`) before roads but `building=roof` later (as before) so that roofs are over roads and bridges are under them.

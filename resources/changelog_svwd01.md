@@ -1,7 +1,7 @@
 # Changes made to the [SVWD01 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd01.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
-## As yet unreleased
+## 23/12/2024
 Change the "raster" button on the vector map so that it browses the raster map at the location that the vector map was showing.
 Don't show the dashes around nature reserves at low zooms; do show a green fill like national parks.
 Change the "eduhospital" outline minzoom to vector zoom 12; it was too heavy at zoom 11.

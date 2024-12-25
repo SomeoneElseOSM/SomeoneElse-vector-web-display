@@ -6,7 +6,9 @@ The cartography here is basically a reimplementation of the raster maps at [map.
 
 There has been a _considerable_ consolidation of layers from the 76 or so in raster to 8 here.
 
-The "new" vector lua code here is designed to be compatible with raster input data too; the plan is eventually to use one version of the code for both (and perhaps some aspects of [mkgmap processing](https://github.com/SomeoneElseOSM/mkgmap_style_ajt/blob/master/transform_03.lua) too).
+The lua processing code that produces the data that this style processes is shared with [sve01](https://github.com/SomeoneElseOSM/SomeoneElse-vector-extract/blob/main/resources/), so the tags and values in the style .json may not even exist in OSM at all.  See the schema readme for what actually gets extracted.
+
+Most extracted data is displayed by this style at some zoom level; an exception is `boundary=administrative` polygons and centroids.
 
 ## Credits
 

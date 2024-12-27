@@ -3,6 +3,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 
 ## As yet unreleased
 Display an icon along with the name for `aerodrome` and `large_aerodrome`.
+Show private parking (bicycle, motorcycle) with lower opacity.
 
 ## 27/12/2024
 Moved `tourism=theme_park` to the list of objects for which object names are written separately for the centroid.
@@ -12,7 +13,7 @@ Display the names of marinas and harbours at centroid only.
 Display the names of most shops at centroid only.
 
 ## 26/12/2024
-Show private parking (car, bicycle, motorcycle) with lower opacity.
+Show private car parking with lower opacity.
 
 ## 23/12/2024
 Change the "raster" button on the vector map so that it browses the raster map at the location that the vector map was showing.

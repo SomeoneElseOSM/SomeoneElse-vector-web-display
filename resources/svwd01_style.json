@@ -12318,7 +12318,8 @@
 	    "minzoom": 15,
 	    "filter": [ "all", [ "in", "class", "shop_supermarket",
                                                 "shop_department_store",
-                                                "shop_ecosupermarket" ] ],
+                                                "shop_ecosupermarket" ],
+	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",
@@ -12357,8 +12358,35 @@
                                                 "amenity_animal_boarding",
                                                 "amenity_animal_shelter",
                                                 "amenity_car_wash",
-                                                "amenity_car_rental",
-                                                "shop_alcohol",
+                                                "amenity_car_rental" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+                "text-optional": true,
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#939",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-various-purple-imagename-centroid-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "class", "shop_alcohol",
                                                 "shop_antiques",
                                                 "shop_art",
                                                 "shop_bakery",
@@ -12420,7 +12448,8 @@
                                                 "shop_storage_rental",
                                                 "shop_tattoo",
                                                 "shop_toys",
-                                                "shop_travel_agent" ] ],
+                                                "shop_travel_agent" ],
+	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",
@@ -12591,9 +12620,37 @@
                                                 "amenity_pharmacy_y",
                                                 "amenity_ambulance_station",
                                                 "amenity_mountain_rescue",
-                                                "amenity_mountain_rescue_box",
-                                                "shop_healthnonspecific",
-                                                "shop_optician" ] ],
+                                                "amenity_mountain_rescue_box" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+                "text-optional": true,
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#da0092",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-health-imagename-centroid-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "class", "shop_healthnonspecific",
+                                                "shop_optician" ],
+	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",

@@ -15868,7 +15868,8 @@
 	    "source-layer": "land2",
 	    "minzoom": 16,
 	    "filter": [ "all", [ "in", "class", "landuse_harbour",
-                                                "leisure_marina" ] ],
+                                                "leisure_marina" ],
+	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{name}\n",

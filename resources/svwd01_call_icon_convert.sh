@@ -912,6 +912,7 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/lock_gate.png                                   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/waterway_lock_gate.png
 #
 # aeroway
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/aerodrome.p.16.png                              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/aeroway_aerodrome.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/helipad.p.16.png                                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/aeroway_helipad.png
 #
 # railway

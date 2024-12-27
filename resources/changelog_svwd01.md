@@ -1,6 +1,9 @@
 # Changes made to the [SVWD01 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd01.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
+## As yet unreleased
+Display an icon along with the name for `aerodrome` and `large_aerodrome`.
+
 ## 27/12/2024
 Moved `tourism=theme_park` to the list of objects for which object names are written separately for the centroid.
 Allow `natural=rock` and `natural=climbing` icons to overlap.

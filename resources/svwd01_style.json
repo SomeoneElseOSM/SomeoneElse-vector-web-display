@@ -15736,7 +15736,7 @@
 	    }
 	},
 	{
-	    "id": "land2-aerodrome-lightbrown-name-13",
+	    "id": "land2-aerodrome-lightbrown-imagename-13",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
@@ -15744,6 +15744,7 @@
 	    "filter": [ "all", [ "in", "class", "aeroway_aerodrome" ],
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
+		"icon-image": "{class}",
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -15763,13 +15764,14 @@
 	    }
 	},
 	{
-	    "id": "land2-aerodrome-blue-name-9",
+	    "id": "land2-aerodrome-blue-imagename-9",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
 	    "minzoom": 9,
 	    "filter": [ "all", [ "in", "class", "aeroway_large_aerodrome" ] ],
 	    "layout": {
+		"icon-image": "aeroway_aerodrome",
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [

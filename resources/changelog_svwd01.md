@@ -4,6 +4,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 ## As yet unreleased
 Moved `tourism=theme_park` to the list of objects for which object names are written separately for the centroid.
 Allow `natural=rock` and `natural=climbing` icons to overlap.
+Display access land with a fill from zoom 6 and an outline from zoom 13.
 
 ## 26/12/2024
 Show private parking (car, bicycle, motorcycle) with lower opacity.

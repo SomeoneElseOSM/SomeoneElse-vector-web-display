@@ -15624,7 +15624,8 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 16,
-	    "filter": [ "all", [ "in", "class", "tourism_theme_park" ] ],
+	    "filter": [ "all", [ "in", "class", "tourism_theme_park" ],
+	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{name}\n",

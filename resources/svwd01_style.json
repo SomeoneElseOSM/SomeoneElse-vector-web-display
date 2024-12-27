@@ -11223,6 +11223,7 @@
                                                 "natural_rock" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+                "icon-allow-overlap": true,
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [

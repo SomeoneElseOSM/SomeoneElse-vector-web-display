@@ -12692,7 +12692,8 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 14,
-	    "filter": [ "all", [ "in", "class", "amenity_hospital" ] ],
+	    "filter": [ "all", [ "in", "class", "amenity_hospital" ],
+	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",
@@ -15264,7 +15265,8 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 16,
-	    "filter": [ "all", [ "in", "class", "landuse_allotments" ] ],
+	    "filter": [ "all", [ "in", "class", "landuse_allotments" ],
+	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{name}\n",
@@ -15291,7 +15293,8 @@
 	    "source-layer": "land1",
 	    "minzoom": 15,
 	    "filter": [ "all", [ "in", "class", "landuse_allotments" ],
-                               [ ">", "way_area", 2000 ] ],
+                               [ ">", "way_area", 2000 ],
+	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{name}\n",
@@ -15318,7 +15321,8 @@
 	    "source-layer": "land1",
 	    "minzoom": 14,
 	    "filter": [ "all", [ "in", "class", "landuse_allotments" ],
-                               [ ">", "way_area", 50000 ] ],
+                               [ ">", "way_area", 50000 ],
+	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{name}\n",

@@ -7,6 +7,9 @@ Show private parking (bicycle, motorcycle) with lower opacity.
 Show area grass runways as green.
 Show names of various area aeroway features from zoom 15 in dark grey.
 Display the icons and names of hospitals at the centroid only.
+Display the name for more tourism features at the centroid only.
+Display the name for `amenity=ferry_terminal` at the centroid only.
+Display `tourism=attraction` fill with a relatively low maxzoom.
 
 ## 27/12/2024
 Moved `tourism=theme_park` to the list of objects for which object names are written separately for the centroid.

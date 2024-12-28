@@ -13330,8 +13330,7 @@
 	    "source-layer": "land1",
 	    "minzoom": 15,
 	    "filter": [ "all", [ "in", "class", "natural_water",
-                                                "natural_intermittentwater",
-                                                "natural_flood_prone" ],
+                                                "natural_intermittentwater" ],
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"text-anchor": "top",
@@ -13360,8 +13359,7 @@
 	    "source-layer": "land1",
 	    "minzoom": 14,
 	    "filter": [ "all", [ "in", "class", "natural_water",
-                                                "natural_intermittentwater",
-                                                "natural_flood_prone" ],
+                                                "natural_intermittentwater" ],
                                [ ">", "way_area", 24000 ],
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
@@ -13391,8 +13389,7 @@
 	    "source-layer": "land1",
 	    "minzoom": 13,
 	    "filter": [ "all", [ "in", "class", "natural_water",
-                                                "natural_intermittentwater",
-                                                "natural_flood_prone" ],
+                                                "natural_intermittentwater" ],
                                [ ">", "way_area", 68728 ],
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
@@ -13422,8 +13419,7 @@
 	    "source-layer": "land1",
 	    "minzoom": 12,
 	    "filter": [ "all", [ "in", "class", "natural_water",
-                                                "natural_intermittentwater",
-                                                "natural_flood_prone" ],
+                                                "natural_intermittentwater" ],
                                [ ">", "way_area", 274914 ],
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
@@ -13453,8 +13449,7 @@
 	    "source-layer": "land1",
 	    "minzoom": 11,
 	    "filter": [ "all", [ "in", "class", "natural_water",
-                                                "natural_intermittentwater",
-                                                "natural_flood_prone" ],
+                                                "natural_intermittentwater" ],
                                [ ">", "way_area", 2061855 ],
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
@@ -13484,8 +13479,7 @@
 	    "source-layer": "land1",
 	    "minzoom": 10,
 	    "filter": [ "all", [ "in", "class", "natural_water",
-                                                "natural_intermittentwater",
-                                                "natural_flood_prone" ],
+                                                "natural_intermittentwater" ],
                                [ ">", "way_area", 6872852 ],
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
@@ -13515,8 +13509,7 @@
 	    "source-layer": "land1",
 	    "minzoom": 9,
 	    "filter": [ "all", [ "in", "class", "natural_water",
-                                                "natural_intermittentwater",
-                                                "natural_flood_prone" ],
+                                                "natural_intermittentwater" ],
                                [ ">", "way_area", 20618556 ],
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
@@ -13546,8 +13539,7 @@
 	    "source-layer": "land1",
 	    "minzoom": 8,
 	    "filter": [ "all", [ "in", "class", "natural_water",
-                                                "natural_intermittentwater",
-                                                "natural_flood_prone" ],
+                                                "natural_intermittentwater" ],
                                [ ">", "way_area", 274914089 ],
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {

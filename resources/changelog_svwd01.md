@@ -4,6 +4,8 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 ## As yet unreleased
 Display an icon along with the name for `aerodrome` and `large_aerodrome`.
 Show private parking (bicycle, motorcycle) with lower opacity.
+Show area grass runways as green.
+Show names of various area aeroway features from zoom 15 in dark grey.
 
 ## 27/12/2024
 Moved `tourism=theme_park` to the list of objects for which object names are written separately for the centroid.

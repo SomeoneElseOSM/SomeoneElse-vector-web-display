@@ -3,6 +3,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 
 ## As yet unreleased
 Display the name for various wood features at the centroid only.
+Display the name for deserts at the centroid only.
 
 ## 28/12/2024
 Display an icon along with the name for `aerodrome` and `large_aerodrome`.

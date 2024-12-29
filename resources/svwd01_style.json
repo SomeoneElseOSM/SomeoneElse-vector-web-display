@@ -15568,7 +15568,8 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "class", "natural_desert" ] ],
+	    "filter": [ "all", [ "in", "class", "natural_desert" ],
+	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{name}\n",

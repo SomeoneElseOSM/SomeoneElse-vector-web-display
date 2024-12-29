@@ -11028,7 +11028,8 @@
 	    "source-layer": "land1",
 	    "minzoom": 16,
 	    "filter": [ "all", [ "in", "class", "tourism_museum",
-                                                "tourism_aquarium" ],
+                                                "tourism_aquarium",
+                                                "leisure_hunting_stand" ],
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"icon-image": "{class}",
@@ -11164,7 +11165,6 @@
                                                 "leisure_picnic_table",
                                                 "leisure_slipway",
                                                 "leisure_bird_hide",
-                                                "leisure_hunting_stand",
                                                 "leisure_grouse_butt",
                                                 "tourism_advertising_column",
                                                 "tourism_artwork" ] ],

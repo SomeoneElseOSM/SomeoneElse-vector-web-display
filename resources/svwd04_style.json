@@ -62,7 +62,7 @@
 	    }
 	},
 	{
-	    "id": "land1-outline",
+	    "id": "land1-outline-6",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -251,11 +251,11 @@
 	    }
 	},
 	{
-	    "id": "land1-named-other-12",
+	    "id": "land1-named-other-6",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "minzoom": 14,
+	    "minzoom": 6,
 	    "filter": [ "all", [ "!=", "$type", "Point" ],
                                [ "has", "name" ] ],
 	    "layout": {
@@ -281,7 +281,7 @@
 	    }
 	},
 	{
-	    "id": "land1-named-point-12",
+	    "id": "land1-named-point-6",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -311,11 +311,11 @@
 	    }
 	},
 	{
-	    "id": "land1-unnamed-other-12",
+	    "id": "land1-unnamed-other-6",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "minzoom": 14,
+	    "minzoom": 6,
 	    "filter": [ "all", [ "!=", "$type", "Point" ],
                                [ "has", "name" ] ],
 	    "layout": {
@@ -341,7 +341,7 @@
 	    }
 	},
 	{
-	    "id": "land1-unnamed-point-12",
+	    "id": "land1-unnamed-point-6",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",

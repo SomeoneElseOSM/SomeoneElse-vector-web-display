@@ -14395,7 +14395,7 @@
 	    }
 	},
 	{
-	    "id": "land1-woodgrass-name-16",
+	    "id": "land1-woodgrass-name-centroid-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -14403,8 +14403,96 @@
 	    "filter": [ "all", [ "in", "class", "natural_wood",
                                                 "natural_broadleaved",
                                                 "natural_needleleaved",
-                                                "natural_mixedleaved",
-                                                "natural_scrub",
+                                                "natural_mixedleaved" ],
+	                       [ "==", "$type", "Point" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 14,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#2a5818",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-woodgrass-name-centroid-15",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 15,
+	    "filter": [ "all", [ "in", "class", "natural_wood",
+                                                "natural_broadleaved",
+                                                "natural_needleleaved",
+                                                "natural_mixedleaved" ],
+                               [ ">", "way_area", 2000 ],
+	                       [ "==", "$type", "Point" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 14,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#2a5818",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-woodgrass-name-centroid-14",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "class", "natural_wood",
+                                                "natural_broadleaved",
+                                                "natural_needleleaved",
+                                                "natural_mixedleaved" ],
+                               [ ">", "way_area", 50000 ],
+	                       [ "==", "$type", "Point" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 14,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#2a5818",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-woodgrass-name-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "class", "natural_scrub",
                                                 "natural_wetland",
                                                 "landuse_grass",
                                                 "natural_grassland",
@@ -14441,11 +14529,7 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 15,
-	    "filter": [ "all", [ "in", "class", "natural_wood",
-                                                "natural_broadleaved",
-                                                "natural_needleleaved",
-                                                "natural_mixedleaved",
-                                                "natural_scrub",
+	    "filter": [ "all", [ "in", "class", "natural_scrub",
                                                 "natural_wetland",
                                                 "landuse_grass",
                                                 "natural_grassland",
@@ -14455,7 +14539,8 @@
                                                 "landuse_meadow",
                                                 "landuse_meadowtransitional",
                                                 "landuse_meadowwildflower",
-                                                "landuse_meadowperpetual" ],
+                                                "landuse_meadowperpetual",
+                                                "barrier_hedge" ],
                                [ ">", "way_area", 2000 ] ],
 	    "layout": {
 		"text-anchor": "top",
@@ -14482,11 +14567,7 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 14,
-	    "filter": [ "all", [ "in", "class", "natural_wood",
-                                                "natural_broadleaved",
-                                                "natural_needleleaved",
-                                                "natural_mixedleaved",
-                                                "natural_scrub",
+	    "filter": [ "all", [ "in", "class", "natural_scrub",
                                                 "natural_wetland",
                                                 "landuse_grass",
                                                 "natural_grassland",
@@ -14496,7 +14577,8 @@
                                                 "landuse_meadow",
                                                 "landuse_meadowtransitional",
                                                 "landuse_meadowwildflower",
-                                                "landuse_meadowperpetual" ],
+                                                "landuse_meadowperpetual",
+                                                "barrier_hedge" ],
                                [ ">", "way_area", 50000 ] ],
 	    "layout": {
 		"text-anchor": "top",

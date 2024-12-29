@@ -12,6 +12,7 @@ Display the name for `amenity=ferry_terminal` at the centroid only.
 Display `tourism=attraction` fill with a relatively low maxzoom.
 Display the name at the centroid for various power features.
 Display marine water-based power stations (wave power etc.) as just an outline, unlike regular "industrial" power stations.
+Handle differently-sized `natural=bay` in the same way as `natural=water`.
 
 ## 27/12/2024
 Moved `tourism=theme_park` to the list of objects for which object names are written separately for the centroid.

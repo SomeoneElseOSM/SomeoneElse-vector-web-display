@@ -13411,7 +13411,8 @@
 	    "source-layer": "land1",
 	    "minzoom": 15,
 	    "filter": [ "all", [ "in", "class", "natural_water",
-                                                "natural_intermittentwater" ],
+                                                "natural_intermittentwater",
+                                                "natural_bay" ],
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"text-anchor": "top",
@@ -13440,7 +13441,8 @@
 	    "source-layer": "land1",
 	    "minzoom": 14,
 	    "filter": [ "all", [ "in", "class", "natural_water",
-                                                "natural_intermittentwater" ],
+                                                "natural_intermittentwater",
+                                                "natural_bay" ],
                                [ ">", "way_area", 24000 ],
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
@@ -13470,7 +13472,8 @@
 	    "source-layer": "land1",
 	    "minzoom": 13,
 	    "filter": [ "all", [ "in", "class", "natural_water",
-                                                "natural_intermittentwater" ],
+                                                "natural_intermittentwater",
+                                                "natural_bay" ],
                                [ ">", "way_area", 68728 ],
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
@@ -13500,7 +13503,8 @@
 	    "source-layer": "land1",
 	    "minzoom": 12,
 	    "filter": [ "all", [ "in", "class", "natural_water",
-                                                "natural_intermittentwater" ],
+                                                "natural_intermittentwater",
+                                                "natural_bay" ],
                                [ ">", "way_area", 274914 ],
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
@@ -13530,7 +13534,8 @@
 	    "source-layer": "land1",
 	    "minzoom": 11,
 	    "filter": [ "all", [ "in", "class", "natural_water",
-                                                "natural_intermittentwater" ],
+                                                "natural_intermittentwater",
+                                                "natural_bay" ],
                                [ ">", "way_area", 2061855 ],
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
@@ -13560,7 +13565,8 @@
 	    "source-layer": "land1",
 	    "minzoom": 10,
 	    "filter": [ "all", [ "in", "class", "natural_water",
-                                                "natural_intermittentwater" ],
+                                                "natural_intermittentwater",
+                                                "natural_bay" ],
                                [ ">", "way_area", 6872852 ],
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
@@ -13590,7 +13596,8 @@
 	    "source-layer": "land1",
 	    "minzoom": 9,
 	    "filter": [ "all", [ "in", "class", "natural_water",
-                                                "natural_intermittentwater" ],
+                                                "natural_intermittentwater",
+                                                "natural_bay" ],
                                [ ">", "way_area", 20618556 ],
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
@@ -13620,7 +13627,8 @@
 	    "source-layer": "land1",
 	    "minzoom": 8,
 	    "filter": [ "all", [ "in", "class", "natural_water",
-                                                "natural_intermittentwater" ],
+                                                "natural_intermittentwater",
+                                                "natural_bay" ],
                                [ ">", "way_area", 274914089 ],
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
@@ -13634,32 +13642,6 @@
 		"text-padding": 2,
 		"text-size": { "stops": [ [ 12, 10 ], 
                                           [ 20, 60 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#6699cc",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
-	    "id": "land1-bay-name-13",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 13,
-	    "filter": [ "all", [ "in", "class", "natural_bay" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 9,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
 		"visibility": "visible"
 	    },
 	    "paint": {

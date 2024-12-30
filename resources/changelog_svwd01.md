@@ -6,6 +6,7 @@ Display the name for various wood features at the centroid only.
 Display the name for deserts at the centroid only.
 Display the name for `leisure=hunting_stand` at the centroid only (sometimes used on shooting grounds in error).
 Display linear slipways from `leisure=slipway` in `transportation`.
+Display the name for vineyards and orchards at the centroid only.
 
 ## 28/12/2024
 Display an icon along with the name for `aerodrome` and `large_aerodrome`.

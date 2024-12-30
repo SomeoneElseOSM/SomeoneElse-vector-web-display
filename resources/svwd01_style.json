@@ -15340,13 +15340,14 @@
 	    }
 	},
 	{
-	    "id": "land1-vineyard-name-14",
+	    "id": "land1-vineyard-name-centroid-14",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 14,
 	    "filter": [ "all", [ "in", "class", "landuse_vineyard",
-                                                "landuse_orchard" ] ],
+                                                "landuse_orchard" ],
+	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{name}\n",

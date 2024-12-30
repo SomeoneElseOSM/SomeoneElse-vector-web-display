@@ -13655,12 +13655,13 @@
 	    }
 	},
 	{
-	    "id": "land1-pedestrian-name-16",
+	    "id": "land1-pedestrian-name-centroid-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 16,
-	    "filter": [ "all", [ "in", "class", "highway_pedestrian" ] ],
+	    "filter": [ "all", [ "in", "class", "highway_pedestrian" ],
+	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{name}\n",
@@ -13681,13 +13682,14 @@
 	    }
 	},
 	{
-	    "id": "land1-pedestrian-name-13",
+	    "id": "land1-pedestrian-name-centroid-13",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 13,
 	    "filter": [ "all", [ "in", "class", "highway_pedestrian" ],
-                               [ ">", "way_area", 2000 ] ],
+                               [ ">", "way_area", 2000 ],
+	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{name}\n",

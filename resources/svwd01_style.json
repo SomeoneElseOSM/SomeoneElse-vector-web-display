@@ -3762,7 +3762,8 @@
                                        "preserved",
                                        "light_rail",
                                        "subway",
-                                       "tram"  ],
+                                       "tram",
+                                       "slipway" ],
 	    "layout": {
 		"text-field": "{name}",
 		"text-font": [ "KlokanTech Noto Sans Regular" ],
@@ -5309,7 +5310,8 @@
 	    "minzoom": 14,
 	    "filter": [
 		"all",
-		[ "in", "class", "miniature" ],
+		[ "in", "class", "miniature",
+                                 "slipway" ],
                 [ "!=", "bridge", true ],
                 [ "!=", "tunnel", true ]
 	    ],
@@ -5335,7 +5337,8 @@
 	    "minzoom": 14,
 	    "filter": [
 		"all",
-		[ "in", "class", "miniature" ],
+		[ "in", "class", "miniature",
+                                 "slipway" ],
                 [ "!=", "bridge", true ],
                 [ "!=", "tunnel", true ]
 	    ],

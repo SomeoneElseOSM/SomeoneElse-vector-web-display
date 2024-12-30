@@ -3913,7 +3913,9 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 11,
-	    "filter": [ "all", [ "in", "class", "man_made_pier" ] ],
+	    "filter": [ "all", [ "in", "class", "man_made_pier",
+                                                "man_made_breakwater",
+                                                "man_made_groyne" ] ],
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#f2efe9"
@@ -12111,7 +12113,9 @@
 	    "source-layer": "land1",
 	    "minzoom": 11,
 	    "filter": [ "all", [ "in", "class", "man_made_bigmast",
-                                                "man_made_pier" ] ],
+                                                "man_made_pier",
+                                                "man_made_breakwater",
+                                                "man_made_groyne" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",
@@ -13240,7 +13244,8 @@
 	    "source": "someoneelse",
 	    "source-layer": "linearbarrier",
 	    "minzoom": 11,
-	    "filter": [ "all", [ "in", "class", "man_made_pier" ] ],
+	    "filter": [ "all", [ "in", "class", "man_made_pier",
+                                                "man_made_groyne" ] ],
 	    "paint": {
 		"line-color": "#f2efe9",
 		"line-width": {

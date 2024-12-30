@@ -1,7 +1,7 @@
 # Changes made to the [SVWD01 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd01.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
-## As yet unreleased
+## 29/12/2024
 Display the name for various wood features at the centroid only.
 Display the name for deserts at the centroid only.
 Display the name for `leisure=hunting_stand` at the centroid only (sometimes used on shooting grounds in error).

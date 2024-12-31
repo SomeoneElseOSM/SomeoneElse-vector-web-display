@@ -1729,6 +1729,17 @@
 	    }
 	},
 	{
+	    "id": "land1-intermittentwetland-fill-12",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "natural_intermittentwetland" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_natural_intermittentwetland"
+	    }
+	},
+	{
 	    "id": "land1-tourismgreen-fill-12",
 	    "type": "fill",
 	    "source": "someoneelse",
@@ -14631,6 +14642,7 @@
 	    "minzoom": 16,
 	    "filter": [ "all", [ "in", "class", "natural_scrub",
                                                 "natural_wetland",
+                                                "natural_intermittentwetland",
                                                 "landuse_grass",
                                                 "natural_grassland",
                                                 "landuse_wetmeadow",
@@ -14668,6 +14680,7 @@
 	    "minzoom": 15,
 	    "filter": [ "all", [ "in", "class", "natural_scrub",
                                                 "natural_wetland",
+                                                "natural_intermittentwetland",
                                                 "landuse_grass",
                                                 "natural_grassland",
                                                 "landuse_wetmeadow",
@@ -14706,6 +14719,7 @@
 	    "minzoom": 14,
 	    "filter": [ "all", [ "in", "class", "natural_scrub",
                                                 "natural_wetland",
+                                                "natural_intermittentwetland",
                                                 "landuse_grass",
                                                 "natural_grassland",
                                                 "landuse_wetmeadow",

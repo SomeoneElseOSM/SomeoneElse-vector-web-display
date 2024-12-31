@@ -5,6 +5,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 Display linear `waterway=lock_gate`, `waterway=sluice_gate`, `waterway=waterfall`, `waterway=weir`, and `waterway=floating_barrier` from `linearbarrier` and point and (multi)polygon ones from `land1`.
 Showing car parking from vector zoom 12.
 Only show `aerialway=station` from 13.
+Display `natural=intermittentwetland` for intermittent wetland areas.
 
 ## 29/12/2024
 Display the name for various wood features at the centroid only.

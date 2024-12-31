@@ -1,7 +1,7 @@
 # Changes made to the [SVWD01 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd01.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
-## As yet unreleased
+## 30/12/2024
 Display linear `waterway=lock_gate`, `waterway=sluice_gate`, `waterway=waterfall`, `waterway=weir`, and `waterway=floating_barrier` from `linearbarrier` and point and (multi)polygon ones from `land1`.
 Showing car parking from vector zoom 12.
 Only show `aerialway=station` from 13.

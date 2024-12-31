@@ -910,6 +910,10 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/tourism_guest_yyyy.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_tourism_guest_yyyy.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/camp_pitch.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/tourism_camp_pitch.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/lock_gate.png                                   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/waterway_lock_gate.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/lock_gate.png                                   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/waterway_sluice_gate.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/lock_gate.png                                   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/waterway_waterfall.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/lock_gate.png                                   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/waterway_weir.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/lock_gate.png                                   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/waterway_floating_barrier.png
 #
 # aeroway
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/aerodrome.p.16.png                              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/aeroway_aerodrome.png

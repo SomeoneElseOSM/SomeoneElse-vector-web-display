@@ -3722,34 +3722,6 @@
 	    "minzoom": 13
 	},
 	{
-	    "id": "label-linear-bottom-16",
-	    "type": "symbol",
-	    "source-layer": "linearbarrier",
-	    "filter": [ "in", "class", "man_made_embankment",
-                                       "barrier_fence",
-                                       "barrier_hedge",
-                                       "barrier_wall",
-                                       "barrier_gate",
-                                       "barrier_gate_locked" ],
-	    "layout": {
-		"text-field": "{name}",
-		"text-font": [ "KlokanTech Noto Sans Regular" ],
-		"symbol-placement": "line",
-		"symbol-spacing": { "stops": [ [ 16, 250 ],
-                                               [ 20, 800 ] ] },
-		"text-anchor": "bottom",
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] }
-	    },
-	    "source": "someoneelse",
-	    "paint": {
-		"text-color": "#333344",
-		"text-halo-color": "rgba(255, 255, 255, 0.8)",
-		"text-halo-width": 2,
-		"text-halo-blur": 1
-	    },
-	    "minzoom": 16
-	},
-	{
 	    "id": "label-rail-offset-12",
 	    "type": "symbol",
 	    "source-layer": "transportation",
@@ -3830,7 +3802,10 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 10,
-	    "filter": [ "all", [ "in", "class", "waterway_damarea" ] ],
+	    "filter": [ "all", [ "in", "class", "waterway_damarea",
+                                                "waterway_waterfall",
+                                                "waterway_weir",
+                                                "waterway_floating_barrier" ] ],
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#c2cfcf",
@@ -3920,6 +3895,56 @@
 		"fill-antialias": true,
 		"fill-color": "#f2efe9"
 	    }
+	},
+	{
+	    "id": "waterway-waterfall-14",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "linearbarrier",
+	    "minzoom": 14,
+	    "filter": [ "in", "class", "waterway_waterfall",
+                                       "waterway_weir",
+                                       "waterway_floating_barrier" ],
+	    "paint": {
+		"line-color": "#aaa",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 14, 0.6 ],
+			[ 20, 1.2 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "label-linear-bottom-16",
+	    "type": "symbol",
+	    "source-layer": "linearbarrier",
+	    "filter": [ "in", "class", "man_made_embankment",
+                                       "barrier_fence",
+                                       "barrier_hedge",
+                                       "barrier_wall",
+                                       "barrier_gate",
+                                       "barrier_gate_locked",
+                                       "waterway_lock_gate",
+                                       "waterway_sluice_gate" ],
+	    "layout": {
+		"text-field": "{name}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "line",
+		"symbol-spacing": { "stops": [ [ 16, 250 ],
+                                               [ 20, 800 ] ] },
+		"text-anchor": "bottom",
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "#333344",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 2,
+		"text-halo-blur": 1
+	    },
+	    "minzoom": 16
 	},
 	{
 	    "id": "highway-raceway-other-11",
@@ -8024,6 +8049,31 @@
 	    "minzoom": 14
 	},
 	{
+	    "id": "label-waterway_waterfall-bottom-14",
+	    "type": "symbol",
+	    "source-layer": "linearbarrier",
+	    "filter": [ "in", "class", "waterway_waterfall",
+                                       "waterway_weir",
+                                       "waterway_floating_barrier" ],
+	    "layout": {
+		"text-field": "{name}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "line",
+		"symbol-spacing": { "stops": [ [ 14, 250 ],
+                                               [ 20, 900 ] ] },
+		"text-anchor": "bottom",
+		"text-size": { "stops": [ [ 14, 10 ], [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "#6699cc",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 2,
+		"text-halo-blur": 1
+	    },
+	    "minzoom": 14
+	},
+	{
 	    "id": "label-waterway_weir-bottom-14",
 	    "type": "symbol",
 	    "source-layer": "waterway",
@@ -9382,6 +9432,20 @@
 	    }
 	},
 	{
+	    "id": "land1-lock_gate-fill-14",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "class", "waterway_lock_gate",
+                                                "waterway_sluice_gate" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#bca9a9",
+		"fill-opacity": 0.7
+	    }
+	},
+	{
 	    "id": "land1-building-housenumber-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
@@ -9709,11 +9773,11 @@
 	    }
 	},
 	{
-	    "id": "land1-various-lightblue-imagenameoverlap-centroid-16",
+	    "id": "land1-parking-lightblue-imagenameoverlap-centroid-12",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "minzoom": 16,
+	    "minzoom": 12,
 	    "filter": [ "all", [ "in", "class", "amenity_parking",
                                                 "amenity_parking_pay",
                                                 "amenity_parking_freedisabled",
@@ -10079,7 +10143,11 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 14,
-	    "filter": [ "all", [ "in", "class", "man_made_sluice_gate" ] ],
+	    "filter": [ "all", [ "in", "class", "waterway_lock_gate",
+                                                "waterway_sluice_gate",
+                                                "waterway_waterfall",
+                                                "waterway_weir",
+                                                "waterway_floating_barrier" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",
@@ -12354,8 +12422,7 @@
                                                 "man_made_radartower",
                                                 "man_made_squaretower",
                                                 "man_made_watermill",
-                                                "man_made_windmill",
-                                                "waterway_lock_gate" ] ],
+                                                "man_made_windmill" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",
@@ -13337,7 +13404,9 @@
 	    "minzoom": 13,
 	    "filter": [ "all", [ "in", "class", "barrier_gate",
                                                 "barrier_gate_locked",
-                                                "barrier_lift_gate" ] ],
+                                                "barrier_lift_gate",
+                                                "waterway_lock_gate",
+                                                "waterway_sluice_gate" ] ],
 	    "paint": {
 		"line-color": "#444",
 		"line-width": {

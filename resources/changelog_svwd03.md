@@ -21,6 +21,7 @@ Added `scree` as a pattern.
 Added `shingle` as a pattern.
 Added `marsh`, `swamp`, `bog`, `string_bog` using one `wetland` pattern.
 Added `wet_meadow`, using `meadow` fill and a unique pattern.
+Added `quarry` as a pattern.
 
 ## 09/12/2024
 Added the selection of streets available in Shortbread tiles (no sidewalk or verge information).

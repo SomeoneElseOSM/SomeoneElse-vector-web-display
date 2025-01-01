@@ -155,7 +155,8 @@
 	    "source": "someoneelse",
 	    "source-layer": "land",
 	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "kind", "industrial" ] ],
+	    "filter": [ "all", [ "in", "kind", "industrial",
+                                               "railway" ] ],
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#ebdbe8"
@@ -167,37 +168,8 @@
 	    "source": "someoneelse",
 	    "source-layer": "land",
 	    "minzoom": 15,
-	    "filter": [ "all", [ "in", "kind", "industrial" ] ],
-	    "paint": {
-		"line-color": "#c6b3c3",
-		"line-width": {
-		    "base": 0.6,
-		    "stops": [
-			[ 15,  0.6 ],
-			[ 20,  1.2 ]
-		    ]
-                }
-	    }
-	},
-	{
-	    "id": "land-railway-fill-9",
-	    "type": "fill",
-	    "source": "someoneelse",
-	    "source-layer": "land",
-	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "kind", "railway" ] ],
-	    "paint": {
-		"fill-antialias": true,
-		"fill-color": "#ebdbe8"
-	    }
-	},
-	{
-	    "id": "land-railway-outline-15",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "land",
-	    "minzoom": 15,
-	    "filter": [ "all", [ "in", "kind", "railway" ] ],
+	    "filter": [ "all", [ "in", "kind", "industrial",
+                                               "railway" ] ],
 	    "paint": {
 		"line-color": "#c6b3c3",
 		"line-width": {
@@ -222,7 +194,7 @@
 	    }
 	},
 	{
-	    "id": "land-commercial-outline",
+	    "id": "land-commercial-outline-15",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "land",
@@ -818,7 +790,8 @@
 	    "source": "someoneelse",
 	    "source-layer": "land",
 	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "kind", "golf_course" ] ],
+	    "filter": [ "all", [ "in", "kind", "golf_course",
+                                               "miniature_golf" ] ],
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#b5e3b5"
@@ -888,7 +861,7 @@
 	    }
 	},
 	{
-	    "id": "land-playground-outline",
+	    "id": "land-playground-outline-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "land",
@@ -5293,39 +5266,13 @@
 	    }
 	},
 	{
-	    "id": "land-railway-lightblue-imagename-17",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land",
-	    "minzoom": 17,
-	    "filter": [ "all", [ "in", "kind", "railway_subway_entrance" ] ],
-	    "layout": {
-		"icon-image": "{kind}",
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 13,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#6699cc",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
 	    "id": "pois-leisure-green-imagename-13",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "pois",
 	    "minzoom": 13,
 	    "filter": [ "all", [ "in", "leisure", "golf_course",
+                                                  "miniature_golf",
                                                   "ice_rink",
                                                   "water_park" ] ],
 	    "layout": {
@@ -6072,33 +6019,6 @@
 	    }
 	},
 	{
-	    "id": "land-industrial-name-16",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land",
-	    "minzoom": 16,
-	    "filter": [ "all", [ "in", "kind", "industrial",
-                                                "railway" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 9,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#6a265d",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
 	    "id": "pois-industrial-name-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
@@ -6126,58 +6046,6 @@
 	    }
 	},
 	{
-	    "id": "land-garages-name-14",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land",
-	    "minzoom": 14,
-	    "filter": [ "all", [ "in", "kind", "garages" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 9,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#444415",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
-	    "id": "land-commercial-name-14",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land",
-	    "minzoom": 14,
-	    "filter": [ "all", [ "in", "kind", "commercial" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 9,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#662621",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
 	    "id": "pois-eduamenity-name-14",
 	    "type": "symbol",
 	    "source": "someoneelse",
@@ -6186,62 +6054,6 @@
 	    "filter": [ "all", [ "in", "amenity", "college",
                                                   "school",
                                                   "university" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 9,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "black",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
-	    "id": "land-construction-name-14",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land",
-	    "minzoom": 14,
-	    "filter": [ "all", [ "in", "kind", "construction",
-                                                "brownfield",
-                                                "greenfield",
-                                                "landfill" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 9,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#434310",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
-	    "id": "land-quarry-name-14",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land",
-	    "minzoom": 14,
-	    "filter": [ "all", [ "in", "kind", "quarry",
-                                                "historicquarry" ] ],
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{name}\n",

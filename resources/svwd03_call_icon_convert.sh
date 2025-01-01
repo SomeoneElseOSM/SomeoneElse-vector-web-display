@@ -204,6 +204,12 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/bicycle_parking.p.20.png                        ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/bicycle_parking.png
 
 #
+# public_transport
+# aeroway
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/aerodrome.p.16.png                              ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/aerodrome.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/helipad.p.16.png                                ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/helipad.png
+
+#
 # Area patterns used with the "land" layer:
 # These must be 32x32 to avoid a white background
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/military_red_hatch.png                                ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/pattern_danger_area.png

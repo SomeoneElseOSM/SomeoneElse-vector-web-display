@@ -29,7 +29,8 @@ Added display of icon and name to `parking` in sites layer.
 Added display of icon and name to `bicycle_parking` in sites layer.
 Added display of name to `construction` in sites layer.
 Added `pier_lines` and `pier_polygons`.
-Added the `place_labels` later.  Populated places are OK, but islands seem to be missing from the OSMF example tiles currently.
+Added the `place_labels` layer.  Populated places are OK, but islands seem to be missing from the OSMF example tiles currently.
+Added the `street_labels_points` layer.  Unfortunately, these seem to be missing from the OSMF example tiles currently.
 
 ## 09/12/2024
 Added the selection of streets available in Shortbread tiles (no sidewalk or verge information).

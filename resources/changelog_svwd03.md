@@ -28,6 +28,7 @@ Added layer to show `sports_centre` in `sites`, although that seems to be missin
 Added display of icon and name to `parking` in sites layer.
 Added display of icon and name to `bicycle_parking` in sites layer.
 Added display of name to `construction` in sites layer.
+Added `pier_lines` and `pier_polygons`.
 
 ## 09/12/2024
 Added the selection of streets available in Shortbread tiles (no sidewalk or verge information).

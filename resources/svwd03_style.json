@@ -1836,15 +1836,35 @@
 	    }
 	},
 	{
-	    "id": "land-pier-fill-11",
+	    "id": "pier_polygons-fill-0",
 	    "type": "fill",
 	    "source": "someoneelse",
-	    "source-layer": "land",
-	    "minzoom": 11,
-	    "filter": [ "all", [ "in", "kind", "man_made_pier" ] ],
+	    "source-layer": "pier_polygons",
+	    "filter": [ "all", [ "in", "kind", "pier",
+                                               "breakwater",
+                                               "groyne" ] ],
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#f2efe9"
+	    }
+	},
+	{
+	    "id": "pier_lines-line-0",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "pier_lines",
+	    "filter": [ "all", [ "in", "kind", "pier",
+                                               "breakwater",
+                                               "groyne" ] ],
+	    "paint": {
+		"line-color": "#f2efe9",
+		"line-width": {
+		    "base": 2.4,
+		    "stops": [
+			[ 15,  2.4 ],
+			[ 20,  9.6 ]
+		    ]
+		}
 	    }
 	},
 	{

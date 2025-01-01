@@ -587,7 +587,7 @@
 	    "minzoom": 9,
 	    "filter": [ "all", [ "in", "kind", "beach" ] ],
 	    "paint": {
-		"fill-pattern": "pattern_natural_beach"
+		"fill-pattern": "pattern_beach"
 	    }
 	},
 	{
@@ -6345,33 +6345,6 @@
 	    },
 	    "paint": {
 		"text-color": "#826a24",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
-	    "id": "land-sand-name-16",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land",
-	    "minzoom": 16,
-	    "filter": [ "all", [ "in", "kind", "sand",
-                                                "beach" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 14,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#576ddf",
 		"text-halo-blur": 0.5,
 		"text-halo-color": "#ffffff",
 		"text-halo-width": 1

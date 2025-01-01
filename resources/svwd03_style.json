@@ -840,7 +840,8 @@
 	    "source-layer": "land",
 	    "minzoom": 9,
 	    "maxzoom": 13,
-	    "filter": [ "all", [ "in", "kind", "cemetery"  ] ],
+	    "filter": [ "all", [ "in", "kind", "cemetery",
+                                               "grave_yard" ] ],
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#aacbaf"
@@ -852,7 +853,8 @@
 	    "source": "someoneelse",
 	    "source-layer": "land",
 	    "minzoom": 13,
-	    "filter": [ "all", [ "in", "kind", "cemetery" ] ],
+	    "filter": [ "all", [ "in", "kind", "cemetery",
+                                               "grave_yard" ] ],
 	    "paint": {
 		"fill-pattern": "pattern_othercemetery"
 	    }

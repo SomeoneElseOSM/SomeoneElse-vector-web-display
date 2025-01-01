@@ -315,8 +315,7 @@
 	    "source": "someoneelse",
 	    "source-layer": "land",
 	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "kind", "park", 
-                                                "recreation_ground" ] ],
+	    "filter": [ "all", [ "in", "kind", "park" ] ],
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#b6fdb6",
@@ -366,7 +365,8 @@
 	    "source": "someoneelse",
 	    "source-layer": "land",
 	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "kind", "farmyard" ] ],
+	    "filter": [ "all", [ "in", "kind", "farmyard",
+                                               "greenhouse_horticulture" ] ],
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#efd6b5"

@@ -809,13 +809,11 @@
 	    }
 	},
 	{
-	    "id": "land-stadium-fill-9",
+	    "id": "sites-sports_centre-fill-0",
 	    "type": "fill",
 	    "source": "someoneelse",
-	    "source-layer": "land",
-	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "kind", "sports_centre", 
-                                                "stadium" ] ],
+	    "source-layer": "sites",
+	    "filter": [ "all", [ "in", "kind", "sports_centre" ] ],
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#3c9"

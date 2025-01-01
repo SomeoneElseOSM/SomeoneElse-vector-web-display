@@ -23,6 +23,7 @@ Added `marsh`, `swamp`, `bog`, `string_bog` using one `wetland` pattern.
 Added `wet_meadow`, using `meadow` fill and a unique pattern.
 Added `quarry` as a pattern.
 Moved `construction` to `sites` layer.
+Added `danger_area` as a pattern and also display a name for it from `sites`.
 
 ## 09/12/2024
 Added the selection of streets available in Shortbread tiles (no sidewalk or verge information).

@@ -769,23 +769,21 @@
 	    }
 	},
 	{
-	    "id": "land-military-fill-9",
+	    "id": "sites-danger_area-fill-0",
 	    "type": "fill",
 	    "source": "someoneelse",
-	    "source-layer": "land",
-	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "kind", "military" ] ],
+	    "source-layer": "sites",
+	    "filter": [ "all", [ "in", "kind", "danger_area" ] ],
 	    "paint": {
-		"fill-pattern": "pattern_military"
+		"fill-pattern": "pattern_danger_area"
 	    }
 	},
 	{
-	    "id": "land-military-outline",
+	    "id": "sites-danger_area-outline-0",
 	    "type": "line",
 	    "source": "someoneelse",
-	    "source-layer": "land",
-	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "kind", "military" ] ],
+	    "source-layer": "sites",
+	    "filter": [ "all", [ "in", "kind", "danger_area" ] ],
 	    "paint": {
 		"line-color": "#f55",
 		"line-width": {
@@ -6941,6 +6939,31 @@
 	    }
 	},
 	{
+	    "id": "sites-danger_area-name-0",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "sites",
+	    "filter": [ "all", [ "in", "kind", "danger_area" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#99001a",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
 	    "id": "streets_polygons_labels-name-13",
 	    "type": "symbol",
 	    "source": "someoneelse",
@@ -6977,32 +7000,6 @@
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 9,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#666",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
-	    "id": "unnamed-place-6",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "place",
-	    "minzoom": 6,
-	    "filter": [ "all", [ "!has", "name" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "(unnamed)\n",
 		"text-font": [
 		    "KlokanTech Noto Sans Regular"
 		],

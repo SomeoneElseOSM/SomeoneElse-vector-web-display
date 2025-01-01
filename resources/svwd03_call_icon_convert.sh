@@ -203,6 +203,7 @@
 #
 # Some area patterns copy from a local 32x32 source
 cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/allotments32.png         ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/pattern_allotments.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/othercemetery32.png      ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/pattern_othercemetery.png
 
 # Line patterns used with the various layers such as "aerialways"
 # Many are converted from a 32x32 version in svwd01_source_icons,

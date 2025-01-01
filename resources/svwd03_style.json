@@ -543,33 +543,9 @@
 	    "source": "someoneelse",
 	    "source-layer": "land",
 	    "minzoom": 13,
-	    "filter": [ "all", [ "in", "kind", "scrub" ] ],
+	    "filter": [ "all", [ "in", "kind", "disabled-for-now-scrub" ] ],
 	    "paint": {
 		"fill-pattern": "pattern_natural_scrub"
-	    }
-	},
-	{
-	    "id": "land-cemetery-fill-9-13",
-	    "type": "fill",
-	    "source": "someoneelse",
-	    "source-layer": "land",
-	    "minzoom": 9,
-	    "maxzoom": 13,
-	    "filter": [ "all", [ "in", "kind", "cemetery"  ] ],
-	    "paint": {
-		"fill-antialias": true,
-		"fill-color": "#aacbaf"
-	    }
-	},
-	{
-	    "id": "land-othercemetery-fill-13",
-	    "type": "fill",
-	    "source": "someoneelse",
-	    "source-layer": "land",
-	    "minzoom": 13,
-	    "filter": [ "all", [ "in", "kind", "cemetery" ] ],
-	    "paint": {
-		"fill-pattern": "pattern_othercemetery"
 	    }
 	},
 	{
@@ -855,6 +831,30 @@
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#cfeca8"
+	    }
+	},
+	{
+	    "id": "land-cemetery-fill-9-13",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 9,
+	    "maxzoom": 13,
+	    "filter": [ "all", [ "in", "kind", "cemetery"  ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#aacbaf"
+	    }
+	},
+	{
+	    "id": "land-cemetery-fill-13",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 13,
+	    "filter": [ "all", [ "in", "kind", "cemetery" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_othercemetery"
 	    }
 	},
 	{

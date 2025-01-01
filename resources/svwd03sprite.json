@@ -687,7 +687,7 @@
 "y": 0
 }
 ,
-"pattern_vineyard": {
+"pattern_othercemetery": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -695,7 +695,7 @@
 "y": 0
 }
 ,
-"shield_motorway_long": {
+"pattern_vineyard": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -703,7 +703,7 @@
 "y": 0
 }
 ,
-"shield_motorway_short": {
+"shield_motorway_long": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -711,7 +711,7 @@
 "y": 0
 }
 ,
-"shield_other_long": {
+"shield_motorway_short": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -719,7 +719,7 @@
 "y": 0
 }
 ,
-"shield_other_short": {
+"shield_other_long": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -727,7 +727,7 @@
 "y": 0
 }
 ,
-"shield_trunk_long": {
+"shield_other_short": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -735,7 +735,7 @@
 "y": 0
 }
 ,
-"shield_trunk_short": {
+"shield_trunk_long": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -743,7 +743,7 @@
 "y": 0
 }
 ,
-"shop_alcohol": {
+"shield_trunk_short": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -751,7 +751,7 @@
 "y": 0
 }
 ,
-"shop_bakery": {
+"shop_alcohol": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -759,7 +759,7 @@
 "y": 0
 }
 ,
-"shop_beauty": {
+"shop_bakery": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -767,7 +767,7 @@
 "y": 0
 }
 ,
-"shop_beverages": {
+"shop_beauty": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -775,7 +775,7 @@
 "y": 0
 }
 ,
-"shop_bicycle": {
+"shop_beverages": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -783,7 +783,7 @@
 "y": 0
 }
 ,
-"shop_books": {
+"shop_bicycle": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -791,7 +791,7 @@
 "y": 0
 }
 ,
-"shop_butcher": {
+"shop_books": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -799,7 +799,7 @@
 "y": 0
 }
 ,
-"shop_car": {
+"shop_butcher": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -807,7 +807,7 @@
 "y": 0
 }
 ,
-"shop_chemist": {
+"shop_car": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -815,7 +815,7 @@
 "y": 0
 }
 ,
-"shop_clothes": {
+"shop_chemist": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -823,7 +823,7 @@
 "y": 0
 }
 ,
-"shop_computer": {
+"shop_clothes": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -831,7 +831,7 @@
 "y": 0
 }
 ,
-"shop_convenience": {
+"shop_computer": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -839,7 +839,7 @@
 "y": 0
 }
 ,
-"shop_department_store": {
+"shop_convenience": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -847,7 +847,7 @@
 "y": 0
 }
 ,
-"shop_doityourself": {
+"shop_department_store": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -855,7 +855,7 @@
 "y": 0
 }
 ,
-"shop_dry_cleaning": {
+"shop_doityourself": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -863,7 +863,7 @@
 "y": 0
 }
 ,
-"shop_florist": {
+"shop_dry_cleaning": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -871,7 +871,7 @@
 "y": 0
 }
 ,
-"shop_furniture": {
+"shop_florist": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -879,7 +879,7 @@
 "y": 0
 }
 ,
-"shop_garden_centre": {
+"shop_furniture": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -887,7 +887,7 @@
 "y": 0
 }
 ,
-"shop_general": {
+"shop_garden_centre": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -895,7 +895,7 @@
 "y": 0
 }
 ,
-"shop_gift": {
+"shop_general": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -903,7 +903,7 @@
 "y": 0
 }
 ,
-"shop_greengrocer": {
+"shop_gift": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -911,7 +911,7 @@
 "y": 0
 }
 ,
-"shop_hairdresser": {
+"shop_greengrocer": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -919,7 +919,7 @@
 "y": 0
 }
 ,
-"shop_hardware": {
+"shop_hairdresser": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -927,7 +927,7 @@
 "y": 0
 }
 ,
-"shop_jewelry": {
+"shop_hardware": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -935,7 +935,7 @@
 "y": 0
 }
 ,
-"shop_kiosk": {
+"shop_jewelry": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -943,7 +943,7 @@
 "y": 0
 }
 ,
-"shop_laundry": {
+"shop_kiosk": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -951,7 +951,7 @@
 "y": 0
 }
 ,
-"shop_mobile_phone": {
+"shop_laundry": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -959,7 +959,7 @@
 "y": 0
 }
 ,
-"shop_newsagent": {
+"shop_mobile_phone": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -967,7 +967,7 @@
 "y": 0
 }
 ,
-"shop_optician": {
+"shop_newsagent": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -975,7 +975,7 @@
 "y": 0
 }
 ,
-"shop_outdoor": {
+"shop_optician": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -983,7 +983,7 @@
 "y": 0
 }
 ,
-"shop_shoes": {
+"shop_outdoor": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -991,7 +991,7 @@
 "y": 0
 }
 ,
-"shop_sports": {
+"shop_shoes": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -999,7 +999,7 @@
 "y": 0
 }
 ,
-"shop_stationery": {
+"shop_sports": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1007,7 +1007,7 @@
 "y": 0
 }
 ,
-"shop_supermarket": {
+"shop_stationery": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1015,7 +1015,7 @@
 "y": 0
 }
 ,
-"shop_toys": {
+"shop_supermarket": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1023,7 +1023,7 @@
 "y": 0
 }
 ,
-"shop_travel_agency": {
+"shop_toys": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1031,7 +1031,7 @@
 "y": 0
 }
 ,
-"shop_video": {
+"shop_travel_agency": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1039,11 +1039,19 @@
 "y": 0
 }
 ,
-"tourism_viewpoint": {
+"shop_video": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
 "x": 8320,
+"y": 0
+}
+,
+"tourism_viewpoint": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 8384,
 "y": 0
 }
 }

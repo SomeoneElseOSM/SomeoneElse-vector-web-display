@@ -1,6 +1,9 @@
 # Changes made to the [SVWD03 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd03.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
+## As yet unreleased
+Added `dam_lines` and `dam_polygons`.
+
 ## 09/12/2024
 Added the selection of streets available in Shortbread tiles (no sidewalk or verge information).
 Added linear waterways

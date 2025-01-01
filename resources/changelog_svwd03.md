@@ -7,6 +7,7 @@ Added `buildings` as a fill and an outline.
 Added `aerialways`.
 Added `bridges`.  
 Moved buildings to under POIs.
+Added `ferries` as a line and a label.
 
 ## 09/12/2024
 Added the selection of streets available in Shortbread tiles (no sidewalk or verge information).

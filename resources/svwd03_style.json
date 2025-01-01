@@ -1064,6 +1064,24 @@
 	    }
 	},
 	{
+	    "id": "ferries-10",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "ferries",
+	    "minzoom": 10,
+	    "paint": {
+		"line-color": "#66f",
+                "line-dasharray": [4.0, 4.0],
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "highway-footway-tunnelcasing-12",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -1719,6 +1737,27 @@
 		    ]
 		}
 	    }
+	},
+	{
+	    "id": "label-ferries-offset-12",
+	    "type": "symbol",
+	    "source-layer": "ferries",
+	    "layout": {
+		"text-field": "{name}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "line",
+		"symbol-spacing": 1200,
+		"text-offset": [0, 1],
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "#6699cc",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 2,
+		"text-halo-blur": 1
+	    },
+	    "minzoom": 12
 	},
 	{
 	    "id": "label-rail-offset-12",

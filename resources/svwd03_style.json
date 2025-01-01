@@ -1052,6 +1052,18 @@
 	    }
 	},
 	{
+	    "id": "bridges-fill",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "bridges",
+	    "filter": [ "all", [ "in", "kind", "bridge" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#bca9a9",
+		"fill-opacity": 0.7
+	    }
+	},
+	{
 	    "id": "highway-footway-tunnelcasing-12",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -5047,6 +5059,33 @@
 	    }
 	},
 	{
+	    "id": "buildings-fill",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "buildings",
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#bca9a9",
+		"fill-opacity": 0.9
+	    }
+	},
+	{
+	    "id": "buildings-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "buildings",
+	    "minzoom": 15,
+	    "paint": {
+		"line-color": "#847676",
+		"line-width": {
+		    "stops": [
+			[ 15,  0.2 ],
+			[ 20,  0.4 ]
+		    ]
+                }
+	    }
+	},
+	{
 	    "id": "pois-leisureamenitygreen-imagename-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
@@ -7128,33 +7167,6 @@
 		"text-halo-blur": 0
 	    },
 	    "minzoom": 15
-	},
-	{
-	    "id": "buildings-fill",
-	    "type": "fill",
-	    "source": "someoneelse",
-	    "source-layer": "buildings",
-	    "paint": {
-		"fill-antialias": true,
-		"fill-color": "#bca9a9",
-		"fill-opacity": 0.9
-	    }
-	},
-	{
-	    "id": "buildings-outline",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "buildings",
-	    "minzoom": 15,
-	    "paint": {
-		"line-color": "#847676",
-		"line-width": {
-		    "stops": [
-			[ 15,  0.2 ],
-			[ 20,  0.4 ]
-		    ]
-                }
-	    }
 	},
 	{
 	    "id": "linearbarrier-13",

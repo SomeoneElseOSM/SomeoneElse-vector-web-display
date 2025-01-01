@@ -351,18 +351,6 @@
 	    }
 	},
 	{
-	    "id": "land-wood-fill-8",
-	    "type": "fill",
-	    "source": "someoneelse",
-	    "source-layer": "land",
-	    "minzoom": 8,
-	    "filter": [ "all", [ "in", "kind", "wood" ] ],
-	    "paint": {
-		"fill-antialias": true,
-		"fill-color": "#aed1a0"
-	    }
-	},
-	{
 	    "id": "land-meadow-fill-9",
 	    "type": "fill",
 	    "source": "someoneelse",
@@ -867,9 +855,8 @@
 	    "source": "someoneelse",
 	    "source-layer": "land",
 	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "kind", "grass", 
-                                                "common",
-                                                "garden" ] ],
+	    "filter": [ "all", [ "in", "kind", "grass",
+                                               "garden" ] ],
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#cfeca8"
@@ -2867,31 +2854,6 @@
 			[ 10,  2.0 ],
 			[ 15, 12.0 ],
 			[ 20, 48.0 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "aeroway-grass_runway-line-12",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "streets",
-	    "minzoom": 12,
-	    "filter": [
-		"all",
-		[ "in", "kind", "grass_runway" ],
-                [ "!=", "bridge", true ],
-                [ "!=", "tunnel", true ]
-	    ],
-	    "layout": { "line-cap": "square", "line-join": "round", "visibility": "visible" },
-	    "paint": {
-		"line-color": "#bbc",
-		"line-width": {
-		    "base": 2,
-		    "stops": [
-			[ 12,  2.0 ],
-			[ 16, 16.0 ],
-			[ 20, 32.0 ]
 		    ]
 		}
 	    }
@@ -6071,149 +6033,6 @@
 	    }
 	},
 	{
-	    "id": "land-park-etc-name-16",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land",
-	    "minzoom": 16,
-	    "filter": [ "all", [ "in", "kind", "leisure_park",
-                                                "leisure_recreation_ground",
-                                                "leisure_common",
-                                                "leisure_garden" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 9,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#2c4b2c",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
-	    "id": "land-forest-name-14",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land",
-	    "minzoom": 14,
-	    "filter": [ "all", [ "in", "kind", "forest" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 9,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#3f722c",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
-	    "id": "land-woodgrass-name-14",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land",
-	    "minzoom": 14,
-	    "filter": [ "all", [ "in", "kind", "wood",
-                                                "scrub",
-                                                "wetland",
-                                                "grass",
-                                                "grassland",
-                                                "wetmeadow",
-                                                "saltmarsh",
-                                                "reedbed",
-                                                "meadow" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 14,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#2a5818",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
-	    "id": "land-farm-name-14",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land",
-	    "minzoom": 14,
-	    "filter": [ "all", [ "in", "kind", "farmyard",
-                                                "farmland",
-                                                "farmgrass" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 9,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#553b1a",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
-	    "id": "land-retail-name-14",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land",
-	    "minzoom": 14,
-	    "filter": [ "all", [ "in", "kind", "retail" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 9,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#88413b",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
 	    "id": "pois-shopretail-name-14",
 	    "type": "symbol",
 	    "source": "someoneelse",
@@ -6427,33 +6246,6 @@
 		"text-halo-blur": 0.5,
 		"text-halo-color": "#ffffff",
 		"text-halo-width": 1
-	    }
-	},
-	{
-	    "id": "land-vineyard-name-14",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land",
-	    "minzoom": 14,
-	    "filter": [ "all", [ "in", "kind", "vineyard",
-                                                "orchard" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 9,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#397422",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 2
 	    }
 	},
 	{

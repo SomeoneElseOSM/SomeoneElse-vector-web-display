@@ -4,10 +4,11 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 ## As yet unreleased
 Added `dam_lines` and `dam_polygons`.
 Added `buildings` as a fill and an outline.
-Added `aerialways`.
+Added `aerialways` as line patterns.
 Added `bridges`.  
 Moved buildings to under POIs.
 Added `ferries` as a line and a label.
+Added `orchard` as a pattern.
 
 ## 09/12/2024
 Added the selection of streets available in Shortbread tiles (no sidewalk or verge information).

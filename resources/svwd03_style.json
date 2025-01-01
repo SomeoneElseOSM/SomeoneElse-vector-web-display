@@ -502,11 +502,11 @@
 	    }
 	},
 	{
-	    "id": "land-allotments-fill-9-13",
+	    "id": "land-allotments-fill-11-13",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land",
-	    "minzoom": 9,
+	    "minzoom": 11,
 	    "maxzoom": 13,
 	    "filter": [ "all", [ "in", "kind", "allotments" ] ],
 	    "paint": {

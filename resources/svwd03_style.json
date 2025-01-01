@@ -698,9 +698,12 @@
 	    "source": "someoneelse",
 	    "source-layer": "land",
 	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "kind", "wetland" ] ],
+	    "filter": [ "all", [ "in", "kind", "marsh",
+                                               "swamp",
+                                               "bog",
+                                               "string_bog" ] ],
 	    "paint": {
-		"fill-pattern": "pattern_natural_wetland"
+		"fill-pattern": "pattern_wetland"
 	    }
 	},
 	{

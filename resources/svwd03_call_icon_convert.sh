@@ -209,6 +209,7 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/scree32.png            ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/pattern_scree.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/shingle32.png          ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/pattern_shingle.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/scrub32.png            ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/pattern_scrub.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/marsh.png                                           ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/pattern_wetland.png
 
 #
 # Some area patterns copy from a local 32x32 source

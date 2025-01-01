@@ -19,6 +19,7 @@ Added `scrub` as a fill and a pattern.
 Added `bare_rock` as a pattern.
 Added `scree` as a pattern.
 Added `shingle` as a pattern.
+Added `marsh`, `swamp`, `bog`, `string_bog` using one `wetland` pattern.
 
 ## 09/12/2024
 Added the selection of streets available in Shortbread tiles (no sidewalk or verge information).

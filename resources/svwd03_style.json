@@ -632,7 +632,7 @@
 	    "minzoom": 9,
 	    "filter": [ "all", [ "in", "kind", "scree" ] ],
 	    "paint": {
-		"fill-pattern": "pattern_natural_scree"
+		"fill-pattern": "pattern_scree"
 	    }
 	},
 	{

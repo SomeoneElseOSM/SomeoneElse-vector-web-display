@@ -16,6 +16,8 @@ Added `greenhouse_horticulture` using the same fill as `farmyard`.
 Added `plant_nursery` using the same pattern as `orchard`.
 Added `beach` as a pattern.
 Added `scrub` as a fill and a pattern.
+Added `bare_rock` as a pattern.
+Added `scree` as a pattern.
 
 ## 09/12/2024
 Added the selection of streets available in Shortbread tiles (no sidewalk or verge information).

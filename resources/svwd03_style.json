@@ -6171,32 +6171,6 @@
 	    }
 	},
 	{
-	    "id": "land-industrialbuilding-name-16",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land",
-	    "minzoom": 16,
-	    "filter": [ "all", [ "in", "kind", "industrialbuilding" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 9,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#6a265d",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
 	    "id": "land-garages-name-14",
 	    "type": "symbol",
 	    "source": "someoneelse",
@@ -7111,19 +7085,28 @@
 	    "minzoom": 15
 	},
 	{
+	    "id": "buildings-fill",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "buildings",
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#bca9a9",
+		"fill-opacity": 0.9
+	    }
+	},
+	{
 	    "id": "buildings-outline",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "buildings",
-	    "minzoom": 6,
+	    "minzoom": 15,
 	    "paint": {
-		"line-color": "red",
-                "line-dasharray": [2.0, 4.0],
+		"line-color": "#847676",
 		"line-width": {
-		    "base": 1.2,
 		    "stops": [
-			[ 15,  1.2 ],
-			[ 20,  2.4 ]
+			[ 15,  0.2 ],
+			[ 20,  0.4 ]
 		    ]
                 }
 	    }

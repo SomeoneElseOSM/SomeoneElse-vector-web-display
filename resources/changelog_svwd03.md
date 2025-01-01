@@ -10,6 +10,7 @@ Moved buildings to under POIs.
 Added `ferries` as a line and a label.
 Added `orchard` as a pattern.
 Added `vineyard` as a pattern.
+Added `allotments` as a pattern.
 
 ## 09/12/2024
 Added the selection of streets available in Shortbread tiles (no sidewalk or verge information).

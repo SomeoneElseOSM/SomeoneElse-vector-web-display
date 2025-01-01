@@ -6244,32 +6244,6 @@
 	    }
 	},
 	{
-	    "id": "land-allotments-name-14",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land",
-	    "minzoom": 14,
-	    "filter": [ "all", [ "in", "kind", "allotments" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 9,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#734821",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 2
-	    }
-	},
-	{
 	    "id": "pois-grave_yard-name-14",
 	    "type": "symbol",
 	    "source": "someoneelse",

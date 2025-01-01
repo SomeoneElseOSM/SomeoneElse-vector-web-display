@@ -4250,6 +4250,51 @@
 	    }
 	},
 	{
+	    "id": "aerialways-cable_car-11",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "aerialways",
+	    "minzoom": 11,
+	    "filter": [ "all", [ "in", "kind", "cable_car",
+                                               "gondola",
+                                               "goods" ] ],
+	    "paint": {
+		"line-pattern": "pattern_aerialway_cable_car",
+		"line-width": {
+		    "base": 9.6,
+		    "stops": [
+			[ 11,   9.6 ],
+			[ 15,  38.4 ],
+			[ 20,  76.8 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "aerialways-chair_lift-11",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "aerialways",
+	    "minzoom": 11,
+	    "filter": [ "all", [ "in", "kind", "chair_lift",
+                                               "drag_lift",
+                                               "t-bar",
+                                               "j-bar",
+                                               "platter",
+                                               "rope_tow" ] ],
+	    "paint": {
+		"line-pattern": "pattern_aerialway_chair_lift",
+		"line-width": {
+		    "base": 9.6,
+		    "stops": [
+			[ 11,   9.6 ],
+			[ 15,  38.4 ],
+			[ 20,  76.8 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "label-waterway-bottom-12",
 	    "type": "symbol",
 	    "source-layer": "water_lines_labels",

@@ -200,6 +200,11 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/parking_free.png                                ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_parking.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/view_point.p.16.png                             ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/tourism_viewpoint.png
 
+# Line patterns used with the various layers such as "aerialways"
+# Many are converted from a 32x32 version in svwd01_source_icons,
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/cable_car32.png        ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/pattern_aerialway_cable_car.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/chair_lift32.png       ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/pattern_aerialway_chair_lift.png
+
 #
 # Road Shields
 # The source icons for these are shared with the svwd01 style.

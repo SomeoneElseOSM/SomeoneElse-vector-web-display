@@ -244,16 +244,14 @@
 	    }
 	},
 	{
-	    "id": "land-eduhospital-fill-9",
+	    "id": "land-eduhospital-fill-0",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "sites",
-	    "minzoom": 9,
 	    "filter": [ "all", [ "in", "kind", "university",
-                                                "college",
-                                                "school",
-                                                "hospital",
-                                                "kindergarten" ] ],
+                                               "college",
+                                               "school",
+                                               "hospital" ] ],
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#f0f0d8"
@@ -266,10 +264,9 @@
 	    "source-layer": "sites",
 	    "minzoom": 11,
 	    "filter": [ "all", [ "in", "kind", "university",
-                                                "college",
-                                                "school",
-                                                "hospital",
-                                                "kindergarten" ] ],
+                                               "college",
+                                               "school",
+                                               "hospital" ] ],
 	    "paint": {
 		"line-color": "brown",
 		"line-width": {

@@ -609,7 +609,7 @@
 	    "minzoom": 9,
 	    "filter": [ "all", [ "in", "kind", "bare_rock" ] ],
 	    "paint": {
-		"fill-pattern": "pattern_natural_rock"
+		"fill-pattern": "pattern_rock"
 	    }
 	},
 	{

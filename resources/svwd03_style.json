@@ -643,7 +643,7 @@
 	    "minzoom": 9,
 	    "filter": [ "all", [ "in", "kind", "shingle" ] ],
 	    "paint": {
-		"fill-pattern": "pattern_natural_shingle"
+		"fill-pattern": "pattern_shingle"
 	    }
 	},
 	{

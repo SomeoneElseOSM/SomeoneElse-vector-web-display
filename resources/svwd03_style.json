@@ -324,11 +324,10 @@
 	    }
 	},
 	{
-	    "id": "land-forest-fill-7",
+	    "id": "land-forest-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land",
-	    "minzoom": 7,
 	    "filter": [ "all", [ "in", "kind", "forest" ] ],
 	    "paint": {
 		"fill-antialias": true,
@@ -351,11 +350,10 @@
 	    }
 	},
 	{
-	    "id": "land-meadow-fill-9",
+	    "id": "land-meadow-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land",
-	    "minzoom": 9,
 	    "filter": [ "all", [ "in", "kind", "meadow" ] ],
 	    "paint": {
 		"fill-antialias": true,
@@ -484,22 +482,20 @@
 	    }
 	},
 	{
-	    "id": "land-vineyard-fill-12",
+	    "id": "land-vineyard-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land",
-	    "minzoom": 12,
 	    "filter": [ "all", [ "in", "kind", "vineyard" ] ],
 	    "paint": {
 		"fill-pattern": "pattern_vineyard"
 	    }
 	},
 	{
-	    "id": "land-orchard-fill-12",
+	    "id": "land-orchard-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land",
-	    "minzoom": 12,
 	    "filter": [ "all", [ "in", "kind", "orchard" ] ],
 	    "paint": {
 		"fill-pattern": "pattern_orchard"
@@ -850,11 +846,10 @@
 	    }
 	},
 	{
-	    "id": "land-grass-fill-9",
+	    "id": "land-grass-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land",
-	    "minzoom": 9,
 	    "filter": [ "all", [ "in", "kind", "grass",
                                                "garden" ] ],
 	    "paint": {

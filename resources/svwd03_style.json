@@ -309,11 +309,23 @@
 	    "id": "land-construction-fill-9",
 	    "type": "fill",
 	    "source": "someoneelse",
+	    "source-layer": "sites",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "kind", "construction" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#9d9d6c",
+		"fill-opacity": 0.7
+	    }
+	},
+	{
+	    "id": "land-brownfield-fill-9",
+	    "type": "fill",
+	    "source": "someoneelse",
 	    "source-layer": "land",
 	    "minzoom": 9,
 	    "filter": [ "all", [ "in", "kind", "brownfield", 
-                                                "greenfield", 
-                                                "construction" ] ],
+                                                "greenfield" ] ],
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#9d9d6c",

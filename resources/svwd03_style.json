@@ -353,7 +353,8 @@
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land",
-	    "filter": [ "all", [ "in", "kind", "meadow" ] ],
+	    "filter": [ "all", [ "in", "kind", "meadow",
+                                               "wet_meadow" ] ],
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#e8f6d5"
@@ -704,6 +705,17 @@
                                                "string_bog" ] ],
 	    "paint": {
 		"fill-pattern": "pattern_wetland"
+	    }
+	},
+	{
+	    "id": "land-wet_meadow-fill-12",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "kind", "wet_meadow" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_wet_meadow"
 	    }
 	},
 	{

@@ -374,7 +374,8 @@
 	    "source": "someoneelse",
 	    "source-layer": "land",
 	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "kind", "farmyard" ] ],
+	    "filter": [ "all", [ "in", "kind", "farmyard",
+                                               "greenhouse_horticulture" ] ],
 	    "paint": {
 		"line-color": "#d1b48c",
 		"line-width": {

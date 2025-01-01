@@ -13,6 +13,7 @@ Added `vineyard` as a pattern.
 Added `allotments` as a pattern.
 Added `othercemetery` as a pattern for `cemetery` and `grave_yard`.
 Added `greenhouse_horticulture` using the same fill as `farmyard`.
+Added `plant_nursery` using the same pattern as `orchard`.
 
 ## 09/12/2024
 Added the selection of streets available in Shortbread tiles (no sidewalk or verge information).

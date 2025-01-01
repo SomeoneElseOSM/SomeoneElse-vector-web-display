@@ -360,6 +360,17 @@
 	    }
 	},
 	{
+	    "id": "land-orchard-fill",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "filter": [ "all", [ "in", "kind", "orchard",
+                                               "plant_nursery" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_orchard"
+	    }
+	},
+	{
 	    "id": "land-farmyard-fill-9",
 	    "type": "fill",
 	    "source": "someoneelse",
@@ -489,16 +500,6 @@
 	    "filter": [ "all", [ "in", "kind", "vineyard" ] ],
 	    "paint": {
 		"fill-pattern": "pattern_vineyard"
-	    }
-	},
-	{
-	    "id": "land-orchard-fill",
-	    "type": "fill",
-	    "source": "someoneelse",
-	    "source-layer": "land",
-	    "filter": [ "all", [ "in", "kind", "orchard" ] ],
-	    "paint": {
-		"fill-pattern": "pattern_orchard"
 	    }
 	},
 	{

@@ -201,6 +201,7 @@
 
 # sites
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/parking_free.png                                ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/parking.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/bicycle_parking.p.20.png                        ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/bicycle_parking.png
 
 #
 # Area patterns used with the "land" layer:

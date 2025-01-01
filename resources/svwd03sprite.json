@@ -231,7 +231,7 @@
 "y": 0
 }
 ,
-"amenity_parking": {
+"amenity_pharmacy": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -239,7 +239,7 @@
 "y": 0
 }
 ,
-"amenity_pharmacy": {
+"amenity_place_of_worship_buddhist": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -247,7 +247,7 @@
 "y": 0
 }
 ,
-"amenity_place_of_worship_buddhist": {
+"amenity_place_of_worship_christian": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -255,7 +255,7 @@
 "y": 0
 }
 ,
-"amenity_place_of_worship_christian": {
+"amenity_place_of_worship_hindu": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -263,7 +263,7 @@
 "y": 0
 }
 ,
-"amenity_place_of_worship_hindu": {
+"amenity_place_of_worship_jewish": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -271,7 +271,7 @@
 "y": 0
 }
 ,
-"amenity_place_of_worship_jewish": {
+"amenity_place_of_worship_muslim": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -279,7 +279,7 @@
 "y": 0
 }
 ,
-"amenity_place_of_worship_muslim": {
+"amenity_place_of_worship_other": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -287,7 +287,7 @@
 "y": 0
 }
 ,
-"amenity_place_of_worship_other": {
+"amenity_place_of_worship_shinto": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -295,7 +295,7 @@
 "y": 0
 }
 ,
-"amenity_place_of_worship_shinto": {
+"amenity_place_of_worship_sikh": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -303,7 +303,7 @@
 "y": 0
 }
 ,
-"amenity_place_of_worship_sikh": {
+"amenity_place_of_worship_taoist": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -311,7 +311,7 @@
 "y": 0
 }
 ,
-"amenity_place_of_worship_taoist": {
+"amenity_playground": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -319,7 +319,7 @@
 "y": 0
 }
 ,
-"amenity_playground": {
+"amenity_police": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -327,7 +327,7 @@
 "y": 0
 }
 ,
-"amenity_police": {
+"amenity_post_box": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -335,7 +335,7 @@
 "y": 0
 }
 ,
-"amenity_post_box": {
+"amenity_post_office": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -343,7 +343,7 @@
 "y": 0
 }
 ,
-"amenity_post_office": {
+"amenity_prison": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -351,7 +351,7 @@
 "y": 0
 }
 ,
-"amenity_prison": {
+"amenity_public_building": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -359,7 +359,7 @@
 "y": 0
 }
 ,
-"amenity_public_building": {
+"amenity_pub": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -367,7 +367,7 @@
 "y": 0
 }
 ,
-"amenity_pub": {
+"amenity_recycling": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -375,7 +375,7 @@
 "y": 0
 }
 ,
-"amenity_recycling": {
+"amenity_restaurant": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -383,7 +383,7 @@
 "y": 0
 }
 ,
-"amenity_restaurant": {
+"amenity_shelter": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -391,7 +391,7 @@
 "y": 0
 }
 ,
-"amenity_shelter": {
+"amenity_telephone": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -399,7 +399,7 @@
 "y": 0
 }
 ,
-"amenity_telephone": {
+"amenity_theatre": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -407,7 +407,7 @@
 "y": 0
 }
 ,
-"amenity_theatre": {
+"amenity_toilets": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -415,7 +415,7 @@
 "y": 0
 }
 ,
-"amenity_toilets": {
+"amenity_townhall": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -423,7 +423,7 @@
 "y": 0
 }
 ,
-"amenity_townhall": {
+"amenity_vending_machine": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -431,7 +431,7 @@
 "y": 0
 }
 ,
-"amenity_vending_machine": {
+"amenity_veterinary": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -439,7 +439,7 @@
 "y": 0
 }
 ,
-"amenity_veterinary": {
+"amenity_waste_basket": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -447,7 +447,7 @@
 "y": 0
 }
 ,
-"amenity_waste_basket": {
+"emergency_defibrillator": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -455,7 +455,7 @@
 "y": 0
 }
 ,
-"emergency_defibrillator": {
+"emergency_fire_hydrant": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -463,7 +463,7 @@
 "y": 0
 }
 ,
-"emergency_fire_hydrant": {
+"emergency_phone": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -471,7 +471,7 @@
 "y": 0
 }
 ,
-"emergency_phone": {
+"historic_archaeological_site": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -479,7 +479,7 @@
 "y": 0
 }
 ,
-"historic_archaeological_site": {
+"historic_battlefield": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -487,7 +487,7 @@
 "y": 0
 }
 ,
-"historic_battlefield": {
+"historic_castle": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -495,7 +495,7 @@
 "y": 0
 }
 ,
-"historic_castle": {
+"historic_fort": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -503,7 +503,7 @@
 "y": 0
 }
 ,
-"historic_fort": {
+"historic_memorial": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -511,7 +511,7 @@
 "y": 0
 }
 ,
-"historic_memorial": {
+"historic_monument": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -519,7 +519,7 @@
 "y": 0
 }
 ,
-"historic_monument": {
+"historic_ruins": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -527,7 +527,7 @@
 "y": 0
 }
 ,
-"historic_ruins": {
+"historic_wayside_cross": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -535,7 +535,7 @@
 "y": 0
 }
 ,
-"historic_wayside_cross": {
+"historic_wayside_shrine": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -543,7 +543,7 @@
 "y": 0
 }
 ,
-"historic_wayside_shrine": {
+"leisure_golf_course": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -551,7 +551,7 @@
 "y": 0
 }
 ,
-"leisure_golf_course": {
+"leisure_ice_rink": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -559,7 +559,7 @@
 "y": 0
 }
 ,
-"leisure_ice_rink": {
+"leisure_sports_centre": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -567,7 +567,7 @@
 "y": 0
 }
 ,
-"leisure_sports_centre": {
+"leisure_swimming_pool": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -575,7 +575,7 @@
 "y": 0
 }
 ,
-"leisure_swimming_pool": {
+"leisure_water_park": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -583,7 +583,7 @@
 "y": 0
 }
 ,
-"leisure_water_park": {
+"man_made_lighthouse": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -591,7 +591,7 @@
 "y": 0
 }
 ,
-"man_made_lighthouse": {
+"man_made_tower": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -599,7 +599,7 @@
 "y": 0
 }
 ,
-"man_made_tower": {
+"man_made_watermill": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -607,7 +607,7 @@
 "y": 0
 }
 ,
-"man_made_watermill": {
+"man_made_water_well": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -615,7 +615,7 @@
 "y": 0
 }
 ,
-"man_made_water_well": {
+"man_made_windmill": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -623,7 +623,7 @@
 "y": 0
 }
 ,
-"man_made_windmill": {
+"marker_onewayminusone": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -631,7 +631,7 @@
 "y": 0
 }
 ,
-"marker_onewayminusone": {
+"marker_oneway": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -639,7 +639,7 @@
 "y": 0
 }
 ,
-"marker_oneway": {
+"office_diplomatic": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -647,7 +647,7 @@
 "y": 0
 }
 ,
-"office_diplomatic": {
+"parking": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,

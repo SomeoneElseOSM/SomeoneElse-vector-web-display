@@ -25,6 +25,7 @@ Added `quarry` as a pattern.
 Moved `construction` to `sites` layer.
 Added `danger_area` as a pattern and also display a name for it from `sites`.
 Added layer to show `sports_centre` in `sites`, although that seems to be missing from the OSMF example tiles currently.
+Added display of name to `parking` in sites layer.
 
 ## 09/12/2024
 Added the selection of streets available in Shortbread tiles (no sidewalk or verge information).

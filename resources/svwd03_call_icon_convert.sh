@@ -208,6 +208,9 @@
 # aeroway
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/aerodrome.p.16.png                              ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/aerodrome.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/helipad.p.16.png                                ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/helipad.png
+#
+# railway
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/station.png                                     ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/station.png
 
 #
 # Area patterns used with the "land" layer:

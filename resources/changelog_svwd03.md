@@ -33,6 +33,7 @@ Added the `place_labels` layer.  Populated places are OK, but islands seem to be
 Added the `street_labels_points` layer.  Unfortunately, these seem to be missing from the OSMF example tiles currently.
 Added display of icon and name to `aerodrome` in `public_transport` layer.
 Added display of icon and name to `helipad` in `public_transport` layer.
+Added display of icon and name to `station`, `halt` and `tram_stop` in `public_transport` layer.
 
 ## 09/12/2024
 Added the selection of streets available in Shortbread tiles (no sidewalk or verge information).

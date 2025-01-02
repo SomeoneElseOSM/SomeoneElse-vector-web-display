@@ -6428,6 +6428,34 @@
 	    }
 	},
 	{
+	    "id": "public_transport-station-blue-name-0",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "public_transport",
+	    "filter": [ "all", [ "in", "kind", "station",
+                                               "halt",
+                                               "tram_stop" ] ],
+	    "layout": {
+		"icon-image": "station",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#6692da",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
 	    "id": "land-marina-name-16",
 	    "type": "symbol",
 	    "source": "someoneelse",

@@ -1143,11 +1143,19 @@
 "y": 0
 }
 ,
-"tourism_viewpoint": {
+"station": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
 "x": 9152,
+"y": 0
+}
+,
+"tourism_viewpoint": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 9216,
 "y": 0
 }
 }

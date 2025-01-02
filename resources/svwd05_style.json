@@ -1190,9 +1190,10 @@
 	    }
 	},
 	{
-	    "id": "label-ferries-bottom-10",
+	    "id": "label-ferries-bottom-named-10",
 	    "type": "symbol",
 	    "source-layer": "ferries",
+	    "filter": [ "all", [ "has", "name" ] ],
 	    "layout": {
 		"text-field": "{name}",
 		"text-font": [ "KlokanTech Noto Sans Regular" ],
@@ -1210,11 +1211,54 @@
 	    "minzoom": 10
 	},
 	{
-	    "id": "label-water_lines-bottom-13",
+	    "id": "label-ferries-bottom-unnamed-10",
+	    "type": "symbol",
+	    "source-layer": "ferries",
+	    "filter": [ "all", [ "!has", "name" ] ],
+	    "layout": {
+		"text-field": "(unnamed)",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "line",
+		"text-anchor": "bottom",
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "#0066ff",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 2,
+		"text-halo-blur": 1
+	    },
+	    "minzoom": 10
+	},
+	{
+	    "id": "label-water_lines-bottom-named-13",
 	    "type": "symbol",
 	    "source-layer": "water_lines_labels",
+	    "filter": [ "all", [ "has", "name" ] ],
 	    "layout": {
 		"text-field": "{name}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "line",
+		"text-anchor": "bottom",
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "blue",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 2,
+		"text-halo-blur": 1
+	    },
+	    "minzoom": 13
+	},
+	{
+	    "id": "label-water_lines-bottom-unnamed-13",
+	    "type": "symbol",
+	    "source-layer": "water_lines_labels",
+	    "filter": [ "all", [ "!has", "name" ] ],
+	    "layout": {
+		"text-field": "(unnamed)",
 		"text-font": [ "KlokanTech Noto Sans Regular" ],
 		"symbol-placement": "line",
 		"text-anchor": "bottom",

@@ -5336,10 +5336,10 @@
 	    "source": "someoneelse",
 	    "source-layer": "public_transport",
 	    "minzoom": 15,
-	    "filter": [ "all", [ "in", "amenity", "bus_station",
-                                                  "ferry_terminal" ] ],
+	    "filter": [ "all", [ "in", "kind", "bus_station",
+                                               "ferry_terminal" ] ],
 	    "layout": {
-		"icon-image": "amenity_{amenity}",
+		"icon-image": "amenity_{kind}",
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [

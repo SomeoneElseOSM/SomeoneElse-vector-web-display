@@ -1,7 +1,7 @@
 # Changes made to the [SVWD03 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd03.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
-## As yet unreleased
+## 01/01/2025
 Added `dam_lines` and `dam_polygons`.
 Added `buildings` as a fill and an outline.
 Added `aerialways` as line patterns.
@@ -34,6 +34,7 @@ Added the `street_labels_points` layer.  Unfortunately, these seem to be missing
 Added display of icon and name to `aerodrome` in `public_transport` layer.
 Added display of icon and name to `helipad` in `public_transport` layer.
 Added display of icon and name to `station`, `halt` and `tram_stop` in `public_transport` layer.
+Added display of icon and name to `bus_station`, and `ferry_terminal` in `public_transport` layer.  Unfortunately, `ferry_terminal` seems to be missing from the OSMF example tiles currently.
 
 ## 09/12/2024
 Added the selection of streets available in Shortbread tiles (no sidewalk or verge information).

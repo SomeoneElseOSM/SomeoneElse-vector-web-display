@@ -16129,7 +16129,8 @@
 	    "source": "someoneelse",
 	    "source-layer": "land2",
 	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "aeroway_large_aerodrome" ] ],
+	    "filter": [ "all", [ "in", "class", "aeroway_large_aerodrome" ],
+	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"icon-image": "aeroway_aerodrome",
 		"text-anchor": "top",

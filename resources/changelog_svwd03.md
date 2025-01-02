@@ -5,6 +5,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 Added display of icon and name to `bus_stop`, and `aerialway_station` in `public_transport` layer.  
 Added display of name of `housenumber`, or `housename` in `addresses` layer.  
 Added display of `boundaries`.
+Added display of `boundary_labels`.
 
 ## 01/01/2025
 Added `dam_lines` and `dam_polygons`.

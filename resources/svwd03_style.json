@@ -4347,6 +4347,31 @@
 	    }
 	},
 	{
+	    "id": "boundary_labels-named-2",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "boundary_labels",
+	    "minzoom": 2,
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "purple",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
 	    "id": "label-waterway-bottom-12",
 	    "type": "symbol",
 	    "source-layer": "water_lines_labels",

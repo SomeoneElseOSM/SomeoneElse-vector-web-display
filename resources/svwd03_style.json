@@ -2812,6 +2812,22 @@
 	    }
 	},
 	{
+	    "id": "boundaries-0",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "boundaries",
+	    "minzoom": 0,
+	    "paint": {
+		"line-color": "purple",
+		"line-width": {
+		    "stops": [
+			[ 15,  1.2 ],
+			[ 20,  2.4 ]
+		    ]
+                }
+	    }
+	},
+	{
 	    "id": "aerialway-cable_car-11",
 	    "type": "line",
 	    "source": "someoneelse",

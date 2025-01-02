@@ -404,14 +404,39 @@
 	    }
 	},
 	{
-	    "id": "public_transport-12",
+	    "id": "public_transport-named-0",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "public_transport",
-	    "minzoom": 12,
+	    "filter": [ "all", [ "has", "name" ] ],
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "indigo",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "public_transport-unnamed-0",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "public_transport",
+	    "filter": [ "all", [ "!has", "name" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "(unnamed)\n",
 		"text-font": [
 		    "KlokanTech Noto Sans Regular"
 		],
@@ -994,11 +1019,12 @@
 	    }
 	},
 	{
-	    "id": "street_labels_points-12",
+	    "id": "street_labels_points-named-12",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "street_labels_points",
 	    "minzoom": 12,
+	    "filter": [ "all", [ "has", "name" ] ],
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{ref}, {name}\n",
@@ -1019,11 +1045,59 @@
 	    }
 	},
 	{
-	    "id": "label-street_labels-bottom-12",
+	    "id": "street_labels_points-unnamed-12",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "street_labels_points",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "!has", "name" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{ref}, (unnamed)\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "yellow",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "label-street_labels-bottom-named-12",
 	    "type": "symbol",
 	    "source-layer": "street_labels",
+	    "filter": [ "all", [ "has", "name" ] ],
 	    "layout": {
 		"text-field": "{name}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "line",
+		"text-anchor": "bottom",
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "brown",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 2,
+		"text-halo-blur": 1
+	    },
+	    "minzoom": 12
+	},
+	{
+	    "id": "label-street_labels-bottom-unnamed-12",
+	    "type": "symbol",
+	    "source-layer": "street_labels",
+	    "filter": [ "all", [ "!has", "name" ] ],
+	    "layout": {
+		"text-field": "(unnamed)",
 		"text-font": [ "KlokanTech Noto Sans Regular" ],
 		"symbol-placement": "line",
 		"text-anchor": "bottom",

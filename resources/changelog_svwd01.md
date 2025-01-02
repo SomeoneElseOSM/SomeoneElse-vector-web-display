@@ -1,6 +1,9 @@
 # Changes made to the [SVWD01 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd01.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
+## As yet unreleased
+Moved military hatching display to after grass landuse display.
+
 ## 01/01/2025
 Display `place=island` from zoom 4 upwards, based on the way_area.
 

@@ -195,8 +195,6 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shopping_nonspecific.p.16.png                   ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/shop_video.png
 
 # not yet tested
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/bus_station.n.16.png                            ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_bus_station.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/bus_stop_small.png                              ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_ferry_terminal.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/view_point.p.16.png                             ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/tourism_viewpoint.png
 
 # sites
@@ -211,6 +209,12 @@
 #
 # railway
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/station.png                                     ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/station.png
+#
+# other
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/bus_station.n.16.png                            ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_bus_station.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/bus_stop_small.png                              ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_ferry_terminal.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/bus_stop_small.png                              ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/aerialway_station.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/bus_stop_pole_24.png                         ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/bus_stop.png
 
 #
 # Area patterns used with the "land" layer:

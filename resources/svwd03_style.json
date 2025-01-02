@@ -5352,7 +5352,35 @@
 		"visibility": "visible"
 	    },
 	    "paint": {
-		"text-color": "#6699cc",
+		"text-color": "#0066ff",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "public_transport-amenity-lightblue-imagename-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "public_transport",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "kind", "bus_stop",
+                                               "aerialway_station" ] ],
+	    "layout": {
+		"icon-image": "{kind}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#0066ff",
 		"text-halo-blur": 0.5,
 		"text-halo-color": "#ffffff",
 		"text-halo-width": 1

@@ -5925,7 +5925,6 @@
 	    "paint": {
 		"line-pattern": "pattern_aerialway_cable_car",
 		"line-width": {
-		    "base": 9.6,
 		    "stops": [
 			[ 11,   9.6 ],
 			[ 15,  38.4 ],

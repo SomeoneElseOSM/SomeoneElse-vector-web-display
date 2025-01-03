@@ -10044,13 +10044,14 @@
 	    }
 	},
 	{
-	    "id": "land1-tourism_informationmarker-lightbrown-nwnrelationlist-14",
+	    "id": "land1-tourism_informationmarker-purple-nwnrelationlist-15",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "minzoom": 14,
+	    "minzoom": 15,
 	    "filter": [ "all", [ "in", "class", "tourism_informationmarker" ],
-                               [ "has", "nwnrelationlist" ] ],
+                               [ "has", "nwnrelationlist" ],
+                               [ "!=", "nhnrelation_in_list", true ] ],
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{nwnrelationlist}\n",
@@ -10063,8 +10064,8 @@
                                             [ 19, [ 0, 4.0 ] ],
                                             [ 25, [ 0, 9.0 ] ] ] },
                 "text-optional": true,
-		"text-size": { "stops": [ [ 12,  5 ],
-                                          [ 20, 15 ] ] },
+		"text-size": { "stops": [ [ 12, 3 ],
+                                          [ 20, 9 ] ] },
 		"visibility": "visible"
 	    },
 	    "paint": {
@@ -10075,13 +10076,14 @@
 	    }
 	},
 	{
-	    "id": "land1-tourism_informationroutemarker-lightbrown-nwnrelationlist-15",
+	    "id": "land1-tourism_informationroutemarker-purple-nwnrelationlist-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "minzoom": 15,
+	    "minzoom": 16,
 	    "filter": [ "all", [ "in", "class", "tourism_informationroutemarker" ],
-                               [ "has", "nwnrelationlist" ] ],
+                               [ "has", "nwnrelationlist" ],
+                               [ "!=", "nhnrelation_in_list", true ] ],
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{nwnrelationlist}\n",
@@ -10094,12 +10096,76 @@
                                             [ 19, [ 0, 4.0 ] ],
                                             [ 25, [ 0, 9.0 ] ] ] },
                 "text-optional": true,
-		"text-size": { "stops": [ [ 12,  5 ],
-                                          [ 20, 15 ] ] },
+		"text-size": { "stops": [ [ 12, 3 ],
+                                          [ 20, 9 ] ] },
 		"visibility": "visible"
 	    },
 	    "paint": {
 		"text-color": "purple",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-tourism_informationmarker-red-nhnrelationlist-15",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 15,
+	    "filter": [ "all", [ "in", "class", "tourism_informationmarker" ],
+                               [ "has", "nwnrelationlist" ],
+                               [ "==", "nhnrelation_in_list", true ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{nwnrelationlist}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": { "stops": [ [ 12, [ 0, 1.5 ] ],
+                                            [ 18, [ 0, 2.0 ] ],
+                                            [ 19, [ 0, 4.0 ] ],
+                                            [ 25, [ 0, 9.0 ] ] ] },
+                "text-optional": true,
+		"text-size": { "stops": [ [ 12, 3 ],
+                                          [ 20, 9 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#cc0000",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-tourism_informationroutemarker-red-nhnrelationlist-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "class", "tourism_informationroutemarker" ],
+                               [ "has", "nwnrelationlist" ],
+                               [ "==", "nhnrelation_in_list", true ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{nwnrelationlist}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": { "stops": [ [ 12, [ 0, 1.5 ] ],
+                                            [ 18, [ 0, 2.0 ] ],
+                                            [ 19, [ 0, 4.0 ] ],
+                                            [ 25, [ 0, 9.0 ] ] ] },
+                "text-optional": true,
+		"text-size": { "stops": [ [ 12, 3 ],
+                                          [ 20, 9 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#cc0000",
 		"text-halo-blur": 0.5,
 		"text-halo-color": "#ffffff",
 		"text-halo-width": 1

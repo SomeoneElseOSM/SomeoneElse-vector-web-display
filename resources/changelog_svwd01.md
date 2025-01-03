@@ -1,12 +1,12 @@
 # Changes made to the [SVWD01 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd01.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
-## As yet unreleased
+## 03/01/2025
 Moved military hatching display to after grass landuse display.
 Only display `aerodrome` icons on the written centroid.
 Show an `orchard` fill for plant nurseries.
 Show the names of ferry routes.
-For `informationmarker` and `informationroutemarker`, display the `nwnrelationlist` containing all relations that node is a member of.
+For `informationmarker` and `informationroutemarker`, display the `nwnrelationlist` containing all walking and horse relations that node is a member of, in purple if walking only; in red if one or more is horse.
 
 ## 01/01/2025
 Display `place=island` from zoom 4 upwards, based on the way_area.

@@ -5,6 +5,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 Moved military hatching display to after grass landuse display.
 Only display `aerodrome` icons on the written centroid.
 Show an `orchard` fill for plant nurseries.
+Show the names of ferry routes.
 
 ## 01/01/2025
 Display `place=island` from zoom 4 upwards, based on the way_area.

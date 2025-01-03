@@ -6,6 +6,7 @@ Moved military hatching display to after grass landuse display.
 Only display `aerodrome` icons on the written centroid.
 Show an `orchard` fill for plant nurseries.
 Show the names of ferry routes.
+For `informationmarker` and `informationroutemarker`, display the `nwnrelationlist` containing all relations that node is a member of.
 
 ## 01/01/2025
 Display `place=island` from zoom 4 upwards, based on the way_area.

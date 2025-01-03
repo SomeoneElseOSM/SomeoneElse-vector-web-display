@@ -9951,7 +9951,7 @@
 	    }
 	},
 	{
-	    "id": "land1-nameele-lightbrown-imagename-14-19",
+	    "id": "land1-nameele-lightbrown-imagename-overlap-14-19",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -9961,6 +9961,7 @@
                                                 "tourism_informationmarker" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+                "icon-allow-overlap": true,
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -9980,28 +9981,125 @@
 	    }
 	},
 	{
-	    "id": "land1-nameele-lightbrown-imagename-19",
+	    "id": "land1-nameele-lightbrown-imagename-15-19",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "minzoom": 19,
-	    "filter": [ "all", [ "in", "class", "man_made_boundary_stone",
-                                                "tourism_informationmarker" ] ],
+	    "minzoom": 15,
+	    "maxzoom": 19,
+	    "filter": [ "all", [ "in", "class", "tourism_informationroutemarker" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+                "icon-allow-overlap": true,
 		"text-anchor": "top",
-		"text-field": "{ele}\n",
+		"text-field": "{name}\n",
 		"text-font": [
 		    "KlokanTech Noto Sans Regular"
 		],
-		"text-max-width": 14,
-		"text-offset": [ 0, 0.6 ],
+		"text-max-width": 13,
+		"text-offset": { "stops": [ [ 15, [ 0, 0.6 ] ],
+                                            [ 18, [ 0, 1.2 ] ] ] },
+                "text-optional": true,
 		"text-padding": 2,
 		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
 		"visibility": "visible"
 	    },
 	    "paint": {
 		"text-color": "#734a08",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-nameele-lightbrown-imagename-overlap-19",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 19,
+	    "filter": [ "all", [ "in", "class", "man_made_boundary_stone",
+                                                "tourism_informationmarker",
+                                                "tourism_informationroutemarker" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+                "icon-allow-overlap": true,
+		"text-anchor": "top",
+		"text-field": "{ele}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 14,
+		"text-offset": [ 0, 0.8 ],
+                "text-optional": true,
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 5 ], 
+                                          [ 20, 15 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#734a08",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-tourism_informationmarker-lightbrown-nwnrelationlist-14",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "class", "tourism_informationmarker" ],
+                               [ "has", "nwnrelationlist" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{nwnrelationlist}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": { "stops": [ [ 12, [ 0, 1.5 ] ],
+                                            [ 18, [ 0, 2.0 ] ],
+                                            [ 19, [ 0, 4.0 ] ],
+                                            [ 25, [ 0, 9.0 ] ] ] },
+                "text-optional": true,
+		"text-size": { "stops": [ [ 12,  5 ],
+                                          [ 20, 15 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "purple",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-tourism_informationroutemarker-lightbrown-nwnrelationlist-15",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 15,
+	    "filter": [ "all", [ "in", "class", "tourism_informationroutemarker" ],
+                               [ "has", "nwnrelationlist" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{nwnrelationlist}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": { "stops": [ [ 12, [ 0, 1.5 ] ],
+                                            [ 18, [ 0, 2.0 ] ],
+                                            [ 19, [ 0, 4.0 ] ],
+                                            [ 25, [ 0, 9.0 ] ] ] },
+                "text-optional": true,
+		"text-size": { "stops": [ [ 12,  5 ],
+                                          [ 20, 15 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "purple",
 		"text-halo-blur": 0.5,
 		"text-halo-color": "#ffffff",
 		"text-halo-width": 1
@@ -10417,7 +10515,6 @@
                                                 "tourism_informationear",
                                                 "tourism_informationplaque",
                                                 "tourism_informationpublictransport",
-                                                "tourism_informationroutemarker",
                                                 "tourism_informationsign" ] ],
 	    "layout": {
 		"icon-image": "{class}",

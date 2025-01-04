@@ -2286,6 +2286,551 @@
 	    }
 	},
 	{
+	    "id": "land1-water-fill-5",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 5,
+	    "filter": [ "all", [ "in", "class", "natural_water" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#b5d0d0"
+	    }
+	},
+	{
+	    "id": "land1-intermittentwater-fill-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "natural_intermittentwater" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_natural_intermittentwater"
+	    }
+	},
+	{
+	    "id": "land1-intermittentwater-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "natural_intermittentwater" ] ],
+	    "paint": {
+		"line-color": "#b5d0d0",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "land2-flood_prone-fill-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land2",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "natural_flood_prone" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_natural_flood_prone"
+	    }
+	},
+	{
+	    "id": "land2-flood_prone-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land2",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "natural_flood_prone" ] ],
+	    "paint": {
+		"line-color": "#b5d0d0",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "waterway-ditch-tunnelcasing-13",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "waterway",
+	    "minzoom": 13,
+	    "filter": [
+		"all",
+		[ "in", "class", "ditch",
+                                 "intditch" ],
+                [ "==", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#b5d0d0",
+                "line-dasharray": [0.1, 0.05],
+		"line-width": {
+		    "base": 1.0,
+		    "stops": [
+			[ 13,   1.4 ],
+			[ 14,   1.4 ],
+			[ 16,   2.8 ],
+			[ 18,   4.2 ],
+			[ 20,  14.0 ],
+			[ 22,  92.0 ],
+			[ 24, 182.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "waterway-ditch-tunnelfill-13",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "waterway",
+	    "minzoom": 13,
+	    "filter": [ "all", [ "in", "class", "ditch",
+                                                "intditch" ],
+                               [ "==", "tunnel", true ] ],
+	    "layout": { "line-cap": "square", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#f3f7f7",
+		"line-width": {
+		    "base": 1.0,
+		    "stops": [
+			[ 13,   1.0 ],
+			[ 14,   1.0 ],
+			[ 16,   2.0 ],
+			[ 18,   2.3 ],
+			[ 20,  10.0 ],
+			[ 22,  67.0 ],
+			[ 24, 133.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "waterway-stream-tunnelcasing-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "waterway",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "stream",
+		                 "intstream",
+		                 "drain",
+		                 "intdrain" ],
+                [ "==", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#b5d0d0",
+                "line-dasharray": [0.1, 0.05],
+		"line-width": {
+		    "base": 1.0,
+		    "stops": [
+			[ 12,   1.4 ],
+			[ 14,   2.2 ],
+			[ 16,   4.4 ],
+			[ 18,  10.0 ],
+			[ 20,  21.0 ],
+			[ 22,  70.0 ],
+			[ 24, 280.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "waterway-stream-tunnelfill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "waterway",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "stream",
+                                                "intstream",
+                                                "drain",
+                                                "intdrain" ],
+                               [ "==", "tunnel", true ] ],
+	    "layout": { "line-cap": "square", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#f3f7f7",
+		"line-width": {
+		    "base": 1.0,
+		    "stops": [
+			[ 12,   1.0 ],
+			[ 14,   1.5 ],
+			[ 16,   3.0 ],
+			[ 18,   7.0 ],
+			[ 20,  15.0 ],
+			[ 22,  50.0 ],
+			[ 24, 200.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "waterway-river-tunnelcasing-11",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "waterway",
+	    "minzoom": 11,
+	    "filter": [
+		"all",
+		[ "in", "class", "river",
+		                 "canal" ],
+                [ "==", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#b5d0d0",
+                "line-dasharray": [0.1, 0.05],
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 11,   2.8 ],
+			[ 20, 144.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "waterway-river-tunnelfill-11",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "waterway",
+	    "minzoom": 11,
+	    "filter": [ "all", [ "in", "class", "river",
+                                                "canal" ],
+                               [ "==", "tunnel", true ] ],
+	    "layout": { "line-cap": "square", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#f3f7f7",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 11,  2.0 ],
+			[ 20, 96.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "waterway-derelict_canal-tunnelcasing-11",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "waterway",
+	    "minzoom": 11,
+	    "filter": [
+		"all",
+		[ "in", "class", "derelict_canal" ],
+                [ "==", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#b5d0d0",
+                "line-dasharray": [0.1, 0.05],
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 11,  2.8 ],
+			[ 20, 72.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "waterway-derelict_canal-tunnelprefill-11",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "waterway",
+	    "minzoom": 11,
+	    "filter": [ "all", [ "in", "class", "derelict_canal" ],
+                               [ "==", "tunnel", true ] ],
+	    "layout": { "line-cap": "square", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#f2efe9",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 11,  2.0 ],
+			[ 20, 48.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "waterway-derelict_canal-tunnelfill-11",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "waterway",
+	    "minzoom": 11,
+	    "filter": [ "all", [ "in", "class", "derelict_canal" ],
+                               [ "==", "tunnel", true ] ],
+	    "layout": { "line-cap": "square", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#b5e4d0",
+                "line-dasharray": [2.0, 1.0],
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 11,  2.0 ],
+			[ 20, 48.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "waterway-intriver-tunnelcasing-11",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "waterway",
+	    "minzoom": 11,
+	    "filter": [
+		"all",
+		[ "in", "class", "intriver" ],
+                [ "==", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#b5d0d0",
+                "line-dasharray": [0.1, 0.05],
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 11,   2.8 ],
+			[ 20, 144.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "waterway-intriver-tunnelfill-11",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "waterway",
+	    "minzoom": 11,
+	    "filter": [ "all", [ "in", "class", "intriver" ],
+                               [ "==", "tunnel", true ] ],
+	    "layout": { "line-cap": "square", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#f3f7f7",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 11,  2.0 ],
+			[ 20, 96.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "waterway-river-otherfill-11",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "waterway",
+	    "minzoom": 11,
+	    "filter": [ "all", [ "in", "class", "river",
+                                                "canal" ],
+                               [ "!=", "bridge", true ],
+                               [ "!=", "tunnel", true ] ],
+	    "paint": {
+		"line-color": "#b5d0d0",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 11,  2.0 ],
+			[ 20, 96.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "waterway-derelict_canal-otherfill-11",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "waterway",
+	    "minzoom": 11,
+	    "filter": [ "all", [ "in", "class", "derelict_canal" ],
+                               [ "!=", "bridge", true ],
+                               [ "!=", "tunnel", true ] ],
+	    "paint": {
+		"line-color": "#b5e4d0",
+                "line-dasharray": [2.0, 1.0],
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 11,  2.0 ],
+			[ 20, 48.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "waterway-intriver-otherfill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "waterway",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "intriver" ],
+                               [ "!=", "bridge", true ],
+                               [ "!=", "tunnel", true ] ],
+	    "layout": { "line-cap": "square", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#b5d0d0",
+                "line-dasharray": [1.0, 0.5],
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 12,  2.0 ],
+			[ 20, 96.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "waterway-stream-otherfill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "waterway",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "stream",
+                                                "drain" ],
+                               [ "!=", "bridge", true ],
+                               [ "!=", "tunnel", true ] ],
+	    "paint": {
+		"line-color": "#b5d0d0",
+		"line-width": {
+		    "base": 1.0,
+		    "stops": [
+			[ 12,   1.0 ],
+			[ 14,   1.5 ],
+			[ 16,   3.0 ],
+			[ 18,   7.0 ],
+			[ 20,  15.0 ],
+			[ 22,  50.0 ],
+			[ 24, 200.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "waterway-intstream-otherfill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "waterway",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "intstream",
+                                                "intdrain" ],
+                               [ "!=", "bridge", true ],
+                               [ "!=", "tunnel", true ] ],
+	    "paint": {
+		"line-color": "#b5d0d0",
+                "line-dasharray": [1.5, 0.75],
+		"line-width": {
+		    "base": 1.0,
+		    "stops": [
+			[ 12,   1.0 ],
+			[ 14,   1.5 ],
+			[ 16,   3.0 ],
+			[ 18,   7.0 ],
+			[ 20,  15.0 ],
+			[ 22,  50.0 ],
+			[ 24, 200.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "waterway-ditch-otherfill-13",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "waterway",
+	    "minzoom": 13,
+	    "filter": [ "all", [ "in", "class", "ditch" ],
+                               [ "!=", "bridge", true ],
+                               [ "!=", "tunnel", true ] ],
+	    "paint": {
+		"line-color": "#b5d0d0",
+		"line-width": {
+		    "base": 1.0,
+		    "stops": [
+			[ 13,   1.0 ],
+			[ 14,   1.0 ],
+			[ 16,   2.0 ],
+			[ 18,   2.3 ],
+			[ 20,  10.0 ],
+			[ 22,  67.0 ],
+			[ 24, 133.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "waterway-intditch-otherfill-13",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "waterway",
+	    "minzoom": 13,
+	    "filter": [ "all", [ "in", "class", "intditch" ],
+                               [ "!=", "bridge", true ],
+                               [ "!=", "tunnel", true ] ],
+	    "paint": {
+		"line-color": "#b5d0d0",
+                "line-dasharray": [1.5, 0.75],
+		"line-width": {
+		    "base": 1.0,
+		    "stops": [
+			[ 13,   1.0 ],
+			[ 14,   1.0 ],
+			[ 16,   2.0 ],
+			[ 18,   2.3 ],
+			[ 20,  10.0 ],
+			[ 22,  67.0 ],
+			[ 24, 133.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "waterway-weir-14",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "waterway",
+	    "minzoom": 14,
+	    "filter": [ "in", "class", "weir" ],
+	    "paint": {
+		"line-color": "#aaa",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 14, 0.6 ],
+			[ 20, 1.2 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "waterway-pipeline-14",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "waterway",
+	    "minzoom": 14,
+	    "filter": [ "in", "class", "pipeline" ],
+	    "paint": {
+		"line-color": "#9900cc",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 14, 0.6 ],
+			[ 20, 1.2 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "building-bridge_area-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
@@ -3112,481 +3657,6 @@
 	    }
 	},
 	{
-	    "id": "waterway-ditch-tunnelcasing-13",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "waterway",
-	    "minzoom": 13,
-	    "filter": [
-		"all",
-		[ "in", "class", "ditch",
-                                 "intditch" ],
-                [ "==", "tunnel", true ]
-	    ],
-	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
-	    "paint": {
-		"line-color": "#b5d0d0",
-                "line-dasharray": [0.1, 0.05],
-		"line-width": {
-		    "base": 1.0,
-		    "stops": [
-			[ 13,   1.4 ],
-			[ 14,   1.4 ],
-			[ 16,   2.8 ],
-			[ 18,   4.2 ],
-			[ 20,  14.0 ],
-			[ 22,  92.0 ],
-			[ 24, 182.0 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "waterway-ditch-tunnelfill-13",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "waterway",
-	    "minzoom": 13,
-	    "filter": [ "all", [ "in", "class", "ditch",
-                                                "intditch" ],
-                               [ "==", "tunnel", true ] ],
-	    "layout": { "line-cap": "square", "line-join": "round", "visibility": "visible" },
-	    "paint": {
-		"line-color": "#f3f7f7",
-		"line-width": {
-		    "base": 1.0,
-		    "stops": [
-			[ 13,   1.0 ],
-			[ 14,   1.0 ],
-			[ 16,   2.0 ],
-			[ 18,   2.3 ],
-			[ 20,  10.0 ],
-			[ 22,  67.0 ],
-			[ 24, 133.0 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "waterway-stream-tunnelcasing-12",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "waterway",
-	    "minzoom": 12,
-	    "filter": [
-		"all",
-		[ "in", "class", "stream",
-		                 "intstream",
-		                 "drain",
-		                 "intdrain" ],
-                [ "==", "tunnel", true ]
-	    ],
-	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
-	    "paint": {
-		"line-color": "#b5d0d0",
-                "line-dasharray": [0.1, 0.05],
-		"line-width": {
-		    "base": 1.0,
-		    "stops": [
-			[ 12,   1.4 ],
-			[ 14,   2.2 ],
-			[ 16,   4.4 ],
-			[ 18,  10.0 ],
-			[ 20,  21.0 ],
-			[ 22,  70.0 ],
-			[ 24, 280.0 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "waterway-stream-tunnelfill-12",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "waterway",
-	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "class", "stream",
-                                                "intstream",
-                                                "drain",
-                                                "intdrain" ],
-                               [ "==", "tunnel", true ] ],
-	    "layout": { "line-cap": "square", "line-join": "round", "visibility": "visible" },
-	    "paint": {
-		"line-color": "#f3f7f7",
-		"line-width": {
-		    "base": 1.0,
-		    "stops": [
-			[ 12,   1.0 ],
-			[ 14,   1.5 ],
-			[ 16,   3.0 ],
-			[ 18,   7.0 ],
-			[ 20,  15.0 ],
-			[ 22,  50.0 ],
-			[ 24, 200.0 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "waterway-river-tunnelcasing-11",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "waterway",
-	    "minzoom": 11,
-	    "filter": [
-		"all",
-		[ "in", "class", "river",
-		                 "canal" ],
-                [ "==", "tunnel", true ]
-	    ],
-	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
-	    "paint": {
-		"line-color": "#b5d0d0",
-                "line-dasharray": [0.1, 0.05],
-		"line-width": {
-		    "base": 2.0,
-		    "stops": [
-			[ 11,   2.8 ],
-			[ 20, 144.0 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "waterway-river-tunnelfill-11",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "waterway",
-	    "minzoom": 11,
-	    "filter": [ "all", [ "in", "class", "river",
-                                                "canal" ],
-                               [ "==", "tunnel", true ] ],
-	    "layout": { "line-cap": "square", "line-join": "round", "visibility": "visible" },
-	    "paint": {
-		"line-color": "#f3f7f7",
-		"line-width": {
-		    "base": 2.0,
-		    "stops": [
-			[ 11,  2.0 ],
-			[ 20, 96.0 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "waterway-derelict_canal-tunnelcasing-11",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "waterway",
-	    "minzoom": 11,
-	    "filter": [
-		"all",
-		[ "in", "class", "derelict_canal" ],
-                [ "==", "tunnel", true ]
-	    ],
-	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
-	    "paint": {
-		"line-color": "#b5d0d0",
-                "line-dasharray": [0.1, 0.05],
-		"line-width": {
-		    "base": 2.0,
-		    "stops": [
-			[ 11,  2.8 ],
-			[ 20, 72.0 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "waterway-derelict_canal-tunnelprefill-11",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "waterway",
-	    "minzoom": 11,
-	    "filter": [ "all", [ "in", "class", "derelict_canal" ],
-                               [ "==", "tunnel", true ] ],
-	    "layout": { "line-cap": "square", "line-join": "round", "visibility": "visible" },
-	    "paint": {
-		"line-color": "#f2efe9",
-		"line-width": {
-		    "base": 2.0,
-		    "stops": [
-			[ 11,  2.0 ],
-			[ 20, 48.0 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "waterway-derelict_canal-tunnelfill-11",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "waterway",
-	    "minzoom": 11,
-	    "filter": [ "all", [ "in", "class", "derelict_canal" ],
-                               [ "==", "tunnel", true ] ],
-	    "layout": { "line-cap": "square", "line-join": "round", "visibility": "visible" },
-	    "paint": {
-		"line-color": "#b5e4d0",
-                "line-dasharray": [2.0, 1.0],
-		"line-width": {
-		    "base": 2.0,
-		    "stops": [
-			[ 11,  2.0 ],
-			[ 20, 48.0 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "waterway-intriver-tunnelcasing-11",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "waterway",
-	    "minzoom": 11,
-	    "filter": [
-		"all",
-		[ "in", "class", "intriver" ],
-                [ "==", "tunnel", true ]
-	    ],
-	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
-	    "paint": {
-		"line-color": "#b5d0d0",
-                "line-dasharray": [0.1, 0.05],
-		"line-width": {
-		    "base": 2.0,
-		    "stops": [
-			[ 11,   2.8 ],
-			[ 20, 144.0 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "waterway-intriver-tunnelfill-11",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "waterway",
-	    "minzoom": 11,
-	    "filter": [ "all", [ "in", "class", "intriver" ],
-                               [ "==", "tunnel", true ] ],
-	    "layout": { "line-cap": "square", "line-join": "round", "visibility": "visible" },
-	    "paint": {
-		"line-color": "#f3f7f7",
-		"line-width": {
-		    "base": 2.0,
-		    "stops": [
-			[ 11,  2.0 ],
-			[ 20, 96.0 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "waterway-river-otherfill-11",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "waterway",
-	    "minzoom": 11,
-	    "filter": [ "all", [ "in", "class", "river",
-                                                "canal" ],
-                               [ "!=", "bridge", true ],
-                               [ "!=", "tunnel", true ] ],
-	    "paint": {
-		"line-color": "#b5d0d0",
-		"line-width": {
-		    "base": 2.0,
-		    "stops": [
-			[ 11,  2.0 ],
-			[ 20, 96.0 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "waterway-derelict_canal-otherfill-11",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "waterway",
-	    "minzoom": 11,
-	    "filter": [ "all", [ "in", "class", "derelict_canal" ],
-                               [ "!=", "bridge", true ],
-                               [ "!=", "tunnel", true ] ],
-	    "paint": {
-		"line-color": "#b5e4d0",
-                "line-dasharray": [2.0, 1.0],
-		"line-width": {
-		    "base": 2.0,
-		    "stops": [
-			[ 11,  2.0 ],
-			[ 20, 48.0 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "waterway-intriver-otherfill-12",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "waterway",
-	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "class", "intriver" ],
-                               [ "!=", "bridge", true ],
-                               [ "!=", "tunnel", true ] ],
-	    "layout": { "line-cap": "square", "line-join": "round", "visibility": "visible" },
-	    "paint": {
-		"line-color": "#b5d0d0",
-                "line-dasharray": [1.0, 0.5],
-		"line-width": {
-		    "base": 2.0,
-		    "stops": [
-			[ 12,  2.0 ],
-			[ 20, 96.0 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "waterway-stream-otherfill-12",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "waterway",
-	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "class", "stream",
-                                                "drain" ],
-                               [ "!=", "bridge", true ],
-                               [ "!=", "tunnel", true ] ],
-	    "paint": {
-		"line-color": "#b5d0d0",
-		"line-width": {
-		    "base": 1.0,
-		    "stops": [
-			[ 12,   1.0 ],
-			[ 14,   1.5 ],
-			[ 16,   3.0 ],
-			[ 18,   7.0 ],
-			[ 20,  15.0 ],
-			[ 22,  50.0 ],
-			[ 24, 200.0 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "waterway-intstream-otherfill-12",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "waterway",
-	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "class", "intstream",
-                                                "intdrain" ],
-                               [ "!=", "bridge", true ],
-                               [ "!=", "tunnel", true ] ],
-	    "paint": {
-		"line-color": "#b5d0d0",
-                "line-dasharray": [1.5, 0.75],
-		"line-width": {
-		    "base": 1.0,
-		    "stops": [
-			[ 12,   1.0 ],
-			[ 14,   1.5 ],
-			[ 16,   3.0 ],
-			[ 18,   7.0 ],
-			[ 20,  15.0 ],
-			[ 22,  50.0 ],
-			[ 24, 200.0 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "waterway-ditch-otherfill-13",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "waterway",
-	    "minzoom": 13,
-	    "filter": [ "all", [ "in", "class", "ditch" ],
-                               [ "!=", "bridge", true ],
-                               [ "!=", "tunnel", true ] ],
-	    "paint": {
-		"line-color": "#b5d0d0",
-		"line-width": {
-		    "base": 1.0,
-		    "stops": [
-			[ 13,   1.0 ],
-			[ 14,   1.0 ],
-			[ 16,   2.0 ],
-			[ 18,   2.3 ],
-			[ 20,  10.0 ],
-			[ 22,  67.0 ],
-			[ 24, 133.0 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "waterway-intditch-otherfill-13",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "waterway",
-	    "minzoom": 13,
-	    "filter": [ "all", [ "in", "class", "intditch" ],
-                               [ "!=", "bridge", true ],
-                               [ "!=", "tunnel", true ] ],
-	    "paint": {
-		"line-color": "#b5d0d0",
-                "line-dasharray": [1.5, 0.75],
-		"line-width": {
-		    "base": 1.0,
-		    "stops": [
-			[ 13,   1.0 ],
-			[ 14,   1.0 ],
-			[ 16,   2.0 ],
-			[ 18,   2.3 ],
-			[ 20,  10.0 ],
-			[ 22,  67.0 ],
-			[ 24, 133.0 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "waterway-weir-14",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "waterway",
-	    "minzoom": 14,
-	    "filter": [ "in", "class", "weir" ],
-	    "paint": {
-		"line-color": "#aaa",
-		"line-width": {
-		    "base": 0.6,
-		    "stops": [
-			[ 14, 0.6 ],
-			[ 20, 1.2 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "waterway-pipeline-14",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "waterway",
-	    "minzoom": 14,
-	    "filter": [ "in", "class", "pipeline" ],
-	    "paint": {
-		"line-color": "#9900cc",
-		"line-width": {
-		    "base": 0.6,
-		    "stops": [
-			[ 14, 0.6 ],
-			[ 20, 1.2 ]
-		    ]
-		}
-	    }
-	},
-	{
 	    "id": "barrier-cutline",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -3846,76 +3916,6 @@
 		"fill-antialias": true,
 		"fill-color": "#c2cfcf",
 		"fill-opacity": 0.7
-	    }
-	},
-	{
-	    "id": "land1-water-fill-5",
-	    "type": "fill",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 5,
-	    "filter": [ "all", [ "in", "class", "natural_water" ] ],
-	    "paint": {
-		"fill-antialias": true,
-		"fill-color": "#b5d0d0"
-	    }
-	},
-	{
-	    "id": "land1-intermittentwater-fill-9",
-	    "type": "fill",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "natural_intermittentwater" ] ],
-	    "paint": {
-		"fill-pattern": "pattern_natural_intermittentwater"
-	    }
-	},
-	{
-	    "id": "land1-intermittentwater-outline",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "natural_intermittentwater" ] ],
-	    "paint": {
-		"line-color": "#b5d0d0",
-		"line-width": {
-		    "base": 0.6,
-		    "stops": [
-			[ 15,  0.6 ],
-			[ 20,  1.2 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "land2-flood_prone-fill-9",
-	    "type": "fill",
-	    "source": "someoneelse",
-	    "source-layer": "land2",
-	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "natural_flood_prone" ] ],
-	    "paint": {
-		"fill-pattern": "pattern_natural_flood_prone"
-	    }
-	},
-	{
-	    "id": "land2-flood_prone-outline",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "land2",
-	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "natural_flood_prone" ] ],
-	    "paint": {
-		"line-color": "#b5d0d0",
-		"line-width": {
-		    "base": 0.6,
-		    "stops": [
-			[ 15,  0.6 ],
-			[ 20,  1.2 ]
-		    ]
-		}
 	    }
 	},
 	{

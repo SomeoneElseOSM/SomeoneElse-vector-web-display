@@ -325,6 +325,42 @@
 	    }
 	},
 	{
+	    "id": "land1-power-fill-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "man_made_power",
+                                                "power_station",
+                                                "power_generator" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#e1c6c6"
+	    }
+	},
+	{
+	    "id": "land1-power-outline-11",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 11,
+	    "filter": [ "all", [ "in", "class", "man_made_power",
+                                                "man_made_power_water",
+                                                "man_made_power_wind",
+                                                "power_station",
+                                                "power_generator" ] ],
+	    "paint": {
+		"line-color": "#9b8b8b",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "land1-railway-fill-9",
 	    "type": "fill",
 	    "source": "someoneelse",
@@ -1795,42 +1831,6 @@
 	    "filter": [ "all", [ "in", "class", "leisure_swimming_pool" ] ],
 	    "paint": {
 		"line-color": "#8cbdbd",
-		"line-width": {
-		    "base": 0.6,
-		    "stops": [
-			[ 15,  0.6 ],
-			[ 20,  1.2 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "land1-power-fill-9",
-	    "type": "fill",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "man_made_power",
-                                                "power_station",
-                                                "power_generator" ] ],
-	    "paint": {
-		"fill-antialias": true,
-		"fill-color": "#d0c3c3"
-	    }
-	},
-	{
-	    "id": "land1-power-outline-11",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 11,
-	    "filter": [ "all", [ "in", "class", "man_made_power",
-                                                "man_made_power_water",
-                                                "man_made_power_wind",
-                                                "power_station",
-                                                "power_generator" ] ],
-	    "paint": {
-		"line-color": "#9b8b8b",
 		"line-width": {
 		    "base": 0.6,
 		    "stops": [

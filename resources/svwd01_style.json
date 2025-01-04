@@ -209,6 +209,92 @@
 	    }
 	},
 	{
+	    "id": "land2-unnamedfarmland-fill-8",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land2",
+	    "minzoom": 8,
+	    "filter": [ "all", [ "in", "class", "landuse_unnamedfarmland" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#f4ebdf"
+	    }
+	},
+	{
+	    "id": "land2-unnamedfarmgrass-fill-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land2",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "landuse_unnamedfarmgrass" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#eeefda"
+	    }
+	},
+	{
+	    "id": "land2-unnamedfarmlandgrass-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land2",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "landuse_unnamedfarmland",
+				                "landuse_unnamedfarmgrass" ] ],
+	    "paint": {
+		"line-color": "#c8b69e",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+                }
+	    }
+	},
+	{
+	    "id": "land1-farmland-fill-8",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 8,
+	    "filter": [ "all", [ "in", "class", "landuse_farmland" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#f4ebdf"
+	    }
+	},
+	{
+	    "id": "land1-farmgrass-fill-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "landuse_farmgrass" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#eeefda"
+	    }
+	},
+	{
+	    "id": "land1-farmlandgrass-outline",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 15,
+	    "filter": [ "all", [ "in", "class", "landuse_farmland",
+				                "landuse_farmgrass" ] ],
+	    "paint": {
+		"line-color": "#c8b69e",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+                }
+	    }
+	},
+	{
 	    "id": "land1-industrial-fill-9",
 	    "type": "fill",
 	    "source": "someoneelse",
@@ -496,49 +582,6 @@
 	    "filter": [ "all", [ "in", "class", "landuse_unnamedfarmyard" ] ],
 	    "paint": {
 		"line-color": "#d1b48c",
-		"line-width": {
-		    "base": 0.6,
-		    "stops": [
-			[ 15,  0.6 ],
-			[ 20,  1.2 ]
-		    ]
-                }
-	    }
-	},
-	{
-	    "id": "land2-unnamedfarmland-fill-8",
-	    "type": "fill",
-	    "source": "someoneelse",
-	    "source-layer": "land2",
-	    "minzoom": 8,
-	    "filter": [ "all", [ "in", "class", "landuse_unnamedfarmland" ] ],
-	    "paint": {
-		"fill-antialias": true,
-		"fill-color": "#f4ebdf"
-	    }
-	},
-	{
-	    "id": "land2-unnamedfarmgrass-fill-9",
-	    "type": "fill",
-	    "source": "someoneelse",
-	    "source-layer": "land2",
-	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "landuse_unnamedfarmgrass" ] ],
-	    "paint": {
-		"fill-antialias": true,
-		"fill-color": "#eeefda"
-	    }
-	},
-	{
-	    "id": "land2-unnamedfarmlandgrass-outline",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "land2",
-	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "landuse_unnamedfarmland",
-				                "landuse_unnamedfarmgrass" ] ],
-	    "paint": {
-		"line-color": "#c8b69e",
 		"line-width": {
 		    "base": 0.6,
 		    "stops": [
@@ -1142,49 +1185,6 @@
 	    "filter": [ "all", [ "in", "class", "landuse_farmyard" ] ],
 	    "paint": {
 		"line-color": "#d1b48c",
-		"line-width": {
-		    "base": 0.6,
-		    "stops": [
-			[ 15,  0.6 ],
-			[ 20,  1.2 ]
-		    ]
-                }
-	    }
-	},
-	{
-	    "id": "land1-farmland-fill-8",
-	    "type": "fill",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 8,
-	    "filter": [ "all", [ "in", "class", "landuse_farmland" ] ],
-	    "paint": {
-		"fill-antialias": true,
-		"fill-color": "#f4ebdf"
-	    }
-	},
-	{
-	    "id": "land1-farmgrass-fill-9",
-	    "type": "fill",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "landuse_farmgrass" ] ],
-	    "paint": {
-		"fill-antialias": true,
-		"fill-color": "#eeefda"
-	    }
-	},
-	{
-	    "id": "land1-farmlandgrass-outline",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 15,
-	    "filter": [ "all", [ "in", "class", "landuse_farmland",
-				                "landuse_farmgrass" ] ],
-	    "paint": {
-		"line-color": "#c8b69e",
 		"line-width": {
 		    "base": 0.6,
 		    "stops": [

@@ -4,6 +4,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 ## As yet unreleased
 For `informationmarker` and `informationroutemarker`, also display `ncnrelationlist`, containing the refs of all cycling relations that node is a member of.
 Move the `building-bridge_area-fill` layer above the `land1-water-fill-5` etc. layers, and ensure that the `highway-footway-tunnelcasing-12` etc. layers are above bridges and linear and area water features.
+Move the farmland and farmgrass fills (land2 and land1) before industrial (land1 and land2) so that small rural industrial features display OK.
 
 ## 03/01/2025
 Moved military hatching display to after grass landuse display.

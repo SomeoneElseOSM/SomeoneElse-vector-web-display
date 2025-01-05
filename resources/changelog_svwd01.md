@@ -8,6 +8,7 @@ Changed `text-max-width` in some potentially longer text to 28.
 Display the name for `industrialbuilding` at the centroid only.
 Display `industrial` and `industrialbuilding` from 17 rather than 16, based on `way_area`.
 Handle route relation membership for other node tags, including artworks and NCN mileposts.
+Interpret `parking_space` as another reason to display a lighter colour parking symbol.
 
 ## 04/01/2025
 For `informationmarker` and `informationroutemarker`, also display `ncnrelationlist`, containing the refs of all cycling relations that node is a member of.

@@ -9817,7 +9817,8 @@
                                                 "amenity_parking_pay",
                                                 "amenity_parking_freedisabled",
                                                 "amenity_parking_paydisabled" ],
-	                       [ "!=", "access", "no" ],
+                               [ "all", [ "!=", "access", "no" ],
+                                        [ "!has", "parking_space" ] ],
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"icon-image": "{class}",
@@ -9850,7 +9851,8 @@
                                                 "amenity_parking_pay",
                                                 "amenity_parking_freedisabled",
                                                 "amenity_parking_paydisabled" ],
-	                       [ "==", "access", "no" ],
+                               [ "any", [ "==", "access", "no" ],
+                                        [ "has", "parking_space" ] ],
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"icon-image": "{class}",

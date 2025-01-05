@@ -12040,13 +12040,42 @@
 	    }
 	},
 	{
+	    "id": "land1-historic-brown-imagename-14",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "class", "historic_battlefield",
+                                                "historic_manor",
+                                                "historic_castle",
+                                                "historic_monastery" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "brown",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
 	    "id": "land1-historic-brown-imagename-15",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 15,
 	    "filter": [ "all", [ "in", "class", "historic_archaeological_site",
-                                                "historic_battlefield",
                                                 "historic_historicarchcastle",
                                                 "historic_historicarchmotte",
                                                 "historic_historiccrannog",
@@ -12055,10 +12084,7 @@
                                                 "historic_historicpromontoryfort",
                                                 "historic_historicringfort",
                                                 "historic_historictumulus",
-                                                "historic_manor",
-                                                "historic_monastery",
                                                 "historic_palaeontological_site",
-                                                "historic_castle",
                                                 "historic_church",
                                                 "historic_city_gate",
                                                 "historic_dovecote",

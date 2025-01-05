@@ -5,6 +5,8 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 Moved the `landuse=historic` background to before the `ocean` layer because there's at least [one](https://community.openstreetmap.org/t/jurassic-coast-world-heritage-site/123853) example that overlaps the sea, and probably shouldn't.
 Move the display of large `historic` features (`battlefield`, `manor`, `castle`, `monastery`) to vector zoom 14.  They'll often get obscrured by other names and icons, so this often won't happen.
 Changed `text-max-width` in some potentially longer text to 28.
+Display the name for `industrialbuilding` at the centroid only.
+Display `industrial` and `industrialbuilding` from 17 rather than 16, based on `way_area`.
 
 ## 04/01/2025
 For `informationmarker` and `informationroutemarker`, also display `ncnrelationlist`, containing the refs of all cycling relations that node is a member of.

@@ -7,6 +7,7 @@ Added display of name of `housenumber`, or `housename` in `addresses` layer.
 Added display of `boundaries`.
 Added display of `boundary_labels`.
 Add a pattern as well as a fill to `forest`.
+`water_polygons_labels` has `way_area` written for it.  Use this to display the names of larger water areas first, and smaller ones later.
 
 ## 01/01/2025
 Added `dam_lines` and `dam_polygons`.

@@ -25,6 +25,18 @@
 		"background-color": "#f2efe9"
 	    }
 	},
+	{
+	    "id": "land1-historic-fill-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "landuse_historic" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#f2e9e9"
+	    }
+	},
         {
              "id": "water-ocean",
              "type": "fill",
@@ -1256,18 +1268,6 @@
 		"fill-antialias": true,
 		"fill-color": "#d6d6c2",
 		"fill-opacity": 0.7
-	    }
-	},
-	{
-	    "id": "land1-historic-fill-9",
-	    "type": "fill",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "landuse_historic" ] ],
-	    "paint": {
-		"fill-antialias": true,
-		"fill-color": "#f2e9e9"
 	    }
 	},
 	{

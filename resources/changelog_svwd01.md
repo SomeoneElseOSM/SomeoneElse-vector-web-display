@@ -1,6 +1,9 @@
 # Changes made to the [SVWD01 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd01.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
+## As yet unreleased
+Moved the `landuse=historic` background to before the `ocean` layer because there's at least [one](https://community.openstreetmap.org/t/jurassic-coast-world-heritage-site/123853) example that overlaps the sea, and probably shouldn't.
+
 ## 04/01/2025
 For `informationmarker` and `informationroutemarker`, also display `ncnrelationlist`, containing the refs of all cycling relations that node is a member of.
 Move the `building-bridge_area-fill` layer above the `land1-water-fill-5` etc. layers, and ensure that the `highway-footway-tunnelcasing-12` etc. layers are above bridges and linear and area water features.

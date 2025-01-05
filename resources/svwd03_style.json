@@ -309,8 +309,18 @@
 	    "source-layer": "land",
 	    "filter": [ "all", [ "in", "kind", "forest" ] ],
 	    "paint": {
-		"fill-antialias": true,
-		"fill-color": "#bedab3"
+                "fill-antialias": true,
+                "fill-color": "#bedab3"
+	    }
+	},
+	{
+	    "id": "land-forest-pattern",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "filter": [ "all", [ "in", "kind", "forest" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_forest"
 	    }
 	},
 	{

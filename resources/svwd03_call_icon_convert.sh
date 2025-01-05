@@ -232,6 +232,11 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/wetmeadow32.png        ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/pattern_wet_meadow.png
 
 #
+# Some area patterns copy straight from raster 64x64
+# These must tile nicely.
+cp ~/src/openstreetmap-carto-AJT/symbols/wood_mixed_pattern.png         ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/pattern_forest.png
+
+#
 # Some area patterns copy from a local 32x32 source
 cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/allotments32.png         ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/pattern_allotments.png
 cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/othercemetery32.png      ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/pattern_othercemetery.png

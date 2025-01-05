@@ -1,7 +1,7 @@
 # Changes made to the [SVWD01 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd01.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
-## As yet unreleased
+## 05/01/2025
 Moved the `landuse=historic` background to before the `ocean` layer because there's at least [one](https://community.openstreetmap.org/t/jurassic-coast-world-heritage-site/123853) example that overlaps the sea, and probably shouldn't.
 Move the display of large `historic` features (`battlefield`, `manor`, `castle`, `monastery`) to vector zoom 14.  They'll often get obscrured by other names and icons, so this often won't happen.
 Changed `text-max-width` in some potentially longer text to 28.

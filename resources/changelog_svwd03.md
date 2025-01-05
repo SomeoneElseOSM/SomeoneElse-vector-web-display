@@ -1,7 +1,7 @@
 # Changes made to the [SVWD03 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd03.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
-## As yet unreleased
+## 05/01/2025
 Added display of icon and name to `bus_stop`, and `aerialway_station` in `public_transport` layer.  
 Added display of name of `housenumber`, or `housename` in `addresses` layer.  
 Added display of `boundaries`.

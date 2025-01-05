@@ -1,11 +1,12 @@
 # Changes made to the [SVWD01 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd01.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
-## As yet unreleased
+## 04/01/2025
 For `informationmarker` and `informationroutemarker`, also display `ncnrelationlist`, containing the refs of all cycling relations that node is a member of.
 Move the `building-bridge_area-fill` layer above the `land1-water-fill-5` etc. layers, and ensure that the `highway-footway-tunnelcasing-12` etc. layers are above bridges and linear and area water features.
 Move the farmland and farmgrass fills (land2 and land1) before industrial (land1 and land2) so that small rural industrial features display OK.
 Moved `land1-power-fill-9` before `land2-unnamedlandfill-fill-9` and `land1-landfill-fill-9` and changed the power colour to something less like `building` and closer to `indstrial`, but still different to those two.
+Move the display of various tidal features so that they display over `natural=water`.
 
 ## 03/01/2025
 Moved military hatching display to after grass landuse display.

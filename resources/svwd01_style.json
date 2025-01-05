@@ -890,17 +890,6 @@
 	    }
 	},
 	{
-	    "id": "land2-unnamedtidal_sand-fill-9",
-	    "type": "fill",
-	    "source": "someoneelse",
-	    "source-layer": "land2",
-	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "natural_unnamedtidal_sand" ] ],
-	    "paint": {
-		"fill-pattern": "pattern_natural_tidal_sand"
-	    }
-	},
-	{
 	    "id": "land2-unnamedwetland-fill-12",
 	    "type": "fill",
 	    "source": "someoneelse",
@@ -1004,17 +993,6 @@
 	    "filter": [ "all", [ "in", "class", "natural_unnamedmud" ] ],
 	    "paint": {
 		"fill-pattern": "pattern_natural_mud"
-	    }
-	},
-	{
-	    "id": "land2-unnamedtidal_mud-fill-9",
-	    "type": "fill",
-	    "source": "someoneelse",
-	    "source-layer": "land2",
-	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "natural_unnamedtidal_mud" ] ],
-	    "paint": {
-		"fill-pattern": "pattern_natural_tidal_mud"
 	    }
 	},
 	{
@@ -1575,17 +1553,6 @@
 	    }
 	},
 	{
-	    "id": "land1-tidal_beach-fill-9",
-	    "type": "fill",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "natural_tidal_beach" ] ],
-	    "paint": {
-		"fill-pattern": "pattern_natural_tidal_beach"
-	    }
-	},
-	{
 	    "id": "land1-mud-fill-9",
 	    "type": "fill",
 	    "source": "someoneelse",
@@ -1594,17 +1561,6 @@
 	    "filter": [ "all", [ "in", "class", "natural_mud" ] ],
 	    "paint": {
 		"fill-pattern": "pattern_natural_mud"
-	    }
-	},
-	{
-	    "id": "land1-tidal_mud-fill-9",
-	    "type": "fill",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "natural_tidal_mud" ] ],
-	    "paint": {
-		"fill-pattern": "pattern_natural_tidal_mud"
 	    }
 	},
 	{
@@ -1619,17 +1575,6 @@
 	    }
 	},
 	{
-	    "id": "land1-tidal_rock-fill-9",
-	    "type": "fill",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "natural_tidal_rock" ] ],
-	    "paint": {
-		"fill-pattern": "pattern_natural_tidal_rock"
-	    }
-	},
-	{
 	    "id": "land1-sand-fill-9",
 	    "type": "fill",
 	    "source": "someoneelse",
@@ -1639,17 +1584,6 @@
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#ffdf88"
-	    }
-	},
-	{
-	    "id": "land1-tidal_sand-fill-9",
-	    "type": "fill",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "natural_tidal_sand" ] ],
-	    "paint": {
-		"fill-pattern": "pattern_natural_tidal_sand"
 	    }
 	},
 	{
@@ -2169,6 +2103,103 @@
 	    }
 	},
 	{
+	    "id": "land1-theme_park-line-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "tourism_theme_park" ] ],
+	    "paint": {
+		"line-color": "#734a08",
+                "line-dasharray": [2.0, 4.0],
+		"line-width": {
+		    "base": 1.2,
+		    "stops": [
+			[ 15,  1.2 ],
+			[ 20,  2.4 ]
+		    ]
+                }
+	    }
+	},
+	{
+	    "id": "land1-water-fill-5",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 5,
+	    "filter": [ "all", [ "in", "class", "natural_water" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#b5d0d0"
+	    }
+	},
+	{
+	    "id": "land1-tidal_rock-fill-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "natural_tidal_rock" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_natural_tidal_rock"
+	    }
+	},
+	{
+	    "id": "land1-tidal_beach-fill-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "natural_tidal_beach" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_natural_tidal_beach"
+	    }
+	},
+	{
+	    "id": "land2-unnamedtidal_sand-fill-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land2",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "natural_unnamedtidal_sand" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_natural_tidal_sand"
+	    }
+	},
+	{
+	    "id": "land1-tidal_sand-fill-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "natural_tidal_sand" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_natural_tidal_sand"
+	    }
+	},
+	{
+	    "id": "land2-unnamedtidal_mud-fill-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land2",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "natural_unnamedtidal_mud" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_natural_tidal_mud"
+	    }
+	},
+	{
+	    "id": "land1-tidal_mud-fill-9",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "natural_tidal_mud" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_natural_tidal_mud"
+	    }
+	},
+	{
 	    "id": "land1-nature_reserve-outline-9",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -2264,37 +2295,6 @@
 		"fill-antialias": true,
 		"fill-color": "green",
 		"fill-opacity": 0.05
-	    }
-	},
-	{
-	    "id": "land1-theme_park-line-12",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "class", "tourism_theme_park" ] ],
-	    "paint": {
-		"line-color": "#734a08",
-                "line-dasharray": [2.0, 4.0],
-		"line-width": {
-		    "base": 1.2,
-		    "stops": [
-			[ 15,  1.2 ],
-			[ 20,  2.4 ]
-		    ]
-                }
-	    }
-	},
-	{
-	    "id": "land1-water-fill-5",
-	    "type": "fill",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 5,
-	    "filter": [ "all", [ "in", "class", "natural_water" ] ],
-	    "paint": {
-		"fill-antialias": true,
-		"fill-color": "#b5d0d0"
 	    }
 	},
 	{

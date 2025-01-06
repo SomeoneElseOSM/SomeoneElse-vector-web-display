@@ -3,6 +3,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 
 ## As yet unreleased
 Move the drawing of all road tunnels before all road non-tunnels.  Shields and names are still shown afterwards.
+Adjusted the road widths of the svwd03 style to match svwd01 (which looks nicer, for the most part).
 
 ## 05/01/2025
 Added display of icon and name to `bus_stop`, and `aerialway_station` in `public_transport` layer.  

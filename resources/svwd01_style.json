@@ -9617,7 +9617,7 @@
 	    }
 	},
 	{
-	    "id": "land1-leisuregreen-imagename-centroid-16",
+	    "id": "land1-leisuregreen-imagenameoverlap-centroid-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -9772,7 +9772,7 @@
 	    }
 	},
 	{
-	    "id": "land1-moreparking-lightblue-imagenameoverlapprivate-16",
+	    "id": "land1-moreparking-lightblue-imagenameprivate-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -9787,7 +9787,6 @@
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"icon-image": "{class}",
-                "icon-allow-overlap": true,
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -9808,7 +9807,7 @@
 	    }
 	},
 	{
-	    "id": "land1-parking-lightblue-imagenameoverlap-centroid-12",
+	    "id": "land1-parking-lightblue-imagename-centroid-12",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -9822,7 +9821,6 @@
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"icon-image": "{class}",
-                "icon-allow-overlap": true,
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -9842,7 +9840,7 @@
 	    }
 	},
 	{
-	    "id": "land1-various-lightblue-imagenameoverlap-centroidprivate-16",
+	    "id": "land1-various-lightblue-imagename-centroidprivate-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -9856,7 +9854,6 @@
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"icon-image": "{class}",
-                "icon-allow-overlap": true,
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -9873,7 +9870,8 @@
 		"text-halo-blur": 0.5,
 		"text-halo-color": "#ffffff",
 		"text-halo-width": 1,
-		"icon-opacity": 0.33
+		"icon-opacity": 0.33,
+		"text-opacity": 0.33
 	    }
 	},
 	{
@@ -9983,7 +9981,7 @@
 	    }
 	},
 	{
-	    "id": "land1-nameele-lightbrown-imagename-15-19",
+	    "id": "land1-nameele-lightbrown-imagenameoverlap-15-19",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -10355,7 +10353,7 @@
 	    }
 	},
 	{
-	    "id": "land1-amenity-lightblue-imagename-15",
+	    "id": "land1-amenity-lightblue-imagenameoverlap-15",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -10973,7 +10971,7 @@
 	    }
 	},
 	{
-	    "id": "land1-otherpub-lightbrown-imagename-15",
+	    "id": "land1-otherpuboverlap-lightbrown-imagename-15",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -11701,7 +11699,7 @@
 	    }
 	},
 	{
-	    "id": "land1-natural-brown-imagename-16",
+	    "id": "land1-natural-brown-imagenameoverlap-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -13357,7 +13355,7 @@
 	    }
 	},
 	{
-	    "id": "land1-barrier-indigo-imagename-14",
+	    "id": "land1-barrier-indigo-imagenameoverlap-14",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -13397,7 +13395,7 @@
 	    }
 	},
 	{
-	    "id": "land1-natural-brown-imagename-15",
+	    "id": "land1-natural-brown-imagenameoverlap-15",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -13429,7 +13427,7 @@
 	    }
 	},
 	{
-	    "id": "land1-natural-lightblue-imagename-14",
+	    "id": "land1-natural-lightblue-imagenameoverlap-14",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -13460,7 +13458,7 @@
 	    }
 	},
 	{
-	    "id": "land1-nameele-lightblue-imagename-16-20",
+	    "id": "land1-nameele-lightblue-imagenameoverlap-16-20",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -13495,7 +13493,7 @@
 	    }
 	},
 	{
-	    "id": "land1-nameele-lightblue-imagename-20",
+	    "id": "land1-nameele-lightblue-imagenameoverlap-20",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -14299,7 +14297,7 @@
 	    }
 	},
 	{
-	    "id": "land1-railway-lightblue-imagename-11",
+	    "id": "land1-railway-lightblue-imagenameoverlap-11",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -14331,7 +14329,7 @@
 	    }
 	},
 	{
-	    "id": "land1-railway-lightblue-imagename-12",
+	    "id": "land1-railway-lightblue-imagenameoverlap-12",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -14364,7 +14362,7 @@
 	    }
 	},
 	{
-	    "id": "land1-railway-lightblue-imagename-13",
+	    "id": "land1-railway-lightblue-imagenameoverlap-13",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",

@@ -3,6 +3,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 
 ## As yet unreleased
 Move the drawing of all road tunnels before all road non-tunnels.  Shields and names are still shown afterwards.
+Removed "allow image overlap" from regular parking, which is shown at a fairly low zoom.  Ensure other "overlap" layers have that word in the name
 
 ## 05/01/2025
 Moved the `landuse=historic` background to before the `ocean` layer because there's at least [one](https://community.openstreetmap.org/t/jurassic-coast-world-heritage-site/123853) example that overlaps the sea, and probably shouldn't.

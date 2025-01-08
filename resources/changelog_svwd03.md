@@ -6,6 +6,8 @@ Move the drawing of all road tunnels before all road non-tunnels.  Shields and n
 Adjusted the road widths of the svwd03 style to match svwd01 (which looks nicer, for the most part).
 Renamed some layers so that the names match the source.
 Removed some leftovers from the source style that aren't in shortbread.
+Make boundary lines less wide, especially at low zoom levels.
+Where zoom levels (of cities etc.) are restricted by what's in the tiles, change the minzoom in the style to 0.
 
 ## 05/01/2025
 Added display of icon and name to `bus_stop`, and `aerialway_station` in `public_transport` layer.  

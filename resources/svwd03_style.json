@@ -2980,8 +2980,9 @@
 		"line-color": "purple",
 		"line-width": {
 		    "stops": [
-			[ 15,  1.2 ],
-			[ 20,  2.4 ]
+			[  2,  0.01 ],
+			[ 15,  0.6  ],
+			[ 20,  2.4  ]
 		    ]
                 }
 	    }
@@ -4210,11 +4211,11 @@
 	    }
 	},
 	{
-	    "id": "boundary_labels-named-2",
+	    "id": "boundary_labels-named-0",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "boundary_labels",
-	    "minzoom": 2,
+	    "minzoom": 0,
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{name}\n",
@@ -7242,11 +7243,11 @@
 	    }
 	},
 	{
-	    "id": "place_labels-city-5",
+	    "id": "place_labels-city-0",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "place_labels",
-	    "minzoom": 5,
+	    "minzoom": 0,
 	    "filter": [ "in", "kind", "city" ],
 	    "layout": {
 		"text-anchor": "top",
@@ -7270,11 +7271,11 @@
 	    }
 	},
 	{
-	    "id": "place_labels-capital-3",
+	    "id": "place_labels-capital-0",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "place_labels",
-	    "minzoom": 3,
+	    "minzoom": 0,
 	    "filter": [ "in", "kind", "capital",
                                       "state_capital" ],
 	    "layout": {

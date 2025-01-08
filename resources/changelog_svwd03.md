@@ -1,9 +1,11 @@
 # Changes made to the [SVWD03 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd03.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
-## As yet unreleased
+## 08/01/2025
 Move the drawing of all road tunnels before all road non-tunnels.  Shields and names are still shown afterwards.
 Adjusted the road widths of the svwd03 style to match svwd01 (which looks nicer, for the most part).
+Renamed some layers so that the names match the source.
+Removed some leftovers from the source style that aren't in shortbread.
 
 ## 05/01/2025
 Added display of icon and name to `bus_stop`, and `aerialway_station` in `public_transport` layer.  

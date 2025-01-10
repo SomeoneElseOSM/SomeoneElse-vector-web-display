@@ -9807,11 +9807,12 @@
 	    }
 	},
 	{
-	    "id": "land1-parking-lightblue-imagename-centroid-12",
+	    "id": "land1-parking-lightblue-image-centroid-12",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 12,
+	    "maxzoom": 15,
 	    "filter": [ "all", [ "in", "class", "amenity_parking",
                                                 "amenity_parking_pay",
                                                 "amenity_parking_freedisabled",
@@ -9821,6 +9822,26 @@
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"text-anchor": "top",
+		"visibility": "visible"
+	    }
+	},
+	{
+	    "id": "land1-parking-lightblue-imagename-centroid-15",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 15,
+	    "filter": [ "all", [ "in", "class", "amenity_parking",
+                                                "amenity_parking_pay",
+                                                "amenity_parking_freedisabled",
+                                                "amenity_parking_paydisabled" ],
+                               [ "all", [ "!=", "access", "no" ],
+                                        [ "!has", "parking_space" ] ],
+	                       [ "==", "$type", "Point" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+                "text-optional": true,
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [

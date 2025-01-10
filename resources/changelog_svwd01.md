@@ -3,6 +3,9 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 
 ## As yet unreleased
 Only show car park names from zoom level 15, despite icons being shown earlier.
+Add a scale control to the example index html.
+Add scale control at bottom-left.
+
 ## 07/01/2025
 Move the drawing of all road tunnels before all road non-tunnels.  Shields and names are still shown afterwards.
 Removed "allow image overlap" from regular parking, which is shown at a fairly low zoom.  Ensure other "overlap" layers have that word in the name

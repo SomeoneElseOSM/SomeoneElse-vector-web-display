@@ -100,6 +100,13 @@ fetch("/metadata")
 		})
 	    );
 
+	    // Add scale control at bottom-left
+	    map.addControl(
+		new maplibregl.ScaleControl({
+		    unit: 'metric'
+		})
+	    );
+
 	    // -- Comment the following lines out to remove debug UI --
 	    map.showTileBoundaries=true;
 

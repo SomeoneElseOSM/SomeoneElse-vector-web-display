@@ -5150,13 +5150,10 @@
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
 	    "minzoom": 12,
-	    "filter": [
-		"all",
-		[ "in", "class", "driveway" ],
-		[ "!in", "edge", "ford" ],
-                [ "!=", "bridge", true ],
-                [ "!=", "tunnel", true ]
-	    ],
+	    "filter": [ "all", [ "in", "class", "driveway" ],
+		               [ "!in", "edge", "ford" ],
+                               [ "!=", "bridge", true ],
+                               [ "!=", "tunnel", true ] ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#ffffff",
@@ -5170,6 +5167,24 @@
 		}
 	    }
 	},
+        {
+	    "id": "highway-turning_circle-casing-15",
+            "type": "circle",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 15,
+	    "filter": [ "all", [ "in", "class", "highway_turning_circle" ] ],
+            "paint": {
+                "circle-color": "#bbb",
+                "circle-radius": {
+		    "base": 2.0,
+		    "stops": [
+			[ 15,  4.2 ],
+			[ 20, 92.0 ]
+		    ]
+                 }
+            }
+        },
 	{
 	    "id": "highway-service-othercasing-12",
 	    "type": "line",
@@ -7079,6 +7094,24 @@
 		}
 	    }
 	},
+        {
+	    "id": "highway-turning_circle-fill-15",
+            "type": "circle",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 15,
+	    "filter": [ "all", [ "in", "class", "highway_turning_circle" ] ],
+            "paint": {
+                "circle-color": "#ffffff",
+                "circle-radius": {
+		    "base": 2.0,
+		    "stops": [
+			[ 15,  3.0 ],
+			[ 20, 80.0 ]
+		    ]
+                 }
+            }
+        },
 	{
 	    "id": "highway-motorway-otherfill-3",
 	    "type": "line",

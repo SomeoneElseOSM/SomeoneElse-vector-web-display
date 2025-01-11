@@ -7,6 +7,7 @@ Add a scale control to the example index html.
 Add scale control at bottom-left.
 Made the vineyard pattern icon larger, with sharper and smaller bunches of grapes.
 Made the beach and tidal beach patterns sharper.
+Display `highway=turning_circle` (without name) from zoom 15.  We don't know what sort of road it is attached to, but draw it at about the right size for a residential road.
 
 ## 07/01/2025
 Move the drawing of all road tunnels before all road non-tunnels.  Shields and names are still shown afterwards.

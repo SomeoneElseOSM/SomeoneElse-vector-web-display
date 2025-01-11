@@ -5,6 +5,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 Only show car park names from zoom level 15, despite icons being shown earlier.
 Add a scale control to the example index html.
 Add scale control at bottom-left.
+Made the vineyard pattern icon larger, with sharper and smaller bunches of grapes.
 
 ## 07/01/2025
 Move the drawing of all road tunnels before all road non-tunnels.  Shields and names are still shown afterwards.

@@ -937,7 +937,7 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/meadowperpetual32.png    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_meadowperpetual.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/saltmarsh32.png          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_saltmarsh.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/reedbed32.png            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_reedbed.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/tidal_sand32.png       ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_tidal_sand.png
+# ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/tidal_sand32.png       ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_tidal_sand.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/scree32.png            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_scree.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/tidal_scree32.png      ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_tidal_scree.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/shingle32.png          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_shingle.png
@@ -968,6 +968,7 @@ cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/mud32.png 
 cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/tidal_mud32.png          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_tidal_mud.png
 cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/rock32.png               ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_rock.png
 cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/tidal_rock32.png         ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_tidal_rock.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/tidal_sand32.png         ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_tidal_sand.png
 
 #
 # Some area patterns copy from a local 64x64 source

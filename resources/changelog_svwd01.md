@@ -1,7 +1,7 @@
 # Changes made to the [SVWD01 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd01.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
-## As yet unreleased
+## 11/01/2025
 Only show car park names from zoom level 15, despite icons being shown earlier.
 Add a scale control to the example index html.
 Add scale control at bottom-left.
@@ -10,6 +10,7 @@ Made the beach and tidal beach patterns sharper.
 Display `highway=turning_circle` (without name) from zoom 15.  We don't know what sort of road it is attached to, but draw it at about the right size for a residential road.
 Made the mud and tidal mud patterns sharper.
 Made the rock and tidal rock, and tidal sand, patterns sharper.
+Made the scree and tidal scree patterns sharper.
 
 ## 07/01/2025
 Move the drawing of all road tunnels before all road non-tunnels.  Shields and names are still shown afterwards.

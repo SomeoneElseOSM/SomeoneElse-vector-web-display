@@ -256,11 +256,19 @@ cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/quarry64.p
 #
 # Road Shields
 # The source icons for these are shared with the svwd01 style.
+# "short" are for road refs with ref_cols of <6, "long" for >=6.
+# The normal shields are for ref_rows==1, "double" for ref_rows=2.
+# Larger "ref_rows" values are omitted.
 #
 cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/shield_motorway_short.png              ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/shield_motorway_short.png
 cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/shield_motorway_long.png               ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/shield_motorway_long.png
+#
 cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/shield_trunk_short.png                 ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/shield_trunk_short.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/shield_trunk_short_double.png          ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/shield_trunk_short_double.png
+#
 cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/shield_trunk_long.png                  ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/shield_trunk_long.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/shield_trunk_long_double.png           ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/shield_trunk_long_double.png
+#
 cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/shield_other_short.png                 ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/shield_other_short.png
 cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/shield_other_long.png                  ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/shield_other_long.png
 

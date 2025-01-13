@@ -6636,10 +6636,11 @@
 	    "minzoom": 12
 	},
 	{
-	    "id": "label-shield-motorway-short-9",
+	    "id": "label-shield-motorway-short-single-9",
 	    "type": "symbol",
 	    "source-layer": "street_labels",
 	    "filter": [ "all", [ "in", "kind", "motorway" ],
+                               [ "==", "ref_rows", 1 ],
                                [ "<", "ref_cols", 6 ] ],
 	    "layout": {
                 "icon-image": "shield_motorway_short",
@@ -6667,11 +6668,12 @@
 	    "minzoom": 9
 	},
 	{
-	    "id": "label-shield-motorway-long-9",
+	    "id": "label-shield-motorway-long-single-9",
 	    "type": "symbol",
 	    "source-layer": "street_labels",
 	    "filter": [ "all", [ "in", "kind", "motorway" ],
                                [ "has", "ref" ],
+                               [ "==", "ref_rows", 1 ],
                                [ ">=", "ref_cols", 6 ] ],
 	    "layout": {
                 "icon-image": "shield_motorway_long",
@@ -6699,11 +6701,12 @@
 	    "minzoom": 9
 	},
 	{
-	    "id": "label-shield-trunk-short-10",
+	    "id": "label-shield-trunk-short-single-10",
 	    "type": "symbol",
 	    "source-layer": "street_labels",
 	    "filter": [ "all", [ "in", "kind", "trunk" ],
                                [ "has", "ref" ],
+                               [ "==", "ref_rows", 1 ],
                                [ "<", "ref_cols", 6 ] ],
 	    "layout": {
                 "icon-image": "shield_trunk_short",
@@ -6731,11 +6734,12 @@
 	    "minzoom": 10
 	},
 	{
-	    "id": "label-shield-trunk-long-10",
+	    "id": "label-shield-trunk-long-single-10",
 	    "type": "symbol",
 	    "source-layer": "street_labels",
 	    "filter": [ "all", [ "in", "kind", "trunk" ],
                                [ "has", "ref" ],
+                               [ "==", "ref_rows", 1 ],
                                [ ">=", "ref_cols", 6 ] ],
 	    "layout": {
                 "icon-image": "shield_trunk_long",
@@ -6763,11 +6767,78 @@
 	    "minzoom": 10
 	},
 	{
-	    "id": "label-shield-primary-short-11",
+	    "id": "label-shield-trunk-short-double-10",
+	    "type": "symbol",
+	    "source-layer": "street_labels",
+	    "filter": [ "all", [ "in", "kind", "trunk" ],
+                               [ "has", "ref" ],
+                               [ "==", "ref_rows", 2 ],
+                               [ "<", "ref_cols", 6 ] ],
+	    "layout": {
+                "icon-image": "shield_trunk_short_double",
+		"icon-size": { "stops": [ [ 10, 1.0 ], 
+                                          [ 12, 1.0 ], 
+                                          [ 20, 3.0 ] ] },
+		"text-field": "{ref}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "line",
+		"symbol-spacing": { "stops": [ [ 10,  450 ],
+                                               [ 20, 1800 ] ] },
+		"text-rotation-alignment": "viewport",
+		"text-offset": [0, 0],
+		"text-size": { "stops": [ [ 10, 10 ], 
+                                          [ 12, 10 ], 
+                                          [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "yellow",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 0,
+		"text-halo-blur": 0
+	    },
+	    "minzoom": 10
+	},
+	{
+	    "id": "label-shield-trunk-long-double-10",
+	    "type": "symbol",
+	    "source-layer": "street_labels",
+	    "filter": [ "all", [ "in", "kind", "trunk" ],
+                               [ "has", "ref" ],
+                               [ "==", "ref_rows", 2 ],
+                               [ ">=", "ref_cols", 6 ] ],
+	    "layout": {
+                "icon-image": "shield_trunk_long_double",
+		"icon-size": { "stops": [ [ 10, 2.0 ], 
+                                          [ 12, 2.0 ], 
+                                          [ 20, 6.0 ] ] },
+		"text-field": "{ref}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "line",
+		"symbol-spacing": { "stops": [ [ 10,  450 ],
+                                               [ 20, 1800 ] ] },
+		"text-rotation-alignment": "viewport",
+		"text-offset": [0, 0],
+		"text-size": { "stops": [ [ 10, 10 ], 
+                                          [ 12, 10 ], 
+                                          [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "yellow",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 0,
+		"text-halo-blur": 0
+	    },
+	    "minzoom": 10
+	},
+	{
+	    "id": "label-shield-primary-short-single-11",
 	    "type": "symbol",
 	    "source-layer": "street_labels",
 	    "filter": [ "all", [ "in", "kind", "primary" ],
                                [ "has", "ref" ],
+                               [ "==", "ref_rows", 1 ],
                                [ "<", "ref_cols", 6 ] ],
 	    "layout": {
                 "icon-image": "shield_other_short",
@@ -6795,11 +6866,12 @@
 	    "minzoom": 11
 	},
 	{
-	    "id": "label-shield-primary-long-11",
+	    "id": "label-shield-primary-long-single-11",
 	    "type": "symbol",
 	    "source-layer": "street_labels",
 	    "filter": [ "all", [ "in", "kind", "primary" ],
                                [ "has", "ref" ],
+                               [ "==", "ref_rows", 1 ],
                                [ ">=", "ref_cols", 6 ] ],
 	    "layout": {
                 "icon-image": "shield_other_long",
@@ -6827,11 +6899,12 @@
 	    "minzoom": 11
 	},
 	{
-	    "id": "label-shield-secondary-short-12",
+	    "id": "label-shield-secondary-short-single-12",
 	    "type": "symbol",
 	    "source-layer": "street_labels",
 	    "filter": [ "all", [ "in", "kind", "secondary" ],
                                [ "has", "ref" ],
+                               [ "==", "ref_rows", 1 ],
                                [ "<", "ref_cols", 6 ] ],
 	    "layout": {
                 "icon-image": "shield_other_short",
@@ -6859,11 +6932,12 @@
 	    "minzoom": 12
 	},
 	{
-	    "id": "label-shield-secondary-long-12",
+	    "id": "label-shield-secondary-long-single-12",
 	    "type": "symbol",
 	    "source-layer": "street_labels",
 	    "filter": [ "all", [ "in", "kind", "secondary" ],
                                [ "has", "ref" ],
+                               [ "==", "ref_rows", 1 ],
                                [ ">=", "ref_cols", 6 ] ],
 	    "layout": {
                 "icon-image": "shield_other_long",
@@ -6891,11 +6965,12 @@
 	    "minzoom": 12
 	},
 	{
-	    "id": "label-shield-tertiary-short-13",
+	    "id": "label-shield-tertiary-short-single-13",
 	    "type": "symbol",
 	    "source-layer": "street_labels",
 	    "filter": [ "all", [ "in", "kind", "tertiary" ],
                                [ "has", "ref" ],
+                               [ "==", "ref_rows", 1 ],
                                [ "<", "ref_cols", 6 ] ],
 	    "layout": {
                 "icon-image": "shield_other_short",
@@ -6923,11 +6998,12 @@
 	    "minzoom": 13
 	},
 	{
-	    "id": "label-shield-tertiary-long-13",
+	    "id": "label-shield-tertiary-long-single-13",
 	    "type": "symbol",
 	    "source-layer": "street_labels",
 	    "filter": [ "all", [ "in", "kind", "tertiary" ],
                                [ "has", "ref" ],
+                               [ "==", "ref_rows", 1 ],
                                [ ">=", "ref_cols", 6 ] ],
 	    "layout": {
                 "icon-image": "shield_other_long",
@@ -6955,12 +7031,13 @@
 	    "minzoom": 13
 	},
 	{
-	    "id": "label-shield-unclassified-short-15",
+	    "id": "label-shield-unclassified-short-single-15",
 	    "type": "symbol",
 	    "source-layer": "street_labels",
 	    "filter": [ "all", [ "in", "kind", "unclassified",
                                                 "residential" ],
                                [ "has", "ref" ],
+                               [ "==", "ref_rows", 1 ],
                                [ ">", "ref_cols", 1 ],
                                [ "<", "ref_cols", 6 ] ],
 	    "layout": {
@@ -6989,12 +7066,13 @@
 	    "minzoom": 15
 	},
 	{
-	    "id": "label-shield-unclassified-long-15",
+	    "id": "label-shield-unclassified-long-single-15",
 	    "type": "symbol",
 	    "source-layer": "street_labels",
 	    "filter": [ "all", [ "in", "kind", "unclassified",
                                                 "residential" ],
                                [ "has", "ref" ],
+                               [ "==", "ref_rows", 1 ],
                                [ ">=", "ref_cols", 6 ],
                                [ "<", "ref_cols", 14 ] ],
 	    "layout": {

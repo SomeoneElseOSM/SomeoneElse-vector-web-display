@@ -1,6 +1,9 @@
 # Changes made to the [SVWD03 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd03.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
+## 13/01/2025
+Add double-height motorway, primary, secondary, tertiary and unclassified road shields for multiplexed roads.
+
 ## 12/01/2025
 Add double-height trunk road shields for multiplexed trunk roads.
 

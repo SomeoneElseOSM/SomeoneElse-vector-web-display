@@ -261,7 +261,10 @@ cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/quarry64.p
 # Larger "ref_rows" values are omitted.
 #
 cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/shield_motorway_short.png              ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/shield_motorway_short.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/shield_motorway_short_double.png       ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/shield_motorway_short_double.png
+#
 cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/shield_motorway_long.png               ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/shield_motorway_long.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/shield_motorway_long_double.png        ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/shield_motorway_long_double.png
 #
 cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/shield_trunk_short.png                 ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/shield_trunk_short.png
 cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/shield_trunk_short_double.png          ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/shield_trunk_short_double.png
@@ -270,7 +273,10 @@ cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/shield_tru
 cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/shield_trunk_long_double.png           ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/shield_trunk_long_double.png
 #
 cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/shield_other_short.png                 ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/shield_other_short.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/shield_other_short_double.png          ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/shield_other_short_double.png
+#
 cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/shield_other_long.png                  ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/shield_other_long.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/shield_other_long_double.png                  ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/shield_other_long_double.png
 
 #
 # Oneway marker

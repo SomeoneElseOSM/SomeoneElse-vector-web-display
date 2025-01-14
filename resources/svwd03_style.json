@@ -6701,6 +6701,71 @@
 	    "minzoom": 9
 	},
 	{
+	    "id": "label-shield-motorway-short-double-9",
+	    "type": "symbol",
+	    "source-layer": "street_labels",
+	    "filter": [ "all", [ "in", "kind", "motorway" ],
+                               [ "==", "ref_rows", 2 ],
+                               [ "<", "ref_cols", 6 ] ],
+	    "layout": {
+                "icon-image": "shield_motorway_short_double",
+		"icon-size": { "stops": [ [  9, 1.0 ], 
+                                          [ 11, 1.0 ], 
+                                          [ 20, 3.0 ] ] },
+		"text-field": "{ref}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "line",
+		"symbol-spacing": { "stops": [ [ 10,  450 ],
+                                               [ 20, 1800 ] ] },
+		"text-rotation-alignment": "viewport",
+		"text-offset": [0, 0],
+		"text-size": { "stops": [ [  9, 10 ], 
+                                          [ 11, 10 ], 
+                                          [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "white",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 0,
+		"text-halo-blur": 0
+	    },
+	    "minzoom": 9
+	},
+	{
+	    "id": "label-shield-motorway-long-double-9",
+	    "type": "symbol",
+	    "source-layer": "street_labels",
+	    "filter": [ "all", [ "in", "kind", "motorway" ],
+                               [ "has", "ref" ],
+                               [ "==", "ref_rows", 2 ],
+                               [ ">=", "ref_cols", 6 ] ],
+	    "layout": {
+                "icon-image": "shield_motorway_long_double",
+		"icon-size": { "stops": [ [  9, 2.0 ], 
+                                          [ 11, 2.0 ], 
+                                          [ 20, 6.0 ] ] },
+		"text-field": "{ref}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "line",
+		"symbol-spacing": { "stops": [ [ 10,  450 ],
+                                               [ 20, 1800 ] ] },
+		"text-rotation-alignment": "viewport",
+		"text-offset": [0, 0],
+		"text-size": { "stops": [ [  9, 10 ], 
+                                          [ 11, 10 ], 
+                                          [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "white",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 0,
+		"text-halo-blur": 0
+	    },
+	    "minzoom": 9
+	},
+	{
 	    "id": "label-shield-trunk-short-single-10",
 	    "type": "symbol",
 	    "source-layer": "street_labels",
@@ -6899,6 +6964,72 @@
 	    "minzoom": 11
 	},
 	{
+	    "id": "label-shield-primary-short-double-11",
+	    "type": "symbol",
+	    "source-layer": "street_labels",
+	    "filter": [ "all", [ "in", "kind", "primary" ],
+                               [ "has", "ref" ],
+                               [ "==", "ref_rows", 2 ],
+                               [ "<", "ref_cols", 6 ] ],
+	    "layout": {
+                "icon-image": "shield_other_short_double",
+		"icon-size": { "stops": [ [ 11, 1.0 ], 
+                                          [ 13, 1.0 ], 
+                                          [ 20, 3.0 ] ] },
+		"text-field": "{ref}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "line",
+		"symbol-spacing": { "stops": [ [ 10,  450 ],
+                                               [ 20, 1800 ] ] },
+		"text-rotation-alignment": "viewport",
+		"text-offset": [0, 0],
+		"text-size": { "stops": [ [ 11, 10 ], 
+                                          [ 13, 10 ], 
+                                          [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "black",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 0,
+		"text-halo-blur": 0
+	    },
+	    "minzoom": 11
+	},
+	{
+	    "id": "label-shield-primary-long-double-11",
+	    "type": "symbol",
+	    "source-layer": "street_labels",
+	    "filter": [ "all", [ "in", "kind", "primary" ],
+                               [ "has", "ref" ],
+                               [ "==", "ref_rows", 2 ],
+                               [ ">=", "ref_cols", 6 ] ],
+	    "layout": {
+                "icon-image": "shield_other_long_double",
+		"icon-size": { "stops": [ [ 11, 2.0 ], 
+                                          [ 13, 2.0 ], 
+                                          [ 20, 6.0 ] ] },
+		"text-field": "{ref}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "line",
+		"symbol-spacing": { "stops": [ [ 10,  450 ],
+                                               [ 20, 1800 ] ] },
+		"text-rotation-alignment": "viewport",
+		"text-offset": [0, 0],
+		"text-size": { "stops": [ [ 11, 10 ], 
+                                          [ 13, 10 ], 
+                                          [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "black",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 0,
+		"text-halo-blur": 0
+	    },
+	    "minzoom": 11
+	},
+	{
 	    "id": "label-shield-secondary-short-single-12",
 	    "type": "symbol",
 	    "source-layer": "street_labels",
@@ -6941,6 +7072,72 @@
                                [ ">=", "ref_cols", 6 ] ],
 	    "layout": {
                 "icon-image": "shield_other_long",
+		"icon-size": { "stops": [ [ 12, 2.0 ], 
+                                          [ 14, 4.0 ], 
+                                          [ 20, 6.0 ] ] },
+		"text-field": "{ref}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "line",
+		"symbol-spacing": { "stops": [ [ 10,  450 ],
+                                               [ 20, 1800 ] ] },
+		"text-rotation-alignment": "viewport",
+		"text-offset": [0, 0],
+		"text-size": { "stops": [ [ 12, 10 ], 
+                                          [ 14, 10 ], 
+                                          [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "black",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 0,
+		"text-halo-blur": 0
+	    },
+	    "minzoom": 12
+	},
+	{
+	    "id": "label-shield-secondary-short-double-12",
+	    "type": "symbol",
+	    "source-layer": "street_labels",
+	    "filter": [ "all", [ "in", "kind", "secondary" ],
+                               [ "has", "ref" ],
+                               [ "==", "ref_rows", 2 ],
+                               [ "<", "ref_cols", 6 ] ],
+	    "layout": {
+                "icon-image": "shield_other_short_double",
+		"icon-size": { "stops": [ [ 12, 1.0 ], 
+                                          [ 14, 1.0 ], 
+                                          [ 20, 3.0 ] ] },
+		"text-field": "{ref}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "line",
+		"symbol-spacing": { "stops": [ [ 10,  450 ],
+                                               [ 20, 1800 ] ] },
+		"text-rotation-alignment": "viewport",
+		"text-offset": [0, 0],
+		"text-size": { "stops": [ [ 12, 10 ], 
+                                          [ 14, 10 ], 
+                                          [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "black",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 0,
+		"text-halo-blur": 0
+	    },
+	    "minzoom": 12
+	},
+	{
+	    "id": "label-shield-secondary-long-double-12",
+	    "type": "symbol",
+	    "source-layer": "street_labels",
+	    "filter": [ "all", [ "in", "kind", "secondary" ],
+                               [ "has", "ref" ],
+                               [ "==", "ref_rows", 2 ],
+                               [ ">=", "ref_cols", 6 ] ],
+	    "layout": {
+                "icon-image": "shield_other_long_double",
 		"icon-size": { "stops": [ [ 12, 2.0 ], 
                                           [ 14, 4.0 ], 
                                           [ 20, 6.0 ] ] },
@@ -7031,6 +7228,72 @@
 	    "minzoom": 13
 	},
 	{
+	    "id": "label-shield-tertiary-short-double-13",
+	    "type": "symbol",
+	    "source-layer": "street_labels",
+	    "filter": [ "all", [ "in", "kind", "tertiary" ],
+                               [ "has", "ref" ],
+                               [ "==", "ref_rows", 2 ],
+                               [ "<", "ref_cols", 6 ] ],
+	    "layout": {
+                "icon-image": "shield_other_short_double",
+		"icon-size": { "stops": [ [ 13, 1.0 ], 
+                                          [ 15, 1.0 ], 
+                                          [ 20, 3.0 ] ] },
+		"text-field": "{ref}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "line",
+		"symbol-spacing": { "stops": [ [ 10,  450 ],
+                                               [ 20, 1800 ] ] },
+		"text-rotation-alignment": "viewport",
+		"text-offset": [0, 0],
+		"text-size": { "stops": [ [ 13, 10 ], 
+                                          [ 15, 10 ], 
+                                          [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "black",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 0,
+		"text-halo-blur": 0
+	    },
+	    "minzoom": 13
+	},
+	{
+	    "id": "label-shield-tertiary-long-double-13",
+	    "type": "symbol",
+	    "source-layer": "street_labels",
+	    "filter": [ "all", [ "in", "kind", "tertiary" ],
+                               [ "has", "ref" ],
+                               [ "==", "ref_rows", 2 ],
+                               [ ">=", "ref_cols", 6 ] ],
+	    "layout": {
+                "icon-image": "shield_other_long_double",
+		"icon-size": { "stops": [ [ 13, 2.0 ], 
+                                          [ 15, 2.0 ], 
+                                          [ 20, 6.0 ] ] },
+		"text-field": "{ref}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "line",
+		"symbol-spacing": { "stops": [ [ 10,  450 ],
+                                               [ 20, 1800 ] ] },
+		"text-rotation-alignment": "viewport",
+		"text-offset": [0, 0],
+		"text-size": { "stops": [ [ 13, 10 ], 
+                                          [ 15, 10 ], 
+                                          [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "black",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 0,
+		"text-halo-blur": 0
+	    },
+	    "minzoom": 13
+	},
+	{
 	    "id": "label-shield-unclassified-short-single-15",
 	    "type": "symbol",
 	    "source-layer": "street_labels",
@@ -7077,6 +7340,76 @@
                                [ "<", "ref_cols", 14 ] ],
 	    "layout": {
                 "icon-image": "shield_other_long",
+		"icon-size": { "stops": [ [ 15, 2.0 ], 
+                                          [ 17, 2.0 ], 
+                                          [ 20, 6.0 ] ] },
+		"text-field": "{ref}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "line",
+		"symbol-spacing": { "stops": [ [ 10,  450 ],
+                                               [ 20, 1800 ] ] },
+		"text-rotation-alignment": "viewport",
+		"text-offset": [0, 0],
+		"text-size": { "stops": [ [ 15, 10 ], 
+                                          [ 17, 10 ], 
+                                          [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "black",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 0,
+		"text-halo-blur": 0
+	    },
+	    "minzoom": 15
+	},
+	{
+	    "id": "label-shield-unclassified-short-double-15",
+	    "type": "symbol",
+	    "source-layer": "street_labels",
+	    "filter": [ "all", [ "in", "kind", "unclassified",
+                                                "residential" ],
+                               [ "has", "ref" ],
+                               [ "==", "ref_rows", 2 ],
+                               [ ">", "ref_cols", 1 ],
+                               [ "<", "ref_cols", 6 ] ],
+	    "layout": {
+                "icon-image": "shield_other_short_double",
+		"icon-size": { "stops": [ [ 15, 1.0 ], 
+                                          [ 17, 1.0 ], 
+                                          [ 20, 3.0 ] ] },
+		"text-field": "{ref}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "line",
+		"symbol-spacing": { "stops": [ [ 10,  450 ],
+                                               [ 20, 1800 ] ] },
+		"text-rotation-alignment": "viewport",
+		"text-offset": [0, 0],
+		"text-size": { "stops": [ [ 15, 10 ], 
+                                          [ 17, 10 ], 
+                                          [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "black",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 0,
+		"text-halo-blur": 0
+	    },
+	    "minzoom": 15
+	},
+	{
+	    "id": "label-shield-unclassified-long-double-15",
+	    "type": "symbol",
+	    "source-layer": "street_labels",
+	    "filter": [ "all", [ "in", "kind", "unclassified",
+                                                "residential" ],
+                               [ "has", "ref" ],
+                               [ "==", "ref_rows", 2 ],
+                               [ ">=", "ref_cols", 6 ],
+                               [ "<", "ref_cols", 14 ] ],
+	    "layout": {
+                "icon-image": "shield_other_long_double",
 		"icon-size": { "stops": [ [ 15, 2.0 ], 
                                           [ 17, 2.0 ], 
                                           [ 20, 6.0 ] ] },

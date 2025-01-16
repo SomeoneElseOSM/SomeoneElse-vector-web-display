@@ -3,6 +3,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 
 ## As yet unreleased
 At zoom 12, make unclassified and service roads slightly more visible.
+Made bridleways more visible at all zoom levels - made the width and dasharray settings closer to raster.
 
 ## 14/01/2025
 Made the shingle and tidal shingle patterns sharper.

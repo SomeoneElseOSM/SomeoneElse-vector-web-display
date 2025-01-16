@@ -3469,7 +3469,7 @@
 		"line-color": "#0080FF",
                 "line-dasharray": [12.0, 3.0, 6.0, 3.0],
 		"line-width": {
-		    "base": 0.6,
+		    "base": 1.8,
 		    "stops": [
 			[ 15,  0.6 ],
 			[ 20,  1.2 ]
@@ -3487,9 +3487,9 @@
                                [ "==", "tunnel", true ] ],
 	    "paint": {
 		"line-color": "#0080FF",
-                "line-dasharray": [24.0, 4.0, 12.0, 4.0],
+                "line-dasharray": [12.0, 2.0, 6.0, 2.0],
 		"line-width": {
-		    "base": 0.6,
+		    "base": 1.8,
 		    "stops": [
 			[ 15,  0.6 ],
 			[ 20,  1.2 ]
@@ -3527,12 +3527,12 @@
                                [ "==", "tunnel", true ] ],
 	    "paint": {
 		"line-color": "#996600",
-                "line-dasharray": [24.0, 4.0, 12.0, 4.0],
+                "line-dasharray": [12.0, 2.0, 6.0, 2.0],
 		"line-width": {
-		    "base": 0.6,
+		    "base": 2.0,
 		    "stops": [
-			[ 15,  0.6 ],
-			[ 20,  1.2 ]
+			[ 15,  1.2 ],
+			[ 20,  2.4 ]
 		    ]
 		}
 	    }
@@ -4938,10 +4938,10 @@
 		"line-color": "#0080FF",
                 "line-dasharray": [12.0, 3.0, 6.0, 3.0],
 		"line-width": {
-		    "base": 0.6,
+		    "base": 2.0,
 		    "stops": [
-			[ 15,  0.6 ],
-			[ 20,  1.2 ]
+			[ 15,  1.2 ],
+			[ 20,  2.4 ]
 		    ]
 		}
 	    }
@@ -4957,12 +4957,12 @@
                                [ "!=", "tunnel", true ] ],
 	    "paint": {
 		"line-color": "#0080FF",
-                "line-dasharray": [24.0, 4.0, 12.0, 4.0],
+                "line-dasharray": [12.0, 2.0, 6.0, 2.0],
 		"line-width": {
-		    "base": 0.6,
+		    "base": 2.0,
 		    "stops": [
-			[ 15,  0.6 ],
-			[ 20,  1.2 ]
+			[ 15,  1.2 ],
+			[ 20,  2.4 ]
 		    ]
 		}
 	    }
@@ -4999,12 +4999,12 @@
                                [ "!=", "tunnel", true ] ],
 	    "paint": {
 		"line-color": "#996600",
-                "line-dasharray": [24.0, 4.0, 12.0, 4.0],
+                "line-dasharray": [12.0, 2.0, 6.0, 2.0],
 		"line-width": {
-		    "base": 0.6,
+		    "base": 2.0,
 		    "stops": [
-			[ 15,  0.6 ],
-			[ 20,  1.2 ]
+			[ 15,  1.2 ],
+			[ 20,  2.4 ]
 		    ]
 		}
 	    }
@@ -8760,7 +8760,7 @@
 		"line-color": "#0080FF",
                 "line-dasharray": [4.0, 2.0],
 		"line-width": {
-		    "base": 0.6,
+		    "base": 1.8,
 		    "stops": [
 			[ 15,  0.6 ],
 			[ 20,  1.2 ]
@@ -8800,7 +8800,7 @@
 		"line-color": "#0080FF",
                 "line-dasharray": [4.0, 6.0],
 		"line-width": {
-		    "base": 0.6,
+		    "base": 1.8,
 		    "stops": [
 			[ 15,  0.6 ],
 			[ 20,  1.2 ]
@@ -8820,7 +8820,7 @@
 		"line-color": "#0080FF",
                 "line-dasharray": [12.0, 3.0, 6.0, 3.0],
 		"line-width": {
-		    "base": 0.6,
+		    "base": 1.8,
 		    "stops": [
 			[ 15,  0.6 ],
 			[ 20,  1.2 ]
@@ -8838,12 +8838,12 @@
                                [ "==", "bridge", true ] ],
 	    "paint": {
 		"line-color": "#0080FF",
-                "line-dasharray": [24.0, 4.0, 12.0, 4.0],
+                "line-dasharray": [12.0, 2.0, 6.0, 2.0],
 		"line-width": {
-		    "base": 0.6,
+		    "base": 2.0,
 		    "stops": [
-			[ 15,  0.6 ],
-			[ 20,  1.2 ]
+			[ 15,  1.2 ],
+			[ 20,  2.4 ]
 		    ]
 		}
 	    }
@@ -8860,7 +8860,7 @@
 		"line-color": "#996600",
                 "line-dasharray": [12.0, 3.0, 6.0, 3.0],
 		"line-width": {
-		    "base": 0.6,
+		    "base": 1.8,
 		    "stops": [
 			[ 15,  0.6 ],
 			[ 20,  1.2 ]
@@ -8878,12 +8878,12 @@
                                [ "==", "bridge", true ] ],
 	    "paint": {
 		"line-color": "#996600",
-                "line-dasharray": [24.0, 4.0, 12.0, 4.0],
+                "line-dasharray": [12.0, 2.0, 6.0, 2.0],
 		"line-width": {
-		    "base": 0.6,
+		    "base": 2.0,
 		    "stops": [
-			[ 15,  0.6 ],
-			[ 20,  1.2 ]
+			[ 15,  1.2 ],
+			[ 20,  2.4 ]
 		    ]
 		}
 	    }
@@ -8900,7 +8900,7 @@
 		"line-color": "#996600",
                 "line-dasharray": [7.0, 4.0],
 		"line-width": {
-		    "base": 0.6,
+		    "base": 1.8,
 		    "stops": [
 			[ 15,  0.6 ],
 			[ 20,  1.2 ]
@@ -8920,7 +8920,7 @@
 		"line-color": "#996600",
                 "line-dasharray": [13.0, 2.0],
 		"line-width": {
-		    "base": 0.6,
+		    "base": 1.8,
 		    "stops": [
 			[ 15,  0.6 ],
 			[ 20,  1.2 ]
@@ -8939,7 +8939,7 @@
 	    "paint": {
 		"line-color": "#996600",
 		"line-width": {
-		    "base": 0.6,
+		    "base": 1.8,
 		    "stops": [
 			[ 15,  0.6 ],
 			[ 20,  1.2 ]

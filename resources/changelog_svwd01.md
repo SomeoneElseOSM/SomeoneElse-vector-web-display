@@ -1,10 +1,11 @@
 # Changes made to the [SVWD01 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd01.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
-## As yet unreleased
+## 16/01/2025
 At zoom 12, make unclassified and service roads slightly more visible.
 Made bridleways, restricted byways, and byways open to all traffic more visible at all zoom levels - made the width and dasharray settings closer to raster.
 The `bridge` value is now a string not a boolean, containing `yes`, `levee` or blank.
+Show embankments on roads (via `edge=levee`) on `trunk`, `primary`, `secondary`, `tertary`.
 
 ## 14/01/2025
 Made the shingle and tidal shingle patterns sharper.

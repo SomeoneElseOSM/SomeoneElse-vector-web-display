@@ -3,6 +3,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 
 ## As yet unreleased
 Draw embankment casings (via `levee`) after other casings.
+Show embankments on roads (via `edge=levee`) on `unclassified`.
 
 ## 16/01/2025
 At zoom 12, make unclassified and service roads slightly more visible.

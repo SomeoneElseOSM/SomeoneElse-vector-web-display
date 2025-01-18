@@ -4626,6 +4626,100 @@
 	    }
 	},
 	{
+	    "id": "highway-narrowlevee-casing-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "pathnarrow",
+                                 "pathwide",
+                                 "intpathnarrow",
+                                 "intpathwide",
+                                 "steps",
+                                 "leisuretrack",
+                                 "footwaynarrow",
+                                 "footwaywide",
+                                 "intfootwaynarrow",
+                                 "intfootwaywide",
+                                 "footwaysteps",
+                                 "bridlewaynarrow",
+                                 "bridlewaywide",
+                                 "intbridlewaynarrow",
+                                 "intbridlewaywide",
+                                 "bridlewaysteps",
+                                 "rbynarrow",
+                                 "rbywide",
+                                 "boatnarrow",
+                                 "boatwide",
+                                 "ucrnarrow",
+                                 "ucrwide",
+                                 "unpaved" ],
+                [ "==", "bridge", "levee" ],
+                [ "!=", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#999999",
+		"line-width": {
+		    "stops": [
+			[ 12,  1.5 ],
+			[ 16,  6.0 ],
+			[ 18, 14.0 ],
+			[ 20, 20.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-narrowlevee-prefill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "pathnarrow",
+                                 "pathwide",
+                                 "intpathnarrow",
+                                 "intpathwide",
+                                 "steps",
+                                 "leisuretrack",
+                                 "footwaynarrow",
+                                 "footwaywide",
+                                 "intfootwaynarrow",
+                                 "intfootwaywide",
+                                 "footwaysteps",
+                                 "bridlewaynarrow",
+                                 "bridlewaywide",
+                                 "intbridlewaynarrow",
+                                 "intbridlewaywide",
+                                 "bridlewaysteps",
+                                 "rbynarrow",
+                                 "rbywide",
+                                 "boatnarrow",
+                                 "boatwide",
+                                 "ucrnarrow",
+                                 "ucrwide",
+                                 "unpaved" ],
+                [ "==", "bridge", "levee" ],
+                [ "!=", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#f2efe9",
+		"line-width": {
+		    "stops": [
+			[ 12,  1.35 ],
+			[ 16,  5.4 ],
+			[ 18, 12.6 ],
+			[ 20, 18.0 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "highway-pathnarrow-other-12",
 	    "type": "line",
 	    "source": "someoneelse",

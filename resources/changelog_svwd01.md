@@ -4,6 +4,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 ## As yet unreleased
 Draw embankment casings (via `levee`) after other casings.
 Show embankments on roads (via `bridge=levee`) on `motorway`, `unclassified`, `residential`, `living_street` and `service`.
+Show embankments on a variety of paths, steps and tracks (via `bridge=levee`).
 
 ## 16/01/2025
 At zoom 12, make unclassified and service roads slightly more visible.

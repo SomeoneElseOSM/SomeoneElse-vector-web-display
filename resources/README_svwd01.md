@@ -2,13 +2,15 @@
 
 See also the [schema](https://github.com/SomeoneElseOSM/SomeoneElse-vector-extract/blob/main/resources/README_sve01.md) readme and the [scripts](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/README.md) readme for this repository,
 
-The cartography here is basically a reimplementation of the raster maps at [map.atownsend.org.uk](https://map.atownsend.org.uk/).  The schema described [here](https://github.com/SomeoneElseOSM/SomeoneElse-vector-extract/blob/main/resources/README_sve01.md) broadly matches that from [here](https://github.com/SomeoneElseOSM/SomeoneElse-style), and the display code essentially reimplements [this](https://github.com/SomeoneElseOSM/openstreetmap-carto-AJT).  That is in turn based on [openstreetmap-carto](https://github.com/gravitystorm/openstreetmap-carto) from circa 2014 (before cartography changes made that challenging to use in rural areas).
+The cartography here started as a reimplementation of the raster maps at [map.atownsend.org.uk](https://map.atownsend.org.uk/), but has now evolved beyond that, including handling edge cases that the raster maps did not.  The schema described [here](https://github.com/SomeoneElseOSM/SomeoneElse-vector-extract/blob/main/resources/README_sve01.md) broadly matches that from [here](https://github.com/SomeoneElseOSM/SomeoneElse-style), and the display code essentially reimplements [this](https://github.com/SomeoneElseOSM/openstreetmap-carto-AJT).  That is in turn based on [openstreetmap-carto](https://github.com/gravitystorm/openstreetmap-carto) from circa 2014 (before cartography changes made that challenging to use in rural areas).
 
 There has been a _considerable_ consolidation of layers from the 76 or so in raster to 8 here.
 
-The lua processing code that produces the data that this style processes is shared with [sve01](https://github.com/SomeoneElseOSM/SomeoneElse-vector-extract/blob/main/resources/), so the tags and values in the style .json may not even exist in OSM at all.  See the schema readme for what actually gets extracted.
+The lua processing code that produces the data that this style processes is shared between [raster](https://map.atownsend.org.uk/maps/map/about.html) and [vector](https://map.atownsend.org.uk/maps/map/vector.html).  The tags and values in the style .json may not even exist in OSM at all.  See the schema readme for what actually gets extracted and how OSM tags get turned into the values in the .json.
 
-Most extracted data is displayed by this style at some zoom level; an exception is `boundary=administrative` polygons and centroids.
+Most data extracted by that schema is displayed by this style at some zoom level; an exception is `boundary=administrative` polygons and centroids.
+
+The [icons](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/tree/main/resources/svwd01_icons) used to create the sprites used by this style are copied from [source icons](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/tree/main/resources/svwd01_source_icons); they are shared with the [svwd03](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd03.md) shortbread style as well.  Some icons (e.g. the double-height road shields) are only used in the svwd03 style, not here.
 
 ## Credits
 

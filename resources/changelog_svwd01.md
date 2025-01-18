@@ -5,6 +5,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 Draw embankment casings (via `levee`) after other casings.
 Show embankments on roads (via `bridge=levee`) on `motorway`, `unclassified`, `residential`, `living_street`, `service` and `pedestrian`.
 Show embankments on a variety of paths, steps and tracks (via `bridge=levee`).
+Where LDPs in England and Wales are operated by National Trails and have a `ref` value, display a black and white shield with that `ref` on it.
 
 ## 16/01/2025
 At zoom 12, make unclassified and service roads slightly more visible.

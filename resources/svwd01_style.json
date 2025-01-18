@@ -17694,6 +17694,38 @@
 	    "minzoom": 15
 	},
 	{
+	    "id": "label-shield-NT-15",
+	    "type": "symbol",
+	    "source-layer": "transportation",
+	    "filter": [ "all", [ "in", "class", "ldpnwn" ],
+                               [ "has", "ref" ],
+                               [ "==", "operator", "National Trails" ] ],
+	    "layout": {
+                "icon-image": "shield_NT",
+		"icon-size": { "stops": [ [ 15, 1.0 ], 
+                                          [ 17, 1.0 ], 
+                                          [ 20, 3.0 ] ] },
+		"text-field": "{ref}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "line",
+		"symbol-spacing": { "stops": [ [ 10,  450 ],
+                                               [ 20, 1800 ] ] },
+		"text-rotation-alignment": "viewport",
+		"text-offset": [0, 0],
+		"text-size": { "stops": [ [ 15,  5 ], 
+                                          [ 17,  5 ], 
+                                          [ 20, 15 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "black",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 0,
+		"text-halo-blur": 0
+	    },
+	    "minzoom": 15
+	},
+	{
 	    "id": "poi-centroid-12",
 	    "type": "symbol",
 	    "source": "someoneelse",

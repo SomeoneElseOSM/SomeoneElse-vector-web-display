@@ -5774,12 +5774,37 @@
 	    "filter": [
 		"all",
 		[ "in", "class", "pedestrian" ],
-                [ "!=", "bridge", "yes" ],
+                [ "!in", "bridge", "levee",
+                                   "yes" ],
                 [ "!=", "tunnel", true ]
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "grey",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 10,  2.8 ],
+			[ 20, 86.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-pedestrian-leveecasing-10",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 10,
+	    "filter": [
+		"all",
+		[ "in", "class", "pedestrian" ],
+                [ "==", "bridge", "levee" ],
+                [ "!=", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#333333",
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [

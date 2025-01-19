@@ -1,7 +1,7 @@
 # Changes made to the [SVWD01 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd01.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
-## As yet unreleased
+## 18/01/2025
 Draw embankment casings (via `levee`) after other casings.
 Show embankments on roads (via `bridge=levee`) on `motorway`, `unclassified`, `residential`, `living_street`, `service` and `pedestrian`.
 Show embankments on a variety of paths, steps and tracks (via `bridge=levee`).

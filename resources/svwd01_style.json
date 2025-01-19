@@ -17699,7 +17699,9 @@
 	    "source-layer": "transportation",
 	    "filter": [ "all", [ "in", "class", "ldpnwn" ],
                                [ "has", "ref" ],
-                               [ "==", "operator", "National Trails" ] ],
+                               [ "in", "operator", "National Trails",
+                                                   "Natural England" ],
+                               [ "<", "ref_len", 4 ] ],
 	    "layout": {
                 "icon-image": "shield_NT",
 		"icon-size": { "stops": [ [ 15, 1.0 ], 

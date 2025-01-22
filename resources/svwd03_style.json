@@ -2129,7 +2129,8 @@
 	    "id": "label-bus_guideway-offset-12",
 	    "type": "symbol",
 	    "source-layer": "streets",
-	    "filter": [ "in", "kind", "bus_guideway" ],
+	    "filter": [ "in", "kind", "bus_guideway",
+	                              "busway" ],
 	    "layout": {
 		"text-field": "{name}",
 		"text-font": [ "KlokanTech Noto Sans Regular" ],
@@ -2523,7 +2524,8 @@
 	    "minzoom": 12,
 	    "filter": [
 		"all",
-		[ "in", "kind", "bus_guideway" ],
+		[ "in", "kind", "bus_guideway",
+		                "busway" ],
                 [ "==", "tunnel", true ]
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
@@ -2766,7 +2768,8 @@
 	    "minzoom": 12,
 	    "filter": [
 		"all",
-		[ "in", "kind", "bus_guideway" ],
+		[ "in", "kind", "bus_guideway",
+                                "busway" ],
                 [ "!=", "bridge", true ],
                 [ "!=", "tunnel", true ]
 	    ],
@@ -3147,7 +3150,8 @@
 	    "minzoom": 12,
 	    "filter": [
 		"all",
-		[ "in", "kind", "bus_guideway" ],
+		[ "in", "kind", "bus_guideway",
+                                "busway" ],
                 [ "!=", "bridge", true ],
                 [ "!=", "tunnel", true ]
 	    ],
@@ -3783,7 +3787,8 @@
 	    "minzoom": 12,
 	    "filter": [
 		"all",
-		[ "in", "kind", "bus_guideway" ],
+		[ "in", "kind", "bus_guideway",
+                                "busway" ],
                 [ "==", "bridge", true ]
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
@@ -3994,7 +3999,8 @@
 	    "minzoom": 12,
 	    "filter": [
 		"all",
-		[ "in", "kind", "bus_guideway" ],
+		[ "in", "kind", "bus_guideway",
+                                "busway" ],
                 [ "==", "bridge", true ]
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },

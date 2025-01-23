@@ -36,11 +36,11 @@ fetch("/metadata")
 		    hash: true,
 		    zoom: 13, // starting zoom
                     maxZoom: 25,
-		    attributionControl: false
+		    attributionControl: true
 		});
 
 	    // Add default OSM attribution
-	    map.addControl(new maplibregl.AttributionControl({ customAttribution: osmAttrib }), 'bottom-right');
+//	    map.addControl(new maplibregl.AttributionControl({ customAttribution: osmAttrib }), 'bottom-right');
 
 	    // Add zoom control
 	    map.addControl(new maplibregl.NavigationControl());

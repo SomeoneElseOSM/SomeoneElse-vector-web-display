@@ -1,6 +1,9 @@
 # Changes made to the [SVWD03 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd03.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
+## 23/01/2025
+Attribution is now contained within the spec file.
+
 ## 22/01/2025
 Added support for `busway` in `streets` (which seems to be `highway=busway`).  Not in the schema and seems to be unnamed; show what we can.
 

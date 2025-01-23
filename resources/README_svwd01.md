@@ -1,4 +1,4 @@
-# Display style for use with schema "sve01"
+# Web map display style for use with schema "sve01" 
 
 See also the [schema](https://github.com/SomeoneElseOSM/SomeoneElse-vector-extract/blob/main/resources/README_sve01.md) readme and the [scripts](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/README.md) readme for this repository,
 

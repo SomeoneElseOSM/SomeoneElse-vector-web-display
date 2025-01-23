@@ -2,7 +2,7 @@
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
 ## 23/01/2025
-Changed `text-rotation-alignment` from `viewport` to `map` in the hope that it might be supported on Maplibre-native Android.
+(no change)
 
 ## 18/01/2025
 Draw embankment casings (via `levee`) after other casings.

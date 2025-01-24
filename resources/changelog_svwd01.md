@@ -2,7 +2,7 @@
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
 ## 23/01/2025
-(no change)
+`emergency=access_point` and `highway=emergency_access_point` are shown as pink dots with the `ref` below.
 
 ## 18/01/2025
 Draw embankment casings (via `levee`) after other casings.

@@ -17347,7 +17347,7 @@
 		"symbol-placement": "line",
 		"symbol-spacing": { "stops": [ [ 10,  450 ],
                                                [ 20, 1800 ] ] },
-		"text-rotation-alignment": "viewport",
+		"text-rotation-alignment": "map",
 		"text-offset": [0, 0],
 		"text-size": { "stops": [ [  9, 10 ], 
                                           [ 11, 10 ], 

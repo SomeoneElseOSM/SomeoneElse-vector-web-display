@@ -18145,15 +18145,41 @@
 	    }
 	},
 	{
+	    "id": "place-farm-14",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "place",
+	    "minzoom": 14,
+	    "filter": [ "in", "class", "farm",
+                                       "isolated_dwelling" ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 13, 10 ], 
+                                          [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#222",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
 	    "id": "place-hamlet-13",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "place",
 	    "minzoom": 13,
 	    "filter": [ "in", "class", "hamlet",
-                                       "farm",
                                        "neighbourhood",
-                                       "isolated_dwelling",
                                        "locality" ],
 	    "layout": {
 		"text-anchor": "top",

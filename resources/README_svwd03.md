@@ -1,6 +1,6 @@
 # Display style for use with shortbread schema
 
-See the [documentation](https://shortbread-tiles.org/schema/1.0/)
+See the schema [documentation](https://shortbread-tiles.org/schema/1.0/)
 
 This map style depends on some icons created for the [svwd01](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd01.md) style.  Most shortbread layers are handled - the only exceptions are basically edge cases in OSM data.  A companion [debug style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd05.md) exists.
 

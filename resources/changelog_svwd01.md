@@ -4,6 +4,7 @@ Except as noted, all changes also apply to the [SVWD06 Android native display st
 
 ## As yet unreleased
 Move `place=farm` and `place=isolated_dwelling` to vector zoom 14 from 13.
+Moved `highway=residential` from zoom 10 to 11.
 
 ## 23/01/2025
 `emergency=access_point` and `highway=emergency_access_point` are shown as pink dots with the `ref` below.

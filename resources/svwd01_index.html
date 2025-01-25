@@ -22,6 +22,7 @@
       <button id="button3" onclick="show_style_changelog();" >style</button>
       <button id="button4" onclick="show_mkgmap();" >mkgmap</button>
       <button id="button5" onclick="show_raster();" >raster</button>
+      <button id="button5" onclick="show_osm();" >OSM</button>
     </div>
 <div id='map'></div>
 <!-- <div id='refresh' onclick='reload()'>Reload</div> -->
@@ -41,6 +42,13 @@ function show_raster()
     let zoom = map.getZoom() + 1;
     let {lng, lat} = map.getCenter();
     window.open ( '../maps/map/map.html'+'#'+zoom+'/'+lat+'/'+lng,'_self',false )
+}
+
+function show_osm()
+{
+    let zoom = map.getZoom() + 1;
+    let {lng, lat} = map.getCenter();
+    window.open ( 'https://osm.org/#map='+zoom+'/'+lat+'/'+lng,'_self',false )
 }
 
 /* -------------------------------------------------------------------------

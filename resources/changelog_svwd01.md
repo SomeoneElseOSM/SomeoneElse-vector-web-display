@@ -2,9 +2,10 @@
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 Except as noted, all changes also apply to the [SVWD06 Android native display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd06.md).  
 
-## As yet unreleased
+## 25/01/2025
 Move `place=farm` and `place=isolated_dwelling` to vector zoom 14 from 13.
 Moved `highway=residential` from zoom 10 to 11.
+Added an "OSM" button to the top of the screen to show the current map view at osm.org.
 
 ## 23/01/2025
 `emergency=access_point` and `highway=emergency_access_point` are shown as pink dots with the `ref` below.

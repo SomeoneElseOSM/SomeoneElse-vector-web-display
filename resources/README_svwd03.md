@@ -6,9 +6,19 @@ This map style depends on some icons created for the [svwd01](https://github.com
 
 Some data that is in the tiles but not in the schema (like busways) is also shown.
 
-To install, you'll want to do something like:
+[Scripts](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/README.md) to deploy this style on a Linux Apache server exist.  To install there, you'll want to do something like:
 
     sudo /home/youruserid/src/SomeoneElse-vector-web-display/svwd_into_apache.sh NONE svwd03 http://youripaddress /home/youruserid/src/SomeoneElse-vector-web-display/resources/svwd03_spec.json /home/youruserid/src/SomeoneElse-vector-web-display/resources/svwd03_metadata.json /home/youruserid/src/tilemaker/server/static/fonts /home/youruserid/src/SomeoneElse-vector-web-display/resources/svwd03_style.json /home/youruserid/src/SomeoneElse-vector-web-display/resources/svwd03_index.html svwd03sprite /home/youruserid/src/SomeoneElse-vector-web-display/resources
+
+(see the linked Readme for more deployment details)
+
+To deploy manually, you'll need to copy versions of these to your website:
+
+* [index_svwd03.html](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/svwd03_index.html).  This needs to link to a [metadata](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/svwd03_metadata.json) file, a [style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/svwd03_style.json).
+* Various sprite [.json](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/svwd03sprite.json) and [.png](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/svwd03sprite.png) files.  At least basic and "@2x" versions are needed.
+* A style file based on [style_svwd03.json](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/svwd03_style.json).  That needs to link to a spec file like [spec_svwd03.json](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/svwd03_spec.json)
+* A metadata file based on [metadata_svwd03.json](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/svwd03_metadata.json).
+* A spec file based on [spec_svwd03.json](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/svwd03_spec.json)
 
 ## Credits
 

@@ -22,6 +22,7 @@
       <button id="button3" onclick="show_style_changelog();" >style</button>
       <button id="button4" onclick="show_mkgmap();" >mkgmap</button>
       <button id="button5" onclick="show_raster();" >raster</button>
+      <button id="button4" onclick="show_web_vector();" >web vector</button>
     </div>
 <div id='map'></div>
 <!-- <div id='refresh' onclick='reload()'>Reload</div> -->
@@ -41,6 +42,13 @@ function show_raster()
     let zoom = map.getZoom() + 1;
     let {lng, lat} = map.getCenter();
     window.open ( '../maps/map/map.html'+'#'+zoom+'/'+lat+'/'+lng,'_self',false )
+}
+
+function show_web_vector()
+{
+    let zoom = map.getZoom();
+    let {lng, lat} = map.getCenter();
+    window.open ( '../../vector/index_svwd01.html'+'#'+zoom+'/'+lat+'/'+lng,'_self',false )
 }
 
 /* -------------------------------------------------------------------------

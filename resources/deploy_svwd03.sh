@@ -46,6 +46,6 @@ local_filesystem_user=ajtown
 #
 sudo /home/${local_filesystem_user}/src/SomeoneElse-vector-web-display/svwd_into_apache.sh NONE osmf_shortbread https://map.atownsend.org.uk /home/${local_filesystem_user}/src/SomeoneElse-vector-web-display/resources/svwd03_spec.json /home/${local_filesystem_user}/src/SomeoneElse-vector-web-display/resources/svwd03_metadata.json /home/${local_filesystem_user}/src/tilemaker/server/static/fonts /home/${local_filesystem_user}/src/SomeoneElse-vector-web-display/resources/svwd03_style.json /home/${local_filesystem_user}/src/SomeoneElse-vector-web-display/resources/svwd03_index.html svwd03sprite /home/${local_filesystem_user}/src/SomeoneElse-vector-web-display/resources
 #
-pandoc -s -f markdown -t html --metadata title="About" /home/${local_filesystem_user}/src/SomeoneElse-vector-web-display/resources/About_svwd03.md > /var/www/html/vector/About_svwd03.html 
+pandoc -s -f markdown -t html --metadata title="About this map" /home/${local_filesystem_user}/src/SomeoneElse-vector-web-display/resources/About_svwd03.md > /var/www/html/vector/About_svwd03.html 
 #
 # No header:  -H /home/${local_filesystem_user}/src/SomeoneElse-map/vector_header.html

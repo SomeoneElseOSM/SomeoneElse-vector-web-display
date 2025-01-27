@@ -1,5 +1,5 @@
 {
-        "attribution": "<a href=\"https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd01.md\">Map style</a> |, Map data <a href=\"https://www.openstreetmap.org/copyright\">© OpenStreetMap</a>",
+        "attribution": "<a href=\"https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd01.md\">Map style</a> | <a href=\"https://www.openstreetmap.org/copyright\">Map data © OpenStreetMap</a>",
 	"tilejson": "2.1.0",
 	"name": "SPEC_NAME",
 	"description": "SPEC_DESCRIPTION",

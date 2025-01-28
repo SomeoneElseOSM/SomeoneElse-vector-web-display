@@ -4,6 +4,7 @@ Except as noted, all changes also apply to the [SVWD06 Android native display st
 
 ## As yet unreleased
 Change the road name spacing on roads still being built to match normal ones.
+Display housenumbers not associated with buildings.
 
 ## 25/01/2025
 Move `place=farm` and `place=isolated_dwelling` to vector zoom 14 from 13.

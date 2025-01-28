@@ -347,12 +347,13 @@
 	    "source-layer": "land1",
 	    "minzoom": 6,
 	    "filter": [ "all", [ "==", "$type", "Point" ],
-                               [ "!has", "name" ] ],
+                               [ "!has", "name" ],
+                               [ "!has", "housenumber" ] ],
 	    "layout": {
 		"icon-image": "{class}",
                 "icon-allow-overlap": true,
 		"text-anchor": "top",
-		"text-field": "(unnamed)\n",
+		"text-field": "(unnamed point)\n",
 		"text-font": [
 		    "KlokanTech Noto Sans Regular"
 		],
@@ -365,6 +366,33 @@
 	    },
 	    "paint": {
 		"text-color": "red",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-housenumber-11",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 11,
+	    "filter": [ "all", [ "in", "class", "housenumber" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{housenumber}",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+                "text-allow-overlap": true,
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "blue",
 		"text-halo-blur": 0.5,
 		"text-halo-color": "#ffffff",
 		"text-halo-width": 1

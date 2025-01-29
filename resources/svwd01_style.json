@@ -4142,7 +4142,26 @@
 	    }
 	},
 	{
-	    "id": "barrier-cutline",
+	    "id": "barrier-interpolation-14",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "linearbarrier",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "class", "interpolation" ] ],
+	    "paint": {
+		"line-color": "#898787",
+                "line-dasharray": [2.0, 4.0],
+		"line-width": {
+		    "base": 1.8,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "barrier-cutline-13",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "linearbarrier",

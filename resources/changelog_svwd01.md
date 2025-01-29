@@ -2,9 +2,10 @@
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 Except as noted, all changes also apply to the [SVWD06 Android native display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd06.md).  
 
-## As yet unreleased
+## 28/01/2025
 Change the road name spacing on roads still being built to match normal ones.
 Display housenumbers not associated with buildings.
+Display address Interpolation lines.
 
 ## 25/01/2025
 Move `place=farm` and `place=isolated_dwelling` to vector zoom 14 from 13.

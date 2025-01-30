@@ -1,0 +1,30 @@
+{
+	"name": "SPEC_NAME",
+	"type": "baselayer",
+	"version": "0.1",
+	"description": "SPEC_DESCRIPTION",
+	"format": "pbf",
+	"minzoom": "12",
+	"maxzoom": "14",
+	"bounds": "-180,-89,180,89",
+	"center": "-1.282224,53.315034,16",
+	"json": {
+		"vector_layers": [{
+			"id": "streets",
+			"description": "streets",
+			"fields": {
+				"class": "String"
+			}
+		}, {
+			"id": "water_lines",
+			"description": "water_lines",
+			"fields": {
+				"class": "String"
+			}
+		}, {
+			"id": "buildings",
+			"description": "buildings",
+			"fields": {}
+		}]
+	}
+}

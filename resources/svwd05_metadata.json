@@ -1,7 +1,7 @@
 {
 	"name": "SPEC_NAME",
 	"type": "baselayer",
-	"version": "0.1",
+	"version": "1.0",
 	"description": "SPEC_DESCRIPTION",
 	"format": "pbf",
 	"minzoom": "12",

@@ -4921,7 +4921,7 @@
                                                 "tertiary", "tertiary_link",
                                                 "unclassified", "residential", "pedestrian", 
                                                 "service", "road" ],
-                               [ "==", "oneway", "yes" ] ],
+                               [ "==", "oneway", true ] ],
 	    "layout": {
                 "icon-image": "marker_oneway",
 		"icon-size": { "stops": [ [ 15, 0.5 ], 
@@ -4942,7 +4942,7 @@
                                                 "tertiary", "tertiary_link",
                                                 "unclassified", "residential", "pedestrian", 
                                                 "service", "road" ],
-                               [ "==", "oneway", "-1" ] ],
+                               [ "==", "oneway_reverse", true ] ],
 	    "layout": {
                 "icon-image": "marker_onewayminusone",
 		"icon-size": { "stops": [ [ 15, 0.5 ], 

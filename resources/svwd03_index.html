@@ -31,10 +31,9 @@ fetch("/metadata")
 		map = new maplibregl.Map({
 		    container: 'map', // container id
 		    style: styleURL, // stylesheet location
-		    center: [(Number(bounds[0])+Number(bounds[2]))/2,
-			         (Number(bounds[1])+Number(bounds[3]))/2], // starting position [lng, lat]
+		    center: [ -1.5, 53 ], // starting position [lng, lat]
 		    hash: true,
-		    zoom: 13, // starting zoom
+		    zoom: 8, // starting zoom
                     maxZoom: 25,
 		    attributionControl: true
 		});

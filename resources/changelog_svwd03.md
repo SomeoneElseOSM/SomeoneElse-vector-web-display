@@ -3,6 +3,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 
 ## 31/01/2025
 Fixed bug where oneway settings (which are boolean) were misread.
+Added a geolocate control and a scale control to the osmf_shortbread index page.
 
 ## 23/01/2025
 Attribution is now contained within the spec file.

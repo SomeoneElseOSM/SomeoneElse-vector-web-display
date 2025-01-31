@@ -3,6 +3,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 
 ## 31/01/2025
 Fixed bug where oneway settings (which are boolean) were misread.
+Added a geolocate control and a scale control to the example index page.
 
 ## 30/01/2025
 Initial pre-release.

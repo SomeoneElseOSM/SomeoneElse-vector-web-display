@@ -1693,7 +1693,10 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "class", "natural_wetland" ] ],
+	    "filter": [ "all", [ "in", "class", "natural_wetland",
+                                                "natural_swamp",
+                                                "natural_bog",
+                                                "natural_string_bog"  ] ],
 	    "paint": {
 		"fill-pattern": "pattern_natural_wetland"
 	    }
@@ -1707,6 +1710,39 @@
 	    "filter": [ "all", [ "in", "class", "natural_intermittentwetland" ] ],
 	    "paint": {
 		"fill-pattern": "pattern_natural_intermittentwetland"
+	    }
+	},
+	{
+	    "id": "land1-swamp-fill-12",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "natural_swamp"  ] ],
+	    "paint": {
+		"fill-pattern": "pattern_natural_wetland"
+	    }
+	},
+	{
+	    "id": "land1-bog-fill-12",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "natural_bog"  ] ],
+	    "paint": {
+		"fill-pattern": "pattern_natural_wetland"
+	    }
+	},
+	{
+	    "id": "land1-string_bog-fill-12",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "natural_string_bog"  ] ],
+	    "paint": {
+		"fill-pattern": "pattern_natural_wetland"
 	    }
 	},
 	{
@@ -4142,7 +4178,26 @@
 	    }
 	},
 	{
-	    "id": "barrier-cutline",
+	    "id": "barrier-interpolation-14",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "linearbarrier",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "class", "interpolation" ] ],
+	    "paint": {
+		"line-color": "#898787",
+                "line-dasharray": [2.0, 4.0],
+		"line-width": {
+		    "base": 1.8,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "barrier-cutline-13",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "linearbarrier",

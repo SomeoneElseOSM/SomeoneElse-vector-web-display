@@ -2,6 +2,9 @@
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 Except as noted, all changes also apply to the [SVWD06 Android native display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd06.md).  
 
+## 02/02/2025
+Display `wetland=swamp`, `wetland=bog` and `wetland=string_bog` as individual `natural` values.
+
 ## 28/01/2025
 Change the road name spacing on roads still being built to match normal ones.
 Display housenumbers not associated with buildings.

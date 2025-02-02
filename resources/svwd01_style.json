@@ -1710,6 +1710,39 @@
 	    }
 	},
 	{
+	    "id": "land1-swamp-fill-12",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "natural_swamp"  ] ],
+	    "paint": {
+		"fill-pattern": "pattern_natural_swamp"
+	    }
+	},
+	{
+	    "id": "land1-bog-fill-12",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "natural_bog"  ] ],
+	    "paint": {
+		"fill-pattern": "pattern_natural_bog"
+	    }
+	},
+	{
+	    "id": "land1-string_bog-fill-12",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "natural_string_bog"  ] ],
+	    "paint": {
+		"fill-pattern": "pattern_natural_string_bog"
+	    }
+	},
+	{
 	    "id": "land1-tourismgreen-fill-12",
 	    "type": "fill",
 	    "source": "someoneelse",

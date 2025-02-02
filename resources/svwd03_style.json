@@ -690,12 +690,42 @@
 	    "source": "someoneelse",
 	    "source-layer": "land",
 	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "kind", "marsh",
-                                               "swamp",
-                                               "bog",
-                                               "string_bog" ] ],
+	    "filter": [ "all", [ "in", "kind", "marsh" ] ],
 	    "paint": {
 		"fill-pattern": "pattern_wetland"
+	    }
+	},
+	{
+	    "id": "land-swamp-fill-12",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "kind", "swamp" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_swamp"
+	    }
+	},
+	{
+	    "id": "land-bog-fill-12",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "kind", "bog" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_bog"
+	    }
+	},
+	{
+	    "id": "land-string_bog-fill-12",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "kind", "string_bog" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_string_bog"
 	    }
 	},
 	{

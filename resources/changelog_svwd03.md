@@ -1,6 +1,9 @@
 # Changes made to the [SVWD03 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd03.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
+## 02/02/2025
+Display `wetland=swamp`, `wetland=bog` and `wetland=string_bog` as individual `natural` values.
+
 ## 31/01/2025
 Fixed bug where oneway settings (which are boolean) were misread.
 Added a geolocate control and a scale control to the osmf_shortbread index page.

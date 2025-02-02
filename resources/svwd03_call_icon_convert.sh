@@ -230,6 +230,9 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/scrub32.png            ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/pattern_scrub.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/marsh.png                                           ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/pattern_wetland.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/wetmeadow32.png        ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/pattern_wet_meadow.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/wetland_swamp.png                                   ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/pattern_swamp.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/wetland_bog.png                                     ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/pattern_bog.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/wetland_string_bog.png                              ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/pattern_string_bog.png
 
 #
 # Some area patterns copy straight from raster 64x64

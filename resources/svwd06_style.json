@@ -1693,10 +1693,7 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "class", "natural_wetland",
-                                                "natural_swamp",
-                                                "natural_bog",
-                                                "natural_string_bog"  ] ],
+	    "filter": [ "all", [ "in", "class", "natural_wetland" ] ],
 	    "paint": {
 		"fill-pattern": "pattern_natural_wetland"
 	    }
@@ -1720,7 +1717,7 @@
 	    "minzoom": 12,
 	    "filter": [ "all", [ "in", "class", "natural_swamp"  ] ],
 	    "paint": {
-		"fill-pattern": "pattern_natural_wetland"
+		"fill-pattern": "pattern_natural_swamp"
 	    }
 	},
 	{
@@ -1731,7 +1728,7 @@
 	    "minzoom": 12,
 	    "filter": [ "all", [ "in", "class", "natural_bog"  ] ],
 	    "paint": {
-		"fill-pattern": "pattern_natural_wetland"
+		"fill-pattern": "pattern_natural_bog"
 	    }
 	},
 	{
@@ -1742,7 +1739,7 @@
 	    "minzoom": 12,
 	    "filter": [ "all", [ "in", "class", "natural_string_bog"  ] ],
 	    "paint": {
-		"fill-pattern": "pattern_natural_wetland"
+		"fill-pattern": "pattern_natural_string_bog"
 	    }
 	},
 	{

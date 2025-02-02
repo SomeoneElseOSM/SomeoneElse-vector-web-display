@@ -913,6 +913,39 @@
 	    }
 	},
 	{
+	    "id": "land2-unnamedswamp-fill-12",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land2",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "natural_unnamedswamp" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_natural_swamp"
+	    }
+	},
+	{
+	    "id": "land2-unnamedbog-fill-12",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land2",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "natural_unnamedbog" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_natural_bog"
+	    }
+	},
+	{
+	    "id": "land2-unnamedstring_bog-fill-12",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land2",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "natural_unnamedstring_bog" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_natural_string_bog"
+	    }
+	},
+	{
 	    "id": "land2-unnamedgrassland-fill-9",
 	    "type": "fill",
 	    "source": "someoneelse",

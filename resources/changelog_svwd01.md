@@ -4,6 +4,7 @@ Except as noted, all changes also apply to the [SVWD06 Android native display st
 
 ## 02/02/2025
 Display `wetland=swamp`, `wetland=bog` and `wetland=string_bog` as individual `natural` values.
+Added some more unnamed values (e.g. `swamp`) to the display code on vector.
 
 ## 28/01/2025
 Change the road name spacing on roads still being built to match normal ones.

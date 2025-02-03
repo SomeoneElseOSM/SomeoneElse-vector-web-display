@@ -110,6 +110,7 @@
 # highway
 #
 # highway=emergency_access_point not yet implemented
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/emergency_access_point.png                      ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/highway_emergency_access_point.png
 
 #
 # historic

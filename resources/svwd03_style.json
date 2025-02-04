@@ -3705,7 +3705,7 @@
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
-		"line-color": "#395691",
+		"line-color": "#6699ff",
 		"line-width": {
 		    "stops": [
 			[ 13,  1.8 ],

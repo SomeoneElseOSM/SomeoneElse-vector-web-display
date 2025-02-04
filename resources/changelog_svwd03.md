@@ -3,6 +3,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 
 ## 04/02/2025
 Show railway and bus guideway bridges in a nicer style (with parallel "parapets").
+Change bus guideway bridge colours to be the same as regular bus guideways.
 
 ## 02/02/2025
 Display `wetland=swamp`, `wetland=bog` and `wetland=string_bog` as individual `natural` values.

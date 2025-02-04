@@ -1,6 +1,9 @@
 # Changes made to the [SVWD03 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd03.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
+## 04/02/2025
+Show railway and bus guideway bridges in a nicer style (with parallel "parapets").
+
 ## 02/02/2025
 Display `wetland=swamp`, `wetland=bog` and `wetland=string_bog` as individual `natural` values.
 

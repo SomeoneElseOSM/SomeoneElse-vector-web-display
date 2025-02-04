@@ -2,6 +2,10 @@
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 Except as noted, all changes also apply to the [SVWD06 Android native display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd06.md).  
 
+## 04/02/2025
+Show bus guideway bridges in a nicer style (with parallel "parapets").
+Change bus guideway bridge colours to be the same as regular bus guideways.
+
 ## 02/02/2025
 Display `wetland=swamp`, `wetland=bog` and `wetland=string_bog` as individual `natural` values.
 Added some more unnamed values (e.g. `swamp`) to the display code on vector.

@@ -1,6 +1,9 @@
 # Changes made to the [SVWD03 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd03.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
+## 05/02/2025
+Included "busway" in the "bus guideway" nice parapets.
+
 ## 04/02/2025
 Show railway and bus guideway bridges in a nicer style (with parallel "parapets").
 Change bus guideway bridge colours to be the same as regular bus guideways.

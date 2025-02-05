@@ -3619,7 +3619,8 @@
                                  "light_rail",
                                  "subway",
                                  "tram",
-                                 "bus_guideway" ],
+                                 "bus_guideway",
+	                         "busway" ],
                 [ "==", "bridge", true ]
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
@@ -3650,7 +3651,8 @@
                                  "light_rail",
                                  "subway",
                                  "tram",
-                                 "bus_guideway" ],
+                                 "bus_guideway",
+	                         "busway" ],
                 [ "==", "bridge", true ]
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
@@ -3782,7 +3784,8 @@
 	    "minzoom": 12,
 	    "filter": [
 		"all",
-		[ "in", "kind", "bus_guideway" ],
+		[ "in", "kind", "bus_guideway",
+	                        "busway" ],
                 [ "==", "bridge", true ]
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
@@ -3933,7 +3936,8 @@
 	    "minzoom": 12,
 	    "filter": [
 		"all",
-		[ "in", "kind", "bus_guideway" ],
+		[ "in", "kind", "bus_guideway",
+	                        "busway" ],
                 [ "==", "bridge", true ]
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },

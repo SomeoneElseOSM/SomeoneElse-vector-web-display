@@ -5,6 +5,7 @@ Except as noted, all changes also apply to the [SVWD06 Android native display st
 ## 04/02/2025
 Show bus guideway bridges in a nicer style (with parallel "parapets").
 Change bus guideway bridge colours to be the same as regular bus guideways.
+Display `ref` along with `tourism=informationpnfs`.
 
 ## 02/02/2025
 Display `wetland=swamp`, `wetland=bog` and `wetland=string_bog` as individual `natural` values.

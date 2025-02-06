@@ -2,6 +2,9 @@
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 Except as noted, all changes also apply to the [SVWD06 Android native display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd06.md).  
 
+## 06/02/2025
+The `svwd01` (web vector) and `svwd06` (designed for Android Native) map styles shown at https://map.atownsend.org.uk/vector/index.html#5/53.86/-5.57 now use names in Welsh or Scots Gaelic where that language is more commonly used, in the same way that the equivalent raster maps do.
+
 ## 05/02/2025
 Display `ref` along with `tourism=informationpnfs`.
 

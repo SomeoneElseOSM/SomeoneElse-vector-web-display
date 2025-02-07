@@ -4535,7 +4535,10 @@
                                        "barrier_gate",
                                        "barrier_gate_locked",
                                        "waterway_lock_gate",
-                                       "waterway_sluice_gate" ],
+                                       "waterway_sluice_gate",
+                                       "man_made_pier",
+                                       "man_made_breakwater",
+                                       "man_made_groyne" ],
 	    "layout": {
 		"text-field": "{name}",
 		"text-font": [ "KlokanTech Noto Sans Regular" ],
@@ -13608,7 +13611,7 @@
                                                 "shop_e-cigarette",
                                                 "shop_ecoconv",
                                                 "shop_ecogreengrocer",
-                                                "shop_ecohealth",
+                                                "shop_ecohealth_food",
                                                 "shop_electrical",
                                                 "shop_electronics",
                                                 "shop_estate_agent",
@@ -14287,13 +14290,12 @@
 	    }
 	},
 	{
-	    "id": "barrier-pier-linename-11",
+	    "id": "barrier-pier-line-11",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "linearbarrier",
 	    "minzoom": 11,
-	    "filter": [ "all", [ "in", "class", "man_made_pier",
-                                                "man_made_groyne" ] ],
+	    "filter": [ "all", [ "in", "class", "man_made_pier" ] ],
 	    "paint": {
 		"line-color": "#f2efe9",
 		"line-width": {

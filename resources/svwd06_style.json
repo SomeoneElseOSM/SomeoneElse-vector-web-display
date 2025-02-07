@@ -10513,7 +10513,6 @@
 	    "source-layer": "land1",
 	    "minzoom": 16,
 	    "filter": [ "all", [ "in", "class", "highway_board_realtime",
-	                                        "tourism_picnic_site",
                                                 "tourism_singlechalet",
                                                 "tourism_hostel",
                                                 "tourism_bed_and_breakfast",
@@ -11368,7 +11367,8 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 16,
-	    "filter": [ "all", [ "in", "class", "amenity_bench" ] ],
+	    "filter": [ "all", [ "in", "class", "amenity_bench",
+	                                        "tourism_picnic_site" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"icon-size": { "stops": [ [ 16, 0.5 ], 

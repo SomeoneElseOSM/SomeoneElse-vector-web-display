@@ -4,6 +4,7 @@ Except as noted, all changes also apply to the [SVWD06 Android native display st
 
 ## As yet unreleased
 Fixed bugs that were suppressing the display of palaeolontological sites.
+Changed colour of the name associated with picnic sites from blue to light brown.
 
 ## 06/02/2025
 The `svwd01` (web vector) and `svwd06` (designed for Android Native) map styles shown at https://map.atownsend.org.uk/vector/index.html#5/53.86/-5.57 now use names in Welsh or Scots Gaelic where that language is more commonly used, in the same way that the equivalent raster maps do.

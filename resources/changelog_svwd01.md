@@ -3,6 +3,9 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 Except as noted, all changes also apply to the [SVWD06 Android native display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd06.md).  
 
 ## As yet unreleased
+Display `place=sea` at zoom level 8.
+
+## 16/02/2025
 Fixed bugs that were suppressing the display of palaeolontological sites.
 Changed colour of the name associated with picnic sites from blue to light brown.
 Fixed bugs that were suppressing the display of eco health food shops.

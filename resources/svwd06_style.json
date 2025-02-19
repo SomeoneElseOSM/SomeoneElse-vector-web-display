@@ -14739,6 +14739,34 @@
 	    }
 	},
 	{
+	    "id": "land1-sea-name-8",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 8,
+	    "filter": [ "all", [ "in", "class", "place_sea" ],
+	                       [ "==", "$type", "Point" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], 
+                                          [ 20, 60 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#6699cc",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
 	    "id": "land1-pedestrian-name-centroid-16",
 	    "type": "symbol",
 	    "source": "someoneelse",

@@ -4,6 +4,7 @@ Except as noted, all changes also apply to the [SVWD06 Android native display st
 
 ## As yet unreleased
 Display `place=sea` at zoom level 8.
+Treat `greenfield` as `farmgrass` rather than `construction`.
 
 ## 16/02/2025
 Fixed bugs that were suppressing the display of palaeolontological sites.

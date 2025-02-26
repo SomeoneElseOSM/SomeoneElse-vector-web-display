@@ -281,7 +281,8 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "landuse_farmgrass" ] ],
+	    "filter": [ "all", [ "in", "class", "landuse_farmgrass", 
+                                                "landuse_greenfield" ] ],
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#eeefda"
@@ -1139,7 +1140,6 @@
 	    "source-layer": "land1",
 	    "minzoom": 9,
 	    "filter": [ "all", [ "in", "class", "landuse_brownfield", 
-                                                "landuse_greenfield", 
                                                 "landuse_construction" ] ],
 	    "paint": {
 		"fill-antialias": true,
@@ -15759,7 +15759,8 @@
 	    "minzoom": 14,
 	    "filter": [ "all", [ "in", "class", "landuse_farmyard",
                                                 "landuse_farmland",
-                                                "landuse_farmgrass" ] ],
+                                                "landuse_farmgrass",
+                                                "landuse_greenfield" ] ],
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{name}\n",
@@ -16383,7 +16384,6 @@
 	    "minzoom": 16,
 	    "filter": [ "all", [ "in", "class", "landuse_construction",
                                                 "landuse_brownfield",
-                                                "landuse_greenfield",
                                                 "landuse_landfill" ] ],
 	    "layout": {
 		"text-anchor": "top",
@@ -16412,7 +16412,6 @@
 	    "minzoom": 15,
 	    "filter": [ "all", [ "in", "class", "landuse_construction",
                                                 "landuse_brownfield",
-                                                "landuse_greenfield",
                                                 "landuse_landfill" ],
                                [ ">", "way_area", 2000 ] ],
 	    "layout": {
@@ -16442,7 +16441,6 @@
 	    "minzoom": 14,
 	    "filter": [ "all", [ "in", "class", "landuse_construction",
                                                 "landuse_brownfield",
-                                                "landuse_greenfield",
                                                 "landuse_landfill" ],
                                [ ">", "way_area", 50000 ] ],
 	    "layout": {

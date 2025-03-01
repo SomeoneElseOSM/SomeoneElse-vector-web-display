@@ -4,6 +4,12 @@ This repository contains:
 
 * scripts for managing web map styles
 * [SVWD01](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd01.md), an example web map style.
+* [SVWD06](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd06.md), based on an example Android Native style.
+* [SVWD03](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd03.md), a [Shortbread](https://shortbread-tiles.org/schema/1.0/) map style designed to use [OSMF's minutely updated vector tiles demo](https://community.openstreetmap.org/t/minutely-updated-vector-tiles-demo/110121)
+* [SVWD07](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd07.md), a work-in-progress minimal Shortbread example.
+* [SVWD04](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd05.md), a debug layer for SVWD01.
+* [SVWD05](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd05.md), a debug layer for SVWD03.
+
 
 A [companion repository](https://github.com/SomeoneElseOSM/SomeoneElse-vector-extract/blob/main/README.md) contains scripts to manage the extraction of OSM data and an [example schema](https://github.com/SomeoneElseOSM/SomeoneElse-vector-extract/blob/main/resources/README_sve01.md).  The example web map style here works with a ".mbtiles" file in that schema.
 

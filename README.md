@@ -11,9 +11,9 @@ This repository contains:
 * [SVWD05](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd05.md), a debug layer for SVWD03.
 
 
-A [companion repository](https://github.com/SomeoneElseOSM/SomeoneElse-vector-extract/blob/main/README.md) contains scripts to manage the extraction of OSM data and an [example schema](https://github.com/SomeoneElseOSM/SomeoneElse-vector-extract/blob/main/resources/README_sve01.md).  The example web map style here works with a ".mbtiles" file in that schema.
+A [companion repository](https://github.com/SomeoneElseOSM/SomeoneElse-vector-extract/blob/main/README.md) contains scripts to manage the extraction of OSM data and an [example schema](https://github.com/SomeoneElseOSM/SomeoneElse-vector-extract/blob/main/resources/README_sve01.md).  The example web map style here works with a `.mbtiles` file in that schema.
 
-## Why do these scripts even need to exist?
+## Why do the "managing scripts" even need to exist?
 
 Unlike with raster tile pipelines using `osm2pgsql`, the equivalent supporting software for Maplibre GL seems very early in its evolution.  Some of the necessary functions aren't supported "out of the box", and it sometimes it seems that the necessary sticky tape and glue needs to be assembled from a bunch of other Github repositories in various stages of abandoned-ness.
 
@@ -33,7 +33,7 @@ The main management scripts are:
 * svwd_into_apache.sh
 * svwd_delete.sh
 
-These two install a vector tile configuration below Apache, and remove it.  A "vector tile configuration" is a set of .mbtiles (which contains certain data extracted and converted from OSM) and the "Index", "style", "metadata" and "spec" files that control how those features are displayed.  "svwd_into_apache.sh" uses templates for those files from e.g. "svwd01_style.json" in "resources" here to create a style.json for a particular display style using a particular set of .mbtiles.
+These two install a vector tile configuration below Apache, and remove it.  A "vector tile configuration" is a set of .mbtiles (which contains certain data extracted and converted from OSM) and the "Index", "style", "metadata" and "spec" files that control how those features are displayed.  `svwd_into_apache.sh` uses templates for those files from e.g. `svwd01_style.json` in "resources" here to create a style.json for a particular display style using a particular set of .mbtiles.
 
 In addition there are these:
 
@@ -44,7 +44,7 @@ and for each map style there may also be:
 
 * svwd_call_icon_convert.sh
 
-These scripts are used to create the sprite files referred to by the "sprite" setting in "style.json".  "svwd_convert_icon_from_raster.sh" converts one .png file from an OSM Carto or derivative "symbols" directory into a known format of a certain size.  "svwd_call_icon_convert.sh" calls that several times creating files with known names (basically "tag_value.png") and "svwd_create_sprite.sh" creates a sprite .json and .png (one row, many icons wide) from that both as "name.png" (which seems to be used on Windows) and "name@2x.png" (which seems to be used on Linux).
+These scripts are used to create the sprite files referred to by the "sprite" setting in `style.json`.  `svwd_convert_icon_from_raster.sh` converts one .png file from an OSM Carto or derivative "symbols" directory into a known format of a certain size.  `svwd_call_icon_convert.sh` calls that several times creating files with known names (basically `tag_value.png`) and `svwd_create_sprite.sh` creates a sprite .json and .png (one row, many icons wide) from that both as `name.png` (which seems to be used on Windows) and `name@2x.png` (which seems to be used on Linux).
 
 A valid set of sprite files are needed.  If you're using an external style it's likely that it'll come with these already and you won't need to create them yourself, however [the example style here](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd01.md) was created from scratch based on the cartography of an existing raster style so each icon (of the currently 910!) needed to be either converted from a raster source or created from scratch.
 
@@ -52,11 +52,11 @@ A valid set of sprite files are needed.  If you're using an external style it's 
 
 A caveat: This uses "convert" and "montage" from Imagemagick, and works without problems on Ubuntu 22.04.  There are problems with the equivalent software available by default on Debian 12, so that isn't fully supported yet.
 
-In the SVWD01 style the "svwd01_call_icon_convert.sh" script just calls calls "svwd_convert_icon_from_raster.sh" numerous times to convert source icons from mostly (in the example script) "~/src/openstreetmap-carto-AJT/symbols/" into proto-vector-tile ones in "~/src/SomeoneElse-vector-web-display/icons/".  Often the name is changed, because making the vector icon name "tag_value.png" makes further processing much easier.  Although the convert script supports it, by default, "svwd01_call_icon_convert.sh" doesn't tell "svwd_convert_icon_from_raster.sh" to overwrite existing files.
+In the SVWD01 style the `svwd01_call_icon_convert.sh` script just calls calls `svwd_convert_icon_from_raster.sh` numerous times to convert source icons from mostly (in the example script) `~/src/openstreetmap-carto-AJT/symbols/` into proto-vector-tile ones in `~/src/SomeoneElse-vector-web-display/icons/`.  Often the name is changed, because making the vector icon name `tag_value.png` makes further processing much easier.  Although the convert script supports it, by default, `svwd01_call_icon_convert.sh` doesn't tell `svwd_convert_icon_from_raster.sh` to overwrite existing files.
 
-That creates a bunch of files in "~/src/SomeoneElse-vector-web-display/icons" such as "shop_gift.png".
+That creates a bunch of files in `~/src/SomeoneElse-vector-web-display/icons` such as `shop_gift.png`.
 
-Next, run: "./svwd_create_sprite.sh ./icons ./svwd01".  That will create "svwd01@2x.png" and "svwd01@2x.json", and validate the .json.  It should reply with:
+Next, run: `./svwd_create_sprite.sh ./icons ./svwd01`.  That will create `svwd01@2x.png` and `svwd01@2x.json`, and validate the .json.  It should reply with:
 
     Valid JSON (./svwd01@2x.json)
 
@@ -79,7 +79,7 @@ The apache configuration consists of
 
     MbtilesAdd sve01 /var/www/html/vector/sve01/tilemaker_sve01.mbtiles
 
-A set of vector tiles and a style to view them is copied below apache with "svwd_into_apache.sh" and can be deleted with "svwd_delete.sh".  Both take lots of parameters - see the comments at the top of each script for details.
+A set of vector tiles and a style to view them is copied below apache with `svwd_into_apache.sh` and can be deleted with `svwd_delete.sh`.  Both take lots of parameters - see the comments at the top of each script for details.
 
 ## Resources
 

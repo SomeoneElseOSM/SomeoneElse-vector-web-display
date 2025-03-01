@@ -10,13 +10,15 @@ and also these in [resources](https://github.com/SomeoneElseOSM/SomeoneElse-vect
 * [SVWD06](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd06.md), based on an example Android Native style.
 * [SVWD03](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd03.md), a [Shortbread](https://shortbread-tiles.org/schema/1.0/) map style designed to use [OSMF's minutely updated vector tiles demo](https://community.openstreetmap.org/t/minutely-updated-vector-tiles-demo/110121)
 * [SVWD07](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd07.md), a work-in-progress minimal Shortbread example.
-* [SVWD04](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd05.md), a debug layer for SVWD01.
-* [SVWD05](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd05.md), a debug layer for SVWD03.
+* [SVWD04](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd05.md), a debug style for SVWD01.
+* [SVWD05](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd05.md), a debug style for SVWD03.
 * [SVWD02](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/svwd02_style.json), a copy of the [Versatiles Colorful display style](https://github.com/versatiles-org/versatiles-style/blob/main/docs/colorful.png), which works with the [shortbread schema](https://shortbread-tiles.org/schema/).
 
 The shortbread styles are dependent on what's available in the Shortbread schema.  The "svwd02" style is from [Versatiles](https://versatiles.org/overview.html); see the licence at the top of [that file](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/svwd02_style.json).
 
 The "sve01" schema and "svwd01" style have broadly the same functionality as the raster maps [here](https://map.atownsend.org.uk/maps/map/map.html).  The "schema" for that is controlled by the lua processing [here](https://github.com/SomeoneElseOSM/SomeoneElse-style/blob/master/README.md).
+
+The debug styles show all features in each style's layers, with each layer (or object type in a layer) in a different colour.
 
 A [companion repository](https://github.com/SomeoneElseOSM/SomeoneElse-vector-extract/blob/main/README.md) contains scripts to manage the extraction of OSM data and an [example schema](https://github.com/SomeoneElseOSM/SomeoneElse-vector-extract/blob/main/resources/README_sve01.md).  The example web map style here works with a `.mbtiles` file in that schema.
 

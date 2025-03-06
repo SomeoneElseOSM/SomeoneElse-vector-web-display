@@ -3,6 +3,9 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 Except as noted, all changes also apply to the [SVWD06 Android native display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd06.md).  
 
 ## As yet unreleased
+Moved "island size extract at zoom" logic from "svwd01" style to the "sve01" extract code for zooms between 6 and 13.  Higher zoom levels are extracted at zoom level 14, and the decision to display is in the style .json.
+
+## 02/03/2025
 Display `place=sea` at zoom level 8.
 Treat `greenfield` as `farmgrass` rather than `construction`.
 

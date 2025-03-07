@@ -47,7 +47,7 @@
             }
         },
 	{
-	    "id": "land2-commercial-fill-9",
+	    "id": "land2-unnamedcommercial-fill-9",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
@@ -59,7 +59,7 @@
 	    }
 	},
 	{
-	    "id": "land2-commercial-outline",
+	    "id": "land2-unnamedcommercial-outline-15",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
@@ -400,11 +400,10 @@
 	    }
 	},
 	{
-	    "id": "land1-commercial-fill-9",
+	    "id": "land1-commercial-fill-9-13",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "minzoom": 9,
 	    "filter": [ "all", [ "in", "class", "landuse_commercial" ] ],
 	    "paint": {
 		"fill-antialias": true,
@@ -412,7 +411,7 @@
 	    }
 	},
 	{
-	    "id": "land1-commercial-outline",
+	    "id": "land1-commercial-outline-15",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -15901,41 +15900,12 @@
 	    }
 	},
 	{
-	    "id": "land1-commercial-name-13",
+	    "id": "land1-commercial-name-12-13",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "minzoom": 13,
+	    "maxzoom": 13,
 	    "filter": [ "all", [ "in", "class", "landuse_commercial" ],
-                               [ ">", "way_area", 71668 ],
-	                       [ "==", "$type", "Point" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 9,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#662621",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
-	    "id": "land1-commercial-name-12",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "class", "landuse_commercial" ],
-                               [ ">", "way_area", 141284 ],
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"text-anchor": "top",

@@ -574,8 +574,7 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "leisure_park", 
-                                                "leisure_recreation_ground" ] ],
+	    "filter": [ "all", [ "in", "class", "leisure_park" ] ],
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#b6fdb6",
@@ -1254,11 +1253,10 @@
 	    }
 	},
 	{
-	    "id": "land1-recreation_ground-fill-9",
+	    "id": "land1-recreation_ground-fill-6-16",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "minzoom": 9,
 	    "filter": [ "all", [ "in", "class", "landuse_recreation_ground" ] ],
 	    "paint": {
 		"fill-antialias": true,
@@ -1266,11 +1264,10 @@
 	    }
 	},
 	{
-	    "id": "land1-village_green-fill-10",
+	    "id": "land1-village_green-fill-6-16",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "minzoom": 10,
 	    "filter": [ "all", [ "in", "class", "landuse_village_green" ] ],
 	    "paint": {
 		"fill-antialias": true,
@@ -15203,109 +15200,15 @@
 	    }
 	},
 	{
-	    "id": "land1-rec-etc-name-13",
+	    "id": "land1-rec-etc-name-6-13",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "minzoom": 13,
+	    "maxzoom": 13,
 	    "filter": [ "all", [ "in", "class", "landuse_recreation_ground",
                                                 "landuse_conservation",
                                                 "landuse_village_green",
                                                 "leisure_nature_reserve" ],
-                               [ ">", "way_area", 71668 ],
-	                       [ "==", "$type", "Point" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 9,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#2c4b2c",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
-	    "id": "land1-rec-etc-name-12",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "class", "landuse_recreation_ground",
-                                                "landuse_conservation",
-                                                "landuse_village_green",
-                                                "leisure_nature_reserve" ],
-                               [ ">", "way_area", 141284 ],
-	                       [ "==", "$type", "Point" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 9,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#2c4b2c",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
-	    "id": "land1-rec-etc-name-11",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 11,
-	    "filter": [ "all", [ "in", "class", "landuse_recreation_ground",
-                                                "landuse_conservation",
-                                                "landuse_village_green",
-                                                "leisure_nature_reserve" ],
-                               [ ">", "way_area", 800000 ],
-	                       [ "==", "$type", "Point" ] ],
-	    "layout": {
-		"text-anchor": "top",
-		"text-field": "{name}\n",
-		"text-font": [
-		    "KlokanTech Noto Sans Regular"
-		],
-		"text-max-width": 9,
-		"text-offset": [ 0, 0.6 ],
-		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
-		"visibility": "visible"
-	    },
-	    "paint": {
-		"text-color": "#2c4b2c",
-		"text-halo-blur": 0.5,
-		"text-halo-color": "#ffffff",
-		"text-halo-width": 1
-	    }
-	},
-	{
-	    "id": "land1-rec-etc-name-6",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 6,
-	    "filter": [ "all", [ "in", "class", "landuse_recreation_ground",
-                                                "landuse_conservation",
-                                                "landuse_village_green",
-                                                "leisure_nature_reserve" ],
-                               [ ">", "way_area", 4000000000 ],
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"text-anchor": "top",
@@ -15333,7 +15236,6 @@
 	    "source-layer": "land1",
 	    "minzoom": 16,
 	    "filter": [ "all", [ "in", "class", "leisure_park",
-                                                "leisure_recreation_ground",
                                                 "leisure_common",
                                                 "leisure_garden",
                                                 "leisure_golfgreen" ],
@@ -15364,7 +15266,6 @@
 	    "source-layer": "land1",
 	    "minzoom": 15,
 	    "filter": [ "all", [ "in", "class", "leisure_park",
-                                                "leisure_recreation_ground",
                                                 "leisure_common",
                                                 "leisure_garden",
                                                 "leisure_golfgreen" ],
@@ -15396,7 +15297,6 @@
 	    "source-layer": "land1",
 	    "minzoom": 14,
 	    "filter": [ "all", [ "in", "class", "leisure_park",
-                                                "leisure_recreation_ground",
                                                 "leisure_common",
                                                 "leisure_garden",
                                                 "leisure_golfgreen" ],
@@ -15428,7 +15328,6 @@
 	    "source-layer": "land1",
 	    "minzoom": 13,
 	    "filter": [ "all", [ "in", "class", "leisure_park",
-                                                "leisure_recreation_ground",
                                                 "leisure_common",
                                                 "leisure_garden",
                                                 "leisure_golfgreen" ],
@@ -15460,7 +15359,6 @@
 	    "source-layer": "land1",
 	    "minzoom": 12,
 	    "filter": [ "all", [ "in", "class", "leisure_park",
-                                                "leisure_recreation_ground",
                                                 "leisure_common",
                                                 "leisure_garden",
                                                 "leisure_golfgreen" ],
@@ -15492,7 +15390,6 @@
 	    "source-layer": "land1",
 	    "minzoom": 11,
 	    "filter": [ "all", [ "in", "class", "leisure_park",
-                                                "leisure_recreation_ground",
                                                 "leisure_common",
                                                 "leisure_garden",
                                                 "leisure_golfgreen" ],

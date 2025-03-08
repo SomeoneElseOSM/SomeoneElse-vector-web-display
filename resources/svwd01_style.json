@@ -77,7 +77,7 @@
 	    }
 	},
 	{
-	    "id": "land2-residential-fill-9",
+	    "id": "land2-unnamedresidential-fill-9",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
@@ -89,7 +89,7 @@
 	    }
 	},
 	{
-	    "id": "land2-residential-outline-9",
+	    "id": "land2-unnamedresidential-outline-9",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "land2",
@@ -159,11 +159,10 @@
 	    }
 	},
 	{
-	    "id": "land1-residential-fill-9",
+	    "id": "land1-residential-fill-9-13",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "minzoom": 9,
 	    "filter": [ "all", [ "in", "class", "landuse_residential" ] ],
 	    "paint": {
 		"fill-antialias": true,
@@ -171,11 +170,10 @@
 	    }
 	},
 	{
-	    "id": "land1-residential-outline-9",
+	    "id": "land1-residential-outline-9-13",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "minzoom": 9,
 	    "filter": [ "all", [ "in", "class", "landuse_residential" ] ],
 	    "paint": {
 		"line-color": "#b9b9b9",
@@ -14818,6 +14816,33 @@
 	    "minzoom": 14,
 	    "filter": [ "all", [ "in", "class", "landuse_residential" ],
                                [ ">", "way_area", 12853 ],
+	                       [ "==", "$type", "Point" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "black",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-residential-name-11-13",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "maxzoom": 13,
+	    "filter": [ "all", [ "in", "class", "landuse_residential" ],
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"text-anchor": "top",

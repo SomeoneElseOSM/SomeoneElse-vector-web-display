@@ -271,11 +271,10 @@
 	    }
 	},
 	{
-	    "id": "land1-farmgrass-fill-9",
+	    "id": "land1-farmgrass-fill-9-13",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "minzoom": 9,
 	    "filter": [ "all", [ "in", "class", "landuse_farmgrass", 
                                                 "landuse_greenfield" ] ],
 	    "paint": {
@@ -15282,7 +15281,8 @@
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "filter": [ "all", [ "in", "class", "landuse_forest" ] ],
+	    "filter": [ "all", [ "in", "class", "landuse_forest" ],
+	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{name}\n",
@@ -15435,7 +15435,8 @@
                                                 "landuse_meadowtransitional",
                                                 "landuse_meadowwildflower",
                                                 "landuse_meadowperpetual",
-                                                "landuse_wetmeadow" ] ],
+                                                "landuse_wetmeadow" ],
+	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{name}\n",
@@ -15467,7 +15468,8 @@
                                                 "landuse_meadowwildflower",
                                                 "landuse_meadowperpetual",
                                                 "landuse_wetmeadow" ],
-                               [ ">", "way_area", 2000 ] ],
+                               [ ">", "way_area", 2000 ],
+	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{name}\n",
@@ -15499,7 +15501,8 @@
                                                 "landuse_meadowwildflower",
                                                 "landuse_meadowperpetual",
                                                 "landuse_wetmeadow" ],
-                               [ ">", "way_area", 50000 ] ],
+                               [ ">", "way_area", 50000 ],
+	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{name}\n",
@@ -15529,7 +15532,8 @@
                                                 "landuse_meadow",
                                                 "landuse_meadowtransitional",
                                                 "landuse_meadowwildflower",
-                                                "landuse_meadowperpetual" ] ],
+                                                "landuse_meadowperpetual" ],
+	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{name}\n",
@@ -15648,11 +15652,14 @@
 	    }
 	},
 	{
-	    "id": "land1-farmland-name-10-14",
+	    "id": "land1-farmland-name-11-14",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "filter": [ "all", [ "in", "class", "landuse_farmland" ] ],
+	    "filter": [ "all", [ "in", "class", "landuse_farmland",
+                                                "landuse_farmgrass",
+                                                "landuse_farmyard" ],
+	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{name}\n",
@@ -15673,14 +15680,12 @@
 	    }
 	},
 	{
-	    "id": "land1-farm-name-14",
+	    "id": "land1-greenfield-name-14",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 14,
-	    "filter": [ "all", [ "in", "class", "landuse_farmyard",
-                                                "landuse_farmgrass",
-                                                "landuse_greenfield" ] ],
+	    "filter": [ "all", [ "in", "class", "landuse_greenfield" ] ],
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{name}\n",

@@ -2,8 +2,8 @@
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 Except as noted, all changes also apply to the [SVWD06 Android native display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd06.md).  
 
-## As yet unreleased
-Farmland, forest, grass, meadow and residential in the `land1` layer (which is most of it) is now shown at whatever zoom level it was extracted at (8-14).  Names will be shown if extracted.
+## 08/03/2025
+Farmland, farmgrass, farmyard, forest, grass, meadow and residential in the `land1` layer (which is most of it) is now shown at whatever zoom level it was extracted at (8-14).  Names will be shown if extracted.
 
 ## 07/03/2025
 Moved "water area size extract at zoom" logic from "svwd01" style to the "sve01" extract code and adjusted zoom levels to make zoom 8 and 9 tiles smaller.  Also `industrial`, `commercial` and `railway` `landuse`, and various sand.

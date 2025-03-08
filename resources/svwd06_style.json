@@ -26,11 +26,10 @@
 	    }
 	},
 	{
-	    "id": "land1-historic-fill-9",
+	    "id": "land1-historic-fill-9-13",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "minzoom": 9,
 	    "filter": [ "all", [ "in", "class", "landuse_historic" ] ],
 	    "paint": {
 		"fill-antialias": true,

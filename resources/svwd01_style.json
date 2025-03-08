@@ -1893,13 +1893,23 @@
 	    }
 	},
 	{
-	    "id": "land1-grass-fill-9",
+	    "id": "land1-grass-fill-9-11",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "filter": [ "all", [ "in", "class", "landuse_grass" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#cfeca8"
+	    }
+	},
+	{
+	    "id": "land1-common-fill-9",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "landuse_grass", 
-                                                "leisure_common",
+	    "filter": [ "all", [ "in", "class", "leisure_common",
                                                 "leisure_garden" ] ],
 	    "paint": {
 		"fill-antialias": true,
@@ -15415,7 +15425,113 @@
 	    }
 	},
 	{
-	    "id": "land1-scrubgrass-name-16",
+	    "id": "land1-grass-name-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "class", "landuse_grass" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 14,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#2a5818",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-grass-name-15",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 15,
+	    "filter": [ "all", [ "in", "class", "landuse_grass" ],
+                               [ ">", "way_area", 2000 ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 14,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#2a5818",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-grass-name-14",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "class", "landuse_grass" ],
+                               [ ">", "way_area", 50000 ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 14,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#2a5818",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-grass-name-13",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "maxzoom": 13,
+	    "filter": [ "all", [ "in", "class", "landuse_grass" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 14,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#2a5818",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-scrub-name-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -15423,7 +15539,6 @@
 	    "filter": [ "all", [ "in", "class", "natural_scrub",
                                                 "natural_wetland",
                                                 "natural_intermittentwetland",
-                                                "landuse_grass",
                                                 "natural_grassland",
                                                 "landuse_wetmeadow",
                                                 "landuse_saltmarsh",
@@ -15453,7 +15568,7 @@
 	    }
 	},
 	{
-	    "id": "land1-scrubgrass-name-15",
+	    "id": "land1-scrub-name-15",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -15461,7 +15576,6 @@
 	    "filter": [ "all", [ "in", "class", "natural_scrub",
                                                 "natural_wetland",
                                                 "natural_intermittentwetland",
-                                                "landuse_grass",
                                                 "natural_grassland",
                                                 "landuse_wetmeadow",
                                                 "landuse_saltmarsh",
@@ -15492,7 +15606,7 @@
 	    }
 	},
 	{
-	    "id": "land1-scrubgrass-name-14",
+	    "id": "land1-scrub-name-14",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -15500,7 +15614,6 @@
 	    "filter": [ "all", [ "in", "class", "natural_scrub",
                                                 "natural_wetland",
                                                 "natural_intermittentwetland",
-                                                "landuse_grass",
                                                 "natural_grassland",
                                                 "landuse_wetmeadow",
                                                 "landuse_saltmarsh",

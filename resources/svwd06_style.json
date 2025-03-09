@@ -329,13 +329,23 @@
 	    }
 	},
 	{
-	    "id": "land1-power-fill-9",
+	    "id": "land1-power-fill-9-14",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "filter": [ "all", [ "in", "class", "man_made_power" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#e1c6c6"
+	    }
+	},
+	{
+	    "id": "land1-power_station-fill-9",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "class", "man_made_power",
-                                                "power_station",
+	    "filter": [ "all", [ "in", "class", "power_station",
                                                 "power_generator" ] ],
 	    "paint": {
 		"fill-antialias": true,
@@ -13257,11 +13267,250 @@
 	    }
 	},
 	{
-	    "id": "land1-various-indigo-name-14",
+	    "id": "land1-power-indigo-name-21",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 21,
+	    "filter": [ "all", [ "in", "class", "man_made_power",
+                                                "man_made_power_water",
+                                                "man_made_power_wind" ],
+	                       [ "==", "$type", "Point" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#000033",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-power-indigo-name-20",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 20,
+	    "filter": [ "all", [ "in", "class", "man_made_power",
+                                                "man_made_power_water",
+                                                "man_made_power_wind" ],
+                               [ ">", "way_area", 24 ],
+	                       [ "==", "$type", "Point" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#000033",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-power-indigo-name-19",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 19,
+	    "filter": [ "all", [ "in", "class", "man_made_power",
+                                                "man_made_power_water",
+                                                "man_made_power_wind" ],
+                               [ ">", "way_area", 50 ],
+	                       [ "==", "$type", "Point" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#000033",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-power-indigo-name-18",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 18,
+	    "filter": [ "all", [ "in", "class", "man_made_power",
+                                                "man_made_power_water",
+                                                "man_made_power_wind" ],
+                               [ ">", "way_area", 750 ],
+	                       [ "==", "$type", "Point" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#000033",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-power-indigo-name-17",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 17,
+	    "filter": [ "all", [ "in", "class", "man_made_power",
+                                                "man_made_power_water",
+                                                "man_made_power_wind" ],
+                               [ ">", "way_area", 3800 ],
+	                       [ "==", "$type", "Point" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#000033",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-power-indigo-name-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "class", "man_made_power",
+                                                "man_made_power_water",
+                                                "man_made_power_wind" ],
+                               [ ">", "way_area", 19000 ],
+	                       [ "==", "$type", "Point" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#000033",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-power-indigo-name-15",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 15,
+	    "filter": [ "all", [ "in", "class", "man_made_power",
+                                                "man_made_power_water",
+                                                "man_made_power_wind" ],
+                               [ ">", "way_area", 40000 ],
+	                       [ "==", "$type", "Point" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#000033",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-power-indigo-name-14",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "class", "man_made_power",
+                                                "man_made_power_water",
+                                                "man_made_power_wind" ],
+                               [ ">", "way_area", 80000 ],
+	                       [ "==", "$type", "Point" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#000033",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-power-indigo-name-12-13",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "maxzoom": 14,
 	    "filter": [ "all", [ "in", "class", "man_made_power",
                                                 "man_made_power_water",
                                                 "man_made_power_wind" ],
@@ -13882,7 +14131,7 @@
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "maxzoom": 13,
+	    "maxzoom": 14,
 	    "filter": [ "all", [ "in", "class", "amenity_hospital" ],
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
@@ -14625,7 +14874,7 @@
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "maxzoom": 13,
+	    "maxzoom": 14,
 	    "filter": [ "all", [ "in", "class", "natural_water",
                                                 "natural_intermittentwater",
                                                 "natural_bay" ],
@@ -14928,7 +15177,7 @@
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "maxzoom": 13,
+	    "maxzoom": 14,
 	    "filter": [ "all", [ "in", "class", "landuse_residential" ],
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
@@ -15144,7 +15393,7 @@
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "maxzoom": 13,
+	    "maxzoom": 14,
 	    "filter": [ "all", [ "in", "class", "landuse_recreation_ground",
                                                 "landuse_conservation",
                                                 "landuse_village_green",
@@ -15266,7 +15515,7 @@
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "minzoom": 6,
+	    "maxzoom": 14,
 	    "filter": [ "all", [ "in", "class", "leisure_park",
                                                 "leisure_common",
                                                 "leisure_garden",
@@ -15414,7 +15663,7 @@
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "maxzoom": 13,
+	    "maxzoom": 14,
 	    "filter": [ "all", [ "in", "class", "natural_wood",
                                                 "natural_broadleaved",
                                                 "natural_needleleaved",
@@ -15542,7 +15791,7 @@
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "maxzoom": 13,
+	    "maxzoom": 14,
 	    "filter": [ "all", [ "in", "class", "landuse_grass",
                                                 "landuse_meadow",
                                                 "landuse_meadowtransitional",
@@ -15808,7 +16057,7 @@
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "maxzoom": 13,
+	    "maxzoom": 14,
 	    "filter": [ "all", [ "in", "class", "landuse_retail" ],
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
@@ -15950,7 +16199,7 @@
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "maxzoom": 13,
+	    "maxzoom": 14,
 	    "filter": [ "all", [ "in", "class", "landuse_industrial",
                                                 "landuse_railway" ],
 	                       [ "==", "$type", "Point" ] ],
@@ -16198,7 +16447,7 @@
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "maxzoom": 13,
+	    "maxzoom": 14,
 	    "filter": [ "all", [ "in", "class", "landuse_commercial" ],
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
@@ -16317,7 +16566,7 @@
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "maxzoom": 13,
+	    "maxzoom": 14,
 	    "filter": [ "all", [ "in", "class", "amenity_university",
                                                 "amenity_college",
                                                 "amenity_school",
@@ -16436,7 +16685,7 @@
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "maxzoom": 13,
+	    "maxzoom": 14,
 	    "filter": [ "all", [ "in", "class", "landuse_construction",
                                                 "landuse_brownfield",
                                                 "landuse_landfill" ],
@@ -16689,7 +16938,7 @@
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "maxzoom": 13,
+	    "maxzoom": 14,
 	    "filter": [ "all", [ "in", "class", "landuse_vineyard",
                                                 "landuse_orchard" ],
 	                       [ "==", "$type", "Point" ] ],
@@ -16800,7 +17049,7 @@
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "maxzoom": 13,
+	    "maxzoom": 14,
 	    "filter": [ "all", [ "in", "class", "landuse_allotments" ],
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
@@ -16916,7 +17165,7 @@
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "maxzoom": 13,
+	    "maxzoom": 14,
 	    "filter": [ "all", [ "in", "class", "landuse_christiancemetery",
                                                 "landuse_jewishcemetery",
                                                 "landuse_othercemetery" ],
@@ -17091,7 +17340,7 @@
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "maxzoom": 13,
+	    "maxzoom": 14,
 	    "filter": [ "all", [ "in", "class", "natural_sand",
                                                 "natural_tidal_sand",
                                                 "natural_beach",
@@ -18299,7 +18548,7 @@
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "place",
-	    "maxzoom": 13,
+	    "maxzoom": 14,
 	    "filter": [ "all", [ "in", "class", "island" ] ],
 	    "layout": {
 		"text-anchor": "top",

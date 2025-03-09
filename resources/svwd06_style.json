@@ -508,11 +508,10 @@
 	    }
 	},
 	{
-	    "id": "land1-eduhospital-fill-9",
+	    "id": "land1-eduhospital-fill-9-13",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "minzoom": 9,
 	    "filter": [ "all", [ "in", "class", "amenity_university",
                                                 "amenity_college",
                                                 "amenity_school",
@@ -13799,11 +13798,97 @@
 	    }
 	},
 	{
-	    "id": "land1-health-imagename-14",
+	    "id": "land1-hospital-imagename-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "class", "amenity_hospital" ],
+	                       [ "==", "$type", "Point" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#da0092",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-hospital-imagename-15",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 15,
+	    "filter": [ "all", [ "in", "class", "amenity_hospital" ],
+                               [ ">", "way_area", 35000 ],
+	                       [ "==", "$type", "Point" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#da0092",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-hospital-imagename-14",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "class", "amenity_hospital" ],
+                               [ ">", "way_area", 140000 ],
+	                       [ "==", "$type", "Point" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#da0092",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-hospital-imagename-13",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "maxzoom": 13,
 	    "filter": [ "all", [ "in", "class", "amenity_hospital" ],
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
@@ -16192,6 +16277,36 @@
                                                 "amenity_school",
                                                 "amenity_kindergarten" ],
                                [ ">", "way_area", 140000 ],
+	                       [ "==", "$type", "Point" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "black",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-eduamenity-name-13",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "maxzoom": 13,
+	    "filter": [ "all", [ "in", "class", "amenity_university",
+                                                "amenity_college",
+                                                "amenity_school",
+                                                "amenity_kindergarten" ],
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"text-anchor": "top",

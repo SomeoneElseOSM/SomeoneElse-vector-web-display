@@ -4,6 +4,7 @@ Except as noted, all changes also apply to the [SVWD06 Android native display st
 
 ## As yet unlreeleased
 Change layer name to reflect how `historic` is now extracted.
+Education and hospitals in the `land1` layer are now shown at whatever zoom level it was extracted at (8-14).  Names will be shown if extracted.
 
 ## 08/03/2025
 Farmland, farmgrass, farmyard, forest, grass, meadow and residential in the `land1` layer (which is most of it) is now shown at whatever zoom level it was extracted at (8-14).  Names will be shown if extracted.

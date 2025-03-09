@@ -118,11 +118,10 @@
 	    }
 	},
 	{
-	    "id": "land1-heath-fill-9",
+	    "id": "land1-heath-fill-7-14",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "minzoom": 9,
 	    "filter": [ "all", [ "in", "class", "natural_heath" ] ],
 	    "paint": {
 		"fill-antialias": true,
@@ -1462,11 +1461,10 @@
 	    }
 	},
 	{
-	    "id": "land1-scrub-fill-9",
+	    "id": "land1-scrub-fill-7-14",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "minzoom": 9,
 	    "filter": [ "all", [ "in", "class", "natural_scrub" ] ],
 	    "paint": {
 		"fill-antialias": true,
@@ -1573,22 +1571,20 @@
 	    }
 	},
 	{
-	    "id": "land1-mud-fill-9",
+	    "id": "land1-mud-fill-7-14",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "minzoom": 9,
 	    "filter": [ "all", [ "in", "class", "natural_mud" ] ],
 	    "paint": {
 		"fill-pattern": "pattern_natural_mud"
 	    }
 	},
 	{
-	    "id": "land1-bare_rock-fill-9",
+	    "id": "land1-bare_rock-fill-7-14",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "minzoom": 9,
 	    "filter": [ "all", [ "in", "class", "natural_bare_rock" ] ],
 	    "paint": {
 		"fill-pattern": "pattern_natural_rock"
@@ -1606,44 +1602,40 @@
 	    }
 	},
 	{
-	    "id": "land1-scree-fill-9",
+	    "id": "land1-scree-fill-7-14",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "minzoom": 9,
 	    "filter": [ "all", [ "in", "class", "natural_scree" ] ],
 	    "paint": {
 		"fill-pattern": "pattern_natural_scree"
 	    }
 	},
 	{
-	    "id": "land1-tidal_scree-fill-9",
+	    "id": "land1-tidal_scree-fill-7-14",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "minzoom": 9,
 	    "filter": [ "all", [ "in", "class", "natural_tidal_scree" ] ],
 	    "paint": {
 		"fill-pattern": "pattern_natural_tidal_scree"
 	    }
 	},
 	{
-	    "id": "land1-shingle-fill-9",
+	    "id": "land1-shingle-fill-7-14",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "minzoom": 9,
 	    "filter": [ "all", [ "in", "class", "natural_shingle" ] ],
 	    "paint": {
 		"fill-pattern": "pattern_natural_shingle"
 	    }
 	},
 	{
-	    "id": "land1-tidal_shingle-fill-9",
+	    "id": "land1-tidal_shingle-fill-7-14",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "minzoom": 9,
 	    "filter": [ "all", [ "in", "class", "natural_tidal_shingle" ] ],
 	    "paint": {
 		"fill-pattern": "pattern_natural_tidal_shingle"
@@ -1662,11 +1654,10 @@
 	    }
 	},
 	{
-	    "id": "land1-grassland-fill-9",
+	    "id": "land1-grassland-fill-7-14",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "minzoom": 9,
 	    "filter": [ "all", [ "in", "class", "natural_grassland" ] ],
 	    "paint": {
 		"fill-antialias": true,
@@ -2193,11 +2184,10 @@
 	    }
 	},
 	{
-	    "id": "land1-tidal_rock-fill-9",
+	    "id": "land1-tidal_rock-fill-7-14",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "minzoom": 9,
 	    "filter": [ "all", [ "in", "class", "natural_tidal_rock" ] ],
 	    "paint": {
 		"fill-pattern": "pattern_natural_tidal_rock"
@@ -2246,11 +2236,10 @@
 	    }
 	},
 	{
-	    "id": "land1-tidal_mud-fill-9",
+	    "id": "land1-tidal_mud-fill-7-14",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "minzoom": 9,
 	    "filter": [ "all", [ "in", "class", "natural_tidal_mud" ] ],
 	    "paint": {
 		"fill-pattern": "pattern_natural_tidal_mud"
@@ -15818,15 +15807,40 @@
 	    }
 	},
 	{
-	    "id": "land1-scrub-name-16",
+	    "id": "land1-scrub-name-9-14",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "filter": [ "all", [ "in", "class", "natural_scrub",
+                                                "natural_grassland" ],
+	                       [ "==", "$type", "Point" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 14,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#2a5818",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-wetland_etc-name-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 16,
-	    "filter": [ "all", [ "in", "class", "natural_scrub",
-                                                "natural_wetland",
+	    "filter": [ "all", [ "in", "class", "natural_wetland",
                                                 "natural_intermittentwetland",
-                                                "natural_grassland",
                                                 "landuse_saltmarsh",
                                                 "landuse_reedbed",
                                                 "barrier_hedge" ] ],
@@ -15850,15 +15864,13 @@
 	    }
 	},
 	{
-	    "id": "land1-scrub-name-15",
+	    "id": "land1-wetland_etc-name-15",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 15,
-	    "filter": [ "all", [ "in", "class", "natural_scrub",
-                                                "natural_wetland",
+	    "filter": [ "all", [ "in", "class", "natural_wetland",
                                                 "natural_intermittentwetland",
-                                                "natural_grassland",
                                                 "landuse_saltmarsh",
                                                 "landuse_reedbed",
                                                 "barrier_hedge" ],
@@ -15883,15 +15895,13 @@
 	    }
 	},
 	{
-	    "id": "land1-scrub-name-14",
+	    "id": "land1-wetland_etc-name-14",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 14,
-	    "filter": [ "all", [ "in", "class", "natural_scrub",
-                                                "natural_wetland",
+	    "filter": [ "all", [ "in", "class", "natural_wetland",
                                                 "natural_intermittentwetland",
-                                                "natural_grassland",
                                                 "landuse_saltmarsh",
                                                 "landuse_reedbed",
                                                 "barrier_hedge" ],
@@ -17366,15 +17376,12 @@
 	    }
 	},
 	{
-	    "id": "land1-rock-name-12",
+	    "id": "land1-rock-name-9-14",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "minzoom": 12,
 	    "filter": [ "all", [ "in", "class", "natural_bare_rock",
                                                 "natural_tidal_rock",
-                                                "natural_reef",
-                                                "natural_reefsand",
                                                 "natural_scree",
                                                 "natural_tidal_scree",
                                                 "natural_shingle",
@@ -17399,13 +17406,42 @@
 	    }
 	},
 	{
-	    "id": "land1-mud-name-12",
+	    "id": "land1-reef-name-9",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "natural_reef",
+                                                "natural_reefsand" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 14,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#6a6965",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-mud-name-19",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 19,
 	    "filter": [ "all", [ "in", "class", "natural_mud",
-                                                "natural_tidal_mud" ] ],
+                                                "natural_tidal_mud" ],
+                               [ ">", "way_area", 50 ],
+	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{name}\n",
@@ -17426,11 +17462,183 @@
 	    }
 	},
 	{
-	    "id": "land1-heath-name-12",
+	    "id": "land1-mud-name-18",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "minzoom": 12,
+	    "minzoom": 18,
+	    "filter": [ "all", [ "in", "class", "natural_mud",
+                                                "natural_tidal_mud" ],
+                               [ ">", "way_area", 750 ],
+	                       [ "==", "$type", "Point" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 14,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "brown",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-mud-name-17",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 17,
+	    "filter": [ "all", [ "in", "class", "natural_mud",
+                                                "natural_tidal_mud" ],
+                               [ ">", "way_area", 3800 ],
+	                       [ "==", "$type", "Point" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 14,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "brown",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-mud-name-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "class", "natural_mud",
+                                                "natural_tidal_mud" ],
+                               [ ">", "way_area", 19000 ],
+	                       [ "==", "$type", "Point" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 14,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "brown",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-mud-name-15",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 15,
+	    "filter": [ "all", [ "in", "class", "natural_mud",
+                                                "natural_tidal_mud" ],
+                               [ ">", "way_area", 40000 ],
+	                       [ "==", "$type", "Point" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 14,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "brown",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-mud-name-14",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "class", "natural_mud",
+                                                "natural_tidal_mud" ],
+                               [ ">", "way_area", 80000 ],
+	                       [ "==", "$type", "Point" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 14,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "brown",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-mud-name-9-13",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "maxzoom": 14,
+	    "filter": [ "all", [ "in", "class", "natural_mud",
+                                                "natural_tidal_mud" ],
+	                       [ "==", "$type", "Point" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 14,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "brown",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-heath-name-9-14",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
 	    "filter": [ "all", [ "in", "class", "natural_heath" ] ],
 	    "layout": {
 		"text-anchor": "top",

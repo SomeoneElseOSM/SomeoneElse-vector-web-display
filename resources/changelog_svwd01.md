@@ -2,6 +2,9 @@
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 Except as noted, all changes also apply to the [SVWD06 Android native display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd06.md).  
 
+## Ad yet unreleased
+Mud, scree, heath, scrube etc. are now shown at a wider range of zoom levels,
+
 ## 09/03/2025
 Moved "park area size extract at zoom" logic from "svwd01" style to the "sve01" extract code.
 Lots of power infrastrucure is now shown at a range of zoom levels also based on way_area.

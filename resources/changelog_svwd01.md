@@ -2,7 +2,7 @@
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 Except as noted, all changes also apply to the [SVWD06 Android native display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd06.md).  
 
-## Ad yet unreleased
+## 13/03/2025
 Mud, scree, heath, scrube etc. are now shown at a wider range of zoom levels,
 
 ## 09/03/2025

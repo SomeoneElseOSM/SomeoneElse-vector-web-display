@@ -3,6 +3,9 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 Except as noted, all changes also apply to the [SVWD06 Android native display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd06.md).  
 
 ## As yet unreleased
+Display `highway=elevator` with names if present.
+
+## 22/03/2025
 Display 4-character National Trail shields as well as shorter ones.
 
 ## 13/03/2025

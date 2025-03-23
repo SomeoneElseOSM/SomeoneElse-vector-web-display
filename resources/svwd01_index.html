@@ -10,7 +10,7 @@
     <link href='https://unpkg.com/@maplibre/maplibre-gl-inspect@latest/dist/maplibre-gl-inspect.css' rel='stylesheet' />
     <style>
         body { margin:0; padding:0; }
-        #map { position:absolute; top:40px; bottom:0; width:100%; }
+        #map { position:absolute; top:50px; bottom:0; width:100%; }
 		#refresh { position: absolute; top: 15px; left: 15px; background-color: white; padding: 5px; 
 			border: 1px solid black; font-family: Avenir; cursor: pointer; }
     </style>
@@ -23,6 +23,7 @@
       <button id="button4" onclick="show_mkgmap();" >mkgmap</button>
       <button id="button5" onclick="show_raster();" >raster</button>
       <button id="button5" onclick="show_osm();" >OSM</button>
+      <button id="button5" onclick="show_whatpub();" >Whatpub</button>
     </div>
 <div id='map'></div>
 <!-- <div id='refresh' onclick='reload()'>Reload</div> -->
@@ -49,6 +50,13 @@ function show_osm()
     let zoom = map.getZoom() + 1;
     let {lng, lat} = map.getCenter();
     window.open ( 'https://osm.org/#map='+zoom+'/'+lat+'/'+lng,'_self',false )
+}
+
+function show_whatpub()
+{
+    let zoom = map.getZoom() + 1;
+    let {lng, lat} = map.getCenter();
+    window.open ( 'https://whatpub.com/search?q=nearby&t=d&lat='+lat+'&lng='+lng+'&r=10&p=1&features=PubClub&home=1', '_blank' )
 }
 
 /* -------------------------------------------------------------------------

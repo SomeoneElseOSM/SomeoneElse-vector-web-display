@@ -13542,6 +13542,7 @@
                                                 "barrier_bollard",
                                                 "barrier_lift_gate",
                                                 "barrier_toll_booth",
+                                                "barrier_toll_gantry",
                                                 "man_made_cross",
                                                 "man_made_flagpole",
                                                 "man_made_mast",

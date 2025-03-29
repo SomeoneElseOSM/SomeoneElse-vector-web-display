@@ -13772,7 +13772,6 @@
                                                 "amenity_fuel_h",
                                                 "amenity_fuel_l",
                                                 "amenity_fuel_w",
-                                                "amenity_charging_station",
                                                 "amenity_boatyard",
                                                 "amenity_veterinary",
                                                 "amenity_animal_boarding",
@@ -13789,6 +13788,63 @@
 		"text-max-width": 13,
 		"text-offset": [ 0, 0.6 ],
                 "text-optional": true,
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#939",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-nameele-purple-imagename-16-20",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 16,
+	    "maxzoom": 20,
+	    "filter": [ "all", [ "in", "class", "amenity_charging_station" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+                "text-optional": true,
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#939",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-nameele-purple-imagenameoverlap-20",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 20,
+	    "filter": [ "all", [ "in", "class", "amenity_charging_station" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+                "icon-allow-overlap": true,
+		"text-anchor": "top",
+		"text-field": "{ele}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
 		"text-padding": 2,
 		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
 		"visibility": "visible"

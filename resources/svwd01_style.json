@@ -18939,8 +18939,8 @@
 		"text-offset": [ 0, 0.6 ],
 		"text-padding": 2,
 		"text-size": { "stops": [ [ 11, 10 ], 
-                                          [ 12, 10 ], 
-                                          [ 20, 30 ] ] },
+                                          [ 12, 12.5 ], 
+                                          [ 20, 37.5 ] ] },
 		"visibility": "visible"
 	    },
 	    "paint": {

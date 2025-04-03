@@ -4,6 +4,7 @@ Except as noted, all changes also apply to the [SVWD06 Android native display st
 
 ## As yet unreleased
 Made the text size of village and suburb larger, but not quite as big as town.
+Preserved railway bridges now have "bridge sides" in the same way as normal rail bridges, rather than relying on a black "dark fill".
 
 ## 28/03/2025
 Display the `website` along with the `name` on `amenity=charging_station` at high zooms.

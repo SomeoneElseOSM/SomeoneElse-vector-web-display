@@ -7866,6 +7866,7 @@
 		[ "in", "class", "rail",
                                  "disused",
                                  "funicular",
+                                 "preserved",
                                  "light_rail",
                                  "subway",
                                  "tram",
@@ -7898,6 +7899,7 @@
 		[ "in", "class", "rail",
                                  "disused",
                                  "funicular",
+                                 "preserved",
                                  "light_rail",
                                  "subway",
                                  "tram",
@@ -8038,7 +8040,7 @@
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
-		"line-color": "black",
+		"line-color": "#999999",
 		"line-width": {
 		    "stops": [
 			[ 13,  0.6 ],

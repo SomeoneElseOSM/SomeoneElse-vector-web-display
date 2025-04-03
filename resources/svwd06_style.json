@@ -9679,7 +9679,57 @@
 	    }
 	},
 	{
-	    "id": "highway-trunk-bridgecasing-6",
+	    "id": "highway-trunk-bridgecasing-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "trunk",
+		                 "trunk_link" ],
+                [ "==", "bridge", "yes" ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "black",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[  6,   2.4 ],
+			[  9,   4.8 ],
+			[ 20, 206.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-trunk-bridgeprefill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "trunk",
+		                 "trunk_link" ],
+                [ "==", "bridge", "yes" ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#f2efe9",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[  6,   2.0 ],
+			[  9,   4.0 ],
+			[ 20, 172.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-trunk-bridgeinnercasing-6",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
@@ -9692,7 +9742,7 @@
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
-		"line-color": "black",
+		"line-color": "#800000",
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [

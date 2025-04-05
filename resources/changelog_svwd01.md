@@ -4,6 +4,7 @@ Except as noted, all changes also apply to the [SVWD06 Android native display st
 
 ## AS yet unreleased
 Moved the display of the name of small sports centres from zoom 14 to 15,
+Moved the "bridge sides" for trunk bridges in a bit so as not to impinge on separately mapped parallel footpaths.
 
 ## 03/04/2025
 Made the text size of village and suburb larger, but not quite as big as town.

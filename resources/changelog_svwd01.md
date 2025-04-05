@@ -2,9 +2,10 @@
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 Except as noted, all changes also apply to the [SVWD06 Android native display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd06.md).  
 
-## AS yet unreleased
+## 05/04/2025
 Moved the display of the name of small sports centres from zoom 14 to 15,
 Moved the "bridge sides" for trunk bridges in a bit so as not to impinge on separately mapped parallel footpaths.
+Also show "bridge sides" for primary, secondary, tertiary and unclassified / residential.
 
 ## 03/04/2025
 Made the text size of village and suburb larger, but not quite as big as town.

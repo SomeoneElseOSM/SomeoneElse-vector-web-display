@@ -2,6 +2,9 @@
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 Except as noted, all changes also apply to the [SVWD06 Android native display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd06.md).  
 
+## AS yet unreleased
+Moved the display of the name of small sports centres from zoom 14 to 15,
+
 ## 03/04/2025
 Made the text size of village and suburb larger, but not quite as big as town.
 Preserved railway bridges now have "bridge sides" in the same way as normal rail bridges, rather than relying on a black "dark fill".

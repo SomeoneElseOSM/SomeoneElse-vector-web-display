@@ -4,7 +4,7 @@ Except as noted, all changes also apply to the [SVWD06 Android native display st
 
 ## As yet unreleased
 Show "embankment sides" for motorway to unclassified / residential in a similar way to "bridge sides" (not using the main casing of the road), in the same way that is already done for single-line representations such as "footway" etc.
-Also show unclassified and residential bridges that are also fords as both.
+Also show primary, secondary, tertiary, unclassified, residential, service and driveway bridges that are also fords as both.
 
 ## 05/04/2025
 Moved the display of the name of small sports centres from zoom 14 to 15,

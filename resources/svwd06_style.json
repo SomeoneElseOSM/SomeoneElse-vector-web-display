@@ -7715,19 +7715,67 @@
 	    }
 	},
 	{
-	    "id": "highway-driveway-bridgecasing-12",
+	    "id": "highway-service-bridgecasing-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
 	    "minzoom": 12,
 	    "filter": [
 		"all",
-		[ "in", "class", "driveway" ],
+		[ "in", "class", "service",
+                                 "driveway" ],
                 [ "==", "bridge", "yes" ]
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "black",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[  6,   2.4 ],
+			[  9,   4.8 ],
+			[ 20, 120.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-service-bridgeprefill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "service",
+                                 "driveway" ],
+                [ "==", "bridge", "yes" ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#f2efe9",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[  6,   2.0 ],
+			[  9,   4.0 ],
+			[ 20, 100.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-driveway-bridgeinnerothercasing-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "driveway" ],
+		               [ "!in", "edge", "ford" ],
+                               [ "==", "bridge", "yes" ] ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#bbb",
 		"line-width": {
 		    "stops": [
 			[ 12,  1.5 ],
@@ -7739,7 +7787,29 @@
 	    }
 	},
 	{
-	    "id": "highway-driveway-bridgefill-12",
+	    "id": "highway-driveway-bridgeinnerfordcasing-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "driveway" ],
+		               [ "in", "edge", "ford" ],
+                               [ "==", "bridge", "yes" ] ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#b5d0d0",
+		"line-width": {
+		    "stops": [
+			[ 12,  1.5 ],
+			[ 16,  2.0 ],
+			[ 18,  6.0 ],
+			[ 20, 20.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-driveway-bridgeotherfill-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
@@ -7747,6 +7817,7 @@
 	    "filter": [
 		"all",
 		[ "in", "class", "driveway" ],
+		[ "!in", "edge", "ford" ],
                 [ "==", "bridge", "yes" ]
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
@@ -7763,20 +7834,43 @@
 	    }
 	},
 	{
-	    "id": "highway-service-bridgecasing-12",
+	    "id": "highway-driveway-bridgefordfill-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
 	    "minzoom": 12,
 	    "filter": [
 		"all",
-		[ "in", "class", "service",
-                                 "road" ],
+		[ "in", "class", "driveway" ],
+		[ "in", "edge", "ford" ],
                 [ "==", "bridge", "yes" ]
 	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#ffffff",
+		"line-width": {
+		    "stops": [
+			[ 12,  0.7 ],
+			[ 16,  1.0 ],
+			[ 18,  3.0 ],
+			[ 20, 10.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-service-bridgeinnerothercasing-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "service",
+                                                "road" ],
+		               [ "!in", "edge", "ford" ],
+                               [ "==", "bridge", "yes" ] ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
-		"line-color": "black",
+		"line-color": "#bbb",
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
@@ -7787,7 +7881,29 @@
 	    }
 	},
 	{
-	    "id": "highway-service-bridgefill-12",
+	    "id": "highway-service-bridgeinnerfordcasing-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "service",
+                                                "road" ],
+		               [ "in", "edge", "ford" ],
+                               [ "==", "bridge", "yes" ] ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#b5d0d0",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 12,  1.0 ],
+			[ 20, 40.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-service-bridgeotherfill-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
@@ -7795,6 +7911,7 @@
 	    "filter": [
 		"all",
 		[ "in", "class", "service" ],
+		[ "!in", "edge", "ford" ],
                 [ "==", "bridge", "yes" ]
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
@@ -7805,6 +7922,30 @@
 		    "stops": [
 			[ 12,  1.0 ],
 			[ 20, 32.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-service-bridgefordfill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "service" ],
+		[ "in", "edge", "ford" ],
+                [ "==", "bridge", "yes" ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#ffffff",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 12,  1.0 ],
+			[ 20, 20.0 ]
 		    ]
 		}
 	    }
@@ -9870,6 +10011,31 @@
 	    }
 	},
 	{
+	    "id": "highway-tertiary-bridgeinnerfordcasing-9",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 9,
+	    "filter": [
+		"all",
+		[ "in", "class", "tertiary",
+		                 "tertiary_link" ],
+		[ "in", "edge", "ford" ],
+                [ "==", "bridge", "yes" ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#b5d0d0",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[  9,  2.8 ],
+			[ 20, 86.0 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "highway-tertiary-bridgesidewalkvergefordfill-9",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -10043,6 +10209,32 @@
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#99cc00",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[  8,  1.4 ],
+			[  9,  2.8 ],
+			[ 20, 86.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-secondary-bridgeinnerfordcasing-9",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 8,
+	    "filter": [
+		"all",
+		[ "in", "class", "secondary",
+		                 "secondary_link" ],
+		[ "in", "edge", "ford" ],
+                [ "==", "bridge", "yes" ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#b5d0d0",
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [

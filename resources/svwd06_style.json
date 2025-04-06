@@ -5827,36 +5827,59 @@
 	    }
 	},
 	{
-	    "id": "highway-unclassified-othercasing-10",
+	    "id": "highway-unclassified-leveecasing-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
-	    "minzoom": 10,
+	    "minzoom": 12,
 	    "filter": [
 		"all",
-		[ "in", "class", "unclassified" ],
-		[ "!in", "edge", "sidewalk",
-                                 "verge",
-                                 "ford" ],
-                [ "!in", "bridge", "levee",
-                                   "yes" ],
-                [ "!=", "tunnel", true ]
+		[ "in", "class", "unclassified",
+		                 "unclassified_link",
+                                 "residential" ],
+                [ "==", "bridge", "levee" ]
 	    ],
-	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
-		"line-color": "#bbb",
+		"line-color": "#999999",
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
-			[ 10,  2.8 ],
-			[ 12,  3.2 ],
-			[ 20, 86.0 ]
+			[  6,   2.4 ],
+			[  9,   4.8 ],
+			[ 20, 120.0 ]
 		    ]
 		}
 	    }
 	},
 	{
-	    "id": "highway-unclassified-leveecasing-10",
+	    "id": "highway-unclassified-leveeprefill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "unclassified",
+		                 "unclassified_link",
+                                 "residential" ],
+                [ "==", "bridge", "levee" ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#f2efe9",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[  6,   2.0 ],
+			[  9,   4.0 ],
+			[ 20, 100.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-unclassified-otherinnercasing-10",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
@@ -5867,12 +5890,12 @@
 		[ "!in", "edge", "sidewalk",
                                  "verge",
                                  "ford" ],
-                [ "==", "bridge", "levee" ],
+                [ "!in", "bridge", "yes" ],
                 [ "!=", "tunnel", true ]
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
 	    "paint": {
-		"line-color": "#999999",
+		"line-color": "#bbb",
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
@@ -5893,39 +5916,12 @@
 		"all",
 		[ "in", "class", "unclassified" ],
 		[ "in", "edge", "sidewalk" ],
-                [ "!in", "bridge", "levee",
-                                   "yes" ],
+                [ "!in", "bridge", "yes" ],
                 [ "!=", "tunnel", true ]
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#bbb",
-		"line-width": {
-		    "base": 2.0,
-		    "stops": [
-			[ 10,  2.8 ],
-			[ 12,  3.2 ],
-			[ 20, 86.0 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "highway-unclassifiedsidewalk-leveecasing-10",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "transportation",
-	    "minzoom": 10,
-	    "filter": [
-		"all",
-		[ "in", "class", "unclassified" ],
-		[ "in", "edge", "sidewalk" ],
-                [ "==", "bridge", "levee" ],
-                [ "!=", "tunnel", true ]
-	    ],
-	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
-	    "paint": {
-		"line-color": "#999999",
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
@@ -6045,7 +6041,7 @@
 	    }
 	},
 	{
-	    "id": "highway-unclassified-othercasing-11",
+	    "id": "highway-unclassified-otherinnercasing-11",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
@@ -6056,41 +6052,12 @@
 		[ "!in", "edge", "sidewalk",
                                  "verge",
                                  "ford" ],
-                [ "!in", "bridge", "levee",
-                                   "yes" ],
+                [ "!in", "bridge", "yes" ],
                 [ "!=", "tunnel", true ]
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#bbb",
-		"line-width": {
-		    "base": 2.0,
-		    "stops": [
-			[ 10,  2.8 ],
-			[ 12,  3.2 ],
-			[ 20, 86.0 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "highway-unclassified-leveecasing-11",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "transportation",
-	    "minzoom": 11,
-	    "filter": [
-		"all",
-		[ "in", "class", "residential" ],
-		[ "!in", "edge", "sidewalk",
-                                 "verge",
-                                 "ford" ],
-                [ "==", "bridge", "levee" ],
-                [ "!=", "tunnel", true ]
-	    ],
-	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
-	    "paint": {
-		"line-color": "#999999",
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
@@ -6111,39 +6078,12 @@
 		"all",
 		[ "in", "class", "residential" ],
 		[ "in", "edge", "sidewalk" ],
-                [ "!in", "bridge", "levee",
-                                   "yes" ],
+                [ "!in", "bridge", "yes" ],
                 [ "!=", "tunnel", true ]
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#bbb",
-		"line-width": {
-		    "base": 2.0,
-		    "stops": [
-			[ 10,  2.8 ],
-			[ 12,  3.2 ],
-			[ 20, 86.0 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "highway-unclassifiedsidewalk-leveecasing-11",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "transportation",
-	    "minzoom": 11,
-	    "filter": [
-		"all",
-		[ "in", "class", "residential" ],
-		[ "in", "edge", "sidewalk" ],
-                [ "==", "bridge", "levee" ],
-                [ "!=", "tunnel", true ]
-	    ],
-	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
-	    "paint": {
-		"line-color": "#999999",
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
@@ -6926,36 +6866,57 @@
 	    }
 	},
 	{
-	    "id": "highway-tertiary-othercasing-9",
+	    "id": "highway-tertiary-leveecasing-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
-	    "minzoom": 9,
+	    "minzoom": 12,
 	    "filter": [
 		"all",
 		[ "in", "class", "tertiary",
 		                 "tertiary_link" ],
-		[ "!in", "edge", "sidewalk",
-		                 "verge",
-                                 "ford" ],
-                [ "!in", "bridge", "levee",
-                                   "yes" ],
-                [ "!=", "tunnel", true ]
+                [ "==", "bridge", "levee" ]
 	    ],
-	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
-		"line-color": "#c6c68a",
+		"line-color": "#999999",
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
-			[  9,  2.8 ],
-			[ 20, 86.0 ]
+			[  6,   2.4 ],
+			[  9,   4.8 ],
+			[ 20, 120.0 ]
 		    ]
 		}
 	    }
 	},
 	{
-	    "id": "highway-tertiary-leveecasing-9",
+	    "id": "highway-tertiary-leveeprefill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "tertiary",
+		                 "tertiary_link" ],
+                [ "==", "bridge", "levee" ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#f2efe9",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[  6,   2.0 ],
+			[  9,   4.0 ],
+			[ 20, 100.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-tertiary-otherinnercasing-9",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
@@ -6967,12 +6928,12 @@
 		[ "!in", "edge", "sidewalk",
 		                 "verge",
                                  "ford" ],
-                [ "==", "bridge", "levee" ],
+                [ "!in", "bridge", "yes" ],
                 [ "!=", "tunnel", true ]
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
 	    "paint": {
-		"line-color": "#676732",
+		"line-color": "#c6c68a",
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
@@ -6993,39 +6954,12 @@
 		[ "in", "class", "tertiary",
 		                 "tertiary_link" ],
 		[ "in", "edge", "sidewalk" ],
-                [ "!in", "bridge", "levee",
-                                   "yes" ],
+                [ "!in", "bridge", "yes" ],
                 [ "!=", "tunnel", true ]
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#c6c68a",
-		"line-width": {
-		    "base": 2.0,
-		    "stops": [
-			[  9,  2.8 ],
-			[ 20, 86.0 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "highway-tertiarysidewalk-leveecasing-9",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "transportation",
-	    "minzoom": 9,
-	    "filter": [
-		"all",
-		[ "in", "class", "tertiary",
-		                 "tertiary_link" ],
-		[ "in", "edge", "sidewalk" ],
-                [ "==", "bridge", "levee" ],
-                [ "!=", "tunnel", true ]
-	    ],
-	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
-	    "paint": {
-		"line-color": "#676732",
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
@@ -7930,7 +7864,8 @@
 	    "filter": [
 		"all",
 		[ "in", "class", "unclassified",
-		                 "unclassified_link" ],
+		                 "unclassified_link",
+                                 "residential" ],
                 [ "==", "bridge", "yes" ]
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
@@ -7955,7 +7890,8 @@
 	    "filter": [
 		"all",
 		[ "in", "class", "unclassified",
-		                 "unclassified_link" ],
+		                 "unclassified_link",
+                                 "residential" ],
                 [ "==", "bridge", "yes" ]
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
@@ -8041,6 +7977,32 @@
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#99cc00",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 10,  2.8 ],
+			[ 12,  3.2 ],
+			[ 20, 86.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-unclassified-bridgeinnerfordcasing-10",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 10,
+	    "filter": [
+		"all",
+		[ "in", "class", "unclassified",
+                                 "residential" ],
+		[ "in", "edge", "ford" ],
+                [ "==", "bridge", "yes" ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#b5d0d0",
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [

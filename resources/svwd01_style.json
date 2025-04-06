@@ -6402,6 +6402,72 @@
 	    }
 	},
 	{
+	    "id": "railway-rail-leveecasing-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "rail",
+                                 "disused",
+                                 "funicular",
+                                 "preserved",
+                                 "light_rail",
+                                 "subway",
+                                 "tram",
+                                 "bus_guideway" ],
+                [ "==", "bridge", "levee" ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#999999",
+		"line-width": {
+		    "stops": [
+			[ 13,  5.4 ],
+			[ 14,  7.2 ],
+			[ 16, 10.8 ],
+			[ 17, 21.6 ],
+			[ 18, 43.2 ],
+			[ 20, 72.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "railway-rail-leveeprefill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "rail",
+                                 "disused",
+                                 "funicular",
+                                 "preserved",
+                                 "light_rail",
+                                 "subway",
+                                 "tram",
+                                 "bus_guideway" ],
+                [ "==", "bridge", "levee" ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#f2efe9",
+		"line-width": {
+		    "stops": [
+			[ 13,  3.6 ],
+			[ 14,  4.8 ],
+			[ 16,  7.2 ],
+			[ 17, 14.4 ],
+			[ 18, 28.8 ],
+			[ 20, 48.0 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "railway-rail-darkfill-8-11",
 	    "type": "line",
 	    "source": "someoneelse",

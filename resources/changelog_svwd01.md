@@ -7,6 +7,7 @@ Show "embankment sides" for motorway to driveway in a similar way to "bridge sid
 Also show primary, secondary, tertiary, unclassified, residential, service and driveway bridges that are also fords as both.
 Show living_street and pedestrian bridges in the same way as other bridges - with the bridge sides a little away from the road and the normal road casing.
 Treat "road" as "service" in the places where it was missing in the style.
+Show railways on embankment.
 
 ## 05/04/2025
 Moved the display of the name of small sports centres from zoom 14 to 15,

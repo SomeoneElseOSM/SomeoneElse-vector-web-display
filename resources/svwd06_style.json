@@ -7400,7 +7400,57 @@
 	    }
 	},
 	{
-	    "id": "highway-primary-leveecasing-7",
+	    "id": "highway-primary-leveecasing-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "primary",
+		                 "primary_link" ],
+                [ "==", "bridge", "levee" ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#999999",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[  6,   2.4 ],
+			[  9,   4.8 ],
+			[ 20, 120.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-primary-leveeprefill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "primary",
+		                 "primary_link" ],
+                [ "==", "bridge", "levee" ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#f2efe9",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[  6,   2.0 ],
+			[  9,   4.0 ],
+			[ 20, 100.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-primary-leveeinnercasing-7",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
@@ -7417,7 +7467,7 @@
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
 	    "paint": {
-		"line-color": "#6a2f31",
+		"line-color": "#c57b7e",
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
@@ -7439,40 +7489,12 @@
 		[ "in", "class", "primary",
 		                 "primary_link" ],
 		[ "in", "edge", "sidewalk" ],
-                [ "!in", "bridge", "levee",
-                                   "yes" ],
+                [ "!in", "bridge", "yes" ],
                 [ "!=", "tunnel", true ]
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#c57b7e",
-		"line-width": {
-		    "base": 2.0,
-		    "stops": [
-			[  7,  1.4 ],
-			[  9,  2.8 ],
-			[ 20, 86.0 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "highway-primarysidewalk-leveecasing-7",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "transportation",
-	    "minzoom": 7,
-	    "filter": [
-		"all",
-		[ "in", "class", "primary",
-		                 "primary_link" ],
-		[ "in", "edge", "sidewalk" ],
-                [ "==", "bridge", "levee" ],
-                [ "!=", "tunnel", true ]
-	    ],
-	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
-	    "paint": {
-		"line-color": "#6a2f31",
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [

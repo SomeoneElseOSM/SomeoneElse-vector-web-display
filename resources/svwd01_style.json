@@ -5313,7 +5313,57 @@
 	    }
 	},
 	{
-	    "id": "highway-driveway-othercasing-12",
+	    "id": "highway-service-leveecasing-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "service",
+                                 "driveway" ],
+                [ "==", "bridge", "levee" ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#999999",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[  6,   2.4 ],
+			[  9,   4.8 ],
+			[ 20, 120.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-service-leveeprefill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "service",
+                                 "driveway" ],
+                [ "==", "bridge", "levee" ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#f2efe9",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[  6,   2.0 ],
+			[  9,   4.0 ],
+			[ 20, 100.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-driveway-otherinnercasing-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
@@ -5336,7 +5386,7 @@
 	    }
 	},
 	{
-	    "id": "highway-drivewayford-casing-12",
+	    "id": "highway-driveway-fordinnercasing-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
@@ -5429,7 +5479,7 @@
             }
         },
 	{
-	    "id": "highway-service-othercasing-12",
+	    "id": "highway-service-otherinnercasing-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
@@ -5439,8 +5489,7 @@
 		[ "in", "class", "service",
                                  "road" ],
 		[ "!in", "edge", "ford" ],
-                [ "!in", "bridge", "levee",
-                                   "yes" ],
+                [ "!in", "bridge", "yes" ],
                 [ "!=", "tunnel", true ]
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
@@ -5456,33 +5505,7 @@
 	    }
 	},
 	{
-	    "id": "highway-service-leveecasing-12",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "transportation",
-	    "minzoom": 12,
-	    "filter": [
-		"all",
-		[ "in", "class", "service",
-                                 "road" ],
-		[ "!in", "edge", "ford" ],
-                [ "==", "bridge", "levee" ],
-                [ "!=", "tunnel", true ]
-	    ],
-	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
-	    "paint": {
-		"line-color": "#999999",
-		"line-width": {
-		    "base": 2.0,
-		    "stops": [
-			[ 12,  2.4 ],
-			[ 20, 40.0 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "highway-serviceford-casing-12",
+	    "id": "highway-service-fordinnercasing-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",

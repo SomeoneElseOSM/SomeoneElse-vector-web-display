@@ -2,7 +2,7 @@
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 Except as noted, all changes also apply to the [SVWD06 Android native display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd06.md).  
 
-## As yet unreleased
+## 06/04/2025
 Show "embankment sides" for motorway to driveway in a similar way to "bridge sides" (not using the main casing of the road), in the same way that is already done for single-line representations such as "footway" etc.
 Also show primary, secondary, tertiary, unclassified, residential, service and driveway bridges that are also fords as both.
 Show living_street and pedestrian bridges in the same way as other bridges - with the bridge sides a little away from the road and the normal road casing.

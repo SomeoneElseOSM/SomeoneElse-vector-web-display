@@ -3784,7 +3784,8 @@
 	    "minzoom": 12,
 	    "filter": [
 		"all",
-		[ "in", "class", "service" ],
+		[ "in", "class", "service",
+                                 "road" ],
                 [ "==", "tunnel", true ]
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
@@ -5321,7 +5322,8 @@
 	    "filter": [
 		"all",
 		[ "in", "class", "service",
-                                 "driveway" ],
+                                 "driveway",
+                                 "road" ],
                 [ "==", "bridge", "levee" ]
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
@@ -5346,7 +5348,8 @@
 	    "filter": [
 		"all",
 		[ "in", "class", "service",
-                                 "driveway" ],
+                                 "driveway",
+                                 "road" ],
                 [ "==", "bridge", "levee" ]
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
@@ -5538,7 +5541,8 @@
 	    "minzoom": 12,
 	    "filter": [
 		"all",
-		[ "in", "class", "service" ],
+		[ "in", "class", "service",
+                                 "road" ],
 		[ "in", "edge", "ford" ],
                 [ "!=", "bridge", "yes" ],
                 [ "!=", "tunnel", true ]
@@ -5563,7 +5567,8 @@
 	    "minzoom": 12,
 	    "filter": [
 		"all",
-		[ "in", "class", "service" ],
+		[ "in", "class", "service",
+                                 "road" ],
 		[ "!in", "edge", "ford" ],
                 [ "!=", "bridge", "yes" ],
                 [ "!=", "tunnel", true ]
@@ -7763,7 +7768,8 @@
 	    "filter": [
 		"all",
 		[ "in", "class", "service",
-                                 "driveway" ],
+                                 "driveway",
+                                 "road" ],
                 [ "==", "bridge", "yes" ]
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
@@ -7788,7 +7794,8 @@
 	    "filter": [
 		"all",
 		[ "in", "class", "service",
-                                 "driveway" ],
+                                 "driveway",
+                                 "road" ],
                 [ "==", "bridge", "yes" ]
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
@@ -7950,7 +7957,8 @@
 	    "minzoom": 12,
 	    "filter": [
 		"all",
-		[ "in", "class", "service" ],
+		[ "in", "class", "service",
+                                 "road" ],
 		[ "!in", "edge", "ford" ],
                 [ "==", "bridge", "yes" ]
 	    ],
@@ -7974,7 +7982,8 @@
 	    "minzoom": 12,
 	    "filter": [
 		"all",
-		[ "in", "class", "service" ],
+		[ "in", "class", "service",
+                                 "road" ],
 		[ "in", "edge", "ford" ],
                 [ "==", "bridge", "yes" ]
 	    ],

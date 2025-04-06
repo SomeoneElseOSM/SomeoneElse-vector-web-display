@@ -2,6 +2,9 @@
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 Except as noted, all changes also apply to the [SVWD06 Android native display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd06.md).  
 
+## As yet unreleased
+Show "embankment sides" for motorway and trunk in a similar way to "bridge sides" (not using the main casing or the road), in the same way that is already done for single-line representations such as "footway" etc.
+
 ## 05/04/2025
 Moved the display of the name of small sports centres from zoom 14 to 15,
 Moved the "bridge sides" for trunk bridges in a bit so as not to impinge on separately mapped parallel footpaths.

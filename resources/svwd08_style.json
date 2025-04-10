@@ -4100,6 +4100,8 @@
 		"all",
 		[ "in", "class", "trunk",
 		                 "trunk_link" ],
+		[ "in", "edge",  "sidewalk",
+                                 "verge" ],
                 [ "==", "tunnel", true ]
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
@@ -4125,6 +4127,8 @@
 		"all",
 		[ "in", "class", "trunk",
 		                 "trunk_link" ],
+		[ "in", "edge",  "sidewalk",
+                                 "verge" ],
                 [ "==", "tunnel", true ]
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
@@ -5099,6 +5103,8 @@
 		"all",
 		[ "in", "class", "trunk",
 		                 "trunk_link" ],
+		[ "in", "edge",  "sidewalk",
+                                 "verge" ],
                 [ "!in", "bridge", "levee",
                                    "yes" ],
                 [ "!=", "tunnel", true ]
@@ -5126,6 +5132,8 @@
 		"all",
 		[ "in", "class", "trunk",
 		                 "trunk_link" ],
+		[ "in", "edge",  "sidewalk",
+                                 "verge" ],
                 [ "==", "bridge", "levee" ],
                 [ "!=", "tunnel", true ]
 	    ],
@@ -7640,6 +7648,8 @@
 		"all",
 		[ "in", "class", "trunk",
 		                 "trunk_link" ],
+		[ "in", "edge",  "sidewalk",
+                                 "verge" ],
                 [ "!=", "bridge", "yes" ],
                 [ "!=", "tunnel", true ]
 	    ],
@@ -10571,6 +10581,8 @@
 		"all",
 		[ "in", "class", "trunk",
 		                 "trunk_link" ],
+		[ "in", "edge",  "sidewalk",
+                                 "verge" ],
                 [ "==", "bridge", "yes" ]
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
@@ -10596,6 +10608,8 @@
 		"all",
 		[ "in", "class", "trunk",
 		                 "trunk_link" ],
+		[ "in", "edge",  "sidewalk",
+                                 "verge" ],
                 [ "==", "bridge", "yes" ]
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
@@ -10621,6 +10635,8 @@
 		"all",
 		[ "in", "class", "trunk",
 		                 "trunk_link" ],
+		[ "in", "edge",  "sidewalk",
+                                 "verge" ],
                 [ "==", "bridge", "yes" ]
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
@@ -10646,6 +10662,8 @@
 		"all",
 		[ "in", "class", "trunk",
 		                 "trunk_link" ],
+		[ "in", "edge",  "sidewalk",
+                                 "verge" ],
                 [ "==", "bridge", "yes" ]
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
@@ -10712,19 +10730,17 @@
 	    }
 	},
 	{
-	    "id": "highway-access_no-wide-12",
+	    "id": "highway-trunkaccess_destination-wide-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
 	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "class", "trunk", "trunk_link", 
-                                                "primary", "primary_link", "secondary", "secondary_link", 
-                                                "tertiary", "tertiary_link",
-                                                "unclassified", "residential", "pedestrian", 
-                                                "service", "road", "driveway" ],
-                               [ "==", "access", "no" ] ],
+	    "filter": [ "all", [ "in", "class", "trunk", "trunk_link" ],
+                               [ "==", "access", "destination" ],
+		               [ "in", "edge",  "sidewalk",
+                                                "verge" ] ],
 	    "paint": {
-		"line-color": "#ffcc99",
+		"line-color": "#ffff99",
                 "line-dasharray": [2.0, 2.0],
 		"line-width": {
 		    "base": 2.4,
@@ -10736,40 +10752,12 @@
 	    }
 	},
 	{
-	    "id": "highway-access_no-narrow-12",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "transportation",
-	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "class", "unpaved", "ucrwide", "ucrnarrow", "boatwide", "boatnarrow", 
-                                                "rbywide",  "rbynarrow", 
-                                                "bridlewaywide", "bridlewaynarrow", "bridlewaysteps",
-                                                "intbridlewaywide", "intbridlewaynarrow",
-                                                "footwaywide", "footwaynarrow", "footwaysteps", 
-                                                "intfootwaywide", "intfootwaynarrow",
-                                                "pathwide", "pathnarrow", "steps", "intpathwide", "intpathnarrow",
-                                                "leisuretrack", "gallop" ],
-                               [ "==", "access", "no" ] ],
-	    "paint": {
-		"line-color": "#ffcc99",
-                "line-dasharray": [2.0, 2.0],
-		"line-width": {
-		    "base": 1.8,
-		    "stops": [
-			[ 12,  1.2 ],
-			[ 20,  4.8 ]
-		    ]
-		}
-	    }
-	},
-	{
 	    "id": "highway-access_destination-wide-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
 	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "class", "trunk", "trunk_link", 
-                                                "primary", "primary_link", "secondary", "secondary_link", 
+	    "filter": [ "all", [ "in", "class", "primary", "primary_link", "secondary", "secondary_link", 
                                                 "tertiary", "tertiary_link",
                                                 "unclassified", "residential", "pedestrian", 
                                                 "service", "road", "driveway" ],
@@ -10815,11 +10803,29 @@
 	    }
 	},
 	{
+	    "id": "trunkmarker-oneway-15",
+	    "type": "symbol",
+	    "source-layer": "transportation",
+	    "filter": [ "all", [ "in", "class", "trunk", "trunk_link" ],
+                               [ "in", "edge",  "sidewalk",
+                                                "verge" ],
+                               [ "==", "oneway", "yes" ] ],
+	    "layout": {
+                "icon-image": "marker_oneway",
+		"icon-size": { "stops": [ [ 15, 0.5 ], 
+                                          [ 17, 0.5 ], 
+                                          [ 20, 1.5 ] ] },
+		"symbol-placement": "line",
+		"symbol-spacing": 240
+	    },
+	    "source": "someoneelse",
+	    "minzoom": 15
+	},
+	{
 	    "id": "marker-oneway-15",
 	    "type": "symbol",
 	    "source-layer": "transportation",
-	    "filter": [ "all", [ "in", "class", "trunk", "trunk_link", 
-                                                "primary", "primary_link", "secondary", "secondary_link", 
+	    "filter": [ "all", [ "in", "class", "primary", "primary_link", "secondary", "secondary_link", 
                                                 "tertiary", "tertiary_link",
                                                 "unclassified", "residential", "pedestrian", 
                                                 "service", "road", "driveway", "unpaved" ],
@@ -10836,11 +10842,29 @@
 	    "minzoom": 15
 	},
 	{
+	    "id": "trunkmarker-onewayminusone-15",
+	    "type": "symbol",
+	    "source-layer": "transportation",
+	    "filter": [ "all", [ "in", "class", "trunk", "trunk_link" ],
+                               [ "in", "edge",  "sidewalk",
+                                                "verge" ],
+                               [ "==", "oneway", "-1" ] ],
+	    "layout": {
+                "icon-image": "marker_onewayminusone",
+		"icon-size": { "stops": [ [ 15, 0.5 ], 
+                                          [ 17, 0.5 ], 
+                                          [ 20, 1.5 ] ] },
+		"symbol-placement": "line",
+		"symbol-spacing": 240
+	    },
+	    "source": "someoneelse",
+	    "minzoom": 15
+	},
+	{
 	    "id": "marker-onewayminusone-15",
 	    "type": "symbol",
 	    "source-layer": "transportation",
-	    "filter": [ "all", [ "in", "class", "trunk", "trunk_link", 
-                                                "primary", "primary_link", "secondary", "secondary_link", 
+	    "filter": [ "all", [ "in", "class", "primary", "primary_link", "secondary", "secondary_link", 
                                                 "tertiary", "tertiary_link",
                                                 "unclassified", "residential", "pedestrian", 
                                                 "service", "road", "driveway", "unpaved" ],
@@ -19192,10 +19216,36 @@
 	    "minzoom": 12
 	},
 	{
+	    "id": "trunklabel-street-centre-12",
+	    "type": "symbol",
+	    "source-layer": "transportation",
+	    "filter": [ "all", [ "in", "class", "trunk" ],
+                               [ "in", "edge",  "sidewalk",
+                                                "verge" ] ],
+	    "layout": {
+		"text-field": "{name}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "line",
+		"symbol-spacing": { "stops": [ [ 12, 250 ],
+                                               [ 20, 900 ] ] },
+		"text-anchor": "center",
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"icon-color": "#333344",
+		"text-color": "#333344",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 2,
+		"text-halo-blur": 1
+	    },
+	    "minzoom": 12
+	},
+	{
 	    "id": "label-street-centre-12",
 	    "type": "symbol",
 	    "source-layer": "transportation",
-	    "filter": [ "in", "class", "trunk", "primary", "secondary", "tertiary",
+	    "filter": [ "in", "class", "primary", "secondary", "tertiary",
 			"unclassified", "residential", "pedestrian", "living_street", "service", "road", "driveway" ],
 	    "layout": {
 		"text-field": "{name}",
@@ -19221,6 +19271,8 @@
 	    "type": "symbol",
 	    "source-layer": "transportation",
 	    "filter": [ "all", [ "in", "class", "trunk" ],
+                               [ "in", "edge",  "sidewalk",
+                                                "verge" ],
                                [ "has", "ref" ],
                                [ "<", "ref_len", 6 ] ],
 	    "layout": {
@@ -19253,6 +19305,8 @@
 	    "type": "symbol",
 	    "source-layer": "transportation",
 	    "filter": [ "all", [ "in", "class", "trunk" ],
+                               [ "in", "edge",  "sidewalk",
+                                                "verge" ],
                                [ "has", "ref" ],
                                [ ">=", "ref_len", 6 ] ],
 	    "layout": {

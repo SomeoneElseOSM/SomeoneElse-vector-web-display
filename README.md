@@ -6,9 +6,9 @@ This repository contains:
 
 and also these in [resources](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/tree/main/resources):
 
-* [SVWD01](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd01.md), an example web map style.
-* [SVWD06](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd06.md), based on an example Android Native style.
-* [SVWD03](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd03.md), a [Shortbread](https://shortbread-tiles.org/schema/1.0/) map style designed to use [OSMF's minutely updated vector tiles demo](https://community.openstreetmap.org/t/minutely-updated-vector-tiles-demo/110121)
+* [SVWD01](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd01.md), an example web map style.  Visible [here](https://map.atownsend.org.uk/vector/index.html#8/54.031/-1.661)
+* [SVWD06](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd06.md), based on an example Android Native style.  Visible as a web map [here](https://map.atownsend.org.uk/vector/index_svwd06.html#10/53.995/-1.2908)
+* [SVWD03](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd03.md), a [Shortbread](https://shortbread-tiles.org/schema/1.0/) map style designed to use [OSMF's minutely updated vector tiles demo](https://community.openstreetmap.org/t/minutely-updated-vector-tiles-demo/110121).  Visible [here](https://map.atownsend.org.uk/vector/index_osmf_shortbread.html).
 * [SVWD07](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd07.md), a work-in-progress minimal Shortbread example.
 * [SVWD04](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd05.md), a debug style for SVWD01.
 * [SVWD05](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd05.md), a debug style for SVWD03.

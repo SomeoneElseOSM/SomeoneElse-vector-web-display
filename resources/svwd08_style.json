@@ -4050,6 +4050,8 @@
 		"all",
 		[ "in", "class", "primary",
 		                 "primary_link" ],
+		[ "in", "edge",  "sidewalk",
+                                 "verge" ],
                 [ "==", "tunnel", true ]
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
@@ -4075,6 +4077,8 @@
 		"all",
 		[ "in", "class", "primary",
 		                 "primary_link" ],
+		[ "in", "edge",  "sidewalk",
+                                 "verge" ],
                 [ "==", "tunnel", true ]
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
@@ -7441,65 +7445,6 @@
 	    }
 	},
 	{
-	    "id": "highway-primary-othercasing-7",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "transportation",
-	    "minzoom": 7,
-	    "filter": [
-		"all",
-		[ "in", "class", "primary",
-		                 "primary_link" ],
-		[ "!in", "edge", "sidewalk",
-		                 "verge",
-                                 "ford" ],
-                [ "!in", "bridge", "levee",
-                                   "yes" ],
-                [ "!=", "tunnel", true ]
-	    ],
-	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
-	    "paint": {
-		"line-color": "#c57b7e",
-		"line-width": {
-		    "base": 2.0,
-		    "stops": [
-			[  7,  1.4 ],
-			[  9,  2.8 ],
-			[ 20, 86.0 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "highway-primary-leveeinnercasing-7",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "transportation",
-	    "minzoom": 7,
-	    "filter": [
-		"all",
-		[ "in", "class", "primary",
-		                 "primary_link" ],
-		[ "!in", "edge", "sidewalk",
-		                 "verge",
-                                 "ford" ],
-                [ "==", "bridge", "levee" ],
-                [ "!=", "tunnel", true ]
-	    ],
-	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
-	    "paint": {
-		"line-color": "#c57b7e",
-		"line-width": {
-		    "base": 2.0,
-		    "stops": [
-			[  7,  1.4 ],
-			[  9,  2.8 ],
-			[ 20, 86.0 ]
-		    ]
-		}
-	    }
-	},
-	{
 	    "id": "highway-primarysidewalk-casing-7",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -7605,35 +7550,6 @@
 			[  7,  1.0 ],
 			[  9,  2.0 ],
 			[ 20, 42.0 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "highway-primary-otherfill-7",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "transportation",
-	    "minzoom": 7,
-	    "filter": [
-		"all",
-		[ "in", "class", "primary",
-		                 "primary_link" ],
-		[ "!in", "edge", "sidewalk",
-		                 "verge",
-                                 "ford" ],
-                [ "!=", "bridge", "yes" ],
-                [ "!=", "tunnel", true ]
-	    ],
-	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
-	    "paint": {
-		"line-color": "#dd9f9f",
-		"line-width": {
-		    "base": 2.0,
-		    "stops": [
-			[  7,  1.0 ],
-			[  9,  2.0 ],
-			[ 20, 64.0 ]
 		    ]
 		}
 	    }
@@ -10410,34 +10326,6 @@
 	    }
 	},
 	{
-	    "id": "highway-primary-bridgeinnerothercasing-7",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "transportation",
-	    "minzoom": 7,
-	    "filter": [
-		"all",
-		[ "in", "class", "primary",
-		                 "primary_link" ],
-		[ "!in", "edge", "sidewalk",
-		                 "verge",
-                                 "ford" ],
-                [ "==", "bridge", "yes" ]
-	    ],
-	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
-	    "paint": {
-		"line-color": "#c57b7e",
-		"line-width": {
-		    "base": 2.0,
-		    "stops": [
-			[  7,  1.4 ],
-			[  9,  2.8 ],
-			[ 20, 86.0 ]
-		    ]
-		}
-	    }
-	},
-	{
 	    "id": "highway-primary-bridgeinnersidewalkcasing-7",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -10539,34 +10427,6 @@
 			[  7,  1.0 ],
 			[  9,  2.0 ],
 			[ 20, 42.0 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "highway-primary-bridgefill-7",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "transportation",
-	    "minzoom": 7,
-	    "filter": [
-		"all",
-		[ "in", "class", "primary",
-		                 "primary_link" ],
-		[ "!in", "edge", "sidewalk",
-		                 "verge",
-                                 "ford" ],
-                [ "==", "bridge", "yes" ]
-	    ],
-	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
-	    "paint": {
-		"line-color": "#dd9f9f",
-		"line-width": {
-		    "base": 2.0,
-		    "stops": [
-			[  7,  1.0 ],
-			[  9,  2.0 ],
-			[ 20, 64.0 ]
 		    ]
 		}
 	    }
@@ -10735,7 +10595,7 @@
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
 	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "class", "trunk", "trunk_link" ],
+	    "filter": [ "all", [ "in", "class", "primary", "primary_link", "trunk", "trunk_link" ],
                                [ "==", "access", "destination" ],
 		               [ "in", "edge",  "sidewalk",
                                                 "verge" ] ],
@@ -10757,7 +10617,7 @@
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
 	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "class", "primary", "primary_link", "secondary", "secondary_link", 
+	    "filter": [ "all", [ "in", "class", "secondary", "secondary_link", 
                                                 "tertiary", "tertiary_link",
                                                 "unclassified", "residential", "pedestrian", 
                                                 "service", "road", "driveway" ],
@@ -10806,7 +10666,7 @@
 	    "id": "trunkmarker-oneway-15",
 	    "type": "symbol",
 	    "source-layer": "transportation",
-	    "filter": [ "all", [ "in", "class", "trunk", "trunk_link" ],
+	    "filter": [ "all", [ "in", "class", "primary", "primary_link", "trunk", "trunk_link" ],
                                [ "in", "edge",  "sidewalk",
                                                 "verge" ],
                                [ "==", "oneway", "yes" ] ],
@@ -10825,7 +10685,7 @@
 	    "id": "marker-oneway-15",
 	    "type": "symbol",
 	    "source-layer": "transportation",
-	    "filter": [ "all", [ "in", "class", "primary", "primary_link", "secondary", "secondary_link", 
+	    "filter": [ "all", [ "in", "class", "secondary", "secondary_link", 
                                                 "tertiary", "tertiary_link",
                                                 "unclassified", "residential", "pedestrian", 
                                                 "service", "road", "driveway", "unpaved" ],
@@ -10845,7 +10705,7 @@
 	    "id": "trunkmarker-onewayminusone-15",
 	    "type": "symbol",
 	    "source-layer": "transportation",
-	    "filter": [ "all", [ "in", "class", "trunk", "trunk_link" ],
+	    "filter": [ "all", [ "in", "class", "primary", "primary_link", "trunk", "trunk_link" ],
                                [ "in", "edge",  "sidewalk",
                                                 "verge" ],
                                [ "==", "oneway", "-1" ] ],
@@ -10864,7 +10724,7 @@
 	    "id": "marker-onewayminusone-15",
 	    "type": "symbol",
 	    "source-layer": "transportation",
-	    "filter": [ "all", [ "in", "class", "primary", "primary_link", "secondary", "secondary_link", 
+	    "filter": [ "all", [ "in", "class", "secondary", "secondary_link", 
                                                 "tertiary", "tertiary_link",
                                                 "unclassified", "residential", "pedestrian", 
                                                 "service", "road", "driveway", "unpaved" ],
@@ -19219,7 +19079,7 @@
 	    "id": "trunklabel-street-centre-12",
 	    "type": "symbol",
 	    "source-layer": "transportation",
-	    "filter": [ "all", [ "in", "class", "trunk" ],
+	    "filter": [ "all", [ "in", "class", "primary", "trunk" ],
                                [ "in", "edge",  "sidewalk",
                                                 "verge" ] ],
 	    "layout": {
@@ -19245,7 +19105,7 @@
 	    "id": "label-street-centre-12",
 	    "type": "symbol",
 	    "source-layer": "transportation",
-	    "filter": [ "in", "class", "primary", "secondary", "tertiary",
+	    "filter": [ "in", "class", "secondary", "tertiary",
 			"unclassified", "residential", "pedestrian", "living_street", "service", "road", "driveway" ],
 	    "layout": {
 		"text-field": "{name}",
@@ -19339,6 +19199,8 @@
 	    "type": "symbol",
 	    "source-layer": "transportation",
 	    "filter": [ "all", [ "in", "class", "primary" ],
+                               [ "in", "edge",  "sidewalk",
+                                                "verge" ],
                                [ "has", "ref" ],
                                [ "<", "ref_len", 6 ] ],
 	    "layout": {
@@ -19371,6 +19233,8 @@
 	    "type": "symbol",
 	    "source-layer": "transportation",
 	    "filter": [ "all", [ "in", "class", "primary" ],
+                               [ "in", "edge",  "sidewalk",
+                                                "verge" ],
                                [ "has", "ref" ],
                                [ ">=", "ref_len", 6 ] ],
 	    "layout": {

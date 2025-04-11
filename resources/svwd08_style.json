@@ -10331,8 +10331,6 @@
 		"all",
 		[ "in", "class", "trunk",
 		                 "trunk_link" ],
-		[ "in", "edge",  "sidewalk",
-                                 "verge" ],
                 [ "==", "bridge", "yes" ]
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
@@ -10358,8 +10356,6 @@
 		"all",
 		[ "in", "class", "trunk",
 		                 "trunk_link" ],
-		[ "in", "edge",  "sidewalk",
-                                 "verge" ],
                 [ "==", "bridge", "yes" ]
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },

@@ -4420,7 +4420,8 @@
 		"all",
 		[ "in", "class", "service",
                                  "driveway",
-                                 "road" ],
+                                 "road",
+                                 "living_street" ],
                 [ "==", "bridge", "levee" ]
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
@@ -4446,7 +4447,8 @@
 		"all",
 		[ "in", "class", "service",
                                  "driveway",
-                                 "road" ],
+                                 "road",
+                                 "living_street" ],
                 [ "==", "bridge", "levee" ]
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
@@ -5957,40 +5959,12 @@
 		[ "!in", "edge", "sidewalk",
                                  "verge",
                                  "ford" ],
-                [ "!in", "bridge", "levee",
-                                   "yes" ],
+                [ "!in", "bridge", "yes" ],
                 [ "!=", "tunnel", true ]
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#bbb",
-		"line-width": {
-		    "base": 2.0,
-		    "stops": [
-			[ 10,  2.8 ],
-			[ 20, 86.0 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "highway-living_street-leveecasing-10",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "transportation",
-	    "minzoom": 10,
-	    "filter": [
-		"all",
-		[ "in", "class", "living_street" ],
-		[ "!in", "edge", "sidewalk",
-                                 "verge",
-                                 "ford" ],
-                [ "==", "bridge", "levee" ],
-                [ "!=", "tunnel", true ]
-	    ],
-	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
-	    "paint": {
-		"line-color": "#999999",
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [

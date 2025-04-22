@@ -4,6 +4,7 @@ Except as noted, all changes also apply to the [SVWD06 Android native display st
 
 ## As yet unreleased
 Display all bridge "walls" and associated prefill before any other inner casing and fill.
+Display all bridge inner casings ahead of all bridge fills, reducing the "cut through" effect.
 
 ## 21/04/2025
 Added a "Bus" button to the `svwd01` default map to link to bustimes.org.

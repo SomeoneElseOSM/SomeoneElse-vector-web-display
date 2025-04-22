@@ -2,6 +2,9 @@
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 Except as noted, all changes also apply to the [SVWD06 Android native display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd06.md).  
 
+## As yet unreleased
+Display all bridge "walls" and associated prefill before any other inner casing and fill.
+
 ## 21/04/2025
 Added a "Bus" button to the `svwd01` default map to link to bustimes.org.
 

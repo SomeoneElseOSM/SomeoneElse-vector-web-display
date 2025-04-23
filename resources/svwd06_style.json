@@ -4267,6 +4267,119 @@
 	    }
 	},
 	{
+	    "id": "label-rail-offset-12",
+	    "type": "symbol",
+	    "source-layer": "transportation",
+	    "filter": [ "in", "class", "rail",
+                                       "disused",
+                                       "funicular",
+                                       "miniature",
+                                       "monorail",
+                                       "narrow_gauge",
+                                       "preserved",
+                                       "light_rail",
+                                       "subway",
+                                       "tram",
+                                       "slipway" ],
+	    "layout": {
+		"text-field": "{name}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "line",
+		"symbol-spacing": 1200,
+		"text-offset": [0, 1],
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "#999999",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 2,
+		"text-halo-blur": 1
+	    },
+	    "minzoom": 12
+	},
+	{
+	    "id": "label-bus_guideway-offset-12",
+	    "type": "symbol",
+	    "source-layer": "transportation",
+	    "filter": [ "in", "class", "bus_guideway" ],
+	    "layout": {
+		"text-field": "{name}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "line",
+		"symbol-spacing": 1200,
+		"text-offset": [0, 1],
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+	    "paint": {
+		"text-color": "#6699ff",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 2,
+		"text-halo-blur": 1
+	    },
+	    "minzoom": 12
+	},
+	{
+	    "id": "railway-rail-tunnellightfill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "rail",
+                                 "funicular",
+                                 "preserved",
+                                 "light_rail",
+                                 "subway",
+                                 "tram" ],
+                [ "==", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#999999",
+                "line-dasharray": [2.0, 3.0],
+		"line-width": {
+		    "stops": [
+			[ 13,  0.4 ],
+			[ 14,  1.2 ],
+			[ 16,  2.4 ],
+			[ 17,  4.8 ],
+			[ 18,  9.6 ],
+			[ 20, 16.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "railway-bus_guideway-tunnellightfill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "bus_guideway" ],
+                [ "==", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#6699ff",
+                "line-dasharray": [2.0, 3.0],
+		"line-width": {
+		    "stops": [
+			[ 13,  0.4 ],
+			[ 14,  1.2 ],
+			[ 16,  2.4 ],
+			[ 17,  4.8 ],
+			[ 18,  9.6 ],
+			[ 20, 16.0 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "highway-service-leveecasing-12",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -4935,60 +5048,6 @@
 		"text-halo-blur": 1
 	    },
 	    "minzoom": 13
-	},
-	{
-	    "id": "label-rail-offset-12",
-	    "type": "symbol",
-	    "source-layer": "transportation",
-	    "filter": [ "in", "class", "rail",
-                                       "disused",
-                                       "funicular",
-                                       "miniature",
-                                       "monorail",
-                                       "narrow_gauge",
-                                       "preserved",
-                                       "light_rail",
-                                       "subway",
-                                       "tram",
-                                       "slipway" ],
-	    "layout": {
-		"text-field": "{name}",
-		"text-font": [ "KlokanTech Noto Sans Regular" ],
-		"symbol-placement": "line",
-		"symbol-spacing": 1200,
-		"text-offset": [0, 1],
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] }
-	    },
-	    "source": "someoneelse",
-	    "paint": {
-		"text-color": "#999999",
-		"text-halo-color": "rgba(255, 255, 255, 0.8)",
-		"text-halo-width": 2,
-		"text-halo-blur": 1
-	    },
-	    "minzoom": 12
-	},
-	{
-	    "id": "label-bus_guideway-offset-12",
-	    "type": "symbol",
-	    "source-layer": "transportation",
-	    "filter": [ "in", "class", "bus_guideway" ],
-	    "layout": {
-		"text-field": "{name}",
-		"text-font": [ "KlokanTech Noto Sans Regular" ],
-		"symbol-placement": "line",
-		"symbol-spacing": 1200,
-		"text-offset": [0, 1],
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] }
-	    },
-	    "source": "someoneelse",
-	    "paint": {
-		"text-color": "#6699ff",
-		"text-halo-color": "rgba(255, 255, 255, 0.8)",
-		"text-halo-width": 2,
-		"text-halo-blur": 1
-	    },
-	    "minzoom": 12
 	},
 	{
 	    "id": "label-construction-bottom-12",
@@ -6775,65 +6834,6 @@
 	    }
 	},
 	{
-	    "id": "railway-rail-tunnellightfill-12",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "transportation",
-	    "minzoom": 12,
-	    "filter": [
-		"all",
-		[ "in", "class", "rail",
-                                 "funicular",
-                                 "preserved",
-                                 "light_rail",
-                                 "subway",
-                                 "tram" ],
-                [ "==", "tunnel", true ]
-	    ],
-	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
-	    "paint": {
-		"line-color": "#999999",
-                "line-dasharray": [2.0, 3.0],
-		"line-width": {
-		    "stops": [
-			[ 13,  0.4 ],
-			[ 14,  1.2 ],
-			[ 16,  2.4 ],
-			[ 17,  4.8 ],
-			[ 18,  9.6 ],
-			[ 20, 16.0 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "railway-bus_guideway-tunnellightfill-12",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "transportation",
-	    "minzoom": 12,
-	    "filter": [
-		"all",
-		[ "in", "class", "bus_guideway" ],
-                [ "==", "tunnel", true ]
-	    ],
-	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
-	    "paint": {
-		"line-color": "#6699ff",
-                "line-dasharray": [2.0, 3.0],
-		"line-width": {
-		    "stops": [
-			[ 13,  0.4 ],
-			[ 14,  1.2 ],
-			[ 16,  2.4 ],
-			[ 17,  4.8 ],
-			[ 18,  9.6 ],
-			[ 20, 16.0 ]
-		    ]
-		}
-	    }
-	},
-	{
 	    "id": "highway-unclassifiedsidewalkergeford-fill-10",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -6986,11 +6986,12 @@
 		"line-color": "#999999",
 		"line-width": {
 		    "stops": [
-			[ 14,  0.3 ],
-			[ 16,  0.6 ],
-			[ 17,  1.2 ],
-			[ 18,  2.4 ],
-			[ 20,  4.8 ]
+			[ 13,  0.3 ],
+			[ 14,  0.9 ],
+			[ 16,  1.8 ],
+			[ 17,  3.6 ],
+			[ 18,  7.2 ],
+			[ 20, 12.0 ]
 		    ]
 		}
 	    }
@@ -7253,7 +7254,7 @@
 	    }
 	},
 	{
-	    "id": "railway-narrow_gauge-fill-13",
+	    "id": "railway-narrow_gauge-lightfill-13",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
@@ -7266,15 +7267,16 @@
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
 	    "paint": {
-		"line-color": "#666",
-                "line-dasharray": [ 0.05, 6.0 ],
+		"line-color": "white",
+                "line-dasharray": [6.0, 4.0],
 		"line-width": {
 		    "stops": [
-			[ 14,  0.3 ],
-			[ 16,  0.6 ],
-			[ 17,  1.2 ],
-			[ 18,  2.4 ],
-			[ 20,  4.8 ]
+			[ 13,  0.2 ],
+			[ 14,  0.6 ],
+			[ 16,  1.2 ],
+			[ 17,  2.4 ],
+			[ 18,  4.8 ],
+			[ 20,  8.0 ]
 		    ]
 		}
 	    }

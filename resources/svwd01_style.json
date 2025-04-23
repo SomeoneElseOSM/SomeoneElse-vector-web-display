@@ -7310,80 +7310,6 @@
 	    }
 	},
 	{
-	    "id": "railway-tram-fill-12",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "transportation",
-	    "minzoom": 12,
-	    "filter": [
-		"all",
-		[ "in", "class", "light_rail",
-                                 "funicular",
-                                 "subway",
-                                 "tram" ],
-                [ "!=", "bridge", "yes" ],
-                [ "!=", "tunnel", true ]
-	    ],
-	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
-	    "paint": {
-		"line-color": "#999999",
-		"line-width": {
-		    "stops": [
-			[ 13,  0.4 ],
-			[ 14,  1.2 ],
-			[ 16,  2.4 ],
-			[ 17,  4.8 ],
-			[ 18,  9.6 ],
-			[ 20, 16.0 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "aerialway-cable_car-11",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "transportation",
-	    "minzoom": 11,
-	    "filter": [ "all", [ "in", "class", "cable_car",
-                                                "gondola",
-                                                "goods" ] ],
-	    "paint": {
-		"line-pattern": "pattern_aerialway_cable_car",
-		"line-width": {
-		    "stops": [
-			[ 11,   9.6 ],
-			[ 15,  38.4 ],
-			[ 20,  76.8 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "aerialway-chair_lift-11",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "transportation",
-	    "minzoom": 11,
-	    "filter": [ "all", [ "in", "class", "chair_lift",
-                                                "drag_lift",
-                                                "t-bar",
-                                                "j-bar",
-                                                "platter",
-                                                "rope_tow" ] ],
-	    "paint": {
-		"line-pattern": "pattern_aerialway_chair_lift",
-		"line-width": {
-		    "base": 9.6,
-		    "stops": [
-			[ 11,   9.6 ],
-			[ 15,  38.4 ],
-			[ 20,  76.8 ]
-		    ]
-		}
-	    }
-	},
-	{
 	    "id": "aeroway-runway-line-10",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -7797,6 +7723,111 @@
 			[  6,  0.7 ],
 			[  9,  2.0 ],
 			[ 20, 64.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "railway-tram-backgroundfill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "light_rail",
+                                 "funicular",
+                                 "subway",
+                                 "tram" ],
+                [ "!=", "bridge", "yes" ],
+                [ "!=", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#999999",
+		"line-width": {
+		    "stops": [
+			[ 13,  0.2 ],
+			[ 14,  0.6 ],
+			[ 16,  1.2 ],
+			[ 17,  2.4 ],
+			[ 18,  4.8 ],
+			[ 20,  8.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "railway-tram-foregroundfill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "light_rail",
+                                 "funicular",
+                                 "subway",
+                                 "tram" ],
+                [ "!=", "bridge", "yes" ],
+                [ "!=", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#666",
+                "line-dasharray": [ 0.05, 6.0 ],
+		"line-width": {
+		    "stops": [
+			[ 13,  0.2 ],
+			[ 14,  0.6 ],
+			[ 16,  1.2 ],
+			[ 17,  2.4 ],
+			[ 18,  4.8 ],
+			[ 20,  8.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "aerialway-cable_car-11",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 11,
+	    "filter": [ "all", [ "in", "class", "cable_car",
+                                                "gondola",
+                                                "goods" ] ],
+	    "paint": {
+		"line-pattern": "pattern_aerialway_cable_car",
+		"line-width": {
+		    "stops": [
+			[ 11,   9.6 ],
+			[ 15,  38.4 ],
+			[ 20,  76.8 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "aerialway-chair_lift-11",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 11,
+	    "filter": [ "all", [ "in", "class", "chair_lift",
+                                                "drag_lift",
+                                                "t-bar",
+                                                "j-bar",
+                                                "platter",
+                                                "rope_tow" ] ],
+	    "paint": {
+		"line-pattern": "pattern_aerialway_chair_lift",
+		"line-width": {
+		    "base": 9.6,
+		    "stops": [
+			[ 11,   9.6 ],
+			[ 15,  38.4 ],
+			[ 20,  76.8 ]
 		    ]
 		}
 	    }
@@ -9636,7 +9667,7 @@
 	    }
 	},
 	{
-	    "id": "railway-tram-bridgefill-12",
+	    "id": "railway-tram-bridgebackgroundfill-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
@@ -9654,12 +9685,42 @@
 		"line-color": "#999999",
 		"line-width": {
 		    "stops": [
-			[ 13,  0.4 ],
-			[ 14,  1.2 ],
-			[ 16,  2.4 ],
-			[ 17,  4.8 ],
-			[ 18,  9.6 ],
-			[ 20, 16.0 ]
+			[ 13,  0.2 ],
+			[ 14,  0.6 ],
+			[ 16,  1.2 ],
+			[ 17,  2.4 ],
+			[ 18,  4.8 ],
+			[ 20,  8.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "railway-tram-bridgeforegroundfill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "light_rail",
+                                 "funicular",
+                                 "subway",
+                                 "tram" ],
+                [ "==", "bridge", "yes" ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#666",
+                "line-dasharray": [ 0.05, 6.0 ],
+		"line-width": {
+		    "stops": [
+			[ 13,  0.2 ],
+			[ 14,  0.6 ],
+			[ 16,  1.2 ],
+			[ 17,  2.4 ],
+			[ 18,  4.8 ],
+			[ 20,  8.0 ]
 		    ]
 		}
 	    }

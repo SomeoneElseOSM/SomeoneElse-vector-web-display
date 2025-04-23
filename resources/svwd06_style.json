@@ -7310,80 +7310,6 @@
 	    }
 	},
 	{
-	    "id": "railway-tram-fill-12",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "transportation",
-	    "minzoom": 12,
-	    "filter": [
-		"all",
-		[ "in", "class", "light_rail",
-                                 "funicular",
-                                 "subway",
-                                 "tram" ],
-                [ "!=", "bridge", "yes" ],
-                [ "!=", "tunnel", true ]
-	    ],
-	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
-	    "paint": {
-		"line-color": "#999999",
-		"line-width": {
-		    "stops": [
-			[ 13,  0.4 ],
-			[ 14,  1.2 ],
-			[ 16,  2.4 ],
-			[ 17,  4.8 ],
-			[ 18,  9.6 ],
-			[ 20, 16.0 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "aerialway-cable_car-11",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "transportation",
-	    "minzoom": 11,
-	    "filter": [ "all", [ "in", "class", "cable_car",
-                                                "gondola",
-                                                "goods" ] ],
-	    "paint": {
-		"line-pattern": "pattern_aerialway_cable_car",
-		"line-width": {
-		    "stops": [
-			[ 11,   9.6 ],
-			[ 15,  38.4 ],
-			[ 20,  76.8 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "aerialway-chair_lift-11",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "transportation",
-	    "minzoom": 11,
-	    "filter": [ "all", [ "in", "class", "chair_lift",
-                                                "drag_lift",
-                                                "t-bar",
-                                                "j-bar",
-                                                "platter",
-                                                "rope_tow" ] ],
-	    "paint": {
-		"line-pattern": "pattern_aerialway_chair_lift",
-		"line-width": {
-		    "base": 9.6,
-		    "stops": [
-			[ 11,   9.6 ],
-			[ 15,  38.4 ],
-			[ 20,  76.8 ]
-		    ]
-		}
-	    }
-	},
-	{
 	    "id": "aeroway-runway-line-10",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -7802,6 +7728,80 @@
 	    }
 	},
 	{
+	    "id": "railway-tram-fill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "light_rail",
+                                 "funicular",
+                                 "subway",
+                                 "tram" ],
+                [ "!=", "bridge", "yes" ],
+                [ "!=", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#999999",
+		"line-width": {
+		    "stops": [
+			[ 13,  0.2 ],
+			[ 14,  0.6 ],
+			[ 16,  1.2 ],
+			[ 17,  2.4 ],
+			[ 18,  4.8 ],
+			[ 20,  8.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "aerialway-cable_car-11",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 11,
+	    "filter": [ "all", [ "in", "class", "cable_car",
+                                                "gondola",
+                                                "goods" ] ],
+	    "paint": {
+		"line-pattern": "pattern_aerialway_cable_car",
+		"line-width": {
+		    "stops": [
+			[ 11,   9.6 ],
+			[ 15,  38.4 ],
+			[ 20,  76.8 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "aerialway-chair_lift-11",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 11,
+	    "filter": [ "all", [ "in", "class", "chair_lift",
+                                                "drag_lift",
+                                                "t-bar",
+                                                "j-bar",
+                                                "platter",
+                                                "rope_tow" ] ],
+	    "paint": {
+		"line-pattern": "pattern_aerialway_chair_lift",
+		"line-width": {
+		    "base": 9.6,
+		    "stops": [
+			[ 11,   9.6 ],
+			[ 15,  38.4 ],
+			[ 20,  76.8 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "highway-service-bridgecasing-12",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -7924,6 +7924,32 @@
 			[ 17, 21.6 ],
 			[ 18, 43.2 ],
 			[ 20, 72.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "railway-narrow_gauge-bridgecasing-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "narrow_gauge" ],
+                [ "==", "bridge", "yes" ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "black",
+		"line-width": {
+		    "stops": [
+			[ 13,  2.7 ],
+			[ 14,  4.4 ],
+			[ 16,  7.2 ],
+			[ 17, 10.8 ],
+			[ 18, 21.6 ],
+			[ 20, 36.0 ]
 		    ]
 		}
 	    }
@@ -8482,6 +8508,32 @@
 			[ 17, 14.4 ],
 			[ 18, 28.8 ],
 			[ 20, 48.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "railway-narrow_gauge-bridgeprefill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "narrow_gauge" ],
+                [ "==", "bridge", "yes" ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#f2efe9",
+		"line-width": {
+		    "stops": [
+			[ 13,  1.8 ],
+			[ 14,  2.4 ],
+			[ 16,  3.6 ],
+			[ 17,  7.2 ],
+			[ 18, 14.4 ],
+			[ 20, 24.0 ]
 		    ]
 		}
 	    }
@@ -9570,14 +9622,15 @@
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
-		"line-color": "#666",
+		"line-color": "#999999",
 		"line-width": {
 		    "stops": [
-			[ 14,  0.3 ],
-			[ 16,  0.6 ],
-			[ 17,  1.2 ],
-			[ 18,  2.4 ],
-			[ 20,  4.8 ]
+			[ 13,  0.3 ],
+			[ 14,  0.9 ],
+			[ 16,  1.8 ],
+			[ 17,  3.6 ],
+			[ 18,  7.2 ],
+			[ 20, 12.0 ]
 		    ]
 		}
 	    }
@@ -9601,12 +9654,12 @@
 		"line-color": "#999999",
 		"line-width": {
 		    "stops": [
-			[ 13,  0.4 ],
-			[ 14,  1.2 ],
-			[ 16,  2.4 ],
-			[ 17,  4.8 ],
-			[ 18,  9.6 ],
-			[ 20, 16.0 ]
+			[ 13,  0.2 ],
+			[ 14,  0.6 ],
+			[ 16,  1.2 ],
+			[ 17,  2.4 ],
+			[ 18,  4.8 ],
+			[ 20,  8.0 ]
 		    ]
 		}
 	    }
@@ -9624,15 +9677,16 @@
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
 	    "paint": {
-		"line-color": "black",
-                "line-dasharray": [ 0.05, 6.0 ],
+		"line-color": "white",
+                "line-dasharray": [6.0, 4.0],
 		"line-width": {
 		    "stops": [
-			[ 14,  0.3 ],
-			[ 16,  0.6 ],
-			[ 17,  1.2 ],
-			[ 18,  2.4 ],
-			[ 20,  4.8 ]
+			[ 13,  0.2 ],
+			[ 14,  0.6 ],
+			[ 16,  1.2 ],
+			[ 17,  2.4 ],
+			[ 18,  4.8 ],
+			[ 20,  8.0 ]
 		    ]
 		}
 	    }

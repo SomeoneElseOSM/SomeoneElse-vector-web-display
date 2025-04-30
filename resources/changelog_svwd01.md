@@ -2,6 +2,9 @@
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 Except as noted, all changes also apply to the [SVWD06 Android native display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd06.md).  
 
+## 30/04/2025
+Handle shooting grounds better - show both the danger hatching and the pitch.
+
 ## 24/04/2025
 Made the representation of `narrow_gauge` closer to `rail` (and more obvious).
 Show tramlines over roads.

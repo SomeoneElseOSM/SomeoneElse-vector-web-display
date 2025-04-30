@@ -1909,33 +1909,6 @@
 	    }
 	},
 	{
-	    "id": "land2-military-fill-7-14",
-	    "type": "fill",
-	    "source": "someoneelse",
-	    "source-layer": "land2",
-	    "filter": [ "all", [ "in", "class", "landuse_military" ] ],
-	    "paint": {
-		"fill-pattern": "pattern_landuse_military"
-	    }
-	},
-	{
-	    "id": "land2-military-outline-7-14",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "land2",
-	    "filter": [ "all", [ "in", "class", "landuse_military" ] ],
-	    "paint": {
-		"line-color": "#f55",
-		"line-width": {
-		    "base": 0.6,
-		    "stops": [
-			[ 15,  0.6 ],
-			[ 20,  1.2 ]
-		    ]
-		}
-	    }
-	},
-	{
 	    "id": "land1-playground-fill-12",
 	    "type": "fill",
 	    "source": "someoneelse",
@@ -2243,6 +2216,33 @@
 	    "filter": [ "all", [ "in", "class", "natural_tidal_mud" ] ],
 	    "paint": {
 		"fill-pattern": "pattern_natural_tidal_mud"
+	    }
+	},
+	{
+	    "id": "land2-military-fill-7-14",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land2",
+	    "filter": [ "all", [ "in", "class", "landuse_military" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_landuse_military"
+	    }
+	},
+	{
+	    "id": "land2-military-outline-7-14",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land2",
+	    "filter": [ "all", [ "in", "class", "landuse_military" ] ],
+	    "paint": {
+		"line-color": "#f55",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
 	    }
 	},
 	{

@@ -11799,7 +11799,8 @@
 	    "minzoom": 14,
 	    "maxzoom": 19,
 	    "filter": [ "all", [ "in", "class", "man_made_boundary_stone",
-                                                "tourism_informationmarker" ] ],
+                                                "tourism_informationmarker",
+                                                "tourism_informationprowmarker" ] ],
 	    "layout": {
 		"icon-image": "{class}",
                 "icon-allow-overlap": true,
@@ -11860,6 +11861,7 @@
 	    "minzoom": 19,
 	    "filter": [ "all", [ "in", "class", "man_made_boundary_stone",
                                                 "tourism_informationmarker",
+                                                "tourism_informationprowmarker",
                                                 "tourism_informationroutemarker" ] ],
 	    "layout": {
 		"icon-image": "{class}",
@@ -11890,7 +11892,8 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 15,
-	    "filter": [ "all", [ "in", "class", "tourism_informationmarker" ],
+	    "filter": [ "all", [ "in", "class", "tourism_informationmarker",
+                                                "tourism_informationprowmarker" ],
                                [ "has", "nwnrelationlist" ],
                                [ "!=", "nhnrelation_in_list", true ] ],
 	    "layout": {
@@ -11954,7 +11957,8 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 15,
-	    "filter": [ "all", [ "in", "class", "tourism_informationmarker" ],
+	    "filter": [ "all", [ "in", "class", "tourism_informationmarker",
+                                                "tourism_informationprowmarker" ],
                                [ "has", "nwnrelationlist" ],
                                [ "==", "nhnrelation_in_list", true ] ],
 	    "layout": {
@@ -12020,6 +12024,7 @@
 	    "minzoom": 15,
 	    "filter": [ "all", [ "in", "class", "tourism_artwork",
                                                 "tourism_informationmarker",
+                                                "tourism_informationprowmarker",
                                                 "tourism_informationncndudgeon",
                                                 "tourism_informationncnmccoll",
                                                 "tourism_informationncnmills",

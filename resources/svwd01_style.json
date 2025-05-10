@@ -3714,9 +3714,10 @@
 		[ "!in", "edge", "ford" ],
                 [ "==", "tunnel", true ]
 	    ],
-	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#dedede",
+                "line-dasharray": [0.1, 0.05],
 		"line-width": {
 		    "stops": [
 			[ 12,  1.5 ],
@@ -3764,9 +3765,10 @@
 		[ "!in", "edge", "ford" ],
                 [ "==", "tunnel", true ]
 	    ],
-	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#dedede",
+                "line-dasharray": [0.1, 0.05],
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
@@ -3811,9 +3813,10 @@
 		[ "in", "class", "living_street" ],
                 [ "==", "tunnel", true ]
 	    ],
-	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#dedede",
+                "line-dasharray": [0.1, 0.05],
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
@@ -3858,9 +3861,10 @@
                                  "residential" ],
                 [ "==", "tunnel", true ]
 	    ],
-	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#dedede",
+                "line-dasharray": [0.1, 0.05],
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
@@ -3882,9 +3886,10 @@
 		[ "in", "class", "pedestrian" ],
                 [ "==", "tunnel", true ]
 	    ],
-	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "grey",
+                "line-dasharray": [0.1, 0.05],
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
@@ -3954,9 +3959,10 @@
 		                 "tertiary_link" ],
                 [ "==", "tunnel", true ]
 	    ],
-	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#dedede",
+                "line-dasharray": [0.1, 0.05],
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
@@ -4002,9 +4008,10 @@
 		                 "secondary_link" ],
                 [ "==", "tunnel", true ]
 	    ],
-	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#dedede",
+                "line-dasharray": [0.1, 0.05],
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
@@ -4052,9 +4059,10 @@
 		                 "primary_link" ],
                 [ "==", "tunnel", true ]
 	    ],
-	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#dedede",
+                "line-dasharray": [0.1, 0.05],
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
@@ -4102,9 +4110,10 @@
 		                 "trunk_link" ],
                 [ "==", "tunnel", true ]
 	    ],
-	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#dedede",
+                "line-dasharray": [0.1, 0.05],
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
@@ -4152,9 +4161,10 @@
 		                 "motorway_link" ],
                 [ "==", "tunnel", true ]
 	    ],
-	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#dedede",
+                "line-dasharray": [0.1, 0.05],
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [

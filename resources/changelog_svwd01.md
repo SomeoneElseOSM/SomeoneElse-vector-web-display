@@ -2,7 +2,7 @@
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 Except as noted, all changes also apply to the [SVWD06 Android native display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd06.md).  
 
-## As yet unreleased
+## 11/05/2025
 All road tunnels now have a dashed casing, although how well it shows up depends on background and zoom level.
 Low zoom rail ("railway-rail-darkfill-8-11") now shows bridges and tunnels.
 

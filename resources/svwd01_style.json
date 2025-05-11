@@ -7071,9 +7071,7 @@
 	    "filter": [
 		"all",
 		[ "in", "class", "rail",
-                                 "preserved" ],
-                [ "!=", "bridge", "yes" ],
-                [ "!=", "tunnel", true ]
+                                 "preserved" ]
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
 	    "paint": {

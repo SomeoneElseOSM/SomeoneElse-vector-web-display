@@ -4,6 +4,7 @@ Except as noted, all changes also apply to the [SVWD06 Android native display st
 
 ## As yet unreleased
 All road tunnels now have a dashed casing, although how well it shows up depends on background and zoom level.
+Low zoom rail ("railway-rail-darkfill-8-11") now shows bridges and tunnels.
 
 ## 09/05/2025
 Show PROW fingerposts in green.

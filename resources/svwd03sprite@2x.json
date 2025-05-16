@@ -1255,11 +1255,219 @@
 "y": 0
 }
 ,
-"tourism_viewpoint": {
+"tourism_information_audioguide": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
 "x": 10048,
+"y": 0
+}
+,
+"tourism_information_board": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 10112,
+"y": 0
+}
+,
+"tourism_information_citymap": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 10176,
+"y": 0
+}
+,
+"tourism_information_guidepost": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 10240,
+"y": 0
+}
+,
+"tourism_information_hikingmap": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 10304,
+"y": 0
+}
+,
+"tourism_information_history": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 10368,
+"y": 0
+}
+,
+"tourism_information_information_office": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 10432,
+"y": 0
+}
+,
+"tourism_information_map_board": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 10496,
+"y": 0
+}
+,
+"tourism_information_map": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 10560,
+"y": 0
+}
+,
+"tourism_information_marker": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 10624,
+"y": 0
+}
+,
+"tourism_information_model": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 10688,
+"y": 0
+}
+,
+"tourism_information_nature": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 10752,
+"y": 0
+}
+,
+"tourism_information_office": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 10816,
+"y": 0
+}
+,
+"tourism_information_plaque": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 10880,
+"y": 0
+}
+,
+"tourism_information_post": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 10944,
+"y": 0
+}
+,
+"tourism_information_public_transport": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 11008,
+"y": 0
+}
+,
+"tourism_information_route_marker": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 11072,
+"y": 0
+}
+,
+"tourism_information_sign": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 11136,
+"y": 0
+}
+,
+"tourism_information_stele": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 11200,
+"y": 0
+}
+,
+"tourism_information_stone": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 11264,
+"y": 0
+}
+,
+"tourism_information_tactile_map": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 11328,
+"y": 0
+}
+,
+"tourism_information_tactile_model": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 11392,
+"y": 0
+}
+,
+"tourism_information_terminal": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 11456,
+"y": 0
+}
+,
+"tourism_information_trail_blaze": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 11520,
+"y": 0
+}
+,
+"tourism_information_visitor_centre": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 11584,
+"y": 0
+}
+,
+"tourism_information_yes": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 11648,
+"y": 0
+}
+,
+"tourism_viewpoint": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 11712,
 "y": 0
 }
 }

@@ -1165,10 +1165,10 @@
 	    }
 	},
 	{
-	    "id": "street_polygons_labels-named-point-12",
+	    "id": "streets_polygons_labels-named-point-12",
 	    "type": "symbol",
 	    "source": "someoneelse",
-	    "source-layer": "street_polygons_labels",
+	    "source-layer": "streets_polygons_labels",
 	    "minzoom": 12,
 	    "filter": [ "all", [ "==", "$type", "Point" ],
                                [ "has", "name" ] ],
@@ -1192,10 +1192,10 @@
 	    }
 	},
 	{
-	    "id": "street_polygons_labels-unnamed-point-12",
+	    "id": "streets_polygons_labels-unnamed-point-12",
 	    "type": "symbol",
 	    "source": "someoneelse",
-	    "source-layer": "street_polygons_labels",
+	    "source-layer": "streets_polygons_labels",
 	    "minzoom": 12,
 	    "filter": [ "all", [ "==", "$type", "Point" ],
                                [ "!has", "name" ] ],
@@ -1219,10 +1219,10 @@
 	    }
 	},
 	{
-	    "id": "street_polygons_labels-named-other-14",
+	    "id": "streets_polygons_labels-named-other-14",
 	    "type": "symbol",
 	    "source": "someoneelse",
-	    "source-layer": "street_polygons_labels",
+	    "source-layer": "streets_polygons_labels",
 	    "minzoom": 14,
 	    "filter": [ "all", [ "!=", "$type", "Point" ],
                                [ "has", "name" ] ],
@@ -1246,10 +1246,10 @@
 	    }
 	},
 	{
-	    "id": "street_polygons_labels-unnamed-other-14",
+	    "id": "streets_polygons_labels-unnamed-other-14",
 	    "type": "symbol",
 	    "source": "someoneelse",
-	    "source-layer": "street_polygons_labels",
+	    "source-layer": "streets_polygons_labels",
 	    "minzoom": 14,
 	    "filter": [ "all", [ "!=", "$type", "Point" ],
                                [ "!has", "name" ] ],

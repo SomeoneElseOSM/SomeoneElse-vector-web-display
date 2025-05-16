@@ -6,7 +6,7 @@ Added guideposts and route markers, and other common `information` values.
 These are `tourism=information` and something like `information=guidepost` or `information=route_marker`.
 Sensible values down to a usage of 80 worldwide have been used.
 Icons are from [svwd01](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd01.md).
-None are documented in [the schema](https://shortbread-tiles.org/schema/1.0/) but they are written to [OSMF's demo vector tiles](https://community.openstreetmap.org/t/vector-tiles-on-osmf-hardware/121501).  
+In [the schema](https://shortbread-tiles.org/schema/1.0/) it says "The following attributes are set for selected features only. Their value comes from the equally named OSM keys." and they are written to [OSMF's demo vector tiles](https://community.openstreetmap.org/t/vector-tiles-on-osmf-hardware/121501).  
 
 ## 06/02/2025
 Display labels on bridleways etc. at different spacing depending on zoom.

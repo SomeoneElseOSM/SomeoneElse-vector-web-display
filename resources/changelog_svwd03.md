@@ -2,6 +2,12 @@
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
 ## 16/05/2025
+Change pedestrian area names to come from street_polygons_labels.  
+Also change the svwd05 layer to include more detail about different sorts of street_polygons_labels.
+See https://github.com/pnorman/spirit/issues/45 .
+These names don't actually appear yet (perhaps they are not written to the underlying tiles?).
+
+## 16/05/2025
 Added guideposts and route markers, and other common `information` values.
 These are `tourism=information` and something like `information=guidepost` or `information=route_marker`.
 Sensible values down to a usage of 80 worldwide have been used.

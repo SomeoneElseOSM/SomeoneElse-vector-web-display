@@ -7598,7 +7598,7 @@
 	    "id": "streets_polygons_labels-name-13",
 	    "type": "symbol",
 	    "source": "someoneelse",
-	    "source-layer": "street_polygons",
+	    "source-layer": "street_polygons_labels",
 	    "minzoom": 13,
 	    "filter": [ "all", [ "in", "kind", "pedestrian",
                                                "service" ] ],

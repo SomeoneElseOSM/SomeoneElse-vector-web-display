@@ -1165,11 +1165,13 @@
 	    }
 	},
 	{
-	    "id": "street_polygon_labels-12",
+	    "id": "street_polygons_labels-named-point-12",
 	    "type": "symbol",
 	    "source": "someoneelse",
-	    "source-layer": "street_polygon_labels",
+	    "source-layer": "street_polygons_labels",
 	    "minzoom": 12,
+	    "filter": [ "all", [ "==", "$type", "Point" ],
+                               [ "has", "name" ] ],
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{name}\n",
@@ -1183,7 +1185,88 @@
 		"visibility": "visible"
 	    },
 	    "paint": {
-		"text-color": "black",
+		"text-color": "brown",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "street_polygons_labels-unnamed-point-12",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "street_polygons_labels",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "==", "$type", "Point" ],
+                               [ "!has", "name" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "(unnamed)\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "brown",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "street_polygons_labels-named-other-14",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "street_polygons_labels",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "!=", "$type", "Point" ],
+                               [ "has", "name" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "brown",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "street_polygons_labels-unnamed-other-14",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "street_polygons_labels",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "!=", "$type", "Point" ],
+                               [ "!has", "name" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "(unnamed)\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "brown",
 		"text-halo-blur": 0.5,
 		"text-halo-color": "#ffffff",
 		"text-halo-width": 1

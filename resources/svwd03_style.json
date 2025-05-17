@@ -5363,7 +5363,9 @@
 	    "source-layer": "pois",
 	    "minzoom": 16,
 	    "filter": [ "all", [ "==", "amenity", "fast_food" ],
-                               [ "in", "cuisine", "pizza" ] ],
+                               [ "in", "cuisine", "pizza",
+                                                  "burger",
+                                                  "coffee_shop" ] ],
 	    "layout": {
 		"icon-image": "amenity_{amenity}_{cuisine}",
 		"text-anchor": "top",
@@ -5392,7 +5394,9 @@
 	    "source-layer": "pois",
 	    "minzoom": 16,
 	    "filter": [ "all", [ "==", "amenity", "fast_food" ],
-                               [ "!in", "cuisine", "pizza" ] ],
+                               [ "!in", "cuisine", "pizza",
+                                                   "burger",
+                                                   "coffee_shop" ] ],
 	    "layout": {
 		"icon-image": "amenity_{amenity}",
 		"text-anchor": "top",

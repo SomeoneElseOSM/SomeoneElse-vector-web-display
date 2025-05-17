@@ -104,6 +104,8 @@
 #
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fast_food.png                                   ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_fast_food.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/pizza.png                                       ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_fast_food_pizza.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fast_food_burger.png                            ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_fast_food_burger.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fast_food_coffee.png                            ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_fast_food_coffee_shop.png
 
 #
 # emergency
@@ -201,7 +203,10 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/travel_agent.p.16.png                           ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/shop_travel_agency.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/shopping_nonspecific.p.16.png                   ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/shop_video.png
 
+#
 # tourism
+# The catch-all icon is used when something is not an information value that we recognise (or not set)
+#
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/information.p.16.png                            ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/tourism_information.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/informationear.png                              ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/tourism_information_audioguide.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/informationboard.png                            ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/tourism_information_board.png

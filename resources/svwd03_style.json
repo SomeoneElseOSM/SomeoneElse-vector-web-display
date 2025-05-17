@@ -5321,7 +5321,6 @@
                                                 "courthouse",
                                                 "drinking_water",
                                                 "embassy",
-                                                "fast_food",
                                                 "fire_station",
                                                 "hunting_stand",
                                                 "library",
@@ -5358,7 +5357,65 @@
 	    }
 	},
 	{
-	    "id": "pois-tourisminformation-lightbrown-imagenameoverlap",
+	    "id": "pois-amenityfastfoodspecific-lightbrown-imagename-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "==", "amenity", "fast_food" ],
+                               [ "in", "cuisine", "pizza" ] ],
+	    "layout": {
+		"icon-image": "amenity_{amenity}_{cuisine}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+                "text-optional": true,
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#734a08",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "pois-amenityfastfoodother-lightbrown-imagename-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "==", "amenity", "fast_food" ],
+                               [ "!in", "cuisine", "pizza" ] ],
+	    "layout": {
+		"icon-image": "amenity_{amenity}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+                "text-optional": true,
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#734a08",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "pois-tourisminformationspecific-lightbrown-imagenameoverlap",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "pois",
@@ -5390,6 +5447,60 @@
                                                       "yes" ] ],
 	    "layout": {
 		"icon-image": "tourism_{tourism}_{information}",
+                "icon-allow-overlap": true,
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": { "stops": [ [ 15, [ 0, 0.6 ] ],
+                                            [ 18, [ 0, 1.2 ] ] ] },
+                "text-optional": true,
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#734a08",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "pois-tourisminformationnonspecific-lightbrown-imagenameoverlap",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "filter": [ "all", [ "==", "tourism", "information" ],
+                               [ "!in", "information", "audioguide",
+                                                      "board",
+                                                      "citymap",
+                                                      "guidepost",
+                                                      "hikingmap",
+                                                      "history",
+                                                      "information_office",
+                                                      "map",
+                                                      "map_board",
+                                                      "marker",
+                                                      "nature",
+                                                      "office",
+                                                      "plaque",
+                                                      "post",
+                                                      "public_transport",
+                                                      "route_marker",
+                                                      "sign",
+                                                      "stele",
+                                                      "stone",
+                                                      "tactile_map",
+                                                      "tactile_model",
+                                                      "terminal",
+                                                      "trail_blaze",
+                                                      "visitor_centre",
+                                                      "yes" ] ],
+	    "layout": {
+		"icon-image": "tourism_{tourism}",
                 "icon-allow-overlap": true,
 		"text-anchor": "top",
 		"text-field": "{name}\n",

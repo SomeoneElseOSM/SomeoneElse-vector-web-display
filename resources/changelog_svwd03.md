@@ -1,13 +1,20 @@
 # Changes made to the [SVWD03 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd03.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
-## 16/05/2025
+## 17/05/2025
+Added specific icons for some fast_food cuisines.
+These are `amenity=fast_food` and something like `cuisine=pizza`.
+Sensible values down to a usage of 110k worldwide have been used.
+Icons are again from [svwd01](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd01.md).
+Fixed bug where `tourism=information` without `information` was missing.
+
+## 16/05/2025 pm
 Change pedestrian area names to come from streets_polygons_labels.  
 Also change the svwd05 layer to include more detail about different sorts of streets_polygons_labels.
 See https://github.com/pnorman/spirit/issues/45 .
 Note the spelling ("streets" rather than "street"), which matches the [schema](https://shortbread-tiles.org/schema/1.0/).
 
-## 16/05/2025
+## 16/05/2025 am
 Added guideposts and route markers, and other common `information` values.
 These are `tourism=information` and something like `information=guidepost` or `information=route_marker`.
 Sensible values down to a usage of 80 worldwide have been used.

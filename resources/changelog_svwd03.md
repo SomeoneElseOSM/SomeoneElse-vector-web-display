@@ -4,7 +4,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 ## 17/05/2025
 Added specific icons for some fast_food cuisines.
 These are `amenity=fast_food` and something like `cuisine=pizza`.
-Sensible values down to a usage of 85k worldwide have been used.
+Sensible values down to a usage of 26k worldwide have been used.
 Icons are again from [svwd01](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd01.md).
 Fixed bug where `tourism=information` without `information` was missing.
 

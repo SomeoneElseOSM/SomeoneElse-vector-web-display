@@ -106,6 +106,14 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/pizza.png                                       ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_fast_food_pizza.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fast_food_burger.png                            ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_fast_food_burger.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fast_food_coffee.png                            ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_fast_food_coffee_shop.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fast_food.png                                   ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_fast_food_regional.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/chinese.png                                     ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_fast_food_chinese.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/pizza.png                                       ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_fast_food_italian.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fast_food_sandwich.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_fast_food_sandwich.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fast_food_chicken.png                           ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_fast_food_chicken.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fast_food.png                                   ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_fast_food_mexican.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/chinese.png                                     ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_fast_food_japanese.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fast_food_kebab.png                             ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_fast_food_kebab.png
 
 #
 # emergency

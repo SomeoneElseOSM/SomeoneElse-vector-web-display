@@ -4,6 +4,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 ## 18/05/2025
 Added more icons for fast_food cuisines.
 Non-semicolon values down to a usage of 1250 worldwide (0.10% of cuisine usage) have been added.
+Added the Mapbox RTL plugin so that RTL names look OK.  See https://community.openstreetmap.org/t/vector-tiles-on-osmf-hardware/121501/76 .
 
 ## 17/05/2025
 Added specific icons for some fast_food cuisines.

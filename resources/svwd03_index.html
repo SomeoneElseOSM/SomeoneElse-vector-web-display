@@ -28,6 +28,14 @@ fetch("/metadata")
 	.then(data => {
 		var styleURL = window.location.protocol+'//'+window.location.host+'/style.json';
 		var bounds = data['bounds'].split(',');
+
+// Currently RTL support isn't native in MapLibre GL, but a MapBox plugin does support it.
+// See https://maplibre.org/maplibre-gl-js/docs/examples/mapbox-gl-rtl-text/
+	        maplibregl.setRTLTextPlugin(
+		    'https://unpkg.com/@mapbox/mapbox-gl-rtl-text@0.3.0/dist/mapbox-gl-rtl-text.js',
+		    true // Lazy load the plugin
+		);
+
 		map = new maplibregl.Map({
 		    container: 'map', // container id
 		    style: styleURL, // stylesheet location

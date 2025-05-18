@@ -1,6 +1,10 @@
 # Changes made to the [SVWD03 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd03.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
+## 18/05/2025
+Added more icons for fast_food cuisines.
+Non-semicolon values down to a usage of 1250 worldwide (0.10% of cuisine usage) have been added.
+
 ## 17/05/2025
 Added specific icons for some fast_food cuisines.
 These are `amenity=fast_food` and something like `cuisine=pizza`.

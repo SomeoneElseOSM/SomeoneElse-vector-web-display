@@ -2673,11 +2673,10 @@
 	    }
 	},
 	{
-	    "id": "waterway-river-otherfill-11",
+	    "id": "waterway-river-otherfill",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "waterway",
-	    "minzoom": 11,
 	    "filter": [ "all", [ "in", "class", "river",
                                                 "canal" ],
                                [ "!=", "bridge", "yes" ],
@@ -10110,7 +10109,6 @@
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "waterway",
-	    "minzoom": 11,
 	    "filter": [ "all", [ "in", "class", "river",
                                                 "canal" ],
                                [ "==", "bridge", "yes" ] ],

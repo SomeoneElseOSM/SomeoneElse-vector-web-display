@@ -114,11 +114,10 @@
 	    }
 	},
 	{
-	    "id": "waterway-13",
+	    "id": "waterway",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "waterway",
-	    "minzoom": 13,
 	    "paint": {
 		"line-color": "blue",
 		"line-width": {

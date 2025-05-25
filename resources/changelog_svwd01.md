@@ -2,6 +2,9 @@
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 Except as noted, all changes also apply to the [SVWD06 Android native display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd06.md).  
 
+## As yet unreleased
+Show `military=range_marker` as military-coloured marker posts.
+
 ## 23/05/2025
 Removed minzoom from linear waterway display in svwd01, svwd04, and svwd06.  
 Rivers are extracted at 10, others at 11 and 12.

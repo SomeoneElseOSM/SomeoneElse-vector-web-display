@@ -4,6 +4,7 @@ Except as noted, all changes also apply to the [SVWD06 Android native display st
 
 ## As yet unreleased
 Show `military=range_marker` as military-coloured marker posts.
+Show `ele` values on `man_made=survey_point` and `man_made=cairn`.
 
 ## 23/05/2025
 Removed minzoom from linear waterway display in svwd01, svwd04, and svwd06.  

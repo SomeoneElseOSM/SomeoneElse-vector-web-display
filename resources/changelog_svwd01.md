@@ -2,9 +2,10 @@
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 Except as noted, all changes also apply to the [SVWD06 Android native display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd06.md).  
 
-## As yet unreleased
+## 26/05/2025
 Show `military=range_marker` as military-coloured marker posts.
 Show `ele` values on `man_made=survey_point` and `man_made=cairn`.
+Show larger trees (>10m, 20m, 30m crowns) larger on-screen.
 
 ## 23/05/2025
 Removed minzoom from linear waterway display in svwd01, svwd04, and svwd06.  

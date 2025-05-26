@@ -15809,17 +15809,21 @@
 	    }
 	},
 	{
-	    "id": "land1-natural-brown-imagenameoverlap-15",
+	    "id": "land1-naturaltree-brown-imagenameoverlap-15",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 15,
-	    "filter": [ "all", [ "in", "class", "natural_tree" ] ],
+	    "filter": [ "all", [ "in", "class", "natural_tree" ],
+                               [ "!=", "crown", "10m"  ],
+                               [ "!=", "crown", "20m"  ],
+                               [ "!=", "crown", "30m"  ] ],
 	    "layout": {
 		"icon-image": "{class}",
                 "icon-allow-overlap": true,
 		"icon-size": { "stops": [ [ 15, 0.5 ], 
                                           [ 17, 1.0 ], 
+                                          [ 19, 2.0 ], 
                                           [ 22, 8.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name}\n",
@@ -15828,6 +15832,112 @@
 		],
 		"text-max-width": 13,
 		"text-offset": [ 0, 0.6 ],
+                "text-optional": true,
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "brown",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1,
+		"icon-opacity": 0.7
+	    }
+	},
+	{
+	    "id": "land1-natural10mtree-brown-imagenameoverlap-15",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 15,
+	    "filter": [ "all", [ "in", "class", "natural_tree" ],
+                               [ "==", "crown", "10m"  ] ],
+	    "layout": {
+		"icon-image": "{class}",
+                "icon-allow-overlap": true,
+		"icon-size": { "stops": [ [ 15, 0.7 ], 
+                                          [ 17, 2.0 ], 
+                                          [ 19, 6.0 ], 
+                                          [ 22, 36.0 ] ] },
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+                "text-optional": true,
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "brown",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1,
+		"icon-opacity": 0.7
+	    }
+	},
+	{
+	    "id": "land1-natural20mtree-brown-imagenameoverlap-15",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 15,
+	    "filter": [ "all", [ "in", "class", "natural_tree" ],
+                               [ "==", "crown", "20m"  ] ],
+	    "layout": {
+		"icon-image": "{class}",
+                "icon-allow-overlap": true,
+		"icon-size": { "stops": [ [ 15, 1.1 ], 
+                                          [ 17, 3.6 ], 
+                                          [ 19, 10.8 ], 
+                                          [ 22, 60.0 ] ] },
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+                "text-optional": true,
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "brown",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1,
+		"icon-opacity": 0.7
+	    }
+	},
+	{
+	    "id": "land1-natural30mtree-brown-imagenameoverlap-15",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 15,
+	    "filter": [ "all", [ "in", "class", "natural_tree" ],
+                               [ "==", "crown", "30m"  ] ],
+	    "layout": {
+		"icon-image": "{class}",
+                "icon-allow-overlap": true,
+		"icon-size": { "stops": [ [ 15, 1.5 ], 
+                                          [ 17, 4.8 ], 
+                                          [ 19, 14.4 ], 
+                                          [ 22, 120.0 ] ] },
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+                "text-optional": true,
 		"text-padding": 2,
 		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
 		"visibility": "visible"

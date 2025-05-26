@@ -11899,7 +11899,9 @@
 	    "source-layer": "land1",
 	    "minzoom": 15,
 	    "filter": [ "all", [ "in", "class", "tourism_informationmarker",
-                                                "tourism_informationprowmarker" ],
+                                                "tourism_informationprowmarker",
+                                                "tourism_informationartwork",
+                                                "tourism_informationstele" ],
                                [ "has", "nwnrelationlist" ],
                                [ "!=", "nhnrelation_in_list", true ] ],
 	    "layout": {
@@ -11964,7 +11966,9 @@
 	    "source-layer": "land1",
 	    "minzoom": 15,
 	    "filter": [ "all", [ "in", "class", "tourism_informationmarker",
-                                                "tourism_informationprowmarker" ],
+                                                "tourism_informationprowmarker",
+                                                "tourism_informationartwork",
+                                                "tourism_informationstele" ],
                                [ "has", "nwnrelationlist" ],
                                [ "==", "nhnrelation_in_list", true ] ],
 	    "layout": {
@@ -12616,7 +12620,9 @@
                                                 "tourism_informationear",
                                                 "tourism_informationplaque",
                                                 "tourism_informationpublictransport",
-                                                "tourism_informationsign" ] ],
+                                                "tourism_informationsign",
+                                                "tourism_informationartwork",
+                                                "tourism_informationstele" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",

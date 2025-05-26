@@ -6,6 +6,7 @@ Except as noted, all changes also apply to the [SVWD06 Android native display st
 Show `military=range_marker` as military-coloured marker posts.
 Show `ele` values on `man_made=survey_point` and `man_made=cairn`.
 Show larger trees (>10m, 20m, 30m crowns) larger on-screen.
+Treat various other `information` values as either new (stele, artwork) or existing.
 
 ## 23/05/2025
 Removed minzoom from linear waterway display in svwd01, svwd04, and svwd06.  

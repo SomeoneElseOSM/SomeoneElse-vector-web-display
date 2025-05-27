@@ -778,6 +778,7 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/sluice.png                                      ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_sluice_gate.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/boundary_stone.png                              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_boundary_stone.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/golfballwasher.png                              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_golfballwasher.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/golfpin.png                                     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_golfpin.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/outfall.png                                     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_outfall.png
 #
 # natural

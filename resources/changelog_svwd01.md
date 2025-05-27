@@ -2,6 +2,9 @@
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 Except as noted, all changes also apply to the [SVWD06 Android native display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd06.md).  
 
+## 27/05/2025
+Use a characteristic icon for `golf=pin` rather than  generic leisure one.
+
 ## 26/05/2025
 Show `military=range_marker` as military-coloured marker posts.
 Show `ele` values on `man_made=survey_point` and `man_made=cairn`.

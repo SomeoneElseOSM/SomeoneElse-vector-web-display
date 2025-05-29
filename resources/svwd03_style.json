@@ -2865,7 +2865,29 @@
 	    }
 	},
 	{
-	    "id": "railway-rail-casing-12",
+	    "id": "railway-rail-darkfill-8-11",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "streets",
+	    "minzoom": 8,
+	    "maxzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "kind", "rail" ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#999999",
+		"line-width": {
+		    "stops": [
+			[  8,  0.4 ],
+			[ 11, 0.8 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "railway-rail-darkfill-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "streets",
@@ -2893,7 +2915,7 @@
 	    }
 	},
 	{
-	    "id": "railway-bus_guideway-casing-12",
+	    "id": "railway-bus_guideway-darkfill-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "streets",
@@ -3046,7 +3068,7 @@
 	    }
 	},
 	{
-	    "id": "railway-rail-fill-12",
+	    "id": "railway-rail-lightfill-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "streets",

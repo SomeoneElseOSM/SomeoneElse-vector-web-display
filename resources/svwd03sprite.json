@@ -1767,7 +1767,7 @@
 "y": 0
 }
 ,
-"tourism_information_audioguide": {
+"tourism_information_artwork": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1775,7 +1775,7 @@
 "y": 0
 }
 ,
-"tourism_information_board": {
+"tourism_information_audioguide": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1783,7 +1783,7 @@
 "y": 0
 }
 ,
-"tourism_information_citymap": {
+"tourism_information_bicyclemap": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1791,7 +1791,7 @@
 "y": 0
 }
 ,
-"tourism_information_guidepost": {
+"tourism_information_board": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1799,7 +1799,7 @@
 "y": 0
 }
 ,
-"tourism_information_hikingmap": {
+"tourism_information_citymap": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1807,7 +1807,7 @@
 "y": 0
 }
 ,
-"tourism_information_history": {
+"tourism_information_guidepost": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1815,7 +1815,7 @@
 "y": 0
 }
 ,
-"tourism_information_information_office": {
+"tourism_information_hikingmap": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1823,7 +1823,7 @@
 "y": 0
 }
 ,
-"tourism_information_map_board": {
+"tourism_information_history": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1831,7 +1831,7 @@
 "y": 0
 }
 ,
-"tourism_information_map": {
+"tourism_information_information_office": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1839,7 +1839,7 @@
 "y": 0
 }
 ,
-"tourism_information_marker": {
+"tourism_information_map_board": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1847,7 +1847,7 @@
 "y": 0
 }
 ,
-"tourism_information_model": {
+"tourism_information_map": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1855,7 +1855,7 @@
 "y": 0
 }
 ,
-"tourism_information_nature": {
+"tourism_information_marker": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1863,7 +1863,7 @@
 "y": 0
 }
 ,
-"tourism_information_office": {
+"tourism_information_model": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1871,7 +1871,7 @@
 "y": 0
 }
 ,
-"tourism_information_plaque": {
+"tourism_information_nature": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1879,7 +1879,7 @@
 "y": 0
 }
 ,
-"tourism_information": {
+"tourism_information_office": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1887,7 +1887,7 @@
 "y": 0
 }
 ,
-"tourism_information_post": {
+"tourism_information_plaque": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1895,7 +1895,7 @@
 "y": 0
 }
 ,
-"tourism_information_public_transport": {
+"tourism_information": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1903,7 +1903,7 @@
 "y": 0
 }
 ,
-"tourism_information_route_marker": {
+"tourism_information_post": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1911,7 +1911,7 @@
 "y": 0
 }
 ,
-"tourism_information_sign": {
+"tourism_information_public_transport": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1919,7 +1919,7 @@
 "y": 0
 }
 ,
-"tourism_information_stele": {
+"tourism_information_route_marker": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1927,7 +1927,7 @@
 "y": 0
 }
 ,
-"tourism_information_stone": {
+"tourism_information_sign": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1935,7 +1935,7 @@
 "y": 0
 }
 ,
-"tourism_information_tactile_map": {
+"tourism_information_signpost": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1943,7 +1943,7 @@
 "y": 0
 }
 ,
-"tourism_information_tactile_model": {
+"tourism_information_stele": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1951,7 +1951,7 @@
 "y": 0
 }
 ,
-"tourism_information_terminal": {
+"tourism_information_stone": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1959,7 +1959,7 @@
 "y": 0
 }
 ,
-"tourism_information_trail_blaze": {
+"tourism_information_tactile_map": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1967,7 +1967,7 @@
 "y": 0
 }
 ,
-"tourism_information_visitor_centre": {
+"tourism_information_tactile_model": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1975,7 +1975,7 @@
 "y": 0
 }
 ,
-"tourism_information_yes": {
+"tourism_information_terminal": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1983,11 +1983,27 @@
 "y": 0
 }
 ,
-"tourism_viewpoint": {
+"tourism_information_trail_blaze": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
 "x": 15872,
+"y": 0
+}
+,
+"tourism_information_visitor_centre": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 15936,
+"y": 0
+}
+,
+"tourism_viewpoint": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 16000,
 "y": 0
 }
 }

@@ -5569,8 +5569,7 @@
                                                       "tactile_model",
                                                       "terminal",
                                                       "trail_blaze",
-                                                      "visitor_centre",
-                                                      "yes" ] ],
+                                                      "visitor_centre" ] ],
 	    "layout": {
 		"icon-image": "tourism_{tourism}_{information}",
                 "icon-allow-overlap": true,
@@ -5623,8 +5622,7 @@
                                                       "tactile_model",
                                                       "terminal",
                                                       "trail_blaze",
-                                                      "visitor_centre",
-                                                      "yes" ] ],
+                                                      "visitor_centre" ] ],
 	    "layout": {
 		"icon-image": "tourism_{tourism}",
                 "icon-allow-overlap": true,

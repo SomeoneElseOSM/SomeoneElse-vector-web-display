@@ -1,6 +1,9 @@
 # Changes made to the [SVWD03 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd03.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
+## 29/05/2025
+Added some more `information` values for e.g. `stele`.
+
 ## 18/05/2025
 Added more icons for fast_food cuisines.
 Non-semicolon values down to a usage of 1250 worldwide (0.10% of cuisine usage) have been added.

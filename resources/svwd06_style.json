@@ -11450,7 +11450,7 @@
 	    "source-layer": "land1",
 	    "minzoom": 16,
 	    "filter": [ "all", [ "in", "class", "leisure_leisurenonspecific",
-                                                "leisure_dog_park" ],
+                                                "leisure_dog_park",
                                                 "man_made_golfpin" ],
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {

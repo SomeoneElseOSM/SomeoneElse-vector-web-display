@@ -3,6 +3,9 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 
 ## 29/05/2025
 Added some more `information` values for e.g. `stele`.
+Fix the draw order of highways so that all casings are drawn before all fills.
+Fix the draw order of trams so that they are drawn after highways.
+Change the display or trams so that they match svwd01 (and don't look like svwd01 embankments).
 
 ## 18/05/2025
 Added more icons for fast_food cuisines.

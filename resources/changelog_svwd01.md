@@ -2,6 +2,9 @@
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 Except as noted, all changes also apply to the [SVWD06 Android native display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd06.md).  
 
+## 01/06/2025
+Use a unique icon for Indian resturants.
+
 ## 27/05/2025
 Use a characteristic icon for `golf=pin` rather than  generic leisure one.
 

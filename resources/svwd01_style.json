@@ -13869,7 +13869,7 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 9,
-	    "minzoom": 11,
+	    "maxzoom": 11,
 	    "filter": [ "all", [ "in", "class", "natural_bigpeak" ] ],
 	    "layout": {
 		"icon-image": "{class}",

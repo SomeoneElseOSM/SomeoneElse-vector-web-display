@@ -4,6 +4,7 @@ Except as noted, all changes also apply to the [SVWD06 Android native display st
 
 ## As yet unreleased
 Use a unique icon for ice cream restaurants.
+Use a unique icon for Caribbean fast food and restaurants.
 
 ## 07/06/2025
 Use a unique icon for British fast food and Regional, Mexican, Greek, French and seafood fast food and restaurants.

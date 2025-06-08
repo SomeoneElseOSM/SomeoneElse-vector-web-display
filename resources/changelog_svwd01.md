@@ -2,9 +2,9 @@
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 Except as noted, all changes also apply to the [SVWD06 Android native display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd06.md).  
 
-## As yet unreleased
+## 08/06/2025
 Use a unique icon for ice cream restaurants.
-Use a unique icon for Caribbean, Lebanese, dessert and Spanish fast food and restaurants.
+Use a unique icon for Caribbean, Lebanese, dessert, Spanish and African fast food and restaurants.
 Use a unique icon for donut fast food places.
 
 ## 07/06/2025

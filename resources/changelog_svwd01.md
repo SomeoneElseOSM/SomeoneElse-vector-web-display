@@ -3,7 +3,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 Except as noted, all changes also apply to the [SVWD06 Android native display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd06.md).  
 
 ## As yet unreleased
-Show `wheelchair` flash on `amenity=fast_food` with `cuisine=fish_and_chips`.
+Show `wheelchair` flash on `amenity=fast_food` with no `cuisine` and `cuisine=fish_and_chips`.
 
 ## 09/06/2025
 Fix a bug to ensure that "big peaks" (that aren't prominent ones) are shown an vector zooms 9 and 10.

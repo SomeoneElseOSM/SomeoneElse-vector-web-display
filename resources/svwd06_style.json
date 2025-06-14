@@ -13453,7 +13453,10 @@
                                                 "amenity_fast_food_chicken",
                                                 "amenity_fast_food_chinese",
                                                 "amenity_fast_food_coffee",
-                                                "amenity_fast_food_fish_and_chips",
+                                                "amenity_fast_food_fish_and_chips_y",
+                                                "amenity_fast_food_fish_and_chips_l",
+                                                "amenity_fast_food_fish_and_chips_n",
+                                                "amenity_fast_food_fish_and_chips_d",
                                                 "amenity_fast_food_ice_cream",
                                                 "amenity_fast_food_indian",
                                                 "amenity_fast_food_kebab",
@@ -15890,7 +15893,7 @@
 	    "minzoom": 15,
 	    "filter": [ "in", "class", "natural_tree_10m" ],
 	    "layout": {
-		"icon-image": "{class}",
+		"icon-image": "natural_tree",
                 "icon-allow-overlap": true,
 		"icon-size": { "stops": [ [ 15, 0.7 ], 
                                           [ 17, 2.0 ], 
@@ -15924,7 +15927,7 @@
 	    "minzoom": 15,
 	    "filter": [ "in", "class", "natural_tree_20m" ],
 	    "layout": {
-		"icon-image": "{class}",
+		"icon-image": "natural_tree",
                 "icon-allow-overlap": true,
 		"icon-size": { "stops": [ [ 15, 1.1 ], 
                                           [ 17, 3.6 ], 
@@ -15958,7 +15961,7 @@
 	    "minzoom": 15,
 	    "filter": [ "in", "class", "natural_tree_30m" ],
 	    "layout": {
-		"icon-image": "{class}",
+		"icon-image": "natural_tree",
                 "icon-allow-overlap": true,
 		"icon-size": { "stops": [ [ 15, 1.5 ], 
                                           [ 17, 4.8 ],

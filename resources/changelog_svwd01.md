@@ -2,6 +2,10 @@
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 Except as noted, all changes also apply to the [SVWD06 Android native display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd06.md).  
 
+## As yet unreleased
+Allow post boxes and similar brown things shown in the same layer to overlap other icons.  This was already the case for some other small brown things.
+Show `wheelchair` flash on `amenity=restaurant` with `cuisine=indian`.
+
 ## 19/06/2025
 Show `wheelchair` flash on `amenity=fast_food` with no `cuisine` and `cuisine=fish_and_chips`, `chinese`, `pizza`, `sandwich`, `burger`, `chicken`, `indian`.
 

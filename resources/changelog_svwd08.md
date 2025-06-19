@@ -1,5 +1,8 @@
 # Changes made to the [SVWD08 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd08.md).  
 
+## 19/06/2025
+Apply a number of style changes from svwd01 to svwd08, correcting some draw order issues and adding some new icon combinations.
+
 ## 17/04/2025
 Fixed a bug where trunk "bridge sides" weren't being shown if unwalkable - they should appear as it is still a bridge.
 

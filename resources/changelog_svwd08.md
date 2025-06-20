@@ -1,7 +1,7 @@
 # Changes made to the [SVWD08 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd08.md).  
 
 ## As yet unreleased
-Show `wheelchair` flash on `amenity=restaurant` with no `cuisine`, `cuisine=indian`, `cuisine=chinese` and `cuisine=italian`.
+Show `wheelchair` flash on `amenity=restaurant` with no `cuisine`, `cuisine=indian`, `cuisine=chinese`, `cuisine=italian` and `cuisine=fish_and_chips`.
 
 ## 19/06/2025
 Apply a number of style changes from svwd01 to svwd08, correcting some draw order issues and adding some new icon combinations.

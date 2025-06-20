@@ -4,7 +4,7 @@ Except as noted, all changes also apply to the [SVWD06 Android native display st
 
 ## As yet unreleased
 Allow post boxes and similar brown things shown in the same layer to overlap other icons.  This was already the case for some other small brown things.
-Show `wheelchair` flash on `amenity=restaurant` with no `cuisine`, `cuisine=indian`, `cuisine=chinese`, `cuisine=italian`, `cuisine=fish_and_chips` and `cuisine=burger`.
+Show `wheelchair` flash on `amenity=restaurant` with no `cuisine`, `cuisine=indian`, `cuisine=chinese`, `cuisine=italian`, `cuisine=fish_and_chips`, `cuisine=burger` and `cuisine=coffee_shop` and synonyms.
 
 ## 19/06/2025
 Show `wheelchair` flash on `amenity=fast_food` with no `cuisine` and `cuisine=fish_and_chips`, `chinese`, `pizza`, `sandwich`, `burger`, `chicken`, `indian`.

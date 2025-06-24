@@ -4,6 +4,7 @@ Except as noted, all changes also apply to the [SVWD06 Android native display st
 
 ## As yet unreleased
 Show `wheelchair` flash on `amenity=fast_food` with `cuisine=kebab` and synonyms.
+Show `wheelchair` flash on `amenity=restaurant` with `cuisine=british` and synonyms.
 
 ## 23/06/2025
 Allow post boxes and similar brown things shown in the same layer to overlap other icons.  This was already the case for some other small brown things.

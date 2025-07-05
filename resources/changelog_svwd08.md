@@ -3,6 +3,8 @@
 ## As yet unreleased
 Replace `cafe` icon with a line-drawn one that looks much nicer.
 Use a distinctive icon for `cafe=bubble_tea` and use restaurant icons for e.g. `fish_and_chips`.
+Include galleries with artworks in former telephone box uses.
+Show noncommercial art galleries with a unique museum-like icon.
 
 ## 03/07/2025
 Show `wheelchair` flash on `amenity=fast_food` with `cuisine=kebab`, `cuisine=mexican` and synonyms.

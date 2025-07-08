@@ -19889,7 +19889,8 @@
 	    "source": "someoneelse",
 	    "source-layer": "place",
 	    "minzoom": 18,
-	    "filter": [ "in", "class", "island" ],
+	    "filter": [ "in", "class", "island",
+                                       "locality" ],
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{name}\n",
@@ -19916,7 +19917,8 @@
 	    "source": "someoneelse",
 	    "source-layer": "place",
 	    "minzoom": 17,
-	    "filter": [ "all", [ "in", "class", "island" ],
+	    "filter": [ "all", [ "in", "class", "island",
+                                                "locality" ],
                                [ ">", "way_area", 1000 ] ],
 	    "layout": {
 		"text-anchor": "top",
@@ -19944,7 +19946,8 @@
 	    "source": "someoneelse",
 	    "source-layer": "place",
 	    "minzoom": 16,
-	    "filter": [ "all", [ "in", "class", "island" ],
+	    "filter": [ "all", [ "in", "class", "island",
+                                                "locality" ],
                                [ ">", "way_area", 2000 ] ],
 	    "layout": {
 		"text-anchor": "top",
@@ -19972,7 +19975,8 @@
 	    "source": "someoneelse",
 	    "source-layer": "place",
 	    "minzoom": 15,
-	    "filter": [ "all", [ "in", "class", "island" ],
+	    "filter": [ "all", [ "in", "class", "island",
+                                                "locality" ],
                                [ ">", "way_area", 10000 ] ],
 	    "layout": {
 		"text-anchor": "top",
@@ -20000,7 +20004,8 @@
 	    "source": "someoneelse",
 	    "source-layer": "place",
 	    "minzoom": 14,
-	    "filter": [ "all", [ "in", "class", "island" ],
+	    "filter": [ "all", [ "in", "class", "island",
+                                                "locality" ],
                                [ ">", "way_area", 50000 ] ],
 	    "layout": {
 		"text-anchor": "top",
@@ -20028,7 +20033,8 @@
 	    "source": "someoneelse",
 	    "source-layer": "place",
 	    "maxzoom": 14,
-	    "filter": [ "all", [ "in", "class", "island" ] ],
+	    "filter": [ "all", [ "in", "class", "island",
+                                                "locality" ] ],
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{name}\n",

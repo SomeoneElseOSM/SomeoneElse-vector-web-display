@@ -16188,7 +16188,6 @@
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "minzoom": 8,
 	    "filter": [ "all", [ "in", "class", "place_sea" ],
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {

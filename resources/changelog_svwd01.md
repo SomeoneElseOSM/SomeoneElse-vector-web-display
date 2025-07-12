@@ -3,7 +3,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 Except as noted, all changes also apply to the [SVWD06 Android native display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd06.md).  
 
 ## As yet unreleased
-Always show `place=sea` if in the tile; the extract will add it based on the size of the feature.
+Always show `place=sea` if present in the tile - assume that it will have been written to only those tiles that it is relevant for (small seas, large zooms; large seas, small zooms).
 
 ## 09/07/2025
 Show  way and relation `place=locality` at the same zoom levels as `place=island`.  This includes things like large peninsulas.

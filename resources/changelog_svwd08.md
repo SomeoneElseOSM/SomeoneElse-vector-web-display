@@ -1,7 +1,7 @@
 # Changes made to the [SVWD08 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd08.md).  
 
 ## As yet unreleased
-Always show `place=sea` if in the tile; the extract will add it based on the size of the feature.
+Always show `place=sea` if present in the tile - assume that it will have been written to only those tiles that it is relevant for (small seas, large zooms; large seas, small zooms).
 
 ## 09/07/2025
 Show  way and relation `place=locality` at the same zoom levels as `place=island`.  This includes things like large peninsulas.

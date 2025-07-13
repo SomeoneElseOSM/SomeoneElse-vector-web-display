@@ -5000,7 +5000,7 @@
 	    "filter": [ "in", "class", "natural_valley" ],
 	    "layout": {
 		"text-field": "{name}",
-		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"text-font": [ "KlokanTech Noto Sans Italic" ],
 		"symbol-placement": "line",
 		"symbol-spacing": 500,
 		"text-anchor": "bottom",

@@ -2150,7 +2150,8 @@
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "filter": [ "all", [ "in", "class", "natural_water" ] ],
+	    "filter": [ "all", [ "in", "class", "natural_water" ],
+                               [ "!=", "tunnel", true ] ],
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#b5d0d0"

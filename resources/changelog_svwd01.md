@@ -4,6 +4,7 @@ Except as noted, all changes also apply to the [SVWD06 Android native display st
 
 ## As yet unreleased
 Change the text for valleys to italics, to match islands, peninsulas, etc.
+Don't show `natural=water` areas for which `tunnel` is set.
 
 ## 13/07/2025
 Always show `place=sea` if present in the tile - assume that it will have been written to only those tiles that it is relevant for (small seas, large zooms; large seas, small zooms).

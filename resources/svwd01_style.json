@@ -16363,12 +16363,29 @@
 	    "source-layer": "linearbarrier",
 	    "minzoom": 13,
 	    "filter": [ "all", [ "in", "class", "barrier_gate",
-                                                "barrier_gate_locked",
                                                 "barrier_lift_gate",
                                                 "waterway_lock_gate",
                                                 "waterway_sluice_gate" ] ],
 	    "paint": {
 		"line-color": "#444",
+		"line-width": {
+		    "base": 1.2,
+		    "stops": [
+			[ 15,  1.2 ],
+			[ 20,  4.8 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "barrier-lockedgate-13",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "linearbarrier",
+	    "minzoom": 13,
+	    "filter": [ "all", [ "in", "class",  "barrier_gate_locked" ] ],
+	    "paint": {
+		"line-color": "black",
 		"line-width": {
 		    "base": 1.2,
 		    "stops": [

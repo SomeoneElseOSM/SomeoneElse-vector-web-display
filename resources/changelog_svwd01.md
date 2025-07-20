@@ -6,6 +6,7 @@ Except as noted, all changes also apply to the [SVWD06 Android native display st
 Change the text for valleys to italics, to match islands, peninsulas, etc.
 Don't show `natural=water` areas for which `tunnel` is set.
 Display pedestrian areas and transport platforms above linear waterway tunnels.
+Made the dashed casing on waterway stream and ditch tunnels more visible.
 
 ## 13/07/2025
 Always show `place=sea` if present in the tile - assume that it will have been written to only those tiles that it is relevant for (small seas, large zooms; large seas, small zooms).

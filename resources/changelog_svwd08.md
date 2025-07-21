@@ -1,5 +1,8 @@
 # Changes made to the [SVWD08 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd08.md).  
 
+## As yet unreleased
+Show hedges in a slightly darker colour than wood.
+
 ## 21/07/2025
 Change the text for valleys to italics, to match islands, peninsulas, etc.
 Don't show `natural=water` areas for which `tunnel` is set.

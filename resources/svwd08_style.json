@@ -1434,7 +1434,7 @@
 	    "filter": [ "all", [ "in", "class", "barrier_hedge" ] ],
 	    "paint": {
 		"fill-antialias": true,
-		"fill-color": "#aed1a0"
+		"fill-color": "#90c8a1"
 	    }
 	},
 	{
@@ -15503,7 +15503,7 @@
 	    "filter": [ "all", [ "in", "class", "barrier_hedge",
                                                 "barrier_hedgeline" ] ],
 	    "paint": {
-		"line-color": "#aed1a0",
+		"line-color": "#90c8a1",
 		"line-width": {
 		    "base": 1.5,
 		    "stops": [

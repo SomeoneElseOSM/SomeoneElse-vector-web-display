@@ -8031,11 +8031,10 @@
 	    }
 	},
 	{
-	    "id": "place_labels-city-0",
+	    "id": "place_labels-city",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "place_labels",
-	    "minzoom": 0,
 	    "filter": [ "in", "kind", "city" ],
 	    "layout": {
 		"text-anchor": "top",
@@ -8059,11 +8058,10 @@
 	    }
 	},
 	{
-	    "id": "place_labels-capital-0",
+	    "id": "place_labels-capital",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "place_labels",
-	    "minzoom": 0,
 	    "filter": [ "in", "kind", "capital",
                                       "state_capital" ],
 	    "layout": {

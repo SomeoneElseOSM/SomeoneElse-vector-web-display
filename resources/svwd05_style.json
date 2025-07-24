@@ -1357,11 +1357,10 @@
 	    "minzoom": 13
 	},
 	{
-	    "id": "named-place-6",
+	    "id": "named-place",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "place_labels",
-	    "minzoom": 6,
 	    "filter": [ "all", [ "has", "name" ] ],
 	    "layout": {
 		"text-anchor": "top",
@@ -1383,11 +1382,10 @@
 	    }
 	},
 	{
-	    "id": "unnamed-place-6",
+	    "id": "unnamed-place",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "place_labels",
-	    "minzoom": 6,
 	    "filter": [ "all", [ "!has", "name" ] ],
 	    "layout": {
 		"text-anchor": "top",

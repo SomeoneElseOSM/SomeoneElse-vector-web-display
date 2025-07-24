@@ -1,6 +1,9 @@
 # Changes made to the [SVWD03 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd03.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
+## 25/07/2025
+Removed minzoom settings from named and unnamed places in the svwd05 debug layer.
+
 ## 29/05/2025
 Added some more `information` values for e.g. `stele`.
 Fix the draw order of highways so that all casings are drawn before all fills.

@@ -2,8 +2,9 @@
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 Except as noted, all changes also apply to the [SVWD06 Android native display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd06.md).  
 
-## As yet unreleased
+## 24/07/2025
 Show hedges in a slightly darker colour than wood.
+Change MapLibre library to 5.6.1 (likely no visible effect)
 
 ## 21/07/2025
 Change the text for valleys to italics, to match islands, peninsulas, etc.

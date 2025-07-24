@@ -1,7 +1,8 @@
 # Changes made to the [SVWD08 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd08.md).  
 
-## As yet unreleased
+## 24/07/2025
 Show hedges in a slightly darker colour than wood.
+Change MapLibre library to 5.6.1 (likely no visible effect)
 
 ## 21/07/2025
 Change the text for valleys to italics, to match islands, peninsulas, etc.

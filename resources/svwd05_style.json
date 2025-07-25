@@ -265,7 +265,7 @@
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "water_polygons",
-	    "minzoom": 12,
+	    "minzoom": 10,
 	    "paint": {
 		"line-color": "blue",
                 "line-dasharray": [2.0, 4.0],
@@ -778,11 +778,11 @@
 	    }
 	},
 	{
-	    "id": "water_polygons-named-point-12",
+	    "id": "water_polygons-named-point-10",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "water_polygons_labels",
-	    "minzoom": 12,
+	    "minzoom": 10,
 	    "filter": [ "all", [ "==", "$type", "Point" ],
                                [ "has", "name" ] ],
 	    "layout": {
@@ -805,11 +805,11 @@
 	    }
 	},
 	{
-	    "id": "water_polygons-unnamed-point-12",
+	    "id": "water_polygons-unnamed-point-10",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "water_polygons_labels",
-	    "minzoom": 12,
+	    "minzoom": 10,
 	    "filter": [ "all", [ "==", "$type", "Point" ],
                                [ "!has", "name" ] ],
 	    "layout": {
@@ -832,11 +832,11 @@
 	    }
 	},
 	{
-	    "id": "water_polygons-named-other-14",
+	    "id": "water_polygons-named-other-10",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "water_polygons_labels",
-	    "minzoom": 14,
+	    "minzoom": 10,
 	    "filter": [ "all", [ "!=", "$type", "Point" ],
                                [ "has", "name" ] ],
 	    "layout": {
@@ -859,11 +859,11 @@
 	    }
 	},
 	{
-	    "id": "water_polygons-unnamed-other-14",
+	    "id": "water_polygons-unnamed-other-10",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "water_polygons_labels",
-	    "minzoom": 14,
+	    "minzoom": 10,
 	    "filter": [ "all", [ "!=", "$type", "Point" ],
                                [ "!has", "name" ] ],
 	    "layout": {

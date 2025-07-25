@@ -3,6 +3,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 
 ## 25/07/2025
 Removed minzoom settings from named and unnamed places in the svwd05 debug layer.
+Reduced water_polygons min zoom lever from maxzoom 12 to 10.
 
 ## 29/05/2025
 Added some more `information` values for e.g. `stele`.

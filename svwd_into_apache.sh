@@ -81,6 +81,7 @@ else
     else
 	if [ -f "${SPEC_SOURCE}" ]
 	then
+	    mkdir -p ${APACHE_SUBDIR}
 	    sed "s!SPEC_NAME!${DEPLOYMENT_NAME}!" ${SPEC_SOURCE}  | sed "s!SPEC_DESCRIPTION!${DEPLOYMENT_NAME}!" | sed "s!PBF_URL!${DEPLOYMENT_URL}/${TILESET_NAME}/{z}/{x}/{y}.pbf!" > ${APACHE_SUBDIR}/spec_${DEPLOYMENT_NAME}.json
 	    echo "Created spec file:     ${APACHE_SUBDIR}/spec_${DEPLOYMENT_NAME}.json"
 	else

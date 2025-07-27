@@ -172,6 +172,11 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fast_food_pie.png                               ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_fast_food_cornish_pasty.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fast_food_pie.png                               ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_fast_food_pie.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fast_food_pie.png                               ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_fast_food_pies.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fast_food_british.png                           ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_fast_food_british.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fast_food_british.png                           ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_fast_food_english.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fast_food_british.png                           ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_fast_food_pie_and_mash.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fast_food_british.png                           ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_fast_food_pub.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fast_food_british.png                           ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_fast_food_modern_british.png
 
 #
 # emergency

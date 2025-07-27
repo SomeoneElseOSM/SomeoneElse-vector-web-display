@@ -30,9 +30,9 @@
 # with e.g. ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh
 #
 # Dependencies:  Command used:  Installed via
-# ImageMagick    montage        sudo apt install imagemagick (Ubuntu 22.04)
-# "              "              sudo apt install graphicsmagick-imagemagick-compat (Debian 12,
-#                               but see caveat below)
+# ImageMagick    montage        sudo apt install imagemagick (Debian 11, Ubuntu 22.04, Debian 12)
+# "              "              sudo apt install graphicsmagick-imagemagick-compat (where real
+#                               one unavailable, but see caveat below)
 # jsonlint       jsonlint-php   sudo apt install jsonlint
 #
 # Parameter: For example:     Meaning:
@@ -43,24 +43,13 @@
 ICON_SOURCE=$1
 SPRITE_LOCATION=$2
 #
-#
-# Are we running on Ubuntu 22.04 or Debian 12?
 # The montage comes from different packages and arguments are different.
-# The Debian one seems very much the poor relation and the -geometry option does not work there
-# in the same way (splodges instead of images are produced)
+# The graphicsmagick-imagemagick-compat one seems very much the poor relation and the -geometry
+# option does not work there in the same way (splodges instead of images are produced)
 #
-# Historically there was a check for Ubuntu 22.04 here.  Debian 12 was an issue but Debian 11 is not.
-# Removing check as the more functional ImageMagick now seems to be available?
+# Historically there was a check for Ubuntu 22.04 here, but modern Debian 11 and Debian 12 do have a
+# genuine imagemagick available, so the arguments for that apply for all OSes now.
 #
-#wclines=`grep VERSION_ID /etc/os-release | grep 22.04 | wc -l`;
-#if [ $wclines -eq 1 ]
-#then
-#    # Ubuntu 22.04
-#    IMAGEMAGICK_ARGS="-geometry 64x64 -support 1.0"
-#else
-#    # Debian 12, and everything else
-#    IMAGEMAGICK_ARGS=""
-#fi
 IMAGEMAGICK_ARGS="-geometry 64x64 -support 1.0"
 #
 # -----------------------------------------------------------------------------

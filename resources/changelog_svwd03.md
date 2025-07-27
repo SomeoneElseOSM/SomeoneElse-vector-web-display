@@ -5,6 +5,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 Added more icons for fast_food cuisines, where icons are already available from the svwd01 style.
 These are `amenity=fast_food` and something like `cuisine=british`.
 Icons are again from [svwd01](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd01.md).
+Added some icons for restaurant cuisines, where icons are already available from the svwd01 style.
 
 ## 25/07/2025
 Removed minzoom settings from named and unnamed places in the svwd05 debug layer.

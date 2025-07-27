@@ -5485,6 +5485,10 @@
                                                   "peruvian",
                                                   "caribbean",
                                                   "grill",
+                                                  "pasties",
+                                                  "pasty",
+                                                  "cornish_pasty",
+                                                  "pie",
                                                   "pies" ] ],
 	    "layout": {
 		"icon-image": "amenity_{amenity}_{cuisine}",
@@ -5578,6 +5582,10 @@
                                                    "peruvian",
                                                    "caribbean",
                                                    "grill",
+                                                   "pasties",
+                                                   "pasty",
+                                                   "cornish_pasty",
+                                                   "pie",
                                                    "pies" ] ],
 	    "layout": {
 		"icon-image": "amenity_{amenity}",

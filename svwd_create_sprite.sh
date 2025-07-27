@@ -49,16 +49,23 @@ SPRITE_LOCATION=$2
 # The Debian one seems very much the poor relation and the -geometry option does not work there
 # in the same way (splodges instead of images are produced)
 #
-wclines=`grep VERSION_ID /etc/os-release | grep 22.04 | wc -l`;
-if [ $wclines -eq 1 ]
-then
-    # Ubuntu 22.04
-    IMAGEMAGICK_ARGS="-geometry 64x64 -support 1.0"
-else
-    # Debian 12, and everything else
-    IMAGEMAGICK_ARGS=""
-fi
+# Historically there was a check for Ubuntu 22.04 here.  Debian 12 was an issue but Debian 11 is not.
+# Removing check as the more functional ImageMagick now seems to be available?
 #
+#wclines=`grep VERSION_ID /etc/os-release | grep 22.04 | wc -l`;
+#if [ $wclines -eq 1 ]
+#then
+#    # Ubuntu 22.04
+#    IMAGEMAGICK_ARGS="-geometry 64x64 -support 1.0"
+#else
+#    # Debian 12, and everything else
+#    IMAGEMAGICK_ARGS=""
+#fi
+IMAGEMAGICK_ARGS="-geometry 64x64 -support 1.0"
+#
+# -----------------------------------------------------------------------------
+# The "128" below corresponds to some default (but modifiable) limites for montage.
+# The code below supports multiple lines anyway, so we don't need to exceed those.
 # -----------------------------------------------------------------------------
 if [ "${ICON_SOURCE}" = "" ]
 then
@@ -78,7 +85,7 @@ else
 	    # -----------------------------------------------------------------------------
 	    # Then, create the sprite .png
 	    # -----------------------------------------------------------------------------
-	    NUMBEROFROWS="$((( ${NUMBEROFICONS} / 512 ) + 1 ))"
+	    NUMBEROFROWS="$((( ${NUMBEROFICONS} / 128 ) + 1 ))"
 	    NUMBEROFCOLS="$((( ${NUMBEROFICONS} / ${NUMBEROFROWS} ) + 1 ))"
 	    echo "There will be ${NUMBEROFROWS} rows and ${NUMBEROFCOLS} columns"
 	    montage -background "transparent" -depth 8 -type TrueColorMatte ${ICON_SOURCE}/*.png ${IMAGEMAGICK_ARGS} -tile ${NUMBEROFCOLS}x${NUMBEROFROWS} -matte -transparent "transparent" -type TrueColorMatte -depth 8 ${SPRITE_LOCATION}@2x.png

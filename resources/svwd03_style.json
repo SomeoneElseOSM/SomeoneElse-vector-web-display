@@ -5484,7 +5484,8 @@
                                                   "salad",
                                                   "peruvian",
                                                   "caribbean",
-                                                  "grill" ] ],
+                                                  "grill",
+                                                  "pies" ] ],
 	    "layout": {
 		"icon-image": "amenity_{amenity}_{cuisine}",
 		"text-anchor": "top",
@@ -5576,7 +5577,8 @@
                                                    "salad",
                                                    "peruvian",
                                                    "caribbean",
-                                                   "grill" ] ],
+                                                   "grill",
+                                                   "pies" ] ],
 	    "layout": {
 		"icon-image": "amenity_{amenity}",
 		"text-anchor": "top",

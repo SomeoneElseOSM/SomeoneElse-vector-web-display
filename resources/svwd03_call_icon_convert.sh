@@ -167,6 +167,11 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fast_food.png                                   ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_fast_food_peruvian.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fast_food.png                                   ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_fast_food_caribbean.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fast_food_burger.png                            ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_fast_food_grill.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fast_food_pie.png                               ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_fast_food_pasties.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fast_food_pie.png                               ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_fast_food_pasty.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fast_food_pie.png                               ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_fast_food_cornish_pasty.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fast_food_pie.png                               ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_fast_food_pie.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fast_food_pie.png                               ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_fast_food_pies.png
 
 #
 # emergency

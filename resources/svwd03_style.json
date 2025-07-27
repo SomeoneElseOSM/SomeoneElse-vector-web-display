@@ -5366,6 +5366,96 @@
 	    }
 	},
 	{
+	    "id": "pois-amenityrestaurantspecific-lightbrown-imagename-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "amenity", "restaurant" ],
+                               [ "in", "cuisine", "burger",
+                                                  "coffee_shop",
+                                                  "chinese",
+                                                  "italian",
+                                                  "sandwich",
+                                                  "chicken",
+                                                  "mexican",
+                                                  "kebab",
+                                                  "indian",
+                                                  "ice_cream",
+                                                  "french",
+                                                  "seafood",
+                                                  "greek",
+                                                  "fish_and_chips",
+                                                  "spanish",
+                                                  "african",
+                                                  "caribbean" ] ],
+	    "layout": {
+		"icon-image": "amenity_{amenity}_{cuisine}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+                "text-optional": true,
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#734a08",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "pois-amenityrestaurantnonspecific-lightbrown-imagename-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "amenity", "restaurant" ],
+                               [ "!in", "cuisine", "burger",
+                                                  "coffee_shop",
+                                                  "chinese",
+                                                  "italian",
+                                                  "sandwich",
+                                                  "chicken",
+                                                  "mexican",
+                                                  "kebab",
+                                                  "indian",
+                                                  "ice_cream",
+                                                  "french",
+                                                  "seafood",
+                                                  "greek",
+                                                  "fish_and_chips",
+                                                  "spanish",
+                                                  "african",
+                                                  "caribbean" ] ],
+	    "layout": {
+		"icon-image": "amenity_{amenity}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+                "text-optional": true,
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#734a08",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
 	    "id": "pois-amenity-lightbrown-imagename-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
@@ -5387,7 +5477,6 @@
                                                 "post_box",
                                                 "post_office",
                                                 "pub",
-                                                "restaurant",
                                                 "shelter",
                                                 "telephone",
                                                 "theatre",
@@ -5494,7 +5583,7 @@
                                                   "english",
                                                   "pie_and_mash",
                                                   "pub",
-                                                  "modern_btitish" ] ],
+                                                  "modern_british" ] ],
 	    "layout": {
 		"icon-image": "amenity_{amenity}_{cuisine}",
 		"text-anchor": "top",
@@ -5596,7 +5685,7 @@
                                                    "english",
                                                    "pie_and_mash",
                                                    "pub",
-                                                   "modern_btitish" ] ],
+                                                   "modern_british" ] ],
 	    "layout": {
 		"icon-image": "amenity_{amenity}",
 		"text-anchor": "top",

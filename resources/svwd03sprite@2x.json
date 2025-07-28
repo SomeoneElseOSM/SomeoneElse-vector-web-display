@@ -191,51 +191,11 @@
 "y": 0
 }
 ,
-"amenity_fast_food_arab": {
-"height": 64,
-"pixelRatio": 2,
-"width": 64,
-"x": 1536,
-"y": 0
-}
-,
 "amenity_fast_food_asian": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 1600,
-"y": 0
-}
-,
-"amenity_fast_food_bagel": {
-"height": 64,
-"pixelRatio": 2,
-"width": 64,
-"x": 1664,
-"y": 0
-}
-,
-"amenity_fast_food_barbeque": {
-"height": 64,
-"pixelRatio": 2,
-"width": 64,
-"x": 1728,
-"y": 0
-}
-,
-"amenity_fast_food_beef_bowl": {
-"height": 64,
-"pixelRatio": 2,
-"width": 64,
-"x": 1792,
-"y": 0
-}
-,
-"amenity_fast_food_breakfast": {
-"height": 64,
-"pixelRatio": 2,
-"width": 64,
-"x": 1856,
+"x": 1536,
 "y": 0
 }
 ,
@@ -243,15 +203,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 1920,
-"y": 0
-}
-,
-"amenity_fast_food_bubble_tea": {
-"height": 64,
-"pixelRatio": 2,
-"width": 64,
-"x": 1984,
+"x": 1600,
 "y": 0
 }
 ,
@@ -259,15 +211,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 2048,
-"y": 0
-}
-,
-"amenity_fast_food_cake": {
-"height": 64,
-"pixelRatio": 2,
-"width": 64,
-"x": 2112,
+"x": 1664,
 "y": 0
 }
 ,
@@ -275,7 +219,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 2176,
+"x": 1728,
 "y": 0
 }
 ,
@@ -283,7 +227,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 2240,
+"x": 1792,
 "y": 0
 }
 ,
@@ -291,7 +235,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 2304,
+"x": 1856,
 "y": 0
 }
 ,
@@ -299,7 +243,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 2368,
+"x": 1920,
 "y": 0
 }
 ,
@@ -307,15 +251,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 2432,
-"y": 0
-}
-,
-"amenity_fast_food_crepe": {
-"height": 64,
-"pixelRatio": 2,
-"width": 64,
-"x": 2496,
+"x": 1984,
 "y": 0
 }
 ,
@@ -323,7 +259,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 2560,
+"x": 2048,
 "y": 0
 }
 ,
@@ -331,7 +267,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 2624,
+"x": 2112,
 "y": 0
 }
 ,
@@ -339,7 +275,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 2688,
+"x": 2176,
 "y": 0
 }
 ,
@@ -347,7 +283,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 2752,
+"x": 2240,
 "y": 0
 }
 ,
@@ -355,7 +291,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 2816,
+"x": 2304,
 "y": 0
 }
 ,
@@ -363,7 +299,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 2880,
+"x": 2368,
 "y": 0
 }
 ,
@@ -371,7 +307,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 2944,
+"x": 2432,
 "y": 0
 }
 ,
@@ -379,7 +315,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 3008,
+"x": 2496,
 "y": 0
 }
 ,
@@ -387,23 +323,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 3072,
-"y": 0
-}
-,
-"amenity_fast_food_georgian": {
-"height": 64,
-"pixelRatio": 2,
-"width": 64,
-"x": 3136,
-"y": 0
-}
-,
-"amenity_fast_food_german": {
-"height": 64,
-"pixelRatio": 2,
-"width": 64,
-"x": 3200,
+"x": 2560,
 "y": 0
 }
 ,
@@ -411,7 +331,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 3264,
+"x": 2624,
 "y": 0
 }
 ,
@@ -419,15 +339,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 3328,
-"y": 0
-}
-,
-"amenity_fast_food_hot_dog": {
-"height": 64,
-"pixelRatio": 2,
-"width": 64,
-"x": 3392,
+"x": 2688,
 "y": 0
 }
 ,
@@ -435,7 +347,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 3456,
+"x": 2752,
 "y": 0
 }
 ,
@@ -443,7 +355,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 3520,
+"x": 2816,
 "y": 0
 }
 ,
@@ -451,15 +363,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 3584,
-"y": 0
-}
-,
-"amenity_fast_food_international": {
-"height": 64,
-"pixelRatio": 2,
-"width": 64,
-"x": 3648,
+"x": 2880,
 "y": 0
 }
 ,
@@ -467,7 +371,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 3712,
+"x": 2944,
 "y": 0
 }
 ,
@@ -475,7 +379,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 3776,
+"x": 3008,
 "y": 0
 }
 ,
@@ -483,15 +387,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 3840,
-"y": 0
-}
-,
-"amenity_fast_food_juice": {
-"height": 64,
-"pixelRatio": 2,
-"width": 64,
-"x": 3904,
+"x": 3072,
 "y": 0
 }
 ,
@@ -499,7 +395,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 3968,
+"x": 3136,
 "y": 0
 }
 ,
@@ -507,7 +403,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 4032,
+"x": 3200,
 "y": 0
 }
 ,
@@ -515,15 +411,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 4096,
-"y": 0
-}
-,
-"amenity_fast_food_local": {
-"height": 64,
-"pixelRatio": 2,
-"width": 64,
-"x": 4160,
+"x": 3264,
 "y": 0
 }
 ,
@@ -531,7 +419,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 4224,
+"x": 3328,
 "y": 0
 }
 ,
@@ -539,7 +427,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 4288,
+"x": 3392,
 "y": 0
 }
 ,
@@ -547,7 +435,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 4352,
+"x": 3456,
 "y": 0
 }
 ,
@@ -555,7 +443,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 4416,
+"x": 3520,
 "y": 0
 }
 ,
@@ -563,7 +451,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 4480,
+"x": 3584,
 "y": 0
 }
 ,
@@ -571,7 +459,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 4544,
+"x": 3648,
 "y": 0
 }
 ,
@@ -579,7 +467,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 4608,
+"x": 3712,
 "y": 0
 }
 ,
@@ -587,15 +475,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 4672,
-"y": 0
-}
-,
-"amenity_fast_food_peruvian": {
-"height": 64,
-"pixelRatio": 2,
-"width": 64,
-"x": 4736,
+"x": 3776,
 "y": 0
 }
 ,
@@ -603,7 +483,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 4800,
+"x": 3840,
 "y": 0
 }
 ,
@@ -611,7 +491,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 4864,
+"x": 3904,
 "y": 0
 }
 ,
@@ -619,7 +499,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 4928,
+"x": 3968,
 "y": 0
 }
 ,
@@ -627,7 +507,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 4992,
+"x": 4032,
 "y": 0
 }
 ,
@@ -635,23 +515,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 5056,
-"y": 0
-}
-,
-"amenity_fast_food_polish": {
-"height": 64,
-"pixelRatio": 2,
-"width": 64,
-"x": 5120,
-"y": 0
-}
-,
-"amenity_fast_food_portuguese": {
-"height": 64,
-"pixelRatio": 2,
-"width": 64,
-"x": 5184,
+"x": 4096,
 "y": 0
 }
 ,
@@ -659,7 +523,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 5248,
+"x": 4160,
 "y": 0
 }
 ,
@@ -667,23 +531,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 5312,
-"y": 0
-}
-,
-"amenity_fast_food_regional": {
-"height": 64,
-"pixelRatio": 2,
-"width": 64,
-"x": 5376,
-"y": 0
-}
-,
-"amenity_fast_food_salad": {
-"height": 64,
-"pixelRatio": 2,
-"width": 64,
-"x": 5440,
+"x": 4224,
 "y": 0
 }
 ,
@@ -691,7 +539,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 5504,
+"x": 4288,
 "y": 0
 }
 ,
@@ -699,7 +547,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 5568,
+"x": 4352,
 "y": 0
 }
 ,
@@ -707,7 +555,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 5632,
+"x": 4416,
 "y": 0
 }
 ,
@@ -715,7 +563,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 5696,
+"x": 4480,
 "y": 0
 }
 ,
@@ -723,7 +571,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 5760,
+"x": 4544,
 "y": 0
 }
 ,
@@ -731,7 +579,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 5824,
+"x": 4608,
 "y": 0
 }
 ,
@@ -739,7 +587,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 5888,
+"x": 4672,
 "y": 0
 }
 ,
@@ -747,7 +595,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 5952,
+"x": 4736,
 "y": 0
 }
 ,
@@ -755,7 +603,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 6016,
+"x": 4800,
 "y": 0
 }
 ,
@@ -763,7 +611,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 6080,
+"x": 4864,
 "y": 0
 }
 ,
@@ -771,7 +619,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 6144,
+"x": 4928,
 "y": 0
 }
 ,
@@ -779,7 +627,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 6208,
+"x": 4992,
 "y": 0
 }
 ,
@@ -787,7 +635,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 6272,
+"x": 5056,
 "y": 0
 }
 ,
@@ -795,7 +643,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 6336,
+"x": 5120,
 "y": 0
 }
 ,
@@ -803,7 +651,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 6400,
+"x": 5184,
 "y": 0
 }
 ,
@@ -811,7 +659,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 6464,
+"x": 5248,
 "y": 0
 }
 ,
@@ -819,7 +667,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 6528,
+"x": 5312,
 "y": 0
 }
 ,
@@ -827,7 +675,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 6592,
+"x": 5376,
 "y": 0
 }
 ,
@@ -835,159 +683,167 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 0,
-"y": 64
+"x": 5440,
+"y": 0
 }
 ,
 "amenity_pharmacy": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 64,
-"y": 64
+"x": 5504,
+"y": 0
 }
 ,
 "amenity_place_of_worship_buddhist": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 128,
-"y": 64
+"x": 5568,
+"y": 0
 }
 ,
 "amenity_place_of_worship_christian": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 192,
-"y": 64
+"x": 5632,
+"y": 0
 }
 ,
 "amenity_place_of_worship_hindu": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 256,
-"y": 64
+"x": 5696,
+"y": 0
 }
 ,
 "amenity_place_of_worship_jewish": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 320,
-"y": 64
+"x": 5760,
+"y": 0
 }
 ,
 "amenity_place_of_worship_muslim": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 384,
-"y": 64
+"x": 5824,
+"y": 0
 }
 ,
 "amenity_place_of_worship_other": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 448,
-"y": 64
+"x": 5888,
+"y": 0
 }
 ,
 "amenity_place_of_worship_shinto": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 512,
-"y": 64
+"x": 5952,
+"y": 0
 }
 ,
 "amenity_place_of_worship_sikh": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 576,
-"y": 64
+"x": 6016,
+"y": 0
 }
 ,
 "amenity_place_of_worship_taoist": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 640,
-"y": 64
+"x": 6080,
+"y": 0
 }
 ,
 "amenity_playground": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 704,
-"y": 64
+"x": 6144,
+"y": 0
 }
 ,
 "amenity_police": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 768,
-"y": 64
+"x": 6208,
+"y": 0
 }
 ,
 "amenity_post_box": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 832,
-"y": 64
+"x": 6272,
+"y": 0
 }
 ,
 "amenity_post_office": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 896,
-"y": 64
+"x": 6336,
+"y": 0
 }
 ,
 "amenity_prison": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 960,
-"y": 64
+"x": 6400,
+"y": 0
 }
 ,
 "amenity_public_building": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 1024,
-"y": 64
+"x": 6464,
+"y": 0
 }
 ,
 "amenity_pub": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 1088,
-"y": 64
+"x": 6528,
+"y": 0
 }
 ,
 "amenity_recycling": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 1152,
-"y": 64
+"x": 6592,
+"y": 0
+}
+,
+"amenity_restaurant_afghan": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 6656,
+"y": 0
 }
 ,
 "amenity_restaurant_african": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 1216,
+"x": 0,
 "y": 64
 }
 ,
@@ -995,7 +851,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 1280,
+"x": 64,
 "y": 64
 }
 ,
@@ -1003,7 +859,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 1344,
+"x": 128,
 "y": 64
 }
 ,
@@ -1011,7 +867,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 1408,
+"x": 192,
 "y": 64
 }
 ,
@@ -1019,7 +875,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 1472,
+"x": 256,
 "y": 64
 }
 ,
@@ -1027,7 +883,15 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 1536,
+"x": 320,
+"y": 64
+}
+,
+"amenity_restaurant_bangladeshi": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 384,
 "y": 64
 }
 ,
@@ -1035,7 +899,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 1600,
+"x": 448,
 "y": 64
 }
 ,
@@ -1043,7 +907,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 1664,
+"x": 512,
 "y": 64
 }
 ,
@@ -1051,7 +915,15 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 1728,
+"x": 576,
+"y": 64
+}
+,
+"amenity_restaurant_cake": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 640,
 "y": 64
 }
 ,
@@ -1059,7 +931,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 1792,
+"x": 704,
 "y": 64
 }
 ,
@@ -1067,7 +939,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 1856,
+"x": 768,
 "y": 64
 }
 ,
@@ -1075,7 +947,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 1920,
+"x": 832,
 "y": 64
 }
 ,
@@ -1083,7 +955,15 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 1984,
+"x": 896,
+"y": 64
+}
+,
+"amenity_restaurant_coffee": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 960,
 "y": 64
 }
 ,
@@ -1091,7 +971,15 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 2048,
+"x": 1024,
+"y": 64
+}
+,
+"amenity_restaurant_curry": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 1088,
 "y": 64
 }
 ,
@@ -1099,7 +987,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 2112,
+"x": 1152,
 "y": 64
 }
 ,
@@ -1107,7 +995,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 2176,
+"x": 1216,
 "y": 64
 }
 ,
@@ -1115,7 +1003,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 2240,
+"x": 1280,
 "y": 64
 }
 ,
@@ -1123,7 +1011,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 2304,
+"x": 1344,
 "y": 64
 }
 ,
@@ -1131,7 +1019,15 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 2368,
+"x": 1408,
+"y": 64
+}
+,
+"amenity_restaurant_fish": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 1472,
 "y": 64
 }
 ,
@@ -1139,7 +1035,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 2432,
+"x": 1536,
 "y": 64
 }
 ,
@@ -1147,7 +1043,23 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 2496,
+"x": 1600,
+"y": 64
+}
+,
+"amenity_restaurant_friture": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 1664,
+"y": 64
+}
+,
+"amenity_restaurant_frozen_yogurt": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 1728,
 "y": 64
 }
 ,
@@ -1155,7 +1067,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 2560,
+"x": 1792,
 "y": 64
 }
 ,
@@ -1163,7 +1075,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 2624,
+"x": 1856,
 "y": 64
 }
 ,
@@ -1171,7 +1083,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 2688,
+"x": 1920,
 "y": 64
 }
 ,
@@ -1179,7 +1091,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 2752,
+"x": 1984,
 "y": 64
 }
 ,
@@ -1187,7 +1099,15 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 2816,
+"x": 2048,
+"y": 64
+}
+,
+"amenity_restaurant_italian_pizza": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 2112,
 "y": 64
 }
 ,
@@ -1195,7 +1115,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 2880,
+"x": 2176,
 "y": 64
 }
 ,
@@ -1203,7 +1123,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 2944,
+"x": 2240,
 "y": 64
 }
 ,
@@ -1211,7 +1131,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 3008,
+"x": 2304,
 "y": 64
 }
 ,
@@ -1219,7 +1139,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 3072,
+"x": 2368,
 "y": 64
 }
 ,
@@ -1227,7 +1147,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 3136,
+"x": 2432,
 "y": 64
 }
 ,
@@ -1235,7 +1155,15 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 3200,
+"x": 2496,
+"y": 64
+}
+,
+"amenity_restaurant_mediterranean": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 2560,
 "y": 64
 }
 ,
@@ -1243,7 +1171,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 3264,
+"x": 2624,
 "y": 64
 }
 ,
@@ -1251,7 +1179,15 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 3328,
+"x": 2688,
+"y": 64
+}
+,
+"amenity_restaurant_nepalese": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 2752,
 "y": 64
 }
 ,
@@ -1259,7 +1195,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 3392,
+"x": 2816,
 "y": 64
 }
 ,
@@ -1267,7 +1203,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 3456,
+"x": 2880,
 "y": 64
 }
 ,
@@ -1275,7 +1211,23 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 3520,
+"x": 2944,
+"y": 64
+}
+,
+"amenity_restaurant_pakistani": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 3008,
+"y": 64
+}
+,
+"amenity_restaurant_pasta": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 3072,
 "y": 64
 }
 ,
@@ -1283,7 +1235,15 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 3584,
+"x": 3136,
+"y": 64
+}
+,
+"amenity_restaurant_pizza": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 3200,
 "y": 64
 }
 ,
@@ -1291,7 +1251,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 3648,
+"x": 3264,
 "y": 64
 }
 ,
@@ -1299,7 +1259,15 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 3712,
+"x": 3328,
+"y": 64
+}
+,
+"amenity_restaurant_punjabi": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 3392,
 "y": 64
 }
 ,
@@ -1307,7 +1275,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 3776,
+"x": 3456,
 "y": 64
 }
 ,
@@ -1315,7 +1283,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 3840,
+"x": 3520,
 "y": 64
 }
 ,
@@ -1323,7 +1291,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 3904,
+"x": 3584,
 "y": 64
 }
 ,
@@ -1331,7 +1299,7 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 3968,
+"x": 3648,
 "y": 64
 }
 ,
@@ -1339,7 +1307,15 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 4032,
+"x": 3712,
+"y": 64
+}
+,
+"amenity_restaurant_sri_lankan": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 3776,
 "y": 64
 }
 ,
@@ -1347,11 +1323,43 @@
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
-"x": 4096,
+"x": 3840,
 "y": 64
 }
 ,
 "amenity_restaurant_sushi": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 3904,
+"y": 64
+}
+,
+"amenity_restaurant_syrian": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 3968,
+"y": 64
+}
+,
+"amenity_restaurant_tandoori": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 4032,
+"y": 64
+}
+,
+"amenity_restaurant_tapas": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 4096,
+"y": 64
+}
+,
+"amenity_restaurant_tex-mex": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1367,7 +1375,7 @@
 "y": 64
 }
 ,
-"amenity_restaurant_vietnamese": {
+"amenity_restaurant_turkish": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1375,7 +1383,7 @@
 "y": 64
 }
 ,
-"amenity_restaurant_wings": {
+"amenity_restaurant_vietnamese": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1383,7 +1391,7 @@
 "y": 64
 }
 ,
-"amenity_shelter": {
+"amenity_restaurant_wings": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1391,7 +1399,7 @@
 "y": 64
 }
 ,
-"amenity_telephone": {
+"amenity_shelter": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1399,7 +1407,7 @@
 "y": 64
 }
 ,
-"amenity_theatre": {
+"amenity_telephone": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1407,7 +1415,7 @@
 "y": 64
 }
 ,
-"amenity_toilets": {
+"amenity_theatre": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1415,7 +1423,7 @@
 "y": 64
 }
 ,
-"amenity_townhall": {
+"amenity_toilets": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1423,7 +1431,7 @@
 "y": 64
 }
 ,
-"amenity_vending_machine": {
+"amenity_townhall": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1431,7 +1439,7 @@
 "y": 64
 }
 ,
-"amenity_veterinary": {
+"amenity_vending_machine": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1439,7 +1447,7 @@
 "y": 64
 }
 ,
-"amenity_waste_basket": {
+"amenity_veterinary": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1447,7 +1455,7 @@
 "y": 64
 }
 ,
-"bicycle_parking": {
+"amenity_waste_basket": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1455,7 +1463,7 @@
 "y": 64
 }
 ,
-"bus_stop": {
+"bicycle_parking": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1463,7 +1471,7 @@
 "y": 64
 }
 ,
-"emergency_defibrillator": {
+"bus_stop": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1471,7 +1479,7 @@
 "y": 64
 }
 ,
-"emergency_fire_hydrant": {
+"emergency_defibrillator": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1479,7 +1487,7 @@
 "y": 64
 }
 ,
-"emergency_phone": {
+"emergency_fire_hydrant": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1487,7 +1495,7 @@
 "y": 64
 }
 ,
-"helipad": {
+"emergency_phone": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1495,7 +1503,7 @@
 "y": 64
 }
 ,
-"highway_emergency_access_point": {
+"helipad": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1503,7 +1511,7 @@
 "y": 64
 }
 ,
-"historic_archaeological_site": {
+"highway_emergency_access_point": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1511,7 +1519,7 @@
 "y": 64
 }
 ,
-"historic_battlefield": {
+"historic_archaeological_site": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1519,7 +1527,7 @@
 "y": 64
 }
 ,
-"historic_castle": {
+"historic_battlefield": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1527,7 +1535,7 @@
 "y": 64
 }
 ,
-"historic_fort": {
+"historic_castle": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1535,7 +1543,7 @@
 "y": 64
 }
 ,
-"historic_memorial": {
+"historic_fort": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1543,7 +1551,7 @@
 "y": 64
 }
 ,
-"historic_monument": {
+"historic_memorial": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1551,7 +1559,7 @@
 "y": 64
 }
 ,
-"historic_ruins": {
+"historic_monument": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1559,7 +1567,7 @@
 "y": 64
 }
 ,
-"historic_wayside_cross": {
+"historic_ruins": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1567,7 +1575,7 @@
 "y": 64
 }
 ,
-"historic_wayside_shrine": {
+"historic_wayside_cross": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1575,7 +1583,7 @@
 "y": 64
 }
 ,
-"leisure_golf_course": {
+"historic_wayside_shrine": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1583,7 +1591,7 @@
 "y": 64
 }
 ,
-"leisure_ice_rink": {
+"leisure_golf_course": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1591,7 +1599,7 @@
 "y": 64
 }
 ,
-"leisure_sports_centre": {
+"leisure_ice_rink": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1599,7 +1607,7 @@
 "y": 64
 }
 ,
-"leisure_swimming_pool": {
+"leisure_sports_centre": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1607,7 +1615,7 @@
 "y": 64
 }
 ,
-"leisure_water_park": {
+"leisure_swimming_pool": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1615,7 +1623,7 @@
 "y": 64
 }
 ,
-"man_made_lighthouse": {
+"leisure_water_park": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1623,7 +1631,7 @@
 "y": 64
 }
 ,
-"man_made_tower": {
+"man_made_lighthouse": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1631,7 +1639,7 @@
 "y": 64
 }
 ,
-"man_made_watermill": {
+"man_made_tower": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1639,7 +1647,7 @@
 "y": 64
 }
 ,
-"man_made_water_well": {
+"man_made_watermill": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1647,7 +1655,7 @@
 "y": 64
 }
 ,
-"man_made_windmill": {
+"man_made_water_well": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
@@ -1655,11 +1663,19 @@
 "y": 64
 }
 ,
-"marker_onewayminusone": {
+"man_made_windmill": {
 "height": 64,
 "pixelRatio": 2,
 "width": 64,
 "x": 6592,
+"y": 64
+}
+,
+"marker_onewayminusone": {
+"height": 64,
+"pixelRatio": 2,
+"width": 64,
+"x": 6656,
 "y": 64
 }
 ,

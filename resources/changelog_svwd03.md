@@ -1,11 +1,12 @@
 # Changes made to the [SVWD03 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd03.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
-## As yet unreleased
+## 28/07/2025
 Added more icons for fast_food cuisines, where icons are already available from the svwd01 style.
 These are `amenity=fast_food` and something like `cuisine=british`.
 Icons are again from [svwd01](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd01.md).
 Added some icons for restaurant cuisines, where icons are already available from the svwd01 style.
+Updated icons for fast_food cuisines, where new icons are available from the svwd01 style.
 
 ## 25/07/2025
 Removed minzoom settings from named and unnamed places in the svwd05 debug layer.

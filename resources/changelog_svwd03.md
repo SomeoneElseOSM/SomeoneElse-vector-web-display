@@ -3,6 +3,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 
 ## 01/08/2025
 Updated bridge casing width in `svwd03` style to match the less prominent one in the `svwd0` style.
+Added missing Italian restaurant icon.
 
 ## 28/07/2025
 Added more icons for fast_food cuisines, where icons are already available from the svwd01 style.

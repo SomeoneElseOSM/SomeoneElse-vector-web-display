@@ -1,6 +1,9 @@
 # Changes made to the [SVWD03 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd03.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
+## As yet unreleased
+Updated bridge casing width in `svwd03` style to match the less prominent one in the `svwd0` style.
+
 ## 28/07/2025
 Added more icons for fast_food cuisines, where icons are already available from the svwd01 style.
 These are `amenity=fast_food` and something like `cuisine=british`.

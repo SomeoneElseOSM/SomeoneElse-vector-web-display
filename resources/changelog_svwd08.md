@@ -1,5 +1,8 @@
 # Changes made to the [SVWD08 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd08.md).  
 
+## As yet unreleased
+Changed draw order of schools vs bus platforms so that area bus platforms appear there.
+
 ## 24/07/2025
 Show hedges in a slightly darker colour than wood.
 Change MapLibre library to 5.6.1 (likely no visible effect)

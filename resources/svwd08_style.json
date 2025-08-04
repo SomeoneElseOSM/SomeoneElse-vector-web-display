@@ -737,38 +737,6 @@
 	    }
 	},
 	{
-	    "id": "land1-platform-fill-15",
-	    "type": "fill",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 15,
-	    "filter": [ "all", [ "in", "class", "highway_platform",
-                                                "railway_platform" ] ],
-	    "paint": {
-		"fill-antialias": true,
-		"fill-color": "#ededed"
-	    }
-	},
-	{
-	    "id": "land1-platform-outline-15",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "land1",
-	    "minzoom": 15,
-	    "filter": [ "all", [ "in", "class", "highway_platform",
-                                                "railway_platform" ] ],
-	    "paint": {
-		"line-color": "grey",
-		"line-width": {
-		    "base": 0.6,
-		    "stops": [
-			[ 15, 0.6 ],
-			[ 20, 1.2 ]
-		    ]
-                }
-	    }
-	},
-	{
 	    "id": "land1-turntable-outline-15",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -819,6 +787,38 @@
 		    "stops": [
 			[ 15,  0.6 ],
 			[ 20,  1.2 ]
+		    ]
+                }
+	    }
+	},
+	{
+	    "id": "land1-platform-fill-15",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 15,
+	    "filter": [ "all", [ "in", "class", "highway_platform",
+                                                "railway_platform" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#ededed"
+	    }
+	},
+	{
+	    "id": "land1-platform-outline-15",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 15,
+	    "filter": [ "all", [ "in", "class", "highway_platform",
+                                                "railway_platform" ] ],
+	    "paint": {
+		"line-color": "grey",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15, 0.6 ],
+			[ 20, 1.2 ]
 		    ]
                 }
 	    }

@@ -4,6 +4,7 @@ Except as noted, all changes also apply to the [SVWD06 Android native display st
 
 ## 06/08/2025
 Changed draw order of schools vs bus platforms so that area bus platforms appear there.
+Changed Camra links from Whatpub to new Camra site.
 
 ## 28/07/2025
 Regenerated sprites with fewer in each row (to avoid issues with generation on vanilla ImageMagick installs).  No visual change

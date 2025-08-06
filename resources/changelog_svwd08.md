@@ -2,6 +2,7 @@
 
 ## 06/08/2025
 Changed draw order of schools vs bus platforms so that area bus platforms appear there.
+Changed Camra links from Whatpub to new Camra site.
 
 ## 24/07/2025
 Show hedges in a slightly darker colour than wood.

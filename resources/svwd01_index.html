@@ -23,7 +23,7 @@
       <button id="button4" onclick="show_mkgmap();" >mkgmap</button>
       <button id="button5" onclick="show_raster();" >raster</button>
       <button id="button5" onclick="show_osm();" >OSM</button>
-      <button id="button5" onclick="show_whatpub();" >Whatpub</button>
+      <button id="button5" onclick="show_whatpub();" >Camra pubs</button>
       <button id="button5" onclick="show_bustimes();" >Bus</button>
     </div>
 <div id='map'></div>
@@ -56,7 +56,7 @@ function show_osm()
 function show_whatpub()
 {
     let {lng, lat} = map.getCenter();
-    window.open ( 'https://whatpub.com/search?q=nearby&t=d&lat='+lat+'&lng='+lng+'&r=10&p=1&features=PubClub&home=1', '_blank' )
+    window.open ( 'https://camra.org.uk/pubs/location/'+lat+'/'+lng+'?sort=nearest&hide_closed=false&venue_types[0]=P', '_blank' )
 }
 
 function show_bustimes()

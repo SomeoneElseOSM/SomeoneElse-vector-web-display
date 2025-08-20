@@ -1,5 +1,9 @@
 # Changes made to the [SVWD08 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd08.md).  
 
+## As yet unreleased
+Show clocks that are neither pedestal clocks nor clock towers.
+Handle "eco" versions of doityourself, gift, beauty, pet, and discount shops.
+
 ## 06/08/2025
 Changed draw order of schools vs bus platforms so that area bus platforms appear there.
 Changed Camra links from Whatpub to new Camra site.

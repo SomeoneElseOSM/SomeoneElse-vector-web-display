@@ -1,5 +1,8 @@
 # Changes made to the [SVWD08 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd08.md).  
 
+## As yet unreleased
+Simplify style to show generic power generator names from vector 16, water power generator names from vector 14, and wind power generator names and icons from 14.
+
 ## 20/08/2025
 Show clocks that are neither pedestal clocks nor clock towers.
 Handle "eco" versions of doityourself, gift, beauty, pet, and discount shops.

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title>SPEC_NAME</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://unpkg.com/maplibre-gl@5.6.2/dist/maplibre-gl.js'></script>
+    <link href='https://unpkg.com/maplibre-gl@5.6.2/dist/maplibre-gl.css' rel='stylesheet' />
+    <script src='https://unpkg.com/@maplibre/maplibre-gl-inspect@latest/dist/maplibre-gl-inspect.js'></script>
+    <link href='https://unpkg.com/@maplibre/maplibre-gl-inspect@latest/dist/maplibre-gl-inspect.css' rel='stylesheet' />
+    <style>
+        body { margin:0; padding:0; }
+        #map { position:absolute; top:0; bottom:0; width:100%; }
+		#refresh { position: absolute; top: 15px; left: 15px; background-color: white; padding: 5px; 
+			border: 1px solid black; font-family: Avenir; cursor: pointer; }
+    </style>
+</head>
+<body>
+
+<div id='map'></div>
+<!-- <div id='refresh' onclick='reload()'>Reload</div> -->
+<script>
+var map;
+var osmAttrib='Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>';
+
+fetch("/metadata")
+	.then(response => response.json())
+	.then(data => {
+		var styleURL = window.location.protocol+'//'+window.location.host+'/style.json';
+		var bounds = data['bounds'].split(',');
+
+// Currently RTL support isn't native in MapLibre GL, but a MapBox plugin does support it.
+// See https://maplibre.org/maplibre-gl-js/docs/examples/mapbox-gl-rtl-text/
+	        maplibregl.setRTLTextPlugin(
+		    'https://unpkg.com/@mapbox/mapbox-gl-rtl-text@0.3.0/dist/mapbox-gl-rtl-text.js',
+		    true // Lazy load the plugin
+		);
+
+		map = new maplibregl.Map({
+		    container: 'map', // container id
+		    style: styleURL, // stylesheet location
+		    center: [ -1.5, 53 ], // starting position [lng, lat]
+		    hash: true,
+		    zoom: 8, // starting zoom
+                    maxZoom: 25,
+		    attributionControl: true
+		});
+
+            map.on('style.load', () => {
+                map.setProjection({
+                    type: 'globe', // Set projection to globe
+                });
+            });
+
+// Add default OSM attribution
+//	    map.addControl(new maplibregl.AttributionControl({ customAttribution: osmAttrib }), 'bottom-right');
+
+	    // Add zoom control
+	    map.addControl(new maplibregl.NavigationControl());
+	    
+	    map.dragRotate.disable();
+	    map.keyboard.disableRotation();
+	    map.touchZoomRotate.disableRotation();
+
+	    // Add geolocate control
+	    map.addControl(
+		new maplibregl.GeolocateControl({
+		    positionOptions: { enableHighAccuracy: true },
+		    trackUserLocation: true
+		})
+	    );
+
+	    // Add scale control at bottom-left
+	    map.addControl(
+		new maplibregl.ScaleControl({
+		    unit: 'metric'
+		})
+	    );
+
+	    // -- Comment the following lines out to remove debug UI --
+	    map.showTileBoundaries=false;
+	    
+//            map.addControl(new MaplibreInspect({
+//		showInspectMap: true,
+//		showInspectButton: false
+//	    }));
+
+		// -- --
+	}
+)
+</script>
+
+</body>
+</html>

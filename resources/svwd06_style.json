@@ -1517,7 +1517,7 @@
 	    }
 	},
 	{
-	    "id": "land1-recreation_ground-fill-6-16",
+	    "id": "land1-recreation_ground-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
@@ -2119,11 +2119,10 @@
 	    }
 	},
 	{
-	    "id": "land1-golf_course-fill-9",
+	    "id": "land1-golf_course-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "minzoom": 9,
 	    "filter": [ "all", [ "in", "class", "leisure_golf_course" ] ],
 	    "paint": {
 		"fill-antialias": true,
@@ -2143,11 +2142,10 @@
 	    }
 	},
 	{
-	    "id": "land1-stadium-fill-9",
+	    "id": "land1-stadium-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "minzoom": 9,
 	    "filter": [ "all", [ "in", "class", "leisure_sports_centre", 
                                                 "leisure_stadium" ] ],
 	    "paint": {
@@ -2240,11 +2238,10 @@
 	    }
 	},
 	{
-	    "id": "land1-pitch-fill-9",
+	    "id": "land1-pitch-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "minzoom": 9,
 	    "filter": [ "all", [ "in", "class", "leisure_pitch",
                                                 "leisure_dog_park" ] ],
 	    "paint": {
@@ -2257,7 +2254,6 @@
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "minzoom": 9,
 	    "filter": [ "all", [ "in", "class", "leisure_pitch",
                                                 "leisure_dog_park" ] ],
 	    "paint": {
@@ -12324,11 +12320,10 @@
 	    }
 	},
 	{
-	    "id": "land1-leisure-green-imagename-centroid-13",
+	    "id": "land1-leisure-green-imagename-centroid",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "minzoom": 13,
 	    "filter": [ "all", [ "in", "class", "leisure_golf_course" ],
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
@@ -19200,6 +19195,66 @@
 	    "filter": [ "all", [ "in", "class", "leisure_stadium",
                                                 "leisure_track",
                                                 "leisure_pitch" ],
+	                       [ "==", "$type", "Point" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 14,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#188b65",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-leisuregreen--name-centroid-15",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 15,
+	    "filter": [ "all", [ "in", "class", "leisure_stadium",
+                                                "leisure_track",
+                                                "leisure_pitch" ],
+                               [ ">", "way_area", 2584 ],
+	                       [ "==", "$type", "Point" ] ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 14,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#188b65",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-leisuregreen--name-centroid-14",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 14,
+	    "filter": [ "all", [ "in", "class", "leisure_stadium",
+                                                "leisure_track",
+                                                "leisure_pitch" ],
+                               [ ">", "way_area", 12853 ],
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"text-anchor": "top",

@@ -2,6 +2,7 @@
 
 ## As yet unreleased
 Simplify style to show generic power generator names from vector 16, water power generator names from vector 14, and wind power generator names and icons from 14.
+Extract fill name name for various leisure (such as golf courses) at differet zooms, allowing the styling code to be simpler.
 
 ## 20/08/2025
 Show clocks that are neither pedestal clocks nor clock towers.

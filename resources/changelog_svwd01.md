@@ -2,7 +2,7 @@
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 Except as noted, all changes also apply to the [SVWD06 Android native display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd06.md).  
 
-## As yet unreleased
+## 30/08/2025
 Simplify style to show generic power generator names from vector 16, water power generator names from vector 14, and wind power generator names and icons from 14.
 Extract fill name name for various leisure (such as golf courses) at differet zooms, allowing the styling code to be simpler.
 

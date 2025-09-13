@@ -14944,7 +14944,8 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 18,
-	    "filter": [ "all", [ "in", "class", "barrier_door" ] ],
+	    "filter": [ "all", [ "in", "class", "barrier_door",
+                                                 "man_made_beehive" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",

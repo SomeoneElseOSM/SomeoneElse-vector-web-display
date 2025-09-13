@@ -845,6 +845,7 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/grousebutt.p.16.png                             ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/leisure_grouse_butt.png
 #
 # man_made
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/beehive.png                                     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_beehive.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/communications.p.20.png                         ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_bigmast.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/chimney.p.20.png                                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_bigchimney.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/observationtower.png                            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_bigobservationtower.png

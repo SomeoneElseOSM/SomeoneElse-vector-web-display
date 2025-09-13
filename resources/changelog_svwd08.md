@@ -1,5 +1,8 @@
 # Changes made to the [SVWD08 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd08.md).  
 
+## 13/09/2025
+Show beehives from vector 18.
+
 ## 30/08/2025
 Simplify style to show generic power generator names from vector 16, water power generator names from vector 14, and wind power generator names and icons from 14.
 Extract fill name name for various leisure (such as golf courses) at differet zooms, allowing the styling code to be simpler.

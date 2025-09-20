@@ -1,5 +1,8 @@
 # Changes made to the [SVWD08 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd08.md).  
 
+## As yet unreleased
+Added support for various wind monitoring stations, and also water quality.
+
 ## 13/09/2025
 Show beehives from vector 18.
 

@@ -2364,6 +2364,7 @@
 	    "source-layer": "land1",
 	    "minzoom": 9,
 	    "filter": [ "all", [ "in", "class", "amenity_parking",
+                                                "amenity_parking_space",
                                                 "amenity_parking_pay",
                                                 "amenity_parking_freedisabled",
                                                 "amenity_parking_paydisabled"  ] ],
@@ -2382,6 +2383,24 @@
                                                 "amenity_parking_pay",
                                                 "amenity_parking_freedisabled",
                                                 "amenity_parking_paydisabled"  ] ],
+	    "paint": {
+		"line-color": "#dcd078",
+		"line-width": {
+		    "base": 0.6,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "land1-parkingspace-outline-18",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 18,
+	    "filter": [ "all", [ "in", "class", "amenity_parking_space"  ] ],
 	    "paint": {
 		"line-color": "#dcd078",
 		"line-width": {
@@ -11320,6 +11339,38 @@
                                                 "amenity_parking_pay",
                                                 "amenity_parking_freedisabled",
                                                 "amenity_parking_paydisabled" ],
+                               [ "any", [ "==", "access", "no" ],
+                                        [ "has", "parking_space" ] ],
+	                       [ "==", "$type", "Point" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 14,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#0066ff",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1,
+		"icon-opacity": 0.33,
+		"text-opacity": 0.33
+	    }
+	},
+	{
+	    "id": "land1-parkingspace-lightblue-imagename-centroidprivate-18",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 18,
+	    "filter": [ "all", [ "in", "class", "amenity_parking_space" ],
                                [ "any", [ "==", "access", "no" ],
                                         [ "has", "parking_space" ] ],
 	                       [ "==", "$type", "Point" ] ],

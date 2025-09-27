@@ -2,6 +2,7 @@
 
 ## As yet unreleased
 Don't show parking spaces at low zooms.
+Show `man_made=fuel_pump` with a unique icon.
 
 ## 20/09/2025
 Added support for various wind monitoring stations, and also water quality.

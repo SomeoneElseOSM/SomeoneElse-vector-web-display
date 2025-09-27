@@ -14999,7 +14999,8 @@
 	    "source-layer": "land1",
 	    "minzoom": 18,
 	    "filter": [ "all", [ "in", "class", "barrier_door",
-                                                "man_made_beehive" ] ],
+                                                "man_made_beehive",
+                                                "man_made_fuel_pump" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",

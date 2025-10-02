@@ -1,6 +1,6 @@
 # Changes made to the [SVWD08 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd08.md).  
 
-## As yet unreleased
+## 02/10/2025
 Don't show parking spaces at low zooms.
 Show `man_made=fuel_pump` with a unique icon.
 

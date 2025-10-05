@@ -14626,7 +14626,8 @@
 	    "minzoom": 18,
 	    "filter": [ "all", [ "in", "class", "barrier_door",
                                                 "man_made_beehive",
-                                                "man_made_fuel_pump" ] ],
+                                                "man_made_fuel_pump",
+                                                "man_made_charge_point" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",

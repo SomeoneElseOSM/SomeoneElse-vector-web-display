@@ -2,6 +2,7 @@
 
 ## As yet unreleased
 Show sanitary dump stations with a unique icon.
+Show `man_made=charging_point` with a unique icon, analagous to `fuel_pump`.
 
 ## 02/10/2025
 Don't show parking spaces at low zooms.

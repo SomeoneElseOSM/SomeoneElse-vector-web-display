@@ -1,8 +1,9 @@
 # Changes made to the [SVWD08 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd08.md).  
 
-## As yet unreleased
+## 09/10/2025
 Show sanitary dump stations with a unique icon.
 Show `man_made=charging_point` with a unique icon, analagous to `fuel_pump`.
+Show a different icon for "penguin" artwork at high zooms.
 
 ## 02/10/2025
 Don't show parking spaces at low zooms.

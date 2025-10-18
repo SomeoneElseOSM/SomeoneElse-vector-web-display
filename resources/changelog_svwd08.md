@@ -1,5 +1,11 @@
 # Changes made to the [SVWD08 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd08.md).  
 
+## As yet unreleased
+Changed the display of `tourism=attraction` to depend on `way_area`.
+
+## 18/10/2025
+Now that all named things have something in name:cy, name:en, name:ga and name:gd, support styles that display that as the default name.
+
 ## 09/10/2025
 Show sanitary dump stations with a unique icon.
 Show `man_made=charging_point` with a unique icon, analagous to `fuel_pump`.
@@ -26,6 +32,9 @@ Handle "eco" versions of doityourself, gift, beauty, pet, and discount shops.
 ## 06/08/2025
 Changed draw order of schools vs bus platforms so that area bus platforms appear there.
 Changed Camra links from Whatpub to new Camra site.
+
+## 28/07/2025
+Regenerated sprites with fewer in each row (to avoid issues with generation on vanilla ImageMagick installs).  No visual change
 
 ## 24/07/2025
 Show hedges in a slightly darker colour than wood.
@@ -56,6 +65,7 @@ Show `wheelchair` flash on `amenity=fast_food` with `cuisine=kebab`, `cuisine=me
 Show `wheelchair` flash on `amenity=restaurant` with `cuisine=british`, `cuisine=regional`, `cuisine=mexican`, `cuisine=seafood` and synonyms.
 
 ## 23/06/2025
+Allow post boxes and similar brown things shown in the same layer to overlap other icons.  This was already the case for some other small brown things.
 Show `wheelchair` flash on `amenity=restaurant` with no `cuisine`, `cuisine=indian`, `cuisine=chinese`, `cuisine=italian`, `cuisine=fish_and_chips`, `cuisine=burger`, `cuisine=coffee_shop`, `cuisine=sandwich`, `cuisine=chicken`, `cuisine=kebab` and `cuisine=french` and synonyms.
 
 ## 19/06/2025

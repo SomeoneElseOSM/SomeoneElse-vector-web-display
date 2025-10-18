@@ -2,6 +2,9 @@
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 Except as noted, all changes also apply to the [SVWD06 Android native display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd06.md).  
 
+## As yet unreleased
+Changed the display of `tourism=attraction` to depend on `way_area`.
+
 ## 18/10/2025
 Now that all named things have something in name:cy, name:en, name:ga and name:gd, support styles that display that as the default name.
 

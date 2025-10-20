@@ -4,6 +4,7 @@ Except as noted, all changes also apply to the [SVWD06 Android native display st
 
 ## As yet unreleased
 Changed the display of `tourism=attraction` to depend on `way_area`.
+Changed the display of `military=barracks` to depend on `way_area`.
 
 ## 18/10/2025
 Now that all named things have something in name:cy, name:en, name:ga and name:gd, support styles that display that as the default name.

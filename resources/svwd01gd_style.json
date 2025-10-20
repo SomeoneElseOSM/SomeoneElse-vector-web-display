@@ -1225,11 +1225,10 @@
 	    }
 	},
 	{
-	    "id": "land1-barracks-fill-9",
+	    "id": "land1-barracks-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land1",
-	    "minzoom": 9,
 	    "filter": [ "all", [ "in", "class", "military_barracks" ] ],
 	    "paint": {
 		"fill-antialias": true,

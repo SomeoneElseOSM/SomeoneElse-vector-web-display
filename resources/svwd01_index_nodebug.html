@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title>SPEC_NAME</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://unpkg.com/maplibre-gl@5.6.2/dist/maplibre-gl.js'></script>
+    <link href='https://unpkg.com/maplibre-gl@5.6.2/dist/maplibre-gl.css' rel='stylesheet' />
+    <script src='https://unpkg.com/@maplibre/maplibre-gl-inspect@latest/dist/maplibre-gl-inspect.js'></script>
+    <link href='https://unpkg.com/@maplibre/maplibre-gl-inspect@latest/dist/maplibre-gl-inspect.css' rel='stylesheet' />
+    <style>
+        body { margin:0; padding:0; }
+        #map { position:absolute; top:50px; bottom:0; width:100%; }
+		#refresh { position: absolute; top: 15px; left: 15px; background-color: white; padding: 5px; 
+			border: 1px solid black; font-family: Avenir; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <div id="rest" style="font-size:100%; padding: 8px">
+      <button id="button1" onclick="show_about();" >about</button>
+      <button id="button2" onclick="show_schema_changelog();" >schema</button>
+      <button id="button3" onclick="show_style_changelog();" >style</button>
+      <button id="button4" onclick="show_mkgmap();" >mkgmap</button>
+      <button id="button5" onclick="show_raster();" >raster</button>
+      <button id="button5" onclick="show_osm();" >OSM</button>
+      <button id="button5" onclick="show_whatpub();" >Camra pubs</button>
+      <button id="button5" onclick="show_bustimes();" >Bus</button>
+    </div>
+<div id='map'></div>
+<!-- <div id='refresh' onclick='reload()'>Reload</div> -->
+<script>
+var map;
+var osmAttrib='Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>';
+
+/* -------------------------------------------------------------------------
+ * Obtain the currect vector zoom level and location.
+ * Add 1 to the vector zoom level to get the equivalent raster zoom level
+ * Browse to the current location on the raster map.
+ * Raster zooms are whole numbers, so any fractional part of the vector 
+ * zoom level is trunctated.
+ * ------------------------------------------------------------------------- */
+function show_raster()
+{
+    let zoom = map.getZoom() + 1;
+    let {lng, lat} = map.getCenter();
+    window.open ( '../maps/map/map.html'+'#'+zoom+'/'+lat+'/'+lng,'_self',false )
+}
+
+function show_osm()
+{
+    let zoom = map.getZoom() + 1;
+    let {lng, lat} = map.getCenter();
+    window.open ( 'https://osm.org/#map='+zoom+'/'+lat+'/'+lng,'_self',false )
+}
+
+function show_whatpub()
+{
+    let {lng, lat} = map.getCenter();
+    window.open ( 'https://camra.org.uk/pubs/location/'+lat+'/'+lng+'?sort=nearest&hide_closed=false&venue_types[0]=P', '_blank' )
+}
+
+function show_bustimes()
+{
+    let zoom = map.getZoom();
+
+    if ( zoom > 18 )
+    {
+	zoom = 18;
+    }
+
+    let {lng, lat} = map.getCenter();
+    window.open ( 'https://bustimes.org/map#'+zoom+'/'+lat+'/'+lng,false )
+}
+
+/* -------------------------------------------------------------------------
+ * A button to display an about screen.
+ * ------------------------------------------------------------------------- */
+function show_about()
+{
+    window.open ( '../maps/map/vector.html','_self',false )
+}
+
+function show_schema_changelog()
+{
+    window.open ( '../maps/map/changelog_sve01.html','_self',false )
+}
+
+function show_style_changelog()
+{
+    window.open ( '../maps/map/changelog_svwd01.html','_self',false )
+}
+
+function show_mkgmap()
+{
+    window.open ( '../maps/map/mkgmap.html','_self',false )
+}
+
+fetch("/metadata")
+	.then(response => response.json())
+	.then(data => {
+		var styleURL = window.location.protocol+'//'+window.location.host+'/style.json';
+		var bounds = data['bounds'].split(',');
+		map = new maplibregl.Map({
+		    container: 'map', // container id
+		    style: styleURL, // stylesheet location
+		    center: [(Number(bounds[0])+Number(bounds[2]))/2,
+			         (Number(bounds[1])+Number(bounds[3]))/2], // starting position [lng, lat]
+		    hash: true,
+		    zoom: 13, // starting zoom
+                    maxZoom: 25,
+		    attributionControl: false
+		});
+
+	    // Add default OSM attribution
+	    map.addControl(new maplibregl.AttributionControl({ customAttribution: osmAttrib }), 'bottom-right');
+
+	    // Add zoom control
+	    map.addControl(new maplibregl.NavigationControl());
+	    
+	    map.dragRotate.disable();
+	    map.keyboard.disableRotation();
+	    map.touchZoomRotate.disableRotation();
+
+	    // Add geolocate control
+	    map.addControl(
+		new maplibregl.GeolocateControl({
+		    positionOptions: { enableHighAccuracy: true },
+		    trackUserLocation: true
+		})
+	    );
+
+	    // Add scale control at bottom-left
+	    map.addControl(
+		new maplibregl.ScaleControl({
+		    unit: 'metric'
+		})
+	    );
+
+	    // -- Comment the following lines out to remove debug UI --
+//	    map.showTileBoundaries=true;
+
+//            map.addControl(new MaplibreInspect({
+//		showInspectMap: true,
+//		showInspectButton: false
+//	    }));
+
+		// -- --
+	}
+)
+</script>
+
+</body>
+</html>

@@ -3,6 +3,7 @@
 ## As yet unreleased
 Changed the display of `tourism=attraction` to depend on `way_area`.
 Changed the display of `military=barracks` to depend on `way_area`.
+Show an icon for outdoor seating areas.
 
 ## 18/10/2025
 Now that all named things have something in name:cy, name:en, name:ga and name:gd, support styles that display that as the default name.

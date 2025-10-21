@@ -11497,7 +11497,8 @@
 	    "source-layer": "land1",
 	    "minzoom": 16,
 	    "filter": [ "all", [ "in", "class", "leisure_bandstand",
-                                                "leisure_bleachers" ] ],
+                                                "leisure_bleachers",
+                                                "leisure_outdoor_seating" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",

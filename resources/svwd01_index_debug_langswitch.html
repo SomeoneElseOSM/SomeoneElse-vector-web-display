@@ -118,13 +118,12 @@ fetch("/metadata")
 		    attributionControl: false
 		});
 
+                // The language styles are either blank or a two letter language code that can be included in the json path
                 var styleList = document.getElementById('styles');
+                // When then selection dropdown changes, the map style is changed, which causes a reload.
 	        styleList.addEventListener('change', function(e) {
 	            var langId = e.target.value;
 	            map.setStyle( window.location.protocol+'//'+window.location.host+'/vector/style_svwd01' + langId + '.json' );
-	            var url = new URL(window.location.href);
-	            url.searchParams.set('style', langId);
-	            window.history.replaceState(null, null, url);
                 });
 
 	    // Add default OSM attribution

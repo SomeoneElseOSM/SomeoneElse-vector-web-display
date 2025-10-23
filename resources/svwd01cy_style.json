@@ -14473,7 +14473,8 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 18,
-	    "filter": [ "all", [ "in", "class", "man_made_markeraerial" ] ],
+	    "filter": [ "all", [ "in", "class", "man_made_markeraerial",
+                                                "man_made_manhole" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"text-anchor": "top",

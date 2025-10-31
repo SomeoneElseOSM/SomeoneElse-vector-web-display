@@ -1,6 +1,6 @@
 # Changes made to the [SVWD08 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd08.md).  
 
-## As yet unreleased
+## 31/10/2025
 Changed the display of `tourism=attraction` to depend on `way_area`.
 Changed the display of `military=barracks` to depend on `way_area`.
 Show an icon for outdoor seating areas.

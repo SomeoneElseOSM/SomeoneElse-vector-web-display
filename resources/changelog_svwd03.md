@@ -1,6 +1,9 @@
 # Changes made to the [SVWD03 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd03.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
+## 10/11/2025
+Removed theme park outlines from the style as they're not in the tiles.  Show theme park names whenever they're in the vector (vector 14), and display them further down the style so that it appears in preference to most other things that only appear at vector 14.
+
 ## 01/08/2025
 Updated bridge casing width in `svwd03` style to match the less prominent one in the `svwd0` style.
 Added missing Italian restaurant icon.

@@ -4,6 +4,7 @@ Except as noted, all changes also apply to the [SVWD06 Android native display st
 
 ## As yet unreleased
 Show names of theme parks at varying zoom levels depending on size.
+Show names of camp and caravan sites at varying zoom levels depending on size.
 
 ## 31/10/2025
 Changed the display of `tourism=attraction` to depend on `way_area`.

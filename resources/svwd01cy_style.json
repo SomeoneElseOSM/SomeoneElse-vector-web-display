@@ -15070,6 +15070,7 @@
                                                 "barrier_block",
                                                 "barrier_bollard",
                                                 "barrier_lift_gate",
+                                                "barrier_height_restrictor",
                                                 "barrier_toll_booth",
                                                 "barrier_toll_gantry",
                                                 "man_made_cross",

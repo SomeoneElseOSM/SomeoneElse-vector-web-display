@@ -7,6 +7,7 @@ Show names of theme parks at varying zoom levels depending on size.
 Show names of camp and caravan sites at varying zoom levels depending on size.
 Reduce outline on area `highway=service` etc. ways.
 Also show `highway=track` and `surface=gravel` `highway=service` areas.
+Added `barrier=height_restrictor`.
 
 ## 31/10/2025
 Changed the display of `tourism=attraction` to depend on `way_area`.

@@ -14732,6 +14732,7 @@
 	    "source-layer": "land1",
 	    "minzoom": 16,
 	    "filter": [ "all", [ "in", "class", "amenity_lifeboat",
+                                                "amenity_loading_dock",
                                                 "highway_traffic_signals",
                                                 "highway_crossing",
                                                 "man_made_aircraftcontroltower",

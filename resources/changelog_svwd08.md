@@ -1,5 +1,8 @@
 # Changes made to the [SVWD08 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd08.md).  
 
+## As yet unreleased
+Show `amenity=weighbridge`.
+
 ## 23/11/2025
 Show names of theme parks at varying zoom levels depending on size.
 Show names of camp and caravan sites at varying zoom levels depending on size.

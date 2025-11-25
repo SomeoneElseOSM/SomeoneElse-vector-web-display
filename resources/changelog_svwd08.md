@@ -2,6 +2,7 @@
 
 ## As yet unreleased
 Show `amenity=weighbridge`.
+Added icon for  `leisure=marina`.
 
 ## 23/11/2025
 Show names of theme parks at varying zoom levels depending on size.

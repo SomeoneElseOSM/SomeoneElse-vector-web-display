@@ -19911,8 +19911,36 @@
 	    "source": "someoneelse",
 	    "source-layer": "land2",
 	    "minzoom": 16,
-	    "filter": [ "all", [ "in", "class", "landuse_harbour",
-                                                "leisure_marina" ],
+	    "filter": [ "all", [ "in", "class", "leisure_marina" ],
+	                       [ "==", "$type", "Point" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+                "icon-allow-overlap": true,
+		"text-anchor": "top",
+		"text-field": "{name_gd}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 14,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#576ddf",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land2-harbour-name-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land2",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "class", "landuse_harbour" ],
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"text-anchor": "top",

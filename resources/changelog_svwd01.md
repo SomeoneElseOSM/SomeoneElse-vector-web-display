@@ -5,7 +5,8 @@ Except as noted, all changes also apply to the [SVWD06 Android native display st
 ## As yet unreleased
 Show `amenity=weighbridge`.
 Added icon for `leisure=marina`.
-Added icon for `amenity=boat_storage`.
+Show `amenity=boat_storage` with an icon and a name.
+Show `waterway=turning_point` (canal winding holes).
 
 ## 23/11/2025
 Show names of theme parks at varying zoom levels depending on size.

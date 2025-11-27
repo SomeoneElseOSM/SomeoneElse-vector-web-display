@@ -13379,11 +13379,8 @@
                                                 "amenity_drinking_water",
                                                 "amenity_nondrinking_water",
                                                 "amenity_sanitary_dump_station",
-                                                "amenity_bbq",
-                                                "amenity_waterway_access_point",
                                                 "man_made_water_well",
                                                 "leisure_picnic_table",
-                                                "leisure_slipway",
                                                 "leisure_bird_hide",
                                                 "leisure_grouse_butt",
                                                 "tourism_advertising_column",
@@ -13408,6 +13405,41 @@
 	    },
 	    "paint": {
 		"text-color": "#734a08",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-smallscaled-black-imagename-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "class", "amenity_bbq",
+                                                "leisure_slipway",
+                                                "amenity_waterway_access_point",
+                                                "amenity_waterway_turning_point" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+                "icon-allow-overlap": true,
+		"icon-size": { "stops": [ [ 16, 1.0 ], 
+                                          [ 18, 1.0 ], 
+                                          [ 22, 2.0 ] ] },
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+                "text-optional": true,
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "black",
 		"text-halo-blur": 0.5,
 		"text-halo-color": "#ffffff",
 		"text-halo-width": 1

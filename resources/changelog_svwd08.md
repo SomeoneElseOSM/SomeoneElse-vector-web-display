@@ -5,6 +5,7 @@ Show `amenity=weighbridge`.
 Added icon for `leisure=marina`.
 Show `amenity=boat_storage` with an icon and a name.
 Show `waterway=turning_point` (canal winding holes).
+Show `waterway=junction`.
 
 ## 23/11/2025
 Show names of theme parks at varying zoom levels depending on size.

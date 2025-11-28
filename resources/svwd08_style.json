@@ -13419,7 +13419,8 @@
 	    "filter": [ "all", [ "in", "class", "amenity_bbq",
                                                 "leisure_slipway",
                                                 "amenity_waterway_access_point",
-                                                "amenity_waterway_turning_point" ] ],
+                                                "amenity_waterway_turning_point",
+                                                "amenity_waterway_junction" ] ],
 	    "layout": {
 		"icon-image": "{class}",
                 "icon-allow-overlap": true,

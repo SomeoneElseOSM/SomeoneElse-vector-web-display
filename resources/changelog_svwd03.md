@@ -1,6 +1,9 @@
 # Changes made to the [SVWD03 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd03.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
+## 30/11/2025
+Merge `highway=living_street` processing from [parent style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd01.md).  This added a casing (the previous version did not work if _not_ over residential) and also improved the bridge display for living streets.
+
 ## 10/11/2025
 Removed theme park outlines from the style as they're not in the tiles.  Show theme park names whenever they're in the vector (vector 14), and display them further down the style so that it appears in preference to most other things that only appear at vector 14.
 

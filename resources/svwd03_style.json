@@ -1240,14 +1240,38 @@
 		[ "in", "kind", "living_street" ],
                 [ "==", "tunnel", true ]
 	    ],
-	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#dedede",
+                "line-dasharray": [0.1, 0.05],
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
 			[ 10,  2.8 ],
 			[ 20, 86.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-living_street-tunnelfill-10",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "streets",
+	    "minzoom": 10,
+	    "filter": [
+		"all",
+		[ "in", "kind", "living_street" ],
+                [ "==", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#f7f7f7",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 10,  2.0 ],
+			[ 20, 64.0 ]
 		    ]
 		}
 	    }
@@ -1675,29 +1699,6 @@
 		    "stops": [
 			[ 12,  1.0 ],
 			[ 20, 32.0 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "highway-living_street-tunnelfill-10",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "streets",
-	    "minzoom": 10,
-	    "filter": [
-		"all",
-		[ "in", "kind", "living_street" ],
-                [ "==", "tunnel", true ]
-	    ],
-	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
-	    "paint": {
-		"line-color": "#f7f7f7",
-		"line-width": {
-		    "base": 2.0,
-		    "stops": [
-			[ 10,  2.0 ],
-			[ 20, 64.0 ]
 		    ]
 		}
 	    }
@@ -2679,6 +2680,27 @@
 	    }
 	},
 	{
+	    "id": "highway-living_street-othercasing-10",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "streets",
+	    "minzoom": 10,
+	    "filter": [ "all", [ "in", "kind", "living_street" ],
+                               [ "!=", "bridge", true ],
+                               [ "!=", "tunnel", true ] ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#bbb",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 10,  2.8 ],
+			[ 20, 86.0 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "highway-living_street-otherfill-10",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -3595,24 +3617,22 @@
 	    }
 	},
 	{
-	    "id": "highway-living_street-bridgecasing-10",
+	    "id": "highway-living_street-bridgecasing-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "streets",
-	    "minzoom": 10,
-	    "filter": [
-		"all",
-		[ "in", "kind", "living_street" ],
-                [ "==", "bridge", true ]
-	    ],
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "kind", "living_street" ],
+                               [ "==", "bridge", true ] ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "black",
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
-			[ 10,  2.8 ],
-			[ 20, 86.0 ]
+			[  6,   2.4 ],
+			[  9,   4.8 ],
+			[ 20, 120.0 ]
 		    ]
 		}
 	    }
@@ -4069,16 +4089,54 @@
 	    }
 	},
 	{
+	    "id": "highway-living_street-bridgeprefill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "streets",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "kind", "living_street" ],
+                               [ "==", "bridge", true ] ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#f2efe9",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[  6,   2.0 ],
+			[  9,   4.0 ],
+			[ 20, 100.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-living_street-bridgeinnercasing-10",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "streets",
+	    "minzoom": 10,
+	    "filter": [ "all", [ "in", "kind", "living_street" ],
+                               [ "==", "bridge", true ] ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#bbb",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 10,  2.8 ],
+			[ 20, 86.0 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "highway-living_street-bridgefill-10",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "streets",
 	    "minzoom": 10,
-	    "filter": [
-		"all",
-		[ "in", "kind", "living_street" ],
-                [ "==", "bridge", true ]
-	    ],
+	    "filter": [ "all", [ "in", "kind", "living_street" ],
+                               [ "==", "bridge", true ] ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#F0F0F0",

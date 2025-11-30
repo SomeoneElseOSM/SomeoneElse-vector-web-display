@@ -5643,7 +5643,7 @@
 	    }
 	},
 	{
-	    "id": "highway-unclassified-otherinnercasing-11",
+	    "id": "highway-residential-otherinnercasing-11",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
@@ -6968,7 +6968,7 @@
 	    }
 	},
 	{
-	    "id": "highway-unclassified-otherfill-11",
+	    "id": "highway-residential-otherfill-11",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",

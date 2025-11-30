@@ -2,7 +2,7 @@
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
 ## As yet unreleased
-Copy bridge logic for `service`, `living_street` and `unclassified` from svwd01 to svwd03.
+Copy bridge logic for `service`, `living_street`, `unclassified`, `tertiary` and `secondary` from svwd01 to svwd03.
 
 ## 30/11/2025
 Merge `highway=living_street` processing from [parent style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd01.md).  This added a casing (the previous version did not work if _not_ over residential) and also improved the bridge display for living streets.

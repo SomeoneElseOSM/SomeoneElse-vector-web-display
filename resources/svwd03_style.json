@@ -3703,26 +3703,23 @@
 	    }
 	},
 	{
-	    "id": "highway-secondary-bridgecasing-9",
+	    "id": "highway-secondary-bridgecasing-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "streets",
-	    "minzoom": 8,
-	    "filter": [
-		"all",
-		[ "in", "kind", "secondary",
-		                 "secondary_link" ],
-                [ "==", "bridge", true ]
-	    ],
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "kind", "secondary",
+		                 "             secondary_link" ],
+                               [ "==", "bridge", true ] ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "black",
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
-			[  8,  1.4 ],
-			[  9,  2.8 ],
-			[ 20, 86.0 ]
+			[  6,   2.4 ],
+			[  9,   4.8 ],
+			[ 20, 120.0 ]
 		    ]
 		}
 	    }
@@ -3987,6 +3984,28 @@
 	    }
 	},
 	{
+	    "id": "highway-secondary-bridgeprefill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "streets",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "kind", "secondary",
+		                               "secondary_link" ],
+                               [ "==", "bridge", true ] ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#f2efe9",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[  6,   2.0 ],
+			[  9,   4.0 ],
+			[ 20, 100.0 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "highway-service-bridgeinnercasing-12",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -4064,6 +4083,28 @@
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
+			[  9,  2.8 ],
+			[ 20, 86.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-secondary-bridgeinnercasing-9",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "streets",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "kind", "secondary",
+		                               "secondary_link" ],
+                               [ "==", "bridge", true ] ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#cca16a",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[  8,  1.4 ],
 			[  9,  2.8 ],
 			[ 20, 86.0 ]
 		    ]
@@ -4952,12 +4993,9 @@
 	    "source": "someoneelse",
 	    "source-layer": "streets",
 	    "minzoom": 8,
-	    "filter": [
-		"all",
-		[ "in", "kind", "secondary",
-		                 "secondary_link" ],
-                [ "==", "bridge", true ]
-	    ],
+	    "filter": [ "all", [ "in", "kind", "secondary",
+		                               "secondary_link" ],
+                               [ "==", "bridge", true ] ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "#f9d6aa",

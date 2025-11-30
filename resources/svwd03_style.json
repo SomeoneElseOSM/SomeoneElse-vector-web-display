@@ -3681,25 +3681,23 @@
 	    }
 	},
 	{
-	    "id": "highway-tertiary-bridgecasing-9",
+	    "id": "highway-tertiary-bridgecasing-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "streets",
-	    "minzoom": 9,
-	    "filter": [
-		"all",
-		[ "in", "kind", "tertiary",
-		                 "tertiary_link" ],
-                [ "==", "bridge", true ]
-	    ],
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "kind", "tertiary",
+		                               "tertiary_link" ],
+                               [ "==", "bridge", true ] ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "black",
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
-			[  9,  2.8 ],
-			[ 20, 86.0 ]
+			[  6,   2.4 ],
+			[  9,   4.8 ],
+			[ 20, 120.0 ]
 		    ]
 		}
 	    }
@@ -3967,6 +3965,28 @@
 	    }
 	},
 	{
+	    "id": "highway-tertiary-bridgeprefill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "streets",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "kind", "tertiary",
+		                               "tertiary_link" ],
+                               [ "==", "bridge", true ] ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#f2efe9",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[  6,   2.0 ],
+			[  9,   4.0 ],
+			[ 20, 100.0 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "highway-service-bridgeinnercasing-12",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -4024,6 +4044,27 @@
 		    "stops": [
 			[ 10,  2.8 ],
 			[ 12,  3.2 ],
+			[ 20, 86.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-tertiary-bridgeinnercasing-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "streets",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "kind", "tertiary",
+		                               "tertiary_link" ],
+                               [ "==", "bridge", true ] ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#c6c68a",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[  9,  2.8 ],
 			[ 20, 86.0 ]
 		    ]
 		}

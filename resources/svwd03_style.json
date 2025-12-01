@@ -4064,6 +4064,70 @@
 	    }
 	},
 	{
+	    "id": "railway-rail-bridgecasing-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "streets",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "kind", "rail",
+                                 "funicular",
+                                 "light_rail",
+                                 "subway",
+                                 "tram",
+                                 "bus_guideway",
+	                         "busway" ],
+                [ "==", "bridge", true ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "black",
+		"line-width": {
+		    "stops": [
+			[ 13,  5.4 ],
+			[ 14,  7.2 ],
+			[ 16, 10.8 ],
+			[ 17, 21.6 ],
+			[ 18, 43.2 ],
+			[ 20, 72.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "railway-rail-bridgeprefill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "streets",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "kind", "rail",
+                                 "funicular",
+                                 "light_rail",
+                                 "subway",
+                                 "tram",
+                                 "bus_guideway",
+	                         "busway" ],
+                [ "==", "bridge", true ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#f2efe9",
+		"line-width": {
+		    "stops": [
+			[ 13,  3.6 ],
+			[ 14,  4.8 ],
+			[ 16,  7.2 ],
+			[ 17, 14.4 ],
+			[ 18, 28.8 ],
+			[ 20, 48.0 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "highway-service-bridgeinnercasing-12",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -4441,70 +4505,6 @@
 	    }
 	},
 	{
-	    "id": "railway-rail-bridgecasing-12",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "streets",
-	    "minzoom": 12,
-	    "filter": [
-		"all",
-		[ "in", "kind", "rail",
-                                 "funicular",
-                                 "light_rail",
-                                 "subway",
-                                 "tram",
-                                 "bus_guideway",
-	                         "busway" ],
-                [ "==", "bridge", true ]
-	    ],
-	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
-	    "paint": {
-		"line-color": "black",
-		"line-width": {
-		    "stops": [
-			[ 13,  5.4 ],
-			[ 14,  7.2 ],
-			[ 16, 10.8 ],
-			[ 17, 21.6 ],
-			[ 18, 43.2 ],
-			[ 20, 72.0 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "railway-rail-bridgeprefill-12",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "streets",
-	    "minzoom": 12,
-	    "filter": [
-		"all",
-		[ "in", "kind", "rail",
-                                 "funicular",
-                                 "light_rail",
-                                 "subway",
-                                 "tram",
-                                 "bus_guideway",
-	                         "busway" ],
-                [ "==", "bridge", true ]
-	    ],
-	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
-	    "paint": {
-		"line-color": "#f2efe9",
-		"line-width": {
-		    "stops": [
-			[ 13,  3.6 ],
-			[ 14,  4.8 ],
-			[ 16,  7.2 ],
-			[ 17, 14.4 ],
-			[ 18, 28.8 ],
-			[ 20, 48.0 ]
-		    ]
-		}
-	    }
-	},
-	{
 	    "id": "railway-rail-bridgedarkfill-12",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -4551,65 +4551,6 @@
 			[ 17,  1.2 ],
 			[ 18,  2.4 ],
 			[ 20,  4.8 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "railway-tram-bridgebackgroundfill-12",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "streets",
-	    "minzoom": 12,
-	    "filter": [
-		"all",
-		[ "in", "kind", "light_rail",
-                                 "funicular",
-                                 "subway",
-                                 "tram" ],
-                [ "==", "bridge", true ]
-	    ],
-	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
-	    "paint": {
-		"line-color": "#999999",
-		"line-width": {
-		    "stops": [
-			[ 13,  0.2 ],
-			[ 14,  0.6 ],
-			[ 16,  1.2 ],
-			[ 17,  2.4 ],
-			[ 18,  4.8 ],
-			[ 20,  8.0 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "railway-tram-bridgeforegroundfill-12",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "streets",
-	    "minzoom": 12,
-	    "filter": [
-		"all",
-		[ "in", "kind", "light_rail",
-                                 "funicular",
-                                 "subway",
-                                 "tram" ],
-                [ "==", "bridge", true ]
-	    ],
-	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
-	    "paint": {
-		"line-color": "#666",
-                "line-dasharray": [ 0.05, 6.0 ],
-		"line-width": {
-		    "stops": [
-			[ 13,  0.2 ],
-			[ 14,  0.6 ],
-			[ 16,  1.2 ],
-			[ 17,  2.4 ],
-			[ 18,  4.8 ],
-			[ 20,  8.0 ]
 		    ]
 		}
 	    }
@@ -5183,7 +5124,7 @@
 	    "source-layer": "streets",
 	    "minzoom": 5,
 	    "filter": [ "all", [ "in", "kind", "motorway",
-		                                "motorway_link" ],
+		                               "motorway_link" ],
                                [ "==", "bridge", true ] ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
 	    "paint": {
@@ -5193,6 +5134,65 @@
 		    "stops": [
 			[  6,  0.7 ],
 			[ 20, 64.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "railway-tram-bridgebackgroundfill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "streets",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "kind", "light_rail",
+                                 "funicular",
+                                 "subway",
+                                 "tram" ],
+                [ "==", "bridge", true ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#999999",
+		"line-width": {
+		    "stops": [
+			[ 13,  0.2 ],
+			[ 14,  0.6 ],
+			[ 16,  1.2 ],
+			[ 17,  2.4 ],
+			[ 18,  4.8 ],
+			[ 20,  8.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "railway-tram-bridgeforegroundfill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "streets",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "kind", "light_rail",
+                                 "funicular",
+                                 "subway",
+                                 "tram" ],
+                [ "==", "bridge", true ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#666",
+                "line-dasharray": [ 0.05, 6.0 ],
+		"line-width": {
+		    "stops": [
+			[ 13,  0.2 ],
+			[ 14,  0.6 ],
+			[ 16,  1.2 ],
+			[ 17,  2.4 ],
+			[ 18,  4.8 ],
+			[ 20,  8.0 ]
 		    ]
 		}
 	    }

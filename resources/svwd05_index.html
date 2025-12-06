@@ -53,8 +53,10 @@ fetch("/metadata")
 //	    map.showTileBoundaries=false;
 	    
             map.addControl(new MaplibreInspect({
-		showInspectMap: true,
-		showInspectButton: false
+		showInspectMap: false,
+		showInspectButton: false,
+		showInspectMapPopup: false,
+		showMapPopup: true
 	    }));
 
 		// -- --

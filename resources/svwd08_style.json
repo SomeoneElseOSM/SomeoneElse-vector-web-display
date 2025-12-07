@@ -4318,6 +4318,7 @@
 	    "filter": [
 		"all",
 		[ "in", "class", "rail",
+                                 "disused",
                                  "funicular",
                                  "preserved",
                                  "light_rail",
@@ -5606,7 +5607,7 @@
 	    }
 	},
 	{
-	    "id": "highway-unclassified-otherinnercasing-11",
+	    "id": "highway-residential-otherinnercasing-11",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",

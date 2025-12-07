@@ -4355,6 +4355,7 @@
 	    "filter": [
 		"all",
 		[ "in", "class", "rail",
+                                 "disused",
                                  "funicular",
                                  "preserved",
                                  "light_rail",

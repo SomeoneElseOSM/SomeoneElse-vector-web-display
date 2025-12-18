@@ -1,5 +1,8 @@
 # Changes made to the [SVWD08 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd08.md).  
 
+## As yet unreleased
+Added icon for `amenity=smoking_area`.
+
 ## 29/11/2025
 Show `amenity=weighbridge`.
 Added icon for `leisure=marina`.

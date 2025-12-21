@@ -46,10 +46,10 @@ APACHE_SUBDIR=/var/www/html/vector
 # $3         http://localhost                                               target index URL part 1
 # $4         /home/ajtown/src/SomeoneElse-vector-web-display/spec.json      Source of "spec.json" file
 # $5         /home/ajtown/src/SomeoneElse-vector-web-display/metadata.json  Source of "metadata" file
-# $6         /home/ajtown/src/tilemaker/server/static/fonts                 Source of fonts
+# $6         /home/ajtown/src/tilemaker/server/static/fonts                 Source of fonts.  Use "nofonts" to use system fonts.
 # $7         /home/ajtown/src/tilemaker/server/static/style.json            Source of style.json
-# $8        /home/ajtown/src/tilemaker/server/static/index.html            Source of index.html
-# $9        svwd01                                                         Name of first part of sprite files.
+# $8         /home/ajtown/src/tilemaker/server/static/index.html            Source of index.html
+# $9         svwd01                                                         Name of first part of sprite files.
 # $10        /home/ajtown/src/SomeoneElse-vector-web-display                Directory of sprite files.
 #
 # Set e.v.s for these parameters
@@ -112,12 +112,17 @@ else
     then
 	echo "No fonts installed; no source provided"
     else
-	if [ -e "${FONTS_SOURCE}" ]
-	then
-	    cp -r ${FONTS_SOURCE} ${APACHE_SUBDIR}/
-	    echo "Installed fonts into:  ${APACHE_SUBDIR}"
-	else
-	    echo "No fonts installed; source does not exist: ${FONTS_SOURCE}"
+        if [ "${FONTS_SOURCE}" = "nofonts" ]
+        then
+	    echo "System fonts will be used"
+        else
+	    if [ -e "${FONTS_SOURCE}" ]
+	    then
+	        cp -r ${FONTS_SOURCE} ${APACHE_SUBDIR}/
+	        echo "Installed fonts into:  ${APACHE_SUBDIR}"
+	    else
+	        echo "No fonts installed; source does not exist: ${FONTS_SOURCE}"
+	    fi
 	fi
     fi
     #
@@ -130,8 +135,14 @@ else
     else
 	if [ -f "${STYLE_SOURCE}" ]
 	then
-	    sed "s!SPEC_NAME!${DEPLOYMENT_NAME}!" ${STYLE_SOURCE}  | sed "s!SPEC_URL!${DEPLOYMENT_URL}/vector/spec_${DEPLOYMENT_NAME}.json!" | sed "s!http://localhost:8080/spec.json!${DEPLOYMENT_URL}/vector/spec_${DEPLOYMENT_NAME}.json!" | sed "s!FONT_URL!${DEPLOYMENT_URL}/vector/fonts/!" | sed "s!http://localhost:8080/fonts/!${DEPLOYMENT_URL}/vector/fonts/!" | sed "s!SPRITE_URL!${DEPLOYMENT_URL}/vector/${SPRITE_NAME}!" > ${APACHE_SUBDIR}/style_${DEPLOYMENT_NAME}.json
-	    echo "Created style json:    ${APACHE_SUBDIR}/style_${DEPLOYMENT_NAME}.json"
+            if [ "${FONTS_SOURCE}" = "nofonts" ]
+            then
+	        sed "s!SPEC_NAME!${DEPLOYMENT_NAME}!" ${STYLE_SOURCE}  | sed "s!SPEC_URL!${DEPLOYMENT_URL}/vector/spec_${DEPLOYMENT_NAME}.json!" | sed "s!http://localhost:8080/spec.json!${DEPLOYMENT_URL}/vector/spec_${DEPLOYMENT_NAME}.json!" | sed "s!.*FONT_URL.*!!" | sed "s!http://localhost:8080/fonts/!${DEPLOYMENT_URL}/vector/fonts/!" | sed "s!SPRITE_URL!${DEPLOYMENT_URL}/vector/${SPRITE_NAME}!" > ${APACHE_SUBDIR}/style_${DEPLOYMENT_NAME}.json
+            else
+	        sed "s!SPEC_NAME!${DEPLOYMENT_NAME}!" ${STYLE_SOURCE}  | sed "s!SPEC_URL!${DEPLOYMENT_URL}/vector/spec_${DEPLOYMENT_NAME}.json!" | sed "s!http://localhost:8080/spec.json!${DEPLOYMENT_URL}/vector/spec_${DEPLOYMENT_NAME}.json!" | sed "s!FONT_URL!${DEPLOYMENT_URL}/vector/fonts/!" | sed "s!http://localhost:8080/fonts/!${DEPLOYMENT_URL}/vector/fonts/!" | sed "s!SPRITE_URL!${DEPLOYMENT_URL}/vector/${SPRITE_NAME}!" > ${APACHE_SUBDIR}/style_${DEPLOYMENT_NAME}.json
+            fi
+
+            echo "Created style json:    ${APACHE_SUBDIR}/style_${DEPLOYMENT_NAME}.json"
 	else
 	    echo "No style json created; source does not exist: ${STYLE_SOURCE}"
 	fi

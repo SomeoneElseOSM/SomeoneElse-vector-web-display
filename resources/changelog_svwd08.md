@@ -1,5 +1,8 @@
 # Changes made to the [SVWD08 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd08.md).  
 
+## 27/12/2025
+Show name for gas and electric streetlamps, if set.
+
 ## 21/12/2025
 Added icon for `amenity=smoking_area`.
 

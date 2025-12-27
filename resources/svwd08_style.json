@@ -14188,9 +14188,7 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 18,
-	    "filter": [ "all", [ "in", "class", "highway_streetlamp_electric",
-                                                "highway_streetlamp_gas",
-	                                        "amenity_life_ring",
+	    "filter": [ "all", [ "in", "class", "amenity_life_ring",
                                                 "amenity_fire_extinguisher",
 	                                        "tourism_camp_pitch" ] ],
 	    "layout": {
@@ -14207,6 +14205,7 @@
                                                 "amenity_waste_disposal",
                                                 "amenity_smoking_area",
                                                 "amenity_grit_bin",
+                                                "highway_streetlamp_gas",
                                                 "highway_streetlamp_electric" ] ],
 	    "layout": {
 		"icon-image": "{class}",

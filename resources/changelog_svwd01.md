@@ -4,6 +4,7 @@ oExcept as noted, all changes also apply to the [SVWD06 Android native display s
 
 ## As yet unreleased
 Show historic enclosures and hut circles with an icon and a name.
+Changed icon on where `tourism=chalet` is used for multiple holiday lodges to the "multiple builings by a tree" one.
 
 ## 27/12/2025
 Show name for gas and electric streetlamps, if set.

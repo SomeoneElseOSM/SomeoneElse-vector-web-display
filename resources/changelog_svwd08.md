@@ -1,6 +1,6 @@
 # Changes made to the [SVWD08 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd08.md).  
 
-## As yet unreleased
+## 30/12/2025
 Show historic enclosures and hut circles with an icon and a name.
 Changed icon on where `tourism=chalet` is used for multiple holiday lodges to the "multiple builings by a tree" one.
 

@@ -887,6 +887,8 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/illuminationtower.png                           ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_illuminationtower.png 
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/militarybunker.png                              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_militarybunker.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/manmade_mine.png                                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_mineshaft.png
+qqq
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/monitoringearthquake.png                        ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_monitoringearthquake.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/monitoringrainfall.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_monitoringrainfall.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/monitoringsky.png                               ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_monitoringsky.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/monitoringwater.png                             ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_monitoringwater.png

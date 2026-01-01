@@ -15170,6 +15170,7 @@
 	    "source-layer": "land1",
 	    "minzoom": 16,
 	    "filter": [ "all", [ "in", "class", "amenity_lifeboat",
+                                                "man_made_pointpier",
                                                 "amenity_boat_storage",
                                                 "amenity_loading_dock",
                                                 "amenity_weighbridge",

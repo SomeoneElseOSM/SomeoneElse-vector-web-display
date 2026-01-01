@@ -2,6 +2,9 @@
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 oExcept as noted, all changes also apply to the [SVWD06 Android native display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd06.md).  
 
+## As yet unreleased
+Show piers that are mapped as nodes with an icon and a name.
+
 ## 30/12/2025
 Show historic enclosures and hut circles with an icon and a name.
 Changed icon on where `tourism=chalet` is used for multiple holiday lodges to the "multiple builings by a tree" one.

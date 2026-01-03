@@ -3,7 +3,7 @@
 # svwd07_call_icon_convert.sh
 # Based on the generic svwd_call_icon_convert.sh
 #
-# Copyright (C) 2023-2025  Andy Townsend
+# Copyright (C) 2023-2026  Andy Townsend
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by

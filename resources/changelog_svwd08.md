@@ -2,6 +2,7 @@
 
 ## As yet unreleased
 Show piers that are mapped as nodes with an icon and a name.
+Handle sidewalks, verges and fords on living street bridges.
 
 ## 30/12/2025
 Show historic enclosures and hut circles with an icon and a name.

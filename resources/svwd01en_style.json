@@ -12697,6 +12697,8 @@
 	    "filter": [ "all", [ "in", "class", "tourism_alpine_hut" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 12, 1.0 ], 
+                                          [ 17, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name_en}\n",
 		"text-font": [
@@ -12725,6 +12727,8 @@
                                                 "natural_spring" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 13, 1.0 ], 
+                                          [ 18, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name_en}\n",
 		"text-font": [
@@ -12752,6 +12756,8 @@
 	    "filter": [ "all", [ "in", "class", "amenity_bus_station" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 15, 1.0 ], 
+                                          [ 20, 2.0 ] ] },
                 "icon-allow-overlap": true,
 		"text-anchor": "top",
 		"text-field": "{name_en}\n",
@@ -12780,6 +12786,8 @@
 	    "filter": [ "all", [ "in", "class", "railway_subway_entrance" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 17, 1.0 ], 
+                                          [ 22, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name_en}\n",
 		"text-font": [
@@ -12953,6 +12961,8 @@
                                                 "tourism_informationncnunknown" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 14, 1.0 ], 
+                                          [ 19, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name_en}\n",
 		"text-font": [
@@ -12981,6 +12991,8 @@
                                                 "natural_sinkhole" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 14, 1.0 ], 
+                                          [ 19, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name_en}\n",
 		"text-font": [
@@ -13038,6 +13050,8 @@
                                                 "man_made_cairn" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 14, 1.0 ], 
+                                          [ 19, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name_en}\n",
 		"text-font": [
@@ -13121,6 +13135,8 @@
 	    "filter": [ "all", [ "in", "class", "tourism_informationpnfs" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 14, 1.0 ], 
+                                          [ 19, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{ref}\n",
 		"text-font": [
@@ -13159,6 +13175,8 @@
                                                 "tourism_informationstele" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 15, 1.0 ], 
+                                          [ 20, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name_en}\n",
 		"text-font": [
@@ -13188,6 +13206,8 @@
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 16, 1.0 ], 
+                                          [ 21, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name_en}\n",
 		"text-font": [
@@ -14260,6 +14280,8 @@
                                                 "amenity_parcel_locker" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 17, 1.0 ], 
+                                          [ 22, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name_en}\n",
 		"text-font": [
@@ -14288,6 +14310,8 @@
                                                 "amenity_bicycle_repair_station" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 18, 1.0 ], 
+                                          [ 23, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name_en}\n",
 		"text-font": [
@@ -14315,6 +14339,8 @@
 	    "filter": [ "all", [ "in", "class", "amenity_musical_instrument" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 20, 1.0 ], 
+                                          [ 25, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name_en}\n",
 		"text-font": [
@@ -14424,6 +14450,8 @@
                                                 "natural_rock" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 16, 1.0 ], 
+                                          [ 21, 2.0 ] ] },
                 "icon-allow-overlap": true,
 		"text-anchor": "top",
 		"text-field": "{name_en}\n",
@@ -14774,6 +14802,8 @@
                                                 "historic_monastery" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 14, 1.0 ], 
+                                          [ 19, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name_en}\n",
 		"text-font": [
@@ -14832,6 +14862,8 @@
                                                 "historic_runestone" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 15, 1.0 ], 
+                                          [ 20, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name_en}\n",
 		"text-font": [
@@ -14892,6 +14924,8 @@
                                                 "historic_nonspecific" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 16, 1.0 ], 
+                                          [ 21, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name_en}\n",
 		"text-font": [
@@ -14919,6 +14953,8 @@
 	    "filter": [ "all", [ "in", "class", "amenity_fire_hydrant" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 21, 1.0 ], 
+                                          [ 26, 2.0 ] ] },
 		"visibility": "visible"
 	    }
 	},
@@ -14932,7 +14968,9 @@
                                                 "amenity_fire_extinguisher",
 	                                        "tourism_camp_pitch" ] ],
 	    "layout": {
-		"icon-image": "{class}"
+		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 18, 1.0 ], 
+                                          [ 23, 2.0 ] ] }
 	    }
 	},
 	{
@@ -14949,6 +14987,8 @@
                                                 "highway_streetlamp_electric" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 18, 1.0 ], 
+                                          [ 23, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name_en}\n",
 		"text-font": [
@@ -14977,6 +15017,8 @@
                                                 "man_made_outfall" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 16, 1.0 ], 
+                                          [ 21, 2.0 ] ] },
 		"visibility": "visible"
 	    }
 	},
@@ -14989,6 +15031,8 @@
 	    "filter": [ "all", [ "in", "class", "man_made_golfballwasher" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 17, 1.0 ], 
+                                          [ 22, 2.0 ] ] },
 		"visibility": "visible"
 	    }
 	},
@@ -15025,6 +15069,8 @@
                                                 "man_made_manhole" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 18, 1.0 ], 
+                                          [ 23, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name_en}\n",
 		"text-font": [
@@ -15064,6 +15110,8 @@
 	    "filter": [ "all", [ "in", "class", "man_made_markermilitary" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 18, 1.0 ], 
+                                          [ 23, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name_en}\n",
 		"text-font": [
@@ -15094,6 +15142,8 @@
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 16, 1.0 ], 
+                                          [ 21, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name_en}\n",
 		"text-font": [
@@ -15126,6 +15176,8 @@
                                                 "amenity_monastery" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 16, 1.0 ], 
+                                          [ 21, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name_en}\n",
 		"text-font": [
@@ -15182,6 +15234,8 @@
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 15, 1.0 ], 
+                                          [ 20, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name_en}\n",
 		"text-font": [
@@ -15236,6 +15290,8 @@
 	    "filter": [ "all", [ "in", "class", "amenity_fountain" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 16, 1.0 ], 
+                                          [ 21, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name_en}\n",
 		"text-font": [
@@ -15293,6 +15349,8 @@
 	    "filter": [ "all", [ "in", "class", "man_made_bigchimney" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 12, 1.0 ], 
+                                          [ 17, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name_en}\n",
 		"text-font": [
@@ -15320,6 +15378,8 @@
 	    "filter": [ "all", [ "in", "class", "man_made_bigobservationtower" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 13, 1.0 ], 
+                                          [ 18, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name_en}\n",
 		"text-font": [
@@ -15380,6 +15440,8 @@
                                                 "man_made_windsock" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 14, 1.0 ], 
+                                          [ 19, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name_en}\n",
 		"text-font": [
@@ -15460,6 +15522,8 @@
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 14, 1.0 ], 
+                                          [ 19, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name_en}\n",
 		"text-font": [
@@ -15508,6 +15572,8 @@
                                                 "railway_level_crossing" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 15, 1.0 ], 
+                                          [ 20, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name_en}\n",
 		"text-font": [
@@ -15567,6 +15633,8 @@
                                                 "man_made_windmill" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 16, 1.0 ], 
+                                          [ 21, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name_en}\n",
 		"text-font": [
@@ -15595,6 +15663,8 @@
                                                 "amenity_emergency_access_point" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 16, 1.0 ], 
+                                          [ 21, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name_en}\n",
 		"text-font": [
@@ -15625,6 +15695,8 @@
                                                 "man_made_charge_point" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 18, 1.0 ], 
+                                          [ 23, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name_en}\n",
 		"text-font": [
@@ -15680,6 +15752,8 @@
 	    "filter": [ "all", [ "in", "class", "highway_milestone" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 19, 1.0 ], 
+                                          [ 24, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{ele}\n",
 		"text-font": [
@@ -15710,6 +15784,8 @@
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 15, 1.0 ], 
+                                          [ 20, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name_en}\n",
 		"text-font": [
@@ -15748,6 +15824,8 @@
                                                 "amenity_car_rental" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 16, 1.0 ], 
+                                          [ 21, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name_en}\n",
 		"text-font": [
@@ -15777,6 +15855,8 @@
 	    "filter": [ "all", [ "in", "class", "amenity_charging_station" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 16, 1.0 ], 
+                                          [ 21, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name_en}\n",
 		"text-font": [
@@ -15805,6 +15885,8 @@
 	    "filter": [ "all", [ "in", "class", "amenity_charging_station" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 20, 1.0 ], 
+                                          [ 25, 2.0 ] ] },
                 "icon-allow-overlap": true,
 		"text-anchor": "top",
 		"text-field": "{ele}\n",
@@ -15901,6 +15983,8 @@
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 16, 1.0 ], 
+                                          [ 21, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name_en}\n",
 		"text-font": [
@@ -15929,6 +16013,8 @@
 	    "filter": [ "all", [ "in", "class", "man_made_flagpole_red" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 14, 1.0 ], 
+                                          [ 19, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name_en}\n",
 		"text-font": [
@@ -15956,6 +16042,8 @@
 	    "filter": [ "all", [ "in", "class", "tourism_militarysign" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 15, 1.0 ], 
+                                          [ 20, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name_en}\n",
 		"text-font": [
@@ -15984,6 +16072,8 @@
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 15, 1.0 ], 
+                                          [ 20, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name_en}\n",
 		"text-font": [
@@ -16041,6 +16131,8 @@
 	    "filter": [ "all", [ "in", "class", "amenity_compressed_air" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 18, 1.0 ], 
+                                          [ 23, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name_en}\n",
 		"text-font": [
@@ -16069,6 +16161,8 @@
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 16, 1.0 ], 
+                                          [ 21, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name_en}\n",
 		"text-font": [
@@ -16098,6 +16192,8 @@
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 16, 1.0 ], 
+                                          [ 21, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name_en}\n",
 		"text-font": [
@@ -16127,6 +16223,8 @@
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 16, 1.0 ], 
+                                          [ 21, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name_en}\n",
 		"text-font": [
@@ -16190,6 +16288,8 @@
                                                 "amenity_mountain_rescue_box" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 16, 1.0 ], 
+                                          [ 21, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name_en}\n",
 		"text-font": [
@@ -16220,6 +16320,8 @@
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 16, 1.0 ], 
+                                          [ 21, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name_en}\n",
 		"text-font": [
@@ -16306,6 +16408,8 @@
                                                 "amenity_pitch_baseball" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 17, 1.0 ], 
+                                          [ 22, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name_en}\n",
 		"text-font": [
@@ -16630,6 +16734,8 @@
 	    "filter": [ "all", [ "in", "class", "highway_elevator"  ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 16, 1.0 ], 
+                                          [ 21, 2.0 ] ] },
                 "icon-allow-overlap": true,
 		"text-anchor": "top",
 		"text-field": "{name_en}\n",
@@ -16664,6 +16770,8 @@
                                                 "highway_bus_stop_speech_realtime"  ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 20, 1.0 ], 
+                                          [ 25, 2.0 ] ] },
                 "icon-allow-overlap": true,
 		"text-anchor": "top",
 		"text-field": "{ele}\n",
@@ -20156,6 +20264,8 @@
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 13, 1.0 ], 
+                                          [ 18, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name_en}\n",
 		"text-font": [
@@ -20184,6 +20294,8 @@
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"icon-image": "aeroway_aerodrome",
+		"icon-size": { "stops": [ [  9, 1.0 ], 
+                                          [ 14, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name_en}\n",
 		"text-font": [
@@ -20343,6 +20455,8 @@
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 16, 1.0 ], 
+                                          [ 21, 2.0 ] ] },
                 "icon-allow-overlap": true,
 		"text-anchor": "top",
 		"text-field": "{name_en}\n",
@@ -21027,6 +21141,8 @@
 	    "filter": [ "all", [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 12, 1.0 ], 
+                                          [ 17, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name_en}\n",
 		"text-font": [

@@ -11235,6 +11235,8 @@
                                                 "leisure_outdoor_seating" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 16, 1.0 ], 
+                                          [ 21, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -11262,6 +11264,8 @@
 	    "filter": [ "all", [ "in", "class", "leisure_fitness_station" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 18, 1.0 ], 
+                                          [ 23, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -11291,6 +11295,8 @@
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 16, 1.0 ], 
+                                          [ 21, 2.0 ] ] },
                 "icon-allow-overlap": true,
 		"text-anchor": "top",
 		"text-field": "{name}\n",
@@ -11322,6 +11328,8 @@
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 16, 1.0 ], 
+                                          [ 21, 2.0 ] ] },
                 "icon-allow-overlap": true,
 		"text-anchor": "top",
 		"text-field": "{name}\n",
@@ -11353,6 +11361,8 @@
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 16, 1.0 ], 
+                                          [ 21, 2.0 ] ] },
                 "icon-allow-overlap": true,
 		"text-anchor": "top",
 		"text-field": "{name}\n",
@@ -11383,6 +11393,8 @@
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 16, 1.0 ], 
+                                          [ 21, 2.0 ] ] },
                 "icon-allow-overlap": true,
 		"text-anchor": "top",
 		"text-field": "{name}\n",

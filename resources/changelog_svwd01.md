@@ -6,6 +6,7 @@ oExcept as noted, all changes also apply to the [SVWD06 Android native display s
 Show piers that are mapped as nodes with an icon and a name.
 Handle sidewalks, verges and fords on living street bridges.
 Trunk roads with sidewalks, verges (and if ever added, fords) are now shown differently to non-edged trunk roads, just like primary roads are.
+Made some icons such as `dog_park` larger at higher zooms.
 
 ## 30/12/2025
 Show historic enclosures and hut circles with an icon and a name.

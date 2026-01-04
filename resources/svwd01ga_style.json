@@ -12639,6 +12639,8 @@
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 14, 1.0 ], 
+                                          [ 19, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name_ga}\n",
 		"text-font": [
@@ -12666,6 +12668,8 @@
 	    "filter": [ "all", [ "in", "class", "amenity_holy_well" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 13, 1.0 ], 
+                                          [ 18, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name_ga}\n",
 		"text-font": [

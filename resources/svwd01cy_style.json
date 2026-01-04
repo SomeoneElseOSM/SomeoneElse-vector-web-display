@@ -6118,8 +6118,7 @@
 		[ "!in", "edge", "sidewalk",
 		                 "verge",
                                  "ford" ],
-                [ "!in", "bridge", "levee",
-                                   "yes" ],
+                [ "!in", "bridge", "yes" ],
                 [ "!=", "tunnel", true ]
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
@@ -6145,9 +6144,6 @@
 		"all",
 		[ "in", "class", "trunk",
 		                 "trunk_link" ],
-		[ "!in", "edge", "sidewalk",
-		                 "verge",
-                                 "ford" ],
                 [ "==", "bridge", "levee" ],
                 [ "!=", "tunnel", true ]
 	    ],
@@ -6175,8 +6171,7 @@
 		[ "in", "class", "trunk",
 		                 "trunk_link" ],
 		[ "in", "edge", "sidewalk" ],
-                [ "!in", "bridge", "levee",
-                                   "yes" ],
+                [ "!in", "bridge", "yes" ],
                 [ "!=", "tunnel", true ]
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
@@ -6203,8 +6198,7 @@
 		[ "in", "class", "trunk",
 		                 "trunk_link" ],
 		[ "in", "edge", "verge" ],
-                [ "!in", "bridge", "levee",
-                                   "yes" ],
+                [ "!in", "bridge", "yes" ],
                 [ "!=", "tunnel", true ]
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },

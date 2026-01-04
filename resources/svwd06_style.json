@@ -12159,6 +12159,8 @@
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 15, 1.0 ], 
+                                          [ 20, 2.0 ] ] },
                 "text-optional": true,
 		"text-anchor": "top",
 		"text-field": "{name}\n",
@@ -12193,6 +12195,8 @@
 	                       [ "==", "$type", "Point" ] ],
 	    "layout": {
 		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 16, 1.0 ], 
+                                          [ 21, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [

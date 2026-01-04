@@ -5337,6 +5337,8 @@
 	    "filter": [ "all", [ "in", "kind", "power_tower" ] ],
 	    "layout": {
 		"icon-image": "{kind}",
+		"icon-size": { "stops": [ [ 14, 1.0 ], 
+                                          [ 19, 2.0 ] ] },
 		"visibility": "visible"
 	    }
 	},
@@ -5349,6 +5351,8 @@
 	    "filter": [ "all", [ "in", "kind", "power_pole" ] ],
 	    "layout": {
 		"icon-image": "{kind}",
+		"icon-size": { "stops": [ [ 15, 1.0 ], 
+                                          [ 20, 2.0 ] ] },
 		"visibility": "visible"
 	    }
 	},
@@ -5387,6 +5391,8 @@
 	    "filter": [ "all", [ "in", "kind", "parking" ] ],
 	    "layout": {
 		"icon-image": "{kind}",
+		"icon-size": { "stops": [ [ 14, 1.0 ], 
+                                          [ 19, 2.0 ] ] },
                 "icon-allow-overlap": true,
 		"text-anchor": "top",
 		"text-field": "{name}\n",
@@ -5415,6 +5421,8 @@
 	    "filter": [ "all", [ "in", "kind", "bicycle_parking" ] ],
 	    "layout": {
 		"icon-image": "{kind}",
+		"icon-size": { "stops": [ [ 15, 1.0 ], 
+                                          [ 20, 2.0 ] ] },
                 "icon-allow-overlap": true,
 		"text-anchor": "top",
 		"text-field": "{name}\n",
@@ -5446,6 +5454,8 @@
                                                   "playground" ] ],
 	    "layout": {
 		"icon-image": "amenity_{amenity}",
+		"icon-size": { "stops": [ [ 16, 1.0 ], 
+                                          [ 21, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -5473,6 +5483,8 @@
 	    "filter": [ "all", [ "in", "amenity", "prison" ] ],
 	    "layout": {
 		"icon-image": "amenity_{amenity}",
+		"icon-size": { "stops": [ [ 14, 1.0 ], 
+                                          [ 19, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -5501,6 +5513,8 @@
                                                 "car_sharing" ] ],
 	    "layout": {
 		"icon-image": "amenity_{amenity}",
+		"icon-size": { "stops": [ [ 16, 1.0 ], 
+                                          [ 21, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -5528,6 +5542,8 @@
 	    "filter": [ "all", [ "in", "kind", "zoo" ] ],
 	    "layout": {
 		"icon-image": "{kind}",
+		"icon-size": { "stops": [ [ 14, 1.0 ], 
+                                          [ 19, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -5555,6 +5571,8 @@
 	    "filter": [ "all", [ "in", "kind", "alpine_hut" ] ],
 	    "layout": {
 		"icon-image": "{kind}",
+		"icon-size": { "stops": [ [ 12, 1.0 ], 
+                                          [ 17, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -5583,6 +5601,8 @@
                                                "ferry_terminal" ] ],
 	    "layout": {
 		"icon-image": "amenity_{kind}",
+		"icon-size": { "stops": [ [ 15, 1.0 ], 
+                                          [ 20, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -5611,6 +5631,8 @@
                                                "aerialway_station" ] ],
 	    "layout": {
 		"icon-image": "{kind}",
+		"icon-size": { "stops": [ [ 16, 1.0 ], 
+                                          [ 21, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -5641,6 +5663,8 @@
                                                   "water_park" ] ],
 	    "layout": {
 		"icon-image": "leisure_{leisure}",
+		"icon-size": { "stops": [ [ 13, 1.0 ], 
+                                          [ 18, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -5668,6 +5692,8 @@
 	    "filter": [ "all", [ "in", "leisure", "sports_centre" ] ],
 	    "layout": {
 		"icon-image": "leisure_{leisure}",
+		"icon-size": { "stops": [ [ 14, 1.0 ], 
+                                          [ 19, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -5767,6 +5793,8 @@
                                                   "wings" ] ],
 	    "layout": {
 		"icon-image": "amenity_{amenity}_{cuisine}",
+		"icon-size": { "stops": [ [ 16, 1.0 ], 
+                                          [ 21, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -5867,6 +5895,8 @@
                                                   "wings" ] ],
 	    "layout": {
 		"icon-image": "amenity_{amenity}",
+		"icon-size": { "stops": [ [ 16, 1.0 ], 
+                                          [ 21, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -5915,6 +5945,8 @@
                                                 "vending_machine" ] ],
 	    "layout": {
 		"icon-image": "amenity_{amenity}",
+		"icon-size": { "stops": [ [ 16, 1.0 ], 
+                                          [ 21, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -5999,6 +6031,8 @@
                                                   "wings" ] ],
 	    "layout": {
 		"icon-image": "amenity_{amenity}_{cuisine}",
+		"icon-size": { "stops": [ [ 16, 1.0 ], 
+                                          [ 21, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -6083,6 +6117,8 @@
                                                   "wings" ] ],
 	    "layout": {
 		"icon-image": "amenity_{amenity}",
+		"icon-size": { "stops": [ [ 16, 1.0 ], 
+                                          [ 21, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -6134,6 +6170,8 @@
                                                       "visitor_centre" ] ],
 	    "layout": {
 		"icon-image": "tourism_{tourism}_{information}",
+		"icon-size": { "stops": [ [ 14, 1.0 ], 
+                                          [ 19, 2.0 ] ] },
                 "icon-allow-overlap": true,
 		"text-anchor": "top",
 		"text-field": "{name}\n",
@@ -6187,6 +6225,8 @@
                                                       "visitor_centre" ] ],
 	    "layout": {
 		"icon-image": "tourism_{tourism}",
+		"icon-size": { "stops": [ [ 14, 1.0 ], 
+                                          [ 19, 2.0 ] ] },
                 "icon-allow-overlap": true,
 		"text-anchor": "top",
 		"text-field": "{name}\n",
@@ -6217,6 +6257,8 @@
 	    "filter": [ "all", [ "in", "man_made", "water_well" ] ],
 	    "layout": {
 		"icon-image": "man_made_{man_made}",
+		"icon-size": { "stops": [ [ 16, 1.0 ], 
+                                          [ 21, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -6245,6 +6287,8 @@
 	    "filter": [ "all", [ "in", "amenity", "recycling" ] ],
 	    "layout": {
 		"icon-image": "amenity_{amenity}",
+		"icon-size": { "stops": [ [ 18, 1.0 ], 
+                                          [ 23, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -6271,7 +6315,9 @@
 	    "minzoom": 18,
 	    "filter": [ "all", [ "in", "amenity", "waste_basket" ] ],
 	    "layout": {
-		"icon-image": "amenity_{amenity}"
+		"icon-image": "amenity_{amenity}",
+		"icon-size": { "stops": [ [ 18, 1.0 ], 
+                                          [ 23, 2.0 ] ] }
 	    }
 	},
 	{
@@ -6283,6 +6329,8 @@
 	    "filter": [ "all", [ "in", "emergency", "defibrillator" ] ],
 	    "layout": {
 		"icon-image": "emergency_{emergency}",
+		"icon-size": { "stops": [ [ 16, 1.0 ], 
+                                          [ 21, 2.0 ] ] },
 		"visibility": "visible"
 	    }
 	},
@@ -6295,6 +6343,8 @@
 	    "filter": [ "all", [ "in", "emergency", "fire_hydrant" ] ],
 	    "layout": {
 		"icon-image": "emergency_{emergency}",
+		"icon-size": { "stops": [ [ 21, 1.0 ], 
+                                          [ 26, 2.0 ] ] },
 		"visibility": "visible"
 	    }
 	},
@@ -6307,6 +6357,8 @@
 	    "filter": [ "all", [ "in", "emergency", "phone" ] ],
 	    "layout": {
 		"icon-image": "emergency_{emergency}",
+		"icon-size": { "stops": [ [ 16, 1.0 ], 
+                                          [ 21, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -6334,6 +6386,8 @@
 	    "filter": [ "all", [ "in", "highway", "emergency_access_point" ] ],
 	    "layout": {
 		"icon-image": "highway_{highway}",
+		"icon-size": { "stops": [ [ 16, 1.0 ], 
+                                          [ 21, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -6364,6 +6418,8 @@
                                                 "fort" ] ],
 	    "layout": {
 		"icon-image": "historic_{historic}",
+		"icon-size": { "stops": [ [ 15, 1.0 ], 
+                                          [ 20, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -6395,6 +6451,8 @@
                                                 "wayside_shrine" ] ],
 	    "layout": {
 		"icon-image": "historic_{historic}",
+		"icon-size": { "stops": [ [ 16, 1.0 ], 
+                                          [ 21, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -6425,6 +6483,8 @@
                                                 "townhall" ] ],
 	    "layout": {
 		"icon-image": "amenity_{amenity}",
+		"icon-size": { "stops": [ [ 16, 1.0 ], 
+                                          [ 21, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -6452,6 +6512,8 @@
 	    "filter": [ "all", [ "in", "office", "diplomatic" ] ],
 	    "layout": {
 		"icon-image": "office_{office}",
+		"icon-size": { "stops": [ [ 16, 1.0 ], 
+                                          [ 21, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -6479,6 +6541,8 @@
 	    "filter": [ "all", [ "in", "amenity", "fountain" ] ],
 	    "layout": {
 		"icon-image": "amenity_{amenity}",
+		"icon-size": { "stops": [ [ 16, 1.0 ], 
+                                          [ 21, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -6514,6 +6578,8 @@
                                                    "taoist" ] ],
 	    "layout": {
 		"icon-image": "amenity_{amenity}_{religion}",
+		"icon-size": { "stops": [ [ 15, 1.0 ], 
+                                          [ 20, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -6549,6 +6615,8 @@
                                                     "taoist" ] ],
 	    "layout": {
 		"icon-image": "amenity_{amenity}_other",
+		"icon-size": { "stops": [ [ 15, 1.0 ], 
+                                          [ 20, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -6578,6 +6646,8 @@
                                                 "veterinary" ] ],
 	    "layout": {
 		"icon-image": "amenity_{amenity}",
+		"icon-size": { "stops": [ [ 16, 1.0 ], 
+                                          [ 21, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -6607,6 +6677,8 @@
                                                 "department_store" ] ],
 	    "layout": {
 		"icon-image": "shop_{shop}",
+		"icon-size": { "stops": [ [ 15, 1.0 ], 
+                                          [ 20, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -6669,6 +6741,8 @@
                                                 "video" ] ],
 	    "layout": {
 		"icon-image": "shop_{shop}",
+		"icon-size": { "stops": [ [ 16, 1.0 ], 
+                                          [ 21, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -6697,6 +6771,8 @@
 	    "filter": [ "all", [ "in", "man_made", "lighthouse" ] ],
 	    "layout": {
 		"icon-image": "man_made_{man_made}",
+		"icon-size": { "stops": [ [ 14, 1.0 ], 
+                                          [ 19, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -6726,6 +6802,8 @@
                                                    "windmill" ] ],
 	    "layout": {
 		"icon-image": "man_made_{man_made}",
+		"icon-size": { "stops": [ [ 15, 1.0 ], 
+                                          [ 20, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -6753,6 +6831,8 @@
 	    "filter": [ "all", [ "in", "amenity", "hospital" ] ],
 	    "layout": {
 		"icon-image": "amenity_{amenity}",
+		"icon-size": { "stops": [ [ 14, 1.0 ], 
+                                          [ 19, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -6784,6 +6864,8 @@
                                                 "pharmacy" ] ],
 	    "layout": {
 		"icon-image": "amenity_{amenity}",
+		"icon-size": { "stops": [ [ 16, 1.0 ], 
+                                          [ 21, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -7264,6 +7346,8 @@
 	    "filter": [ "all", [ "in", "kind", "aerodrome" ] ],
 	    "layout": {
 		"icon-image": "{kind}",
+		"icon-size": { "stops": [ [ 14, 1.0 ], 
+                                          [ 19, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -7290,6 +7374,8 @@
 	    "filter": [ "all", [ "in", "kind", "helipad" ] ],
 	    "layout": {
 		"icon-image": "{kind}",
+		"icon-size": { "stops": [ [ 14, 1.0 ], 
+                                          [ 19, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -7318,6 +7404,8 @@
                                                "tram_stop" ] ],
 	    "layout": {
 		"icon-image": "station",
+		"icon-size": { "stops": [ [ 14, 1.0 ], 
+                                          [ 19, 2.0 ] ] },
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [

@@ -1,6 +1,9 @@
 # Changes made to the [SVWD03 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd03.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
+## 04/01/2026
+Made most icons larger at higher zooms.
+
 ## 01/12/2025
 Copy bridge logic for `service`, `living_street`, `unclassified`, and `tertiary` to `motorway` from svwd01 to svwd03.
 copy tram / road fill draw order from svwd01 to svwd03 to stop on-road trams from "disappearing" under bridges.

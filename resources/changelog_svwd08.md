@@ -1,6 +1,9 @@
 # Changes made to the [SVWD08 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd08.md).  
 
 ## As yet unreleased
+Make fences narrower at zooms 13 and 14
+
+## 09/01/2026
 Show piers that are mapped as nodes with an icon and a name.
 Handle sidewalks, verges and fords on living street bridges.
 Made some icons such as `dog_park` larger at higher zooms.

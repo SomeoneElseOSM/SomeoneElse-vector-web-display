@@ -3,6 +3,9 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 oExcept as noted, all changes also apply to the [SVWD06 Android native display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd06.md).  
 
 ## As yet unreleased
+Make fences narrower at zooms 13 and 14
+
+## 09/01/2026
 Show piers that are mapped as nodes with an icon and a name.
 Handle sidewalks, verges and fords on living street bridges.
 Trunk roads with sidewalks, verges (and if ever added, fords) are now shown differently to non-edged trunk roads, just like primary roads are.

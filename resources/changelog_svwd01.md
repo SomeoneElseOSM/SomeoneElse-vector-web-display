@@ -2,7 +2,7 @@
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 oExcept as noted, all changes also apply to the [SVWD06 Android native display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd06.md).  
 
-## As yet unreleased
+## 17/01/2025
 Changed the `shop=seafood` icon to match the `cuisine=seafood` marker used on fast food and restaurants.  Previously it matched `cuisine=fish_and_chips`.
 
 ## 10/01/2026

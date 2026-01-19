@@ -1,5 +1,8 @@
 # Changes made to the [SVWD08 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd08.md).  
 
+## 19/01/2026
+Make the text optional on bus stops so that the icons disappear less often.
+
 ## 17/01/2025
 Changed the `shop=seafood` icon to match the `cuisine=seafood` marker used on fast food and restaurants.  Previously it matched `cuisine=fish_and_chips`.
 

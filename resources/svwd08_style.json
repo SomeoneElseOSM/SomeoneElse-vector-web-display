@@ -6821,7 +6821,7 @@
 	    }
 	},
 	{
-	    "id": "highway-unclassified-otherfill-11",
+	    "id": "highway-residential-otherfill-11",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
@@ -16112,6 +16112,7 @@
 		],
 		"text-max-width": 14,
 		"text-offset": [ 0, 0.6 ],
+                "text-optional": true,
 		"text-padding": 2,
 		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
 		"visibility": "visible"
@@ -16178,6 +16179,7 @@
 		],
 		"text-max-width": 14,
 		"text-offset": [ 0, 0.6 ],
+                "text-optional": true,
 		"text-padding": 2,
 		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
 		"visibility": "visible"

@@ -14412,6 +14412,7 @@
 	    "source-layer": "land1",
 	    "minzoom": 16,
 	    "filter": [ "all", [ "in", "class", "amenity_defibrillator",
+                                                "amenity_bleed_control_kit",
                                                 "man_made_outfall" ] ],
 	    "layout": {
 		"icon-image": "{class}",

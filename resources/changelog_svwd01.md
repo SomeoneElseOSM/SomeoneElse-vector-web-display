@@ -4,6 +4,7 @@ oExcept as noted, all changes also apply to the [SVWD06 Android native display s
 
 ## As yet unreleased
 Handle `bleed_control_kit` in a similar way to `defibrillator`.
+Handle `emergency=throw_bag` in a similar way to `life_ring`, but with a unique value.
 
 ## 19/01/2026
 Make the text optional on bus stops so that the icons disappear less often.

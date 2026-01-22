@@ -14363,6 +14363,7 @@
 	    "source-layer": "land1",
 	    "minzoom": 18,
 	    "filter": [ "all", [ "in", "class", "amenity_life_ring",
+                                                "amenity_emergency_throw_bag",
                                                 "amenity_fire_extinguisher",
 	                                        "tourism_camp_pitch" ] ],
 	    "layout": {

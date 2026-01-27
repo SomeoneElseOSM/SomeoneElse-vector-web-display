@@ -1,6 +1,6 @@
 # Changes made to the [SVWD08 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd08.md).  
 
-## As yet unreleased
+## 27/01/2026
 Handle `bleed_control_kit` in a similar way to `defibrillator`.
 Handle `emergency=throw_bag` in a similar way to `life_ring`, but with a unique value.
 

@@ -3,6 +3,7 @@
 ## 27/01/2026
 Handle `bleed_control_kit` in a similar way to `defibrillator`.
 Handle `emergency=throw_bag` in a similar way to `life_ring`, but with a unique value.
+Fixed a bug where, since motorway bridge rendering changes, motorways on levees appeared in error here.
 
 ## 19/01/2026
 Make the text optional on bus stops so that the icons disappear less often.

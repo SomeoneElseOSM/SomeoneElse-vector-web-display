@@ -13578,6 +13578,38 @@
 	    }
 	},
 	{
+	    "id": "land1-smallscaled-black-imagename-19",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 19,
+	    "filter": [ "all", [ "in", "class", "amenity_dressing_room" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+                "icon-allow-overlap": true,
+		"icon-size": { "stops": [ [ 16, 1.0 ], 
+                                          [ 18, 1.0 ], 
+                                          [ 22, 2.0 ] ] },
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+                "text-optional": true,
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "black",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
 	    "id": "land1-smallscaled-penguin-imagename-16",
 	    "type": "symbol",
 	    "source": "someoneelse",

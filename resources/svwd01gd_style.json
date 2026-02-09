@@ -14211,7 +14211,8 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 19,
-	    "filter": [ "all", [ "in", "class", "amenity_dressing_room" ] ],
+	    "filter": [ "all", [ "in", "class", "amenity_dressing_room",
+                                                "amenity_reception_desk" ] ],
 	    "layout": {
 		"icon-image": "{class}",
                 "icon-allow-overlap": true,

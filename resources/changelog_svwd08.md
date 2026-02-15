@@ -1,5 +1,8 @@
 # Changes made to the [SVWD08 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd08.md).  
 
+## 15/02/2026
+Show `amenity=dressing_room`, `amenity=reception_desk` and `amenity=payment_terminal` with an icon and a name.
+
 ## 27/01/2026
 Handle `bleed_control_kit` in a similar way to `defibrillator`.
 Handle `emergency=throw_bag` in a similar way to `life_ring`, but with a unique value.

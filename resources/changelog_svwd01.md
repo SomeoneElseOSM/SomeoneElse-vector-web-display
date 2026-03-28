@@ -2,7 +2,7 @@
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 oExcept as noted, all changes also apply to the [SVWD06 Android native display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd06.md).  
 
-## As yet unreleased
+## 28/03/2026
 Abandoned and dismantled (razed) railways have always been in the schema.  They have now been added to the svwd01 and svwd08 display styles.  They are drawn below extant railways.  All road fills moved to after non-extant railways.
 
 ## 15/02/2026

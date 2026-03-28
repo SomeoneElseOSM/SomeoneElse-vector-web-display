@@ -7245,6 +7245,143 @@
 	    }
 	},
 	{
+	    "id": "railway-bus_guideway-darkfill-8-11",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 8,
+	    "maxzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "bus_guideway" ],
+                [ "!=", "bridge", "yes" ],
+                [ "!=", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#6699ff",
+		"line-width": {
+		    "stops": [
+			[  8,  0.4 ],
+			[ 11, 0.8 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "railway-disused-darkfill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "disused", 
+                                 "abandoned", 
+                                 "dismantled" ],
+                [ "!=", "bridge", "yes" ],
+                [ "!=", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#d1cfcf",
+		"line-width": {
+		    "stops": [
+			[ 13,  0.6 ],
+			[ 14,  1.8 ],
+			[ 16,  3.6 ],
+			[ 17,  7.2 ],
+			[ 18, 14.4 ],
+			[ 20, 24.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "railway-dismantled-lightfill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "dismantled" ],
+                [ "!=", "bridge", "yes" ],
+                [ "!=", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#f2eaea",
+                "line-dasharray": [12.0, 4.0],
+		"line-width": {
+		    "stops": [
+			[ 13,  0.4 ],
+			[ 14,  1.2 ],
+			[ 16,  2.4 ],
+			[ 17,  4.8 ],
+			[ 18,  9.6 ],
+			[ 20, 16.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "railway-abandoned-lightfill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "abandoned" ],
+                [ "!=", "bridge", "yes" ],
+                [ "!=", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#f2eaea",
+                "line-dasharray": [9.0, 4.0],
+		"line-width": {
+		    "stops": [
+			[ 13,  0.4 ],
+			[ 14,  1.2 ],
+			[ 16,  2.4 ],
+			[ 17,  4.8 ],
+			[ 18,  9.6 ],
+			[ 20, 16.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "railway-disused-lightfill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "disused" ],
+                [ "!=", "bridge", "yes" ],
+                [ "!=", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#f2eaea",
+                "line-dasharray": [6.0, 4.0],
+		"line-width": {
+		    "stops": [
+			[ 13,  0.4 ],
+			[ 14,  1.2 ],
+			[ 16,  2.4 ],
+			[ 17,  4.8 ],
+			[ 18,  9.6 ],
+			[ 20, 16.0 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "railway-rail-darkfill-12",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -7294,59 +7431,6 @@
 			[ 17,  7.2 ],
 			[ 18, 14.4 ],
 			[ 20, 24.0 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "railway-disused-darkfill-12",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "transportation",
-	    "minzoom": 12,
-	    "filter": [
-		"all",
-		[ "in", "class", "disused", 
-                                 "abandoned", 
-                                 "dismantled" ],
-                [ "!=", "bridge", "yes" ],
-                [ "!=", "tunnel", true ]
-	    ],
-	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
-	    "paint": {
-		"line-color": "#d1cfcf",
-		"line-width": {
-		    "stops": [
-			[ 13,  0.6 ],
-			[ 14,  1.8 ],
-			[ 16,  3.6 ],
-			[ 17,  7.2 ],
-			[ 18, 14.4 ],
-			[ 20, 24.0 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "railway-bus_guideway-darkfill-8-11",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "transportation",
-	    "minzoom": 8,
-	    "maxzoom": 12,
-	    "filter": [
-		"all",
-		[ "in", "class", "bus_guideway" ],
-                [ "!=", "bridge", "yes" ],
-                [ "!=", "tunnel", true ]
-	    ],
-	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
-	    "paint": {
-		"line-color": "#6699ff",
-		"line-width": {
-		    "stops": [
-			[  8,  0.4 ],
-			[ 11, 0.8 ]
 		    ]
 		}
 	    }
@@ -7569,90 +7653,6 @@
 	    "paint": {
 		"line-color": "white",
                 "line-dasharray": [6.0, 4.0],
-		"line-width": {
-		    "stops": [
-			[ 13,  0.4 ],
-			[ 14,  1.2 ],
-			[ 16,  2.4 ],
-			[ 17,  4.8 ],
-			[ 18,  9.6 ],
-			[ 20, 16.0 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "railway-disused-lightfill-12",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "transportation",
-	    "minzoom": 12,
-	    "filter": [
-		"all",
-		[ "in", "class", "disused" ],
-                [ "!=", "bridge", "yes" ],
-                [ "!=", "tunnel", true ]
-	    ],
-	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
-	    "paint": {
-		"line-color": "#f2eaea",
-                "line-dasharray": [6.0, 4.0],
-		"line-width": {
-		    "stops": [
-			[ 13,  0.4 ],
-			[ 14,  1.2 ],
-			[ 16,  2.4 ],
-			[ 17,  4.8 ],
-			[ 18,  9.6 ],
-			[ 20, 16.0 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "railway-abandoned-lightfill-12",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "transportation",
-	    "minzoom": 12,
-	    "filter": [
-		"all",
-		[ "in", "class", "abandoned" ],
-                [ "!=", "bridge", "yes" ],
-                [ "!=", "tunnel", true ]
-	    ],
-	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
-	    "paint": {
-		"line-color": "#f2eaea",
-                "line-dasharray": [9.0, 4.0],
-		"line-width": {
-		    "stops": [
-			[ 13,  0.4 ],
-			[ 14,  1.2 ],
-			[ 16,  2.4 ],
-			[ 17,  4.8 ],
-			[ 18,  9.6 ],
-			[ 20, 16.0 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "railway-dismantled-lightfill-12",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "transportation",
-	    "minzoom": 12,
-	    "filter": [
-		"all",
-		[ "in", "class", "dismantled" ],
-                [ "!=", "bridge", "yes" ],
-                [ "!=", "tunnel", true ]
-	    ],
-	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
-	    "paint": {
-		"line-color": "#f2eaea",
-                "line-dasharray": [12.0, 4.0],
 		"line-width": {
 		    "stops": [
 			[ 13,  0.4 ],
@@ -10062,6 +10062,34 @@
 	    }
 	},
 	{
+	    "id": "railway-disused-bridgedarkfill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "disused",
+                                 "abandoned",
+                                 "dismantled" ],
+                [ "==", "bridge", "yes" ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#d1cfcf",
+		"line-width": {
+		    "stops": [
+			[ 13,  0.6 ],
+			[ 14,  1.8 ],
+			[ 16,  3.6 ],
+			[ 17,  7.2 ],
+			[ 18, 14.4 ],
+			[ 20, 24.0 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "railway-rail-bridgedarkfill-12",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -10226,34 +10254,6 @@
 	    }
 	},
 	{
-	    "id": "railway-disused-bridgedarkfill-12",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "transportation",
-	    "minzoom": 12,
-	    "filter": [
-		"all",
-		[ "in", "class", "disused",
-                                 "abandoned",
-                                 "dismantled" ],
-                [ "==", "bridge", "yes" ]
-	    ],
-	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
-	    "paint": {
-		"line-color": "#d1cfcf",
-		"line-width": {
-		    "stops": [
-			[ 13,  0.6 ],
-			[ 14,  1.8 ],
-			[ 16,  3.6 ],
-			[ 17,  7.2 ],
-			[ 18, 14.4 ],
-			[ 20, 24.0 ]
-		    ]
-		}
-	    }
-	},
-	{
 	    "id": "railway-bus_guideway-bridgedarkfill-12",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -10331,6 +10331,87 @@
 			[ 10,  2.0 ],
 			[ 12,  2.4 ],
 			[ 20, 64.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "railway-dismantled-bridgelightfill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "dismantled" ],
+                [ "==", "bridge", "yes" ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#f2eaea",
+                "line-dasharray": [12.0, 4.0],
+		"line-width": {
+		    "stops": [
+			[ 13,  0.4 ],
+			[ 14,  1.2 ],
+			[ 16,  2.4 ],
+			[ 17,  4.8 ],
+			[ 18,  9.6 ],
+			[ 20, 16.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "railway-abandoned-bridgelightfill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "abandoned" ],
+                [ "==", "bridge", "yes" ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#f2eaea",
+                "line-dasharray": [9.0, 6.0],
+		"line-width": {
+		    "stops": [
+			[ 13,  0.4 ],
+			[ 14,  1.2 ],
+			[ 16,  2.4 ],
+			[ 17,  4.8 ],
+			[ 18,  9.6 ],
+			[ 20, 16.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "railway-disused-bridgelightfill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "disused" ],
+                [ "==", "bridge", "yes" ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#f2eaea",
+                "line-dasharray": [6.0, 4.0],
+		"line-width": {
+		    "stops": [
+			[ 13,  0.4 ],
+			[ 14,  1.2 ],
+			[ 16,  2.4 ],
+			[ 17,  4.8 ],
+			[ 18,  9.6 ],
+			[ 20, 16.0 ]
 		    ]
 		}
 	    }
@@ -10428,87 +10509,6 @@
 	    "paint": {
 		"line-color": "white",
                 "line-dasharray": [6.0, 4.0],
-		"line-width": {
-		    "stops": [
-			[ 13,  0.4 ],
-			[ 14,  1.2 ],
-			[ 16,  2.4 ],
-			[ 17,  4.8 ],
-			[ 18,  9.6 ],
-			[ 20, 16.0 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "railway-disused-bridgelightfill-12",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "transportation",
-	    "minzoom": 12,
-	    "filter": [
-		"all",
-		[ "in", "class", "disused" ],
-                [ "==", "bridge", "yes" ]
-	    ],
-	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
-	    "paint": {
-		"line-color": "#f2eaea",
-                "line-dasharray": [6.0, 4.0],
-		"line-width": {
-		    "stops": [
-			[ 13,  0.4 ],
-			[ 14,  1.2 ],
-			[ 16,  2.4 ],
-			[ 17,  4.8 ],
-			[ 18,  9.6 ],
-			[ 20, 16.0 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "railway-abandoned-bridgelightfill-12",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "transportation",
-	    "minzoom": 12,
-	    "filter": [
-		"all",
-		[ "in", "class", "abandoned" ],
-                [ "==", "bridge", "yes" ]
-	    ],
-	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
-	    "paint": {
-		"line-color": "#f2eaea",
-                "line-dasharray": [9.0, 6.0],
-		"line-width": {
-		    "stops": [
-			[ 13,  0.4 ],
-			[ 14,  1.2 ],
-			[ 16,  2.4 ],
-			[ 17,  4.8 ],
-			[ 18,  9.6 ],
-			[ 20, 16.0 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "railway-dismantled-bridgelightfill-12",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "transportation",
-	    "minzoom": 12,
-	    "filter": [
-		"all",
-		[ "in", "class", "dismantled" ],
-                [ "==", "bridge", "yes" ]
-	    ],
-	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
-	    "paint": {
-		"line-color": "#f2eaea",
-                "line-dasharray": [12.0, 4.0],
 		"line-width": {
 		    "stops": [
 			[ 13,  0.4 ],

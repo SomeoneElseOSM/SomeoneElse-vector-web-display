@@ -1,5 +1,8 @@
 # Changes made to the [SVWD08 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd08.md).  
 
+## As yet unreleased
+Abandoned and dismantled (razed) railways have always been in the schema.  They have now been added to the svwd01 and svwd08 display styles.
+
 ## 15/02/2026
 Show `amenity=dressing_room`, `amenity=reception_desk` and `amenity=payment_terminal` with an icon and a name.
 

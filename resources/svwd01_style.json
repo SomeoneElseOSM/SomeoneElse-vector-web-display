@@ -4298,6 +4298,8 @@
 	    "source-layer": "transportation",
 	    "filter": [ "in", "class", "rail",
                                        "disused",
+                                       "abandoned",
+                                       "dismantled",
                                        "funicular",
                                        "miniature",
                                        "monorail",
@@ -4367,6 +4369,60 @@
 	    "paint": {
 		"line-color": "#999999",
                 "line-dasharray": [2.0, 3.0],
+		"line-width": {
+		    "stops": [
+			[ 13,  0.4 ],
+			[ 14,  1.2 ],
+			[ 16,  2.4 ],
+			[ 17,  4.8 ],
+			[ 18,  9.6 ],
+			[ 20, 16.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "railway-abandoned-tunnellightfill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "abandoned" ],
+                [ "==", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#999999",
+                "line-dasharray": [2.0, 4.5],
+		"line-width": {
+		    "stops": [
+			[ 13,  0.4 ],
+			[ 14,  1.2 ],
+			[ 16,  2.4 ],
+			[ 17,  4.8 ],
+			[ 18,  9.6 ],
+			[ 20, 16.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "railway-dismantled-tunnellightfill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "dismantled" ],
+                [ "==", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#999999",
+                "line-dasharray": [2.0, 6.0],
 		"line-width": {
 		    "stops": [
 			[ 13,  0.4 ],
@@ -4908,6 +4964,8 @@
 		"all",
 		[ "in", "class", "rail",
                                  "disused",
+                                 "abandoned",
+                                 "dismantled",
                                  "funicular",
                                  "preserved",
                                  "light_rail",
@@ -4941,6 +4999,8 @@
 		"all",
 		[ "in", "class", "rail",
                                  "disused",
+                                 "abandoned",
+                                 "dismantled",
                                  "funicular",
                                  "preserved",
                                  "light_rail",
@@ -7246,7 +7306,9 @@
 	    "minzoom": 12,
 	    "filter": [
 		"all",
-		[ "in", "class", "disused" ],
+		[ "in", "class", "disused", 
+                                 "abandoned", 
+                                 "dismantled" ],
                 [ "!=", "bridge", "yes" ],
                 [ "!=", "tunnel", true ]
 	    ],
@@ -7535,6 +7597,62 @@
 	    "paint": {
 		"line-color": "#f2eaea",
                 "line-dasharray": [6.0, 4.0],
+		"line-width": {
+		    "stops": [
+			[ 13,  0.4 ],
+			[ 14,  1.2 ],
+			[ 16,  2.4 ],
+			[ 17,  4.8 ],
+			[ 18,  9.6 ],
+			[ 20, 16.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "railway-abandoned-lightfill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "abandoned" ],
+                [ "!=", "bridge", "yes" ],
+                [ "!=", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#f2eaea",
+                "line-dasharray": [9.0, 4.0],
+		"line-width": {
+		    "stops": [
+			[ 13,  0.4 ],
+			[ 14,  1.2 ],
+			[ 16,  2.4 ],
+			[ 17,  4.8 ],
+			[ 18,  9.6 ],
+			[ 20, 16.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "railway-dismantled-lightfill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "dismantled" ],
+                [ "!=", "bridge", "yes" ],
+                [ "!=", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#f2eaea",
+                "line-dasharray": [12.0, 4.0],
 		"line-width": {
 		    "stops": [
 			[ 13,  0.4 ],
@@ -8076,6 +8194,8 @@
 		"all",
 		[ "in", "class", "rail",
                                  "disused",
+                                 "abandoned",
+                                 "dismantled",
                                  "funicular",
                                  "preserved",
                                  "light_rail",
@@ -8660,6 +8780,8 @@
 		"all",
 		[ "in", "class", "rail",
                                  "disused",
+                                 "abandoned",
+                                 "dismantled",
                                  "funicular",
                                  "preserved",
                                  "light_rail",
@@ -10111,7 +10233,9 @@
 	    "minzoom": 12,
 	    "filter": [
 		"all",
-		[ "in", "class", "disused" ],
+		[ "in", "class", "disused",
+                                 "abandoned",
+                                 "dismantled" ],
                 [ "==", "bridge", "yes" ]
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
@@ -10331,6 +10455,60 @@
 	    "paint": {
 		"line-color": "#f2eaea",
                 "line-dasharray": [6.0, 4.0],
+		"line-width": {
+		    "stops": [
+			[ 13,  0.4 ],
+			[ 14,  1.2 ],
+			[ 16,  2.4 ],
+			[ 17,  4.8 ],
+			[ 18,  9.6 ],
+			[ 20, 16.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "railway-abandoned-bridgelightfill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "abandoned" ],
+                [ "==", "bridge", "yes" ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#f2eaea",
+                "line-dasharray": [9.0, 6.0],
+		"line-width": {
+		    "stops": [
+			[ 13,  0.4 ],
+			[ 14,  1.2 ],
+			[ 16,  2.4 ],
+			[ 17,  4.8 ],
+			[ 18,  9.6 ],
+			[ 20, 16.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "railway-dismantled-bridgelightfill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "dismantled" ],
+                [ "==", "bridge", "yes" ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#f2eaea",
+                "line-dasharray": [12.0, 4.0],
 		"line-width": {
 		    "stops": [
 			[ 13,  0.4 ],

@@ -15191,6 +15191,7 @@
                                                 "amenity_loading_dock",
                                                 "amenity_weighbridge",
                                                 "highway_traffic_signals",
+                                                "highway_signalised_crossing",
                                                 "highway_crossing",
                                                 "man_made_aircraftcontroltower",
                                                 "man_made_churchspire",

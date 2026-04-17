@@ -2,6 +2,8 @@
 
 ## As yet unreleased
 Show a unique icon for `memorial=cairn`.
+Sidings, yards and `railway:traffic_mode=freight` are treated as `railway=railminor` in the schema,  
+which is shown less prominently than `railway=rail`.  
 
 ## 28/03/2026
 Abandoned and dismantled (razed) railways have always been in the schema.  They have now been added to the svwd01 and svwd08 display styles.  They are drawn below extant railways.  All road fills moved to after non-extant railways.

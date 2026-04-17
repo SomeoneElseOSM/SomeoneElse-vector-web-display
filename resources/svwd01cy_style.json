@@ -4297,6 +4297,7 @@
 	    "type": "symbol",
 	    "source-layer": "transportation",
 	    "filter": [ "in", "class", "rail",
+                                       "railminor",
                                        "disused",
                                        "abandoned",
                                        "dismantled",
@@ -4357,6 +4358,7 @@
 	    "filter": [
 		"all",
 		[ "in", "class", "rail",
+                                 "railminor",
                                  "disused",
                                  "funicular",
                                  "preserved",
@@ -4963,6 +4965,7 @@
 	    "filter": [
 		"all",
 		[ "in", "class", "rail",
+                                 "railminor",
                                  "disused",
                                  "abandoned",
                                  "dismantled",
@@ -4998,6 +5001,7 @@
 	    "filter": [
 		"all",
 		[ "in", "class", "rail",
+                                 "railminor",
                                  "disused",
                                  "abandoned",
                                  "dismantled",
@@ -7409,6 +7413,33 @@
 	    }
 	},
 	{
+	    "id": "railway-railminor-darkfill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "railminor" ],
+                [ "!=", "bridge", "yes" ],
+                [ "!=", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#b9b7b7",
+		"line-width": {
+		    "stops": [
+			[ 13,  1.8 ],
+			[ 14,  2.4 ],
+			[ 16,  3.6 ],
+			[ 17,  7.2 ],
+			[ 18, 14.4 ],
+			[ 20, 24.0 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "railway-preserved-darkfill-12",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -7543,7 +7574,8 @@
 	    "minzoom": 12,
 	    "filter": [
 		"all",
-		[ "in", "class", "rail" ],
+		[ "in", "class", "rail",
+                                 "railminor" ],
                 [ "!=", "bridge", "yes" ],
                 [ "!=", "tunnel", true ]
 	    ],
@@ -8193,6 +8225,7 @@
 	    "filter": [
 		"all",
 		[ "in", "class", "rail",
+                                 "railminor",
                                  "disused",
                                  "abandoned",
                                  "dismantled",
@@ -8779,6 +8812,7 @@
 	    "filter": [
 		"all",
 		[ "in", "class", "rail",
+                                 "railminor",
                                  "disused",
                                  "abandoned",
                                  "dismantled",
@@ -10116,6 +10150,32 @@
 	    }
 	},
 	{
+	    "id": "railway-railminor-bridgedarkfill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "railminor" ],
+                [ "==", "bridge", "yes" ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#b9b7b7",
+		"line-width": {
+		    "stops": [
+			[ 13,  1.8 ],
+			[ 14,  2.4 ],
+			[ 16,  3.6 ],
+			[ 17,  7.2 ],
+			[ 18, 14.4 ],
+			[ 20, 24.0 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "railway-narrow_gauge-bridgedarkfill-13",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -10424,7 +10484,8 @@
 	    "minzoom": 12,
 	    "filter": [
 		"all",
-		[ "in", "class", "rail" ],
+		[ "in", "class", "rail",
+                                 "railminor" ],
                 [ "==", "bridge", "yes" ]
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },

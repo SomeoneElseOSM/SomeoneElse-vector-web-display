@@ -1,6 +1,6 @@
 # Changes made to the [SVWD08 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd08.md).  
 
-## As yet unreleased
+## 17/04/2026
 Show a unique icon for `memorial=cairn`.
 Sidings, yards and `railway:traffic_mode=freight` are treated as `railway=railminor` in the schema,  
 which is shown less prominently than `railway=rail`.  

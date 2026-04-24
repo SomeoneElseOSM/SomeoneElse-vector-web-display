@@ -2297,8 +2297,7 @@
 	    "id": "label-waterway_weir-bottom-14",
 	    "type": "symbol",
 	    "source-layer": "waterway",
-	    "filter": [ "in", "class", "weir",
-                                       "pipeline" ],
+	    "filter": [ "in", "class", "weir" ],
 	    "layout": {
 		"text-field": "{name}",
 		"text-font": [ "KlokanTech Noto Sans Regular" ],

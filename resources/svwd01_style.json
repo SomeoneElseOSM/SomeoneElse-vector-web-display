@@ -710,6 +710,7 @@
 	    "minzoom": 13,
 	    "filter": [ "all", [ "in", "class", "highway_pedestrian",
                                                 "highway_service",
+                                                "highway_goodpathnarrow",
                                                 "highway_pathnarrow",
                                                 "highway_pathwide" ] ],
 	    "paint": {
@@ -725,6 +726,7 @@
 	    "minzoom": 13,
 	    "filter": [ "all", [ "in", "class", "highway_pedestrian",
                                                 "highway_service",
+                                                "highway_goodpathnarrow",
                                                 "highway_pathnarrow",
                                                 "highway_pathwide" ] ],
 	    "paint": {
@@ -3196,7 +3198,8 @@
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
 	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "class", "pathnarrow",
+	    "filter": [ "all", [ "in", "class", "goodpathnarrow",
+                                                "pathnarrow",
                                                 "pathwide",
                                                 "intpathnarrow",
                                                 "intpathwide", 
@@ -3221,7 +3224,8 @@
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
 	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "class", "pathnarrow",
+	    "filter": [ "all", [ "in", "class", "goodpathnarrow",
+                                                "pathnarrow",
                                                 "pathwide",
                                                 "intpathnarrow",
                                                 "intpathwide", 
@@ -3244,7 +3248,8 @@
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
 	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "class", "pathnarrow", 
+	    "filter": [ "all", [ "in", "class", "goodpathnarrow", 
+                                                "pathnarrow", 
                                                 "leisuretrack" ],
                                [ "==", "tunnel", true ] ],
 	    "paint": {
@@ -4546,7 +4551,8 @@
 	    "minzoom": 12,
 	    "filter": [
 		"all",
-		[ "in", "class", "pathnarrow",
+		[ "in", "class", "goodpathnarrow",
+                                 "pathnarrow",
                                  "pathwide",
                                  "intpathnarrow",
                                  "intpathwide",
@@ -4792,7 +4798,8 @@
 	    "minzoom": 12,
 	    "filter": [
 		"all",
-		[ "in", "class", "pathnarrow",
+		[ "in", "class", "goodpathnarrow",
+                                 "pathnarrow",
                                  "pathwide",
                                  "intpathnarrow",
                                  "intpathwide",
@@ -5295,7 +5302,8 @@
 	    "minzoom": 12,
 	    "filter": [
 		"all",
-		[ "in", "class", "pathnarrow",
+		[ "in", "class", "goodpathnarrow",
+                                 "pathnarrow",
                                  "leisuretrack",
                                  "pathwide",
                                  "footwaynarrow",
@@ -6375,6 +6383,28 @@
 		    "stops": [
 			[ 15,  0.6 ],
 			[ 20,  2.4 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-goodpathnarrow-other-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "goodpathnarrow" ],
+                               [ "!=", "bridge", "yes" ],
+                               [ "!=", "tunnel", true ] ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "black",
+                "line-dasharray": [2.0, 4.0, 4.0, 4.0],
+		"line-width": {
+		    "base": 1.8,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
 		    ]
 		}
 	    }
@@ -8496,7 +8526,8 @@
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
 	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "class", "pathnarrow",
+	    "filter": [ "all", [ "in", "class", "goodpathnarrow",
+                                                "pathnarrow",
                                                 "pathwide",
                                                 "intpathnarrow",
                                                 "intpathwide", 
@@ -8952,7 +8983,8 @@
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
 	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "class", "pathnarrow",
+	    "filter": [ "all", [ "in", "class", "goodpathnarrow",
+                                                "pathnarrow",
                                                 "pathwide",
                                                 "intpathnarrow",
                                                 "intpathwide", 
@@ -11015,7 +11047,8 @@
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
 	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "class", "pathnarrow", 
+	    "filter": [ "all", [ "in", "class", "goodpathnarrow", 
+                                                "pathnarrow", 
                                                 "leisuretrack" ],
                                [ "==", "bridge", "yes" ] ],
 	    "paint": {
@@ -11628,7 +11661,7 @@
                                                 "intbridlewaywide", "intbridlewaynarrow",
                                                 "footwaywide", "footwaynarrow", "footwaysteps", 
                                                 "intfootwaywide", "intfootwaynarrow",
-                                                "pathwide", "pathnarrow", "steps", "intpathwide", "intpathnarrow",
+                                                "pathwide", "goodpathnarrow", "pathnarrow", "steps", "intpathwide", "intpathnarrow",
                                                 "leisuretrack", "gallop" ],
                                [ "==", "access", "no" ] ],
 	    "paint": {
@@ -11679,7 +11712,7 @@
                                                 "intbridlewaywide", "intbridlewaynarrow",
                                                 "footwaywide", "footwaynarrow", "footwaysteps", 
                                                 "intfootwaywide", "intfootwaynarrow",
-                                                "pathwide", "pathnarrow", "steps", "intpathwide", "intpathnarrow",
+                                                "pathwide", "goodpathnarrow", "pathnarrow", "steps", "intpathwide", "intpathnarrow",
                                                 "leisuretrack", "gallop" ],
                                [ "==", "access", "destination" ] ],
 	    "paint": {
@@ -20944,7 +20977,7 @@
 			"ucrwide",  "ucrnarrow", "boatwide", "boatnarrow", "rbywide",  "rbynarrow",
 			"bridlewaysteps", "bridlewaywide", "bridlewaynarrow", "intbridlewaywide", "intbridlewaynarrow",
 			"footwaysteps",   "footwaywide",   "footwaynarrow",   "intfootwaywide",   "intfootwaynarrow",
-			"steps",          "pathwide",      "pathnarrow",      "intpathwide",      "intpathnarrow",
+			"steps",          "pathwide",      "goodpathnarrow",      "pathnarrow",      "intpathwide",      "intpathnarrow",
                         "leisuretrack",   "raceway" ],
 	    "layout": {
 		"text-field": "{name}",

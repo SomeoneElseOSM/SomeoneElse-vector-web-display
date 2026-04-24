@@ -1,7 +1,7 @@
 # Changes made to the [SVWD08 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd08.md).  
 
-## As yet unreleased
-Change dash array for "good" (currently paved or asphalt) narrow paths.
+## 24/04/2026
+Change dash array for "good surface" narrow paths.
 
 ## 17/04/2026
 Show a unique icon for `memorial=cairn`.

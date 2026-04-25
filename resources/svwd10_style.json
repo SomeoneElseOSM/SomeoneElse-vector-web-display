@@ -761,6 +761,119 @@
 	    }
 	},
 	{
+	    "id": "railway-disused-darkfill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "disused", 
+                                 "abandoned", 
+                                 "dismantled" ],
+                [ "!=", "bridge", "yes" ],
+                [ "!=", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#d1cfcf",
+		"line-width": {
+		    "stops": [
+			[ 13,  0.6 ],
+			[ 14,  1.8 ],
+			[ 16,  3.6 ],
+			[ 17,  7.2 ],
+			[ 18, 14.4 ],
+			[ 20, 24.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "railway-dismantled-lightfill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "dismantled" ],
+                [ "!=", "bridge", "yes" ],
+                [ "!=", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#f2eaea",
+                "line-dasharray": [12.0, 4.0],
+		"line-width": {
+		    "stops": [
+			[ 13,  0.4 ],
+			[ 14,  1.2 ],
+			[ 16,  2.4 ],
+			[ 17,  4.8 ],
+			[ 18,  9.6 ],
+			[ 20, 16.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "railway-abandoned-lightfill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "abandoned" ],
+                [ "!=", "bridge", "yes" ],
+                [ "!=", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#f2eaea",
+                "line-dasharray": [9.0, 4.0],
+		"line-width": {
+		    "stops": [
+			[ 13,  0.4 ],
+			[ 14,  1.2 ],
+			[ 16,  2.4 ],
+			[ 17,  4.8 ],
+			[ 18,  9.6 ],
+			[ 20, 16.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "railway-disused-lightfill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [
+		"all",
+		[ "in", "class", "disused" ],
+                [ "!=", "bridge", "yes" ],
+                [ "!=", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#f2eaea",
+                "line-dasharray": [6.0, 4.0],
+		"line-width": {
+		    "stops": [
+			[ 13,  0.4 ],
+			[ 14,  1.2 ],
+			[ 16,  2.4 ],
+			[ 17,  4.8 ],
+			[ 18,  9.6 ],
+			[ 20, 16.0 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "railway-rail-leveecasing-12",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -891,11 +1004,11 @@
 	    }
 	},
 	{
-	    "id": "railway-narrow_gauge-darkfill-13",
+	    "id": "railway-narrow_gauge-darkfill-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
-	    "minzoom": 13,
+	    "minzoom": 12,
 	    "filter": [
 		"all",
 		[ "in", "class", "narrow_gauge" ],
@@ -907,9 +1020,9 @@
 		"line-color": "#999999",
 		"line-width": {
 		    "stops": [
-			[ 13,  0.3 ],
-			[ 14,  0.9 ],
-			[ 16,  1.8 ],
+			[ 12,  1.2 ],
+			[ 14,  1.8 ],
+			[ 16,  2.4 ],
 			[ 17,  3.6 ],
 			[ 18,  7.2 ],
 			[ 20, 12.0 ]
@@ -991,119 +1104,6 @@
 		    "stops": [
 			[  8,  0.4 ],
 			[ 11, 0.8 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "railway-disused-darkfill-12",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "transportation",
-	    "minzoom": 12,
-	    "filter": [
-		"all",
-		[ "in", "class", "disused", 
-                                 "abandoned", 
-                                 "dismantled" ],
-                [ "!=", "bridge", "yes" ],
-                [ "!=", "tunnel", true ]
-	    ],
-	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
-	    "paint": {
-		"line-color": "#d1cfcf",
-		"line-width": {
-		    "stops": [
-			[ 13,  0.6 ],
-			[ 14,  1.8 ],
-			[ 16,  3.6 ],
-			[ 17,  7.2 ],
-			[ 18, 14.4 ],
-			[ 20, 24.0 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "railway-dismantled-lightfill-12",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "transportation",
-	    "minzoom": 12,
-	    "filter": [
-		"all",
-		[ "in", "class", "dismantled" ],
-                [ "!=", "bridge", "yes" ],
-                [ "!=", "tunnel", true ]
-	    ],
-	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
-	    "paint": {
-		"line-color": "#f2eaea",
-                "line-dasharray": [12.0, 4.0],
-		"line-width": {
-		    "stops": [
-			[ 13,  0.4 ],
-			[ 14,  1.2 ],
-			[ 16,  2.4 ],
-			[ 17,  4.8 ],
-			[ 18,  9.6 ],
-			[ 20, 16.0 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "railway-abandoned-lightfill-12",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "transportation",
-	    "minzoom": 12,
-	    "filter": [
-		"all",
-		[ "in", "class", "abandoned" ],
-                [ "!=", "bridge", "yes" ],
-                [ "!=", "tunnel", true ]
-	    ],
-	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
-	    "paint": {
-		"line-color": "#f2eaea",
-                "line-dasharray": [9.0, 4.0],
-		"line-width": {
-		    "stops": [
-			[ 13,  0.4 ],
-			[ 14,  1.2 ],
-			[ 16,  2.4 ],
-			[ 17,  4.8 ],
-			[ 18,  9.6 ],
-			[ 20, 16.0 ]
-		    ]
-		}
-	    }
-	},
-	{
-	    "id": "railway-disused-lightfill-12",
-	    "type": "line",
-	    "source": "someoneelse",
-	    "source-layer": "transportation",
-	    "minzoom": 12,
-	    "filter": [
-		"all",
-		[ "in", "class", "disused" ],
-                [ "!=", "bridge", "yes" ],
-                [ "!=", "tunnel", true ]
-	    ],
-	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
-	    "paint": {
-		"line-color": "#f2eaea",
-                "line-dasharray": [6.0, 4.0],
-		"line-width": {
-		    "stops": [
-			[ 13,  0.4 ],
-			[ 14,  1.2 ],
-			[ 16,  2.4 ],
-			[ 17,  4.8 ],
-			[ 18,  9.6 ],
-			[ 20, 16.0 ]
 		    ]
 		}
 	    }
@@ -1235,11 +1235,11 @@
 	    }
 	},
 	{
-	    "id": "railway-narrow_gauge-lightfill-13",
+	    "id": "railway-narrow_gauge-lightfill-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
-	    "minzoom": 13,
+	    "minzoom": 12,
 	    "filter": [
 		"all",
 		[ "in", "class", "narrow_gauge" ],
@@ -1252,9 +1252,9 @@
                 "line-dasharray": [6.0, 4.0],
 		"line-width": {
 		    "stops": [
-			[ 13,  0.2 ],
-			[ 14,  0.6 ],
-			[ 16,  1.2 ],
+			[ 12,  0.9 ],
+			[ 14,  1.2 ],
+			[ 16,  1.6 ],
 			[ 17,  2.4 ],
 			[ 18,  4.8 ],
 			[ 20,  8.0 ]
@@ -1644,7 +1644,7 @@
 		"line-color": "#f2efe9",
 		"line-width": {
 		    "stops": [
-			[ 13,  1.8 ],
+			[ 12,  1.8 ],
 			[ 14,  2.4 ],
 			[ 16,  3.6 ],
 			[ 17,  7.2 ],
@@ -1755,11 +1755,11 @@
 	    }
 	},
 	{
-	    "id": "railway-narrow_gauge-bridgedarkfill-13",
+	    "id": "railway-narrow_gauge-bridgedarkfill-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
-	    "minzoom": 13,
+	    "minzoom": 12,
 	    "filter": [
 		"all",
 		[ "in", "class", "narrow_gauge" ],
@@ -1770,9 +1770,9 @@
 		"line-color": "#999999",
 		"line-width": {
 		    "stops": [
-			[ 13,  0.3 ],
-			[ 14,  0.9 ],
-			[ 16,  1.8 ],
+			[ 12,  1.2 ],
+			[ 14,  1.8 ],
+			[ 16,  2.4 ],
 			[ 17,  3.6 ],
 			[ 18,  7.2 ],
 			[ 20, 12.0 ]
@@ -1840,11 +1840,11 @@
 	    }
 	},
 	{
-	    "id": "railway-narrow_gauge-bridgelightfill-13",
+	    "id": "railway-narrow_gauge-bridgelightfill-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
-	    "minzoom": 13,
+	    "minzoom": 12,
 	    "filter": [
 		"all",
 		[ "in", "class", "narrow_gauge" ],
@@ -1856,9 +1856,9 @@
                 "line-dasharray": [6.0, 4.0],
 		"line-width": {
 		    "stops": [
-			[ 13,  0.2 ],
-			[ 14,  0.6 ],
-			[ 16,  1.2 ],
+			[ 12,  0.9 ],
+			[ 14,  1.2 ],
+			[ 16,  1.6 ],
 			[ 17,  2.4 ],
 			[ 18,  4.8 ],
 			[ 20,  8.0 ]

@@ -6718,11 +6718,11 @@
 	    }
 	},
 	{
-	    "id": "railway-narrow_gauge-darkfill-13",
+	    "id": "railway-narrow_gauge-darkfill-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
-	    "minzoom": 13,
+	    "minzoom": 12,
 	    "filter": [
 		"all",
 		[ "in", "class", "narrow_gauge" ],
@@ -6734,9 +6734,9 @@
 		"line-color": "#999999",
 		"line-width": {
 		    "stops": [
-			[ 13,  0.3 ],
-			[ 14,  0.9 ],
-			[ 16,  1.8 ],
+			[ 12,  1.2 ],
+			[ 14,  1.8 ],
+			[ 16,  2.4 ],
 			[ 17,  3.6 ],
 			[ 18,  7.2 ],
 			[ 20, 12.0 ]
@@ -7291,11 +7291,11 @@
 	    }
 	},
 	{
-	    "id": "railway-narrow_gauge-lightfill-13",
+	    "id": "railway-narrow_gauge-lightfill-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
-	    "minzoom": 13,
+	    "minzoom": 12,
 	    "filter": [
 		"all",
 		[ "in", "class", "narrow_gauge" ],
@@ -7308,9 +7308,9 @@
                 "line-dasharray": [6.0, 4.0],
 		"line-width": {
 		    "stops": [
-			[ 13,  0.2 ],
-			[ 14,  0.6 ],
-			[ 16,  1.2 ],
+			[ 12,  0.9 ],
+			[ 14,  1.2 ],
+			[ 16,  1.6 ],
 			[ 17,  2.4 ],
 			[ 18,  4.8 ],
 			[ 20,  8.0 ]
@@ -8496,7 +8496,7 @@
 		"line-color": "#f2efe9",
 		"line-width": {
 		    "stops": [
-			[ 13,  1.8 ],
+			[ 12,  1.8 ],
 			[ 14,  2.4 ],
 			[ 16,  3.6 ],
 			[ 17,  7.2 ],

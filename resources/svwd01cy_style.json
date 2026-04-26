@@ -3247,13 +3247,32 @@
 	    }
 	},
 	{
+	    "id": "highway-goodpathnarrow-tunnelfill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "goodpathnarrow" ],
+                               [ "==", "tunnel", true ] ],
+	    "paint": {
+		"line-color": "black",
+                "line-dasharray": [2.0, 4.0],
+		"line-width": {
+		    "base": 1.8,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "highway-pathnarrow-tunnelfill-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
 	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "class", "goodpathnarrow", 
-                                                "pathnarrow", 
+	    "filter": [ "all", [ "in", "class", "pathnarrow", 
                                                 "leisuretrack" ],
                                [ "==", "tunnel", true ] ],
 	    "paint": {
@@ -3269,13 +3288,32 @@
 	    }
 	},
 	{
+	    "id": "highway-goodpathwide-tunnelfill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "goodpathwide" ],
+                               [ "==", "tunnel", true ] ],
+	    "paint": {
+		"line-color": "black",
+                "line-dasharray": [4.0, 6.0, 8.0, 6.0],
+		"line-width": {
+		    "base": 1.8,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "highway-pathwide-tunnelfill-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
 	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "class", "goodpathwide",
-                                                "pathwide" ],
+	    "filter": [ "all", [ "in", "class", "pathwide" ],
                                [ "==", "tunnel", true ] ],
 	    "paint": {
 		"line-color": "black",
@@ -6554,13 +6592,34 @@
 	    }
 	},
 	{
+	    "id": "highway-goodpathwide-other-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "goodpathwide" ],
+                               [ "!=", "bridge", "yes" ],
+                               [ "!=", "tunnel", true ] ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "black",
+                "line-dasharray": [4.0, 6.0, 8.0, 6.0],
+		"line-width": {
+		    "base": 1.8,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "highway-pathwide-other-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
 	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "class", "goodpathwide",
-                                                "pathwide" ],
+	    "filter": [ "all", [ "in", "class", "pathwide" ],
                                [ "!=", "bridge", "yes" ],
                                [ "!=", "tunnel", true ] ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
@@ -11075,13 +11134,32 @@
 	    }
 	},
 	{
+	    "id": "highway-goodpathwide-bridgefill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "goodpathwide" ],
+                               [ "==", "bridge", "yes" ] ],
+	    "paint": {
+		"line-color": "black",
+                "line-dasharray": [4.0, 6.0, 8.0, 6.0],
+		"line-width": {
+		    "base": 1.8,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "highway-pathwide-bridgefill-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
 	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "class", "goodpathwide",
-                                                "pathwide" ],
+	    "filter": [ "all", [ "in", "class", "pathwide" ],
                                [ "==", "bridge", "yes" ] ],
 	    "paint": {
 		"line-color": "black",

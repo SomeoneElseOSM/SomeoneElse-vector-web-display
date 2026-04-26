@@ -5,6 +5,7 @@ oExcept as noted, all changes also apply to the [SVWD06 Android native display s
 ## As yet unreleased
 Show dismantled, abandoned and disused former railways underneath paths (but after tunnels).
 Show narrow gauge railways from vector zoom 12, and more prominently.
+Change dash array for "good surface" wide paths.
 
 ## 24/04/2026
 Change dash array for "good surface" narrow paths.

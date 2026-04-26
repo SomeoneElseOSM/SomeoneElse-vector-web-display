@@ -6,6 +6,7 @@ Some PRoW representations' dash length was increased to be closer to the "new ra
 The dasharrays for the different widths of UCRs are now much longer than previously, to clearly distinguish them from the different widths of BOATs (both have the same colour).
 The dasharrays for the different widths of BOATs and Restricted Byways now match that for bridleways (only one dash length, with different colours), to allow the display of "good surface" examples later (as already happens with paths).
 Some accidentally unmerged changes from svwd01 now merged.
+Also show narrow gauge railways in the minzoom layer (8-11)
 
 ## 26/04/2026
 Show dismantled, abandoned and disused former railways underneath paths (but after tunnels).

@@ -3576,8 +3576,8 @@
 	    "filter": [ "all", [ "in", "class", "rbynarrow" ],
                                [ "==", "tunnel", true ] ],
 	    "paint": {
-		"line-color": "#0080FF",
-                "line-dasharray": [12.0, 3.0, 6.0, 3.0],
+		"line-color": "#5A8695",
+                "line-dasharray": [2.0, 2.0],
 		"line-width": {
 		    "base": 1.8,
 		    "stops": [
@@ -3596,8 +3596,8 @@
 	    "filter": [ "all", [ "in", "class", "rbywide" ],
                                [ "==", "tunnel", true ] ],
 	    "paint": {
-		"line-color": "#0080FF",
-                "line-dasharray": [12.0, 2.0, 6.0, 2.0],
+		"line-color": "#5A8695",
+                "line-dasharray": [4.0, 2.0],
 		"line-width": {
 		    "base": 1.8,
 		    "stops": [
@@ -3617,7 +3617,7 @@
                                [ "==", "tunnel", true ] ],
 	    "paint": {
 		"line-color": "#996600",
-                "line-dasharray": [12.0, 3.0, 6.0, 3.0],
+                "line-dasharray": [2.0, 2.0],
 		"line-width": {
 		    "base": 0.6,
 		    "stops": [
@@ -3637,7 +3637,7 @@
                                [ "==", "tunnel", true ] ],
 	    "paint": {
 		"line-color": "#996600",
-                "line-dasharray": [12.0, 2.0, 6.0, 2.0],
+                "line-dasharray": [4.0, 2.0],
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
@@ -3657,7 +3657,7 @@
                                [ "==", "tunnel", true ] ],
 	    "paint": {
 		"line-color": "#996600",
-                "line-dasharray": [7.0, 4.0],
+                "line-dasharray": [32.0, 2.0],
 		"line-width": {
 		    "base": 0.6,
 		    "stops": [
@@ -3677,7 +3677,7 @@
                                [ "==", "tunnel", true ] ],
 	    "paint": {
 		"line-color": "#996600",
-                "line-dasharray": [13.0, 2.0],
+                "line-dasharray": [64.0, 2.0],
 		"line-width": {
 		    "base": 0.6,
 		    "stops": [
@@ -6927,8 +6927,8 @@
                                [ "!=", "bridge", "yes" ],
                                [ "!=", "tunnel", true ] ],
 	    "paint": {
-		"line-color": "#0080FF",
-                "line-dasharray": [12.0, 3.0, 6.0, 3.0],
+		"line-color": "#5A8695",
+                "line-dasharray": [2.0, 2.0],
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
@@ -6948,8 +6948,8 @@
                                [ "!=", "bridge", "yes" ],
                                [ "!=", "tunnel", true ] ],
 	    "paint": {
-		"line-color": "#0080FF",
-                "line-dasharray": [12.0, 2.0, 6.0, 2.0],
+		"line-color": "#5A8695",
+                "line-dasharray": [4.0, 2.0],
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
@@ -6970,7 +6970,7 @@
                                [ "!=", "tunnel", true ] ],
 	    "paint": {
 		"line-color": "#996600",
-                "line-dasharray": [12.0, 3.0, 6.0, 3.0],
+                "line-dasharray": [2.0, 2.0],
 		"line-width": {
 		    "base": 0.6,
 		    "stops": [
@@ -6991,7 +6991,7 @@
                                [ "!=", "tunnel", true ] ],
 	    "paint": {
 		"line-color": "#996600",
-                "line-dasharray": [12.0, 2.0, 6.0, 2.0],
+                "line-dasharray": [4.0, 2.0],
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
@@ -7012,7 +7012,7 @@
                                [ "!=", "tunnel", true ] ],
 	    "paint": {
 		"line-color": "#996600",
-                "line-dasharray": [7.0, 4.0],
+                "line-dasharray": [32.0, 2.0],
 		"line-width": {
 		    "base": 0.6,
 		    "stops": [
@@ -7033,7 +7033,7 @@
                                [ "!=", "tunnel", true ] ],
 	    "paint": {
 		"line-color": "#996600",
-                "line-dasharray": [13.0, 2.0],
+                "line-dasharray": [64.0, 2.0],
 		"line-width": {
 		    "base": 0.6,
 		    "stops": [
@@ -11112,13 +11112,32 @@
 	    }
 	},
 	{
+	    "id": "highway-goodpathnarrow-bridgefill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "goodpathnarrow" ],
+                               [ "==", "bridge", "yes" ] ],
+	    "paint": {
+		"line-color": "black",
+                "line-dasharray": [2.0, 4.0, 4.0, 4.0],
+		"line-width": {
+		    "base": 1.8,
+		    "stops": [
+			[ 15,  0.6 ],
+			[ 20,  1.2 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "highway-pathnarrow-bridgefill-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
 	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "class", "goodpathnarrow", 
-                                                "pathnarrow", 
+	    "filter": [ "all", [ "in", "class", "pathnarrow", 
                                                 "leisuretrack" ],
                                [ "==", "bridge", "yes" ] ],
 	    "paint": {
@@ -11322,8 +11341,8 @@
 	    "filter": [ "all", [ "in", "class", "rbynarrow" ],
                                [ "==", "bridge", "yes" ] ],
 	    "paint": {
-		"line-color": "#0080FF",
-                "line-dasharray": [12.0, 3.0, 6.0, 3.0],
+		"line-color": "#5A8695",
+                "line-dasharray": [2.0, 2.0],
 		"line-width": {
 		    "base": 1.8,
 		    "stops": [
@@ -11342,8 +11361,8 @@
 	    "filter": [ "all", [ "in", "class", "rbywide" ],
                                [ "==", "bridge", "yes" ] ],
 	    "paint": {
-		"line-color": "#0080FF",
-                "line-dasharray": [12.0, 2.0, 6.0, 2.0],
+		"line-color": "#5A8695",
+                "line-dasharray": [4.0, 2.0],
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
@@ -11363,7 +11382,7 @@
                                [ "==", "bridge", "yes" ] ],
 	    "paint": {
 		"line-color": "#996600",
-                "line-dasharray": [12.0, 3.0, 6.0, 3.0],
+                "line-dasharray": [2.0, 2.0],
 		"line-width": {
 		    "base": 1.8,
 		    "stops": [
@@ -11383,7 +11402,7 @@
                                [ "==", "bridge", "yes" ] ],
 	    "paint": {
 		"line-color": "#996600",
-                "line-dasharray": [12.0, 2.0, 6.0, 2.0],
+                "line-dasharray": [4.0, 2.0],
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
@@ -11403,7 +11422,7 @@
                                [ "==", "bridge", "yes" ] ],
 	    "paint": {
 		"line-color": "#996600",
-                "line-dasharray": [7.0, 4.0],
+                "line-dasharray": [32.0, 2.0],
 		"line-width": {
 		    "base": 1.8,
 		    "stops": [
@@ -11423,7 +11442,7 @@
                                [ "==", "bridge", "yes" ] ],
 	    "paint": {
 		"line-color": "#996600",
-                "line-dasharray": [13.0, 2.0],
+                "line-dasharray": [64.0, 2.0],
 		"line-width": {
 		    "base": 1.8,
 		    "stops": [

@@ -1,5 +1,12 @@
 # Changes made to the [SVWD08 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd08.md).  
 
+## As yet unreleased
+A "dark teal" colour is now used for restricted byways rather than the previous "bridleway blue".
+Some PRoW representations' dash length was increased to be closer to the "new raster look", although widths have not yet been updated to match.
+The dasharrays for the different widths of UCRs are now much longer than previously, to clearly distinguish them from the different widths of BOATs (both have the same colour).
+The dasharrays for the different widths of BOATs and Restricted Byways now match that for bridleways (only one dash length, with different colours), to allow the display of "good surface" examples later (as already happens with paths).
+Some accidentally unmerged changes from svwd01 now merged.
+
 ## 26/04/2026
 Show dismantled, abandoned and disused former railways underneath paths (but after tunnels).
 Show narrow gauge railways from vector zoom 12, and more prominently.

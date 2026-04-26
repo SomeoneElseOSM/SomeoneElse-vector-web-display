@@ -2,7 +2,7 @@
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 oExcept as noted, all changes also apply to the [SVWD06 Android native display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd06.md).  
 
-## As yet unreleased
+## 26/04/2026
 Show dismantled, abandoned and disused former railways underneath paths (but after tunnels).
 Show narrow gauge railways from vector zoom 12, and more prominently.
 Change dash array for "good surface" wide paths.

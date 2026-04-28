@@ -1340,11 +1340,11 @@
 	    }
 	},
 	{
-	    "id": "railway-tram-backgroundfill-12",
+	    "id": "railway-tram-backgroundfill-9",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
-	    "minzoom": 12,
+	    "minzoom": 9,
 	    "filter": [
 		"all",
 		[ "in", "class", "light_rail",
@@ -1370,11 +1370,11 @@
 	    }
 	},
 	{
-	    "id": "railway-tram-foregroundfill-12",
+	    "id": "railway-tram-foregroundfill-9",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
-	    "minzoom": 12,
+	    "minzoom": 9,
 	    "filter": [
 		"all",
 		[ "in", "class", "light_rail",
@@ -1781,11 +1781,11 @@
 	    }
 	},
 	{
-	    "id": "railway-tram-bridgebackgroundfill-12",
+	    "id": "railway-tram-bridgebackgroundfill-9",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
-	    "minzoom": 12,
+	    "minzoom": 9,
 	    "filter": [
 		"all",
 		[ "in", "class", "light_rail",
@@ -1810,11 +1810,11 @@
 	    }
 	},
 	{
-	    "id": "railway-tram-bridgeforegroundfill-12",
+	    "id": "railway-tram-bridgeforegroundfill-9",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
-	    "minzoom": 12,
+	    "minzoom": 9,
 	    "filter": [
 		"all",
 		[ "in", "class", "light_rail",

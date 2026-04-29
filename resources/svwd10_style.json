@@ -673,11 +673,11 @@
 	    "minzoom": 12
 	},
 	{
-	    "id": "railway-rail-tunnellightfill-12",
+	    "id": "railway-rail-tunnellightfill-9",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
-	    "minzoom": 12,
+	    "minzoom": 9,
 	    "filter": [
 		"all",
 		[ "in", "class", "rail",

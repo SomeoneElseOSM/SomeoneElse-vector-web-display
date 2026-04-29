@@ -1,6 +1,9 @@
 # Changes made to the [SVWD10 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd10.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
+## 29/04/2026
+Also show subway tunnels from zoom 9 not 12.
+
 ## 28/04/2026
 Show trams and subways from zoom 9 not 12.
 

@@ -2,6 +2,9 @@
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 oExcept as noted, all changes also apply to the [SVWD06 Android native display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd06.md).  
 
+## As yet unreleased
+Regular railway stations (`railway=station`) are still extracted as such, but those with `station=subway` are now extracted as `railway=tubestation`.  No change to SVWD01 vector rendering.  
+
 ## 27/04/2026
 A "dark teal" colour is now used for restricted byways rather than the previous "bridleway blue".
 Some PRoW representations' dash length was increased to be closer to the "new raster look", although widths have not yet been updated to match.

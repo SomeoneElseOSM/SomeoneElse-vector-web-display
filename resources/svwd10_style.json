@@ -3100,6 +3100,38 @@
 	    }
 	},
 	{
+	    "id": "land1-railway-lightblue-imagenameoverlap-9",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "land1",
+	    "minzoom": 9,
+	    "filter": [ "all", [ "in", "class", "railway_tubestation" ] ],
+	    "layout": {
+		"icon-image": "railway_station",
+                "icon-allow-overlap": true,
+		"icon-size": { "stops": [ [ 11, 0.3 ], 
+                                          [ 13, 0.5 ], 
+                                          [ 20, 3.0 ] ] },
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+                "text-optional": true,
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#0066ff",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
 	    "id": "land1-railway-lightblue-imagenameoverlap-7",
 	    "type": "symbol",
 	    "source": "someoneelse",
@@ -3107,7 +3139,7 @@
 	    "minzoom": 7,
 	    "filter": [ "all", [ "in", "class", "railway_station" ] ],
 	    "layout": {
-		"icon-image": "{class}",
+		"icon-image": "railway_station",
                 "icon-allow-overlap": true,
 		"icon-size": { "stops": [ [ 11, 0.3 ], 
                                           [ 13, 0.5 ], 

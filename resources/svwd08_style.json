@@ -17363,9 +17363,10 @@
 	    "source": "someoneelse",
 	    "source-layer": "land1",
 	    "minzoom": 11,
-	    "filter": [ "all", [ "in", "class", "railway_station" ] ],
+	    "filter": [ "all", [ "in", "class", "railway_station",
+                                                "railway_tubestation" ] ],
 	    "layout": {
-		"icon-image": "{class}",
+		"icon-image": "railway_station",
                 "icon-allow-overlap": true,
 		"icon-size": { "stops": [ [ 11, 0.3 ], 
                                           [ 13, 0.5 ], 

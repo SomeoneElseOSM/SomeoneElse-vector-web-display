@@ -1,5 +1,9 @@
 # Changes made to the [SVWD08 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd08.md).  
 
+## As yet unreleased
+Changed the display of non-designation paths to lengthen the dasharray, change the width to match the weight better to raster, and pick up a few styling loose ends.
+Changed the display of narrow and wide public footpaths to lengthen the dasharray, change the width to match the weight better to raster.
+
 ## 09/05/2026
 Regular railway stations (`railway=station`) are still extracted as such, but those with `station=subway` are now extracted as `railway=tubestation`.  No change to SVWD08 vector rendering.  
 

@@ -1,5 +1,8 @@
 # Changes made to the [SVWD08 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd08.md).  
 
+## As yet unreleased.
+Slightly widened bridleway steps wih zoom to match other designations.
+
 ## 10/05/2026
 Changed the display of non-designation and designation paths to lengthen the dasharray, change the width to match the weight better to raster, and pick up a few styling loose ends.
 

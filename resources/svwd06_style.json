@@ -3303,7 +3303,7 @@
                                [ "==", "tunnel", true ] ],
 	    "paint": {
 		"line-color": "black",
-                "line-dasharray": [8.0, 12.0, 16.0, 12.0],
+                "line-dasharray": [8.0, 8.0, 16.0, 8.0],
 		"line-width": {
 		    "base": 1.8,
 		    "stops": [
@@ -3324,7 +3324,7 @@
                                [ "==", "tunnel", true ] ],
 	    "paint": {
 		"line-color": "black",
-                "line-dasharray": [8.0, 12.0],
+                "line-dasharray": [8.0, 8.0],
 		"line-width": {
 		    "base": 1.8,
 		    "stops": [
@@ -3366,7 +3366,7 @@
                                [ "==", "tunnel", true ] ],
 	    "paint": {
 		"line-color": "black",
-                "line-dasharray": [8.0, 36.0],
+                "line-dasharray": [8.0, 24.0],
 		"line-width": {
 		    "base": 1.8,
 		    "stops": [
@@ -3595,8 +3595,9 @@
 		"line-width": {
 		    "base": 1.8,
 		    "stops": [
-			[ 15,  0.6 ],
-			[ 20,  1.2 ]
+			[ 12,  1.3 ],
+			[ 15,  2.7 ],
+			[ 20,  5.4 ]
 		    ]
 		}
 	    }
@@ -3615,8 +3616,9 @@
 		"line-width": {
 		    "base": 1.8,
 		    "stops": [
-			[ 15,  0.6 ],
-			[ 20,  1.2 ]
+			[ 12,  1.3 ],
+			[ 15,  2.7 ],
+			[ 20,  5.4 ]
 		    ]
 		}
 	    }
@@ -3633,10 +3635,11 @@
 		"line-color": "#996600",
                 "line-dasharray": [4.0, 2.0],
 		"line-width": {
-		    "base": 0.6,
+		    "base": 1.8,
 		    "stops": [
-			[ 15,  0.6 ],
-			[ 20,  1.2 ]
+			[ 12,  1.3 ],
+			[ 15,  2.7 ],
+			[ 20,  5.4 ]
 		    ]
 		}
 	    }
@@ -3653,10 +3656,11 @@
 		"line-color": "#996600",
                 "line-dasharray": [8.0, 2.0],
 		"line-width": {
-		    "base": 2.0,
+		    "base": 1.8,
 		    "stops": [
-			[ 15,  1.2 ],
-			[ 20,  2.4 ]
+			[ 12,  1.3 ],
+			[ 15,  2.7 ],
+			[ 20,  5.4 ]
 		    ]
 		}
 	    }
@@ -3671,12 +3675,13 @@
                                [ "==", "tunnel", true ] ],
 	    "paint": {
 		"line-color": "#996600",
-                "line-dasharray": [32.0, 2.0],
+                "line-dasharray": [16.0, 2.0],
 		"line-width": {
-		    "base": 0.6,
+		    "base": 1.8,
 		    "stops": [
-			[ 15,  0.6 ],
-			[ 20,  1.2 ]
+			[ 12,  1.3 ],
+			[ 15,  2.7 ],
+			[ 20,  5.4 ]
 		    ]
 		}
 	    }
@@ -3691,12 +3696,13 @@
                                [ "==", "tunnel", true ] ],
 	    "paint": {
 		"line-color": "#996600",
-                "line-dasharray": [64.0, 2.0],
+                "line-dasharray": [32.0, 2.0],
 		"line-width": {
-		    "base": 0.6,
+		    "base": 1.8,
 		    "stops": [
-			[ 15,  0.6 ],
-			[ 20,  1.2 ]
+			[ 12,  1.3 ],
+			[ 15,  2.7 ],
+			[ 20,  5.4 ]
 		    ]
 		}
 	    }
@@ -3712,10 +3718,11 @@
 	    "paint": {
 		"line-color": "#996600",
 		"line-width": {
-		    "base": 0.6,
+		    "base": 1.8,
 		    "stops": [
-			[ 15,  0.6 ],
-			[ 20,  1.2 ]
+			[ 12,  1.3 ],
+			[ 15,  2.7 ],
+			[ 20,  5.4 ]
 		    ]
 		}
 	    }
@@ -6619,7 +6626,7 @@
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "black",
-                "line-dasharray": [8.0, 12.0, 16.0, 12.0],
+                "line-dasharray": [8.0, 8.0, 16.0, 8.0],
 		"line-width": {
 		    "base": 1.8,
 		    "stops": [
@@ -6642,7 +6649,7 @@
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "black",
-                "line-dasharray": [8.0, 12.0],
+                "line-dasharray": [8.0, 8.0],
 		"line-width": {
 		    "base": 1.8,
 		    "stops": [
@@ -6688,7 +6695,7 @@
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
 		"line-color": "black",
-                "line-dasharray": [8.0, 36.0],
+                "line-dasharray": [8.0, 24.0],
 		"line-width": {
 		    "base": 1.8,
 		    "stops": [
@@ -6958,10 +6965,11 @@
 		"line-color": "#5A8695",
                 "line-dasharray": [4.0, 2.0],
 		"line-width": {
-		    "base": 2.0,
+		    "base": 1.8,
 		    "stops": [
-			[ 15,  1.2 ],
-			[ 20,  2.4 ]
+			[ 12,  1.3 ],
+			[ 15,  2.7 ],
+			[ 20,  5.4 ]
 		    ]
 		}
 	    }
@@ -6979,10 +6987,11 @@
 		"line-color": "#5A8695",
                 "line-dasharray": [8.0, 2.0],
 		"line-width": {
-		    "base": 2.0,
+		    "base": 1.8,
 		    "stops": [
-			[ 15,  1.2 ],
-			[ 20,  2.4 ]
+			[ 12,  1.3 ],
+			[ 15,  2.7 ],
+			[ 20,  5.4 ]
 		    ]
 		}
 	    }
@@ -7000,10 +7009,11 @@
 		"line-color": "#996600",
                 "line-dasharray": [4.0, 2.0],
 		"line-width": {
-		    "base": 0.6,
+		    "base": 1.8,
 		    "stops": [
-			[ 15,  0.6 ],
-			[ 20,  1.2 ]
+			[ 12,  1.3 ],
+			[ 15,  2.7 ],
+			[ 20,  5.4 ]
 		    ]
 		}
 	    }
@@ -7021,10 +7031,11 @@
 		"line-color": "#996600",
                 "line-dasharray": [8.0, 2.0],
 		"line-width": {
-		    "base": 2.0,
+		    "base": 1.8,
 		    "stops": [
-			[ 15,  1.2 ],
-			[ 20,  2.4 ]
+			[ 12,  1.3 ],
+			[ 15,  2.7 ],
+			[ 20,  5.4 ]
 		    ]
 		}
 	    }
@@ -7040,12 +7051,13 @@
                                [ "!=", "tunnel", true ] ],
 	    "paint": {
 		"line-color": "#996600",
-                "line-dasharray": [32.0, 2.0],
+                "line-dasharray": [16.0, 2.0],
 		"line-width": {
-		    "base": 0.6,
+		    "base": 1.8,
 		    "stops": [
-			[ 15,  0.6 ],
-			[ 20,  1.2 ]
+			[ 12,  1.3 ],
+			[ 15,  2.7 ],
+			[ 20,  5.4 ]
 		    ]
 		}
 	    }
@@ -7061,12 +7073,13 @@
                                [ "!=", "tunnel", true ] ],
 	    "paint": {
 		"line-color": "#996600",
-                "line-dasharray": [64.0, 2.0],
+                "line-dasharray": [32.0, 2.0],
 		"line-width": {
-		    "base": 0.6,
+		    "base": 1.8,
 		    "stops": [
-			[ 15,  0.6 ],
-			[ 20,  1.2 ]
+			[ 12,  1.3 ],
+			[ 15,  2.7 ],
+			[ 20,  5.4 ]
 		    ]
 		}
 	    }
@@ -7083,10 +7096,11 @@
 	    "paint": {
 		"line-color": "#996600",
 		"line-width": {
-		    "base": 0.6,
+		    "base": 1.8,
 		    "stops": [
-			[ 15,  0.6 ],
-			[ 20,  1.2 ]
+			[ 12,  1.3 ],
+			[ 15,  2.7 ],
+			[ 20,  5.4 ]
 		    ]
 		}
 	    }
@@ -11197,7 +11211,7 @@
                                [ "==", "bridge", "yes" ] ],
 	    "paint": {
 		"line-color": "black",
-                "line-dasharray": [8.0, 12.0, 16.0, 12.0],
+                "line-dasharray": [8.0, 8.0, 16.0, 8.0],
 		"line-width": {
 		    "base": 1.8,
 		    "stops": [
@@ -11218,7 +11232,7 @@
                                [ "==", "bridge", "yes" ] ],
 	    "paint": {
 		"line-color": "black",
-                "line-dasharray": [8.0, 12.0],
+                "line-dasharray": [8.0, 8.0],
 		"line-width": {
 		    "base": 1.8,
 		    "stops": [
@@ -11260,7 +11274,7 @@
                                [ "==", "bridge", "yes" ] ],
 	    "paint": {
 		"line-color": "black",
-                "line-dasharray": [8.0, 36.0],
+                "line-dasharray": [8.0, 24.0],
 		"line-width": {
 		    "base": 1.8,
 		    "stops": [
@@ -11389,8 +11403,9 @@
 		"line-width": {
 		    "base": 1.8,
 		    "stops": [
-			[ 15,  0.6 ],
-			[ 20,  1.2 ]
+			[ 12,  1.3 ],
+			[ 15,  2.7 ],
+			[ 20,  5.4 ]
 		    ]
 		}
 	    }
@@ -11409,8 +11424,9 @@
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
-			[ 15,  1.2 ],
-			[ 20,  2.4 ]
+			[ 12,  1.3 ],
+			[ 15,  2.7 ],
+			[ 20,  5.4 ]
 		    ]
 		}
 	    }
@@ -11429,8 +11445,9 @@
 		"line-width": {
 		    "base": 1.8,
 		    "stops": [
-			[ 15,  0.6 ],
-			[ 20,  1.2 ]
+			[ 12,  1.3 ],
+			[ 15,  2.7 ],
+			[ 20,  5.4 ]
 		    ]
 		}
 	    }
@@ -11447,10 +11464,11 @@
 		"line-color": "#996600",
                 "line-dasharray": [8.0, 2.0],
 		"line-width": {
-		    "base": 2.0,
+		    "base": 1.8,
 		    "stops": [
-			[ 15,  1.2 ],
-			[ 20,  2.4 ]
+			[ 12,  1.3 ],
+			[ 15,  2.7 ],
+			[ 20,  5.4 ]
 		    ]
 		}
 	    }
@@ -11465,12 +11483,13 @@
                                [ "==", "bridge", "yes" ] ],
 	    "paint": {
 		"line-color": "#996600",
-                "line-dasharray": [32.0, 2.0],
+                "line-dasharray": [16.0, 2.0],
 		"line-width": {
 		    "base": 1.8,
 		    "stops": [
-			[ 15,  0.6 ],
-			[ 20,  1.2 ]
+			[ 12,  1.3 ],
+			[ 15,  2.7 ],
+			[ 20,  5.4 ]
 		    ]
 		}
 	    }
@@ -11485,12 +11504,13 @@
                                [ "==", "bridge", "yes" ] ],
 	    "paint": {
 		"line-color": "#996600",
-                "line-dasharray": [64.0, 2.0],
+                "line-dasharray": [32.0, 2.0],
 		"line-width": {
 		    "base": 1.8,
 		    "stops": [
-			[ 15,  0.6 ],
-			[ 20,  1.2 ]
+			[ 12,  1.3 ],
+			[ 15,  2.7 ],
+			[ 20,  5.4 ]
 		    ]
 		}
 	    }
@@ -11508,8 +11528,9 @@
 		"line-width": {
 		    "base": 1.8,
 		    "stops": [
-			[ 15,  0.6 ],
-			[ 20,  1.2 ]
+			[ 12,  1.3 ],
+			[ 15,  2.7 ],
+			[ 20,  5.4 ]
 		    ]
 		}
 	    }

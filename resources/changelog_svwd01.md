@@ -4,7 +4,7 @@ Except as noted, all changes also apply to the [SVWD06 Android native display st
 
 ## As yet unreleased
 Changed the display of non-designation paths to lengthen the dasharray, change the width to match the weight better to raster, and pick up a few styling loose ends.
-Changed the display of narrow and wide public footpaths to lengthen the dasharray, change the width to match the weight better to raster.
+Changed the display of narrow and wide public footpaths and bridleways to lengthen the dasharray, change the width to match the weight better to raster.
 
 ## 09/05/2026
 Regular railway stations (`railway=station`) are still extracted as such, but those with `station=subway` are now extracted as `railway=tubestation`.  No change to SVWD01 vector rendering.  

@@ -1,6 +1,9 @@
 # Changes made to the [SVWD01 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd01.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
-oExcept as noted, all changes also apply to the [SVWD06 Android native display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd06.md).  
+Except as noted, all changes also apply to the [SVWD06 Android native display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd06.md).  
+
+## As yet unreleased
+Changed the display of non-designation paths to lengthen the dasharray, change the width to match the weight better to raster, and pick up a few styling loose ends.
 
 ## 09/05/2026
 Regular railway stations (`railway=station`) are still extracted as such, but those with `station=subway` are now extracted as `railway=tubestation`.  No change to SVWD01 vector rendering.  

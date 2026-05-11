@@ -4,6 +4,7 @@ Except as noted, all changes also apply to the [SVWD06 Android native display st
 
 ## As yet unreleased.
 Slightly widened bridleway steps wih zoom to match other designations.
+Change dash array for "good surface" narrow and wide public foopaths (`footwaynarrow` and `footwaywide` in the schema).
 
 ## 10/05/2026
 Changed the display of non-designation and designation paths to lengthen the dasharray, change the width to match the weight better to raster, and pick up a few styling loose ends.

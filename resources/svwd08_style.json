@@ -3503,6 +3503,8 @@
                                                 "goodboatwide",
                                                 "boatnarrow",
                                                 "boatwide",
+                                                "gooducrnarrow",
+                                                "gooducrwide",
                                                 "ucrnarrow",
                                                 "ucrwide",
                                                 "unpaved" ],
@@ -3540,6 +3542,8 @@
                                                 "goodboatwide",
                                                 "boatnarrow",
                                                 "boatwide",
+                                                "gooducrnarrow",
+                                                "gooducrwide",
                                                 "ucrnarrow",
                                                 "ucrwide",
                                                 "unpaved" ],
@@ -3850,6 +3854,27 @@
 	    }
 	},
 	{
+	    "id": "highway-gooducrnarrow-tunnelfill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "gooducrnarrow" ],
+                               [ "==", "tunnel", true ] ],
+	    "paint": {
+		"line-color": "#996600",
+                "line-dasharray": [16.0, 2.0, 32.0, 2.0],
+		"line-width": {
+		    "base": 1.8,
+		    "stops": [
+			[ 12,  1.3 ],
+			[ 15,  2.7 ],
+			[ 20,  5.4 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "highway-ucrnarrow-tunnelfill-12",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -3860,6 +3885,27 @@
 	    "paint": {
 		"line-color": "#996600",
                 "line-dasharray": [16.0, 2.0],
+		"line-width": {
+		    "base": 1.8,
+		    "stops": [
+			[ 12,  1.3 ],
+			[ 15,  2.7 ],
+			[ 20,  5.4 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-gooducrwide-tunnelfill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "gooducrwide" ],
+                               [ "==", "tunnel", true ] ],
+	    "paint": {
+		"line-color": "#996600",
+                "line-dasharray": [32.0, 2.0, 64.0, 2.0],
 		"line-width": {
 		    "base": 1.8,
 		    "stops": [
@@ -4905,6 +4951,8 @@
                                  "goodboatwide",
                                  "boatnarrow",
                                  "boatwide",
+                                 "gooducrnarrow",
+                                 "gooducrwide",
                                  "ucrnarrow",
                                  "ucrwide",
                                  "unpaved" ],
@@ -5161,6 +5209,8 @@
                                  "goodboatwide",
                                  "boatnarrow",
                                  "boatwide",
+                                 "gooducrnarrow",
+                                 "gooducrwide",
                                  "ucrnarrow",
                                  "ucrwide",
                                  "unpaved" ],
@@ -5669,6 +5719,8 @@
                                  "goodboatwide",
                                  "boatnarrow",
                                  "boatwide",
+                                 "gooducrnarrow",
+                                 "gooducrwide",
                                  "ucrnarrow",
                                  "ucrwide",
                                  "unpaved" ],
@@ -7172,6 +7224,28 @@
 	    }
 	},
 	{
+	    "id": "highway-gooducrnarrow-other-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "gooducrnarrow" ],
+                               [ "!=", "bridge", "yes" ],
+                               [ "!=", "tunnel", true ] ],
+	    "paint": {
+		"line-color": "#996600",
+                "line-dasharray": [16.0, 2.0, 32.0, 2.0],
+		"line-width": {
+		    "base": 1.8,
+		    "stops": [
+			[ 12,  1.3 ],
+			[ 15,  2.7 ],
+			[ 20,  5.4 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "highway-ucrnarrow-other-12",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -7183,6 +7257,28 @@
 	    "paint": {
 		"line-color": "#996600",
                 "line-dasharray": [16.0, 2.0],
+		"line-width": {
+		    "base": 1.8,
+		    "stops": [
+			[ 12,  1.3 ],
+			[ 15,  2.7 ],
+			[ 20,  5.4 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-gooducrwide-other-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "gooducrwide" ],
+                               [ "!=", "bridge", "yes" ],
+                               [ "!=", "tunnel", true ] ],
+	    "paint": {
+		"line-color": "#996600",
+                "line-dasharray": [32.0, 2.0, 64.0, 2.0],
 		"line-width": {
 		    "base": 1.8,
 		    "stops": [
@@ -8718,6 +8814,8 @@
                                                 "goodboatwide",
                                                 "boatnarrow",
                                                 "boatwide",
+                                                "gooducrnarrow",
+                                                "gooducrwide",
                                                 "ucrnarrow",
                                                 "ucrwide",
                                                 "unpaved" ],
@@ -9182,6 +9280,8 @@
                                                 "goodboatwide",
                                                 "boatnarrow",
                                                 "boatwide",
+                                                "gooducrnarrow",
+                                                "gooducrwide",
                                                 "ucrnarrow",
                                                 "ucrwide",
                                                 "unpaved" ],
@@ -11518,6 +11618,27 @@
 	    }
 	},
 	{
+	    "id": "highway-gooducrnarrow-bridgefill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "gooducrnarrow" ],
+                               [ "==", "bridge", "yes" ] ],
+	    "paint": {
+		"line-color": "#996600",
+                "line-dasharray": [16.0, 2.0, 32.0, 2.0],
+		"line-width": {
+		    "base": 1.8,
+		    "stops": [
+			[ 12,  1.3 ],
+			[ 15,  2.7 ],
+			[ 20,  5.4 ]
+		    ]
+		}
+	    }
+	},
+	{
 	    "id": "highway-ucrnarrow-bridgefill-12",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -11528,6 +11649,27 @@
 	    "paint": {
 		"line-color": "#996600",
                 "line-dasharray": [16.0, 2.0],
+		"line-width": {
+		    "base": 1.8,
+		    "stops": [
+			[ 12,  1.3 ],
+			[ 15,  2.7 ],
+			[ 20,  5.4 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-gooducrwide-bridgefill-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "transportation",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "gooducrwide" ],
+                               [ "==", "bridge", "yes" ] ],
+	    "paint": {
+		"line-color": "#996600",
+                "line-dasharray": [32.0, 2.0, 64.0, 2.0],
 		"line-width": {
 		    "base": 1.8,
 		    "stops": [
@@ -11787,7 +11929,8 @@
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
 	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "class", "unpaved", "ucrwide", "ucrnarrow", 
+	    "filter": [ "all", [ "in", "class", "unpaved", "gooducrwide", "gooducrnarrow",
+                                                "ucrwide", "ucrnarrow",
                                                 "goodboatwide", "goodboatnarrow", 
                                                 "boatwide", "boatnarrow", 
                                                 "goodrbywide",  "goodrbynarrow", 
@@ -21098,6 +21241,7 @@
 	    "type": "symbol",
 	    "source-layer": "transportation",
 	    "filter": [ "in", "class", "unpaved",
+			"gooducrwide",    "gooducrnarrow",         
 			"ucrwide",        "ucrnarrow",         
                         "goodboatwide",   "goodboatnarrow", 
                         "boatwide",       "boatnarrow", 

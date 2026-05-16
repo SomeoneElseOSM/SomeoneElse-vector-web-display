@@ -12854,7 +12854,7 @@
 		"text-max-width": 14,
 		"text-offset": [ 0, 0.6 ],
 		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"text-size": { "stops": [ [ 12, 5 ], [ 20, 15 ] ] },
 		"visibility": "visible"
 	    },
 	    "paint": {

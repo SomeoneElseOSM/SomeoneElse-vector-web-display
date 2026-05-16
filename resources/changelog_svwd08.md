@@ -1,6 +1,6 @@
 # Changes made to the [SVWD08 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd08.md).  
 
-## As yet unreleased.
+## 15/05/2026
 Slightly widened bridleway steps wih zoom to match other designations.
 Change dash array for "good surface" narrow and wide public footpaths (`footwaynarrow` and `footwaywide` in the schema).
 Change dash array for "good surface" narrow and wide public bridleways (`bridlewaynarrow` and `bridlewaywide` in the schema).

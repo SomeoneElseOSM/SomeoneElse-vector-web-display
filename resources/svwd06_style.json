@@ -18322,7 +18322,7 @@
 		"text-offset": [ 0, 0.6 ],
 		"text-padding": 2,
 		"text-size": { "stops": [ [ 12, 10 ], 
-                                          [ 20, 60 ] ] },
+                                          [ 20, 30 ] ] },
 		"visibility": "visible"
 	    },
 	    "paint": {
@@ -18353,7 +18353,7 @@
 		"text-offset": [ 0, 0.6 ],
 		"text-padding": 2,
 		"text-size": { "stops": [ [ 12, 10 ], 
-                                          [ 20, 60 ] ] },
+                                          [ 20, 30 ] ] },
 		"visibility": "visible"
 	    },
 	    "paint": {
@@ -18383,7 +18383,7 @@
 		"text-offset": [ 0, 0.6 ],
 		"text-padding": 2,
 		"text-size": { "stops": [ [ 12, 10 ], 
-                                          [ 20, 60 ] ] },
+                                          [ 20, 30 ] ] },
 		"visibility": "visible"
 	    },
 	    "paint": {

@@ -2,6 +2,7 @@
 
 ## As yet unreleased
 Reduce the size of bus stop text at vector zoom 15.
+Reduce the size of `natural=water` text at higher vector zooms.
 
 ## 15/05/2026
 Slightly widened bridleway steps wih zoom to match other designations.

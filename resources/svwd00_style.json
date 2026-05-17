@@ -4980,7 +4980,7 @@
 	    "minzoom": 12
 	},
 	{
-	    "id": "railway-rail-tunnellightfill-12",
+	    "id": "railway-rail-tunnellightfill-12-s01",
 	    "type": "line",
 	    "source": "someoneelse",
             "target": "svwd01",
@@ -8156,7 +8156,7 @@
 	    }
 	},
 	{
-	    "id": "railway-rail-darkfill-8-11",
+	    "id": "railway-rail-darkfill-8-11-s01",
 	    "type": "line",
 	    "source": "someoneelse",
             "target": "svwd01",
@@ -8723,7 +8723,7 @@
 	    "id": "railway-rail-lightfill-12",
 	    "type": "line",
 	    "source": "someoneelse",
-            "target": "svwd01",
+            "target": "svwd01,svwd10",
 	    "source-layer": "transportation",
 	    "minzoom": 12,
 	    "filter": [

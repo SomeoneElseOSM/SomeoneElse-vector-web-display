@@ -51,7 +51,7 @@ end
 -- local lua table "obj", which we then process.
 -- Error handling is minimal.
 -- ----------------------------------------------------------------------------
-local function process_style( input_filename, output_filename, target_style )
+local function process_style( input_filename, output_filename, target_style, debug )
     local fileContent = read_file( input_filename );
 
     local obj, pos, err = json.decode ( fileContent, 1, nil )
@@ -83,7 +83,7 @@ local function process_style( input_filename, output_filename, target_style )
 -- ----------------------------------------------------------------------------
             if ( obj.layers[i] ~= nil ) then
 -- ----------------------------------------------------------------------------
--- Enable for debug:
+-- Enable for more debug:
 --              print (i, obj.layers[i].id)
 -- ----------------------------------------------------------------------------
 -- MapLibre layers have content with keys such as "id" and "type".
@@ -104,21 +104,26 @@ local function process_style( input_filename, output_filename, target_style )
 -- ----------------------------------------------------------------------------
                 if ( obj.layers[i].target ~= nil ) then
 -- ----------------------------------------------------------------------------
--- Enable for debug:
+-- Enable for more debug:
 --                      print ( "Comparing", obj.layers[i].target, target_style )
 -- ----------------------------------------------------------------------------
                     if ( string.match( obj.layers[i].target, target_style ) == nil ) then
 -- ----------------------------------------------------------------------------
--- Enable for debug:
+-- Enable for more debug:
 --                      print ( string.match( obj.layers[i].target, target_style ))
---                      print ( "Removing", i, obj.layers[i].id)
 -- ----------------------------------------------------------------------------
+                        if ( debug == true ) then
+                            print ( "Removing (another target specifed)", i, obj.layers[i].id)
+                        end
                         table.remove( obj.layers, i )
--- ----------------------------------------------------------------------------
--- Enable for debug:
---                  else
---                      print ( "Leaving", i, obj.layers[i].id)
--- ----------------------------------------------------------------------------
+                    else
+                        if ( debug == true ) then
+                            print ( "Leaving (this target specified)", i, obj.layers[i].id)
+                        end
+                    end
+                else
+                    if ( debug == true ) then
+                        print ( "Leaving (no target specified)", i, obj.layers[i].id)
                     end
                 end
             end
@@ -147,10 +152,11 @@ end
 -- ----------------------------------------------------------------------------
 -- Main processing
 --
--- We expect 3 arguments.  All are required
+-- We expect 3 or 4 arguments.  The first 3 are required
 -- 1) Input file
 -- 2) Output file
 -- 3) Style name
+-- 4) Debug - if passed as anything non-nil, debug is turned on
 -- ----------------------------------------------------------------------------
     if ( arg[1] ~= nil ) then
         print( "Input file: ", arg[1] )
@@ -160,7 +166,13 @@ end
 
             if ( arg[3] ~= nil ) then
                 print( "Style: ", arg[3] )
-                process_style( arg[1], arg[2], arg[3] )
+
+                print( "Debug: ", arg[4] )
+                if ( arg[4] ~= nil ) then
+                    process_style( arg[1], arg[2], arg[3], true )
+                else
+                    process_style( arg[1], arg[2], arg[3], false )
+                end
             else
                 print( "arg3 is nil\n" )
             end

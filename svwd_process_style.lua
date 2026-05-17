@@ -67,7 +67,15 @@ local function process_style( input_filename, output_filename, target_style )
 -- ----------------------------------------------------------------------------
         print ( #obj.layers, "layers in", input_filename )
 
-        for i = 1,#obj.layers do
+-- ----------------------------------------------------------------------------
+-- We iterate backwards through the array otherwise when we do a table-remove
+-- and then also increment i we'll skip some layers.  Going backwards avoids 
+-- this (the layers below that have already been dealt with are moved up).
+-- Using table.remove may not be the fastest approach (see 
+-- https://stackoverflow.com/questions/12394841/safely-remove-items-from-an-array-table-while-iterating#12435347 )
+-- but it's fast enough for a MapLibre style with < 1000 layers.
+-- ----------------------------------------------------------------------------
+        for i = #obj.layers,1,-1 do
 -- ----------------------------------------------------------------------------
 -- There is a "nil" check here because if we remove any layers from the table
 -- layers below will be moved up, and our iteration is for however many layers
@@ -95,8 +103,22 @@ local function process_style( input_filename, output_filename, target_style )
 -- table).
 -- ----------------------------------------------------------------------------
                 if ( obj.layers[i].target ~= nil ) then
+-- ----------------------------------------------------------------------------
+-- Enable for debug:
+--                      print ( "Comparing", obj.layers[i].target, target_style )
+-- ----------------------------------------------------------------------------
                     if ( string.match( obj.layers[i].target, target_style ) == nil ) then
+-- ----------------------------------------------------------------------------
+-- Enable for debug:
+--                      print ( string.match( obj.layers[i].target, target_style ))
+--                      print ( "Removing", i, obj.layers[i].id)
+-- ----------------------------------------------------------------------------
                         table.remove( obj.layers, i )
+-- ----------------------------------------------------------------------------
+-- Enable for debug:
+--                  else
+--                      print ( "Leaving", i, obj.layers[i].id)
+-- ----------------------------------------------------------------------------
                     end
                 end
             end

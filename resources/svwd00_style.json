@@ -743,7 +743,7 @@
 	    }
 	},
 	{
-	    "id": "land1-railway-outline-15b",
+	    "id": "land1-railway-outline-15-s10",
 	    "type": "line",
 	    "source": "someoneelse",
             "target": "svwd10",
@@ -862,7 +862,7 @@
 	    }
 	},
 	{
-	    "id": "land1-platform-fill-15a",
+	    "id": "land1-platform-fill-15-s01",
 	    "type": "fill",
 	    "source": "someoneelse",
             "target": "svwd01",
@@ -876,7 +876,7 @@
 	    }
 	},
 	{
-	    "id": "land1-platform-fill-15b",
+	    "id": "land1-platform-fill-15-s10",
 	    "type": "fill",
 	    "source": "someoneelse",
             "target": "svwd10",
@@ -889,7 +889,7 @@
 	    }
 	},
 	{
-	    "id": "land1-platform-outline-15a",
+	    "id": "land1-platform-outline-15-s01",
 	    "type": "line",
 	    "source": "someoneelse",
             "target": "svwd01",
@@ -909,7 +909,7 @@
 	    }
 	},
 	{
-	    "id": "land1-platform-outline-15b",
+	    "id": "land1-platform-outline-15-s10",
 	    "type": "line",
 	    "source": "someoneelse",
             "target": "svwd10",
@@ -5015,7 +5015,7 @@
 	    }
 	},
 	{
-	    "id": "railway-rail-tunnellightfill-9",
+	    "id": "railway-rail-tunnellightfill-9-s10",
 	    "type": "line",
 	    "source": "someoneelse",
             "target": "svwd10",
@@ -8181,7 +8181,7 @@
 	    }
 	},
 	{
-	    "id": "railway-rail-darkfill-6-11",
+	    "id": "railway-rail-darkfill-6-11-s10",
 	    "type": "line",
 	    "source": "someoneelse",
             "target": "svwd10",
@@ -9251,7 +9251,7 @@
 	    }
 	},
 	{
-	    "id": "railway-tram-backgroundfill-9",
+	    "id": "railway-tram-backgroundfill-9-s10",
 	    "type": "line",
 	    "source": "someoneelse",
             "target": "svwd10",
@@ -9282,7 +9282,7 @@
 	    }
 	},
 	{
-	    "id": "railway-tram-foregroundfill-9",
+	    "id": "railway-tram-foregroundfill-9-s10",
 	    "type": "line",
 	    "source": "someoneelse",
             "target": "svwd10",
@@ -11608,7 +11608,7 @@
 	    }
 	},
 	{
-	    "id": "railway-tram-bridgebackgroundfill-9",
+	    "id": "railway-tram-bridgebackgroundfill-9-s10",
 	    "type": "line",
 	    "source": "someoneelse",
             "target": "svwd10",
@@ -11638,7 +11638,7 @@
 	    }
 	},
 	{
-	    "id": "railway-tram-bridgeforegroundfill-9",
+	    "id": "railway-tram-bridgeforegroundfill-9-s10",
 	    "type": "line",
 	    "source": "someoneelse",
             "target": "svwd10",
@@ -12254,7 +12254,7 @@
 	    "minzoom": 14
 	},
 	{
-	    "id": "label-waterway_weir-bottom-14a",
+	    "id": "label-waterway_weir-bottom-14-s01",
 	    "type": "symbol",
 	    "source-layer": "waterway",
 	    "filter": [ "in", "class", "weir",
@@ -12279,7 +12279,7 @@
 	    "minzoom": 14
 	},
 	{
-	    "id": "label-waterway_weir-bottom-14b",
+	    "id": "label-waterway_weir-bottom-14-s10",
 	    "type": "symbol",
 	    "source-layer": "waterway",
 	    "filter": [ "in", "class", "weir" ],
@@ -17729,7 +17729,7 @@
 	    }
 	},
 	{
-	    "id": "land1-various-indigo-imagename-15a",
+	    "id": "land1-various-indigo-imagename-15-s01",
 	    "type": "symbol",
 	    "source": "someoneelse",
             "target": "svwd01",
@@ -17780,7 +17780,7 @@
 	    }
 	},
 	{
-	    "id": "land1-various-indigo-imagename-15b",
+	    "id": "land1-various-indigo-imagename-15-s10",
 	    "type": "symbol",
 	    "source": "someoneelse",
             "target": "svwd10",
@@ -19708,7 +19708,7 @@
 	    }
 	},
 	{
-	    "id": "land1-platform-name-17a",
+	    "id": "land1-platform-name-17-s01",
 	    "type": "symbol",
 	    "source": "someoneelse",
             "target": "svwd01",
@@ -19737,7 +19737,7 @@
 	    }
 	},
 	{
-	    "id": "land1-platform-name-17b",
+	    "id": "land1-platform-name-17-s10",
 	    "type": "symbol",
 	    "source": "someoneelse",
             "target": "svwd10",
@@ -20929,7 +20929,7 @@
 	    }
 	},
 	{
-	    "id": "land1-industrial-name-11-13a",
+	    "id": "land1-industrial-name-11-13-s01",
 	    "type": "symbol",
 	    "source": "someoneelse",
             "target": "svwd01",
@@ -20958,7 +20958,7 @@
 	    }
 	},
 	{
-	    "id": "land1-industrial-name-17b",
+	    "id": "land1-industrial-name-17-s10",
 	    "type": "symbol",
 	    "source": "someoneelse",
             "target": "svwd10",
@@ -20986,7 +20986,7 @@
 	    }
 	},
 	{
-	    "id": "land1-industrial-name-16b",
+	    "id": "land1-industrial-name-16-s10",
 	    "type": "symbol",
 	    "source": "someoneelse",
             "target": "svwd10",
@@ -21015,7 +21015,7 @@
 	    }
 	},
 	{
-	    "id": "land1-industrial-name-15b",
+	    "id": "land1-industrial-name-15-s10",
 	    "type": "symbol",
 	    "source": "someoneelse",
             "target": "svwd10",
@@ -21044,7 +21044,7 @@
 	    }
 	},
 	{
-	    "id": "land1-industrial-name-14b",
+	    "id": "land1-industrial-name-14-s10",
 	    "type": "symbol",
 	    "source": "someoneelse",
             "target": "svwd10",
@@ -21073,7 +21073,7 @@
 	    }
 	},
 	{
-	    "id": "land1-industrial-name-11-13b",
+	    "id": "land1-industrial-name-11-13-s10",
 	    "type": "symbol",
 	    "source": "someoneelse",
             "target": "svwd10",
@@ -24140,7 +24140,7 @@
 	    }
 	},
 	{
-	    "id": "land1-railway-lightblue-imagenameoverlap-9",
+	    "id": "land1-railway-lightblue-imagenameoverlap-9-s10",
 	    "type": "symbol",
 	    "source": "someoneelse",
             "target": "svwd10",
@@ -24173,7 +24173,7 @@
 	    }
 	},
 	{
-	    "id": "land1-railway-lightblue-imagenameoverlap-7",
+	    "id": "land1-railway-lightblue-imagenameoverlap-7-s10",
 	    "type": "symbol",
 	    "source": "someoneelse",
             "target": "svwd10",

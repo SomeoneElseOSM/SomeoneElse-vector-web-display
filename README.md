@@ -6,15 +6,17 @@ This repository contains:
 
 and also these in [resources](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/tree/main/resources):
 
-* [SVWD01](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd01.md), an example web map style.  Visible [here](https://map.atownsend.org.uk/vector/index.html#8/54.031/-1.661)
-* [SVWD06](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd06.md), based on an example Android Native style.  Visible as a web map [here](https://map.atownsend.org.uk/vector/index_svwd06.html#10/53.995/-1.2908)
+* [SVWD00](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd00.md), a style library for the styles based on the [SVE01 schema](https://github.com/SomeoneElseOSM/SomeoneElse-vector-extract/blob/main/resources/README_sve01.md).  [svwd_process_style.lua](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/svwd_process_style.lua) can be used to generate SVWD01, SVWD08 and SVWD10 from it.
+* [SVWD01](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd01.md), an example web map style based on the [SVE01 schema](https://github.com/SomeoneElseOSM/SomeoneElse-vector-extract/blob/main/resources/README_sve01.md).  Visible [here](https://map.atownsend.org.uk/vector/index.html#8/54.031/-1.661)
+* [SVWD06](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd06.md), based on an example Android Native style.  Generated programmatically from SVWD01.  Visible as a web map [here](https://map.atownsend.org.uk/vector/index_svwd06.html#10/53.995/-1.2908)
 * [SVWD03](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd03.md), a [Shortbread](https://shortbread-tiles.org/schema/1.0/) map style designed to use [OSMF's minutely updated vector tiles demo](https://community.openstreetmap.org/t/minutely-updated-vector-tiles-demo/110121).  Visible [here](https://map.atownsend.org.uk/vector/index_osmf_shortbread.html).
-* [SVWD09](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd09.md), like [SVWD03](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd03.md), but shown on a globe.  Visible [here](https://map.atownsend.org.uk/vector/index_svwd09.html).
+* [SVWD09](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd09.md), exactly like [SVWD03](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd03.md), but shown on a globe.  Visible [here](https://map.atownsend.org.uk/vector/index_svwd09.html).
 * [SVWD07](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd07.md), a work-in-progress minimal Shortbread example.
-* [SVWD08](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd08.md), an experimental "only show roads if you can walk on them" style.  Visible [here](https://map.atownsend.org.uk/vector/index_svwd08.html#8.67/53.9603/-1.6395).
-* [SVWD04](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd05.md), a debug style for SVWD01.
-* [SVWD05](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd05.md), a debug style for SVWD03.
-* [SVWD02](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/svwd02_style.json), a copy of the [Versatiles Colorful display style](https://github.com/versatiles-org/versatiles-style/blob/main/docs/colorful.png), which works with the [shortbread schema](https://shortbread-tiles.org/schema/).
+* [SVWD08](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd08.md), an "only show roads if you can walk on them" style.  Visible [here](https://map.atownsend.org.uk/vector/index_svwd08.html#8.67/53.9603/-1.6395).
+* [SVWD10](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd10.md), a style showing only railways.  Visible [here](https://map.atownsend.org.uk/vector/index_svwd10.html#8.67/53.9603/-1.6395).
+* [SVWD04](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd05.md), a debug style for the [SVE01 schema](https://github.com/SomeoneElseOSM/SomeoneElse-vector-extract/blob/main/resources/README_sve01.md).
+* [SVWD05](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd05.md), a debug style for [OSMF's minutely updated schortbread vector tiles](https://community.openstreetmap.org/t/minutely-updated-vector-tiles-demo/110121)
+* [SVWD02](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/svwd02_style.json), a fairly old copy of the [Versatiles Colorful display style](https://github.com/versatiles-org/versatiles-style/blob/main/docs/colorful.png), which works with the [shortbread schema](https://shortbread-tiles.org/schema/).
 
 The shortbread styles are dependent on what's available in the Shortbread schema.  The "svwd02" style is from [Versatiles](https://versatiles.org/overview.html); see the licence at the top of [that file](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/svwd02_style.json).
 
@@ -23,6 +25,19 @@ The "sve01" schema and "svwd01" style have broadly the same functionality as the
 The debug styles show all features in each style's layers, with each layer (or object type in a layer) in a different colour.
 
 A [companion repository](https://github.com/SomeoneElseOSM/SomeoneElse-vector-extract/blob/main/README.md) contains scripts to manage the extraction of OSM data and an [example schema](https://github.com/SomeoneElseOSM/SomeoneElse-vector-extract/blob/main/resources/README_sve01.md).  The example web map style here works with a `.mbtiles` file in that schema.
+
+## What is "svwd_process_style.lua" for?
+
+Web map styles that are based on tge same schema share lots of information.  They'll probably all have a layer for "ocean" for example, and may well share other layers - a map to show railways probably also wants to show rivers and towns.  Each MapLibre style file is a JSON document in a [certain format](https://maplibre.org/maplibre-style-spec/).  I added one property to the list supported by [layers](https://maplibre.org/maplibre-style-spec/layers/) there ("target", set to a comma-separated list of styles in which that layer belongs).
+
+You can then do things like
+
+    lua .../path/to/svwd_process_style.lua .../path/to/svwd00_style.json .../path/to/svwd08_style.json svwd08
+
+which will create "svwd08_style.json" from "svwd08_style.json" by including all the layers marked either with no target (by default they go everywhere) or the style that we want to create (here, "svwd08").
+
+This allows one style file to be maintained rather than three or more.  However, this is very much a minimal approach - the least amount of work to create something that did what was needed for these styles.  Alternatives exist - see e.g. [glug](https://github.com/systemed/glug) and the discussion on [this diary entry](https://www.openstreetmap.org/user/pnorman/diary/406599).
+
 
 ## Why do the "managing scripts" even need to exist?
 

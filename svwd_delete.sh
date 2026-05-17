@@ -37,9 +37,9 @@ APACHE_SUBDIR=/var/www/html/vector
 # Then (as root) run this script, with the following parameters.
 # These must not contain spaces.  Full paths, no "~".
 #
-# Parameter: For example:                                                   Meaning:
-# $1         omt_ny_1                                                       name of this deployment.
-# $2         svwd01                                                         Name of first part of sprite files.
+# Parameter: Mandatory?  For example:         Meaning:
+# $1         yes         omt_ny_1             name of this deployment.
+# $2         no          svwd01               Name of first part of sprite files.
 #
 # Set e.v.s for these parameters
 DEPLOYMENT_NAME=$1
@@ -78,23 +78,28 @@ echo "Deleted style json:    ${APACHE_SUBDIR}/style_${DEPLOYMENT_NAME}.json"
 rm ${APACHE_SUBDIR}/index_${DEPLOYMENT_NAME}.html
 echo "Deleted web page:      ${APACHE_SUBDIR}/index_${DEPLOYMENT_NAME}.html"
 #
-# -----------------------------------------------------------------------------
-# Delete the sprite files
-# We definitely expect "normal" and "@2x" versions.
-# I'm guessing that "@3x" and "@4x" versions are used by higher resolution
-# displays.
-# -----------------------------------------------------------------------------
-rm ${APACHE_SUBDIR}/${SPRITE_NAME}.png
-rm ${APACHE_SUBDIR}/${SPRITE_NAME}.json
-echo "Deleted sprite files:      ${SPRITE_NAME}.png and ${SPRITE_NAME}.json"
-rm ${APACHE_SUBDIR}/${SPRITE_NAME}@2x.png
-rm ${APACHE_SUBDIR}/${SPRITE_NAME}@2x.json
-echo "Deleted sprite files:      ${SPRITE_NAME}@2x.png and ${SPRITE_NAME}@2x.json"
-rm ${APACHE_SUBDIR}/${SPRITE_NAME}@3x.png
-rm ${APACHE_SUBDIR}/${SPRITE_NAME}@3x.json
-echo "Deleted sprite files:      ${SPRITE_NAME}@2x.png and ${SPRITE_NAME}@3x.json"
-rm ${APACHE_SUBDIR}/${SPRITE_NAME}@4x.png
-rm ${APACHE_SUBDIR}/${SPRITE_NAME}@4x.json
-echo "Deleted sprite files:      ${SPRITE_NAME}@2x.png and ${SPRITE_NAME}@4x.json"
+if [ "${SPRITE_NAME}" = "" ]
+then
+    echo "No sprite name provided; not deleted"
+else
+    # -----------------------------------------------------------------------------
+    # Delete the sprite files
+    # We definitely expect "normal" and "@2x" versions.
+    # I'm guessing that "@3x" and "@4x" versions are used by higher resolution
+    # displays.
+    # -----------------------------------------------------------------------------
+    rm ${APACHE_SUBDIR}/${SPRITE_NAME}.png
+    rm ${APACHE_SUBDIR}/${SPRITE_NAME}.json
+    echo "Deleted sprite files:      ${SPRITE_NAME}.png and ${SPRITE_NAME}.json"
+    rm ${APACHE_SUBDIR}/${SPRITE_NAME}@2x.png
+    rm ${APACHE_SUBDIR}/${SPRITE_NAME}@2x.json
+    echo "Deleted sprite files:      ${SPRITE_NAME}@2x.png and ${SPRITE_NAME}@2x.json"
+    rm ${APACHE_SUBDIR}/${SPRITE_NAME}@3x.png
+    rm ${APACHE_SUBDIR}/${SPRITE_NAME}@3x.json
+    echo "Deleted sprite files:      ${SPRITE_NAME}@2x.png and ${SPRITE_NAME}@3x.json"
+    rm ${APACHE_SUBDIR}/${SPRITE_NAME}@4x.png
+    rm ${APACHE_SUBDIR}/${SPRITE_NAME}@4x.json
+    echo "Deleted sprite files:      ${SPRITE_NAME}@2x.png and ${SPRITE_NAME}@4x.json"
 #
+fi
 #

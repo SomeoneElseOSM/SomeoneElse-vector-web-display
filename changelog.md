@@ -1,6 +1,9 @@
 # Changes made to the [SVWD scripts](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/README.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/changelog_svwd01.md) for the example display style here.
 
+## 17/05/2026
+Added a lua style processor "svwd_process_style.lua" that can process MapLibre style files to create others, based on the content of each layer.
+
 ## 18/04/2026
 Added a map style "svwd10" - the same as "svwd01", but showing only railways and places
 

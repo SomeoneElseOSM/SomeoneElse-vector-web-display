@@ -8088,7 +8088,7 @@
 		"line-color": "#999999",
 		"line-width": {
 		    "stops": [
-			[ 12,  1.2 ],
+			[ 10,  1.2 ],
 			[ 14,  1.8 ],
 			[ 16,  2.4 ],
 			[ 17,  3.6 ],
@@ -9188,7 +9188,7 @@
 	    }
 	},
 	{
-	    "id": "railway-tram-backgroundfill-12",
+	    "id": "railway-tram-backgroundfill-12-s01",
 	    "type": "line",
 	    "source": "someoneelse",
             "target": "svwd01",
@@ -9219,7 +9219,7 @@
 	    }
 	},
 	{
-	    "id": "railway-tram-foregroundfill-12",
+	    "id": "railway-tram-foregroundfill-12-s01",
 	    "type": "line",
 	    "source": "someoneelse",
             "target": "svwd01",
@@ -11536,7 +11536,7 @@
 		"line-color": "#999999",
 		"line-width": {
 		    "stops": [
-			[ 12,  1.2 ],
+			[ 10,  1.2 ],
 			[ 14,  1.8 ],
 			[ 16,  2.4 ],
 			[ 17,  3.6 ],
@@ -11547,7 +11547,7 @@
 	    }
 	},
 	{
-	    "id": "railway-tram-bridgebackgroundfill-12",
+	    "id": "railway-tram-bridgebackgroundfill-12-s01",
 	    "type": "line",
 	    "source": "someoneelse",
             "target": "svwd01",
@@ -11577,7 +11577,7 @@
 	    }
 	},
 	{
-	    "id": "railway-tram-bridgeforegroundfill-12",
+	    "id": "railway-tram-bridgeforegroundfill-12-s01",
 	    "type": "line",
 	    "source": "someoneelse",
             "target": "svwd01",

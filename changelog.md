@@ -3,6 +3,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 
 ## 17/05/2026
 Added a lua style processor "svwd_process_style.lua" that can process MapLibre style files to create others, based on the content of each layer.
+Updated the readme.
 
 ## 18/04/2026
 Added a map style "svwd10" - the same as "svwd01", but showing only railways and places

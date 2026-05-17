@@ -10312,7 +10312,7 @@
 		"line-color": "#999999",
 		"line-width": {
 		    "stops": [
-			[ 12,  1.2 ],
+			[ 10,  1.2 ],
 			[ 14,  1.8 ],
 			[ 16,  2.4 ],
 			[ 17,  3.6 ],
@@ -11873,7 +11873,7 @@
 		    "stops": [
 			[  6,  0.7 ],
 			[  9,  2.0 ],
-			[ 20, 42.0 ]
+			[ 20, 64.0 ]
 		    ]
 		}
 	    }
@@ -11929,7 +11929,7 @@
 	    "source": "someoneelse",
 	    "source-layer": "transportation",
 	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "class", "unpaved", "gooducrwide", "gooducrnarrow",
+	    "filter": [ "all", [ "in", "class", "unpaved", "gooducrwide", "gooducrnarrow", 
                                                 "ucrwide", "ucrnarrow",
                                                 "goodboatwide", "goodboatnarrow", 
                                                 "boatwide", "boatnarrow", 

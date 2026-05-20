@@ -19040,7 +19040,8 @@
                                                 "amenity_playground_springy",
                                                 "amenity_playground_zipwire",
                                                 "amenity_playground_seesaw",
-                                                "amenity_playground_roundabout" ] ],
+                                                "amenity_playground_roundabout",
+                                                "amenity_playground_balancebeam" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"icon-size": { "stops": [ [ 17, 0.5 ], 

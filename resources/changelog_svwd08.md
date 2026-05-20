@@ -1,5 +1,8 @@
 # Changes made to the [SVWD08 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd08.md).  
 
+## As yet unreleased
+Show playground balance beams.
+
 ## 17/05/2026
 Reduce the size of bus stop text at vector zoom 15.
 Reduce the size of `natural=water` text at higher vector zooms.

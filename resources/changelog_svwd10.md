@@ -1,6 +1,9 @@
 # Changes made to the [SVWD10 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd10.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
+## 23/05/2026
+Fixed bug where bus guideway bridge edges were included in svwd10 (railways only) in error.
+
 ## 17/05/2026
 Now generated from svwd00_style.json
 

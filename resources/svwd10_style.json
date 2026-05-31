@@ -1,66 +1,56 @@
 {
-  "sprite":"SPRITE_URL",
-  "metadata":{
-  },
-  "center":[-1,54],
-  "id":"SPEC_NAME",
+  "version":8,
+  "bearing":0,
   "layers":[{
       "paint":{
         "background-color":"#f2efe9"
       },
-      "id":"background",
-      "type":"background"
+      "type":"background",
+      "id":"background"
     },{
+      "source-layer":"water",
+      "source":"someoneelse",
       "id":"water-ocean",
       "paint":{
         "fill-color":"#b5d0d0"
       },
-      "source":"someoneelse",
-      "source-layer":"water",
       "type":"fill"
     },{
-      "filter":["all",["in","class","landuse_railway"]],
-      "id":"land1-railway-fill-9-13",
-      "paint":{
-        "fill-color":"#ebdbe8",
-        "fill-antialias":true
-      },
-      "source":"someoneelse",
-      "target":"svwd01,svwd08,svwd10",
       "source-layer":"land1",
+      "source":"someoneelse",
+      "id":"land1-railway-fill-9-13",
+      "target":"svwd01,svwd08,svwd10",
+      "filter":["all",["in","class","landuse_railway"]],
+      "paint":{
+        "fill-antialias":true,
+        "fill-color":"#ebdbe8"
+      },
       "type":"fill"
     },{
-      "filter":["all",["in","class","ditch","intditch"],["==","tunnel",true]],
-      "target":"svwd01,svwd08,svwd10",
       "source-layer":"waterway",
-      "type":"line",
       "source":"someoneelse",
-      "layout":{
-        "visibility":"visible",
-        "line-cap":"butt",
-        "line-join":"round"
-      },
+      "type":"line",
       "paint":{
-        "line-dasharray":[0.3,0.15],
         "line-width":{
           "base":1.0,
           "stops":[[13,1.4],[14,1.4],[16,2.8],[18,4.2],[20,14.0],[22,92.0],[24,182.0]]
         },
+        "line-dasharray":[0.3,0.15],
         "line-color":"#b5d0d0"
       },
-      "minzoom":13,
-      "id":"waterway-ditch-tunnelcasing-13"
-    },{
-      "filter":["all",["in","class","ditch","intditch"],["==","tunnel",true]],
+      "id":"waterway-ditch-tunnelcasing-13",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"waterway",
-      "type":"line",
-      "source":"someoneelse",
+      "filter":["all",["in","class","ditch","intditch"],["==","tunnel",true]],
       "layout":{
-        "visibility":"visible",
-        "line-cap":"square",
-        "line-join":"round"
+        "line-cap":"butt",
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":13
+    },{
+      "source-layer":"waterway",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
         "line-width":{
           "base":1.0,
@@ -68,40 +58,40 @@
         },
         "line-color":"#f3f7f7"
       },
-      "minzoom":13,
-      "id":"waterway-ditch-tunnelfill-13"
-    },{
-      "filter":["all",["in","class","stream","intstream","drain","intdrain"],["==","tunnel",true]],
+      "id":"waterway-ditch-tunnelfill-13",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"waterway",
-      "type":"line",
-      "source":"someoneelse",
+      "filter":["all",["in","class","ditch","intditch"],["==","tunnel",true]],
       "layout":{
-        "visibility":"visible",
-        "line-cap":"butt",
-        "line-join":"round"
+        "line-cap":"square",
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":13
+    },{
+      "source-layer":"waterway",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
-        "line-dasharray":[0.3,0.15],
         "line-width":{
           "base":1.0,
           "stops":[[12,1.4],[14,2.2],[16,4.4],[18,10.0],[20,21.0],[22,70.0],[24,280.0]]
         },
+        "line-dasharray":[0.3,0.15],
         "line-color":"#b5d0d0"
       },
-      "minzoom":12,
-      "id":"waterway-stream-tunnelcasing-12"
-    },{
-      "filter":["all",["in","class","stream","intstream","drain","intdrain"],["==","tunnel",true]],
+      "id":"waterway-stream-tunnelcasing-12",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"waterway",
-      "type":"line",
-      "source":"someoneelse",
+      "filter":["all",["in","class","stream","intstream","drain","intdrain"],["==","tunnel",true]],
       "layout":{
-        "visibility":"visible",
-        "line-cap":"square",
-        "line-join":"round"
+        "line-cap":"butt",
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":12
+    },{
+      "source-layer":"waterway",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
         "line-width":{
           "base":1.0,
@@ -109,40 +99,40 @@
         },
         "line-color":"#f3f7f7"
       },
-      "minzoom":12,
-      "id":"waterway-stream-tunnelfill-12"
-    },{
-      "filter":["all",["in","class","river","canal"],["==","tunnel",true]],
+      "id":"waterway-stream-tunnelfill-12",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"waterway",
-      "type":"line",
-      "source":"someoneelse",
+      "filter":["all",["in","class","stream","intstream","drain","intdrain"],["==","tunnel",true]],
       "layout":{
-        "visibility":"visible",
-        "line-cap":"butt",
-        "line-join":"round"
+        "line-cap":"square",
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":12
+    },{
+      "source-layer":"waterway",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
-        "line-dasharray":[0.1,0.05],
         "line-width":{
           "base":2.0,
           "stops":[[11,2.8],[20,144.0]]
         },
+        "line-dasharray":[0.1,0.05],
         "line-color":"#b5d0d0"
       },
-      "minzoom":11,
-      "id":"waterway-river-tunnelcasing-11"
-    },{
-      "filter":["all",["in","class","river","canal"],["==","tunnel",true]],
+      "id":"waterway-river-tunnelcasing-11",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"waterway",
-      "type":"line",
-      "source":"someoneelse",
+      "filter":["all",["in","class","river","canal"],["==","tunnel",true]],
       "layout":{
-        "visibility":"visible",
-        "line-cap":"square",
-        "line-join":"round"
+        "line-cap":"butt",
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":11
+    },{
+      "source-layer":"waterway",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
         "line-width":{
           "base":2.0,
@@ -150,40 +140,40 @@
         },
         "line-color":"#f3f7f7"
       },
-      "minzoom":11,
-      "id":"waterway-river-tunnelfill-11"
-    },{
-      "filter":["all",["in","class","derelict_canal"],["==","tunnel",true]],
+      "id":"waterway-river-tunnelfill-11",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"waterway",
-      "type":"line",
-      "source":"someoneelse",
+      "filter":["all",["in","class","river","canal"],["==","tunnel",true]],
       "layout":{
-        "visibility":"visible",
-        "line-cap":"butt",
-        "line-join":"round"
+        "line-cap":"square",
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":11
+    },{
+      "source-layer":"waterway",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
-        "line-dasharray":[0.1,0.05],
         "line-width":{
           "base":2.0,
           "stops":[[11,2.8],[20,72.0]]
         },
+        "line-dasharray":[0.1,0.05],
         "line-color":"#b5d0d0"
       },
-      "minzoom":11,
-      "id":"waterway-derelict_canal-tunnelcasing-11"
-    },{
-      "filter":["all",["in","class","derelict_canal"],["==","tunnel",true]],
+      "id":"waterway-derelict_canal-tunnelcasing-11",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"waterway",
-      "type":"line",
-      "source":"someoneelse",
+      "filter":["all",["in","class","derelict_canal"],["==","tunnel",true]],
       "layout":{
-        "visibility":"visible",
-        "line-cap":"square",
-        "line-join":"round"
+        "line-cap":"butt",
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":11
+    },{
+      "source-layer":"waterway",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
         "line-width":{
           "base":2.0,
@@ -191,61 +181,61 @@
         },
         "line-color":"#f2efe9"
       },
-      "minzoom":11,
-      "id":"waterway-derelict_canal-tunnelprefill-11"
-    },{
-      "filter":["all",["in","class","derelict_canal"],["==","tunnel",true]],
+      "id":"waterway-derelict_canal-tunnelprefill-11",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"waterway",
-      "type":"line",
-      "source":"someoneelse",
+      "filter":["all",["in","class","derelict_canal"],["==","tunnel",true]],
       "layout":{
-        "visibility":"visible",
         "line-cap":"square",
-        "line-join":"round"
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":11
+    },{
+      "source-layer":"waterway",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
-        "line-dasharray":[2.0,1.0],
         "line-width":{
           "base":2.0,
           "stops":[[11,2.0],[20,48.0]]
         },
+        "line-dasharray":[2.0,1.0],
         "line-color":"#b5e4d0"
       },
-      "minzoom":11,
-      "id":"waterway-derelict_canal-tunnelfill-11"
-    },{
-      "filter":["all",["in","class","intriver"],["==","tunnel",true]],
+      "id":"waterway-derelict_canal-tunnelfill-11",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"waterway",
-      "type":"line",
-      "source":"someoneelse",
+      "filter":["all",["in","class","derelict_canal"],["==","tunnel",true]],
       "layout":{
-        "visibility":"visible",
-        "line-cap":"butt",
-        "line-join":"round"
+        "line-cap":"square",
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":11
+    },{
+      "source-layer":"waterway",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
-        "line-dasharray":[0.1,0.05],
         "line-width":{
           "base":2.0,
           "stops":[[11,2.8],[20,144.0]]
         },
+        "line-dasharray":[0.1,0.05],
         "line-color":"#b5d0d0"
       },
-      "minzoom":11,
-      "id":"waterway-intriver-tunnelcasing-11"
-    },{
-      "filter":["all",["in","class","intriver"],["==","tunnel",true]],
+      "id":"waterway-intriver-tunnelcasing-11",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"waterway",
-      "type":"line",
-      "source":"someoneelse",
+      "filter":["all",["in","class","intriver"],["==","tunnel",true]],
       "layout":{
-        "visibility":"visible",
-        "line-cap":"square",
-        "line-join":"round"
+        "line-cap":"butt",
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":11
+    },{
+      "source-layer":"waterway",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
         "line-width":{
           "base":2.0,
@@ -253,12 +243,17 @@
         },
         "line-color":"#f3f7f7"
       },
-      "minzoom":11,
-      "id":"waterway-intriver-tunnelfill-11"
+      "id":"waterway-intriver-tunnelfill-11",
+      "target":"svwd01,svwd08,svwd10",
+      "filter":["all",["in","class","intriver"],["==","tunnel",true]],
+      "layout":{
+        "line-cap":"square",
+        "line-join":"round",
+        "visibility":"visible"
+      },
+      "minzoom":11
     },{
-      "minzoom":15,
-      "filter":["all",["in","class","landuse_railway"]],
-      "id":"land1-railway-outline-15-s10",
+      "source-layer":"land1",
       "paint":{
         "line-width":{
           "base":0.6,
@@ -267,13 +262,13 @@
         "line-color":"#c6b3c3"
       },
       "source":"someoneelse",
+      "id":"land1-railway-outline-15-s10",
       "target":"svwd10",
-      "source-layer":"land1",
+      "minzoom":15,
+      "filter":["all",["in","class","landuse_railway"]],
       "type":"line"
     },{
-      "minzoom":15,
-      "filter":["all",["in","class","railway_turntable"]],
-      "id":"land1-turntable-outline-15",
+      "source-layer":"land1",
       "paint":{
         "line-width":{
           "base":2.4,
@@ -282,25 +277,25 @@
         "line-color":"#999"
       },
       "source":"someoneelse",
+      "id":"land1-turntable-outline-15",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"land1",
+      "minzoom":15,
+      "filter":["all",["in","class","railway_turntable"]],
       "type":"line"
     },{
-      "minzoom":15,
-      "filter":["all",["in","class","railway_platform"]],
-      "id":"land1-platform-fill-15-s10",
+      "source-layer":"land1",
       "paint":{
-        "fill-color":"#ededed",
-        "fill-antialias":true
+        "fill-antialias":true,
+        "fill-color":"#ededed"
       },
       "source":"someoneelse",
+      "id":"land1-platform-fill-15-s10",
       "target":"svwd10",
-      "source-layer":"land1",
-      "type":"fill"
-    },{
       "minzoom":15,
       "filter":["all",["in","class","railway_platform"]],
-      "id":"land1-platform-outline-15-s10",
+      "type":"fill"
+    },{
+      "source-layer":"land1",
       "paint":{
         "line-width":{
           "base":0.6,
@@ -309,35 +304,35 @@
         "line-color":"grey"
       },
       "source":"someoneelse",
+      "id":"land1-platform-outline-15-s10",
       "target":"svwd10",
-      "source-layer":"land1",
+      "minzoom":15,
+      "filter":["all",["in","class","railway_platform"]],
       "type":"line"
     },{
-      "filter":["all",["in","class","natural_water"],["!=","tunnel",true]],
-      "id":"land1-water-fill-5-14",
-      "paint":{
-        "fill-color":"#b5d0d0",
-        "fill-antialias":true
-      },
-      "source":"someoneelse",
-      "target":"svwd01,svwd08,svwd10",
       "source-layer":"land1",
+      "source":"someoneelse",
+      "id":"land1-water-fill-5-14",
+      "target":"svwd01,svwd08,svwd10",
+      "filter":["all",["in","class","natural_water"],["!=","tunnel",true]],
+      "paint":{
+        "fill-antialias":true,
+        "fill-color":"#b5d0d0"
+      },
       "type":"fill"
     },{
-      "minzoom":9,
-      "filter":["all",["in","class","natural_intermittentwater"]],
-      "id":"land1-intermittentwater-fill-9",
+      "source-layer":"land1",
       "paint":{
         "fill-pattern":"pattern_natural_intermittentwater"
       },
       "source":"someoneelse",
+      "id":"land1-intermittentwater-fill-9",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"land1",
-      "type":"fill"
-    },{
       "minzoom":9,
       "filter":["all",["in","class","natural_intermittentwater"]],
-      "id":"land1-intermittentwater-outline",
+      "type":"fill"
+    },{
+      "source-layer":"land1",
       "paint":{
         "line-width":{
           "base":0.6,
@@ -346,24 +341,24 @@
         "line-color":"#b5d0d0"
       },
       "source":"someoneelse",
+      "id":"land1-intermittentwater-outline",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"land1",
+      "minzoom":9,
+      "filter":["all",["in","class","natural_intermittentwater"]],
       "type":"line"
     },{
-      "minzoom":9,
-      "filter":["all",["in","class","natural_flood_prone"]],
-      "id":"land2-flood_prone-fill-9",
+      "source-layer":"land2",
       "paint":{
         "fill-pattern":"pattern_natural_flood_prone"
       },
       "source":"someoneelse",
+      "id":"land2-flood_prone-fill-9",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"land2",
-      "type":"fill"
-    },{
       "minzoom":9,
       "filter":["all",["in","class","natural_flood_prone"]],
-      "id":"land2-flood_prone-outline",
+      "type":"fill"
+    },{
+      "source-layer":"land2",
       "paint":{
         "line-width":{
           "base":0.6,
@@ -372,12 +367,17 @@
         "line-color":"#b5d0d0"
       },
       "source":"someoneelse",
+      "id":"land2-flood_prone-outline",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"land2",
+      "minzoom":9,
+      "filter":["all",["in","class","natural_flood_prone"]],
       "type":"line"
     },{
-      "filter":["all",["in","class","river","canal"],["!=","bridge","yes"],["!=","tunnel",true]],
+      "source-layer":"waterway",
+      "source":"someoneelse",
       "id":"waterway-river-otherfill",
+      "target":"svwd01,svwd08,svwd10",
+      "filter":["all",["in","class","river","canal"],["!=","bridge","yes"],["!=","tunnel",true]],
       "paint":{
         "line-width":{
           "base":2.0,
@@ -385,113 +385,108 @@
         },
         "line-color":"#b5d0d0"
       },
-      "source":"someoneelse",
-      "target":"svwd01,svwd08,svwd10",
-      "source-layer":"waterway",
       "type":"line"
     },{
-      "minzoom":11,
-      "filter":["all",["in","class","derelict_canal"],["!=","bridge","yes"],["!=","tunnel",true]],
-      "id":"waterway-derelict_canal-otherfill-11",
+      "source-layer":"waterway",
       "paint":{
-        "line-dasharray":[2.0,1.0],
         "line-width":{
           "base":2.0,
           "stops":[[11,2.0],[20,48.0]]
         },
+        "line-dasharray":[2.0,1.0],
         "line-color":"#b5e4d0"
       },
       "source":"someoneelse",
+      "id":"waterway-derelict_canal-otherfill-11",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"waterway",
+      "minzoom":11,
+      "filter":["all",["in","class","derelict_canal"],["!=","bridge","yes"],["!=","tunnel",true]],
       "type":"line"
     },{
-      "filter":["all",["in","class","intriver"],["!=","bridge","yes"],["!=","tunnel",true]],
-      "target":"svwd01,svwd08,svwd10",
       "source-layer":"waterway",
-      "type":"line",
       "source":"someoneelse",
-      "layout":{
-        "visibility":"visible",
-        "line-cap":"square",
-        "line-join":"round"
-      },
+      "type":"line",
       "paint":{
-        "line-dasharray":[1.0,0.5],
         "line-width":{
           "base":2.0,
           "stops":[[12,2.0],[20,96.0]]
         },
+        "line-dasharray":[1.0,0.5],
         "line-color":"#b5d0d0"
       },
-      "minzoom":12,
-      "id":"waterway-intriver-otherfill-12"
+      "id":"waterway-intriver-otherfill-12",
+      "target":"svwd01,svwd08,svwd10",
+      "filter":["all",["in","class","intriver"],["!=","bridge","yes"],["!=","tunnel",true]],
+      "layout":{
+        "line-cap":"square",
+        "line-join":"round",
+        "visibility":"visible"
+      },
+      "minzoom":12
     },{
+      "source-layer":"waterway",
+      "paint":{
+        "line-width":{
+          "base":1.0,
+          "stops":[[12,1.0],[14,1.5],[16,3.0],[18,7.0],[20,15.0],[22,50.0],[24,200.0]]
+        },
+        "line-color":"#b5d0d0"
+      },
+      "source":"someoneelse",
+      "id":"waterway-stream-otherfill-12",
+      "target":"svwd01,svwd08,svwd10",
       "minzoom":12,
       "filter":["all",["in","class","stream","drain"],["!=","bridge","yes"],["!=","tunnel",true]],
-      "id":"waterway-stream-otherfill-12",
+      "type":"line"
+    },{
+      "source-layer":"waterway",
       "paint":{
         "line-width":{
           "base":1.0,
           "stops":[[12,1.0],[14,1.5],[16,3.0],[18,7.0],[20,15.0],[22,50.0],[24,200.0]]
         },
+        "line-dasharray":[1.5,0.75],
         "line-color":"#b5d0d0"
       },
       "source":"someoneelse",
+      "id":"waterway-intstream-otherfill-12",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"waterway",
-      "type":"line"
-    },{
       "minzoom":12,
       "filter":["all",["in","class","intstream","intdrain"],["!=","bridge","yes"],["!=","tunnel",true]],
-      "id":"waterway-intstream-otherfill-12",
+      "type":"line"
+    },{
+      "source-layer":"waterway",
       "paint":{
-        "line-dasharray":[1.5,0.75],
         "line-width":{
           "base":1.0,
-          "stops":[[12,1.0],[14,1.5],[16,3.0],[18,7.0],[20,15.0],[22,50.0],[24,200.0]]
+          "stops":[[13,1.0],[14,1.0],[16,2.0],[18,2.3],[20,10.0],[22,67.0],[24,133.0]]
         },
         "line-color":"#b5d0d0"
       },
       "source":"someoneelse",
+      "id":"waterway-ditch-otherfill-13",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"waterway",
-      "type":"line"
-    },{
       "minzoom":13,
       "filter":["all",["in","class","ditch"],["!=","bridge","yes"],["!=","tunnel",true]],
-      "id":"waterway-ditch-otherfill-13",
+      "type":"line"
+    },{
+      "source-layer":"waterway",
       "paint":{
         "line-width":{
           "base":1.0,
           "stops":[[13,1.0],[14,1.0],[16,2.0],[18,2.3],[20,10.0],[22,67.0],[24,133.0]]
         },
+        "line-dasharray":[1.5,0.75],
         "line-color":"#b5d0d0"
       },
       "source":"someoneelse",
+      "id":"waterway-intditch-otherfill-13",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"waterway",
-      "type":"line"
-    },{
       "minzoom":13,
       "filter":["all",["in","class","intditch"],["!=","bridge","yes"],["!=","tunnel",true]],
-      "id":"waterway-intditch-otherfill-13",
-      "paint":{
-        "line-dasharray":[1.5,0.75],
-        "line-width":{
-          "base":1.0,
-          "stops":[[13,1.0],[14,1.0],[16,2.0],[18,2.3],[20,10.0],[22,67.0],[24,133.0]]
-        },
-        "line-color":"#b5d0d0"
-      },
-      "source":"someoneelse",
-      "target":"svwd01,svwd08,svwd10",
-      "source-layer":"waterway",
       "type":"line"
     },{
-      "minzoom":14,
-      "filter":["in","class","weir"],
-      "id":"waterway-weir-14",
+      "source-layer":"waterway",
       "paint":{
         "line-width":{
           "base":0.6,
@@ -500,250 +495,250 @@
         "line-color":"#aaa"
       },
       "source":"someoneelse",
+      "id":"waterway-weir-14",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"waterway",
+      "minzoom":14,
+      "filter":["in","class","weir"],
       "type":"line"
     },{
-      "filter":["in","class","rail","railminor","disused","abandoned","dismantled","funicular","miniature","monorail","narrow_gauge","preserved","light_rail","subway","tram","slipway"],
-      "target":"svwd01,svwd08,svwd10",
       "source-layer":"transportation",
-      "type":"symbol",
       "source":"someoneelse",
+      "type":"symbol",
+      "minzoom":12,
       "layout":{
-        "text-font":["KlokanTech Noto Sans Regular"],
         "text-field":"{name}",
+        "symbol-spacing":1200,
         "text-size":{
           "stops":[[12,10],[20,30]]
         },
-        "text-offset":[0,1],
         "symbol-placement":"line",
-        "symbol-spacing":1200
+        "text-offset":[0,1],
+        "text-font":["KlokanTech Noto Sans Regular"]
       },
-      "minzoom":12,
+      "target":"svwd01,svwd08,svwd10",
+      "filter":["in","class","rail","railminor","disused","abandoned","dismantled","funicular","miniature","monorail","narrow_gauge","preserved","light_rail","subway","tram","slipway"],
       "paint":{
-        "text-halo-blur":1,
         "text-color":"#999999",
+        "text-halo-blur":1,
         "text-halo-color":"rgba(255, 255, 255, 0.8)",
         "text-halo-width":2
       },
       "id":"label-rail-offset-12"
     },{
-      "filter":["all",["in","class","rail","railminor","disused","funicular","preserved","light_rail","subway","tram"],["==","tunnel",true]],
-      "target":"svwd10",
       "source-layer":"transportation",
-      "type":"line",
       "source":"someoneelse",
-      "layout":{
-        "visibility":"visible",
-        "line-cap":"round",
-        "line-join":"round"
-      },
+      "type":"line",
       "paint":{
+        "line-width":{
+          "stops":[[13,0.4],[14,1.2],[16,2.4],[17,4.8],[18,9.6],[20,16.0]]
+        },
         "line-dasharray":[2.0,3.0],
+        "line-color":"#999999"
+      },
+      "id":"railway-rail-tunnellightfill-9-s10",
+      "target":"svwd10",
+      "filter":["all",["in","class","rail","railminor","disused","funicular","preserved","light_rail","subway","tram"],["==","tunnel",true]],
+      "layout":{
+        "line-cap":"round",
+        "line-join":"round",
+        "visibility":"visible"
+      },
+      "minzoom":9
+    },{
+      "source-layer":"transportation",
+      "source":"someoneelse",
+      "type":"line",
+      "paint":{
         "line-width":{
           "stops":[[13,0.4],[14,1.2],[16,2.4],[17,4.8],[18,9.6],[20,16.0]]
         },
-        "line-color":"#999999"
-      },
-      "minzoom":9,
-      "id":"railway-rail-tunnellightfill-9-s10"
-    },{
-      "filter":["all",["in","class","abandoned"],["==","tunnel",true]],
-      "target":"svwd01,svwd08,svwd10",
-      "source-layer":"transportation",
-      "type":"line",
-      "source":"someoneelse",
-      "layout":{
-        "visibility":"visible",
-        "line-cap":"round",
-        "line-join":"round"
-      },
-      "paint":{
         "line-dasharray":[2.0,4.5],
-        "line-width":{
-          "stops":[[13,0.4],[14,1.2],[16,2.4],[17,4.8],[18,9.6],[20,16.0]]
-        },
         "line-color":"#999999"
       },
-      "minzoom":12,
-      "id":"railway-abandoned-tunnellightfill-12"
-    },{
-      "filter":["all",["in","class","dismantled"],["==","tunnel",true]],
+      "id":"railway-abandoned-tunnellightfill-12",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"transportation",
-      "type":"line",
-      "source":"someoneelse",
+      "filter":["all",["in","class","abandoned"],["==","tunnel",true]],
       "layout":{
-        "visibility":"visible",
         "line-cap":"round",
-        "line-join":"round"
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":12
+    },{
+      "source-layer":"transportation",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
-        "line-dasharray":[2.0,6.0],
         "line-width":{
           "stops":[[13,0.4],[14,1.2],[16,2.4],[17,4.8],[18,9.6],[20,16.0]]
         },
+        "line-dasharray":[2.0,6.0],
         "line-color":"#999999"
       },
-      "minzoom":12,
-      "id":"railway-dismantled-tunnellightfill-12"
-    },{
-      "filter":["all",["in","class","disused","abandoned","dismantled"],["!=","bridge","yes"],["!=","tunnel",true]],
+      "id":"railway-dismantled-tunnellightfill-12",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"transportation",
-      "type":"line",
-      "source":"someoneelse",
+      "filter":["all",["in","class","dismantled"],["==","tunnel",true]],
       "layout":{
-        "visibility":"visible",
         "line-cap":"round",
-        "line-join":"round"
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":12
+    },{
+      "source-layer":"transportation",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
         "line-width":{
           "stops":[[13,0.6],[14,1.8],[16,3.6],[17,7.2],[18,14.4],[20,24.0]]
         },
         "line-color":"#d1cfcf"
       },
-      "minzoom":12,
-      "id":"railway-disused-darkfill-12"
-    },{
-      "filter":["all",["in","class","dismantled"],["!=","bridge","yes"],["!=","tunnel",true]],
+      "id":"railway-disused-darkfill-12",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"transportation",
-      "type":"line",
-      "source":"someoneelse",
+      "filter":["all",["in","class","disused","abandoned","dismantled"],["!=","bridge","yes"],["!=","tunnel",true]],
       "layout":{
-        "visibility":"visible",
         "line-cap":"round",
-        "line-join":"round"
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":12
+    },{
+      "source-layer":"transportation",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
+        "line-width":{
+          "stops":[[13,0.4],[14,1.2],[16,2.4],[17,4.8],[18,9.6],[20,16.0]]
+        },
         "line-dasharray":[12.0,4.0],
+        "line-color":"#f2eaea"
+      },
+      "id":"railway-dismantled-lightfill-12",
+      "target":"svwd01,svwd08,svwd10",
+      "filter":["all",["in","class","dismantled"],["!=","bridge","yes"],["!=","tunnel",true]],
+      "layout":{
+        "line-cap":"round",
+        "line-join":"round",
+        "visibility":"visible"
+      },
+      "minzoom":12
+    },{
+      "source-layer":"transportation",
+      "source":"someoneelse",
+      "type":"line",
+      "paint":{
         "line-width":{
           "stops":[[13,0.4],[14,1.2],[16,2.4],[17,4.8],[18,9.6],[20,16.0]]
         },
-        "line-color":"#f2eaea"
-      },
-      "minzoom":12,
-      "id":"railway-dismantled-lightfill-12"
-    },{
-      "filter":["all",["in","class","abandoned"],["!=","bridge","yes"],["!=","tunnel",true]],
-      "target":"svwd01,svwd08,svwd10",
-      "source-layer":"transportation",
-      "type":"line",
-      "source":"someoneelse",
-      "layout":{
-        "visibility":"visible",
-        "line-cap":"round",
-        "line-join":"round"
-      },
-      "paint":{
         "line-dasharray":[9.0,4.0],
-        "line-width":{
-          "stops":[[13,0.4],[14,1.2],[16,2.4],[17,4.8],[18,9.6],[20,16.0]]
-        },
         "line-color":"#f2eaea"
       },
-      "minzoom":12,
-      "id":"railway-abandoned-lightfill-12"
-    },{
-      "filter":["all",["in","class","disused"],["!=","bridge","yes"],["!=","tunnel",true]],
+      "id":"railway-abandoned-lightfill-12",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"transportation",
-      "type":"line",
-      "source":"someoneelse",
+      "filter":["all",["in","class","abandoned"],["!=","bridge","yes"],["!=","tunnel",true]],
       "layout":{
-        "visibility":"visible",
         "line-cap":"round",
-        "line-join":"round"
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":12
+    },{
+      "source-layer":"transportation",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
-        "line-dasharray":[6.0,4.0],
         "line-width":{
           "stops":[[13,0.4],[14,1.2],[16,2.4],[17,4.8],[18,9.6],[20,16.0]]
         },
+        "line-dasharray":[6.0,4.0],
         "line-color":"#f2eaea"
       },
-      "minzoom":12,
-      "id":"railway-disused-lightfill-12"
-    },{
-      "filter":["all",["in","class","rail","railminor","disused","abandoned","dismantled","funicular","preserved","light_rail","subway","tram"],["==","bridge","levee"]],
-      "target":"svwd10",
-      "source-layer":"transportation",
-      "type":"line",
-      "source":"someoneelse",
+      "id":"railway-disused-lightfill-12",
+      "target":"svwd01,svwd08,svwd10",
+      "filter":["all",["in","class","disused"],["!=","bridge","yes"],["!=","tunnel",true]],
       "layout":{
-        "visibility":"visible",
-        "line-cap":"butt",
-        "line-join":"round"
+        "line-cap":"round",
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":12
+    },{
+      "source-layer":"transportation",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
         "line-width":{
           "stops":[[13,5.4],[14,7.2],[16,10.8],[17,21.6],[18,43.2],[20,72.0]]
         },
         "line-color":"#999999"
       },
-      "minzoom":12,
-      "id":"railway-rail-leveecasing-12-s10"
-    },{
-      "filter":["all",["in","class","rail","railminor","disused","abandoned","dismantled","funicular","preserved","light_rail","subway","tram"],["==","bridge","levee"]],
+      "id":"railway-rail-leveecasing-12-s10",
       "target":"svwd10",
-      "source-layer":"transportation",
-      "type":"line",
-      "source":"someoneelse",
+      "filter":["all",["in","class","rail","railminor","disused","abandoned","dismantled","funicular","preserved","light_rail","subway","tram"],["==","bridge","levee"]],
       "layout":{
-        "visibility":"visible",
         "line-cap":"butt",
-        "line-join":"round"
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":12
+    },{
+      "source-layer":"transportation",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
         "line-width":{
           "stops":[[13,3.6],[14,4.8],[16,7.2],[17,14.4],[18,28.8],[20,48.0]]
         },
         "line-color":"#f2efe9"
       },
-      "minzoom":12,
-      "id":"railway-rail-leveeprefill-12-s10"
-    },{
-      "filter":["in","class","waterway_dam","natural_cliff"],
-      "target":"svwd01,svwd08,svwd10",
-      "source-layer":"linearbarrier",
-      "type":"symbol",
-      "source":"someoneelse",
+      "id":"railway-rail-leveeprefill-12-s10",
+      "target":"svwd10",
+      "filter":["all",["in","class","rail","railminor","disused","abandoned","dismantled","funicular","preserved","light_rail","subway","tram"],["==","bridge","levee"]],
       "layout":{
-        "text-font":["KlokanTech Noto Sans Regular"],
+        "line-cap":"butt",
+        "line-join":"round",
+        "visibility":"visible"
+      },
+      "minzoom":12
+    },{
+      "source-layer":"linearbarrier",
+      "source":"someoneelse",
+      "type":"symbol",
+      "minzoom":12,
+      "layout":{
         "text-field":"{name}",
-        "text-anchor":"bottom",
-        "symbol-placement":"line",
         "text-size":{
           "stops":[[12,10],[20,30]]
-        }
+        },
+        "symbol-placement":"line",
+        "text-anchor":"bottom",
+        "text-font":["KlokanTech Noto Sans Regular"]
       },
-      "minzoom":12,
+      "target":"svwd01,svwd08,svwd10",
+      "filter":["in","class","waterway_dam","natural_cliff"],
       "paint":{
-        "text-halo-blur":1,
         "text-color":"#333344",
+        "text-halo-blur":1,
         "text-halo-color":"rgba(255, 255, 255, 0.8)",
         "text-halo-width":2
       },
       "id":"label-linear-bottom-12"
     },{
-      "minzoom":10,
-      "filter":["all",["in","class","waterway_damarea","waterway_waterfall","waterway_weir","waterway_floating_barrier"]],
-      "id":"land1-damarea-fill-10",
+      "source-layer":"land1",
       "paint":{
-        "fill-antialias":true,
+        "fill-opacity":0.7,
         "fill-color":"#c2cfcf",
-        "fill-opacity":0.7
+        "fill-antialias":true
       },
       "source":"someoneelse",
+      "id":"land1-damarea-fill-10",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"land1",
+      "minzoom":10,
+      "filter":["all",["in","class","waterway_damarea","waterway_waterfall","waterway_weir","waterway_floating_barrier"]],
       "type":"fill"
     },{
-      "minzoom":14,
-      "filter":["in","class","waterway_waterfall","waterway_weir","waterway_floating_barrier"],
-      "id":"waterway-waterfall-14",
+      "source-layer":"linearbarrier",
       "paint":{
         "line-width":{
           "base":0.6,
@@ -752,350 +747,345 @@
         "line-color":"#aaa"
       },
       "source":"someoneelse",
+      "id":"waterway-waterfall-14",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"linearbarrier",
+      "minzoom":14,
+      "filter":["in","class","waterway_waterfall","waterway_weir","waterway_floating_barrier"],
       "type":"line"
     },{
-      "filter":["all",["in","class","narrow_gauge"],["!=","bridge","yes"],["!=","tunnel",true]],
-      "target":"svwd01,svwd08,svwd10",
       "source-layer":"transportation",
-      "type":"line",
       "source":"someoneelse",
-      "layout":{
-        "visibility":"visible",
-        "line-cap":"round",
-        "line-join":"round"
-      },
+      "type":"line",
       "paint":{
         "line-width":{
           "stops":[[10,1.2],[14,1.8],[16,2.4],[17,3.6],[18,7.2],[20,12.0]]
         },
         "line-color":"#999999"
       },
-      "minzoom":12,
-      "id":"railway-narrow_gauge-darkfill-12"
-    },{
-      "filter":["all",["in","class","miniature","slipway"],["!=","bridge","yes"],["!=","tunnel",true]],
+      "id":"railway-narrow_gauge-darkfill-12",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"transportation",
-      "type":"line",
-      "source":"someoneelse",
+      "filter":["all",["in","class","narrow_gauge"],["!=","bridge","yes"],["!=","tunnel",true]],
       "layout":{
-        "visibility":"visible",
         "line-cap":"round",
-        "line-join":"round"
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":12
+    },{
+      "source-layer":"transportation",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
         "line-width":{
           "stops":[[14,0.3],[16,0.6],[17,1.2],[18,2.4],[20,4.8]]
         },
         "line-color":"#999"
       },
-      "minzoom":14,
-      "id":"railway-miniature-darkfill-14"
-    },{
-      "filter":["all",["in","class","miniature","slipway"],["!=","bridge","yes"],["!=","tunnel",true]],
+      "id":"railway-miniature-darkfill-14",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"transportation",
-      "type":"line",
-      "source":"someoneelse",
+      "filter":["all",["in","class","miniature","slipway"],["!=","bridge","yes"],["!=","tunnel",true]],
       "layout":{
-        "visibility":"visible",
         "line-cap":"round",
-        "line-join":"round"
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":14
+    },{
+      "source-layer":"transportation",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
-        "line-dasharray":[0.4,12.0],
         "line-width":{
           "stops":[[14,0.6],[16,1.2],[17,2.4],[18,4.8],[20,9.6]]
         },
+        "line-dasharray":[0.4,12.0],
         "line-color":"#999"
       },
-      "minzoom":14,
-      "id":"railway-miniature-lightfill-14"
-    },{
-      "maxzoom":12,
-      "filter":["all",["in","class","rail","preserved"]],
-      "target":"svwd10",
-      "source-layer":"transportation",
-      "type":"line",
-      "source":"someoneelse",
+      "id":"railway-miniature-lightfill-14",
+      "target":"svwd01,svwd08,svwd10",
+      "filter":["all",["in","class","miniature","slipway"],["!=","bridge","yes"],["!=","tunnel",true]],
       "layout":{
-        "visibility":"visible",
         "line-cap":"round",
-        "line-join":"round"
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":14
+    },{
+      "source-layer":"transportation",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
         "line-width":{
           "stops":[[8,0.4],[11,0.8]]
         },
         "line-color":"#999999"
       },
+      "layout":{
+        "line-cap":"round",
+        "line-join":"round",
+        "visibility":"visible"
+      },
       "id":"railway-rail-darkfill-6-11-s10",
+      "target":"svwd10",
+      "maxzoom":12,
+      "filter":["all",["in","class","rail","preserved"]],
       "minzoom":6
     },{
-      "filter":["all",["in","class","rail"],["!=","bridge","yes"],["!=","tunnel",true]],
-      "target":"svwd01,svwd08,svwd10",
       "source-layer":"transportation",
-      "type":"line",
       "source":"someoneelse",
-      "layout":{
-        "visibility":"visible",
-        "line-cap":"round",
-        "line-join":"round"
-      },
+      "type":"line",
       "paint":{
         "line-width":{
           "stops":[[13,1.8],[14,2.4],[16,3.6],[17,7.2],[18,14.4],[20,24.0]]
         },
         "line-color":"#999999"
       },
-      "minzoom":12,
-      "id":"railway-rail-darkfill-12"
-    },{
-      "filter":["all",["in","class","railminor"],["!=","bridge","yes"],["!=","tunnel",true]],
+      "id":"railway-rail-darkfill-12",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"transportation",
-      "type":"line",
-      "source":"someoneelse",
+      "filter":["all",["in","class","rail"],["!=","bridge","yes"],["!=","tunnel",true]],
       "layout":{
-        "visibility":"visible",
         "line-cap":"round",
-        "line-join":"round"
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":12
+    },{
+      "source-layer":"transportation",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
         "line-width":{
           "stops":[[13,1.8],[14,2.4],[16,3.6],[17,7.2],[18,14.4],[20,24.0]]
         },
         "line-color":"#b9b7b7"
       },
-      "minzoom":12,
-      "id":"railway-railminor-darkfill-12"
-    },{
-      "filter":["all",["in","class","preserved"],["!=","bridge","yes"],["!=","tunnel",true]],
+      "id":"railway-railminor-darkfill-12",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"transportation",
-      "type":"line",
-      "source":"someoneelse",
+      "filter":["all",["in","class","railminor"],["!=","bridge","yes"],["!=","tunnel",true]],
       "layout":{
-        "visibility":"visible",
         "line-cap":"round",
-        "line-join":"round"
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":12
+    },{
+      "source-layer":"transportation",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
         "line-width":{
           "stops":[[13,0.6],[14,1.8],[16,3.6],[17,7.2],[18,14.4],[20,24.0]]
         },
         "line-color":"#999999"
       },
-      "minzoom":12,
-      "id":"railway-preserved-darkfill-12"
-    },{
-      "filter":["all",["in","class","platform"]],
+      "id":"railway-preserved-darkfill-12",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"transportation",
-      "type":"line",
-      "source":"someoneelse",
+      "filter":["all",["in","class","preserved"],["!=","bridge","yes"],["!=","tunnel",true]],
       "layout":{
-        "visibility":"visible",
         "line-cap":"round",
-        "line-join":"round"
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":12
+    },{
+      "source-layer":"transportation",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
         "line-width":{
           "stops":[[15,3.0],[17,6.0],[18,12.0],[19,33.0]]
         },
         "line-color":"grey"
       },
-      "minzoom":15,
-      "id":"railway-platform-casing-15"
-    },{
-      "filter":["all",["in","class","monorail"]],
+      "id":"railway-platform-casing-15",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"transportation",
-      "type":"line",
-      "source":"someoneelse",
+      "filter":["all",["in","class","platform"]],
       "layout":{
-        "visibility":"visible",
         "line-cap":"round",
-        "line-join":"round"
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":15
+    },{
+      "source-layer":"transportation",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
-        "line-dasharray":[1.0,2.0],
         "line-width":{
           "stops":[[14,0.3],[16,0.6],[17,1.2],[18,2.4],[20,4.8]]
         },
+        "line-dasharray":[1.0,2.0],
         "line-color":"#777"
       },
-      "minzoom":13,
-      "id":"railway-monorail-13"
-    },{
-      "filter":["all",["in","class","narrow_gauge"],["!=","bridge","yes"],["!=","tunnel",true]],
+      "id":"railway-monorail-13",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"transportation",
-      "type":"line",
-      "source":"someoneelse",
+      "filter":["all",["in","class","monorail"]],
       "layout":{
-        "visibility":"visible",
         "line-cap":"round",
-        "line-join":"round"
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":13
+    },{
+      "source-layer":"transportation",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
-        "line-dasharray":[6.0,4.0],
         "line-width":{
           "stops":[[12,0.9],[14,1.2],[16,1.6],[17,2.4],[18,4.8],[20,8.0]]
         },
+        "line-dasharray":[6.0,4.0],
         "line-color":"white"
       },
-      "minzoom":12,
-      "id":"railway-narrow_gauge-lightfill-12"
-    },{
-      "filter":["all",["in","class","rail","railminor"],["!=","bridge","yes"],["!=","tunnel",true]],
+      "id":"railway-narrow_gauge-lightfill-12",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"transportation",
-      "type":"line",
-      "source":"someoneelse",
+      "filter":["all",["in","class","narrow_gauge"],["!=","bridge","yes"],["!=","tunnel",true]],
       "layout":{
-        "visibility":"visible",
         "line-cap":"round",
-        "line-join":"round"
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":12
+    },{
+      "source-layer":"transportation",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
-        "line-dasharray":[4.0,6.0],
         "line-width":{
           "stops":[[13,1.2],[14,1.8],[16,2.4],[17,4.8],[18,9.6],[20,16.0]]
         },
+        "line-dasharray":[4.0,6.0],
         "line-color":"white"
       },
-      "minzoom":12,
-      "id":"railway-rail-lightfill-12"
-    },{
-      "filter":["all",["in","class","preserved"],["!=","bridge","yes"],["!=","tunnel",true]],
+      "id":"railway-rail-lightfill-12",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"transportation",
-      "type":"line",
-      "source":"someoneelse",
+      "filter":["all",["in","class","rail","railminor"],["!=","bridge","yes"],["!=","tunnel",true]],
       "layout":{
-        "visibility":"visible",
         "line-cap":"round",
-        "line-join":"round"
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":12
+    },{
+      "source-layer":"transportation",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
-        "line-dasharray":[6.0,4.0],
         "line-width":{
           "stops":[[13,0.4],[14,1.2],[16,2.4],[17,4.8],[18,9.6],[20,16.0]]
         },
+        "line-dasharray":[6.0,4.0],
         "line-color":"white"
       },
-      "minzoom":12,
-      "id":"railway-preserved-lightfill-12"
-    },{
-      "filter":["all",["in","class","platform"]],
+      "id":"railway-preserved-lightfill-12",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"transportation",
-      "type":"line",
-      "source":"someoneelse",
+      "filter":["all",["in","class","preserved"],["!=","bridge","yes"],["!=","tunnel",true]],
       "layout":{
-        "visibility":"visible",
         "line-cap":"round",
-        "line-join":"round"
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":12
+    },{
+      "source-layer":"transportation",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
         "line-width":{
           "stops":[[15,2.0],[17,4.0],[18,8.0],[19,22.0]]
         },
         "line-color":"#ededed"
       },
-      "minzoom":15,
-      "id":"railway-platform-fill-15"
-    },{
-      "filter":["all",["in","class","light_rail","funicular","subway","tram"],["!=","bridge","yes"],["!=","tunnel",true]],
-      "target":"svwd10",
-      "source-layer":"transportation",
-      "type":"line",
-      "source":"someoneelse",
+      "id":"railway-platform-fill-15",
+      "target":"svwd01,svwd08,svwd10",
+      "filter":["all",["in","class","platform"]],
       "layout":{
-        "visibility":"visible",
         "line-cap":"round",
-        "line-join":"round"
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":15
+    },{
+      "source-layer":"transportation",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
         "line-width":{
           "stops":[[13,0.2],[14,0.6],[16,1.2],[17,2.4],[18,4.8],[20,8.0]]
         },
         "line-color":"#999999"
       },
-      "minzoom":9,
-      "id":"railway-tram-backgroundfill-9-s10"
-    },{
-      "filter":["all",["in","class","light_rail","funicular","subway","tram"],["!=","bridge","yes"],["!=","tunnel",true]],
+      "id":"railway-tram-backgroundfill-9-s10",
       "target":"svwd10",
-      "source-layer":"transportation",
-      "type":"line",
-      "source":"someoneelse",
+      "filter":["all",["in","class","light_rail","funicular","subway","tram"],["!=","bridge","yes"],["!=","tunnel",true]],
       "layout":{
-        "visibility":"visible",
         "line-cap":"round",
-        "line-join":"round"
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":9
+    },{
+      "source-layer":"transportation",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
-        "line-dasharray":[0.05,6.0],
         "line-width":{
           "stops":[[13,0.2],[14,0.6],[16,1.2],[17,2.4],[18,4.8],[20,8.0]]
         },
+        "line-dasharray":[0.05,6.0],
         "line-color":"#666"
       },
-      "minzoom":12,
-      "id":"railway-tram-foregroundfill-9-s10"
-    },{
-      "filter":["all",["in","class","rail","railminor","disused","abandoned","dismantled","funicular","preserved","light_rail","subway","tram"],["==","bridge","yes"]],
+      "id":"railway-tram-foregroundfill-9-s10",
       "target":"svwd10",
-      "source-layer":"transportation",
-      "type":"line",
-      "source":"someoneelse",
+      "filter":["all",["in","class","light_rail","funicular","subway","tram"],["!=","bridge","yes"],["!=","tunnel",true]],
       "layout":{
-        "visibility":"visible",
-        "line-cap":"butt",
-        "line-join":"round"
+        "line-cap":"round",
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":12
+    },{
+      "source-layer":"transportation",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
         "line-width":{
           "stops":[[13,5.4],[14,7.2],[16,10.8],[17,21.6],[18,43.2],[20,72.0]]
         },
         "line-color":"black"
       },
-      "minzoom":12,
-      "id":"railway-rail-bridgecasing-12-s10"
-    },{
-      "filter":["all",["in","class","narrow_gauge"],["==","bridge","yes"]],
-      "target":"svwd01,svwd08,svwd10",
-      "source-layer":"transportation",
-      "type":"line",
-      "source":"someoneelse",
+      "id":"railway-rail-bridgecasing-12-s10",
+      "target":"svwd10",
+      "filter":["all",["in","class","rail","railminor","disused","abandoned","dismantled","funicular","preserved","light_rail","subway","tram"],["==","bridge","yes"]],
       "layout":{
-        "visibility":"visible",
         "line-cap":"butt",
-        "line-join":"round"
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":12
+    },{
+      "source-layer":"transportation",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
         "line-width":{
           "stops":[[13,2.7],[14,4.4],[16,7.2],[17,10.8],[18,21.6],[20,36.0]]
         },
         "line-color":"black"
       },
-      "minzoom":12,
-      "id":"railway-narrow_gauge-bridgecasing-12"
-    },{
-      "filter":["all",["in","class","ditch","intditch"],["==","bridge","yes"]],
+      "id":"railway-narrow_gauge-bridgecasing-12",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"waterway",
-      "type":"line",
-      "source":"someoneelse",
+      "filter":["all",["in","class","narrow_gauge"],["==","bridge","yes"]],
       "layout":{
-        "visibility":"visible",
         "line-cap":"butt",
-        "line-join":"round"
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":12
+    },{
+      "source-layer":"waterway",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
         "line-width":{
           "base":1.0,
@@ -1103,19 +1093,19 @@
         },
         "line-color":"black"
       },
-      "minzoom":13,
-      "id":"waterway-ditch-bridgecasing-13"
-    },{
-      "filter":["all",["in","class","stream","drain","intstream","intdrain"],["==","bridge","yes"]],
+      "id":"waterway-ditch-bridgecasing-13",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"waterway",
-      "type":"line",
-      "source":"someoneelse",
+      "filter":["all",["in","class","ditch","intditch"],["==","bridge","yes"]],
       "layout":{
-        "visibility":"visible",
         "line-cap":"butt",
-        "line-join":"round"
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":13
+    },{
+      "source-layer":"waterway",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
         "line-width":{
           "base":1.0,
@@ -1123,19 +1113,19 @@
         },
         "line-color":"black"
       },
-      "minzoom":12,
-      "id":"waterway-stream-bridgecasing-12"
-    },{
-      "filter":["all",["in","class","river","canal"],["==","bridge","yes"]],
+      "id":"waterway-stream-bridgecasing-12",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"waterway",
-      "type":"line",
-      "source":"someoneelse",
+      "filter":["all",["in","class","stream","drain","intstream","intdrain"],["==","bridge","yes"]],
       "layout":{
-        "visibility":"visible",
         "line-cap":"butt",
-        "line-join":"round"
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":12
+    },{
+      "source-layer":"waterway",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
         "line-width":{
           "base":2.0,
@@ -1143,19 +1133,19 @@
         },
         "line-color":"black"
       },
-      "minzoom":11,
-      "id":"waterway-river-bridgecasing-11"
-    },{
-      "filter":["all",["in","class","derelict_canal"],["==","bridge","yes"]],
+      "id":"waterway-river-bridgecasing-11",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"waterway",
-      "type":"line",
-      "source":"someoneelse",
+      "filter":["all",["in","class","river","canal"],["==","bridge","yes"]],
       "layout":{
-        "visibility":"visible",
         "line-cap":"butt",
-        "line-join":"round"
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":11
+    },{
+      "source-layer":"waterway",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
         "line-width":{
           "base":2.0,
@@ -1163,19 +1153,19 @@
         },
         "line-color":"black"
       },
-      "minzoom":11,
-      "id":"waterway-derelict_canal-bridgecasing-11"
-    },{
-      "filter":["all",["in","class","intriver"],["==","bridge","yes"]],
+      "id":"waterway-derelict_canal-bridgecasing-11",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"waterway",
-      "type":"line",
-      "source":"someoneelse",
+      "filter":["all",["in","class","derelict_canal"],["==","bridge","yes"]],
       "layout":{
-        "visibility":"visible",
         "line-cap":"butt",
-        "line-join":"round"
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":11
+    },{
+      "source-layer":"waterway",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
         "line-width":{
           "base":2.0,
@@ -1183,57 +1173,57 @@
         },
         "line-color":"black"
       },
-      "minzoom":11,
-      "id":"waterway-intriver-bridgecasing-11"
-    },{
-      "filter":["all",["in","class","rail","railminor","disused","abandoned","dismantled","funicular","preserved","light_rail","subway","tram"],["==","bridge","yes"]],
-      "target":"svwd10",
-      "source-layer":"transportation",
-      "type":"line",
-      "source":"someoneelse",
+      "id":"waterway-intriver-bridgecasing-11",
+      "target":"svwd01,svwd08,svwd10",
+      "filter":["all",["in","class","intriver"],["==","bridge","yes"]],
       "layout":{
-        "visibility":"visible",
         "line-cap":"butt",
-        "line-join":"round"
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":11
+    },{
+      "source-layer":"transportation",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
         "line-width":{
           "stops":[[13,3.6],[14,4.8],[16,7.2],[17,14.4],[18,28.8],[20,48.0]]
         },
         "line-color":"#f2efe9"
       },
-      "minzoom":12,
-      "id":"railway-rail-bridgeprefill-12-s10"
-    },{
-      "filter":["all",["in","class","narrow_gauge"],["==","bridge","yes"]],
-      "target":"svwd01,svwd08,svwd10",
-      "source-layer":"transportation",
-      "type":"line",
-      "source":"someoneelse",
+      "id":"railway-rail-bridgeprefill-12-s10",
+      "target":"svwd10",
+      "filter":["all",["in","class","rail","railminor","disused","abandoned","dismantled","funicular","preserved","light_rail","subway","tram"],["==","bridge","yes"]],
       "layout":{
-        "visibility":"visible",
         "line-cap":"butt",
-        "line-join":"round"
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":12
+    },{
+      "source-layer":"transportation",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
         "line-width":{
           "stops":[[12,1.8],[14,2.4],[16,3.6],[17,7.2],[18,14.4],[20,24.0]]
         },
         "line-color":"#f2efe9"
       },
-      "minzoom":12,
-      "id":"railway-narrow_gauge-bridgeprefill-12"
-    },{
-      "filter":["all",["in","class","derelict_canal"],["==","bridge","yes"]],
+      "id":"railway-narrow_gauge-bridgeprefill-12",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"waterway",
-      "type":"line",
-      "source":"someoneelse",
+      "filter":["all",["in","class","narrow_gauge"],["==","bridge","yes"]],
       "layout":{
-        "visibility":"visible",
-        "line-cap":"square",
-        "line-join":"round"
+        "line-cap":"butt",
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":12
+    },{
+      "source-layer":"waterway",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
         "line-width":{
           "base":2.0,
@@ -1241,305 +1231,310 @@
         },
         "line-color":"#f2efe9"
       },
-      "minzoom":11,
-      "id":"waterway-derelict_canal-bridgeprefill-11"
-    },{
-      "filter":["all",["in","class","disused","abandoned","dismantled"],["==","bridge","yes"]],
+      "id":"waterway-derelict_canal-bridgeprefill-11",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"transportation",
-      "type":"line",
-      "source":"someoneelse",
+      "filter":["all",["in","class","derelict_canal"],["==","bridge","yes"]],
       "layout":{
-        "visibility":"visible",
-        "line-cap":"butt",
-        "line-join":"round"
+        "line-cap":"square",
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":11
+    },{
+      "source-layer":"transportation",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
         "line-width":{
           "stops":[[13,0.6],[14,1.8],[16,3.6],[17,7.2],[18,14.4],[20,24.0]]
         },
         "line-color":"#d1cfcf"
       },
-      "minzoom":12,
-      "id":"railway-disused-bridgedarkfill-12"
-    },{
-      "filter":["all",["in","class","rail"],["==","bridge","yes"]],
+      "id":"railway-disused-bridgedarkfill-12",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"transportation",
-      "type":"line",
-      "source":"someoneelse",
+      "filter":["all",["in","class","disused","abandoned","dismantled"],["==","bridge","yes"]],
       "layout":{
-        "visibility":"visible",
         "line-cap":"butt",
-        "line-join":"round"
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":12
+    },{
+      "source-layer":"transportation",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
         "line-width":{
           "stops":[[13,1.8],[14,2.4],[16,3.6],[17,7.2],[18,14.4],[20,24.0]]
         },
         "line-color":"#999999"
       },
-      "minzoom":12,
-      "id":"railway-rail-bridgedarkfill-12"
-    },{
-      "filter":["all",["in","class","railminor"],["==","bridge","yes"]],
+      "id":"railway-rail-bridgedarkfill-12",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"transportation",
-      "type":"line",
-      "source":"someoneelse",
+      "filter":["all",["in","class","rail"],["==","bridge","yes"]],
       "layout":{
-        "visibility":"visible",
         "line-cap":"butt",
-        "line-join":"round"
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":12
+    },{
+      "source-layer":"transportation",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
         "line-width":{
           "stops":[[13,1.8],[14,2.4],[16,3.6],[17,7.2],[18,14.4],[20,24.0]]
         },
         "line-color":"#b9b7b7"
       },
-      "minzoom":12,
-      "id":"railway-railminor-bridgedarkfill-12"
-    },{
-      "filter":["all",["in","class","narrow_gauge"],["==","bridge","yes"]],
+      "id":"railway-railminor-bridgedarkfill-12",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"transportation",
-      "type":"line",
-      "source":"someoneelse",
+      "filter":["all",["in","class","railminor"],["==","bridge","yes"]],
       "layout":{
-        "visibility":"visible",
         "line-cap":"butt",
-        "line-join":"round"
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":12
+    },{
+      "source-layer":"transportation",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
         "line-width":{
           "stops":[[10,1.2],[14,1.8],[16,2.4],[17,3.6],[18,7.2],[20,12.0]]
         },
         "line-color":"#999999"
       },
-      "minzoom":12,
-      "id":"railway-narrow_gauge-bridgedarkfill-12"
-    },{
-      "filter":["all",["in","class","light_rail","funicular","subway","tram"],["==","bridge","yes"]],
-      "target":"svwd10",
-      "source-layer":"transportation",
-      "type":"line",
-      "source":"someoneelse",
+      "id":"railway-narrow_gauge-bridgedarkfill-12",
+      "target":"svwd01,svwd08,svwd10",
+      "filter":["all",["in","class","narrow_gauge"],["==","bridge","yes"]],
       "layout":{
-        "visibility":"visible",
-        "line-cap":"round",
-        "line-join":"round"
+        "line-cap":"butt",
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":12
+    },{
+      "source-layer":"transportation",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
         "line-width":{
           "stops":[[13,0.2],[14,0.6],[16,1.2],[17,2.4],[18,4.8],[20,8.0]]
         },
         "line-color":"#999999"
       },
-      "minzoom":9,
-      "id":"railway-tram-bridgebackgroundfill-9-s10"
-    },{
-      "filter":["all",["in","class","light_rail","funicular","subway","tram"],["==","bridge","yes"]],
+      "id":"railway-tram-bridgebackgroundfill-9-s10",
       "target":"svwd10",
-      "source-layer":"transportation",
-      "type":"line",
-      "source":"someoneelse",
+      "filter":["all",["in","class","light_rail","funicular","subway","tram"],["==","bridge","yes"]],
       "layout":{
-        "visibility":"visible",
         "line-cap":"round",
-        "line-join":"round"
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":9
+    },{
+      "source-layer":"transportation",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
-        "line-dasharray":[0.05,6.0],
         "line-width":{
           "stops":[[13,0.2],[14,0.6],[16,1.2],[17,2.4],[18,4.8],[20,8.0]]
         },
+        "line-dasharray":[0.05,6.0],
         "line-color":"#666"
       },
-      "minzoom":9,
-      "id":"railway-tram-bridgeforegroundfill-9-s10"
-    },{
-      "filter":["all",["in","class","narrow_gauge"],["==","bridge","yes"]],
-      "target":"svwd01,svwd08,svwd10",
-      "source-layer":"transportation",
-      "type":"line",
-      "source":"someoneelse",
+      "id":"railway-tram-bridgeforegroundfill-9-s10",
+      "target":"svwd10",
+      "filter":["all",["in","class","light_rail","funicular","subway","tram"],["==","bridge","yes"]],
       "layout":{
-        "visibility":"visible",
         "line-cap":"round",
-        "line-join":"round"
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":9
+    },{
+      "source-layer":"transportation",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
-        "line-dasharray":[6.0,4.0],
         "line-width":{
           "stops":[[12,0.9],[14,1.2],[16,1.6],[17,2.4],[18,4.8],[20,8.0]]
         },
+        "line-dasharray":[6.0,4.0],
         "line-color":"white"
       },
-      "minzoom":12,
-      "id":"railway-narrow_gauge-bridgelightfill-12"
-    },{
-      "filter":["all",["in","class","preserved"],["==","bridge","yes"]],
+      "id":"railway-narrow_gauge-bridgelightfill-12",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"transportation",
-      "type":"line",
-      "source":"someoneelse",
+      "filter":["all",["in","class","narrow_gauge"],["==","bridge","yes"]],
       "layout":{
-        "visibility":"visible",
-        "line-cap":"butt",
-        "line-join":"round"
+        "line-cap":"round",
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":12
+    },{
+      "source-layer":"transportation",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
         "line-width":{
           "stops":[[13,0.6],[14,1.8],[16,3.6],[17,7.2],[18,14.4],[20,24.0]]
         },
         "line-color":"#999999"
       },
-      "minzoom":12,
-      "id":"railway-preserved-bridgedarkfill-12"
-    },{
-      "filter":["all",["in","class","dismantled"],["==","bridge","yes"]],
+      "id":"railway-preserved-bridgedarkfill-12",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"transportation",
-      "type":"line",
-      "source":"someoneelse",
+      "filter":["all",["in","class","preserved"],["==","bridge","yes"]],
       "layout":{
-        "visibility":"visible",
-        "line-cap":"round",
-        "line-join":"round"
+        "line-cap":"butt",
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":12
+    },{
+      "source-layer":"transportation",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
+        "line-width":{
+          "stops":[[13,0.4],[14,1.2],[16,2.4],[17,4.8],[18,9.6],[20,16.0]]
+        },
         "line-dasharray":[12.0,4.0],
+        "line-color":"#f2eaea"
+      },
+      "id":"railway-dismantled-bridgelightfill-12",
+      "target":"svwd01,svwd08,svwd10",
+      "filter":["all",["in","class","dismantled"],["==","bridge","yes"]],
+      "layout":{
+        "line-cap":"round",
+        "line-join":"round",
+        "visibility":"visible"
+      },
+      "minzoom":12
+    },{
+      "source-layer":"transportation",
+      "source":"someoneelse",
+      "type":"line",
+      "paint":{
         "line-width":{
           "stops":[[13,0.4],[14,1.2],[16,2.4],[17,4.8],[18,9.6],[20,16.0]]
         },
-        "line-color":"#f2eaea"
-      },
-      "minzoom":12,
-      "id":"railway-dismantled-bridgelightfill-12"
-    },{
-      "filter":["all",["in","class","abandoned"],["==","bridge","yes"]],
-      "target":"svwd01,svwd08,svwd10",
-      "source-layer":"transportation",
-      "type":"line",
-      "source":"someoneelse",
-      "layout":{
-        "visibility":"visible",
-        "line-cap":"round",
-        "line-join":"round"
-      },
-      "paint":{
         "line-dasharray":[9.0,6.0],
+        "line-color":"#f2eaea"
+      },
+      "id":"railway-abandoned-bridgelightfill-12",
+      "target":"svwd01,svwd08,svwd10",
+      "filter":["all",["in","class","abandoned"],["==","bridge","yes"]],
+      "layout":{
+        "line-cap":"round",
+        "line-join":"round",
+        "visibility":"visible"
+      },
+      "minzoom":12
+    },{
+      "source-layer":"transportation",
+      "source":"someoneelse",
+      "type":"line",
+      "paint":{
         "line-width":{
           "stops":[[13,0.4],[14,1.2],[16,2.4],[17,4.8],[18,9.6],[20,16.0]]
         },
-        "line-color":"#f2eaea"
-      },
-      "minzoom":12,
-      "id":"railway-abandoned-bridgelightfill-12"
-    },{
-      "filter":["all",["in","class","disused"],["==","bridge","yes"]],
-      "target":"svwd01,svwd08,svwd10",
-      "source-layer":"transportation",
-      "type":"line",
-      "source":"someoneelse",
-      "layout":{
-        "visibility":"visible",
-        "line-cap":"round",
-        "line-join":"round"
-      },
-      "paint":{
         "line-dasharray":[6.0,4.0],
-        "line-width":{
-          "stops":[[13,0.4],[14,1.2],[16,2.4],[17,4.8],[18,9.6],[20,16.0]]
-        },
         "line-color":"#f2eaea"
       },
-      "minzoom":12,
-      "id":"railway-disused-bridgelightfill-12"
-    },{
-      "filter":["all",["in","class","rail","railminor"],["==","bridge","yes"]],
+      "id":"railway-disused-bridgelightfill-12",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"transportation",
-      "type":"line",
-      "source":"someoneelse",
+      "filter":["all",["in","class","disused"],["==","bridge","yes"]],
       "layout":{
-        "visibility":"visible",
         "line-cap":"round",
-        "line-join":"round"
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":12
+    },{
+      "source-layer":"transportation",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
-        "line-dasharray":[4.0,6.0],
         "line-width":{
           "stops":[[13,1.2],[14,1.8],[16,2.4],[17,4.8],[18,9.6],[20,16.0]]
         },
+        "line-dasharray":[4.0,6.0],
         "line-color":"white"
       },
-      "minzoom":12,
-      "id":"railway-rail-bridgelightfill-12"
-    },{
-      "filter":["all",["in","class","miniature"],["==","bridge","yes"]],
+      "id":"railway-rail-bridgelightfill-12",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"transportation",
-      "type":"line",
-      "source":"someoneelse",
+      "filter":["all",["in","class","rail","railminor"],["==","bridge","yes"]],
       "layout":{
-        "visibility":"visible",
-        "line-cap":"butt",
-        "line-join":"round"
+        "line-cap":"round",
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":12
+    },{
+      "source-layer":"transportation",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
         "line-width":{
           "stops":[[14,0.3],[16,0.6],[17,1.2],[18,2.4],[20,4.8]]
         },
         "line-color":"#4b4848"
       },
-      "minzoom":14,
-      "id":"railway-miniature-bridgedarkfill-14"
-    },{
-      "filter":["all",["in","class","miniature"],["==","bridge","yes"]],
+      "id":"railway-miniature-bridgedarkfill-14",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"transportation",
-      "type":"line",
-      "source":"someoneelse",
+      "filter":["all",["in","class","miniature"],["==","bridge","yes"]],
       "layout":{
-        "visibility":"visible",
-        "line-cap":"round",
-        "line-join":"round"
+        "line-cap":"butt",
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":14
+    },{
+      "source-layer":"transportation",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
-        "line-dasharray":[0.4,12.0],
         "line-width":{
           "stops":[[14,0.6],[16,1.2],[17,2.4],[18,4.8],[20,9.6]]
         },
+        "line-dasharray":[0.4,12.0],
         "line-color":"#4b4848"
       },
-      "minzoom":14,
-      "id":"railway-miniature-bridgelightfill-14"
-    },{
-      "filter":["all",["in","class","preserved"],["==","bridge","yes"]],
+      "id":"railway-miniature-bridgelightfill-14",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"transportation",
-      "type":"line",
-      "source":"someoneelse",
+      "filter":["all",["in","class","miniature"],["==","bridge","yes"]],
       "layout":{
-        "visibility":"visible",
         "line-cap":"round",
-        "line-join":"round"
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":14
+    },{
+      "source-layer":"transportation",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
-        "line-dasharray":[6.0,4.0],
         "line-width":{
           "stops":[[13,0.4],[14,1.2],[16,2.4],[17,4.8],[18,9.6],[20,16.0]]
         },
+        "line-dasharray":[6.0,4.0],
         "line-color":"white"
       },
-      "minzoom":12,
-      "id":"railway-preserved-bridgelightfill-12"
+      "id":"railway-preserved-bridgelightfill-12",
+      "target":"svwd01,svwd08,svwd10",
+      "filter":["all",["in","class","preserved"],["==","bridge","yes"]],
+      "layout":{
+        "line-cap":"round",
+        "line-join":"round",
+        "visibility":"visible"
+      },
+      "minzoom":12
     },{
-      "minzoom":13,
-      "filter":["all",["in","class","ditch","intditch"],["==","bridge","yes"]],
-      "id":"waterway-ditch-bridgefill-13",
+      "source-layer":"waterway",
       "paint":{
         "line-width":{
           "base":1.0,
@@ -1548,13 +1543,13 @@
         "line-color":"#b5d0d0"
       },
       "source":"someoneelse",
+      "id":"waterway-ditch-bridgefill-13",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"waterway",
+      "minzoom":13,
+      "filter":["all",["in","class","ditch","intditch"],["==","bridge","yes"]],
       "type":"line"
     },{
-      "minzoom":12,
-      "filter":["all",["in","class","stream","drain","intstream","intdrain"],["==","bridge","yes"]],
-      "id":"waterway-stream-bridgefill-12",
+      "source-layer":"waterway",
       "paint":{
         "line-width":{
           "base":1.0,
@@ -1563,10 +1558,13 @@
         "line-color":"#b5d0d0"
       },
       "source":"someoneelse",
+      "id":"waterway-stream-bridgefill-12",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"waterway",
+      "minzoom":12,
+      "filter":["all",["in","class","stream","drain","intstream","intdrain"],["==","bridge","yes"]],
       "type":"line"
     },{
+      "source-layer":"waterway",
       "paint":{
         "line-width":{
           "base":2.0,
@@ -1574,49 +1572,41 @@
         },
         "line-color":"#b5d0d0"
       },
-      "filter":["all",["in","class","river","canal"],["==","bridge","yes"]],
-      "id":"waterway-river-bridgefill",
-      "layout":{
-        "visibility":"visible",
-        "line-cap":"square",
-        "line-join":"round"
-      },
       "source":"someoneelse",
+      "id":"waterway-river-bridgefill",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"waterway",
+      "filter":["all",["in","class","river","canal"],["==","bridge","yes"]],
+      "layout":{
+        "line-cap":"square",
+        "line-join":"round",
+        "visibility":"visible"
+      },
       "type":"line"
     },{
-      "filter":["all",["in","class","derelict_canal"],["==","bridge","yes"]],
-      "target":"svwd01,svwd08,svwd10",
       "source-layer":"waterway",
-      "type":"line",
       "source":"someoneelse",
-      "layout":{
-        "visibility":"visible",
-        "line-cap":"square",
-        "line-join":"round"
-      },
+      "type":"line",
       "paint":{
-        "line-dasharray":[2.0,1.0],
         "line-width":{
           "base":2.0,
           "stops":[[11,2.0],[20,48.0]]
         },
+        "line-dasharray":[2.0,1.0],
         "line-color":"#b5e4d0"
       },
-      "minzoom":11,
-      "id":"waterway-derelict_canal-bridgefill-11"
-    },{
-      "filter":["all",["in","class","intriver"],["==","bridge","yes"]],
+      "id":"waterway-derelict_canal-bridgefill-11",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"waterway",
-      "type":"line",
-      "source":"someoneelse",
+      "filter":["all",["in","class","derelict_canal"],["==","bridge","yes"]],
       "layout":{
-        "visibility":"visible",
         "line-cap":"square",
-        "line-join":"round"
+        "line-join":"round",
+        "visibility":"visible"
       },
+      "minzoom":11
+    },{
+      "source-layer":"waterway",
+      "source":"someoneelse",
+      "type":"line",
       "paint":{
         "line-width":{
           "base":2.0,
@@ -1624,230 +1614,235 @@
         },
         "line-color":"#b5d0d0"
       },
-      "minzoom":11,
-      "id":"waterway-intriver-bridgefill-11"
-    },{
-      "filter":["in","class","river","canal"],
+      "id":"waterway-intriver-bridgefill-11",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"waterway",
-      "type":"symbol",
-      "source":"someoneelse",
+      "filter":["all",["in","class","intriver"],["==","bridge","yes"]],
       "layout":{
-        "text-font":["KlokanTech Noto Sans Regular"],
+        "line-cap":"square",
+        "line-join":"round",
+        "visibility":"visible"
+      },
+      "minzoom":11
+    },{
+      "source-layer":"waterway",
+      "source":"someoneelse",
+      "type":"symbol",
+      "minzoom":12,
+      "layout":{
         "text-field":"{name}",
+        "symbol-spacing":{
+          "stops":[[12,250],[20,900]]
+        },
         "text-size":{
           "stops":[[12,10],[20,30]]
         },
-        "text-anchor":"bottom",
         "symbol-placement":"line",
-        "symbol-spacing":{
-          "stops":[[12,250],[20,900]]
-        }
+        "text-anchor":"bottom",
+        "text-font":["KlokanTech Noto Sans Regular"]
       },
-      "minzoom":12,
+      "target":"svwd01,svwd08,svwd10",
+      "filter":["in","class","river","canal"],
       "paint":{
-        "text-halo-blur":1,
         "text-color":"#6699cc",
+        "text-halo-blur":1,
         "text-halo-color":"rgba(255, 255, 255, 0.8)",
         "text-halo-width":2
       },
       "id":"label-waterway-bottom-12"
     },{
-      "filter":["in","class","derelict_canal"],
-      "target":"svwd01,svwd08,svwd10",
       "source-layer":"waterway",
-      "type":"symbol",
       "source":"someoneelse",
+      "type":"symbol",
+      "minzoom":12,
       "layout":{
-        "text-font":["KlokanTech Noto Sans Regular"],
         "text-field":"{name}",
+        "symbol-spacing":{
+          "stops":[[12,250],[20,900]]
+        },
         "text-size":{
           "stops":[[12,10],[20,30]]
         },
-        "text-anchor":"bottom",
         "symbol-placement":"line",
-        "symbol-spacing":{
-          "stops":[[12,250],[20,900]]
-        }
+        "text-anchor":"bottom",
+        "text-font":["KlokanTech Noto Sans Regular"]
       },
-      "minzoom":12,
+      "target":"svwd01,svwd08,svwd10",
+      "filter":["in","class","derelict_canal"],
       "paint":{
-        "text-halo-blur":1,
         "text-color":"#80d1ae",
+        "text-halo-blur":1,
         "text-halo-color":"rgba(255, 255, 255, 0.8)",
         "text-halo-width":2
       },
       "id":"label-derelict_canal-bottom-12"
     },{
-      "filter":["in","class","intriver","stream","intstream","drain","intdrain","ditch","intditch"],
-      "target":"svwd01,svwd08,svwd10",
       "source-layer":"waterway",
-      "type":"symbol",
       "source":"someoneelse",
+      "type":"symbol",
+      "minzoom":14,
       "layout":{
-        "text-font":["KlokanTech Noto Sans Regular"],
         "text-field":"{name}",
+        "symbol-spacing":{
+          "stops":[[14,250],[20,900]]
+        },
         "text-size":{
           "stops":[[14,10],[20,30]]
         },
-        "text-anchor":"bottom",
         "symbol-placement":"line",
-        "symbol-spacing":{
-          "stops":[[14,250],[20,900]]
-        }
+        "text-anchor":"bottom",
+        "text-font":["KlokanTech Noto Sans Regular"]
       },
-      "minzoom":14,
+      "target":"svwd01,svwd08,svwd10",
+      "filter":["in","class","intriver","stream","intstream","drain","intdrain","ditch","intditch"],
       "paint":{
-        "text-halo-blur":1,
         "text-color":"#6699cc",
+        "text-halo-blur":1,
         "text-halo-color":"rgba(255, 255, 255, 0.8)",
         "text-halo-width":2
       },
       "id":"label-waterway-bottom-14"
     },{
-      "filter":["in","class","waterway_waterfall","waterway_weir","waterway_floating_barrier"],
-      "target":"svwd01,svwd08,svwd10",
       "source-layer":"linearbarrier",
-      "type":"symbol",
       "source":"someoneelse",
+      "type":"symbol",
+      "minzoom":14,
       "layout":{
-        "text-font":["KlokanTech Noto Sans Regular"],
         "text-field":"{name}",
+        "symbol-spacing":{
+          "stops":[[14,250],[20,900]]
+        },
         "text-size":{
           "stops":[[14,10],[20,30]]
         },
-        "text-anchor":"bottom",
         "symbol-placement":"line",
-        "symbol-spacing":{
-          "stops":[[14,250],[20,900]]
-        }
+        "text-anchor":"bottom",
+        "text-font":["KlokanTech Noto Sans Regular"]
       },
-      "minzoom":14,
+      "target":"svwd01,svwd08,svwd10",
+      "filter":["in","class","waterway_waterfall","waterway_weir","waterway_floating_barrier"],
       "paint":{
-        "text-halo-blur":1,
         "text-color":"#6699cc",
+        "text-halo-blur":1,
         "text-halo-color":"rgba(255, 255, 255, 0.8)",
         "text-halo-width":2
       },
       "id":"label-waterway_waterfall-bottom-14"
     },{
-      "filter":["in","class","weir"],
-      "target":"svwd10",
       "source-layer":"waterway",
-      "type":"symbol",
       "source":"someoneelse",
+      "type":"symbol",
+      "minzoom":14,
       "layout":{
-        "text-font":["KlokanTech Noto Sans Regular"],
         "text-field":"{name}",
+        "symbol-spacing":{
+          "stops":[[14,250],[20,900]]
+        },
         "text-size":{
           "stops":[[14,10],[20,30]]
         },
-        "text-anchor":"bottom",
         "symbol-placement":"line",
-        "symbol-spacing":{
-          "stops":[[14,250],[20,900]]
-        }
+        "text-anchor":"bottom",
+        "text-font":["KlokanTech Noto Sans Regular"]
       },
-      "minzoom":14,
+      "target":"svwd10",
+      "filter":["in","class","weir"],
       "paint":{
-        "text-halo-blur":1,
         "text-color":"#000033",
+        "text-halo-blur":1,
         "text-halo-color":"rgba(255, 255, 255, 0.8)",
         "text-halo-width":2
       },
       "id":"label-waterway_weir-bottom-14-s10"
     },{
-      "filter":["all",["in","class","railway_subway_entrance"]],
-      "target":"svwd01,svwd08,svwd10",
       "source-layer":"land1",
-      "type":"symbol",
       "source":"someoneelse",
+      "type":"symbol",
+      "paint":{
+        "text-color":"#0066ff",
+        "text-halo-width":1,
+        "text-halo-blur":0.5,
+        "text-halo-color":"#ffffff"
+      },
+      "id":"land1-railway-lightblue-imagename-17",
+      "target":"svwd01,svwd08,svwd10",
+      "filter":["all",["in","class","railway_subway_entrance"]],
       "layout":{
-        "visibility":"visible",
-        "text-font":["KlokanTech Noto Sans Regular"],
         "icon-size":{
           "stops":[[17,1.0],[22,2.0]]
         },
-        "text-size":{
-          "stops":[[12,10],[20,30]]
-        },
-        "text-max-width":13,
+        "icon-image":"{class}",
         "text-anchor":"top",
-        "text-field":"{name}\n",
-        "text-offset":[0,0.6],
-        "text-padding":2,
-        "icon-image":"{class}"
-      },
-      "paint":{
-        "text-halo-width":1,
-        "text-color":"#0066ff",
-        "text-halo-blur":0.5,
-        "text-halo-color":"#ffffff"
-      },
-      "minzoom":17,
-      "id":"land1-railway-lightblue-imagename-17"
-    },{
-      "filter":["all",["in","class","amenity_tourismstation"]],
-      "target":"svwd01,svwd08,svwd10",
-      "source-layer":"land1",
-      "type":"symbol",
-      "source":"someoneelse",
-      "layout":{
-        "visibility":"visible",
+        "text-max-width":13,
         "text-font":["KlokanTech Noto Sans Regular"],
-        "text-padding":2,
+        "text-field":"{name}\n",
+        "visibility":"visible",
         "text-size":{
           "stops":[[12,10],[20,30]]
         },
-        "text-max-width":13,
-        "text-anchor":"top",
-        "text-field":"{name}\n",
-        "icon-allow-overlap":true,
-        "text-offset":[0,0.6],
-        "icon-image":"{class}"
+        "text-padding":2,
+        "text-offset":[0,0.6]
       },
+      "minzoom":17
+    },{
+      "source-layer":"land1",
+      "source":"someoneelse",
+      "type":"symbol",
       "paint":{
-        "text-halo-width":1,
         "text-color":"#734a08",
+        "text-halo-width":1,
         "text-halo-blur":0.5,
         "text-halo-color":"#ffffff"
       },
-      "minzoom":13,
-      "id":"land1-various-lightbrown-imagenamenooverlap-13"
-    },{
-      "filter":["all",["in","class","railway_level_crossing"]],
-      "target":"svwd10",
-      "source-layer":"land1",
-      "type":"symbol",
-      "source":"someoneelse",
+      "id":"land1-various-lightbrown-imagenamenooverlap-13",
+      "target":"svwd01,svwd08,svwd10",
+      "filter":["all",["in","class","amenity_tourismstation"]],
       "layout":{
-        "visibility":"visible",
+        "icon-allow-overlap":true,
+        "icon-image":"{class}",
+        "text-anchor":"top",
+        "text-max-width":13,
         "text-font":["KlokanTech Noto Sans Regular"],
+        "text-offset":[0,0.6],
+        "visibility":"visible",
+        "text-size":{
+          "stops":[[12,10],[20,30]]
+        },
+        "text-field":"{name}\n",
+        "text-padding":2
+      },
+      "minzoom":13
+    },{
+      "source-layer":"land1",
+      "source":"someoneelse",
+      "type":"symbol",
+      "paint":{
+        "text-color":"#000033",
+        "text-halo-width":1,
+        "text-halo-blur":0.5,
+        "text-halo-color":"#ffffff"
+      },
+      "id":"land1-various-indigo-imagename-15-s10",
+      "target":"svwd10",
+      "filter":["all",["in","class","railway_level_crossing"]],
+      "layout":{
         "icon-size":{
           "stops":[[15,1.0],[20,2.0]]
         },
+        "icon-image":"{class}",
+        "text-anchor":"top",
+        "text-max-width":13,
+        "text-font":["KlokanTech Noto Sans Regular"],
+        "text-field":"{name}\n",
+        "visibility":"visible",
         "text-size":{
           "stops":[[12,10],[20,30]]
         },
-        "text-max-width":13,
-        "text-anchor":"top",
-        "text-field":"{name}\n",
-        "text-offset":[0,0.6],
         "text-padding":2,
-        "icon-image":"{class}"
+        "text-offset":[0,0.6]
       },
-      "paint":{
-        "text-halo-width":1,
-        "text-color":"#000033",
-        "text-halo-blur":0.5,
-        "text-halo-color":"#ffffff"
-      },
-      "minzoom":15,
-      "id":"land1-various-indigo-imagename-15-s10"
+      "minzoom":15
     },{
-      "minzoom":12,
-      "filter":["all",["in","class","waterway_dam"]],
-      "id":"barrier-dam-12",
+      "source-layer":"linearbarrier",
       "paint":{
         "line-width":{
           "base":2.4,
@@ -1856,714 +1851,719 @@
         "line-color":"#444"
       },
       "source":"someoneelse",
+      "id":"barrier-dam-12",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"linearbarrier",
+      "minzoom":12,
+      "filter":["all",["in","class","waterway_dam"]],
       "type":"line"
     },{
-      "filter":["all",["in","class","railway_platform","railway_turntable"]],
-      "target":"svwd10",
       "source-layer":"land1",
-      "type":"symbol",
       "source":"someoneelse",
-      "layout":{
-        "text-max-width":9,
-        "visibility":"visible",
-        "text-anchor":"top",
-        "text-field":"{name}\n",
-        "text-font":["KlokanTech Noto Sans Regular"],
-        "text-offset":[0,0.6],
-        "text-padding":2,
-        "text-size":{
-          "stops":[[12,10],[20,30]]
-        }
-      },
+      "type":"symbol",
       "paint":{
-        "text-halo-width":1,
         "text-color":"black",
+        "text-halo-width":1,
         "text-halo-blur":0.5,
         "text-halo-color":"#ffffff"
       },
-      "minzoom":17,
-      "id":"land1-platform-name-17-s10"
-    },{
-      "filter":["all",["in","class","railway_halt","railway_tram_stop"]],
-      "target":"svwd01,svwd08,svwd10",
-      "source-layer":"land1",
-      "type":"symbol",
-      "source":"someoneelse",
+      "id":"land1-platform-name-17-s10",
+      "target":"svwd10",
+      "filter":["all",["in","class","railway_platform","railway_turntable"]],
       "layout":{
         "visibility":"visible",
-        "icon-image":"railway_station",
+        "text-field":"{name}\n",
+        "text-size":{
+          "stops":[[12,10],[20,30]]
+        },
+        "text-padding":2,
+        "text-offset":[0,0.6],
+        "text-anchor":"top",
+        "text-max-width":9,
+        "text-font":["KlokanTech Noto Sans Regular"]
+      },
+      "minzoom":17
+    },{
+      "source-layer":"land1",
+      "source":"someoneelse",
+      "type":"symbol",
+      "paint":{
+        "text-color":"#0066ff",
+        "text-halo-width":1,
+        "text-halo-blur":0.5,
+        "text-halo-color":"#ffffff"
+      },
+      "id":"land1-railway-lightblue-imagenameoverlap-12",
+      "target":"svwd01,svwd08,svwd10",
+      "filter":["all",["in","class","railway_halt","railway_tram_stop"]],
+      "layout":{
+        "icon-allow-overlap":true,
         "icon-size":{
           "stops":[[12,0.3],[14,0.5],[20,2.0]]
         },
+        "icon-image":"railway_station",
+        "text-anchor":"top",
+        "text-max-width":13,
+        "text-font":["KlokanTech Noto Sans Regular"],
+        "text-field":"{name}\n",
+        "text-optional":true,
+        "visibility":"visible",
         "text-size":{
           "stops":[[12,10],[20,30]]
         },
-        "text-max-width":13,
         "text-padding":2,
-        "text-anchor":"top",
+        "text-offset":[0,0.6]
+      },
+      "minzoom":12
+    },{
+      "source-layer":"land1",
+      "source":"someoneelse",
+      "type":"symbol",
+      "paint":{
+        "text-color":"#6a265d",
+        "text-halo-width":1,
+        "text-halo-blur":0.5,
+        "text-halo-color":"#ffffff"
+      },
+      "id":"land1-industrial-name-17-s10",
+      "target":"svwd10",
+      "filter":["all",["in","class","landuse_railway"],["==","$type","Point"]],
+      "layout":{
+        "visibility":"visible",
         "text-field":"{name}\n",
-        "icon-allow-overlap":true,
+        "text-size":{
+          "stops":[[12,10],[20,30]]
+        },
+        "text-padding":2,
         "text-offset":[0,0.6],
-        "text-optional":true,
+        "text-anchor":"top",
+        "text-max-width":9,
         "text-font":["KlokanTech Noto Sans Regular"]
       },
-      "paint":{
-        "text-halo-width":1,
-        "text-color":"#0066ff",
-        "text-halo-blur":0.5,
-        "text-halo-color":"#ffffff"
-      },
-      "minzoom":12,
-      "id":"land1-railway-lightblue-imagenameoverlap-12"
+      "minzoom":17
     },{
-      "filter":["all",["in","class","landuse_railway"],["==","$type","Point"]],
-      "target":"svwd10",
       "source-layer":"land1",
-      "type":"symbol",
       "source":"someoneelse",
-      "layout":{
-        "text-max-width":9,
-        "visibility":"visible",
-        "text-anchor":"top",
-        "text-field":"{name}\n",
-        "text-font":["KlokanTech Noto Sans Regular"],
-        "text-offset":[0,0.6],
-        "text-padding":2,
-        "text-size":{
-          "stops":[[12,10],[20,30]]
-        }
-      },
+      "type":"symbol",
       "paint":{
-        "text-halo-width":1,
         "text-color":"#6a265d",
+        "text-halo-width":1,
         "text-halo-blur":0.5,
         "text-halo-color":"#ffffff"
       },
-      "minzoom":17,
-      "id":"land1-industrial-name-17-s10"
-    },{
+      "id":"land1-industrial-name-16-s10",
+      "target":"svwd10",
       "filter":["all",["in","class","landuse_railway"],[">","way_area",1290],["==","$type","Point"]],
-      "target":"svwd10",
-      "source-layer":"land1",
-      "type":"symbol",
-      "source":"someoneelse",
       "layout":{
-        "text-max-width":9,
         "visibility":"visible",
-        "text-anchor":"top",
         "text-field":"{name}\n",
-        "text-font":["KlokanTech Noto Sans Regular"],
-        "text-offset":[0,0.6],
-        "text-padding":2,
         "text-size":{
           "stops":[[12,10],[20,30]]
-        }
+        },
+        "text-padding":2,
+        "text-offset":[0,0.6],
+        "text-anchor":"top",
+        "text-max-width":9,
+        "text-font":["KlokanTech Noto Sans Regular"]
       },
+      "minzoom":16
+    },{
+      "source-layer":"land1",
+      "source":"someoneelse",
+      "type":"symbol",
       "paint":{
-        "text-halo-width":1,
         "text-color":"#6a265d",
+        "text-halo-width":1,
         "text-halo-blur":0.5,
         "text-halo-color":"#ffffff"
       },
-      "minzoom":16,
-      "id":"land1-industrial-name-16-s10"
-    },{
+      "id":"land1-industrial-name-15-s10",
+      "target":"svwd10",
       "filter":["all",["in","class","landuse_railway"],[">","way_area",2584],["==","$type","Point"]],
-      "target":"svwd10",
-      "source-layer":"land1",
-      "type":"symbol",
-      "source":"someoneelse",
       "layout":{
-        "text-max-width":9,
         "visibility":"visible",
-        "text-anchor":"top",
         "text-field":"{name}\n",
-        "text-font":["KlokanTech Noto Sans Regular"],
-        "text-offset":[0,0.6],
-        "text-padding":2,
         "text-size":{
           "stops":[[12,10],[20,30]]
-        }
+        },
+        "text-padding":2,
+        "text-offset":[0,0.6],
+        "text-anchor":"top",
+        "text-max-width":9,
+        "text-font":["KlokanTech Noto Sans Regular"]
       },
+      "minzoom":15
+    },{
+      "source-layer":"land1",
+      "source":"someoneelse",
+      "type":"symbol",
       "paint":{
-        "text-halo-width":1,
         "text-color":"#6a265d",
+        "text-halo-width":1,
         "text-halo-blur":0.5,
         "text-halo-color":"#ffffff"
       },
-      "minzoom":15,
-      "id":"land1-industrial-name-15-s10"
-    },{
+      "id":"land1-industrial-name-14-s10",
+      "target":"svwd10",
       "filter":["all",["in","class","landuse_railway"],[">","way_area",12853],["==","$type","Point"]],
-      "target":"svwd10",
-      "source-layer":"land1",
-      "type":"symbol",
-      "source":"someoneelse",
       "layout":{
-        "text-max-width":9,
         "visibility":"visible",
-        "text-anchor":"top",
         "text-field":"{name}\n",
-        "text-font":["KlokanTech Noto Sans Regular"],
-        "text-offset":[0,0.6],
-        "text-padding":2,
         "text-size":{
           "stops":[[12,10],[20,30]]
-        }
+        },
+        "text-padding":2,
+        "text-offset":[0,0.6],
+        "text-anchor":"top",
+        "text-max-width":9,
+        "text-font":["KlokanTech Noto Sans Regular"]
       },
+      "minzoom":14
+    },{
+      "source-layer":"land1",
+      "source":"someoneelse",
+      "type":"symbol",
       "paint":{
-        "text-halo-width":1,
         "text-color":"#6a265d",
+        "text-halo-width":1,
         "text-halo-blur":0.5,
         "text-halo-color":"#ffffff"
       },
-      "minzoom":14,
-      "id":"land1-industrial-name-14-s10"
-    },{
-      "maxzoom":14,
+      "id":"land1-industrial-name-11-13-s10",
+      "target":"svwd10",
       "filter":["all",["in","class","landuse_railway"],["==","$type","Point"]],
-      "target":"svwd10",
-      "source-layer":"land1",
-      "type":"symbol",
-      "source":"someoneelse",
       "layout":{
-        "text-max-width":9,
         "visibility":"visible",
-        "text-anchor":"top",
         "text-field":"{name}\n",
-        "text-font":["KlokanTech Noto Sans Regular"],
-        "text-offset":[0,0.6],
-        "text-padding":2,
         "text-size":{
           "stops":[[12,10],[20,30]]
-        }
+        },
+        "text-padding":2,
+        "text-offset":[0,0.6],
+        "text-anchor":"top",
+        "text-max-width":9,
+        "text-font":["KlokanTech Noto Sans Regular"]
       },
+      "maxzoom":14
+    },{
+      "source-layer":"land1",
+      "source":"someoneelse",
+      "type":"symbol",
       "paint":{
+        "text-color":"#a4aeae",
         "text-halo-width":1,
-        "text-color":"#6a265d",
         "text-halo-blur":0.5,
         "text-halo-color":"#ffffff"
       },
-      "id":"land1-industrial-name-11-13-s10"
-    },{
+      "id":"land1-damarea-name-15",
+      "target":"svwd01,svwd08,svwd10",
       "filter":["all",["in","class","waterway_damarea"],["==","$type","Point"]],
-      "target":"svwd01,svwd08,svwd10",
-      "source-layer":"land1",
-      "type":"symbol",
-      "source":"someoneelse",
       "layout":{
-        "text-max-width":9,
         "visibility":"visible",
-        "text-anchor":"top",
         "text-field":"{name}\n",
-        "text-font":["KlokanTech Noto Sans Regular"],
-        "text-offset":[0,0.6],
-        "text-padding":2,
         "text-size":{
           "stops":[[12,10],[20,30]]
-        }
+        },
+        "text-padding":2,
+        "text-offset":[0,0.6],
+        "text-anchor":"top",
+        "text-max-width":9,
+        "text-font":["KlokanTech Noto Sans Regular"]
       },
+      "minzoom":15
+    },{
+      "source-layer":"land1",
+      "source":"someoneelse",
+      "type":"symbol",
       "paint":{
-        "text-halo-width":1,
         "text-color":"#a4aeae",
+        "text-halo-width":1,
         "text-halo-blur":0.5,
         "text-halo-color":"#ffffff"
       },
-      "minzoom":15,
-      "id":"land1-damarea-name-15"
-    },{
+      "id":"land1-damarea-name-14",
+      "target":"svwd01,svwd08,svwd10",
       "filter":["all",["in","class","waterway_damarea"],[">","way_area",24000],["==","$type","Point"]],
-      "target":"svwd01,svwd08,svwd10",
-      "source-layer":"land1",
-      "type":"symbol",
-      "source":"someoneelse",
       "layout":{
-        "text-max-width":9,
         "visibility":"visible",
-        "text-anchor":"top",
         "text-field":"{name}\n",
-        "text-font":["KlokanTech Noto Sans Regular"],
-        "text-offset":[0,0.6],
-        "text-padding":2,
         "text-size":{
           "stops":[[12,10],[20,30]]
-        }
+        },
+        "text-padding":2,
+        "text-offset":[0,0.6],
+        "text-anchor":"top",
+        "text-max-width":9,
+        "text-font":["KlokanTech Noto Sans Regular"]
       },
+      "minzoom":14
+    },{
+      "source-layer":"land1",
+      "source":"someoneelse",
+      "type":"symbol",
       "paint":{
-        "text-halo-width":1,
         "text-color":"#a4aeae",
+        "text-halo-width":1,
         "text-halo-blur":0.5,
         "text-halo-color":"#ffffff"
       },
-      "minzoom":14,
-      "id":"land1-damarea-name-14"
-    },{
+      "id":"land1-damarea-name-13",
+      "target":"svwd01,svwd08,svwd10",
       "filter":["all",["in","class","waterway_damarea"],[">","way_area",68728],["==","$type","Point"]],
-      "target":"svwd01,svwd08,svwd10",
-      "source-layer":"land1",
-      "type":"symbol",
-      "source":"someoneelse",
       "layout":{
-        "text-max-width":9,
         "visibility":"visible",
-        "text-anchor":"top",
         "text-field":"{name}\n",
-        "text-font":["KlokanTech Noto Sans Regular"],
-        "text-offset":[0,0.6],
-        "text-padding":2,
         "text-size":{
           "stops":[[12,10],[20,30]]
-        }
+        },
+        "text-padding":2,
+        "text-offset":[0,0.6],
+        "text-anchor":"top",
+        "text-max-width":9,
+        "text-font":["KlokanTech Noto Sans Regular"]
       },
+      "minzoom":13
+    },{
+      "source-layer":"land1",
+      "source":"someoneelse",
+      "type":"symbol",
       "paint":{
-        "text-halo-width":1,
         "text-color":"#a4aeae",
+        "text-halo-width":1,
         "text-halo-blur":0.5,
         "text-halo-color":"#ffffff"
       },
-      "minzoom":13,
-      "id":"land1-damarea-name-13"
-    },{
+      "id":"land1-damarea-name-12",
+      "target":"svwd01,svwd08,svwd10",
       "filter":["all",["in","class","waterway_damarea"],[">","way_area",274914],["==","$type","Point"]],
-      "target":"svwd01,svwd08,svwd10",
-      "source-layer":"land1",
-      "type":"symbol",
-      "source":"someoneelse",
       "layout":{
-        "text-max-width":9,
         "visibility":"visible",
-        "text-anchor":"top",
         "text-field":"{name}\n",
-        "text-font":["KlokanTech Noto Sans Regular"],
-        "text-offset":[0,0.6],
-        "text-padding":2,
         "text-size":{
           "stops":[[12,10],[20,30]]
-        }
+        },
+        "text-padding":2,
+        "text-offset":[0,0.6],
+        "text-anchor":"top",
+        "text-max-width":9,
+        "text-font":["KlokanTech Noto Sans Regular"]
       },
+      "minzoom":12
+    },{
+      "source-layer":"place",
+      "source":"someoneelse",
+      "type":"symbol",
       "paint":{
+        "text-color":"#222",
         "text-halo-width":1,
-        "text-color":"#a4aeae",
         "text-halo-blur":0.5,
         "text-halo-color":"#ffffff"
       },
-      "minzoom":12,
-      "id":"land1-damarea-name-12"
-    },{
+      "id":"place-island-18",
+      "target":"svwd01,svwd08,svwd10",
       "filter":["in","class","island","locality"],
-      "target":"svwd01,svwd08,svwd10",
-      "source-layer":"place",
-      "type":"symbol",
-      "source":"someoneelse",
       "layout":{
-        "text-max-width":9,
         "visibility":"visible",
-        "text-anchor":"top",
         "text-field":"{name}\n",
-        "text-font":["KlokanTech Noto Sans Italic"],
-        "text-offset":[0,0.6],
-        "text-padding":2,
         "text-size":{
           "stops":[[13,10],[20,30]]
-        }
+        },
+        "text-padding":2,
+        "text-offset":[0,0.6],
+        "text-anchor":"top",
+        "text-max-width":9,
+        "text-font":["KlokanTech Noto Sans Italic"]
       },
+      "minzoom":18
+    },{
+      "source-layer":"place",
+      "source":"someoneelse",
+      "type":"symbol",
       "paint":{
-        "text-halo-width":1,
         "text-color":"#222",
+        "text-halo-width":1,
         "text-halo-blur":0.5,
         "text-halo-color":"#ffffff"
       },
-      "minzoom":18,
-      "id":"place-island-18"
-    },{
+      "id":"place-island-17",
+      "target":"svwd01,svwd08,svwd10",
       "filter":["all",["in","class","island","locality"],[">","way_area",1000]],
-      "target":"svwd01,svwd08,svwd10",
-      "source-layer":"place",
-      "type":"symbol",
-      "source":"someoneelse",
       "layout":{
-        "text-max-width":9,
         "visibility":"visible",
-        "text-anchor":"top",
         "text-field":"{name}\n",
-        "text-font":["KlokanTech Noto Sans Italic"],
-        "text-offset":[0,0.6],
-        "text-padding":2,
         "text-size":{
           "stops":[[13,10],[20,30]]
-        }
+        },
+        "text-padding":2,
+        "text-offset":[0,0.6],
+        "text-anchor":"top",
+        "text-max-width":9,
+        "text-font":["KlokanTech Noto Sans Italic"]
       },
+      "minzoom":17
+    },{
+      "source-layer":"place",
+      "source":"someoneelse",
+      "type":"symbol",
       "paint":{
-        "text-halo-width":1,
         "text-color":"#222",
+        "text-halo-width":1,
         "text-halo-blur":0.5,
         "text-halo-color":"#ffffff"
       },
-      "minzoom":17,
-      "id":"place-island-17"
-    },{
+      "id":"place-island-16",
+      "target":"svwd01,svwd08,svwd10",
       "filter":["all",["in","class","island","locality"],[">","way_area",2000]],
-      "target":"svwd01,svwd08,svwd10",
-      "source-layer":"place",
-      "type":"symbol",
-      "source":"someoneelse",
       "layout":{
-        "text-max-width":9,
         "visibility":"visible",
-        "text-anchor":"top",
         "text-field":"{name}\n",
-        "text-font":["KlokanTech Noto Sans Italic"],
-        "text-offset":[0,0.6],
-        "text-padding":2,
         "text-size":{
           "stops":[[13,10],[20,30]]
-        }
+        },
+        "text-padding":2,
+        "text-offset":[0,0.6],
+        "text-anchor":"top",
+        "text-max-width":9,
+        "text-font":["KlokanTech Noto Sans Italic"]
       },
+      "minzoom":16
+    },{
+      "source-layer":"place",
+      "source":"someoneelse",
+      "type":"symbol",
       "paint":{
-        "text-halo-width":1,
         "text-color":"#222",
+        "text-halo-width":1,
         "text-halo-blur":0.5,
         "text-halo-color":"#ffffff"
       },
-      "minzoom":16,
-      "id":"place-island-16"
-    },{
+      "id":"place-island-15",
+      "target":"svwd01,svwd08,svwd10",
       "filter":["all",["in","class","island","locality"],[">","way_area",10000]],
-      "target":"svwd01,svwd08,svwd10",
-      "source-layer":"place",
-      "type":"symbol",
-      "source":"someoneelse",
       "layout":{
-        "text-max-width":9,
         "visibility":"visible",
-        "text-anchor":"top",
         "text-field":"{name}\n",
-        "text-font":["KlokanTech Noto Sans Italic"],
-        "text-offset":[0,0.6],
-        "text-padding":2,
         "text-size":{
           "stops":[[13,10],[20,30]]
-        }
+        },
+        "text-padding":2,
+        "text-offset":[0,0.6],
+        "text-anchor":"top",
+        "text-max-width":9,
+        "text-font":["KlokanTech Noto Sans Italic"]
       },
+      "minzoom":15
+    },{
+      "source-layer":"place",
+      "source":"someoneelse",
+      "type":"symbol",
       "paint":{
-        "text-halo-width":1,
         "text-color":"#222",
+        "text-halo-width":1,
         "text-halo-blur":0.5,
         "text-halo-color":"#ffffff"
       },
-      "minzoom":15,
-      "id":"place-island-15"
-    },{
+      "id":"place-island-14",
+      "target":"svwd01,svwd08,svwd10",
       "filter":["all",["in","class","island","locality"],[">","way_area",50000]],
-      "target":"svwd01,svwd08,svwd10",
-      "source-layer":"place",
-      "type":"symbol",
-      "source":"someoneelse",
       "layout":{
-        "text-max-width":9,
         "visibility":"visible",
-        "text-anchor":"top",
         "text-field":"{name}\n",
-        "text-font":["KlokanTech Noto Sans Italic"],
-        "text-offset":[0,0.6],
-        "text-padding":2,
         "text-size":{
           "stops":[[13,10],[20,30]]
-        }
+        },
+        "text-padding":2,
+        "text-offset":[0,0.6],
+        "text-anchor":"top",
+        "text-max-width":9,
+        "text-font":["KlokanTech Noto Sans Italic"]
       },
+      "minzoom":14
+    },{
+      "source-layer":"place",
+      "source":"someoneelse",
+      "type":"symbol",
       "paint":{
-        "text-halo-width":1,
         "text-color":"#222",
+        "text-halo-width":1,
         "text-halo-blur":0.5,
         "text-halo-color":"#ffffff"
       },
-      "minzoom":14,
-      "id":"place-island-14"
-    },{
-      "maxzoom":14,
+      "id":"place-island-6-13",
+      "target":"svwd01,svwd08,svwd10",
       "filter":["all",["in","class","island","locality"]],
-      "target":"svwd01,svwd08,svwd10",
-      "source-layer":"place",
-      "type":"symbol",
-      "source":"someoneelse",
       "layout":{
-        "text-max-width":9,
         "visibility":"visible",
-        "text-anchor":"top",
         "text-field":"{name}\n",
-        "text-font":["KlokanTech Noto Sans Italic"],
-        "text-offset":[0,0.6],
-        "text-padding":2,
         "text-size":{
           "stops":[[13,10],[20,30]]
-        }
+        },
+        "text-padding":2,
+        "text-offset":[0,0.6],
+        "text-anchor":"top",
+        "text-max-width":9,
+        "text-font":["KlokanTech Noto Sans Italic"]
       },
+      "maxzoom":14
+    },{
+      "source-layer":"place",
+      "source":"someoneelse",
+      "type":"symbol",
       "paint":{
-        "text-halo-width":1,
         "text-color":"#222",
+        "text-halo-width":1,
         "text-halo-blur":0.5,
         "text-halo-color":"#ffffff"
       },
-      "id":"place-island-6-13"
-    },{
+      "id":"place-farm-14",
+      "target":"svwd01,svwd08,svwd10",
       "filter":["in","class","farm","isolated_dwelling"],
-      "target":"svwd01,svwd08,svwd10",
-      "source-layer":"place",
-      "type":"symbol",
-      "source":"someoneelse",
       "layout":{
-        "text-max-width":9,
         "visibility":"visible",
-        "text-anchor":"top",
         "text-field":"{name}\n",
-        "text-font":["KlokanTech Noto Sans Regular"],
-        "text-offset":[0,0.6],
-        "text-padding":2,
         "text-size":{
           "stops":[[13,10],[20,30]]
-        }
+        },
+        "text-padding":2,
+        "text-offset":[0,0.6],
+        "text-anchor":"top",
+        "text-max-width":9,
+        "text-font":["KlokanTech Noto Sans Regular"]
       },
+      "minzoom":14
+    },{
+      "source-layer":"place",
+      "source":"someoneelse",
+      "type":"symbol",
       "paint":{
-        "text-halo-width":1,
         "text-color":"#222",
+        "text-halo-width":1,
         "text-halo-blur":0.5,
         "text-halo-color":"#ffffff"
       },
-      "minzoom":14,
-      "id":"place-farm-14"
-    },{
+      "id":"place-hamlet-13",
+      "target":"svwd01,svwd08,svwd10",
       "filter":["in","class","hamlet","neighbourhood"],
-      "target":"svwd01,svwd08,svwd10",
-      "source-layer":"place",
-      "type":"symbol",
-      "source":"someoneelse",
       "layout":{
-        "text-max-width":9,
         "visibility":"visible",
-        "text-anchor":"top",
         "text-field":"{name}\n",
-        "text-font":["KlokanTech Noto Sans Regular"],
-        "text-offset":[0,0.6],
-        "text-padding":2,
         "text-size":{
           "stops":[[13,10],[20,30]]
-        }
+        },
+        "text-padding":2,
+        "text-offset":[0,0.6],
+        "text-anchor":"top",
+        "text-max-width":9,
+        "text-font":["KlokanTech Noto Sans Regular"]
       },
+      "minzoom":13
+    },{
+      "source-layer":"place",
+      "source":"someoneelse",
+      "type":"symbol",
       "paint":{
-        "text-halo-width":1,
         "text-color":"#222",
+        "text-halo-width":1,
         "text-halo-blur":0.5,
         "text-halo-color":"#ffffff"
       },
-      "minzoom":13,
-      "id":"place-hamlet-13"
-    },{
-      "filter":["in","class","village","suburb"],
+      "id":"place-village-11",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"place",
-      "type":"symbol",
-      "source":"someoneelse",
+      "filter":["in","class","village","suburb"],
       "layout":{
-        "text-max-width":9,
         "visibility":"visible",
-        "text-anchor":"top",
         "text-field":"{name}\n",
-        "text-font":["KlokanTech Noto Sans Regular"],
-        "text-offset":[0,0.6],
-        "text-padding":2,
         "text-size":{
           "stops":[[11,10],[12,12.5],[20,37.5]]
-        }
+        },
+        "text-padding":2,
+        "text-offset":[0,0.6],
+        "text-anchor":"top",
+        "text-max-width":9,
+        "text-font":["KlokanTech Noto Sans Regular"]
       },
+      "minzoom":11
+    },{
+      "source-layer":"place",
+      "source":"someoneelse",
+      "type":"symbol",
       "paint":{
-        "text-halo-width":1,
         "text-color":"#222",
+        "text-halo-width":1,
         "text-halo-blur":0.5,
         "text-halo-color":"#ffffff"
       },
-      "minzoom":11,
-      "id":"place-village-11"
-    },{
-      "filter":["in","class","town"],
+      "id":"place-town-8",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"place",
-      "type":"symbol",
-      "source":"someoneelse",
+      "filter":["in","class","town"],
       "layout":{
-        "text-max-width":9,
         "visibility":"visible",
-        "text-anchor":"top",
         "text-field":"{name}\n",
-        "text-font":["KlokanTech Noto Sans Regular"],
-        "text-offset":[0,0.6],
-        "text-padding":2,
         "text-size":{
           "stops":[[8,10],[12,15],[20,45]]
-        }
+        },
+        "text-padding":2,
+        "text-offset":[0,0.6],
+        "text-anchor":"top",
+        "text-max-width":9,
+        "text-font":["KlokanTech Noto Sans Regular"]
       },
+      "minzoom":8
+    },{
+      "source-layer":"place",
+      "source":"someoneelse",
+      "type":"symbol",
       "paint":{
-        "text-halo-width":1,
         "text-color":"#222",
+        "text-halo-width":1,
         "text-halo-blur":0.5,
         "text-halo-color":"#ffffff"
       },
-      "minzoom":8,
-      "id":"place-town-8"
-    },{
-      "filter":["in","class","city"],
+      "id":"place-city-5",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"place",
-      "type":"symbol",
-      "source":"someoneelse",
+      "filter":["in","class","city"],
       "layout":{
-        "text-max-width":9,
         "visibility":"visible",
-        "text-anchor":"top",
         "text-field":"{name}\n",
-        "text-font":["KlokanTech Noto Sans Regular"],
-        "text-offset":[0,0.6],
-        "text-padding":2,
         "text-size":{
           "stops":[[5,10],[12,20],[20,60]]
-        }
+        },
+        "text-padding":2,
+        "text-offset":[0,0.6],
+        "text-anchor":"top",
+        "text-max-width":9,
+        "text-font":["KlokanTech Noto Sans Regular"]
       },
+      "minzoom":5
+    },{
+      "source-layer":"place",
+      "source":"someoneelse",
+      "type":"symbol",
       "paint":{
-        "text-halo-width":1,
         "text-color":"#222",
+        "text-halo-width":1,
         "text-halo-blur":0.5,
         "text-halo-color":"#ffffff"
       },
-      "minzoom":5,
-      "id":"place-city-5"
-    },{
-      "filter":["in","class","capital"],
+      "id":"place-capital-3",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"place",
-      "type":"symbol",
-      "source":"someoneelse",
+      "filter":["in","class","capital"],
       "layout":{
-        "text-max-width":9,
         "visibility":"visible",
-        "text-anchor":"top",
         "text-field":"{name}\n",
-        "text-font":["KlokanTech Noto Sans Regular"],
-        "text-offset":[0,0.6],
-        "text-padding":2,
         "text-size":{
           "stops":[[3,10],[12,25],[20,75]]
-        }
+        },
+        "text-padding":2,
+        "text-offset":[0,0.6],
+        "text-anchor":"top",
+        "text-max-width":9,
+        "text-font":["KlokanTech Noto Sans Regular"]
       },
+      "minzoom":3
+    },{
+      "source-layer":"place",
+      "source":"someoneelse",
+      "type":"symbol",
       "paint":{
-        "text-halo-width":1,
         "text-color":"#222",
+        "text-halo-width":1,
         "text-halo-blur":0.5,
         "text-halo-color":"#ffffff"
       },
-      "minzoom":3,
-      "id":"place-capital-3"
-    },{
-      "maxzoom":8,
-      "filter":["in","class","country","state"],
+      "id":"place-country",
       "target":"svwd01,svwd08,svwd10",
-      "source-layer":"place",
-      "type":"symbol",
-      "source":"someoneelse",
+      "filter":["in","class","country","state"],
       "layout":{
-        "text-max-width":9,
         "visibility":"visible",
-        "text-anchor":"top",
         "text-field":"{name}\n",
-        "text-font":["KlokanTech Noto Sans Regular"],
-        "text-offset":[0,0.6],
-        "text-padding":2,
         "text-size":{
           "stops":[[3,10],[12,20],[20,60]]
-        }
+        },
+        "text-padding":2,
+        "text-offset":[0,0.6],
+        "text-anchor":"top",
+        "text-max-width":9,
+        "text-font":["KlokanTech Noto Sans Regular"]
       },
+      "maxzoom":8
+    },{
+      "source-layer":"land1",
+      "source":"someoneelse",
+      "type":"symbol",
       "paint":{
+        "text-color":"#0066ff",
         "text-halo-width":1,
-        "text-color":"#222",
         "text-halo-blur":0.5,
         "text-halo-color":"#ffffff"
       },
-      "id":"place-country"
-    },{
+      "id":"land1-railway-lightblue-imagenameoverlap-9-s10",
+      "target":"svwd10",
       "filter":["all",["in","class","railway_tubestation"]],
-      "target":"svwd10",
-      "source-layer":"land1",
-      "type":"symbol",
-      "source":"someoneelse",
       "layout":{
-        "visibility":"visible",
-        "icon-image":"railway_station",
+        "icon-allow-overlap":true,
         "icon-size":{
           "stops":[[11,0.3],[13,0.5],[20,3.0]]
         },
+        "icon-image":"railway_station",
+        "text-anchor":"top",
+        "text-max-width":13,
+        "text-font":["KlokanTech Noto Sans Regular"],
+        "text-field":"{name}\n",
+        "text-optional":true,
+        "visibility":"visible",
         "text-size":{
           "stops":[[12,10],[20,30]]
         },
-        "text-max-width":13,
         "text-padding":2,
-        "text-anchor":"top",
-        "text-field":"{name}\n",
-        "icon-allow-overlap":true,
-        "text-offset":[0,0.6],
-        "text-optional":true,
-        "text-font":["KlokanTech Noto Sans Regular"]
+        "text-offset":[0,0.6]
       },
-      "paint":{
-        "text-halo-width":1,
-        "text-color":"#0066ff",
-        "text-halo-blur":0.5,
-        "text-halo-color":"#ffffff"
-      },
-      "minzoom":9,
-      "id":"land1-railway-lightblue-imagenameoverlap-9-s10"
+      "minzoom":9
     },{
-      "filter":["all",["in","class","railway_station"]],
-      "target":"svwd10",
       "source-layer":"land1",
-      "type":"symbol",
       "source":"someoneelse",
-      "layout":{
-        "visibility":"visible",
-        "icon-image":"railway_station",
-        "icon-size":{
-          "stops":[[11,0.3],[13,0.5],[20,3.0]]
-        },
-        "text-size":{
-          "stops":[[12,10],[20,30]]
-        },
-        "text-max-width":13,
-        "text-padding":2,
-        "text-anchor":"top",
-        "text-field":"{name}\n",
-        "icon-allow-overlap":true,
-        "text-offset":[0,0.6],
-        "text-optional":true,
-        "text-font":["KlokanTech Noto Sans Regular"]
-      },
+      "type":"symbol",
       "paint":{
-        "text-halo-width":1,
         "text-color":"#0066ff",
+        "text-halo-width":1,
         "text-halo-blur":0.5,
         "text-halo-color":"#ffffff"
       },
-      "minzoom":7,
-      "id":"land1-railway-lightblue-imagenameoverlap-7-s10"
+      "id":"land1-railway-lightblue-imagenameoverlap-7-s10",
+      "target":"svwd10",
+      "filter":["all",["in","class","railway_station"]],
+      "layout":{
+        "icon-allow-overlap":true,
+        "icon-size":{
+          "stops":[[11,0.3],[13,0.5],[20,3.0]]
+        },
+        "icon-image":"railway_station",
+        "text-anchor":"top",
+        "text-max-width":13,
+        "text-font":["KlokanTech Noto Sans Regular"],
+        "text-field":"{name}\n",
+        "text-optional":true,
+        "visibility":"visible",
+        "text-size":{
+          "stops":[[12,10],[20,30]]
+        },
+        "text-padding":2,
+        "text-offset":[0,0.6]
+      },
+      "minzoom":7
     }],
+  "center":[-1,54],
+  "metadata":{
+  },
+  "name":"SPEC_NAME",
+  "glyphs":"FONT_URL{fontstack}/{range}.pbf",
+  "id":"SPEC_NAME",
+  "pitch":0,
   "zoom":15,
+  "sprite":"SPRITE_URL",
   "sources":{
     "someoneelse":{
       "url":"SPEC_URL",
       "type":"vector"
     }
-  },
-  "glyphs":"FONT_URL{fontstack}/{range}.pbf",
-  "bearing":0,
-  "name":"SPEC_NAME",
-  "version":8,
-  "pitch":0
+  }
 }

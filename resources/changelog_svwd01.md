@@ -4,6 +4,7 @@ Except as noted, all changes also apply to the [SVWD06 Android native display st
 
 As yet unreleased
 Make trees less prominent at lower zooms.
+Added icon for `shop=ticket`.  
 
 ## 25/05/2026
 Show playground balance beams.

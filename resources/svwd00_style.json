@@ -18796,6 +18796,7 @@
                                                 "shop_stationery",
                                                 "shop_storage_rental",
                                                 "shop_tattoo",
+                                                "shop_ticket",
                                                 "shop_toys",
                                                 "shop_travel_agent" ],
 	                       [ "==", "$type", "Point" ] ],

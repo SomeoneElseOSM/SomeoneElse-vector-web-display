@@ -1488,6 +1488,18 @@
 	    }
 	},
 	{
+	    "id": "land2-unnamedhistoriccemetery-fill-13",
+	    "type": "fill",
+	    "source": "someoneelse",
+            "target": "svwd01,svwd08",
+	    "source-layer": "land2",
+	    "minzoom": 13,
+	    "filter": [ "all", [ "in", "class", "landuse_unnamedhistoriccemetery" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_landuse_historiccemetery"
+	    }
+	},
+	{
 	    "id": "land2-unnamedchristiancemetery-fill-13",
 	    "type": "fill",
 	    "source": "someoneelse",
@@ -1956,6 +1968,18 @@
 	    "filter": [ "all", [ "in", "class", "landuse_othercemetery" ] ],
 	    "paint": {
 		"fill-pattern": "pattern_landuse_othercemetery"
+	    }
+	},
+	{
+	    "id": "land1-historiccemetery-fill-13",
+	    "type": "fill",
+	    "source": "someoneelse",
+            "target": "svwd01,svwd08",
+	    "source-layer": "land1",
+	    "minzoom": 13,
+	    "filter": [ "all", [ "in", "class", "landuse_historiccemetery" ] ],
+	    "paint": {
+		"fill-pattern": "pattern_landuse_historiccemetery"
 	    }
 	},
 	{

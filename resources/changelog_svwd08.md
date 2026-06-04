@@ -3,6 +3,7 @@
 As yet unreleased
 Make trees less prominent at lower zooms.
 Added icon for `shop=ticket`.  
+Historic cemeteries are now shown in a similar way to historic quarries.
 
 ## 25/05/2026
 Show playground balance beams.

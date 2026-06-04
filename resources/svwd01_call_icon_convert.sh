@@ -1093,6 +1093,9 @@ qqq
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/power_tower_5x5.png                             ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/power_tower.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/power_pole.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/power_pole.png
 
+# Area patterns used with the "land1" and "land2" layers with a transparent layer
+cp ~/src/openstreetmap-carto-AJT/symbols/historic_grave_yard.png                               ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_historiccemetery.png
+
 #
 # Area patterns used with the "land1" and "land2" layers:
 # These must be 32x32 to avoid a white background

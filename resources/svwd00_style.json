@@ -17024,7 +17024,9 @@
 	    "source-layer": "land1",
 	    "minzoom": 17,
 	    "filter": [ "all", [ "in", "class", "amenity_left_luggage",
-                                                "amenity_parcel_locker" ] ],
+                                                "amenity_parcel_locker",
+                                                "amenity_binoculars_free",
+                                                "amenity_binoculars_pay" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"icon-size": { "stops": [ [ 17, 1.0 ], 

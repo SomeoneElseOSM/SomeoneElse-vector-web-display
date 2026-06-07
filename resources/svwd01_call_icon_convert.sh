@@ -739,6 +739,8 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/pub_ydddnnndd.p.16.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_pub_ydddnnndd.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/pub_cddddddd.p.16.png                           ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_pub_cddddddd.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/pub_nddddddd.p.16.png                           ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_pub_nddddddd.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/binoculars_free.20.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_binoculars_free.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/binoculars_pay.20.png                           ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_binoculars_pay.png
 #
 # barrier
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/cattlegridx2.png                                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/barrier_cattle_grid.png

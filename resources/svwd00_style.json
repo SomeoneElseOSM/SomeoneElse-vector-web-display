@@ -19247,6 +19247,7 @@
 	    "filter": [ "all", [ "in", "class", "amenity_pitch_tabletennis",
                                                 "amenity_pitch_soccer",
                                                 "amenity_pitch_basketball",
+                                                "amenity_pitch_archery",
                                                 "amenity_pitch_cricket",
                                                 "amenity_pitch_skateboard",
                                                 "amenity_pitch_climbing",

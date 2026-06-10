@@ -3450,6 +3450,50 @@
 	    }
 	},
 	{
+	    "id": "marker-oneway-15",
+	    "type": "symbol",
+	    "source-layer": "streets",
+	    "filter": [ "all", [ "in", "kind", "motorway", "motorway_link", "trunk", "trunk_link", 
+                                                "primary", "primary_link", "secondary", "secondary_link", 
+                                                "tertiary", "tertiary_link",
+                                                "unclassified", "residential", "pedestrian", 
+                                                "service", "road" ],
+                               [ "==", "oneway", true ],
+                               [ "!=", "bridge", true ] ],
+	    "layout": {
+                "icon-image": "marker_oneway",
+		"icon-size": { "stops": [ [ 15, 0.5 ], 
+                                          [ 17, 0.5 ], 
+                                          [ 20, 1.5 ] ] },
+		"symbol-placement": "line",
+		"symbol-spacing": 240
+	    },
+	    "source": "someoneelse",
+	    "minzoom": 15
+	},
+	{
+	    "id": "marker-onewayminusone-15",
+	    "type": "symbol",
+	    "source-layer": "streets",
+	    "filter": [ "all", [ "in", "kind", "motorway", "motorway_link", "trunk", "trunk_link", 
+                                                "primary", "primary_link", "secondary", "secondary_link", 
+                                                "tertiary", "tertiary_link",
+                                                "unclassified", "residential", "pedestrian", 
+                                                "service", "road" ],
+                               [ "==", "oneway_reverse", true ],
+                               [ "!=", "bridge", true ] ],
+	    "layout": {
+                "icon-image": "marker_onewayminusone",
+		"icon-size": { "stops": [ [ 15, 0.5 ], 
+                                          [ 17, 0.5 ], 
+                                          [ 20, 1.5 ] ] },
+		"symbol-placement": "line",
+		"symbol-spacing": 240
+	    },
+	    "source": "someoneelse",
+	    "minzoom": 15
+	},
+	{
 	    "id": "highway-footway-bridgecasing-12",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -5287,7 +5331,7 @@
 	    }
 	},
 	{
-	    "id": "marker-oneway-15",
+	    "id": "marker-onewaybridge-15",
 	    "type": "symbol",
 	    "source-layer": "streets",
 	    "filter": [ "all", [ "in", "kind", "motorway", "motorway_link", "trunk", "trunk_link", 
@@ -5295,7 +5339,8 @@
                                                 "tertiary", "tertiary_link",
                                                 "unclassified", "residential", "pedestrian", 
                                                 "service", "road" ],
-                               [ "==", "oneway", true ] ],
+                               [ "==", "oneway", true ],
+                               [ "==", "bridge", true ] ],
 	    "layout": {
                 "icon-image": "marker_oneway",
 		"icon-size": { "stops": [ [ 15, 0.5 ], 
@@ -5308,7 +5353,7 @@
 	    "minzoom": 15
 	},
 	{
-	    "id": "marker-onewayminusone-15",
+	    "id": "marker-onewayminusonebridge-15",
 	    "type": "symbol",
 	    "source-layer": "streets",
 	    "filter": [ "all", [ "in", "kind", "motorway", "motorway_link", "trunk", "trunk_link", 
@@ -5316,7 +5361,8 @@
                                                 "tertiary", "tertiary_link",
                                                 "unclassified", "residential", "pedestrian", 
                                                 "service", "road" ],
-                               [ "==", "oneway_reverse", true ] ],
+                               [ "==", "oneway_reverse", true ],
+                               [ "==", "bridge", true ] ],
 	    "layout": {
                 "icon-image": "marker_onewayminusone",
 		"icon-size": { "stops": [ [ 15, 0.5 ], 

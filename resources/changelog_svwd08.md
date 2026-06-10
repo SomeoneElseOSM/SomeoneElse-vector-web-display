@@ -1,5 +1,8 @@
 # Changes made to the [SVWD08 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd08.md).  
 
+## As yet unreleased
+Don't show non-bridge oneway arrows over the top of bridges over them.
+
 ## 04/06/2026
 Make trees less prominent at lower zooms.
 Added icon for `shop=ticket`.  

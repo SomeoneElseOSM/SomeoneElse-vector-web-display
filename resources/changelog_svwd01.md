@@ -4,6 +4,7 @@ Except as noted, all changes also apply to the [SVWD06 Android native display st
 
 ## As yet unreleased
 Don't show non-bridge oneway arrows over the top of bridges over them.
+Show gates at vector zoom 14 smaller.
 
 ## 04/06/2026
 Make trees less prominent at lower zooms.

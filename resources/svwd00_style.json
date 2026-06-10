@@ -19504,7 +19504,7 @@
 	    "layout": {
 		"icon-image": "{class}",
                 "icon-allow-overlap": true,
-		"icon-size": { "stops": [ [ 14, 0.5 ], 
+		"icon-size": { "stops": [ [ 14, 0.25 ], 
                                           [ 18, 1.0 ], 
                                           [ 20, 2.0 ] ] },
 		"text-anchor": "top",

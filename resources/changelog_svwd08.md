@@ -1,6 +1,6 @@
 # Changes made to the [SVWD08 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd08.md).  
 
-## As yet unreleased
+## 14/06/2026
 Don't show non-bridge oneway arrows over the top of bridges over them.
 Show gates at vector zoom 14 smaller.
 

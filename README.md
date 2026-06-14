@@ -6,7 +6,7 @@ This repository contains:
 
 and also these in [resources](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/tree/main/resources):
 
-* [SVWD00](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd00.md), a style library for the styles based on the [SVE01 schema](https://github.com/SomeoneElseOSM/SomeoneElse-vector-extract/blob/main/resources/README_sve01.md).  [svwd_process_style.lua](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/svwd_process_style.lua) can be used to generate SVWD01, SVWD08 and SVWD10 from it.
+* SVWD00, a style library for the styles based on the [SVE01 schema](https://github.com/SomeoneElseOSM/SomeoneElse-vector-extract/blob/main/resources/README_sve01.md).  [svwd_process_style.lua](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/svwd_process_style.lua) can be used to generate SVWD01, SVWD08 and SVWD10 from it.
 * [SVWD01](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd01.md), an example web map style based on the [SVE01 schema](https://github.com/SomeoneElseOSM/SomeoneElse-vector-extract/blob/main/resources/README_sve01.md).  Visible [here](https://map.atownsend.org.uk/vector/index.html#8/54.031/-1.661)
 * [SVWD06](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd06.md), based on an example Android Native style.  Generated programmatically from SVWD01.  Visible as a web map [here](https://map.atownsend.org.uk/vector/index_svwd06.html#10/53.995/-1.2908)
 * [SVWD03](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd03.md), a [Shortbread](https://shortbread-tiles.org/schema/1.0/) map style designed to use [OSMF's minutely updated vector tiles demo](https://community.openstreetmap.org/t/minutely-updated-vector-tiles-demo/110121).  Visible [here](https://map.atownsend.org.uk/vector/index_osmf_shortbread.html).
@@ -35,6 +35,8 @@ You can then do things like
     lua .../path/to/svwd_process_style.lua .../path/to/svwd00_style.json .../path/to/svwd08_style.json svwd08
 
 which will create "svwd08_style.json" from "svwd08_style.json" by including all the layers marked either with no target (by default they go everywhere) or the style that we want to create (here, "svwd08").
+
+It requires a JSON library dkjson.lua.  Download the latest from https://dkolf.de/dkjson-lua/ , rename the resulting file to "dkjson.lua" and put it somewhere that lua will find it such as "/usr/local/share/lua/5.3/".
 
 This allows one style file to be maintained rather than three or more.  However, this is very much a minimal approach - the least amount of work to create something that did what was needed for these styles.  Alternatives exist - see e.g. [glug](https://github.com/systemed/glug) and the discussion on [this diary entry](https://www.openstreetmap.org/user/pnorman/diary/406599).
 

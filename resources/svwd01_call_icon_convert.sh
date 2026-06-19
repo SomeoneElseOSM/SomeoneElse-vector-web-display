@@ -904,7 +904,6 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/illuminationtower.png                           ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_illuminationtower.png 
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/militarybunker.png                              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_militarybunker.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/manmade_mine.png                                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_mineshaft.png
-qqq
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/monitoringearthquake.png                        ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_monitoringearthquake.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/monitoringrainfall.png                          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_monitoringrainfall.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/monitoringsky.png                               ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/man_made_monitoringsky.png
@@ -1095,9 +1094,6 @@ qqq
 # power
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/power_tower_5x5.png                             ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/power_tower.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/power_pole.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/power_pole.png
-
-# Area patterns used with the "land1" and "land2" layers with a transparent layer
-# qqq
 
 #
 # Area patterns used with the "land1" and "land2" layers:

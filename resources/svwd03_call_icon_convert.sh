@@ -392,16 +392,7 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/bus_stop_pole_24.png                         ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/bus_stop.png
 
 #
-# Area patterns used with the "land" layer:
-# These must be 32x32 to avoid a white background
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/military_red_hatch.png                                ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/pattern_danger_area.png
-
-#
 # Many are converted from a 32x32 version in svwd01_source_icons,
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/beach32.png              ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/pattern_beach.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/rock32.png             ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/pattern_rock.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/scree32.png            ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/pattern_scree.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/shingle32.png          ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/pattern_shingle.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/scrub32.png            ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/pattern_scrub.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/marsh.png                                           ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/pattern_wetland.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/wetmeadow32.png        ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/pattern_wet_meadow.png
@@ -415,19 +406,20 @@
 cp ~/src/openstreetmap-carto-AJT/symbols/wood_mixed_pattern.png         ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/pattern_forest.png
 
 #
-# Some area patterns copy from a local 32x32 source
-cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/allotments32.png         ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/pattern_allotments.png
-cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/othercemetery32.png      ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/pattern_othercemetery.png
-
-
-#
 # Some area patterns copy from a local 64x64 source
 cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/quarry64.png             ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/pattern_quarry.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/vineyard64.png               ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/pattern_vineyard.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/military_red_hatch64.png     ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/pattern_danger_area.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/beach64.png              ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/pattern_beach.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/rock64.png               ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/pattern_rock.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/scree64.png              ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/pattern_scree.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/shingle64.png            ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/pattern_shingle.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/orchard64.png          ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/pattern_orchard.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/allotments64.png         ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/pattern_allotments.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/othercemetery64.png      ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/pattern_othercemetery.png
 
 # Line patterns used with the various layers such as "aerialways"
 # Many are converted from a 32x32 version in svwd01_source_icons,
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/orchard32.png          ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/pattern_orchard.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/vineyard32.png         ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/pattern_vineyard.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/cable_car32.png        ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/pattern_aerialway_cable_car.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/chair_lift32.png       ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/pattern_aerialway_chair_lift.png
 

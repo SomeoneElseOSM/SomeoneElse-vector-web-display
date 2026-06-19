@@ -1097,17 +1097,12 @@ qqq
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/power_pole.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/power_pole.png
 
 # Area patterns used with the "land1" and "land2" layers with a transparent layer
-cp ~/src/openstreetmap-carto-AJT/symbols/historic_grave_yard.png                               ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_historiccemetery.png
+# qqq
 
 #
 # Area patterns used with the "land1" and "land2" layers:
 # These must be 32x32 to avoid a white background
 # Many are converted from a 32x32 version in svwd01_source_icons,
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/orchard32.png          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_orchard.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/meadowwildflower32.png   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_meadowwildflower.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/meadowperpetual32.png    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_meadowperpetual.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/saltmarsh32.png          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_saltmarsh.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/reedbed32.png            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_reedbed.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/scrub32.png            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_scrub.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/marsh.png                                           ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_wetland.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/intermittentwetland.png                             ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_intermittentwetland.png
@@ -1127,36 +1122,48 @@ cp ~/src/openstreetmap-carto-AJT/symbols/wood_mixed_pattern.png         ~/src/So
 
 #
 # Some area patterns copy from a local 32x32 source
-cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/allotments32.png         ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_allotments.png
-cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/christiancemetery32.png  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_christiancemetery.png
-cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/jewishcemetery32.png     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_jewishcemetery.png
-cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/othercemetery32.png      ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_othercemetery.png
-cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/beach32.png              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_beach.png
-cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/tidal_beach32.png        ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_tidal_beach.png
-cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/mud32.png                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_mud.png
-cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/tidal_mud32.png          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_tidal_mud.png
-cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/rock32.png               ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_rock.png
-cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/tidal_rock32.png         ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_tidal_rock.png
-cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/tidal_sand32.png         ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_tidal_sand.png
-cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/scree32.png              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_scree.png
-cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/tidal_scree32.png        ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_tidal_scree.png
-cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/shingle32.png            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_shingle.png
-cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/tidal_shingle32.png    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_tidal_shingle.png
-
+# (none left)
 
 #
 # Some area patterns copy from a local 64x64 source
-cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/quarry64.png             ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_quarry.png
-cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/historic_quarry64.png    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_historicquarry.png
-cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/vineyard64.png           ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_vineyard.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/quarry64.png                 ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_quarry.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/historic_quarry64.png        ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_historicquarry.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/vineyard64.png               ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_vineyard.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/military_red_hatch64.png     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_military.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/intwater_blue_hatch64.png    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_intermittentwater.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/floodprone_blue_hatch64.png  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_flood_prone.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/allotments64.png         ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_allotments.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/christiancemetery64.png  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_christiancemetery.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/jewishcemetery64.png     ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_jewishcemetery.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/othercemetery64.png      ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_othercemetery.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/beach64.png              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_beach.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/tidal_beach64.png        ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_tidal_beach.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/mud64.png                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_mud.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/tidal_mud64.png          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_tidal_mud.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/rock64.png               ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_rock.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/tidal_rock64.png         ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_tidal_rock.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/tidal_sand64.png         ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_tidal_sand.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/scree64.png              ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_scree.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/tidal_scree64.png        ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_tidal_scree.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/shingle64.png            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_shingle.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/tidal_shingle64.png    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_tidal_shingle.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/orchard64.png          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_orchard.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/meadowwildflower64.png   ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_meadowwildflower.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/meadowperpetual64.png    ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_meadowperpetual.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/saltmarsh64.png          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_saltmarsh.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/reedbed64.png            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_reedbed.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/historic_grave_yard.png  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_historiccemetery.png
+
 
 # Line patterns used with the "land1" and "land2" layers:
 # Many are converted from a 32x32 version in svwd01_source_icons,
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/cliff32.png            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_cliff.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/levee32.png            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_man_made_levee.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/tree_row32.png         ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_tree_row.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/cable_car32.png        ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_aerialway_cable_car.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/chair_lift32.png       ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_aerialway_chair_lift.png
+
+# Some are copied from from 64x64 source icon
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/cliff64.png            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_cliff.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/levee64.png            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_man_made_levee.png
 
 #
 # Shields
@@ -1208,10 +1215,7 @@ cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/marker_one
 # landuse
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/wetmeadow32.png          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_wetmeadow.png
 #
-# Some use an original raster 32x32 source
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/military_red_hatch.png                                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_military.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/intwater_blue_hatch.png                               ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_intermittentwater.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/floodprone_blue_hatch.png                             ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_natural_flood_prone.png
+
 #
 # Some copy straight from raster 64x64
 echo "Also copying some patterns over directly"

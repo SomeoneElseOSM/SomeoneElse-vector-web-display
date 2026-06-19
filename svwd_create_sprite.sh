@@ -50,7 +50,7 @@ SPRITE_LOCATION=$2
 # Historically there was a check for Ubuntu 22.04 here, but modern Debian 11 and Debian 12 do have a
 # genuine imagemagick available, so the arguments for that apply for all OSes now.
 #
-IMAGEMAGICK_ARGS="-geometry 64x64 -support 1.0"
+IMAGEMAGICK_ARGS="-geometry 128x128 -support 1.0"
 #
 # -----------------------------------------------------------------------------
 # The "128" below corresponds to some default (but modifiable) limites for montage.
@@ -93,18 +93,18 @@ else
 		fi
 		
 		echo '"'`basename $f`'": {' | sed "s!.png!!" >>  ${SPRITE_LOCATION}@2x.json
-		echo '"height": 64,'                         >>  ${SPRITE_LOCATION}@2x.json
+		echo '"height": 128,'                         >>  ${SPRITE_LOCATION}@2x.json
 		echo '"pixelRatio": 2,'                      >>  ${SPRITE_LOCATION}@2x.json
-		echo '"width": 64,'                          >>  ${SPRITE_LOCATION}@2x.json
+		echo '"width": 128,'                          >>  ${SPRITE_LOCATION}@2x.json
 		echo '"x": '${current_x}','                  >>  ${SPRITE_LOCATION}@2x.json
 		echo '"y": '${current_y}''                   >>  ${SPRITE_LOCATION}@2x.json
 		echo '}'                                     >>  ${SPRITE_LOCATION}@2x.json
-		current_x=`expr ${current_x} + 64`
+		current_x=`expr ${current_x} + 128`
 
-		if [[ "$current_x" -ge "${NUMBEROFCOLS} * 64" ]]
+		if [[ "$current_x" -ge "${NUMBEROFCOLS} * 128" ]]
                 then
 		    current_x=0
-		    current_y=`expr ${current_y} + 64`
+		    current_y=`expr ${current_y} + 128`
                 fi
 	    done
 	    echo '}'                                         >>  ${SPRITE_LOCATION}@2x.json

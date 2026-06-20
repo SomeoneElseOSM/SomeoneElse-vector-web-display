@@ -1,5 +1,11 @@
 # Changes made to the [SVWD08 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd08.md).  
 
+## As yet unreleased
+This style now uses 128x128 sprites, to allow for more detail in some of the icons.
+A number of the the patterns used are made more detailed, and some patterns that were "converted from raster in a hurry" look much better as a result.
+There's a maplibre feature that means that patterns can't be scaled (you have to scale externally and use multiple patterns) - I've tried to size patterns to work around that as best I can, without multiple-sized patterns.
+Many of the 1000-odd POI icons are still converted from much smaller raster originals; they could be improved and that has not been done yet.
+
 ## 14/06/2026
 Don't show non-bridge oneway arrows over the top of bridges over them.
 Show gates at vector zoom 14 smaller.

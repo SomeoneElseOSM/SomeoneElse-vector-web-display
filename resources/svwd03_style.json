@@ -596,17 +596,6 @@
 	    }
 	},
 	{
-	    "id": "land-mud-fill-9",
-	    "type": "fill",
-	    "source": "someoneelse",
-	    "source-layer": "land",
-	    "minzoom": 9,
-	    "filter": [ "all", [ "in", "kind", "mud" ] ],
-	    "paint": {
-		"fill-pattern": "pattern_natural_mud"
-	    }
-	},
-	{
 	    "id": "land-bare_rock-fill-9",
 	    "type": "fill",
 	    "source": "someoneelse",
@@ -661,17 +650,6 @@
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#c6e4b4"
-	    }
-	},
-	{
-	    "id": "land-reef-fill-12",
-	    "type": "fill",
-	    "source": "someoneelse",
-	    "source-layer": "land",
-	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "kind", "reef" ] ],
-	    "paint": {
-		"fill-pattern": "pattern_natural_reef"
 	    }
 	},
 	{

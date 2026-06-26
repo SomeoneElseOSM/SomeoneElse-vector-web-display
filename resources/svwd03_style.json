@@ -7570,7 +7570,7 @@
 	    "source-layer": "street_labels",
 	    "filter": [ "all", [ "in", "kind", "motorway" ],
                                [ "==", "ref_rows", 1 ],
-                               [ "<", "ref_cols", 6 ] ],
+                               [ "<", "ref_cols", 5 ] ],
 	    "layout": {
                 "icon-image": "shield_motorway_short",
 		"icon-size": { "stops": [ [  9, 0.5 ], 
@@ -7603,7 +7603,8 @@
 	    "filter": [ "all", [ "in", "kind", "motorway" ],
                                [ "has", "ref" ],
                                [ "==", "ref_rows", 1 ],
-                               [ ">=", "ref_cols", 6 ] ],
+                               [ ">=", "ref_cols", 5 ],
+                               [ "<", "ref_cols", 13 ] ],
 	    "layout": {
                 "icon-image": "shield_motorway_long",
 		"icon-size": { "stops": [ [  9, 1.0 ], 
@@ -7635,7 +7636,7 @@
 	    "source-layer": "street_labels",
 	    "filter": [ "all", [ "in", "kind", "motorway" ],
                                [ "==", "ref_rows", 2 ],
-                               [ "<", "ref_cols", 6 ] ],
+                               [ "<", "ref_cols", 5 ] ],
 	    "layout": {
                 "icon-image": "shield_motorway_short_double",
 		"icon-size": { "stops": [ [  9, 0.5 ], 
@@ -7668,7 +7669,8 @@
 	    "filter": [ "all", [ "in", "kind", "motorway" ],
                                [ "has", "ref" ],
                                [ "==", "ref_rows", 2 ],
-                               [ ">=", "ref_cols", 6 ] ],
+                               [ ">=", "ref_cols", 5 ],
+                               [ "<", "ref_cols", 13 ] ],
 	    "layout": {
                 "icon-image": "shield_motorway_long_double",
 		"icon-size": { "stops": [ [  9, 1.5 ], 
@@ -7701,7 +7703,7 @@
 	    "filter": [ "all", [ "in", "kind", "trunk" ],
                                [ "has", "ref" ],
                                [ "==", "ref_rows", 1 ],
-                               [ "<", "ref_cols", 6 ] ],
+                               [ "<", "ref_cols", 5 ] ],
 	    "layout": {
                 "icon-image": "shield_trunk_short",
 		"icon-size": { "stops": [ [ 10, 0.5 ], 
@@ -7733,8 +7735,9 @@
 	    "source-layer": "street_labels",
 	    "filter": [ "all", [ "in", "kind", "trunk" ],
                                [ "has", "ref" ],
-                               [ "==", "ref_rows", 1 ],
-                               [ ">=", "ref_cols", 6 ] ],
+                               [ "==", "ref_rows",  1 ],
+                               [ ">=", "ref_cols",  5 ],
+                               [ "<", "ref_cols", 13 ] ],
 	    "layout": {
                 "icon-image": "shield_trunk_long",
 		"icon-size": { "stops": [ [ 10, 1.0 ], 
@@ -7767,7 +7770,7 @@
 	    "filter": [ "all", [ "in", "kind", "trunk" ],
                                [ "has", "ref" ],
                                [ "==", "ref_rows", 2 ],
-                               [ "<", "ref_cols", 6 ] ],
+                               [ "<", "ref_cols", 5 ] ],
 	    "layout": {
                 "icon-image": "shield_trunk_short_double",
 		"icon-size": { "stops": [ [ 10, 0.5 ], 
@@ -7799,8 +7802,9 @@
 	    "source-layer": "street_labels",
 	    "filter": [ "all", [ "in", "kind", "trunk" ],
                                [ "has", "ref" ],
-                               [ "==", "ref_rows", 2 ],
-                               [ ">=", "ref_cols", 6 ] ],
+                               [ "==", "ref_rows",  2 ],
+                               [ ">=", "ref_cols",  5 ],
+                               [ "<", "ref_cols", 13 ] ],
 	    "layout": {
                 "icon-image": "shield_trunk_long_double",
 		"icon-size": { "stops": [ [ 10, 1.5 ], 
@@ -7833,7 +7837,7 @@
 	    "filter": [ "all", [ "in", "kind", "primary" ],
                                [ "has", "ref" ],
                                [ "==", "ref_rows", 1 ],
-                               [ "<", "ref_cols", 6 ] ],
+                               [ "<", "ref_cols", 5 ] ],
 	    "layout": {
                 "icon-image": "shield_other_short",
 		"icon-size": { "stops": [ [ 11, 0.5 ], 
@@ -7866,7 +7870,8 @@
 	    "filter": [ "all", [ "in", "kind", "primary" ],
                                [ "has", "ref" ],
                                [ "==", "ref_rows", 1 ],
-                               [ ">=", "ref_cols", 6 ] ],
+                               [ ">=", "ref_cols", 5 ],
+                               [ "<", "ref_cols", 13 ] ],
 	    "layout": {
                 "icon-image": "shield_other_long",
 		"icon-size": { "stops": [ [ 11, 1.0 ], 
@@ -7899,7 +7904,7 @@
 	    "filter": [ "all", [ "in", "kind", "primary" ],
                                [ "has", "ref" ],
                                [ "==", "ref_rows", 2 ],
-                               [ "<", "ref_cols", 6 ] ],
+                               [ "<", "ref_cols", 5 ] ],
 	    "layout": {
                 "icon-image": "shield_other_short_double",
 		"icon-size": { "stops": [ [ 11, 0.5 ], 
@@ -7932,7 +7937,8 @@
 	    "filter": [ "all", [ "in", "kind", "primary" ],
                                [ "has", "ref" ],
                                [ "==", "ref_rows", 2 ],
-                               [ ">=", "ref_cols", 6 ] ],
+                               [ ">=", "ref_cols", 5 ],
+                               [ "<", "ref_cols", 13 ] ],
 	    "layout": {
                 "icon-image": "shield_other_long_double",
 		"icon-size": { "stops": [ [ 11, 1.0 ], 
@@ -7965,7 +7971,7 @@
 	    "filter": [ "all", [ "in", "kind", "secondary" ],
                                [ "has", "ref" ],
                                [ "==", "ref_rows", 1 ],
-                               [ "<", "ref_cols", 6 ] ],
+                               [ "<", "ref_cols", 5 ] ],
 	    "layout": {
                 "icon-image": "shield_other_short",
 		"icon-size": { "stops": [ [ 12, 0.5 ], 
@@ -7998,7 +8004,8 @@
 	    "filter": [ "all", [ "in", "kind", "secondary" ],
                                [ "has", "ref" ],
                                [ "==", "ref_rows", 1 ],
-                               [ ">=", "ref_cols", 6 ] ],
+                               [ ">=", "ref_cols", 5 ],
+                               [ "<", "ref_cols", 13 ] ],
 	    "layout": {
                 "icon-image": "shield_other_long",
 		"icon-size": { "stops": [ [ 12, 1.0 ], 
@@ -8031,7 +8038,7 @@
 	    "filter": [ "all", [ "in", "kind", "secondary" ],
                                [ "has", "ref" ],
                                [ "==", "ref_rows", 2 ],
-                               [ "<", "ref_cols", 6 ] ],
+                               [ "<", "ref_cols", 5 ] ],
 	    "layout": {
                 "icon-image": "shield_other_short_double",
 		"icon-size": { "stops": [ [ 12, 0.5 ], 
@@ -8064,7 +8071,8 @@
 	    "filter": [ "all", [ "in", "kind", "secondary" ],
                                [ "has", "ref" ],
                                [ "==", "ref_rows", 2 ],
-                               [ ">=", "ref_cols", 6 ] ],
+                               [ ">=", "ref_cols", 5 ],
+                               [ "<", "ref_cols", 13 ] ],
 	    "layout": {
                 "icon-image": "shield_other_long_double",
 		"icon-size": { "stops": [ [ 12, 1.0 ], 
@@ -8097,7 +8105,7 @@
 	    "filter": [ "all", [ "in", "kind", "tertiary" ],
                                [ "has", "ref" ],
                                [ "==", "ref_rows", 1 ],
-                               [ "<", "ref_cols", 6 ] ],
+                               [ "<", "ref_cols", 5 ] ],
 	    "layout": {
                 "icon-image": "shield_other_short",
 		"icon-size": { "stops": [ [ 13, 0.5 ], 
@@ -8130,7 +8138,8 @@
 	    "filter": [ "all", [ "in", "kind", "tertiary" ],
                                [ "has", "ref" ],
                                [ "==", "ref_rows", 1 ],
-                               [ ">=", "ref_cols", 6 ] ],
+                               [ ">=", "ref_cols", 5 ],
+                               [ "<", "ref_cols", 13 ] ],
 	    "layout": {
                 "icon-image": "shield_other_long",
 		"icon-size": { "stops": [ [ 13, 1.0 ], 
@@ -8163,7 +8172,7 @@
 	    "filter": [ "all", [ "in", "kind", "tertiary" ],
                                [ "has", "ref" ],
                                [ "==", "ref_rows", 2 ],
-                               [ "<", "ref_cols", 6 ] ],
+                               [ "<", "ref_cols", 5 ] ],
 	    "layout": {
                 "icon-image": "shield_other_short_double",
 		"icon-size": { "stops": [ [ 13, 0.5 ], 
@@ -8196,7 +8205,8 @@
 	    "filter": [ "all", [ "in", "kind", "tertiary" ],
                                [ "has", "ref" ],
                                [ "==", "ref_rows", 2 ],
-                               [ ">=", "ref_cols", 6 ] ],
+                               [ ">=", "ref_cols", 5 ],
+                               [ "<", "ref_cols", 13 ] ],
 	    "layout": {
                 "icon-image": "shield_other_long_double",
 		"icon-size": { "stops": [ [ 13, 1.0 ], 
@@ -8231,7 +8241,7 @@
                                [ "has", "ref" ],
                                [ "==", "ref_rows", 1 ],
                                [ ">", "ref_cols", 1 ],
-                               [ "<", "ref_cols", 6 ] ],
+                               [ "<", "ref_cols", 5 ] ],
 	    "layout": {
                 "icon-image": "shield_other_short",
 		"icon-size": { "stops": [ [ 15, 0.5 ], 
@@ -8265,8 +8275,8 @@
                                                 "residential" ],
                                [ "has", "ref" ],
                                [ "==", "ref_rows", 1 ],
-                               [ ">=", "ref_cols", 6 ],
-                               [ "<", "ref_cols", 14 ] ],
+                               [ ">=", "ref_cols", 5 ],
+                               [ "<", "ref_cols", 13 ] ],
 	    "layout": {
                 "icon-image": "shield_other_long",
 		"icon-size": { "stops": [ [ 15, 1.0 ], 
@@ -8301,7 +8311,7 @@
                                [ "has", "ref" ],
                                [ "==", "ref_rows", 2 ],
                                [ ">", "ref_cols", 1 ],
-                               [ "<", "ref_cols", 6 ] ],
+                               [ "<", "ref_cols", 5 ] ],
 	    "layout": {
                 "icon-image": "shield_other_short_double",
 		"icon-size": { "stops": [ [ 15, 0.5 ], 
@@ -8335,8 +8345,8 @@
                                                 "residential" ],
                                [ "has", "ref" ],
                                [ "==", "ref_rows", 2 ],
-                               [ ">=", "ref_cols", 6 ],
-                               [ "<", "ref_cols", 14 ] ],
+                               [ ">=", "ref_cols", 5 ],
+                               [ "<", "ref_cols", 13 ] ],
 	    "layout": {
                 "icon-image": "shield_other_long_double",
 		"icon-size": { "stops": [ [ 15, 1.0 ], 

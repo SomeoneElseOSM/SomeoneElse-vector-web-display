@@ -16791,6 +16791,39 @@
 	    }
 	},
 	{
+	    "id": "land1-smallscaled-lightbrown-imagename-15",
+	    "type": "symbol",
+	    "source": "someoneelse",
+            "target": "svwd01,svwd08",
+	    "source-layer": "land1",
+	    "minzoom": 15,
+	    "filter": [ "all", [ "in", "class", "amenity_police" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+                "icon-allow-overlap": true,
+		"icon-size": { "stops": [ [ 15, 0.5 ], 
+                                          [ 18, 0.5 ], 
+                                          [ 22, 1.0 ] ] },
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+                "text-optional": true,
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#734a08",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
 	    "id": "land1-smallscaled-lightbrown-imagename-16",
 	    "type": "symbol",
 	    "source": "someoneelse",
@@ -16845,7 +16878,6 @@
                                                 "amenity_vending_machine",
                                                 "amenity_vending_excrement",
                                                 "amenity_bottle_return",
-                                                "amenity_police",
                                                 "amenity_post_box",
                                                 "amenity_post_office",
                                                 "amenity_biergarten",

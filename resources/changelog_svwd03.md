@@ -1,6 +1,9 @@
 # Changes made to the [SVWD03 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd03.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
+## As yet unreleased
+Make police stations visible at vector zoom 15 (1 level earlier).
+
 ## 26/06/2026
 Fixed bug in display of zoos.  See https://community.openstreetmap.org/t/demo-of-new-vector-style-for-osm/144551/62 and https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/issues/13 .
 Also added `tourism=alpine_hut` in the same way.

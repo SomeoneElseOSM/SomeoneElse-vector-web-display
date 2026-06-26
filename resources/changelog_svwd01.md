@@ -2,6 +2,9 @@
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 Except as noted, all changes also apply to the [SVWD06 Android native display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd06.md).  
 
+## As yet unreleased
+Make police stations visible at vector zoom 15 (1 level earlier).
+
 ## 20/06/2026
 This style now uses 128x128 sprites, to allow for more detail in some of the icons.
 A number of the the patterns used are made more detailed, and some patterns that were "converted from raster in a hurry" look much better as a result.

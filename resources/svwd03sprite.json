@@ -1767,7 +1767,7 @@
 "y": 256
 }
 ,
-"pattern_natural_mud": {
+"pattern_orchard": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -1775,7 +1775,7 @@
 "y": 256
 }
 ,
-"pattern_orchard": {
+"pattern_othercemetery": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -1783,7 +1783,7 @@
 "y": 256
 }
 ,
-"pattern_othercemetery": {
+"pattern_quarry": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -1791,7 +1791,7 @@
 "y": 256
 }
 ,
-"pattern_quarry": {
+"pattern_rock": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -1799,7 +1799,7 @@
 "y": 256
 }
 ,
-"pattern_rock": {
+"pattern_scree": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -1807,7 +1807,7 @@
 "y": 256
 }
 ,
-"pattern_scree": {
+"pattern_scrub": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -1815,7 +1815,7 @@
 "y": 256
 }
 ,
-"pattern_scrub": {
+"pattern_shingle": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -1823,7 +1823,7 @@
 "y": 256
 }
 ,
-"pattern_shingle": {
+"pattern_string_bog": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -1831,7 +1831,7 @@
 "y": 256
 }
 ,
-"pattern_string_bog": {
+"pattern_swamp": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -1839,7 +1839,7 @@
 "y": 256
 }
 ,
-"pattern_swamp": {
+"pattern_vineyard": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -1847,7 +1847,7 @@
 "y": 256
 }
 ,
-"pattern_vineyard": {
+"pattern_wetland": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -1855,7 +1855,7 @@
 "y": 256
 }
 ,
-"pattern_wetland": {
+"pattern_wet_meadow": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -1863,7 +1863,7 @@
 "y": 256
 }
 ,
-"pattern_wet_meadow": {
+"shield_motorway_long_double": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -1871,7 +1871,7 @@
 "y": 256
 }
 ,
-"shield_motorway_long_double": {
+"shield_motorway_long": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -1879,7 +1879,7 @@
 "y": 256
 }
 ,
-"shield_motorway_long": {
+"shield_motorway_short_double": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -1887,7 +1887,7 @@
 "y": 256
 }
 ,
-"shield_motorway_short_double": {
+"shield_motorway_short": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -1895,7 +1895,7 @@
 "y": 256
 }
 ,
-"shield_motorway_short": {
+"shield_other_long_double": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -1903,7 +1903,7 @@
 "y": 256
 }
 ,
-"shield_other_long_double": {
+"shield_other_long": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -1911,7 +1911,7 @@
 "y": 256
 }
 ,
-"shield_other_long": {
+"shield_other_short_double": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -1919,7 +1919,7 @@
 "y": 256
 }
 ,
-"shield_other_short_double": {
+"shield_other_short": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -1927,7 +1927,7 @@
 "y": 256
 }
 ,
-"shield_other_short": {
+"shield_trunk_long_double": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -1935,7 +1935,7 @@
 "y": 256
 }
 ,
-"shield_trunk_long_double": {
+"shield_trunk_long": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -1943,7 +1943,7 @@
 "y": 256
 }
 ,
-"shield_trunk_long": {
+"shield_trunk_short_double": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -1951,7 +1951,7 @@
 "y": 256
 }
 ,
-"shield_trunk_short_double": {
+"shield_trunk_short": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -1959,7 +1959,7 @@
 "y": 256
 }
 ,
-"shield_trunk_short": {
+"shop_alcohol": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -1967,7 +1967,7 @@
 "y": 256
 }
 ,
-"shop_alcohol": {
+"shop_bakery": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -1975,7 +1975,7 @@
 "y": 256
 }
 ,
-"shop_bakery": {
+"shop_beauty": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -1983,7 +1983,7 @@
 "y": 256
 }
 ,
-"shop_beauty": {
+"shop_beverages": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -1991,7 +1991,7 @@
 "y": 256
 }
 ,
-"shop_beverages": {
+"shop_bicycle": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -1999,7 +1999,7 @@
 "y": 256
 }
 ,
-"shop_bicycle": {
+"shop_books": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -2007,7 +2007,7 @@
 "y": 256
 }
 ,
-"shop_books": {
+"shop_butcher": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -2015,7 +2015,7 @@
 "y": 256
 }
 ,
-"shop_butcher": {
+"shop_car": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -2023,7 +2023,7 @@
 "y": 256
 }
 ,
-"shop_car": {
+"shop_chemist": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -2031,7 +2031,7 @@
 "y": 256
 }
 ,
-"shop_chemist": {
+"shop_clothes": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -2039,7 +2039,7 @@
 "y": 256
 }
 ,
-"shop_clothes": {
+"shop_computer": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -2047,7 +2047,7 @@
 "y": 256
 }
 ,
-"shop_computer": {
+"shop_convenience": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -2055,7 +2055,7 @@
 "y": 256
 }
 ,
-"shop_convenience": {
+"shop_department_store": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -2063,7 +2063,7 @@
 "y": 256
 }
 ,
-"shop_department_store": {
+"shop_doityourself": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -2071,7 +2071,7 @@
 "y": 256
 }
 ,
-"shop_doityourself": {
+"shop_dry_cleaning": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -2079,7 +2079,7 @@
 "y": 256
 }
 ,
-"shop_dry_cleaning": {
+"shop_florist": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -2087,7 +2087,7 @@
 "y": 256
 }
 ,
-"shop_florist": {
+"shop_furniture": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -2095,7 +2095,7 @@
 "y": 256
 }
 ,
-"shop_furniture": {
+"shop_garden_centre": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -2103,7 +2103,7 @@
 "y": 256
 }
 ,
-"shop_garden_centre": {
+"shop_general": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -2111,7 +2111,7 @@
 "y": 256
 }
 ,
-"shop_general": {
+"shop_gift": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -2119,7 +2119,7 @@
 "y": 256
 }
 ,
-"shop_gift": {
+"shop_greengrocer": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -2127,7 +2127,7 @@
 "y": 256
 }
 ,
-"shop_greengrocer": {
+"shop_hairdresser": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -2135,7 +2135,7 @@
 "y": 256
 }
 ,
-"shop_hairdresser": {
+"shop_hardware": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -2143,7 +2143,7 @@
 "y": 256
 }
 ,
-"shop_hardware": {
+"shop_jewelry": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -2151,7 +2151,7 @@
 "y": 256
 }
 ,
-"shop_jewelry": {
+"shop_kiosk": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -2159,7 +2159,7 @@
 "y": 256
 }
 ,
-"shop_kiosk": {
+"shop_laundry": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -2167,7 +2167,7 @@
 "y": 256
 }
 ,
-"shop_laundry": {
+"shop_mobile_phone": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -2175,7 +2175,7 @@
 "y": 256
 }
 ,
-"shop_mobile_phone": {
+"shop_newsagent": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -2183,7 +2183,7 @@
 "y": 256
 }
 ,
-"shop_newsagent": {
+"shop_optician": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -2191,7 +2191,7 @@
 "y": 256
 }
 ,
-"shop_optician": {
+"shop_outdoor": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -2199,7 +2199,7 @@
 "y": 256
 }
 ,
-"shop_outdoor": {
+"shop_shoes": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -2207,7 +2207,7 @@
 "y": 256
 }
 ,
-"shop_shoes": {
+"shop_sports": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -2215,7 +2215,7 @@
 "y": 256
 }
 ,
-"shop_sports": {
+"shop_stationery": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -2223,7 +2223,7 @@
 "y": 256
 }
 ,
-"shop_stationery": {
+"shop_supermarket": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -2231,7 +2231,7 @@
 "y": 256
 }
 ,
-"shop_supermarket": {
+"shop_toys": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -2239,7 +2239,7 @@
 "y": 256
 }
 ,
-"shop_toys": {
+"shop_travel_agency": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -2247,7 +2247,7 @@
 "y": 256
 }
 ,
-"shop_travel_agency": {
+"shop_video": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -2255,7 +2255,7 @@
 "y": 256
 }
 ,
-"shop_video": {
+"station": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,
@@ -2263,7 +2263,7 @@
 "y": 256
 }
 ,
-"station": {
+"tourism_alpine_hut": {
 "height": 128,
 "pixelRatio": 2,
 "width": 128,

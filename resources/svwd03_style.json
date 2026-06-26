@@ -5343,34 +5343,6 @@
 	    "minzoom": 15
 	},
 	{
-	    "id": "land-power-image-14",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land",
-	    "minzoom": 14,
-	    "filter": [ "all", [ "in", "kind", "power_tower" ] ],
-	    "layout": {
-		"icon-image": "{kind}",
-		"icon-size": { "stops": [ [ 14, 0.5 ], 
-                                          [ 19, 1.0 ] ] },
-		"visibility": "visible"
-	    }
-	},
-	{
-	    "id": "land-power-image-15",
-	    "type": "symbol",
-	    "source": "someoneelse",
-	    "source-layer": "land",
-	    "minzoom": 15,
-	    "filter": [ "all", [ "in", "kind", "power_pole" ] ],
-	    "layout": {
-		"icon-image": "{kind}",
-		"icon-size": { "stops": [ [ 15, 0.5 ], 
-                                          [ 20, 1.0 ] ] },
-		"visibility": "visible"
-	    }
-	},
-	{
 	    "id": "buildings-fill",
 	    "type": "fill",
 	    "source": "someoneelse",
@@ -5580,11 +5552,11 @@
 	    "id": "land-tourism-lightblue-imagename-12",
 	    "type": "symbol",
 	    "source": "someoneelse",
-	    "source-layer": "land",
+	    "source-layer": "pois",
 	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "kind", "alpine_hut" ] ],
+	    "filter": [ "all", [ "in", "tourism", "alpine_hut" ] ],
 	    "layout": {
-		"icon-image": "{kind}",
+		"icon-image": "tourism_{tourism}",
 		"icon-size": { "stops": [ [ 12, 0.5 ], 
                                           [ 17, 1.0 ] ] },
 		"text-anchor": "top",

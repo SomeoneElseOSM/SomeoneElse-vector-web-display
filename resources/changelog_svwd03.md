@@ -3,6 +3,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 
 ## 26/06/2026
 Fixed bug in display of zoos.  See https://community.openstreetmap.org/t/demo-of-new-vector-style-for-osm/144551/62 and https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/issues/13 .
+Also added `tourism=alpine_hut` in the same way.
 
 ## 20/06/2026
 This style now uses 128x128 sprites, to allow for more detail in some of the icons.

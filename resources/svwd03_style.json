@@ -989,18 +989,6 @@
 	    }
 	},
 	{
-	    "id": "bridges-fill",
-	    "type": "fill",
-	    "source": "someoneelse",
-	    "source-layer": "bridges",
-	    "filter": [ "all", [ "in", "kind", "bridge" ] ],
-	    "paint": {
-		"fill-antialias": true,
-		"fill-color": "#bca9a9",
-		"fill-opacity": 0.7
-	    }
-	},
-	{
 	    "id": "ferries-10",
 	    "type": "line",
 	    "source": "someoneelse",
@@ -2219,6 +2207,18 @@
 			[ 20,  9.6 ]
 		    ]
 		}
+	    }
+	},
+	{
+	    "id": "bridges-fill",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "bridges",
+	    "filter": [ "all", [ "in", "kind", "bridge" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#bca9a9",
+		"fill-opacity": 0.7
 	    }
 	},
 	{

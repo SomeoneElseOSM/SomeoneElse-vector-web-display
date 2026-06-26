@@ -3,6 +3,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 
 ## As yet unreleased
 Make police stations visible at vector zoom 15 (1 level earlier).
+Show man_made=bridge opaquely above river polygons.
 
 ## 26/06/2026
 Fixed bug in display of zoos.  See https://community.openstreetmap.org/t/demo-of-new-vector-style-for-osm/144551/62 and https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/issues/13 .

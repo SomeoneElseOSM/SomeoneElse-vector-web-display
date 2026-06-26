@@ -675,17 +675,6 @@
 	    }
 	},
 	{
-	    "id": "land-zoo-fill-14",
-	    "type": "fill",
-	    "source": "someoneelse",
-	    "source-layer": "pois",
-	    "minzoom": 14,
-	    "filter": [ "all", [ "in", "kind", "zoo" ] ],
-	    "paint": {
-		"fill-pattern": "pattern_tourism_zoo"
-	    }
-	},
-	{
 	    "id": "land-wetland-fill-12",
 	    "type": "fill",
 	    "source": "someoneelse",
@@ -5581,14 +5570,14 @@
 	    }
 	},
 	{
-	    "id": "land-zoo-lightbrown-imagename-14",
+	    "id": "pois-zoo-lightbrown-imagename-14",
 	    "type": "symbol",
 	    "source": "someoneelse",
-	    "source-layer": "land",
+	    "source-layer": "pois",
 	    "minzoom": 14,
-	    "filter": [ "all", [ "in", "kind", "zoo" ] ],
+	    "filter": [ "all", [ "in", "tourism", "zoo" ] ],
 	    "layout": {
-		"icon-image": "{kind}",
+		"icon-image": "tourism_{tourism}",
 		"icon-size": { "stops": [ [ 14, 0.5 ], 
                                           [ 19, 1.0 ] ] },
 		"text-anchor": "top",

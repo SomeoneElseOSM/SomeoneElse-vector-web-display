@@ -1,7 +1,7 @@
 # Changes made to the [SVWD03 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd03.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
-## As yet unreleased
+## 27/06/2026
 Make police stations visible at vector zoom 15 (1 level earlier).
 Show man_made=bridge opaquely above river polygons.
 Each `amenity=recycling` is now shown with coloured flashes indicating what is recycled there - green for glass, red for clothes, yellow for paper, blue for scrap metal.

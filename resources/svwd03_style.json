@@ -6268,14 +6268,513 @@
 	    }
 	},
 	{
-	    "id": "pois-amenitylightbrown-imagename-18",
+	    "id": "pois-recycling-nnnn-imagename-18",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "pois",
 	    "minzoom": 18,
-	    "filter": [ "all", [ "in", "amenity", "recycling" ] ],
+	    "filter": [ "all", [ "in", "amenity", "recycling"          ],
+                               [ "!=", "recycling:glass_bottles", true ],
+                               [ "!=", "recycling:clothes", true ],
+                               [ "!=", "recycling:paper", true ],
+                               [ "!=", "recycling:scrap_metal", true ] ],
 	    "layout": {
-		"icon-image": "amenity_{amenity}",
+		"icon-image": "amenity_recycling_nnnn",
+		"icon-size": { "stops": [ [ 18, 0.5 ], 
+                                          [ 23, 1.0 ] ] },
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#734a08",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "pois-recycling-nnny-imagename-18",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "minzoom": 18,
+	    "filter": [ "all", [ "in", "amenity", "recycling"          ],
+                               [ "!=", "recycling:glass_bottles", true ],
+                               [ "!=", "recycling:clothes", true ],
+                               [ "!=", "recycling:paper", true ],
+                               [ "==", "recycling:scrap_metal", true ] ],
+	    "layout": {
+		"icon-image": "amenity_recycling_nnny",
+		"icon-size": { "stops": [ [ 18, 0.5 ], 
+                                          [ 23, 1.0 ] ] },
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#734a08",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "pois-recycling-nnyn-imagename-18",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "minzoom": 18,
+	    "filter": [ "all", [ "in", "amenity", "recycling"          ],
+                               [ "!=", "recycling:glass_bottles", true ],
+                               [ "!=", "recycling:clothes", true ],
+                               [ "==", "recycling:paper", true ],
+                               [ "!=", "recycling:scrap_metal", true ] ],
+	    "layout": {
+		"icon-image": "amenity_recycling_nnyn",
+		"icon-size": { "stops": [ [ 18, 0.5 ], 
+                                          [ 23, 1.0 ] ] },
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#734a08",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "pois-recycling-nnyy-imagename-18",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "minzoom": 18,
+	    "filter": [ "all", [ "in", "amenity", "recycling"          ],
+                               [ "!=", "recycling:glass_bottles", true ],
+                               [ "!=", "recycling:clothes", true ],
+                               [ "==", "recycling:paper", true ],
+                               [ "==", "recycling:scrap_metal", true ] ],
+	    "layout": {
+		"icon-image": "amenity_recycling_nnyy",
+		"icon-size": { "stops": [ [ 18, 0.5 ], 
+                                          [ 23, 1.0 ] ] },
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#734a08",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "pois-recycling-nynn-imagename-18",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "minzoom": 18,
+	    "filter": [ "all", [ "in", "amenity", "recycling"          ],
+                               [ "!=", "recycling:glass_bottles", true ],
+                               [ "==", "recycling:clothes", true ],
+                               [ "!=", "recycling:paper", true ],
+                               [ "!=", "recycling:scrap_metal", true ] ],
+	    "layout": {
+		"icon-image": "amenity_recycling_nynn",
+		"icon-size": { "stops": [ [ 18, 0.5 ], 
+                                          [ 23, 1.0 ] ] },
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#734a08",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "pois-recycling-nyny-imagename-18",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "minzoom": 18,
+	    "filter": [ "all", [ "in", "amenity", "recycling"          ],
+                               [ "!=", "recycling:glass_bottles", true ],
+                               [ "==", "recycling:clothes", true ],
+                               [ "!=", "recycling:paper", true ],
+                               [ "==", "recycling:scrap_metal", true ] ],
+	    "layout": {
+		"icon-image": "amenity_recycling_nyny",
+		"icon-size": { "stops": [ [ 18, 0.5 ], 
+                                          [ 23, 1.0 ] ] },
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#734a08",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "pois-recycling-nyyn-imagename-18",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "minzoom": 18,
+	    "filter": [ "all", [ "in", "amenity", "recycling"          ],
+                               [ "!=", "recycling:glass_bottles", true ],
+                               [ "==", "recycling:clothes", true ],
+                               [ "==", "recycling:paper", true ],
+                               [ "!=", "recycling:scrap_metal", true ] ],
+	    "layout": {
+		"icon-image": "amenity_recycling_nyyn",
+		"icon-size": { "stops": [ [ 18, 0.5 ], 
+                                          [ 23, 1.0 ] ] },
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#734a08",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "pois-recycling-nyyy-imagename-18",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "minzoom": 18,
+	    "filter": [ "all", [ "in", "amenity", "recycling"          ],
+                               [ "!=", "recycling:glass_bottles", true ],
+                               [ "==", "recycling:clothes", true ],
+                               [ "==", "recycling:paper", true ],
+                               [ "==", "recycling:scrap_metal", true ] ],
+	    "layout": {
+		"icon-image": "amenity_recycling_nyyy",
+		"icon-size": { "stops": [ [ 18, 0.5 ], 
+                                          [ 23, 1.0 ] ] },
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#734a08",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "pois-recycling-ynnn-imagename-18",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "minzoom": 18,
+	    "filter": [ "all", [ "in", "amenity", "recycling"          ],
+                               [ "==", "recycling:glass_bottles", true ],
+                               [ "!=", "recycling:clothes", true ],
+                               [ "!=", "recycling:paper", true ],
+                               [ "!=", "recycling:scrap_metal", true ] ],
+	    "layout": {
+		"icon-image": "amenity_recycling_ynnn",
+		"icon-size": { "stops": [ [ 18, 0.5 ], 
+                                          [ 23, 1.0 ] ] },
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#734a08",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "pois-recycling-ynny-imagename-18",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "minzoom": 18,
+	    "filter": [ "all", [ "in", "amenity", "recycling"          ],
+                               [ "==", "recycling:glass_bottles", true ],
+                               [ "!=", "recycling:clothes", true ],
+                               [ "!=", "recycling:paper", true ],
+                               [ "==", "recycling:scrap_metal", true ] ],
+	    "layout": {
+		"icon-image": "amenity_recycling_ynny",
+		"icon-size": { "stops": [ [ 18, 0.5 ], 
+                                          [ 23, 1.0 ] ] },
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#734a08",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "pois-recycling-ynyn-imagename-18",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "minzoom": 18,
+	    "filter": [ "all", [ "in", "amenity", "recycling"          ],
+                               [ "==", "recycling:glass_bottles", true ],
+                               [ "!=", "recycling:clothes", true ],
+                               [ "==", "recycling:paper", true ],
+                               [ "!=", "recycling:scrap_metal", true ] ],
+	    "layout": {
+		"icon-image": "amenity_recycling_ynyn",
+		"icon-size": { "stops": [ [ 18, 0.5 ], 
+                                          [ 23, 1.0 ] ] },
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#734a08",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "pois-recycling-ynyy-imagename-18",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "minzoom": 18,
+	    "filter": [ "all", [ "in", "amenity", "recycling"          ],
+                               [ "==", "recycling:glass_bottles", true ],
+                               [ "!=", "recycling:clothes", true ],
+                               [ "==", "recycling:paper", true ],
+                               [ "==", "recycling:scrap_metal", true ] ],
+	    "layout": {
+		"icon-image": "amenity_recycling_ynyy",
+		"icon-size": { "stops": [ [ 18, 0.5 ], 
+                                          [ 23, 1.0 ] ] },
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#734a08",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "pois-recycling-yynn-imagename-18",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "minzoom": 18,
+	    "filter": [ "all", [ "in", "amenity", "recycling"          ],
+                               [ "==", "recycling:glass_bottles", true ],
+                               [ "==", "recycling:clothes", true ],
+                               [ "!=", "recycling:paper", true ],
+                               [ "!=", "recycling:scrap_metal", true ] ],
+	    "layout": {
+		"icon-image": "amenity_recycling_yynn",
+		"icon-size": { "stops": [ [ 18, 0.5 ], 
+                                          [ 23, 1.0 ] ] },
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#734a08",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "pois-recycling-yyny-imagename-18",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "minzoom": 18,
+	    "filter": [ "all", [ "in", "amenity", "recycling"          ],
+                               [ "==", "recycling:glass_bottles", true ],
+                               [ "==", "recycling:clothes", true ],
+                               [ "!=", "recycling:paper", true ],
+                               [ "==", "recycling:scrap_metal", true ] ],
+	    "layout": {
+		"icon-image": "amenity_recycling_yyny",
+		"icon-size": { "stops": [ [ 18, 0.5 ], 
+                                          [ 23, 1.0 ] ] },
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#734a08",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "pois-recycling-yyyn-imagename-18",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "minzoom": 18,
+	    "filter": [ "all", [ "in", "amenity", "recycling"          ],
+                               [ "==", "recycling:glass_bottles", true ],
+                               [ "==", "recycling:clothes", true ],
+                               [ "==", "recycling:paper", true ],
+                               [ "!=", "recycling:scrap_metal", true ] ],
+	    "layout": {
+		"icon-image": "amenity_recycling_yyyn",
+		"icon-size": { "stops": [ [ 18, 0.5 ], 
+                                          [ 23, 1.0 ] ] },
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#734a08",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "pois-recycling-yyyy-imagename-18",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "minzoom": 18,
+	    "filter": [ "all", [ "in", "amenity", "recycling"          ],
+                               [ "==", "recycling:glass_bottles", true ],
+                               [ "==", "recycling:clothes", true ],
+                               [ "==", "recycling:paper", true ],
+                               [ "==", "recycling:scrap_metal", true ] ],
+	    "layout": {
+		"icon-image": "amenity_recycling_yyyy",
 		"icon-size": { "stops": [ [ 18, 0.5 ], 
                                           [ 23, 1.0 ] ] },
 		"text-anchor": "top",

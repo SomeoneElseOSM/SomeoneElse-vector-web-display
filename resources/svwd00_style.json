@@ -5154,7 +5154,8 @@
 	    "id": "label-bus_guideway-offset-12",
 	    "type": "symbol",
 	    "source-layer": "transportation",
-	    "filter": [ "in", "class", "bus_guideway" ],
+	    "filter": [ "in", "class", "bus_guideway",
+                                       "busway" ],
 	    "layout": {
 		"text-field": "{name}",
 		"text-font": [ "KlokanTech Noto Sans Regular" ],
@@ -5308,7 +5309,8 @@
 	    "minzoom": 12,
 	    "filter": [
 		"all",
-		[ "in", "class", "bus_guideway" ],
+		[ "in", "class", "bus_guideway",
+                                 "busway" ],
                 [ "==", "tunnel", true ]
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
@@ -5997,7 +5999,8 @@
                                  "light_rail",
                                  "subway",
                                  "tram",
-                                 "bus_guideway" ],
+                                 "bus_guideway",
+                                 "busway" ],
                 [ "==", "bridge", "levee" ]
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
@@ -6070,7 +6073,8 @@
                                  "light_rail",
                                  "subway",
                                  "tram",
-                                 "bus_guideway" ],
+                                 "bus_guideway",
+                                 "busway" ],
                 [ "==", "bridge", "levee" ]
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
@@ -8539,7 +8543,8 @@
 	    "maxzoom": 12,
 	    "filter": [
 		"all",
-		[ "in", "class", "bus_guideway" ],
+		[ "in", "class", "bus_guideway",
+                                 "busway" ],
                 [ "!=", "bridge", "yes" ],
                 [ "!=", "tunnel", true ]
 	    ],
@@ -8949,7 +8954,8 @@
 	    "minzoom": 12,
 	    "filter": [
 		"all",
-		[ "in", "class", "bus_guideway" ],
+		[ "in", "class", "bus_guideway",
+                                 "busway" ],
                 [ "!=", "bridge", "yes" ],
                 [ "!=", "tunnel", true ]
 	    ],
@@ -9189,7 +9195,8 @@
 	    "minzoom": 12,
 	    "filter": [
 		"all",
-		[ "in", "class", "bus_guideway" ],
+		[ "in", "class", "bus_guideway",
+                                 "busway" ],
                 [ "!=", "bridge", "yes" ],
                 [ "!=", "tunnel", true ]
 	    ],
@@ -9962,7 +9969,8 @@
                                  "light_rail",
                                  "subway",
                                  "tram",
-                                 "bus_guideway" ],
+                                 "bus_guideway",
+                                 "busway" ],
                 [ "==", "bridge", "yes" ]
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
@@ -10621,7 +10629,8 @@
                                  "light_rail",
                                  "subway",
                                  "tram",
-                                 "bus_guideway" ],
+                                 "bus_guideway",
+                                 "busway" ],
                 [ "==", "bridge", "yes" ]
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
@@ -12318,7 +12327,8 @@
 	    "minzoom": 12,
 	    "filter": [
 		"all",
-		[ "in", "class", "bus_guideway" ],
+		[ "in", "class", "bus_guideway",
+                                 "busway" ],
                 [ "==", "bridge", "yes" ]
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
@@ -12597,7 +12607,8 @@
 	    "minzoom": 12,
 	    "filter": [
 		"all",
-		[ "in", "class", "bus_guideway" ],
+		[ "in", "class", "bus_guideway",
+                                 "busway" ],
                 [ "==", "bridge", "yes" ]
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },

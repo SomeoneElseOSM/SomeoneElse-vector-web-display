@@ -9591,7 +9591,8 @@
 		[ "in", "class", "light_rail",
                                  "funicular",
                                  "subway",
-                                 "tram" ],
+                                 "tram",
+                                 "bus_guideway" ],
                 [ "!=", "bridge", "yes" ],
                 [ "!=", "tunnel", true ]
 	    ],

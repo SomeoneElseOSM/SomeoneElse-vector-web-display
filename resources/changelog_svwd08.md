@@ -1,6 +1,9 @@
 # Changes made to the [SVWD08 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd08.md).  
 
 ## As yet unreleased
+Bus guideways are now shown slightly differently from busways - with extra black dots.
+
+## 27/06/2026
 Make police stations visible at vector zoom 15 (1 level earlier).
 
 ## 20/06/2026

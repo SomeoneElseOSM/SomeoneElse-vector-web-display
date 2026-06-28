@@ -2,7 +2,7 @@
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
 ## As yet unreleased
-Fixed bug where `area:aeroway=runway` was read from an incorrect layer with an incorrect "kind" value.
+Fixed bug where `area:aeroway=runway` and `area:aeroway=taxiway` was read from an incorrect layer with an incorrect "kind" value.
 See https://github.com/pnorman/spirit/issues/89 - in schema, but not currently in OSMF tiles.
 
 ## 27/06/2026

@@ -916,12 +916,11 @@
 	    }
 	},
 	{
-	    "id": "land-taxiway-fill-12",
+	    "id": "street_polygons-taxiway-fill-12",
 	    "type": "fill",
 	    "source": "someoneelse",
-	    "source-layer": "land",
-	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "kind", "aeroway_taxiway" ] ],
+	    "source-layer": "street_polygons",
+	    "filter": [ "all", [ "in", "kind", "taxiway" ] ],
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#bbc"

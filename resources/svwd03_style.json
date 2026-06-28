@@ -1859,8 +1859,7 @@
 	    "minzoom": 12,
 	    "filter": [
 		"all",
-		[ "in", "kind", "stream",
-		                 "drain" ],
+		[ "in", "kind", "stream" ],
                 [ "==", "tunnel", true ]
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
@@ -1887,8 +1886,7 @@
 	    "source": "someoneelse",
 	    "source-layer": "water_lines",
 	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "kind", "stream",
-                                                "drain" ],
+	    "filter": [ "all", [ "in", "kind", "stream" ],
                                [ "==", "tunnel", true ] ],
 	    "layout": { "line-cap": "square", "line-join": "round", "visibility": "visible" },
 	    "paint": {
@@ -1980,8 +1978,7 @@
 	    "source": "someoneelse",
 	    "source-layer": "water_lines",
 	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "kind", "stream",
-                                                "drain" ],
+	    "filter": [ "all", [ "in", "kind", "stream" ],
                                [ "!=", "bridge", true ],
                                [ "!=", "tunnel", true ] ],
 	    "paint": {
@@ -4801,8 +4798,7 @@
 	    "minzoom": 12,
 	    "filter": [
 		"all",
-		[ "in", "kind", "stream",
-		                 "drain" ],
+		[ "in", "kind", "stream" ],
                 [ "==", "bridge", true ]
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
@@ -4828,8 +4824,7 @@
 	    "source": "someoneelse",
 	    "source-layer": "water_lines",
 	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "kind", "stream",
-                                                "drain" ],
+	    "filter": [ "all", [ "in", "kind", "stream" ],
                                [ "==", "bridge", true ] ],
 	    "paint": {
 		"line-color": "#b5d0d0",
@@ -4989,7 +4984,6 @@
 	    "type": "symbol",
 	    "source-layer": "water_lines_labels",
 	    "filter": [ "in", "kind", "stream",
-                                       "drain",
                                        "ditch" ],
 	    "layout": {
 		"text-field": "{name}",

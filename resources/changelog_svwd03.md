@@ -5,6 +5,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 Fixed bug where `area:aeroway=runway` and `area:aeroway=taxiway` was read from an incorrect layer with an incorrect "kind" value.
 See https://github.com/pnorman/spirit/issues/89 - in schema, but not currently in OSMF tiles.
 Bus guideways are now shown slightly differently from busways - with extra black dots.
+Names of runways and taxiways in "streets_polygons_labels" (sic; compare "street_polygons") are now shown.
 
 ## 27/06/2026
 Make police stations visible at vector zoom 15 (1 level earlier).

@@ -8953,7 +8953,9 @@
 	    "source-layer": "streets_polygons_labels",
 	    "minzoom": 13,
 	    "filter": [ "all", [ "in", "kind", "pedestrian",
-                                               "service" ] ],
+                                               "service",
+                                               "runway",
+                                               "taxiway" ] ],
 	    "layout": {
 		"text-anchor": "top",
 		"text-field": "{name}\n",

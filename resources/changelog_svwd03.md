@@ -8,6 +8,7 @@ Bus guideways are now shown slightly differently from busways - with extra black
 Names of runways and taxiways in "streets_polygons_labels" (sic; compare "street_polygons") are now shown.
 Added missing icons and names for `tourism=viewpoint`, `motel`, `hotel`, `hostel`, `guest_house`, `chalet`.  
 Also `tourism=bed_and_breakfast` which is in the schema but not in OSM.
+Added missing icons and names for `tourism=artwork`, which is in the schema but not yet in the tiles.  See https://github.com/pnorman/spirit/issues/90 .
 
 ## 27/06/2026
 Make police stations visible at vector zoom 15 (1 level earlier).

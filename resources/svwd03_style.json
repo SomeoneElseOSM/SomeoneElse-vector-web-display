@@ -5938,7 +5938,8 @@
 	    "source": "someoneelse",
 	    "source-layer": "pois",
 	    "minzoom": 15,
-	    "filter": [ "all", [ "in", "tourism", "viewpoint" ] ],
+	    "filter": [ "all", [ "in", "tourism", "viewpoint",
+                                                  "artwork" ] ],
 	    "layout": {
 		"icon-image": "tourism_{tourism}",
                 "icon-allow-overlap": true,

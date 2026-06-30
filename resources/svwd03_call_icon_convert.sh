@@ -395,6 +395,7 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/guest_house.p.16.png                            ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/tourism_guest_house.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/chalet.p.16.png                                 ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/tourism_chalet.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/bandb.p.20.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/tourism_bed_and_breakfast.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/artwork.p16.png                                 ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/tourism_artwork.png
 
 # sites
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/parking_free.png                                ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/parking.png

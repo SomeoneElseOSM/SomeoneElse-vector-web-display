@@ -3362,7 +3362,8 @@
 		[ "in", "kind", "light_rail",
                                  "funicular",
                                  "subway",
-                                 "tram" ],
+                                 "tram",
+                                 "bus_guideway" ],
                 [ "!=", "bridge", true ],
                 [ "!=", "tunnel", true ]
 	    ],

@@ -6,6 +6,7 @@ Fixed bug where `area:aeroway=runway` and `area:aeroway=taxiway` was read from a
 See https://github.com/pnorman/spirit/issues/89 - in schema, but not currently in OSMF tiles.
 Bus guideways are now shown slightly differently from busways - with extra black dots.
 Names of runways and taxiways in "streets_polygons_labels" (sic; compare "street_polygons") are now shown.
+Added missing icons and names for `tourism=viewpoint`, `motel`, `hotel`, `hostel`.
 
 ## 27/06/2026
 Make police stations visible at vector zoom 15 (1 level earlier).

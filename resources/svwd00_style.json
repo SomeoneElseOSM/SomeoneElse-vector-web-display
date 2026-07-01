@@ -18064,7 +18064,7 @@
 	    }
 	},
 	{
-	    "id": "land1-markeraerial-purple-imagename-18",
+	    "id": "land1-man_made-purple-imagename-18",
 	    "type": "symbol",
 	    "source": "someoneelse",
             "target": "svwd01,svwd08",
@@ -18072,6 +18072,36 @@
 	    "minzoom": 18,
 	    "filter": [ "all", [ "in", "class", "man_made_markeraerial",
                                                 "man_made_manhole" ] ],
+	    "layout": {
+		"icon-image": "{class}",
+		"icon-size": { "stops": [ [ 18, 0.5 ], 
+                                          [ 23, 1.0 ] ] },
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#9900cc",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-man_made-purple-imagename-19",
+	    "type": "symbol",
+	    "source": "someoneelse",
+            "target": "svwd01,svwd08",
+	    "source-layer": "land1",
+	    "minzoom": 19,
+	    "filter": [ "all", [ "in", "class", "man_made_surveillance" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"icon-size": { "stops": [ [ 18, 0.5 ], 

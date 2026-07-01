@@ -1,7 +1,7 @@
 # Changes made to the [SVWD03 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd03.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
-## As yet unreleased
+## 28/06/2026
 Fixed bug where `area:aeroway=runway` and `area:aeroway=taxiway` was read from an incorrect layer with an incorrect "kind" value.
 See https://github.com/pnorman/spirit/issues/89 - in schema, but not currently in OSMF tiles.
 Bus guideways are now shown slightly differently from busways - with extra black dots.

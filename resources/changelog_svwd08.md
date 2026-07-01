@@ -1,5 +1,8 @@
 # Changes made to the [SVWD08 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd08.md).  
 
+## As yet unreleased
+Show `man_made=surveillance` as CCTV cameras from vector zoom 19.
+
 ## 28/06/2026
 Bus guideways are now shown slightly differently from busways - with extra black dots.
 

@@ -290,7 +290,7 @@
 # man_made
 #
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/lighthouse.p.20.png                             ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/man_made_lighthouse.png
-# man_made=surveillance (I've never included on a map)
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/surveillance.png                                ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/man_made_surveillance.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/communications.p.20.png                         ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/man_made_tower.png
 # man_made=wastewater_plant (no icon)
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/water_well.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/man_made_water_well.png

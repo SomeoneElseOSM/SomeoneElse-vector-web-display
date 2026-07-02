@@ -7191,8 +7191,9 @@
 	    "source-layer": "pois",
 	    "minzoom": 16,
 	    "filter": [ "all", [ "in", "amenity", "car_rental",
-                                                "car_wash",
-                                                "veterinary" ] ],
+                                                  "car_wash",
+                                                  "marketplace",
+                                                  "veterinary" ] ],
 	    "layout": {
 		"icon-image": "amenity_{amenity}",
 		"icon-size": { "stops": [ [ 16, 0.5 ], 

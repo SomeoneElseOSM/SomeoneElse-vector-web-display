@@ -18064,7 +18064,7 @@
 	    }
 	},
 	{
-	    "id": "land1-man_made-purple-imagename-18",
+	    "id": "land1-man_made-black-imagename-18",
 	    "type": "symbol",
 	    "source": "someoneelse",
             "target": "svwd01,svwd08",
@@ -18088,14 +18088,14 @@
 		"visibility": "visible"
 	    },
 	    "paint": {
-		"text-color": "#9900cc",
+		"text-color": "#000033",
 		"text-halo-blur": 0.5,
 		"text-halo-color": "#ffffff",
 		"text-halo-width": 1
 	    }
 	},
 	{
-	    "id": "land1-man_made-purple-imagename-19",
+	    "id": "land1-man_made-black-imagename-19",
 	    "type": "symbol",
 	    "source": "someoneelse",
             "target": "svwd01,svwd08",
@@ -18118,7 +18118,7 @@
 		"visibility": "visible"
 	    },
 	    "paint": {
-		"text-color": "#9900cc",
+		"text-color": "#000033",
 		"text-halo-blur": 0.5,
 		"text-halo-color": "#ffffff",
 		"text-halo-width": 1
@@ -19066,6 +19066,7 @@
                                                 "shop_laundry",
                                                 "shop_locksmith",
                                                 "amenity_marketplace",
+                                                "amenity_food_court",
                                                 "shop_mobile_phone",
                                                 "shop_motorcycle",
                                                 "shop_music",

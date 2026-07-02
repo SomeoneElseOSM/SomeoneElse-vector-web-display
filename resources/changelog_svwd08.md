@@ -2,7 +2,7 @@
 
 ## As yet unreleased
 Show `man_made=surveillance` as CCTV cameras from vector zoom 19.
-Show an icon on `amenity=marketplace`; don't just show it as retail landuse (there are a number of unnamed ones).
+Show an icon on `amenity=marketplace` and `amenity=food_court`; don't just show them as retail landuse (there are a number of unnamed ones).
 
 ## 28/06/2026
 Bus guideways are now shown slightly differently from busways - with extra black dots.

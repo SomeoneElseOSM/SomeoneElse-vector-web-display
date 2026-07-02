@@ -3,7 +3,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 
 ## As yet unreleased
 Show `man_made=surveillance` as CCTV cameras from vector zoom 19.
-Show name and icon for `amenity=marketplace`.
+Show name and icon for `amenity=marketplace` and `amenity=food_court`.
 
 ## 28/06/2026
 Fixed bug where `area:aeroway=runway` and `area:aeroway=taxiway` was read from an incorrect layer with an incorrect "kind" value.

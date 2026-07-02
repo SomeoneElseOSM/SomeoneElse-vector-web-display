@@ -7193,6 +7193,7 @@
 	    "filter": [ "all", [ "in", "amenity", "car_rental",
                                                   "car_wash",
                                                   "marketplace",
+                                                  "food_court",
                                                   "veterinary" ] ],
 	    "layout": {
 		"icon-image": "amenity_{amenity}",

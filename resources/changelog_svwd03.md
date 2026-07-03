@@ -1,7 +1,7 @@
 # Changes made to the [SVWD03 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd03.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
-## As yet unreleased
+## 03/07/2026
 Show `man_made=surveillance` as CCTV cameras from vector zoom 19.
 Show name and icon for `amenity=marketplace` and `amenity=food_court`.
 

@@ -4946,7 +4946,7 @@
 		    "KlokanTech Noto Sans Regular"
 		],
 		"text-max-width": 9,
-		"text-offset": [ 0, 0.6 ],
+		"text-offset": [ 0, -0.6 ],
 		"text-padding": 2,
 		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
 		"visibility": "visible"
@@ -9088,7 +9088,7 @@
 		    "KlokanTech Noto Sans Italic"
 		],
 		"text-max-width": 9,
-		"text-offset": [ 0, 0.6 ],
+		"text-offset": [ 0, -0.6 ],
 		"text-padding": 2,
 		"text-size": { "stops": [ [ 13, 10 ], 
                                           [ 20, 30 ] ] },
@@ -9120,7 +9120,7 @@
 		    "KlokanTech Noto Sans Regular"
 		],
 		"text-max-width": 9,
-		"text-offset": [ 0, 0.6 ],
+		"text-offset": [ 0, -0.6 ],
 		"text-padding": 2,
 		"text-size": { "stops": [ [ 13, 10 ], 
                                           [ 20, 30 ] ] },
@@ -9148,7 +9148,7 @@
 		    "KlokanTech Noto Sans Regular"
 		],
 		"text-max-width": 9,
-		"text-offset": [ 0, 0.6 ],
+		"text-offset": [ 0, -0.6 ],
 		"text-padding": 2,
 		"text-size": { "stops": [ [ 11, 10 ], 
                                           [ 12, 10 ], 
@@ -9176,7 +9176,7 @@
 		    "KlokanTech Noto Sans Regular"
 		],
 		"text-max-width": 9,
-		"text-offset": [ 0, 0.6 ],
+		"text-offset": [ 0, -0.6 ],
 		"text-padding": 2,
 		"text-size": { "stops": [ [  8, 10 ], 
                                           [ 12, 15 ], 
@@ -9228,7 +9228,7 @@
 		    "KlokanTech Noto Sans Regular"
 		],
 		"text-max-width": 9,
-		"text-offset": [ 0, 0.6 ],
+		"text-offset": [ 0, -0.6 ],
 		"text-padding": 2,
 		"text-size": { "stops": [ [  5, 10 ], 
                                           [ 12, 20 ], 
@@ -9256,7 +9256,7 @@
 		    "KlokanTech Noto Sans Regular"
 		],
 		"text-max-width": 9,
-		"text-offset": [ 0, 0.6 ],
+		"text-offset": [ 0, -0.6 ],
 		"text-padding": 2,
 		"text-size": { "stops": [ [  3, 10 ], 
                                           [ 12, 25 ], 

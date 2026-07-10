@@ -4,9 +4,11 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 ## 10/07/2026
 Boundary and place offsets changed from "0.6" to "-0.6" so that the text is better centred over the feature.  See https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/issues/24 .
 
+
 ## 03/07/2026
 Show `man_made=surveillance` as CCTV cameras from vector zoom 19.
 Show name and icon for `amenity=marketplace` and `amenity=food_court`.
+Change bus stops to allow overlap, make text optional, and make icon and text smaller at low zoom (vector 16) and less large at high 9vector 25).  See https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/issues/20 .
 
 ## 28/06/2026
 Fixed bug where `area:aeroway=runway` and `area:aeroway=taxiway` was read from an incorrect layer with an incorrect "kind" value.

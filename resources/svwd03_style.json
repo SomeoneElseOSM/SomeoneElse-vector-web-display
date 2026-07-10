@@ -5580,8 +5580,10 @@
                                                "aerialway_station" ] ],
 	    "layout": {
 		"icon-image": "{kind}",
-		"icon-size": { "stops": [ [ 16, 0.5 ], 
-                                          [ 21, 1.0 ] ] },
+		"icon-size": { "stops": [ [ 16, 0.375 ], 
+                                          [ 20, 0.5 ], 
+                                          [ 25, 1.0 ] ] },
+                "icon-allow-overlap": true,
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -5589,8 +5591,11 @@
 		],
 		"text-max-width": 13,
 		"text-offset": [ 0, 0.6 ],
+                "text-optional": true,
 		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"text-size": { "stops": [ [ 16, 10 ], 
+                                          [ 20, 30 ], 
+                                          [ 25, 30 ] ] },
 		"visibility": "visible"
 	    },
 	    "paint": {

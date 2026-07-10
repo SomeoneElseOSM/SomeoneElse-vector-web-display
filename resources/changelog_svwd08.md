@@ -1,5 +1,8 @@
 # Changes made to the [SVWD08 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd08.md).  
 
+## As yet unreleased
+Change bus stops to make icon and text smaller at low zoom (vector 16) and less large at high (vector 25).  See SVWD03 issue https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/issues/20 .
+
 ## 04/07/2026
 Show `man_made=surveillance` as CCTV cameras from vector zoom 19.
 Show an icon on `amenity=marketplace` and `amenity=food_court`; don't just show them as retail landuse (there are a number of unnamed ones).

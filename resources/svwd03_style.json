@@ -6225,8 +6225,9 @@
                                                       "visitor_centre" ] ],
 	    "layout": {
 		"icon-image": "tourism_{tourism}_{information}",
-		"icon-size": { "stops": [ [ 14, 0.5 ], 
-                                          [ 19, 1.0 ] ] },
+		"icon-size": { "stops": [ [ 16, 0.375 ], 
+                                          [ 20, 0.5 ], 
+                                          [ 25, 1.0 ] ] },
                 "icon-allow-overlap": true,
 		"text-anchor": "top",
 		"text-field": "{name}\n",
@@ -6234,11 +6235,12 @@
 		    "KlokanTech Noto Sans Regular"
 		],
 		"text-max-width": 13,
-		"text-offset": { "stops": [ [ 15, [ 0, 0.6 ] ],
-                                            [ 18, [ 0, 1.2 ] ] ] },
+		"text-offset": [ 0, 0.6 ],
                 "text-optional": true,
 		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"text-size": { "stops": [ [ 16, 5 ], 
+                                          [ 20, 15 ], 
+                                          [ 25, 30 ] ] },
 		"visibility": "visible"
 	    },
 	    "paint": {

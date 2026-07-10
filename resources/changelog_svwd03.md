@@ -3,8 +3,8 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 
 ## 10/07/2026
 Boundary and place offsets changed from "0.6" to "-0.6" so that the text is better centred over the feature.  See https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/issues/24 .
-Change bus stops to allow overlap, make text optional, and make icon and text smaller at low zoom (vector 16) and less large at high 9vector 25).  See https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/issues/20 .
-
+Change bus stops to allow overlap, make text optional, and make icon and text smaller at low zoom (vector 16) and less large at high (vector 25).  See https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/issues/20 .
+Made icon and text size smaller for information boards etc.  See https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/issues/25 .
 
 ## 03/07/2026
 Show `man_made=surveillance` as CCTV cameras from vector zoom 19.

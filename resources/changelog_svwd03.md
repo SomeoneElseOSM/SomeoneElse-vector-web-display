@@ -1,6 +1,9 @@
 # Changes made to the [SVWD03 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd03.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
+## 11/07/2026
+Only show pois-tourisminformationspecific-lightbrown-imagenameoverlap from vector zoom 16.  Increase text size at 16 from 5 to 10.
+
 ## 10/07/2026
 Boundary and place offsets changed from "0.6" to "-0.6" so that the text is better centred over the feature.  See https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/issues/24 .
 Change bus stops to allow overlap, make text optional, and make icon and text smaller at low zoom (vector 16) and less large at high (vector 25).  See https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/issues/20 .

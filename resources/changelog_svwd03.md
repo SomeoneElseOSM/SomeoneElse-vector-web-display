@@ -3,6 +3,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 
 ## 11/07/2026
 Only show pois-tourisminformationspecific-lightbrown-imagenameoverlap from vector zoom 16.  Increase text size at 16 from 5 to 10.
+Split `label-street-centre-12` into "large" and "small" for major and minor roads.  Remove `minzoom` criteria for both (it's in the tiles).  Add a stop for text size at 16 that is slightly smaller than previously for large labels and much smaller than previously for small ones.  See https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/issues/21 .
 
 ## 10/07/2026
 Boundary and place offsets changed from "0.6" to "-0.6" so that the text is better centred over the feature.  See https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/issues/24 .

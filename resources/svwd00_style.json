@@ -16062,7 +16062,7 @@
 		"text-offset": [ 0, 0.6 ],
                 "text-optional": true,
 		"text-padding": 2,
-		"text-size": { "stops": [ [ 16, 5 ], 
+		"text-size": { "stops": [ [ 16, 10 ], 
                                           [ 20, 15 ], 
                                           [ 25, 30 ] ] },
 		"visibility": "visible"

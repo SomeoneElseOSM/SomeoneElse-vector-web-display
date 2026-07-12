@@ -7,6 +7,7 @@ Create new icons for `amenity=bank` (which a coloured flash for wheelchair acces
 Banks with ATMs are now shown with a unique icon (which a coloured flash for wheelchair access).
 Banks and ATMs now have the text optional and can overlap.
 Split `label-street-centre-12-s01` etc. into "large" and "small" for major and minor roads.  Add a stop for text size at 16 that is slightly smaller than previously for large labels and much smaller than previously for small ones.  See the related issue in SVWD03 https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/issues/21 .
+Boundary and place offsets changed from "0.6" to "-0.6" so that the text is better centred over the feature.  See related SVWD03 issue https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/issues/24 .
 
 ## 04/07/2026
 Show `man_made=surveillance` as CCTV cameras from vector zoom 19.

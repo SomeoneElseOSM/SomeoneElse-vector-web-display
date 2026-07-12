@@ -24170,11 +24170,10 @@
 	    "minzoom": 12
 	},
 	{
-	    "id": "label-street-centre-12-s01",
+	    "id": "labellarge-street-centre-12-s01",
 	    "type": "symbol",
 	    "source-layer": "transportation",
-	    "filter": [ "in", "class", "motorway", "trunk", "primary", "secondary", "tertiary",
-			"unclassified", "residential", "pedestrian", "living_street", "service", "road", "driveway" ],
+	    "filter": [ "in", "class", "motorway", "trunk", "primary", "secondary", "tertiary" ],
 	    "layout": {
 		"text-field": "{name}",
 		"text-font": [ "KlokanTech Noto Sans Regular" ],
@@ -24182,7 +24181,36 @@
 		"symbol-spacing": { "stops": [ [ 12, 250 ],
                                                [ 20, 900 ] ] },
 		"text-anchor": "center",
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] }
+		"text-size": { "stops": [ [ 12, 10 ], 
+                                          [ 16, 20 ], 
+                                          [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+            "target": "svwd01",
+	    "paint": {
+		"icon-color": "#333344",
+		"text-color": "#333344",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 2,
+		"text-halo-blur": 1
+	    },
+	    "minzoom": 12
+	},
+	{
+	    "id": "labelsmall-street-centre-12-s01",
+	    "type": "symbol",
+	    "source-layer": "transportation",
+	    "filter": [ "in", "class", "unclassified", "residential", "pedestrian", "living_street", "service", "road", "driveway" ],
+	    "layout": {
+		"text-field": "{name}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "line",
+		"symbol-spacing": { "stops": [ [ 12, 250 ],
+                                               [ 20, 900 ] ] },
+		"text-anchor": "center",
+		"text-size": { "stops": [ [ 12, 10 ], 
+                                          [ 16, 14 ], 
+                                          [ 20, 30 ] ] }
 	    },
 	    "source": "someoneelse",
             "target": "svwd01",
@@ -24223,11 +24251,10 @@
 	    "minzoom": 12
 	},
 	{
-	    "id": "label-street-centre-12-s08",
+	    "id": "labellarge-street-centre-12-s08",
 	    "type": "symbol",
 	    "source-layer": "transportation",
-	    "filter": [ "in", "class", "tertiary",
-			"unclassified", "residential", "pedestrian", "living_street", "service", "road", "driveway" ],
+	    "filter": [ "in", "class", "tertiary" ],
 	    "layout": {
 		"text-field": "{name}",
 		"text-font": [ "KlokanTech Noto Sans Regular" ],
@@ -24235,7 +24262,36 @@
 		"symbol-spacing": { "stops": [ [ 12, 250 ],
                                                [ 20, 900 ] ] },
 		"text-anchor": "center",
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] }
+		"text-size": { "stops": [ [ 12, 10 ], 
+                                          [ 16, 20 ], 
+                                          [ 20, 30 ] ] }
+	    },
+	    "source": "someoneelse",
+            "target": "svwd08",
+	    "paint": {
+		"icon-color": "#333344",
+		"text-color": "#333344",
+		"text-halo-color": "rgba(255, 255, 255, 0.8)",
+		"text-halo-width": 2,
+		"text-halo-blur": 1
+	    },
+	    "minzoom": 12
+	},
+	{
+	    "id": "labelsmall-street-centre-12-s08",
+	    "type": "symbol",
+	    "source-layer": "transportation",
+	    "filter": [ "in", "class", "unclassified", "residential", "pedestrian", "living_street", "service", "road", "driveway" ],
+	    "layout": {
+		"text-field": "{name}",
+		"text-font": [ "KlokanTech Noto Sans Regular" ],
+		"symbol-placement": "line",
+		"symbol-spacing": { "stops": [ [ 12, 250 ],
+                                               [ 20, 900 ] ] },
+		"text-anchor": "center",
+		"text-size": { "stops": [ [ 12, 10 ], 
+                                          [ 16, 14 ], 
+                                          [ 20, 30 ] ] }
 	    },
 	    "source": "someoneelse",
             "target": "svwd08",

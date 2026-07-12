@@ -18218,11 +18218,16 @@
                                                 "amenity_bank_l",
                                                 "amenity_bank_n",
                                                 "amenity_bank_y",
+                                                "amenity_bankatm",
+                                                "amenity_bankatm_l",
+                                                "amenity_bankatm_n",
+                                                "amenity_bankatm_y",
                                                 "amenity_monastery" ] ],
 	    "layout": {
 		"icon-image": "{class}",
 		"icon-size": { "stops": [ [ 16, 0.5 ], 
                                           [ 21, 1.0 ] ] },
+                "icon-allow-overlap": true,
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [
@@ -18230,8 +18235,10 @@
 		],
 		"text-max-width": 13,
 		"text-offset": [ 0, 0.6 ],
+                "text-optional": true,
 		"text-padding": 2,
-		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"text-size": { "stops": [ [ 12, 10 ], 
+                                          [ 20, 30 ] ] },
 		"visibility": "visible"
 	    },
 	    "paint": {

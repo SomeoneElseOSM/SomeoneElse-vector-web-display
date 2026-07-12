@@ -6,6 +6,8 @@ Except as noted, all changes also apply to the [SVWD06 Android native display st
 Change bus stops to make icon and text smaller at low zoom (vector 16) and less large at high (vector 25).  See SVWD03 issue https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/issues/20 .
 Made icon and text size smaller for information boards etc.  See SVWD03 issue https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/issues/25 .
 Create new icons for `amenity=bank` (which a coloured flash for wheelchair access) and `amenity=atm`.
+Banks with ATMs are now shown with a unique icon (which a coloured flash for wheelchair access).
+Banks and ATMs now have the text optional and can overlap.
 
 ## 04/07/2026
 Show `man_made=surveillance` as CCTV cameras from vector zoom 19.

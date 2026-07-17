@@ -2,6 +2,9 @@
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 Except as noted, all changes also apply to the [SVWD06 Android native display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd06.md).  
 
+## As yet unreleased
+Show zebra crossings like regular crossings but with a Z modifier.
+
 ## 12/07/2026
 Change bus stops to make icon and text smaller at low zoom (vector 16) and less large at high (vector 25).  See SVWD03 issue https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/issues/20 .
 Made icon and text size smaller for information boards etc.  See SVWD03 issue https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/issues/25 .

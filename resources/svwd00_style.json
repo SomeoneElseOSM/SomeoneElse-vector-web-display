@@ -18016,6 +18016,7 @@
 	    "minzoom": 16,
 	    "filter": [ "all", [ "in", "class", "amenity_defibrillator",
                                                 "amenity_bleed_control_kit",
+                                                "amenity_help_point",
                                                 "man_made_outfall" ] ],
 	    "layout": {
 		"icon-image": "{class}",

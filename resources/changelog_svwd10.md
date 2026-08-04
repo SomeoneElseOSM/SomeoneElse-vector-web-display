@@ -1,6 +1,9 @@
 # Changes made to the [SVWD10 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd10.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
+## As yet unreleased
+Reduce the width of railway bridges at zoom 13 and remove at zoom 12.
+
 ## 23/05/2026
 Fixed bug where bus guideway bridge edges were included in svwd10 (railways only) in error.
 

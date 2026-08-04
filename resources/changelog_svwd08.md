@@ -1,5 +1,8 @@
 # Changes made to the [SVWD08 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd08.md).  
 
+## As yet unreleased
+Reduce the width of railway bridges at zoom 13 and remove at zoom 12.
+
 ## 23/07/2026
 Show zebra crossings like regular crossings but with a Z modifier.
 Show `amenity=kitchen` with a unique icon.

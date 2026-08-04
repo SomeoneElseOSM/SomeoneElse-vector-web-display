@@ -4042,11 +4042,11 @@
 	    }
 	},
 	{
-	    "id": "railway-rail-bridgecasing-12",
+	    "id": "railway-rail-bridgecasing-13",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "streets",
-	    "minzoom": 12,
+	    "minzoom": 13,
 	    "filter": [
 		"all",
 		[ "in", "kind", "rail",
@@ -4063,8 +4063,8 @@
 		"line-color": "black",
 		"line-width": {
 		    "stops": [
-			[ 13,  5.4 ],
-			[ 14,  7.2 ],
+			[ 13,  4.5 ],
+			[ 14,  6.0 ],
 			[ 16, 10.8 ],
 			[ 17, 21.6 ],
 			[ 18, 43.2 ],
@@ -4074,11 +4074,11 @@
 	    }
 	},
 	{
-	    "id": "railway-rail-bridgeprefill-12",
+	    "id": "railway-rail-bridgeprefill-13",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "streets",
-	    "minzoom": 12,
+	    "minzoom": 13,
 	    "filter": [
 		"all",
 		[ "in", "kind", "rail",

@@ -1,6 +1,9 @@
 # Changes made to the [SVWD03 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd03.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
+## 04/08/2026
+Reduce the width of railway bridges at zoom 13 and remove at zoom 12.
+
 ## 11/07/2026
 Only show pois-tourisminformationspecific-lightbrown-imagenameoverlap from vector zoom 16.  Increase text size at 16 from 5 to 10.
 Split `label-street-centre-12` into "large" and "small" for major and minor roads.  Remove `minzoom` criteria for both (it's in the tiles).  Add a stop for text size at 16 that is slightly smaller than previously for large labels and much smaller than previously for small ones.  See https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/issues/21 .

@@ -5,6 +5,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 Banks with ATMs are now shown differently to banks without ATMs - they have something in black on the side of the building.
 Supermarkets changed to allow overlap.  Fixes https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/issues/31
 Bus stations changed to allow overlap.  Fixes https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/issues/27
+Changed non-bridge and bridge tertiary fill to be narrower, to somewhat address https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/issues/22
 
 ## 04/08/2026
 Reduce the width of railway bridges at zoom 13 and remove at zoom 12.

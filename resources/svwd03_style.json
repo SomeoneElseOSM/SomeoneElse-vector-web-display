@@ -7297,6 +7297,7 @@
 		"icon-image": "shop_{shop}",
 		"icon-size": { "stops": [ [ 15, 0.5 ], 
                                           [ 20, 1.0 ] ] },
+                "icon-allow-overlap": true,
 		"text-anchor": "top",
 		"text-field": "{name}\n",
 		"text-font": [

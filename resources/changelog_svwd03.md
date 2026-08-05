@@ -3,6 +3,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 
 ## 05/08/2026
 Banks with ATMs are now shown differently to banks without ATMs - they have something in black on the side of the building.
+Supermarkets changed to allow overlap.  Fixes https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/issues/31
 
 ## 04/08/2026
 Reduce the width of railway bridges at zoom 13 and remove at zoom 12.

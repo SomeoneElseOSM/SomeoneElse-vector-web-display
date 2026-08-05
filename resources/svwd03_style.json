@@ -7035,11 +7035,70 @@
 	    "source-layer": "pois",
 	    "minzoom": 16,
 	    "filter": [ "all", [ "in", "amenity", "atm",
-                                                "bank",
                                                 "public_building",
                                                 "townhall" ] ],
 	    "layout": {
 		"icon-image": "amenity_{amenity}",
+		"icon-size": { "stops": [ [ 16, 0.5 ], 
+                                          [ 21, 1.0 ] ] },
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "black",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "pois-amenity-bank-imagename-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "amenity", "bank" ],
+                               [ "!=", "atm", true ] ],
+	    "layout": {
+		"icon-image": "amenity_{amenity}",
+		"icon-size": { "stops": [ [ 16, 0.5 ], 
+                                          [ 21, 1.0 ] ] },
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "black",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "pois-amenity-bankatm-imagename-16",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "minzoom": 16,
+	    "filter": [ "all", [ "in", "amenity", "bank" ],
+                               [ "==", "atm", true ] ],
+	    "layout": {
+		"icon-image": "amenity_bankatm",
 		"icon-size": { "stops": [ [ 16, 0.5 ], 
                                           [ 21, 1.0 ] ] },
 		"text-anchor": "top",

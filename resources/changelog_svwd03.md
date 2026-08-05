@@ -1,6 +1,9 @@
 # Changes made to the [SVWD03 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd03.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
+## 05/08/2026
+Banks with ATMs are now shown differently to banks without ATMs - they have something in black on the side of the building.
+
 ## 04/08/2026
 Reduce the width of railway bridges at zoom 13 and remove at zoom 12.
 

@@ -4,6 +4,7 @@ Except as noted, all changes also apply to the [SVWD06 Android native display st
 
 ## As yet unreleased
 Reduce the width of railway bridges at zoom 13 and remove at zoom 12.
+Reduced the bridge casing on aqueducts to match primary roads.
 
 ## 23/07/2026
 Show zebra crossings like regular crossings but with a Z modifier.

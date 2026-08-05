@@ -3,6 +3,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 
 ## As yet unreleased
 Reduce the width of railway bridges at zoom 13 and remove at zoom 12.
+Reduced the bridge casing on aqueducts to match primary roads.
 
 ## 23/05/2026
 Fixed bug where bus guideway bridge edges were included in svwd10 (railways only) in error.

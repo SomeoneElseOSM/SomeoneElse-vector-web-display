@@ -38,6 +38,19 @@
 # create wider montages (at the files sizes used, > 256 icons) this value 
 # must be increased.
 # -----------------------------------------------------------------------------
+# Note that some of the icons here are composites.
+# The wheelchair versions of the "bank" and "bankatm" ones were created
+# like this:
+#
+# magick convert am_bank3.png blank_wc_y.png -composite am_bank3_y.png 
+# magick convert am_bank3.png blank_wc_l.png -composite am_bank3_l.png 
+# magick convert am_bank3.png blank_wc_n.png -composite am_bank3_n.png 
+#
+# magick convert am_bankatm3.png blank_wc_y.png -composite am_bankatm3_y.png 
+# magick convert am_bankatm3.png blank_wc_l.png -composite am_bankatm3_l.png 
+# magick convert am_bankatm3.png blank_wc_n.png -composite am_bankatm3_n.png 
+#
+# -----------------------------------------------------------------------------
 
 #
 # Point icons used with the "land1" layer:

@@ -179,7 +179,6 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/health_ambulance.p.16.png                       ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_ambulance_station.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/health_mountainrescue.p.16.png                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_mountain_rescue.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/health_mountainrescuebox.p.16.png               ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_mountain_rescue_box.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/christian_cross.png                             ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_place_of_worship_christian.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/islamic3.p.16.png                               ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_place_of_worship_muslim.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/sikh3.p.16.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_place_of_worship_sikh.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/jewish3.p.16.png                                ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_place_of_worship_jewish.png
@@ -1159,7 +1158,7 @@ cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/meadowperp
 cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/saltmarsh64.png          ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_saltmarsh.png
 cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/reedbed64.png            ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_reedbed.png
 cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/historic_grave_yard.png  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/pattern_landuse_historiccemetery.png
-
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/amenity_place_of_worship_christian.png  ~/src/SomeoneElse-vector-web-display/resources/svwd01_icons/amenity_place_of_worship_christian.png
 
 # Line patterns used with the "land1" and "land2" layers:
 # Many are converted from a 32x32 version in svwd01_source_icons,

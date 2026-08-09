@@ -445,6 +445,20 @@ cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/orchard64.
 cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/allotments64.png         ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/pattern_allotments.png
 cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/othercemetery64.png      ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/pattern_othercemetery.png
 cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/amenity_place_of_worship_christian.png  ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_place_of_worship_christian.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/amenity_place_of_worship_christian_catholic.png  ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_place_of_worship_christian_catholic.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/amenity_place_of_worship_christian_roman_catholic.png  ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_place_of_worship_christian_roman_catholic.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/amenity_place_of_worship_christian_baptist.png  ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_place_of_worship_christian_baptist.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/amenity_place_of_worship_christian_lutheran.png  ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_place_of_worship_christian_lutheran.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/amenity_place_of_worship_christian_orthodox.png  ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_place_of_worship_christian_orthodox.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/amenity_place_of_worship_christian_anglican.png  ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_place_of_worship_christian_anglican.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/amenity_place_of_worship_christian_protestant.png  ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_place_of_worship_christian_protestant.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/amenity_place_of_worship_christian_methodist.png  ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_place_of_worship_christian_methodist.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/amenity_place_of_worship_christian_russian_orthodox.png  ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_place_of_worship_christian_russian_orthodox.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/amenity_place_of_worship_christian_greek_orthodox.png  ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_place_of_worship_christian_greek_orthodox.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/amenity_place_of_worship_christian_pentecostal.png  ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_place_of_worship_christian_pentecostal.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/amenity_place_of_worship_christian_evangelical.png  ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_place_of_worship_christian_evangelical.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/amenity_place_of_worship_christian_presbyterian.png  ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_place_of_worship_christian_presbyterian.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/amenity_place_of_worship_christian_mormon.png  ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_place_of_worship_christian_mormon.png
 
 # Line patterns used with the various layers such as "aerialways"
 # Many are converted from a 32x32 version in svwd01_source_icons,

@@ -38,7 +38,7 @@
 # create wider montages (at the files sizes used, > 256 icons) this value 
 # must be increased.
 # -----------------------------------------------------------------------------
-# Note that some of the icons here are composites.
+# Some of the icons here are composites.
 # The wheelchair versions of the "bank" and "bankatm" ones were created
 # like this:
 #
@@ -50,6 +50,9 @@
 # magick convert am_bankatm3.png blank_wc_l.png -composite am_bankatm3_l.png 
 # magick convert am_bankatm3.png blank_wc_n.png -composite am_bankatm3_n.png 
 #
+# Some of the icons here comprise annotatons of text on another icon:
+# magick amenity_place_of_worship_christian.png -pointsize 10 -fill black \ 
+# -annotate +38+48 "C" amenity_place_of_worship_christian_catholic.png
 # -----------------------------------------------------------------------------
 
 #

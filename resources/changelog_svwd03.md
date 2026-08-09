@@ -1,9 +1,10 @@
 # Changes made to the [SVWD03 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd03.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
-## As yet unreleased
+## 09/08/2026
 Changed cross icon for most christian places of worship to a solid black one which looks nicer.  
 Made text optional and allowed overlap on places of worship.
+Using newly-created source icons from SVWD01, create versions of "christian place of worship" that annotates with text for the denomination (e.g. C for Catholic, LDS for Mormon, ΕΟ for Greek Orthodox etc.).
 
 ## 08/08/2026
 Road shields now use "icon-text-fit" and "icon-text-fit-padding" rather than an "icon-size" with stops.  There are now only two sorts of shield for each road type (single and double, no longer short or long).  "double" now handles rows >= 2, so even more braided routes are shown, and there's no columns limit, so "references" such as "KY 8 Business" also now appear.  Resolves issues 7, 16 and 17.

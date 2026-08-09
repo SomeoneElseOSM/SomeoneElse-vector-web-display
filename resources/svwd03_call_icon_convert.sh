@@ -72,7 +72,6 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/nightclub.png                                   ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_nightclub.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/health_nonspecific.p.16.png                     ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_nursing_home.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/am_pharmacy_d.png                               ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_pharmacy.png
-~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/christian3.p.14.png                             ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_place_of_worship_christian.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/islamic3.p.16.png                               ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_place_of_worship_muslim.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/sikh3.p.16.png                                  ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_place_of_worship_sikh.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/jewish3.p.16.png                                ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_place_of_worship_jewish.png
@@ -445,6 +444,7 @@ cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/shingle64.
 cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/orchard64.png          ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/pattern_orchard.png
 cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/allotments64.png         ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/pattern_allotments.png
 cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/othercemetery64.png      ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/pattern_othercemetery.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/amenity_place_of_worship_christian.png  ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_place_of_worship_christian.png
 
 # Line patterns used with the various layers such as "aerialways"
 # Many are converted from a 32x32 version in svwd01_source_icons,

@@ -5,6 +5,7 @@ Reduce the width of railway bridges at zoom 13 and remove at zoom 12.
 Reduced the bridge casing on aqueducts to match primary roads.
 Changed non-bridge and bridge tertiary fill to be narrower.
 Changed cross icon for most christian places of worship to a solid black one which looks nicer.  
+Made text optional and allowed overlap on places of worship and some other black icons.
 
 ## 23/07/2026
 Show zebra crossings like regular crossings but with a Z modifier.

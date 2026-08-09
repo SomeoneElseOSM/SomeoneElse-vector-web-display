@@ -18624,6 +18624,7 @@
 	    "source-layer": "land1",
 	    "minzoom": 15,
 	    "filter": [ "all", [ "in", "class", "amenity_place_of_worship_christian",
+                                                "amenity_place_of_worship_christian_jehovahs_witness",
                                                 "amenity_place_of_worship_muslim",
                                                 "amenity_place_of_worship_sikh",
                                                 "amenity_place_of_worship_jewish",

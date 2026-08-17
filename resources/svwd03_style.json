@@ -7274,14 +7274,81 @@
 	    }
 	},
 	{
+	    "id": "pois-amenitypowmuslimselected-indigo-imagename-15",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "minzoom": 15,
+	    "filter": [ "all", [ "in", "amenity", "place_of_worship" ],
+                               [ "in", "religion", "muslim" ],
+                               [ "in", "denomination", "sunni",
+                                                   "shia" ] ],
+	    "layout": {
+		"icon-image": "amenity_{amenity}_{religion}_{denomination}",
+		"icon-size": { "stops": [ [ 15, 0.5 ], 
+                                          [ 20, 1.0 ] ] },
+                "icon-allow-overlap": true,
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+                "text-optional": true,
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#000033",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "pois-amenitypowmuslimother-indigo-imagename-15",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "pois",
+	    "minzoom": 15,
+	    "filter": [ "all", [ "in", "amenity", "place_of_worship" ],
+                               [ "in", "religion", "muslim" ],
+                               [ "!in", "denomination", "sunni",
+                                                   "shia" ] ],
+	    "layout": {
+		"icon-image": "amenity_{amenity}_{religion}",
+		"icon-size": { "stops": [ [ 15, 0.5 ], 
+                                          [ 20, 1.0 ] ] },
+                "icon-allow-overlap": true,
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+                "text-optional": true,
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#000033",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
 	    "id": "pois-amenitypowselected-indigo-imagename-15",
 	    "type": "symbol",
 	    "source": "someoneelse",
 	    "source-layer": "pois",
 	    "minzoom": 15,
 	    "filter": [ "all", [ "in", "amenity", "place_of_worship" ],
-                               [ "in", "religion", "muslim",
-                                                   "sikh",
+                               [ "in", "religion", "sikh",
                                                    "jewish",
                                                    "hindu",
                                                    "buddhist",

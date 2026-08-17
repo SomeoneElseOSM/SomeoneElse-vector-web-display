@@ -3,6 +3,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 
 ## 17/08/2026
 Use a non-cross icon for the denomination `jehovahs_witness`, with "JW" as annotation.
+Using newly-created source icons from SVWD01, create versions of "muslim place of worship" that annotates with text for the denomination ("d" for Sunni, "p" for Shia).
 
 ## 09/08/2026
 Changed cross icon for most christian places of worship to a solid black one which looks nicer.  

@@ -460,6 +460,8 @@ cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/amenity_pl
 cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/amenity_place_of_worship_christian_evangelical.png  ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_place_of_worship_christian_evangelical.png
 cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/amenity_place_of_worship_christian_presbyterian.png  ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_place_of_worship_christian_presbyterian.png
 cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/amenity_place_of_worship_christian_mormon.png  ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_place_of_worship_christian_mormon.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/amenity_place_of_worship_muslim_sunni.png  ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_place_of_worship_muslim_sunni.png
+cp ~/src/SomeoneElse-vector-web-display/resources/svwd01_source_icons/amenity_place_of_worship_muslim_shia.png  ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_place_of_worship_muslim_shia.png
 
 # Line patterns used with the various layers such as "aerialways"
 # Many are converted from a 32x32 version in svwd01_source_icons,

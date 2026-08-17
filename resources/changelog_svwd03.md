@@ -1,6 +1,9 @@
 # Changes made to the [SVWD03 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd03.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
+## 17/08/2026
+Use a non-cross icon for the denomination `jehovahs_witness`, with "JW" as annotation.
+
 ## 09/08/2026
 Changed cross icon for most christian places of worship to a solid black one which looks nicer.  
 Made text optional and allowed overlap on places of worship.

@@ -1,6 +1,9 @@
 # Changes made to the [SVWD03 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd03.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
+## 21/08/2026
+The "Shortbread" style was updated to this around 17/08/2026.
+
 ## 17/08/2026
 Use a non-cross icon for the denomination `jehovahs_witness`, with "JW" as annotation.
 Using newly-created source icons from SVWD01, create versions of "muslim place of worship" that annotates with text for the denomination ("d" for Sunni, "p" for Shia).

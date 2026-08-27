@@ -66,6 +66,7 @@
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/embassy.png                                     ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_embassy.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/firestation.p.16.png                            ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_fire_station.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fountain.png                                    ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_fountain.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/fuel.p.16.png                                   ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_fuel.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/hospital.p.16.png                               ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_hospital.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/huntingstand.p.16.png                           ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_hunting_stand.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/library.p.20.png                                ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/amenity_library.png
@@ -281,8 +282,10 @@
 # leisure
 #
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/leisure_golf.png                                ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/leisure_golf_course.png
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/leisure_dog_park.png                                ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/leisure_dog_park.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/leisure_nonspecific.p.16.png                    ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/leisure_ice_rink.png
 # No icon for generic leisure=pitch
+~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/playground.p.20.png                             ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/leisure_playground.png
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/leisure_sports_centre32.png                     ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/leisure_sports_centre.png
 # No icon for leisure=stadium
 ~/src/SomeoneElse-vector-web-display/svwd_convert_icon_from_raster.sh ~/src/openstreetmap-carto-AJT/symbols/leisure_nonspecific.p.16.png                    ~/src/SomeoneElse-vector-web-display/resources/svwd03_icons/leisure_swimming_pool.png

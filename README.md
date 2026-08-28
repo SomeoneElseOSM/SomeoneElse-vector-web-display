@@ -29,7 +29,7 @@ A [companion repository](https://github.com/SomeoneElseOSM/SomeoneElse-vector-ex
 
 ## What is "svwd_process_style.lua" for?
 
-Web map styles that are based on tge same schema share lots of information.  They'll probably all have a layer for "ocean" for example, and may well share other layers - a map to show railways probably also wants to show rivers and towns.  Each MapLibre style file is a JSON document in a [certain format](https://maplibre.org/maplibre-style-spec/).  I added one property to the list supported by [layers](https://maplibre.org/maplibre-style-spec/layers/) there ("target", set to a comma-separated list of styles in which that layer belongs).
+Web map styles that are based on the same schema share lots of information.  They'll probably all have a layer for "ocean" for example, and may well share other layers - a map to show railways probably also wants to show rivers and towns.  Each MapLibre style file is a JSON document in a [certain format](https://maplibre.org/maplibre-style-spec/).  I added one property to the list supported by [layers](https://maplibre.org/maplibre-style-spec/layers/) there ("target", set to a comma-separated list of styles in which that layer belongs).
 
 You can then do things like
 

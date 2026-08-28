@@ -35,7 +35,7 @@ You can then do things like
 
     lua .../path/to/svwd_process_style.lua .../path/to/svwd00_style.json .../path/to/svwd08_style.json svwd08
 
-which will create "svwd08_style.json" from "svwd08_style.json" by including all the layers marked either with no target (by default they go everywhere) or the style that we want to create (here, "svwd08").
+which will create "svwd08_style.json" from "svwd00_style.json" by including all the layers marked either with no target (by default they go everywhere) or the style that we want to create (here, "svwd08").
 
 It requires a JSON library dkjson.lua.  Download the latest from https://dkolf.de/dkjson-lua/ , rename the resulting file to "dkjson.lua" and put it somewhere that lua will find it such as "/usr/local/share/lua/5.3/".
 

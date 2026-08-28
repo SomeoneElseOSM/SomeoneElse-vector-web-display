@@ -1,7 +1,7 @@
 # Changes made to the [SVWD03 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd03.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
-## As yet unreleased
+## 27/08/2026
 `waterway=drain` is now included in the Shortbread 1.1 specification, so it has been added to this style; handled the same way as `waterway=stream`.
 `leisure=dog_park` is now included in the OSMF's Shortbread 1.1 tiles, so it has been added to this style.
 `amenity=fuel` is now included in the OSMF's Shortbread 1.1 tiles, so it has been added to this style.

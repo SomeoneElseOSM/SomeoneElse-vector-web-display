@@ -1,8 +1,8 @@
-# Display style for use with shortbread schema
+# Display style for use with shortbread 1.1 schema
 
-See the schema [documentation](https://shortbread-tiles.org/schema/1.0/).
+See the 1.1 schema [documentation](https://shortbread-tiles.org/schema/1.1/).
 
-This map style depends on some icons created for the [svwd01](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd01.md) style.  Most shortbread layers are handled - the only exceptions are basically edge cases in OSM data.  A companion [debug style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd05.md) exists.
+This map style depends on some icons created for the [svwd01](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd01.md) style.  Most shortbread layers are handled - the only exceptions are basically edge cases in OSM data, and some Shortbread 1.1 features that either would be difficult to add (multilingual names) or just not yet added (access tags).  A companion [debug style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd05.md) exists.
 
 Some data that is in the tiles but not in the schema (like busways) is also shown.
 

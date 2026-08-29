@@ -1,6 +1,9 @@
 # Changes made to the [SVWD03 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd03.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
+## As yet unreleased.
+Access information is now included in the Shortbread 1.1 specification.  Footways, paths and steps are shown as "no access" if `foot=no` is set in the tiles, and similarly cycleways for `bicycle=no`.
+
 ## 27/08/2026
 `waterway=drain` is now included in the Shortbread 1.1 specification, so it has been added to this style; handled the same way as `waterway=stream`.
 `leisure=dog_park` is now included in the OSMF's Shortbread 1.1 tiles, so it has been added to this style.

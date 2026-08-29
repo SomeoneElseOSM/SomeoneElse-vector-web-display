@@ -2,7 +2,7 @@
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 Except as noted, all changes also apply to the [SVWD06 Android native display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd06.md).  
 
-## As yet unreleased
+## 29/08/2026
 Reduce the width of railway bridges at zoom 13 and remove at zoom 12.
 Reduced the bridge casing on aqueducts to match primary roads.
 Changed non-bridge and bridge tertiary fill to be narrower.

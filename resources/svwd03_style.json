@@ -5203,21 +5203,21 @@
 	    }
 	},
 	{
-	    "id": "highway-access_foot_no-narrow-12",
+	    "id": "highway-access_foot_no-wide-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "streets",
 	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "kind", "footway", "path", "steps" ],
+	    "filter": [ "all", [ "in", "kind", "living_street", "pedestrian" ],
                                [ "==", "foot", "no" ] ],
 	    "paint": {
 		"line-color": "#ffcc99",
                 "line-dasharray": [2.0, 2.0],
 		"line-width": {
-		    "base": 1.2,
+		    "base": 2.4,
 		    "stops": [
-			[ 12,  1.2 ],
-			[ 20,  4.8 ]
+			[ 12,  2.4 ],
+			[ 20,  9.6 ]
 		    ]
 		}
 	    }
@@ -5243,22 +5243,65 @@
 	    }
 	},
 	{
-	    "id": "highway-access_foot_limited-narrow-12",
+	    "id": "highway-access_foot_no-narrow-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "streets",
 	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "kind", "footway", "path", "steps" ],
+	    "filter": [ "all", [ "in", "kind", "footway", "path", "steps", "track" ],
+                               [ "==", "foot", "no" ] ],
+	    "paint": {
+		"line-color": "#ffcc99",
+                "line-dasharray": [2.0, 2.0],
+		"line-width": {
+		    "base": 1.2,
+		    "stops": [
+			[ 12,  1.2 ],
+			[ 20,  4.8 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-access_motorcar_limited-wide-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "streets",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "kind", "motorway", "trunk",
+                                                "primary", "secondary", 
+                                                "tertiary", 
+                                                "unclassified", "residential",
+                                                "service", "road" ],
+                               [ "==", "motorcar", "limited" ] ],
+	    "paint": {
+		"line-color": "#ffff99",
+                "line-dasharray": [2.0, 2.0],
+		"line-width": {
+		    "base": 2.4,
+		    "stops": [
+			[ 12,  2.4 ],
+			[ 20,  9.6 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-access_foot_limited-wide-12",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "streets",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "kind", "living_street", "pedestrian" ],
                                [ "==", "foot", "limited" ] ],
 	    "paint": {
 		"line-color": "#ffff99",
-		"line-opacity": 0.7,
                 "line-dasharray": [2.0, 2.0],
 		"line-width": {
-		    "base": 0.9,
+		    "base": 2.4,
 		    "stops": [
-			[ 12,  0.9 ],
-			[ 20,  3.6 ]
+			[ 12,  2.4 ],
+			[ 20,  9.6 ]
 		    ]
 		}
 	    }
@@ -5285,25 +5328,22 @@
 	    }
 	},
 	{
-	    "id": "highway-access_motorcar_limited-wide-12",
+	    "id": "highway-access_foot_limited-narrow-12",
 	    "type": "line",
 	    "source": "someoneelse",
 	    "source-layer": "streets",
 	    "minzoom": 12,
-	    "filter": [ "all", [ "in", "kind", "motorway", "trunk",
-                                                "primary", "secondary", 
-                                                "tertiary", 
-                                                "unclassified", "residential",
-                                                "service", "road" ],
-                               [ "==", "motorcar", "limited" ] ],
+	    "filter": [ "all", [ "in", "kind", "footway", "path", "steps", "track" ],
+                               [ "==", "foot", "limited" ] ],
 	    "paint": {
 		"line-color": "#ffff99",
+		"line-opacity": 0.7,
                 "line-dasharray": [2.0, 2.0],
 		"line-width": {
-		    "base": 2.4,
+		    "base": 0.9,
 		    "stops": [
-			[ 12,  2.4 ],
-			[ 20,  9.6 ]
+			[ 12,  0.9 ],
+			[ 20,  3.6 ]
 		    ]
 		}
 	    }

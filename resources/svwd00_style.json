@@ -6713,7 +6713,7 @@
 	    }
 	},
 	{
-	    "id": "highway-pedestrian-innercasing-10",
+	    "id": "highway-pedestrian-otherinnercasing-10",
 	    "type": "line",
 	    "source": "someoneelse",
             "target": "svwd01,svwd08",
@@ -6722,12 +6722,96 @@
 	    "filter": [
 		"all",
 		[ "in", "class", "pedestrian" ],
+		[ "!in", "edge", "sidewalk",
+                                 "verge",
+                                 "ford" ],
                 [ "!in", "bridge", "yes" ],
                 [ "!=", "tunnel", true ]
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
 	    "paint": {
-		"line-color": "grey",
+		"line-color": "#999999",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 10,  2.8 ],
+			[ 12,  3.2 ],
+			[ 20, 86.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-pedestriansidewalk-casing-10",
+	    "type": "line",
+	    "source": "someoneelse",
+            "target": "svwd01,svwd08",
+	    "source-layer": "transportation",
+	    "minzoom": 10,
+	    "filter": [
+		"all",
+		[ "in", "class", "pedestrian" ],
+		[ "in", "edge", "sidewalk" ],
+                [ "!in", "bridge", "yes" ],
+                [ "!=", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#999999",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 10,  2.8 ],
+			[ 12,  3.2 ],
+			[ 20, 86.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-pedestrianverge-casing-10",
+	    "type": "line",
+	    "source": "someoneelse",
+            "target": "svwd01,svwd08",
+	    "source-layer": "transportation",
+	    "minzoom": 10,
+	    "filter": [
+		"all",
+		[ "in", "class", "pedestrian" ],
+		[ "in", "edge", "verge" ],
+                [ "!in", "bridge", "yes" ],
+                [ "!=", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#99cc00",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 10,  2.8 ],
+			[ 12,  3.2 ],
+			[ 20, 86.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-pedestrianford-casing-10",
+	    "type": "line",
+	    "source": "someoneelse",
+            "target": "svwd01,svwd08",
+	    "source-layer": "transportation",
+	    "minzoom": 10,
+	    "filter": [
+		"all",
+		[ "in", "class", "pedestrian" ],
+		[ "in", "edge", "ford" ],
+                [ "!in", "bridge", "yes" ],
+                [ "!=", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#b5d0d0",
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
@@ -8722,7 +8806,7 @@
 	    }
 	},
 	{
-	    "id": "highway-pedestrian-fill-10",
+	    "id": "highway-pedestriansidewalkvergeford-fill-10",
 	    "type": "line",
 	    "source": "someoneelse",
             "target": "svwd01,svwd08",
@@ -8731,6 +8815,38 @@
 	    "filter": [
 		"all",
 		[ "in", "class", "pedestrian" ],
+		[ "in", "edge", "sidewalk",
+                                "verge",
+                                "ford" ],
+                [ "!=", "bridge", "yes" ],
+                [ "!=", "tunnel", true ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#ededed",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 10,  2.0 ],
+			[ 12,  2.4 ],
+			[ 20, 42.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-pedestrian-otherfill-10",
+	    "type": "line",
+	    "source": "someoneelse",
+            "target": "svwd01,svwd08",
+	    "source-layer": "transportation",
+	    "minzoom": 10,
+	    "filter": [
+		"all",
+		[ "in", "class", "pedestrian" ],
+		[ "!in", "edge", "sidewalk",
+		                 "verge",
+                                 "ford" ],
                 [ "!=", "bridge", "yes" ],
                 [ "!=", "tunnel", true ]
 	    ],
@@ -8748,7 +8864,7 @@
 	    }
 	},
 	{
-	    "id": "highway-unclassifiedsidewalkergeford-fill-10",
+	    "id": "highway-unclassifiedsidewalkvergeford-fill-10",
 	    "type": "line",
 	    "source": "someoneelse",
             "target": "svwd01,svwd08",
@@ -8806,7 +8922,7 @@
 	    }
 	},
 	{
-	    "id": "highway-residentialsidewalkergeford-fill-11",
+	    "id": "highway-residentialsidewalkvergeford-fill-11",
 	    "type": "line",
 	    "source": "someoneelse",
             "target": "svwd01,svwd08",
@@ -11232,7 +11348,7 @@
 	    }
 	},
 	{
-	    "id": "highway-pedestrian-bridgeinnercasing-10",
+	    "id": "highway-pedestrian-bridgeinnerothercasing-10",
 	    "type": "line",
 	    "source": "someoneelse",
             "target": "svwd01,svwd08",
@@ -11241,11 +11357,92 @@
 	    "filter": [
 		"all",
 		[ "in", "class", "pedestrian" ],
+		[ "!in", "edge", "sidewalk",
+		                 "verge",
+                                 "ford" ],
                 [ "==", "bridge", "yes" ]
 	    ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
-		"line-color": "grey",
+		"line-color": "#999999",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 10,  2.8 ],
+			[ 12,  3.2 ],
+			[ 20, 86.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-pedestrian-bridgeinnersidewalkcasing-10",
+	    "type": "line",
+	    "source": "someoneelse",
+            "target": "svwd01,svwd08",
+	    "source-layer": "transportation",
+	    "minzoom": 10,
+	    "filter": [
+		"all",
+		[ "in", "class", "pedestrian" ],
+		[ "in", "edge", "sidewalk" ],
+                [ "==", "bridge", "yes" ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#999999",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 10,  2.8 ],
+			[ 12,  3.2 ],
+			[ 20, 86.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-pedestrian-bridgeinnervergecasing-10",
+	    "type": "line",
+	    "source": "someoneelse",
+            "target": "svwd01,svwd08",
+	    "source-layer": "transportation",
+	    "minzoom": 10,
+	    "filter": [
+		"all",
+		[ "in", "class", "pedestrian" ],
+		[ "in", "edge", "verge" ],
+                [ "==", "bridge", "yes" ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#99cc00",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 10,  2.8 ],
+			[ 12,  3.2 ],
+			[ 20, 86.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-pedestrian-bridgeinnerfordcasing-10",
+	    "type": "line",
+	    "source": "someoneelse",
+            "target": "svwd01,svwd08",
+	    "source-layer": "transportation",
+	    "minzoom": 10,
+	    "filter": [
+		"all",
+		[ "in", "class", "pedestrian" ],
+		[ "in", "edge", "ford" ],
+                [ "==", "bridge", "yes" ]
+	    ],
+	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#b5d0d0",
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
@@ -12014,7 +12211,7 @@
 	    }
 	},
 	{
-	    "id": "highway-pedestrian-bridgefill-10",
+	    "id": "highway-pedestrian-bridgesidewalkvergefordfill-10",
 	    "type": "line",
 	    "source": "someoneelse",
             "target": "svwd01,svwd08",
@@ -12023,6 +12220,37 @@
 	    "filter": [
 		"all",
 		[ "in", "class", "pedestrian" ],
+		[ "in", "edge", "sidewalk",
+                                "verge",
+                                "ford" ],
+                [ "==", "bridge", "yes" ]
+	    ],
+	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+	    "paint": {
+		"line-color": "#ededed",
+		"line-width": {
+		    "base": 2.0,
+		    "stops": [
+			[ 10,  2.0 ],
+			[ 12,  2.4 ],
+			[ 20, 42.0 ]
+		    ]
+		}
+	    }
+	},
+	{
+	    "id": "highway-pedestrian-bridgeotherfill-10",
+	    "type": "line",
+	    "source": "someoneelse",
+            "target": "svwd01,svwd08",
+	    "source-layer": "transportation",
+	    "minzoom": 10,
+	    "filter": [
+		"all",
+		[ "in", "class", "pedestrian" ],
+		[ "!in", "edge", "sidewalk",
+		                 "verge",
+                                 "ford" ],
                 [ "==", "bridge", "yes" ]
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },

@@ -2,6 +2,7 @@
 
 ## As yet unreleased
 Adjusted the "stops" (how things change with zoom level) for `highway=pedestrian` to match `highway=unclassified`.
+Show `highway=pedestrian` with `sidewalk`, `verge` or `ford` appropriately.
 
 ## 29/08/2026
 Reduce the width of railway bridges at zoom 13 and remove at zoom 12.

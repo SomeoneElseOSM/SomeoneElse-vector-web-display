@@ -4499,7 +4499,7 @@
 	    }
 	},
 	{
-	    "id": "highway-unclassified-tunnelcasing-11",
+	    "id": "highway-unclassifiedresidential-tunnelcasing-11",
 	    "type": "line",
 	    "source": "someoneelse",
             "target": "svwd01,svwd08",
@@ -4551,7 +4551,7 @@
 	    }
 	},
 	{
-	    "id": "highway-unclassified-tunnelfill-11",
+	    "id": "highway-unclassifiedresidential-tunnelfill-11",
 	    "type": "line",
 	    "source": "someoneelse",
             "target": "svwd01,svwd08",
@@ -5475,7 +5475,7 @@
 	    }
 	},
 	{
-	    "id": "highway-unclassified-leveecasing-12",
+	    "id": "highway-unclassifiedresidential-leveecasing-12",
 	    "type": "line",
 	    "source": "someoneelse",
             "target": "svwd01,svwd08",
@@ -5742,7 +5742,7 @@
 	    }
 	},
 	{
-	    "id": "highway-unclassified-leveeprefill-12",
+	    "id": "highway-unclassifiedresidential-leveeprefill-12",
 	    "type": "line",
 	    "source": "someoneelse",
             "target": "svwd01,svwd08",
@@ -6732,6 +6732,7 @@
 		    "base": 2.0,
 		    "stops": [
 			[ 10,  2.8 ],
+			[ 12,  3.2 ],
 			[ 20, 86.0 ]
 		    ]
 		}
@@ -6877,7 +6878,7 @@
 	    }
 	},
 	{
-	    "id": "highway-unclassifiedsidewalk-casing-11",
+	    "id": "highway-residentialsidewalk-casing-11",
 	    "type": "line",
 	    "source": "someoneelse",
             "target": "svwd01,svwd08",
@@ -6904,7 +6905,7 @@
 	    }
 	},
 	{
-	    "id": "highway-unclassifiedverge-casing-11",
+	    "id": "highway-residentialverge-casing-11",
 	    "type": "line",
 	    "source": "someoneelse",
             "target": "svwd01,svwd08",
@@ -6931,7 +6932,7 @@
 	    }
 	},
 	{
-	    "id": "highway-unclassifiedford-casing-11",
+	    "id": "highway-residentialford-casing-11",
 	    "type": "line",
 	    "source": "someoneelse",
             "target": "svwd01,svwd08",
@@ -8740,6 +8741,7 @@
 		    "base": 2.0,
 		    "stops": [
 			[ 10,  2.0 ],
+			[ 12,  2.4 ],
 			[ 20, 64.0 ]
 		    ]
 		}
@@ -8804,7 +8806,7 @@
 	    }
 	},
 	{
-	    "id": "highway-unclassifiedsidewalkergeford-fill-11",
+	    "id": "highway-residentialsidewalkergeford-fill-11",
 	    "type": "line",
 	    "source": "someoneelse",
             "target": "svwd01,svwd08",
@@ -9903,7 +9905,7 @@
 	    }
 	},
 	{
-	    "id": "highway-unclassified-bridgecasing-12",
+	    "id": "highway-unclassifiedresidential-bridgecasing-12",
 	    "type": "line",
 	    "source": "someoneelse",
             "target": "svwd01,svwd08",
@@ -10565,7 +10567,7 @@
 	    }
 	},
 	{
-	    "id": "highway-unclassified-bridgeprefill-12",
+	    "id": "highway-unclassifiedresidential-bridgeprefill-12",
 	    "type": "line",
 	    "source": "someoneelse",
             "target": "svwd01,svwd08",
@@ -11248,13 +11250,14 @@
 		    "base": 2.0,
 		    "stops": [
 			[ 10,  2.8 ],
+			[ 12,  3.2 ],
 			[ 20, 86.0 ]
 		    ]
 		}
 	    }
 	},
 	{
-	    "id": "highway-unclassified-bridgeinnerothercasing-10",
+	    "id": "highway-unclassifiedresidential-bridgeinnerothercasing-10",
 	    "type": "line",
 	    "source": "someoneelse",
             "target": "svwd01,svwd08",
@@ -11283,7 +11286,7 @@
 	    }
 	},
 	{
-	    "id": "highway-unclassified-bridgeinnersidewalkcasing-10",
+	    "id": "highway-unclassifiedresidential-bridgeinnersidewalkcasing-10",
 	    "type": "line",
 	    "source": "someoneelse",
             "target": "svwd01,svwd08",
@@ -11310,7 +11313,7 @@
 	    }
 	},
 	{
-	    "id": "highway-unclassified-bridgeinnervergecasing-10",
+	    "id": "highway-unclassifiedresidential-bridgeinnervergecasing-10",
 	    "type": "line",
 	    "source": "someoneelse",
             "target": "svwd01,svwd08",
@@ -11337,7 +11340,7 @@
 	    }
 	},
 	{
-	    "id": "highway-unclassified-bridgeinnerfordcasing-10",
+	    "id": "highway-unclassifiedresidential-bridgeinnerfordcasing-10",
 	    "type": "line",
 	    "source": "someoneelse",
             "target": "svwd01,svwd08",
@@ -12029,6 +12032,7 @@
 		    "base": 2.0,
 		    "stops": [
 			[ 10,  2.0 ],
+			[ 12,  2.4 ],
 			[ 20, 64.0 ]
 		    ]
 		}
@@ -12350,7 +12354,7 @@
 	    }
 	},
 	{
-	    "id": "highway-unclassified-bridgesidewalkvergefordfill-10",
+	    "id": "highway-unclassifiedresidential-bridgesidewalkvergefordfill-10",
 	    "type": "line",
 	    "source": "someoneelse",
             "target": "svwd01,svwd08",
@@ -12379,7 +12383,7 @@
 	    }
 	},
 	{
-	    "id": "highway-unclassified-bridgefill-10",
+	    "id": "highway-unclassifiedresidential-bridgeotherfill-10",
 	    "type": "line",
 	    "source": "someoneelse",
             "target": "svwd01,svwd08",
@@ -24852,7 +24856,7 @@
 	    "minzoom": 13
 	},
 	{
-	    "id": "label-shield-unclassified-short-15",
+	    "id": "label-shield-unclassifiedresidentialunpaved-short-15",
 	    "type": "symbol",
 	    "source-layer": "transportation",
 	    "filter": [ "all", [ "in", "class", "unclassified",
@@ -24888,7 +24892,7 @@
 	    "minzoom": 15
 	},
 	{
-	    "id": "label-shield-unclassified-long-15",
+	    "id": "label-shield-unclassifiedresidentialunpaved-long-15",
 	    "type": "symbol",
 	    "source-layer": "transportation",
 	    "filter": [ "all", [ "in", "class", "unclassified",

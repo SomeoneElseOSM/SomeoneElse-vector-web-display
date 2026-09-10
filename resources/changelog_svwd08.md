@@ -1,6 +1,6 @@
 # Changes made to the [SVWD08 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd08.md).  
 
-## As yet unreleased
+## 10/09/2026
 Adjusted the "stops" (how things change with zoom level) for `highway=pedestrian` to match `highway=unclassified`.
 Show `highway=pedestrian` with `sidewalk`, `verge` or `ford` appropriately.
 

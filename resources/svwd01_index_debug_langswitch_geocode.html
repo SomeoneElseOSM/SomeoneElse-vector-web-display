@@ -43,6 +43,10 @@
 <script>
 var map;
 
+    // use https://h36.atownsend.org.uk/nominatim/search for ipv6 .
+    // use https://d01.atownsend.org.uk:24445/nominatim/search for ipv4 only, 
+    // but browse to https://d01.atownsend.org.uk:24445 
+    // and accept invalid certificate first.
     const geocoderApi = {
         forwardGeocode: async (config) => {
             const features = [];

@@ -41,18 +41,43 @@
 <div id='map'></div>
 <!-- <div id='refresh' onclick='reload()'>Reload</div> -->
 <script>
+
+/* -------------------------------------------------------------------------
+ * Which nominatim server should we use?
+ * We'd like to use https://h36.atownsend.org.uk but that is IPV6 only.
+ * If that server is accessible, use it.
+ * If not, use https://nominatim.openstreetmap.org
+ * There is also https://d01.atownsend.org.uk:24445/nominatim/search 
+ * for ipv4 only, but that requires that the user browse to 
+ * https://d01.atownsend.org.uk:24445 and accept invalid certificate first
+ * and so isn't an option for a built-in search box.
+ * ------------------------------------------------------------------------- */
+var nominatimurl;
+
+fetch('https://h36.atownsend.org.uk')
+  .then(response => {
+    if (response.ok) {
+      console.log('Host is reachable');
+      nominatimurl='https://h36.atownsend.org.uk/nominatim/search'
+    } else {
+      console.log('Host is not reachable, status:', response.status);
+      nominatimurl='https://nominatim.openstreetmap.org/search'
+    }
+  })
+  .catch(error => {
+    console.log('Error:', error);
+    nominatimurl='https://nominatim.openstreetmap.org/search'
+  });
+
+
 var map;
 
-    // use https://h36.atownsend.org.uk/nominatim/search for ipv6 .
-    // use https://d01.atownsend.org.uk:24445/nominatim/search for ipv4 only, 
-    // but browse to https://d01.atownsend.org.uk:24445 
-    // and accept invalid certificate first.
     const geocoderApi = {
         forwardGeocode: async (config) => {
             const features = [];
             try {
                 const request =
-            `https://h36.atownsend.org.uk/nominatim/search?q=${
+            `${nominatimurl}?q=${
                 config.query
             }&format=geojson&polygon_geojson=1&addressdetails=1`;
                 const response = await fetch(request);
@@ -180,7 +205,7 @@ fetch("/metadata")
 	    // Add default OSM attribution at bottom right
 	    map.addControl(new maplibregl.AttributionControl({ customAttribution: osmAttrib }), 'bottom-right');
 
-	    // Add search box at top right
+	    // Add search box at top right above the other controls
             map.addControl(
                 new MaplibreGeocoder(geocoderApi, {
                     maplibregl

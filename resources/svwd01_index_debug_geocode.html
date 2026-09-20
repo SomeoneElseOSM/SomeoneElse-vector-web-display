@@ -46,67 +46,70 @@
  * ------------------------------------------------------------------------- */
 var nominatimurl;
 
-fetch('https://h36.atownsend.org.uk')
-  .then(response => {
-    if (response.ok) {
-      console.log('Host is reachable');
-      nominatimurl='https://h36.atownsend.org.uk/nominatim/search'
-    } else {
-      console.log('Host is not reachable, status:', response.status);
-      nominatimurl='https://nominatim.openstreetmap.org/search'
-    }
-  })
-  .catch(error => {
-    console.log('Error:', error);
-    nominatimurl='https://nominatim.openstreetmap.org/search'
-  });
-
+  function set_nominatimurl()
+  {
+      fetch('https://h36.atownsend.org.uk')
+	  .then(response => {
+	      if (response.ok) {
+		  console.log('Host is reachable');
+		  nominatimurl='https://h36.atownsend.org.uk/nominatim/search'
+	      } else {
+		  console.log('Host is not reachable, status:', response.status);
+		  nominatimurl='https://nominatim.openstreetmap.org/search'
+	      }
+	  })
+	  .catch(error => {
+	      console.log('Error:', error);
+	      nominatimurl='https://nominatim.openstreetmap.org/search'
+	  });
+  }
 
 var map;
 var searchControl;
 var searchControl_shown = false;
 
-    const geocoderApi = {
-        forwardGeocode: async (config) => {
-            const features = [];
-            try {
-                const request =
-            `${nominatimurl}?q=${
+  const geocoderApi = {
+      forwardGeocode: async (config) => {
+          const features = [];
+	  set_nominatimurl();
+          try {
+              const request =
+		    `${nominatimurl}?q=${
                 config.query
             }&format=geojson&polygon_geojson=1&addressdetails=1`;
-                const response = await fetch(request);
-                const geojson = await response.json();
-                for (const feature of geojson.features) {
-                    const center = [
-                        feature.bbox[0] +
-                    (feature.bbox[2] - feature.bbox[0]) / 2,
-                        feature.bbox[1] +
-                    (feature.bbox[3] - feature.bbox[1]) / 2
-                    ];
-                    const point = {
-                        type: 'Feature',
-                        geometry: {
-                            type: 'Point',
-                            coordinates: center
-                        },
-                        place_name: feature.properties.display_name,
-                        properties: feature.properties,
-                        text: feature.properties.display_name,
-                        place_type: ['place'],
-                        center
-                    };
-                    features.push(point);
-                }
-            } catch (e) {
-                console.error(`Failed to forwardGeocode with error: ${e}`);
-            }
-
-            return {
-                features
-            };
-        }
+              const response = await fetch(request);
+              const geojson = await response.json();
+              for (const feature of geojson.features) {
+                  const center = [
+                      feature.bbox[0] +
+			  (feature.bbox[2] - feature.bbox[0]) / 2,
+                      feature.bbox[1] +
+			  (feature.bbox[3] - feature.bbox[1]) / 2
+                  ];
+                  const point = {
+                      type: 'Feature',
+                      geometry: {
+                          type: 'Point',
+                          coordinates: center
+                      },
+                      place_name: feature.properties.display_name,
+                      properties: feature.properties,
+                      text: feature.properties.display_name,
+                      place_type: ['place'],
+                      center
+                  };
+                  features.push(point);
+              }
+          } catch (e) {
+              console.error(`Failed to forwardGeocode with error: ${e}`);
+          }
+	  
+          return {
+              features
+          };
+      }
     };
-
+  
 var osmAttrib='Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>';
 
 /* -------------------------------------------------------------------------

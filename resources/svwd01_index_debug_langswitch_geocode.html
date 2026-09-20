@@ -170,6 +170,18 @@ function toggle_search()
     }
 }
 
+  function enable_debug()
+  {
+      map.showTileBoundaries=true;
+
+      map.addControl(new MaplibreInspect({
+	  showInspectMap: false,
+	  showInspectButton: false,
+	  showInspectMapPopup: false,
+	  showMapPopup: true
+      }));
+  }
+  
 /* -------------------------------------------------------------------------
  * A button to display an about screen.
  * ------------------------------------------------------------------------- */
@@ -246,17 +258,9 @@ fetch("/metadata")
 		})
 	    );
 
-	    // -- Comment the following lines out to remove debug UI --
-	    map.showTileBoundaries=true;
+	    // -- Comment the following line out to remove debug UI --
+	    enable_debug ()
 
-            map.addControl(new MaplibreInspect({
-		showInspectMap: false,
-		showInspectButton: false,
-		showInspectMapPopup: false,
-		showMapPopup: true
-	    }));
-
-		// -- --
 	}
 )
 </script>

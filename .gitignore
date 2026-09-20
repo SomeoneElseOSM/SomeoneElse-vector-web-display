@@ -1,2 +1,11 @@
 # Ignored files
 *~
+resources/svwd01_index_nodebug_langswitch_geocode.html
+resources/svwd01_style.json
+resources/svwd01cy_style.json
+resources/svwd01en_style.json
+resources/svwd01ga_style.json
+resources/svwd01gd_style.json
+resources/svwd06_style.json
+resources/svwd08_style.json
+resources/svwd10_style.json

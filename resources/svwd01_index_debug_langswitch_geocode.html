@@ -74,6 +74,8 @@ var nominatimurl;
 var map;
 var searchControl;
 var searchControl_shown = false;
+var zoomControl;
+var geolocateControl;
 
   const geocoderApi = {
       forwardGeocode: async (config) => {
@@ -168,8 +170,12 @@ function toggle_search()
     }
     else
     {
+        map.removeControl( zoomControl );
+        map.removeControl( geolocateControl );
 	searchControl.addTo( map );
 	searchControl_shown = true;
+        map.addControl( zoomControl );
+        map.addControl( geolocateControl );
     }
 }
 
@@ -240,19 +246,19 @@ fetch("/metadata")
             searchControl = new MaplibreGeocoder(geocoderApi, { maplibregl })
 
 	    // Add zoom control
-	    map.addControl(new maplibregl.NavigationControl());
+            zoomControl = new maplibregl.NavigationControl();
+	    map.addControl( zoomControl );
 	    
 	    map.dragRotate.disable();
 	    map.keyboard.disableRotation();
 	    map.touchZoomRotate.disableRotation();
 
 	    // Add geolocate control
-	    map.addControl(
-		new maplibregl.GeolocateControl({
-		    positionOptions: { enableHighAccuracy: true },
-		    trackUserLocation: true
-		})
-	    );
+            geolocateControl = new maplibregl.GeolocateControl({
+                                   positionOptions: { enableHighAccuracy: true },
+                                   trackUserLocation: true
+                               });
+            map.addControl( geolocateControl );
 
 	    // Add scale control at bottom-left
 	    map.addControl(

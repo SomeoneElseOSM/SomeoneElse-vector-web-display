@@ -48,7 +48,7 @@ var nominatimurl;
 
   function set_nominatimurl()
   {
-      fetch('https://h36.atownsend.org.uk')
+      fetch('https://h36.atownsend.org.uk', {cache: "no-store"})
 	  .then(response => {
 	      if (response.ok) {
 		  console.log('Host is reachable');
@@ -67,11 +67,12 @@ var nominatimurl;
 var map;
 var searchControl;
 var searchControl_shown = false;
+var zoomControl;
+var geolocateControl;
 
   const geocoderApi = {
       forwardGeocode: async (config) => {
           const features = [];
-	  set_nominatimurl();
           try {
               const request =
 		    `${nominatimurl}?q=${
@@ -108,7 +109,7 @@ var searchControl_shown = false;
               features
           };
       }
-    };
+  };
   
 var osmAttrib='Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>';
 
@@ -161,8 +162,14 @@ function toggle_search()
     }
     else
     {
+	set_nominatimurl();
+
+        map.removeControl( zoomControl );
+        map.removeControl( geolocateControl );
 	searchControl.addTo( map );
 	searchControl_shown = true;
+        map.addControl( zoomControl );
+        map.addControl( geolocateControl );
     }
 }
 
@@ -225,19 +232,19 @@ fetch("/metadata")
             searchControl = new MaplibreGeocoder(geocoderApi, { maplibregl })
 
 	    // Add zoom control
-	    map.addControl(new maplibregl.NavigationControl());
+            zoomControl = new maplibregl.NavigationControl();
+	    map.addControl( zoomControl );
 	    
 	    map.dragRotate.disable();
 	    map.keyboard.disableRotation();
 	    map.touchZoomRotate.disableRotation();
 
 	    // Add geolocate control
-	    map.addControl(
-		new maplibregl.GeolocateControl({
-		    positionOptions: { enableHighAccuracy: true },
-		    trackUserLocation: true
-		})
-	    );
+            geolocateControl = new maplibregl.GeolocateControl({
+                                   positionOptions: { enableHighAccuracy: true },
+                                   trackUserLocation: true
+                               });
+            map.addControl( geolocateControl );
 
 	    // Add scale control at bottom-left
 	    map.addControl(
@@ -248,7 +255,7 @@ fetch("/metadata")
 
 	    // -- Comment the following line out to remove debug UI --
 	    enable_debug ()
-	    
+
 	}
 )
 </script>

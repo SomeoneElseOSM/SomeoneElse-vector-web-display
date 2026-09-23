@@ -80,7 +80,6 @@ var geolocateControl;
   const geocoderApi = {
       forwardGeocode: async (config) => {
           const features = [];
-	  set_nominatimurl();
           try {
               const request =
 		    `${nominatimurl}?q=${
@@ -170,6 +169,8 @@ function toggle_search()
     }
     else
     {
+	set_nominatimurl();
+
         map.removeControl( zoomControl );
         map.removeControl( geolocateControl );
 	searchControl.addTo( map );

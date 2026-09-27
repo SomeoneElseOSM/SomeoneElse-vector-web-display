@@ -51,10 +51,10 @@ var nominatimurl;
       fetch('https://h36.atownsend.org.uk', {cache: "no-store"})
 	  .then(response => {
 	      if (response.ok) {
-		  console.log('Host is reachable');
+		  console.log('h36 host is reachable');
 		  nominatimurl='https://h36.atownsend.org.uk/nominatim/search'
 	      } else {
-		  console.log('Host is not reachable, status:', response.status);
+		  console.log('h36 host is not reachable, status:', response.status);
 		  nominatimurl='https://nominatim.openstreetmap.org/search'
 	      }
 	  })
@@ -70,46 +70,42 @@ var searchControl_shown = false;
 var zoomControl;
 var geolocateControl;
 
-  const geocoderApi = {
-      forwardGeocode: async (config) => {
-          const features = [];
-          try {
-              const request =
-		    `${nominatimurl}?q=${
-                config.query
-            }&format=geojson&polygon_geojson=1&addressdetails=1`;
-              const response = await fetch(request);
-              const geojson = await response.json();
-              for (const feature of geojson.features) {
-                  const center = [
-                      feature.bbox[0] +
-			  (feature.bbox[2] - feature.bbox[0]) / 2,
-                      feature.bbox[1] +
-			  (feature.bbox[3] - feature.bbox[1]) / 2
-                  ];
-                  const point = {
-                      type: 'Feature',
-                      geometry: {
-                          type: 'Point',
-                          coordinates: center
-                      },
-                      place_name: feature.properties.display_name,
-                      properties: feature.properties,
-                      text: feature.properties.display_name,
-                      place_type: ['place'],
-                      center
-                  };
-                  features.push(point);
-              }
-          } catch (e) {
-              console.error(`Failed to forwardGeocode with error: ${e}`);
-          }
-	  
-          return {
-              features
-          };
-      }
-  };
+const geocoderApi = {
+    forwardGeocode: async (config) => {
+        const features = [];
+        try {
+            const request = `${nominatimurl}?q=${ config.query }&format=geojson&polygon_geojson=1&addressdetails=1`;
+            const response = await fetch( request );
+            const geojson = await response.json();
+
+            for ( const feature of geojson.features) {
+                const center = [ feature.bbox[0] + ( feature.bbox[2] - feature.bbox[0] ) / 2,
+                                 feature.bbox[1] + ( feature.bbox[3] - feature.bbox[1] ) / 2
+                ];
+
+                const point = {
+                    type: 'Feature',
+                    geometry: {
+                        type: 'Point',
+                        coordinates: center
+                    },
+
+                    place_name: feature.properties.display_name,
+                    properties: feature.properties,
+                    text: feature.properties.display_name,
+                    place_type: ['place'],
+                    center
+                };
+
+                features.push( point );
+            }
+        } catch (e) {
+            console.error(`Failed to forwardGeocode with error: ${e}`);
+        }
+
+        return { features };
+    }
+};
   
 var osmAttrib='Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>';
 
@@ -226,9 +222,14 @@ fetch("/metadata")
         // Add default OSM attribution at bottom right
         map.addControl(new maplibregl.AttributionControl({ customAttribution: osmAttrib }), 'bottom-right');
 
-        // Create the search box ready to be added at top right above the other controls
-        // It only gets added when the search button is pressed.
-        searchControl = new MaplibreGeocoder( geocoderApi, { maplibregl: maplibregl, flyTo: { zoom: 15 } });
+        /* ------------------------------------------------------------------------------
+         * Create the search box ready to be added at top right above the other controls
+         * It only gets added when the search button is pressed.
+         * I'd like to create it like
+         * searchControl = new MaplibreGeocoder( geocoderApi, { maplibregl: maplibregl, flyTo: { zoom: 15 } });
+         * but alas that breaks the calculation of zoom when multiple POIs are shown.
+         * ------------------------------------------------------------------------------ */
+        searchControl = new MaplibreGeocoder( geocoderApi, { maplibregl: maplibregl });
 
         // Add zoom control
         zoomControl = new maplibregl.NavigationControl();

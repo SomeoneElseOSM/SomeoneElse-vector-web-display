@@ -216,63 +216,62 @@ function show_mkgmap()
 }
 
 fetch("/metadata")
-	.then(response => response.json())
-	.then(data => {
-		var styleURL = window.location.protocol+'//'+window.location.host+'/style.json';
-		var bounds = data['bounds'].split(',');
-		map = new maplibregl.Map({
-		    container: 'map', // container id
-		    style: styleURL, // stylesheet location
-		    center: [(Number(bounds[0])+Number(bounds[2]))/2,
-			         (Number(bounds[1])+Number(bounds[3]))/2], // starting position [lng, lat]
-		    hash: true,
-		    zoom: 13, // starting zoom
-                    maxZoom: 25,
-		    attributionControl: false
-		});
+    .then( response => response.json())
+    .then( data => {
+        var styleURL = window.location.protocol+'//'+window.location.host+'/style.json';
+        var bounds = data['bounds'].split(',');
+        map = new maplibregl.Map({
+            container: 'map', // container id
+            style: styleURL, // stylesheet location
+            center: [(Number(bounds[0])+Number(bounds[2]))/2, (Number(bounds[1])+Number(bounds[3]))/2], // starting position [lng, lat]
+            hash: true,
+            zoom: 13, // starting zoom
+            maxZoom: 25,
+            attributionControl: false
+	});
 
-                // The language styles are either blank or a two letter language code that can be included in the json path
-                var styleList = document.getElementById('styles');
-                // When then selection dropdown changes, the map style is changed, which causes a reload.
-	        styleList.addEventListener('change', function(e) {
-	            var langId = e.target.value;
-	            map.setStyle( window.location.protocol+'//'+window.location.host+'/vector/style_svwd01' + langId + '.json' );
-                });
+        // The language styles are either blank or a two letter language code that can be included in the json path
+        var styleList = document.getElementById('styles');
 
-	    // Add default OSM attribution at bottom right
-	    map.addControl(new maplibregl.AttributionControl({ customAttribution: osmAttrib }), 'bottom-right');
+        // When then selection dropdown changes, the map style is changed, which causes a reload.
+	styleList.addEventListener('change', function(e) {
+	    var langId = e.target.value;
+	    map.setStyle( window.location.protocol+'//'+window.location.host+'/vector/style_svwd01' + langId + '.json' );
+        });
 
-	    // Create the search box ready to be added at top right above the other controls
-            // It only gets added when the search button is pressed.
-            searchControl = new MaplibreGeocoder(geocoderApi, { maplibregl })
+	// Add default OSM attribution at bottom right
+        map.addControl(new maplibregl.AttributionControl({ customAttribution: osmAttrib }), 'bottom-right');
 
-	    // Add zoom control
-            zoomControl = new maplibregl.NavigationControl();
-	    map.addControl( zoomControl );
+        // Create the search box ready to be added at top right above the other controls
+        // It only gets added when the search button is pressed.
+        searchControl = new MaplibreGeocoder( geocoderApi, { maplibregl: maplibregl, flyTo: { zoom: 15 } });
+
+        // Add zoom control
+        zoomControl = new maplibregl.NavigationControl();
+        map.addControl( zoomControl );
 	    
-	    map.dragRotate.disable();
-	    map.keyboard.disableRotation();
-	    map.touchZoomRotate.disableRotation();
+        map.dragRotate.disable();
+        map.keyboard.disableRotation();
+        map.touchZoomRotate.disableRotation();
 
-	    // Add geolocate control
-            geolocateControl = new maplibregl.GeolocateControl({
-                                   positionOptions: { enableHighAccuracy: true },
-                                   trackUserLocation: true
-                               });
-            map.addControl( geolocateControl );
+        // Add geolocate control
+        geolocateControl = new maplibregl.GeolocateControl({
+            positionOptions: { enableHighAccuracy: true },
+            trackUserLocation: true
+        });
+        map.addControl( geolocateControl );
 
-	    // Add scale control at bottom-left
-	    map.addControl(
-		new maplibregl.ScaleControl({
-		    unit: 'metric'
-		})
-	    );
+        // Add scale control at bottom-left
+	map.addControl( new maplibregl.ScaleControl({ unit: 'metric' }) );
 
-	    // -- Comment the following line out to remove debug UI --
-	    enable_debug ()
-
-	}
-)
+        /* ------------------------------------------------------------------------------
+         * Comment out the line below to remove debug UI.
+         * This is done by the helper scripts such as "update_vector.sh", which explicitly
+         * look for the name with a trailing space.
+         * ------------------------------------------------------------------------------ */
+	enable_debug ()
+        }
+    )
 </script>
 
 </body>

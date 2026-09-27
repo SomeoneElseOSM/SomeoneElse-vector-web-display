@@ -1,6 +1,9 @@
 # Changes made to the [SVWD10 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd10.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
+## 25/09/2026
+Search box now available, using an adjacent hosted IPV6-only nominatim if available, or nominatim.osm.org if not.
+
 ## 29/08/2026
 Reduce the width of railway bridges at zoom 13 and remove at zoom 12.
 Reduced the bridge casing on aqueducts to match primary roads.

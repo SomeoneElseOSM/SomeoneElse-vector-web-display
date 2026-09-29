@@ -43,8 +43,10 @@
 
 /* -------------------------------------------------------------------------
  * Which nominatim server should we use?
- * We'd like to use https://h36.atownsend.org.uk but that is IPV6 only.
- * If that server is accessible, use it.
+ * We'd like to use https://h37.atownsend.org.uk (a test nominatim server) 
+ * or https://h36.atownsend.org.uk (a local private one), 
+ * but they are both IPV6 only.
+ * If one of those servers is accessible, use it.
  * If not, use https://nominatim.openstreetmap.org
  * There is also https://d01.atownsend.org.uk:24445/nominatim/search 
  * for ipv4 only, but that requires that the user browse to 
@@ -53,7 +55,7 @@
  * ------------------------------------------------------------------------- */
 var nominatimurl;
 
-  function set_nominatimurl()
+  function try_h36()
   {
       fetch('https://h36.atownsend.org.uk', {cache: "no-store"})
 	  .then(response => {
@@ -68,6 +70,24 @@ var nominatimurl;
 	  .catch(error => {
 	      console.log('Error:', error);
 	      nominatimurl='https://nominatim.openstreetmap.org/search'
+	  });
+  }
+
+  function set_nominatimurl()
+  {
+      fetch('https://h37.atownsend.org.uk', {cache: "no-store"})
+	  .then(response => {
+	      if (response.ok) {
+		  console.log('h37 host is reachable');
+		  nominatimurl='https://h37.atownsend.org.uk/nominatim/search'
+	      } else {
+		  console.log('h36 host is not reachable, status:', response.status);
+		  try_h36();
+	      }
+	  })
+	  .catch(error => {
+	      console.log('Error:', error);
+              try_h36();
 	  });
   }
 

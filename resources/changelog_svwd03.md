@@ -1,6 +1,9 @@
 # Changes made to the [SVWD03 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd03.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
+## 03/10/2026
+Move the display of housenumber and housename to before any POIs, so that POI icon and name display is not blocked.
+
 ## 10/09/2026
 Reduce the size of the `motorcar=private` and `motorway=limited` overlays for "wide" highways at low zooms, so that it does not overwhelm the view.
 

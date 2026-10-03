@@ -5,6 +5,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 Move the display of housenumber and housename to before any POIs, so that POI icon and name display is not blocked.
 Display glacier names based on size, the same as water.
 Significantly reduce opacity from 0.9 to 0.5 on buildings (all buildings are the same here; there is no "building=roof" like in SVWD01 and SVWD08).  Also reduce opacity of construction areas from 0.7 to 0.5 so that they are less dominant when present.
+Changed the text offset for glaciers from 0.6 to -0.6.  Resolves another instance of https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/issues/24 .
 
 ## 10/09/2026
 Reduce the size of the `motorcar=private` and `motorway=limited` overlays for "wide" highways at low zooms, so that it does not overwhelm the view.

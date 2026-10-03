@@ -3,6 +3,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 
 ## 03/10/2026
 Move the display of housenumber and housename to before any POIs, so that POI icon and name display is not blocked.
+Display glacier names based on size, the same as water.
 
 ## 10/09/2026
 Reduce the size of the `motorcar=private` and `motorway=limited` overlays for "wide" highways at low zooms, so that it does not overwhelm the view.

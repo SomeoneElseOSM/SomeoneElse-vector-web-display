@@ -1058,7 +1058,7 @@
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#9d9d6c",
-		"fill-opacity": 0.7
+		"fill-opacity": 0.5
 	    }
 	},
 	{
@@ -1569,7 +1569,7 @@
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#9d9d6c",
-		"fill-opacity": 0.7
+		"fill-opacity": 0.5
 	    }
 	},
 	{
@@ -3182,7 +3182,7 @@
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#bca9a9",
-		"fill-opacity": 0.7
+		"fill-opacity": 0.5
 	    }
 	},
 	{
@@ -14615,7 +14615,7 @@
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#bca9a9",
-		"fill-opacity": 0.9
+		"fill-opacity": 0.7
 	    }
 	},
 	{
@@ -14628,7 +14628,7 @@
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#bca9a9",
-		"fill-opacity": 0.7
+		"fill-opacity": 0.5
 	    }
 	},
 	{

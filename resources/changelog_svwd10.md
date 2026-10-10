@@ -4,6 +4,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 ## As yet unreleased
 The draw order for disused, abandoned and dismantled railways on embankments (`bridge=levee` in the schema) is now correct, so that the levee casing and prefill is drawn before the disused, abandoned or dismantled railway.
 Set a final zoom for an item selected from the search list of 15.
+Changed the maplibre-gl-geocoder references to use the latest released version not 1.5.0.  Note that later versions are not minimised.
 
 ## 25/09/2026
 Search box now available, using an adjacent hosted IPV6-only nominatim if available, or nominatim.osm.org if not.

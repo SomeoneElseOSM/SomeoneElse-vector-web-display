@@ -5,6 +5,7 @@ Except as noted, all changes also apply to the [SVWD06 Android native display st
 ## As yet unreleased
 The draw order for disused, abandoned and dismantled railways on embankments (`bridge=levee` in the schema) is now correct, so that the levee casing and prefill is drawn before the disused, abandoned or dismantled railway.
 Significantly reduce opacity from 0.9 to 0.7 (normal) or 0.5 (roof) on buildings.  Also reduce opacity of construction areas from 0.7 to 0.5 so that they are less dominant when present.
+Updated the reference to maplibre-gl-geocoder to 1.9.4.
 
 ## 25/09/2026
 Search box now available, using an adjacent hosted IPV6-only nominatim if available, or nominatim.osm.org if not.

@@ -8,10 +8,10 @@
     <link href='https://unpkg.com/maplibre-gl@5.15.0/dist/maplibre-gl.css' rel='stylesheet' />
     <script src='https://unpkg.com/@maplibre/maplibre-gl-inspect@latest/dist/maplibre-gl-inspect.js'></script>
     <link href='https://unpkg.com/@maplibre/maplibre-gl-inspect@latest/dist/maplibre-gl-inspect.css' rel='stylesheet' />
-    <script src="https://unpkg.com/@maplibre/maplibre-gl-geocoder@1.9.4/dist/maplibre-gl-geocoder.min.js"></script>
+    <script src="https://unpkg.com/@maplibre/maplibre-gl-geocoder@1.5.0/dist/maplibre-gl-geocoder.min.js"></script>
     <link
         rel="stylesheet"
-        href="https://unpkg.com/@maplibre/maplibre-gl-geocoder@1.9.4/dist/maplibre-gl-geocoder.css"
+        href="https://unpkg.com/@maplibre/maplibre-gl-geocoder@1.5.0/dist/maplibre-gl-geocoder.css"
     />
     <style>
         body { margin:0; padding:0; }
@@ -225,11 +225,15 @@ fetch("/metadata")
         /* ------------------------------------------------------------------------------
          * Create the search box ready to be added at top right above the other controls
          * It only gets added when the search button is pressed.
-         * I'd like to create it like
+         *
+         * Note that there are two ways that "zoom" can be passed.  One is within the flyto:
          * searchControl = new MaplibreGeocoder( geocoderApi, { maplibregl: maplibregl, flyTo: { zoom: 15 } });
-         * but alas that breaks the calculation of zoom when multiple POIs are shown.
+         * and one is separately
+         * searchControl = new MaplibreGeocoder( geocoderApi, { maplibregl: maplibregl, zoom: 15 });
+         * Doing the former hardcodes the flyto resulting zoom for multiple results (bad, since it is otherwise calculated to show all results)
+         * Doing the latter sets it for one final result.
          * ------------------------------------------------------------------------------ */
-        searchControl = new MaplibreGeocoder( geocoderApi, { maplibregl: maplibregl });
+        searchControl = new MaplibreGeocoder( geocoderApi, { maplibregl: maplibregl, zoom: 15 });
 
         // Add zoom control
         zoomControl = new maplibregl.NavigationControl();

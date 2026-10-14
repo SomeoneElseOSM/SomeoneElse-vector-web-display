@@ -1,6 +1,9 @@
 # Changes made to the [SVWD03 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd03.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
+## 14/10/2026
+The "Shortbread" style on osm.org was updated to this: https://github.com/openstreetmap/vectortile-website/pull/73#issuecomment-6169504837
+
 ## 03/10/2026
 Move the display of housenumber and housename to before any POIs, so that POI icon and name display is not blocked.
 Display glacier names based on size, the same as water.

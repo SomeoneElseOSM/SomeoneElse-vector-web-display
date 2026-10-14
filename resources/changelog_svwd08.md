@@ -1,6 +1,6 @@
 # Changes made to the [SVWD08 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd08.md).  
 
-## As yet unreleased
+## 11/10/2026
 The draw order for disused, abandoned and dismantled railways on embankments (`bridge=levee` in the schema) is now correct, so that the levee casing and prefill is drawn before the disused, abandoned or dismantled railway.
 Significantly reduce opacity from 0.9 to 0.7 (normal) or 0.5 (roof) on buildings.  Also reduce opacity of construction areas from 0.7 to 0.5 so that they are less dominant when present.
 Set a final zoom for an item selected from the search list of 15.

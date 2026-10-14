@@ -1,7 +1,7 @@
 # Changes made to the [SVWD10 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd10.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
-## As yet unreleased
+## 11/10/2026
 The draw order for disused, abandoned and dismantled railways on embankments (`bridge=levee` in the schema) is now correct, so that the levee casing and prefill is drawn before the disused, abandoned or dismantled railway.
 Set a final zoom for an item selected from the search list of 15.
 Changed the maplibre-gl-geocoder references to use the latest released version not 1.5.0.  Note that later versions are not minimised.

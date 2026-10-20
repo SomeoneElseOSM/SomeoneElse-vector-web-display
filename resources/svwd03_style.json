@@ -360,7 +360,7 @@
                                                "wet_meadow" ] ],
 	    "paint": {
 		"fill-antialias": true,
-		"fill-color": "#D8E9C5"
+		"fill-color": "#e8f6d5"
 	    }
 	},
 	{
@@ -828,11 +828,21 @@
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land",
-	    "filter": [ "all", [ "in", "kind", "grass",
-                                               "garden" ] ],
+	    "filter": [ "all", [ "in", "kind", "grass" ] ],
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#D8E9C5"
+	    }
+	},
+	{
+	    "id": "land-garden-fill",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "filter": [ "all", [ "in", "kind", "garden" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#cfeca8"
 	    }
 	},
 	{

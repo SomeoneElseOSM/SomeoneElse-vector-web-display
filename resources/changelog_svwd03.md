@@ -1,6 +1,10 @@
 # Changes made to the [SVWD03 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd03.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
+## 21/10/2026
+SVWD03: Rearrange green colours used to (a) look nicer and (b) provide better contrast.
+Resolves https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/issues/50 .
+
 ## 14/10/2026
 The "Shortbread" style on osm.org was updated to this: https://github.com/openstreetmap/vectortile-website/pull/73#issuecomment-6169504837
 

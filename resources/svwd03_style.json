@@ -298,7 +298,7 @@
 	    "filter": [ "all", [ "in", "kind", "park" ] ],
 	    "paint": {
 		"fill-antialias": true,
-		"fill-color": "#b6fdb6",
+		"fill-color": "#B8DDB2",
 		"fill-opacity": 0.6
 	    }
 	},
@@ -427,7 +427,7 @@
 	    "filter": [ "all", [ "in", "kind", "recreation_ground" ] ],
 	    "paint": {
 		"fill-antialias": true,
-		"fill-color": "#cfeca8"
+		"fill-color": "#CBE1BC"
 	    }
 	},
 	{
@@ -439,7 +439,7 @@
 	    "filter": [ "all", [ "in", "kind", "village_green" ] ],
 	    "paint": {
 		"fill-antialias": true,
-		"fill-color": "#cfeca8"
+		"fill-color": "#CBE1BC"
 	    }
 	},
 	{
@@ -649,7 +649,7 @@
 	    "filter": [ "all", [ "in", "kind", "grassland" ] ],
 	    "paint": {
 		"fill-antialias": true,
-		"fill-color": "#c6e4b4"
+		"fill-color": "#E0EFCD"
 	    }
 	},
 	{
@@ -809,7 +809,7 @@
                                                "miniature_golf" ] ],
 	    "paint": {
 		"fill-antialias": true,
-		"fill-color": "#b5e3b5"
+		"fill-color": "#CDE5B4"
 	    }
 	},
 	{
@@ -820,7 +820,7 @@
 	    "filter": [ "all", [ "in", "kind", "sports_centre" ] ],
 	    "paint": {
 		"fill-antialias": true,
-		"fill-color": "#3c9"
+		"fill-color": "#B7D9C3"
 	    }
 	},
 	{
@@ -828,8 +828,18 @@
 	    "type": "fill",
 	    "source": "someoneelse",
 	    "source-layer": "land",
-	    "filter": [ "all", [ "in", "kind", "grass",
-                                               "garden" ] ],
+	    "filter": [ "all", [ "in", "kind", "grass" ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#D8E9C5"
+	    }
+	},
+	{
+	    "id": "land-garden-fill",
+	    "type": "fill",
+	    "source": "someoneelse",
+	    "source-layer": "land",
+	    "filter": [ "all", [ "in", "kind", "garden" ] ],
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#cfeca8"

@@ -949,7 +949,7 @@
 	    "filter": [ "all", [ "in", "class", "leisure_park" ] ],
 	    "paint": {
 		"fill-antialias": true,
-		"fill-color": "#b6fdb6",
+		"fill-color": "#B8DDB2",
 		"fill-opacity": 0.6
 	    }
 	},
@@ -1270,7 +1270,7 @@
 	    "filter": [ "all", [ "in", "class", "landuse_unnamedgrass" ] ],
 	    "paint": {
 		"fill-antialias": true,
-		"fill-color": "#cfeca8"
+		"fill-color": "#D8E9C5"
 	    }
 	},
 	{
@@ -1694,7 +1694,7 @@
 	    "filter": [ "all", [ "in", "class", "landuse_recreation_ground" ] ],
 	    "paint": {
 		"fill-antialias": true,
-		"fill-color": "#cfeca8"
+		"fill-color": "#CBE1BC"
 	    }
 	},
 	{
@@ -1706,7 +1706,7 @@
 	    "filter": [ "all", [ "in", "class", "landuse_village_green" ] ],
 	    "paint": {
 		"fill-antialias": true,
-		"fill-color": "#cfeca8"
+		"fill-color": "#CBE1BC"
 	    }
 	},
 	{
@@ -2149,7 +2149,7 @@
 	    "filter": [ "all", [ "in", "class", "natural_grassland" ] ],
 	    "paint": {
 		"fill-antialias": true,
-		"fill-color": "#c6e4b4"
+		"fill-color": "#E0EFCD"
 	    }
 	},
 	{
@@ -2358,7 +2358,7 @@
 	    "filter": [ "all", [ "in", "class", "leisure_golf_course" ] ],
 	    "paint": {
 		"fill-antialias": true,
-		"fill-color": "#b5e3b5"
+		"fill-color": "#CDE5B4"
 	    }
 	},
 	{
@@ -2384,7 +2384,7 @@
                                                 "leisure_stadium" ] ],
 	    "paint": {
 		"fill-antialias": true,
-		"fill-color": "#3c9"
+		"fill-color": "#B7D9C3"
 	    }
 	},
 	{
@@ -2396,7 +2396,7 @@
 	    "filter": [ "all", [ "in", "class", "landuse_grass" ] ],
 	    "paint": {
 		"fill-antialias": true,
-		"fill-color": "#cfeca8"
+		"fill-color": "#D8E9C5"
 	    }
 	},
 	{
@@ -2603,7 +2603,7 @@
 	    "filter": [ "all", [ "in", "class", "aeroway_grass_runway" ] ],
 	    "paint": {
 		"fill-antialias": true,
-		"fill-color": "#cfeca8"
+		"fill-color": "#D8E9C5"
 	    }
 	},
 	{

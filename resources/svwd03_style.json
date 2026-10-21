@@ -427,7 +427,7 @@
 	    "filter": [ "all", [ "in", "kind", "recreation_ground" ] ],
 	    "paint": {
 		"fill-antialias": true,
-		"fill-color": "#C2DFAF"
+		"fill-color": "#CBE1BC"
 	    }
 	},
 	{
@@ -439,7 +439,7 @@
 	    "filter": [ "all", [ "in", "kind", "village_green" ] ],
 	    "paint": {
 		"fill-antialias": true,
-		"fill-color": "#C2DFAF"
+		"fill-color": "#CBE1BC"
 	    }
 	},
 	{
@@ -649,7 +649,7 @@
 	    "filter": [ "all", [ "in", "kind", "grassland" ] ],
 	    "paint": {
 		"fill-antialias": true,
-		"fill-color": "#D8E9C5"
+		"fill-color": "#E0EFCD"
 	    }
 	},
 	{

@@ -2,7 +2,7 @@
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 Except as noted, all changes also apply to the [SVWD06 Android native display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd06.md).  
 
-## As yet unreleased
+## 22/10/2026
 Changes green polygon colours for raster, svwd01 and svwd08 to match svwd03 changes in https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/issues/50
 Added a "slightly less blue" colour for tidal water and ocean.
 

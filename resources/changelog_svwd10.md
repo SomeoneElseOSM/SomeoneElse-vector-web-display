@@ -1,7 +1,7 @@
 # Changes made to the [SVWD10 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd10.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
-## As yet unreleased
+## 22/10/2026
 Added a "slightly less blue" colour for tidal water and ocean.
 
 ## 11/10/2026

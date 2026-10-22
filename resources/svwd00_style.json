@@ -43,7 +43,7 @@
              "source-layer": "water",
              "source": "someoneelse",
              "paint": {
-                 "fill-color": "#b5d0d0"
+                 "fill-color": "#bad0d0"
             }
         },
 	{
@@ -2695,6 +2695,19 @@
 	    "paint": {
 		"fill-antialias": true,
 		"fill-color": "#b5d0d0"
+	    }
+	},
+	{
+	    "id": "land1-tidalwater-fill-5-14",
+	    "type": "fill",
+	    "source": "someoneelse",
+            "target": "svwd01,svwd08,svwd10",
+	    "source-layer": "land1",
+	    "filter": [ "all", [ "in", "class", "natural_tidalwater" ],
+                               [ "!=", "tunnel", true ] ],
+	    "paint": {
+		"fill-antialias": true,
+		"fill-color": "#bad0d0"
 	    }
 	},
 	{
@@ -20513,6 +20526,7 @@
 	    "source-layer": "land1",
 	    "minzoom": 15,
 	    "filter": [ "all", [ "in", "class", "natural_water",
+                                                "natural_tidalwater",
                                                 "natural_intermittentwater",
                                                 "natural_bay" ],
 	                       [ "==", "$type", "Point" ] ],
@@ -20544,6 +20558,7 @@
 	    "source-layer": "land1",
 	    "minzoom": 14,
 	    "filter": [ "all", [ "in", "class", "natural_water",
+                                                "natural_tidalwater",
                                                 "natural_intermittentwater",
                                                 "natural_bay" ],
                                [ ">", "way_area", 24000 ],
@@ -20576,6 +20591,7 @@
 	    "source-layer": "land1",
 	    "maxzoom": 14,
 	    "filter": [ "all", [ "in", "class", "natural_water",
+                                                "natural_tidalwater",
                                                 "natural_intermittentwater",
                                                 "natural_bay" ],
 	                       [ "==", "$type", "Point" ] ],

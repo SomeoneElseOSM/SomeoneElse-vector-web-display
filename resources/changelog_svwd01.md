@@ -2,6 +2,10 @@
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 Except as noted, all changes also apply to the [SVWD06 Android native display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd06.md).  
 
+## As yet unreleased
+Changes green polygon colours for raster, svwd01 and svwd08 to match svwd03 changes in https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/issues/50
+Added a "slightly less blue" colour for tidal water and ocean.
+
 ## 11/10/2026
 The draw order for disused, abandoned and dismantled railways on embankments (`bridge=levee` in the schema) is now correct, so that the levee casing and prefill is drawn before the disused, abandoned or dismantled railway.
 Significantly reduce opacity from 0.9 to 0.7 (normal) or 0.5 (roof) on buildings.  Also reduce opacity of construction areas from 0.7 to 0.5 so that they are less dominant when present.

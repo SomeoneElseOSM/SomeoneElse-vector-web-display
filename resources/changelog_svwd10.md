@@ -1,6 +1,9 @@
 # Changes made to the [SVWD10 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd10.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
+## As yet unreleased
+Added a "slightly less blue" colour for tidal water and ocean.
+
 ## 11/10/2026
 The draw order for disused, abandoned and dismantled railways on embankments (`bridge=levee` in the schema) is now correct, so that the levee casing and prefill is drawn before the disused, abandoned or dismantled railway.
 Set a final zoom for an item selected from the search list of 15.

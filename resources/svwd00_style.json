@@ -21074,10 +21074,10 @@
 	    }
 	},
 	{
-	    "id": "land1-railway-lightblue-imagenameoverlap-12",
+	    "id": "land1-railway-lightblue-imagenameoverlap-12-0108",
 	    "type": "symbol",
 	    "source": "someoneelse",
-            "target": "svwd01,svwd08,svwd10",
+            "target": "svwd01,svwd08",
 	    "source-layer": "land1",
 	    "minzoom": 12,
 	    "filter": [ "all", [ "in", "class", "railway_halt",
@@ -21102,6 +21102,72 @@
 	    },
 	    "paint": {
 		"text-color": "#0066ff",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-halt-lightblue-imagenameoverlap-12-10",
+	    "type": "symbol",
+	    "source": "someoneelse",
+            "target": "svwd10",
+	    "source-layer": "land1",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "railway_halt" ] ],
+	    "layout": {
+		"icon-image": "railway_station",
+                "icon-allow-overlap": true,
+		"icon-size": { "stops": [ [ 12, 0.15 ], 
+                                          [ 14, 0.25 ], 
+                                          [ 20, 1.0 ] ] },
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+                "text-optional": true,
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#0066ff",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "land1-tram-darkred-imagenameoverlap-12-10",
+	    "type": "symbol",
+	    "source": "someoneelse",
+            "target": "svwd10",
+	    "source-layer": "land1",
+	    "minzoom": 12,
+	    "filter": [ "all", [ "in", "class", "railway_tram_stop" ] ],
+	    "layout": {
+		"icon-image": "railway_station",
+                "icon-allow-overlap": true,
+		"icon-size": { "stops": [ [ 12, 0.15 ], 
+                                          [ 14, 0.25 ], 
+                                          [ 20, 1.0 ] ] },
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 13,
+		"text-offset": [ 0, 0.6 ],
+                "text-optional": true,
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#bf0000",
 		"text-halo-blur": 0.5,
 		"text-halo-color": "#ffffff",
 		"text-halo-width": 1
@@ -25621,7 +25687,7 @@
 	    }
 	},
 	{
-	    "id": "land1-railway-lightblue-imagenameoverlap-9-s10",
+	    "id": "land1-railway-orange-imagenameoverlap-9-s10",
 	    "type": "symbol",
 	    "source": "someoneelse",
             "target": "svwd10",
@@ -25647,7 +25713,7 @@
 		"visibility": "visible"
 	    },
 	    "paint": {
-		"text-color": "#0066ff",
+		"text-color": "#ff6600",
 		"text-halo-blur": 0.5,
 		"text-halo-color": "#ffffff",
 		"text-halo-width": 1

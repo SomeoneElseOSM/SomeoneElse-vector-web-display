@@ -1,5 +1,8 @@
 # Changes made to the [SVWD08 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd08.md).  
 
+## As yet unreleased
+Road shields are now scaled to the length of the ref to be displayed; there are no longer "short" and "long" shields.  There is no longer an artificial cutoff of length; all are now shown (including obvious mistagging).  
+
 ## 22/10/2026
 Changes green polygon colours for raster, svwd01 and svwd08 to match svwd03 changes in https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/issues/50
 Added a "slightly less blue" colour for tidal water and ocean.

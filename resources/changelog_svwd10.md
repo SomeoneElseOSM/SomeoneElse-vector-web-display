@@ -1,7 +1,7 @@
 # Changes made to the [SVWD10 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd10.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
-## As yet unreleased
+## 29/10/2026
 Show tube stations in orange and tram stops in dark red, to contrast with railway stations and halts.
 
 ## 22/10/2026

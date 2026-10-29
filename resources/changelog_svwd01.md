@@ -2,7 +2,7 @@
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 Except as noted, all changes also apply to the [SVWD06 Android native display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd06.md).  
 
-## As yet unreleased
+## 29/10/2026
 Road shields are now scaled to the length of the ref to be displayed; there are no longer "short" and "long" shields.  There is no longer an artificial cutoff of length; all are now shown (including obvious mistagging).  
 
 ## 22/10/2026

@@ -3551,12 +3551,12 @@
 	    }
 	},
 	{
-	    "id": "highway-path-tunnelcasing-12",
+	    "id": "highway-path-tunnelcasing-13",
 	    "type": "line",
 	    "source": "someoneelse",
             "target": "svwd01,svwd08",
 	    "source-layer": "transportation",
-	    "minzoom": 12,
+	    "minzoom": 13,
 	    "filter": [ "all", [ "in", "class", "goodpathnarrow",
                                                 "pathnarrow",
                                                 "goodpathwide",
@@ -3579,12 +3579,12 @@
 	    }
 	},
 	{
-	    "id": "highway-path-tunnelprefill-12",
+	    "id": "highway-path-tunnelprefill-13",
 	    "type": "line",
 	    "source": "someoneelse",
             "target": "svwd01,svwd08",
 	    "source-layer": "transportation",
-	    "minzoom": 12,
+	    "minzoom": 13,
 	    "filter": [ "all", [ "in", "class", "goodpathnarrow",
                                                 "pathnarrow",
                                                 "goodpathwide",
@@ -3605,12 +3605,12 @@
 	    }
 	},
 	{
-	    "id": "highway-goodpathnarrow-tunnelfill-12",
+	    "id": "highway-goodpathnarrow-tunnelfill-13",
 	    "type": "line",
 	    "source": "someoneelse",
             "target": "svwd01,svwd08",
 	    "source-layer": "transportation",
-	    "minzoom": 12,
+	    "minzoom": 13,
 	    "filter": [ "all", [ "in", "class", "goodpathnarrow" ],
                                [ "==", "tunnel", true ] ],
 	    "paint": {
@@ -3627,12 +3627,12 @@
 	    }
 	},
 	{
-	    "id": "highway-pathnarrow-tunnelfill-12",
+	    "id": "highway-pathnarrow-tunnelfill-13",
 	    "type": "line",
 	    "source": "someoneelse",
             "target": "svwd01,svwd08",
 	    "source-layer": "transportation",
-	    "minzoom": 12,
+	    "minzoom": 13,
 	    "filter": [ "all", [ "in", "class", "pathnarrow", 
                                                 "leisuretrack" ],
                                [ "==", "tunnel", true ] ],
@@ -3650,12 +3650,12 @@
 	    }
 	},
 	{
-	    "id": "highway-goodpathwide-tunnelfill-12",
+	    "id": "highway-goodpathwide-tunnelfill-13",
 	    "type": "line",
 	    "source": "someoneelse",
             "target": "svwd01,svwd08",
 	    "source-layer": "transportation",
-	    "minzoom": 12,
+	    "minzoom": 13,
 	    "filter": [ "all", [ "in", "class", "goodpathwide" ],
                                [ "==", "tunnel", true ] ],
 	    "paint": {
@@ -3672,12 +3672,12 @@
 	    }
 	},
 	{
-	    "id": "highway-pathwide-tunnelfill-12",
+	    "id": "highway-pathwide-tunnelfill-13",
 	    "type": "line",
 	    "source": "someoneelse",
             "target": "svwd01,svwd08",
 	    "source-layer": "transportation",
-	    "minzoom": 12,
+	    "minzoom": 13,
 	    "filter": [ "all", [ "in", "class", "pathwide" ],
                                [ "==", "tunnel", true ] ],
 	    "paint": {
@@ -3694,12 +3694,12 @@
 	    }
 	},
 	{
-	    "id": "highway-intpathnarrow-tunnelfill-12",
+	    "id": "highway-intpathnarrow-tunnelfill-13",
 	    "type": "line",
 	    "source": "someoneelse",
             "target": "svwd01,svwd08",
 	    "source-layer": "transportation",
-	    "minzoom": 12,
+	    "minzoom": 13,
 	    "filter": [ "all", [ "in", "class", "intpathnarrow" ],
                                [ "==", "tunnel", true ] ],
 	    "paint": {
@@ -3716,12 +3716,12 @@
 	    }
 	},
 	{
-	    "id": "highway-intpathwide-tunnelfill-12",
+	    "id": "highway-intpathwide-tunnelfill-13",
 	    "type": "line",
 	    "source": "someoneelse",
             "target": "svwd01,svwd08",
 	    "source-layer": "transportation",
-	    "minzoom": 12,
+	    "minzoom": 13,
 	    "filter": [ "all", [ "in", "class", "intpathwide" ],
                                [ "==", "tunnel", true ] ],
 	    "paint": {

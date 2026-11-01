@@ -2,6 +2,8 @@
 
 ## As yet unreleased
 Don't show `pathnarrow` or `pathwide` tunnels until vector zoom 13.
+Reduce bridge casing and prefill for service roads and driveways.
+See https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/issues/54
  
 ## 29/10/2026
 Road shields are now scaled to the length of the ref to be displayed; there are no longer "short" and "long" shields.  There is no longer an artificial cutoff of length; all are now shown (including obvious mistagging).  

@@ -3608,7 +3608,7 @@
 		    "stops": [
 			[  6,   2.4 ],
 			[  9,   4.8 ],
-			[ 20, 120.0 ]
+			[ 20, 60.0 ]
 		    ]
 		}
 	    }
@@ -3895,13 +3895,13 @@
                                [ "==", "bridge", true ] ],
 	    "layout": { "line-cap": "butt", "line-join": "round", "visibility": "visible" },
 	    "paint": {
-		"line-color": "#f2efe9",
+		"line-color": "#f2efe9", 
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
 			[  6,   2.0 ],
 			[  9,   4.0 ],
-			[ 20, 100.0 ]
+			[ 20, 50.0 ]
 		    ]
 		}
 	    }

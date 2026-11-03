@@ -8689,7 +8689,12 @@
 		    "KlokanTech Noto Sans Regular"
 		],
 		"text-max-width": 13,
-		"text-offset": [ 0, 3.2 ],
+		"text-offset": [
+      "case",
+      [ "has", "ref" ],
+      [ "literal", [ 0, 2.4 ] ],
+      [ "literal", [ 0, 0 ] ]
+    ],
 		"text-padding": 2,
 		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
 		"visibility": "visible"

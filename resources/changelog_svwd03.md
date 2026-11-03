@@ -1,12 +1,12 @@
 # Changes made to the [SVWD03 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd03.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
-## As yet unreleased
+## 03/11/2026
 Reduce bridge casing and prefill for service roads and driveways.
 See https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/issues/53
 
 ## 21/10/2026
-SVWD03: Rearrange green colours used to (a) look nicer and (b) provide better contrast.
+Rearrange green colours used to (a) look nicer and (b) provide better contrast.
 Resolves https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/issues/50 .
 
 ## 14/10/2026

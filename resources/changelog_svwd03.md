@@ -3,6 +3,7 @@ See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-we
 
 ## 05/11/2026
 The gap between motorway junction names and the junction itself has been reduced.  See https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/issues/34 and https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/pull/57 .
+Move the offset of waterway labels to the centre.  See https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/issues/18 and https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/pull/58 .
 
 ## 03/11/2026
 Reduce bridge casing and prefill for service roads and driveways.

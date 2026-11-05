@@ -4995,7 +4995,7 @@
 		"text-field": "{name}",
 		"text-font": [ "KlokanTech Noto Sans Regular" ],
 		"symbol-placement": "line",
-		"text-anchor": "bottom",
+		"text-anchor": "center",
 		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] }
 	    },
 	    "source": "someoneelse",
@@ -5018,7 +5018,7 @@
 		"text-field": "{name}",
 		"text-font": [ "KlokanTech Noto Sans Regular" ],
 		"symbol-placement": "line",
-		"text-anchor": "bottom",
+		"text-anchor": "center",
 		"text-size": { "stops": [ [ 14, 10 ], [ 20, 30 ] ] }
 	    },
 	    "source": "someoneelse",

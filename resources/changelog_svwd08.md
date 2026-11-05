@@ -1,6 +1,6 @@
 # Changes made to the [SVWD08 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd08.md).  
 
-## As yet unreleased
+## 05/11/2026
 Don't show `pathnarrow` or `pathwide` tunnels until vector zoom 13.
 Reduce bridge casing and prefill for service roads and driveways.
 See https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/issues/54

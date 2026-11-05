@@ -2,7 +2,7 @@
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 Except as noted, all changes also apply to the [SVWD06 Android native display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd06.md).  
 
-## As yet unreleased
+## 05/11/2026
 Don't show `pathnarrow` or `pathwide` tunnels until vector zoom 13.
 Reduce bridge casing and prefill for service roads and driveways.
 See https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/issues/54

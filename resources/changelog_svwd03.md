@@ -1,6 +1,9 @@
 # Changes made to the [SVWD03 web display style](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/resources/README_svwd03.md).  
 See also the [changelog](https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/blob/main/changelog.md) for the scripts here.
 
+## As yet unreleased
+Changed colour of primary roads slightly to differentiate from trunk.
+
 ## 05/11/2026
 The gap between motorway junction names and the junction itself has been reduced.  See https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/issues/34 and https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/pull/57 .
 Move the offset of waterway labels to the centre.  See https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/issues/18 and https://github.com/SomeoneElseOSM/SomeoneElse-vector-web-display/pull/58 .

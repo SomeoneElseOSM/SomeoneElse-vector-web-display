@@ -1751,7 +1751,7 @@
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
 	    "paint": {
-		"line-color": "#eac5c5",
+		"line-color": "#F3D7B0",
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
@@ -3281,7 +3281,7 @@
 	    ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
 	    "paint": {
-		"line-color": "#dd9f9f",
+		"line-color": "#E6B18A",
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [
@@ -5087,7 +5087,7 @@
                                [ "==", "bridge", true ] ],
 	    "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
 	    "paint": {
-		"line-color": "#dd9f9f",
+		"line-color": "#E6B18A",
 		"line-width": {
 		    "base": 2.0,
 		    "stops": [

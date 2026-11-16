@@ -1,0 +1,311 @@
+{
+    "version": 8,
+    "name": "SPEC_NAME",
+    "metadata": {},
+    "center": [
+	-1,
+	54
+    ],
+    "zoom": 15,
+    "bearing": 0,
+    "pitch": 0,
+    "sources": {
+	"someoneelse": {
+	    "type": "vector",
+	    "url": "SPEC_URL"
+	}
+    },
+    "sprite": "SPRITE_URL",
+    "glyphs": "FONT_URL{fontstack}/{range}.pbf",
+    "layers": [
+	{
+	    "id": "background",
+	    "type": "background",
+	    "paint": {
+		"background-color": "#f2efe9"
+	    }
+	},
+        {
+             "id": "water-ocean",
+             "type": "fill",
+             "source-layer": "ocean",
+             "source": "someoneelse",
+             "paint": {
+                 "fill-color": "#b5d0d0"
+            }
+        },
+	{
+	    "id": "boundaries-0-disputednonmaritime",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "boundaries",
+	    "minzoom": 0,
+	    "filter": [ "all", [ "==", "disputed", true ],
+                               [ "!=", "maritime", true ] ],
+	    "paint": {
+		"line-color": "red",
+		"line-width": {
+		    "stops": [
+			[  2,  0.01 ],
+			[ 15,  0.6  ],
+			[ 20,  2.4  ]
+		    ]
+                }
+	    }
+	},
+	{
+	    "id": "boundaries-0-disputedmaritime",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "boundaries",
+	    "minzoom": 0,
+	    "filter": [ "all", [ "==", "disputed", true ],
+                               [ "==", "maritime", true ] ],
+	    "paint": {
+		"line-color": "purple",
+		"line-width": {
+		    "stops": [
+			[  2,  0.01 ],
+			[ 15,  0.6  ],
+			[ 20,  2.4  ]
+		    ]
+                }
+	    }
+	},
+	{
+	    "id": "boundaries-0-nondisputedmaritime",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "boundaries",
+	    "minzoom": 0,
+	    "filter": [ "all", [ "!=", "disputed", true ],
+                               [ "==", "maritime", true ] ],
+	    "paint": {
+		"line-color": "blue",
+		"line-width": {
+		    "stops": [
+			[  2,  0.01 ],
+			[ 15,  0.6  ],
+			[ 20,  2.4  ]
+		    ]
+                }
+	    }
+	},
+	{
+	    "id": "boundaries-0-nondisputed",
+	    "type": "line",
+	    "source": "someoneelse",
+	    "source-layer": "boundaries",
+	    "minzoom": 0,
+	    "filter": [ "all", [ "!=", "disputed", true ],
+                               [ "!=", "maritime", true ] ],
+	    "paint": {
+		"line-color": "green",
+		"line-width": {
+		    "stops": [
+			[  2,  0.01 ],
+			[ 15,  0.6  ],
+			[ 20,  2.4  ]
+		    ]
+                }
+	    }
+	},
+	{
+	    "id": "boundary_labels-named-0",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "boundary_labels",
+	    "minzoom": 0,
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, -0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 12, 10 ], [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "purple",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "place_labels-island-18",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "place_labels",
+	    "minzoom": 18,
+	    "filter": [ "in", "kind", "island" ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Italic"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, -0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 13, 10 ], 
+                                          [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#222",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "place_labels-hamlet-13",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "place_labels",
+	    "minzoom": 13,
+	    "filter": [ "in", "kind", "quarter",
+                                      "hamlet",
+                                      "farm",
+                                      "neighbourhood",
+                                      "isolated_dwelling",
+                                      "locality" ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, -0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 13, 10 ], 
+                                          [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#222",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "place_labels-village-11",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "place_labels",
+	    "minzoom": 11,
+	    "filter": [ "in", "kind", "village",
+                                      "suburb" ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, -0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [ 11, 10 ], 
+                                          [ 12, 10 ], 
+                                          [ 20, 30 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#222",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "place_labels-town-8",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "place_labels",
+	    "minzoom": 8,
+	    "filter": [ "in", "kind", "town" ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, -0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [  8, 10 ], 
+                                          [ 12, 15 ], 
+                                          [ 20, 45 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#222",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "place_labels-city",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "place_labels",
+	    "filter": [ "in", "kind", "city" ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, -0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [  5, 10 ], 
+                                          [ 12, 20 ], 
+                                          [ 20, 60 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#222",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	},
+	{
+	    "id": "place_labels-capital",
+	    "type": "symbol",
+	    "source": "someoneelse",
+	    "source-layer": "place_labels",
+	    "filter": [ "in", "kind", "capital",
+                                      "state_capital" ],
+	    "layout": {
+		"text-anchor": "top",
+		"text-field": "{name}\n",
+		"text-font": [
+		    "KlokanTech Noto Sans Regular"
+		],
+		"text-max-width": 9,
+		"text-offset": [ 0, -0.6 ],
+		"text-padding": 2,
+		"text-size": { "stops": [ [  3, 10 ], 
+                                          [ 12, 25 ], 
+                                          [ 20, 75 ] ] },
+		"visibility": "visible"
+	    },
+	    "paint": {
+		"text-color": "#222",
+		"text-halo-blur": 0.5,
+		"text-halo-color": "#ffffff",
+		"text-halo-width": 1
+	    }
+	}
+    ],
+    "id": "SPEC_NAME"
+}
